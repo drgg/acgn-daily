@@ -118,4 +118,4 @@ site:
   concurrency: 4          # 抓取并发度；本地网络不稳时可降为 1-2
   archive_days: 90        # 归档保留天数
   # 部署后的站点地址，用于 feed.xml 中的自引用链接（可留空）
-  base_url: ""
+  base_url: "https://drgg.github.io/acgn-daily"

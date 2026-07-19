@@ -34,7 +34,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CONFIG = yaml.safe_load((ROOT / "feeds.yml").read_text(encoding="utf-8"))
 TZ = timezone(timedelta(hours=8))  # Asia/Shanghai
 TODAY = datetime.now(TZ).strftime("%Y-%m-%d")
-UA = {"User-Agent": "ACGN-Daily-Aggregator/1.0 (+https://github.com/yourname/acgn-daily)"}
+UA = {"User-Agent": "ACGN-Daily-Aggregator/1.0 (+https://github.com/drgg/acgn-daily)"}
 TIMEOUT = 20
 
 # 带重试的会话：429/5xx 自动退避重试，显著降低 Jikan 等公共 API 的瞬时失败率
