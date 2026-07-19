@@ -1,0 +1,60 @@
+name: 每日聚合 ACGN 资讯
+
+on:
+  schedule:
+    # UTC 22:00 与 10:00 = 北京时间 6:00 / 18:00，早晚各跑一次
+    - cron: "0 22 * * *"
+    - cron: "0 10 * * *"
+  workflow_dispatch:   # 允许手动触发，方便调试
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# 同一时间只跑一个实例，避免两次触发互相踩提交
+concurrency:
+  group: daily-aggregate
+  cancel-in-progress: false
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 运行聚合脚本
+        run: python scripts/aggregate.py
+
+      - name: 提交数据变更
+        run: |
+          git config user.name "acgn-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/ feed.xml
+          git diff --cached --quiet || git commit -m "chore: 更新 $(date +'%Y-%m-%d %H:%M') 资讯数据"
+          # 若期间有人推送过，先变基再推，避免非快进失败
+          git pull --rebase origin "${GITHUB_REF_NAME}" || true
+          git push
+
+      # 站点为纯静态，直接把仓库根目录发布到 GitHub Pages
+      - name: 上传 Pages 产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: aggregate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

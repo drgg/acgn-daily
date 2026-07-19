@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ACGN 日報 · 每日二次元见闻</title>
+<meta name="description" content="每日自动聚合动画·漫画·游戏·轻小说四大领域资讯">
+<link rel="alternate" type="application/rss+xml" title="ACGN 日報" href="feed.xml">
+<style>
+  :root{
+    --paper:#F2F3EE;      /* 冷调新闻纸 */
+    --ink:#171A21;        /* 墨 */
+    --ink-soft:#5A5F6B;
+    --rule:#C9CCC2;       /* 细分栏线 */
+    --a:#DD4530;          /* 動 朱 */
+    --c:#1F5AC8;          /* 漫 琉璃蓝 */
+    --g:#0E8A66;          /* 遊 松绿 */
+    --n:#7A4BC8;          /* 小 堇紫 */
+    --gen:#8A6D3B;        /* 综合 茶 */
+    --mono:"SFMono-Regular","JetBrains Mono","Cascadia Mono",Consolas,monospace;
+    --sans:"PingFang SC","Hiragino Sans GB","Source Han Sans SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;
+    --serif:"Hiragino Mincho ProN","Source Han Serif SC","Noto Serif CJK SC","SimSun",serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{background:var(--paper)}
+  body{
+    font-family:var(--sans);color:var(--ink);
+    max-width:1080px;margin:0 auto;padding:0 20px 80px;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none}
+  a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+
+  /* ---------- 报头 ---------- */
+  header{
+    display:flex;align-items:flex-end;justify-content:space-between;gap:16px;
+    padding:34px 0 14px;border-bottom:3px solid var(--ink);
+  }
+  .masthead .kicker{
+    font-family:var(--mono);font-size:11px;letter-spacing:.22em;
+    color:var(--ink-soft);text-transform:uppercase;margin-bottom:6px;
+  }
+  .masthead h1{
+    font-family:var(--serif);font-weight:900;font-size:clamp(34px,6vw,54px);
+    letter-spacing:.06em;line-height:1;
+  }
+  .masthead h1 .four{display:inline-flex;gap:.08em;margin-right:.18em}
+  .masthead h1 .four b{font-family:var(--mono);font-size:.62em;align-self:flex-start;line-height:1.7}
+  .masthead h1 .four b:nth-child(1){color:var(--a)}
+  .masthead h1 .four b:nth-child(2){color:var(--c)}
+  .masthead h1 .four b:nth-child(3){color:var(--g)}
+  .masthead h1 .four b:nth-child(4){color:var(--n)}
+  .dateline{text-align:right;font-family:var(--mono);font-size:12px;color:var(--ink-soft);line-height:1.9}
+  .dateline strong{display:block;font-size:20px;color:var(--ink);letter-spacing:.05em}
+
+  /* ---------- 统计条 ---------- */
+  .statbar{
+    display:flex;flex-wrap:wrap;gap:0;border-bottom:1px solid var(--rule);
+    font-family:var(--mono);font-size:12px;
+  }
+  .statbar span{padding:8px 14px 8px 0;margin-right:14px;color:var(--ink-soft)}
+  .statbar i{font-style:normal;font-weight:700;color:var(--ink)}
+  .demo-flag{background:var(--ink);color:var(--paper);padding:8px 10px !important;margin-right:14px}
+
+  /* ---------- 主体：书脊 + 内容 ---------- */
+  .layout{display:grid;grid-template-columns:64px 1fr;gap:28px;margin-top:22px}
+
+  nav.spine{position:sticky;top:16px;align-self:start;display:flex;flex-direction:column;gap:8px}
+  nav.spine button{
+    writing-mode:vertical-rl;text-orientation:mixed;
+    font-family:var(--serif);font-weight:700;font-size:15px;letter-spacing:.3em;
+    padding:16px 0;width:44px;min-height:112px;
+    background:transparent;border:1px solid var(--rule);border-left:5px solid var(--tab,var(--ink));
+    color:var(--ink);cursor:pointer;transition:background .15s,color .15s;
+  }
+  nav.spine button:hover{background:#E7E8E1}
+  nav.spine button[aria-pressed="true"]{background:var(--tab,var(--ink));color:var(--paper);border-color:var(--tab,var(--ink))}
+  nav.spine button.t-all{--tab:var(--ink)}
+  nav.spine button.t-anime{--tab:var(--a)}
+  nav.spine button.t-comic{--tab:var(--c)}
+  nav.spine button.t-game{--tab:var(--g)}
+  nav.spine button.t-novel{--tab:var(--n)}
+  nav.spine button.t-general{--tab:var(--gen)}
+
+  /* ---------- 工具行 ---------- */
+  .tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+  .tools input[type=search]{
+    flex:1;min-width:200px;padding:9px 12px;font-size:14px;font-family:var(--sans);
+    background:#FFFFFF;border:1px solid var(--rule);border-radius:0;color:var(--ink);
+  }
+  .tools select{
+    padding:9px 10px;font-family:var(--mono);font-size:12px;
+    background:#FFF;border:1px solid var(--rule);color:var(--ink);
+  }
+
+  /* ---------- 条目 ---------- */
+  ol.news{list-style:none}
+  ol.news li{
+    display:grid;grid-template-columns:34px 1fr auto;gap:12px;align-items:baseline;
+    padding:13px 2px;border-bottom:1px solid var(--rule);
+  }
+  .badge{
+    font-family:var(--serif);font-weight:800;font-size:15px;line-height:26px;
+    width:26px;height:26px;text-align:center;color:#fff;align-self:start;
+  }
+  .b-anime{background:var(--a)} .b-comic{background:var(--c)}
+  .b-game{background:var(--g)}  .b-novel{background:var(--n)} .b-general{background:var(--gen)}
+  .item-main a.title{font-size:15.5px;font-weight:600;line-height:1.55}
+  .item-main a.title:hover{text-decoration:underline;text-underline-offset:3px}
+  .item-main .summary{margin-top:3px;font-size:12.5px;color:var(--ink-soft);line-height:1.6}
+  .meta{font-family:var(--mono);font-size:11px;color:var(--ink-soft);text-align:right;white-space:nowrap}
+  .meta .src{display:block;color:var(--ink)}
+  .lang-tag{border:1px solid var(--rule);padding:0 4px;margin-left:6px}
+
+  .empty{padding:60px 0;text-align:center;color:var(--ink-soft);font-size:14px}
+  .empty b{display:block;font-family:var(--serif);font-size:22px;color:var(--ink);margin-bottom:8px}
+
+  footer{
+    margin-top:44px;padding-top:14px;border-top:3px solid var(--ink);
+    font-family:var(--mono);font-size:11px;color:var(--ink-soft);line-height:2;
+  }
+
+  @media (max-width:720px){
+    .layout{grid-template-columns:1fr;gap:14px}
+    nav.spine{position:static;flex-direction:row;overflow-x:auto}
+    nav.spine button{writing-mode:horizontal-tb;min-height:0;width:auto;padding:8px 14px;
+      border-left:1px solid var(--rule);border-top:4px solid var(--tab,var(--ink));letter-spacing:.15em}
+    ol.news li{grid-template-columns:28px 1fr}
+    .meta{grid-column:2;text-align:left;margin-top:2px}
+    .meta .src{display:inline;margin-right:8px}
+  }
+  @media (prefers-reduced-motion: reduce){*{transition:none !important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="masthead">
+    <div class="kicker">DAILY DIGEST · ANIME / COMIC / GAME / NOVEL</div>
+    <h1><span class="four"><b>A</b><b>C</b><b>G</b><b>N</b></span>日報</h1>
+  </div>
+  <div class="dateline">
+    <strong id="d-date">----.--.--</strong>
+    <span id="d-gen">数据加载中…</span>
+  </div>
+</header>
+
+<div class="statbar" id="statbar"></div>
+
+<div class="layout">
+  <nav class="spine" aria-label="领域筛选">
+    <button class="t-all"     data-cat="all"     aria-pressed="true">全部</button>
+    <button class="t-anime"   data-cat="anime"   aria-pressed="false">動畫</button>
+    <button class="t-comic"   data-cat="comic"   aria-pressed="false">漫畫</button>
+    <button class="t-game"    data-cat="game"    aria-pressed="false">遊戲</button>
+    <button class="t-novel"   data-cat="novel"   aria-pressed="false">小說</button>
+    <button class="t-general" data-cat="general" aria-pressed="false">綜合</button>
+  </nav>
+
+  <main>
+    <div class="tools">
+      <input type="search" id="q" placeholder="搜索标题 / 来源…" aria-label="搜索资讯">
+      <select id="archive" aria-label="查看往期"><option value="">今日</option></select>
+    </div>
+    <ol class="news" id="list"></ol>
+    <div class="empty" id="empty" hidden><b>今日无此栏目消息</b>换个领域或清空搜索试试</div>
+  </main>
+</div>
+
+<footer>
+  本站由 GitHub Actions 每日自动聚合公开 RSS / API 生成，仅收录标题与链接并注明出处，点击跳转原文。<a href="feed.xml" style="text-decoration:underline">RSS 订阅</a><br>
+  数据源：Anime News Network · コミックナタリー · 4Gamer · AUTOMATON · 机核 · 触乐 · ラノベニュース · AniList · Bangumi · MangaDex · GIGAZINE 等
+</footer>
+
+<script>
+const CAT_CH = {anime:"動",comic:"漫",game:"遊",novel:"小",general:"綜"};
+const LANG_CH = {zh:"中",ja:"日",en:"英"};
+let DATA = null, cat = "all", q = "";
+
+/* 演示用示例数据：线上部署后由 data/latest.json 覆盖 */
+const SAMPLE = {
+  date:"2026-07-20", generated_at:"2026-07-20T06:00:00+08:00", demo:true,
+  categories:{anime:4,comic:3,game:4,novel:2,general:2},
+  items:[
+   {id:"a1",category:"anime",lang:"ja",source:"AniList 放送表",published:"2026-07-20T22:30:00+08:00",url:"#",title:"【今日放送 22:30】〈示例〉夏季新番第3集更新",summary:"聚合脚本会自动列出当天所有放送集数与时间。"},
+   {id:"a2",category:"anime",lang:"zh",source:"Bangumi 每日放送",published:"2026-07-20T20:00:00+08:00",url:"#",title:"【今日更新】〈示例〉某人气续作动画（中文条目名由 Bangumi API 提供）",summary:""},
+   {id:"a3",category:"anime",lang:"en",source:"Anime News Network",published:"2026-07-20T09:12:00+08:00",url:"#",title:"〈示例〉Studio 宣布原创剧场版企划，2027 年上映",summary:"英文源条目可在流水线中接入翻译步骤生成双语标题。"},
+   {id:"a4",category:"anime",lang:"ja",source:"アニメイトタイムズ",published:"2026-07-20T08:40:00+08:00",url:"#",title:"〈示例〉声优阵容公开：主役 CV 追加发表",summary:""},
+   {id:"c1",category:"comic",lang:"ja",source:"natalie",published:"2026-07-20T10:05:00+08:00",url:"#",title:"〈示例〉周刊连载迎来最终回，单行本最终卷 9 月发售",summary:""},
+   {id:"c2",category:"comic",lang:"zh",source:"MangaDex",published:"2026-07-20T07:30:00+08:00",url:"#",title:"【漫画更新】〈示例〉第 128 话（中文翻译组更新）",summary:""},
+   {id:"c3",category:"comic",lang:"ja",source:"少年ジャンプ＋",published:"2026-07-20T00:00:00+08:00",url:"#",title:"〈示例〉JUMP+ 新连载开始：科幻题材短期集中连载",summary:""},
+   {id:"g1",category:"game",lang:"zh",source:"机核 GCORES",published:"2026-07-20T11:20:00+08:00",url:"#",title:"〈示例〉独立游戏评测：像素风银河城的又一次自我证明",summary:"机核与触乐提供中文深度内容，与日文快讯源互补。"},
+   {id:"g2",category:"game",lang:"ja",source:"4Gamer",published:"2026-07-20T09:55:00+08:00",url:"#",title:"〈示例〉人气 RPG 大型更新上线，追加新章节与角色",summary:""},
+   {id:"g3",category:"game",lang:"ja",source:"Famitsu",published:"2026-07-20T09:00:00+08:00",url:"#",title:"〈示例〉Fami通销量周榜：Switch 新作首周 12 万份",summary:""},
+   {id:"g4",category:"game",lang:"zh",source:"触乐",published:"2026-07-20T08:00:00+08:00",url:"#",title:"〈示例〉专访：一家小工作室如何做出爆款 Galgame",summary:""},
+   {id:"n1",category:"novel",lang:"ja",source:"ラノベニュースオンライン",published:"2026-07-20T12:00:00+08:00",url:"#",title:"〈示例〉轻小说新刊速报：本周文库新书 23 种一览",summary:""},
+   {id:"n2",category:"novel",lang:"ja",source:"成为小说家吧",published:"2026-07-20T06:00:00+08:00",url:"#",title:"〈示例〉「小说家になろう」日榜第一：转生题材新星作品",summary:""},
+   {id:"x1",category:"general",lang:"zh",source:"萌娘百科",published:"2026-07-20T09:30:00+08:00",url:"#",title:"〈示例〉本周漫展档期汇总：三城四展时间表",summary:""},
+   {id:"x2",category:"general",lang:"zh",source:"Bilibili",published:"2026-07-20T08:15:00+08:00",url:"#",title:"〈示例〉B 站番剧周榜更新：连续四周霸榜作品易主",summary:""}
+  ]
+};
+
+function fmtTime(iso){ try{ return iso.slice(11,16) }catch(e){ return "" } }
+/* 外部源标题/摘要一律转义后再进 innerHTML，防止恶意源注入脚本 */
+function esc(s){ return String(s??"").replace(/[&<>"']/g,
+  m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m])) }
+function safeUrl(u){ return /^https?:\/\//i.test(u||"") ? esc(u) : "#" }
+
+function render(){
+  const list = document.getElementById("list");
+  const empty = document.getElementById("empty");
+  const kw = q.trim().toLowerCase();
+  const items = DATA.items.filter(it =>
+    (cat==="all" || it.category===cat) &&
+    (!kw || (it.title+it.source).toLowerCase().includes(kw))
+  );
+  list.innerHTML = items.map(it => `
+    <li>
+      <span class="badge b-${esc(it.category)}">${CAT_CH[it.category]||"·"}</span>
+      <div class="item-main">
+        <a class="title" href="${safeUrl(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>
+        ${it.summary ? `<div class="summary">${esc(it.summary)}</div>` : ""}
+      </div>
+      <div class="meta">
+        <span class="src">${esc(it.source)}</span>
+        ${fmtTime(it.published)}<span class="lang-tag">${LANG_CH[it.lang]||it.lang}</span>
+      </div>
+    </li>`).join("");
+  empty.hidden = items.length > 0;
+}
+
+function mount(data){
+  DATA = data;
+  document.getElementById("d-date").textContent = data.date.replaceAll("-",".");
+  document.getElementById("d-gen").textContent =
+    "更新于 " + (data.generated_at||"").slice(11,16) + " · 共 " + data.items.length + " 条";
+  const c = data.categories || {};
+  document.getElementById("statbar").innerHTML =
+    (data.demo ? `<span class="demo-flag">示例数据 · 部署后自动替换为真实抓取结果</span>` : "") +
+    `<span>動畫 <i>${c.anime||0}</i></span><span>漫畫 <i>${c.comic||0}</i></span>
+     <span>遊戲 <i>${c.game||0}</i></span><span>小說 <i>${c.novel||0}</i></span>
+     <span>綜合 <i>${c.general||0}</i></span>`;
+  render();
+}
+
+/* 交互 */
+document.querySelectorAll("nav.spine button").forEach(b=>{
+  b.addEventListener("click",()=>{
+    document.querySelectorAll("nav.spine button").forEach(x=>x.setAttribute("aria-pressed","false"));
+    b.setAttribute("aria-pressed","true");
+    cat = b.dataset.cat; render();
+  });
+});
+document.getElementById("q").addEventListener("input",e=>{ q=e.target.value; render(); });
+document.getElementById("archive").addEventListener("change",async e=>{
+  const v = e.target.value;
+  if(!v){ loadLatest(); return; }
+  try{ mount(await (await fetch(`data/archive/${v}.json`)).json()); }catch(_){}
+});
+
+/* 数据加载：线上读 latest.json，失败则用示例数据 */
+async function loadLatest(){
+  try{
+    const r = await fetch("data/latest.json",{cache:"no-store"});
+    if(!r.ok) throw 0;
+    mount(await r.json());
+  }catch(_){ mount(SAMPLE); }
+}
+(async ()=>{
+  loadLatest();
+  try{
+    const idx = await (await fetch("data/archive_index.json")).json();
+    const sel = document.getElementById("archive");
+    idx.slice(0,30).forEach(d=>{
+      const o=document.createElement("option"); o.value=d; o.textContent=d; sel.appendChild(o);
+    });
+  }catch(_){}
+})();
+</script>
+</body>
+</html>

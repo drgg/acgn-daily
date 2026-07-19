@@ -1,0 +1,121 @@
+# ============================================================
+# ACGN 每日资讯站 · 信息源配置
+# category 取值: anime / comic / game / novel / general
+# lang: zh / ja / en  （用于前端标注与可选翻译流程）
+# weight: 排序权重（同日内该源条目的基础分）
+#
+# 巡检记录（2026-07-20）：
+#   - Famitsu RSS 已 404 停服 → 换 AUTOMATON + Game*Spark
+#   - アニメイトタイムズ /rss/index.xml 已失效 → 换 アニメ！アニメ！
+#   - rsshub.app 公共实例对无凭据请求一律 403 → 移除相关源；
+#     漫画区改用内置 MangaDex API 适配器；如需 B 站/JUMP+/成为小说家吧
+#     等源，请自部署 RSSHub 后把实例域名换进来
+#   - 每次运行的逐源健康状况见 data/latest.json 的 sources 字段
+# ============================================================
+
+rss:
+  # ---------- Anime 动画 ----------
+  - name: Anime News Network
+    url: https://www.animenewsnetwork.com/newsfeed/rss.xml
+    category: anime
+    lang: en
+    weight: 9
+
+  - name: アニメ！アニメ！
+    url: https://animeanime.jp/rss20/index.rdf
+    category: anime
+    lang: ja
+    weight: 7
+
+  # ---------- Comic 漫画 ----------
+  - name: コミックナタリー
+    url: https://natalie.mu/comic/feed/news
+    category: comic
+    lang: ja
+    weight: 8
+
+  # ---------- Game 游戏 ----------
+  - name: 4Gamer 総合
+    url: https://www.4gamer.net/rss/index.xml
+    category: game
+    lang: ja
+    weight: 8
+
+  - name: AUTOMATON
+    url: https://automaton-media.com/feed/
+    category: game
+    lang: ja
+    weight: 7
+
+  - name: Game*Spark
+    url: https://www.gamespark.jp/rss20/index.rdf
+    category: game
+    lang: ja
+    weight: 6
+
+  - name: 机核 GCORES
+    url: https://www.gcores.com/rss
+    category: game
+    lang: zh
+    weight: 7
+
+  - name: 触乐
+    url: http://www.chuapp.com/feed
+    category: game
+    lang: zh
+    weight: 7
+
+  # ---------- Novel 轻小说 ----------
+  - name: ラノベニュースオンライン
+    url: https://ln-news.com/feed
+    category: novel
+    lang: ja
+    weight: 8
+
+  # ---------- General 综合/业界 ----------
+  # GIGAZINE 覆盖日本 ACG 业界杂讯，条目经关键词表自动归入四大领域
+  - name: GIGAZINE
+    url: https://gigazine.net/news/rss_2.0/
+    category: general
+    lang: ja
+    weight: 5
+
+# ------------------------------------------------------------
+# 结构化 API（不走 RSS，由 aggregate.py 内置适配器抓取）
+# ------------------------------------------------------------
+apis:
+  - adapter: anilist_airing      # 今日放送表（GraphQL, 无需密钥）
+    enabled: true
+    category: anime
+
+  - adapter: jikan_season_now    # 本季新番热度榜（MyAnimeList 镜像, 无需密钥）
+    enabled: true
+    category: anime
+
+  - adapter: bangumi_calendar    # Bangumi 每日放送（中文条目名, 无需密钥）
+    enabled: true
+    category: anime
+
+  - adapter: mangadex_latest     # MangaDex 最新更新章节（无需密钥）
+    enabled: true                # 漫画区的稳定日更源
+    category: comic
+
+# ------------------------------------------------------------
+# 分类兜底关键词：当某源未标注分类或为 general 时，
+# 按标题命中关键词重新归类
+# ------------------------------------------------------------
+classifier:
+  anime:  [动画, 新番, 剧场版, アニメ, anime, TV动画, OVA, 声优, 声優, 劇場版]
+  comic:  [漫画, 连载, 单行本, マンガ, コミック, manga, 休载, 連載, 単行本]
+  game:   [游戏, ゲーム, game, Steam, Switch, PS5, 手游, gal, Galgame, DLC, 发售, 発売]
+  novel:  [小说, 轻小说, ラノベ, novel, 文库, 文庫, web小说, 小説]
+
+# 站点级设置
+site:
+  timezone: Asia/Shanghai
+  max_items_per_source: 15
+  max_total_items: 120
+  concurrency: 4          # 抓取并发度；本地网络不稳时可降为 1-2
+  archive_days: 90        # 归档保留天数
+  # 部署后的站点地址，用于 feed.xml 中的自引用链接（可留空）
+  base_url: ""
