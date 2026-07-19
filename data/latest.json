@@ -1,13 +1,13 @@
 {
  "date": "2026-07-20",
- "generated_at": "2026-07-20T05:28:39+08:00",
- "count": 120,
+ "generated_at": "2026-07-20T05:33:00+08:00",
+ "count": 160,
  "categories": {
-  "anime": 45,
-  "comic": 0,
-  "game": 60,
+  "anime": 58,
+  "comic": 10,
+  "game": 67,
   "novel": 15,
-  "general": 0
+  "general": 10
  },
  "sources": [
   {
@@ -36,11 +36,6 @@
    "error": null
   },
   {
-   "name": "AUTOMATON",
-   "count": 15,
-   "error": null
-  },
-  {
    "name": "ラノベニュースオンライン",
    "count": 15,
    "error": null
@@ -51,13 +46,18 @@
    "error": null
   },
   {
-   "name": "机核 GCORES",
+   "name": "AUTOMATON",
    "count": 15,
    "error": null
   },
   {
    "name": "anilist_airing",
-   "count": 14,
+   "count": 13,
+   "error": null
+  },
+  {
+   "name": "机核 GCORES",
+   "count": 15,
    "error": null
   },
   {
@@ -66,12 +66,12 @@
    "error": null
   },
   {
-   "name": "触乐",
+   "name": "mangadex_latest",
    "count": 15,
    "error": null
   },
   {
-   "name": "mangadex_latest",
+   "name": "触乐",
    "count": 15,
    "error": null
   },
@@ -1245,7 +1245,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-07-20T05:28:04+08:00",
+   "published": "2026-07-20T05:32:24+08:00",
    "summary": ""
   },
   {
@@ -1256,7 +1256,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-07-20T05:28:04+08:00",
+   "published": "2026-07-20T05:32:24+08:00",
    "summary": ""
   },
   {
@@ -1267,7 +1267,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-07-20T05:28:04+08:00",
+   "published": "2026-07-20T05:32:24+08:00",
    "summary": ""
   },
   {
@@ -1278,7 +1278,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-07-20T05:28:04+08:00",
+   "published": "2026-07-20T05:32:24+08:00",
    "summary": ""
   },
   {
@@ -1289,7 +1289,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-07-20T05:28:04+08:00",
+   "published": "2026-07-20T05:32:24+08:00",
    "summary": ""
   },
   {
@@ -1300,7 +1300,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-07-20T05:28:04+08:00",
+   "published": "2026-07-20T05:32:24+08:00",
    "summary": ""
   },
   {
@@ -1311,7 +1311,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-07-20T05:28:04+08:00",
+   "published": "2026-07-20T05:32:24+08:00",
    "summary": ""
   },
   {
@@ -1322,7 +1322,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-07-20T05:28:04+08:00",
+   "published": "2026-07-20T05:32:24+08:00",
    "summary": ""
   },
   {
@@ -1333,7 +1333,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-07-20T05:28:04+08:00",
+   "published": "2026-07-20T05:32:24+08:00",
    "summary": ""
   },
   {
@@ -1344,7 +1344,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-07-20T05:28:04+08:00",
+   "published": "2026-07-20T05:32:24+08:00",
    "summary": ""
   },
   {
@@ -1355,7 +1355,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-07-20T05:28:04+08:00",
+   "published": "2026-07-20T05:32:24+08:00",
    "summary": ""
   },
   {
@@ -1366,7 +1366,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-07-20T05:28:04+08:00",
+   "published": "2026-07-20T05:32:24+08:00",
    "summary": ""
   },
   {
@@ -1377,7 +1377,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-07-20T05:28:04+08:00",
+   "published": "2026-07-20T05:32:24+08:00",
    "summary": ""
   },
   {
@@ -1388,7 +1388,150 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-07-20T05:28:04+08:00",
+   "published": "2026-07-20T05:32:24+08:00",
+   "summary": ""
+  },
+  {
+   "id": "eff93026c74b",
+   "title": "【今日放送 21:00】世界最強の後衛 ～迷宮国の新人探索者～ 第3集",
+   "url": "https://anilist.co/anime/198409",
+   "source": "AniList 放送表",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-20T05:32:23+08:00",
+   "summary": ""
+  },
+  {
+   "id": "f3ae11413926",
+   "title": "【今日放送 21:30】君のことが大大大大大好きな100人の彼女 第3期 第3集",
+   "url": "https://anilist.co/anime/200637",
+   "source": "AniList 放送表",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-20T05:32:23+08:00",
+   "summary": ""
+  },
+  {
+   "id": "6b74ef9f9afb",
+   "title": "【今日放送 22:00】二十世紀電氣目録-ユーレカ・エヴリカ- 第3集",
+   "url": "https://anilist.co/anime/103303",
+   "source": "AniList 放送表",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-20T05:32:23+08:00",
+   "summary": ""
+  },
+  {
+   "id": "fbecb6c24c9d",
+   "title": "【今日放送 22:16】ONE PIECE 第1170集",
+   "url": "https://anilist.co/anime/21",
+   "source": "AniList 放送表",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-20T05:32:23+08:00",
+   "summary": ""
+  },
+  {
+   "id": "23a0fd53ce41",
+   "title": "【今日放送 22:30】黒猫と魔女の教室 第15集",
+   "url": "https://anilist.co/anime/196974",
+   "source": "AniList 放送表",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-20T05:32:23+08:00",
+   "summary": ""
+  },
+  {
+   "id": "3be6795646e6",
+   "title": "【今日放送 22:46】ふつつかな悪女ではございますが ~雛宮蝶鼠とりかえ伝~ 第2集",
+   "url": "https://anilist.co/anime/188139",
+   "source": "AniList 放送表",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-20T05:32:23+08:00",
+   "summary": ""
+  },
+  {
+   "id": "138ad4e176b7",
+   "title": "【今日放送 23:00】無職転生Ⅲ ～異世界行ったら本気だす～ 第4集",
+   "url": "https://anilist.co/anime/178789",
+   "source": "AniList 放送表",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-20T05:32:23+08:00",
+   "summary": ""
+  },
+  {
+   "id": "43b34fb48eae",
+   "title": "【今日放送 23:30】さよなら ララ 第3集",
+   "url": "https://anilist.co/anime/177637",
+   "source": "AniList 放送表",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-20T05:32:23+08:00",
+   "summary": ""
+  },
+  {
+   "id": "73b41cb94c18",
+   "title": "【今日放送 23:45】あはれ！名作くん (2026) 第3集",
+   "url": "https://anilist.co/anime/205116",
+   "source": "AniList 放送表",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-20T05:32:23+08:00",
+   "summary": ""
+  },
+  {
+   "id": "e39c5b2dec0c",
+   "title": "【今日放送 00:00】アズールレーン びそくぜんしんっ！にっ！！ 第3集",
+   "url": "https://anilist.co/anime/169080",
+   "source": "AniList 放送表",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-20T05:32:23+08:00",
+   "summary": ""
+  },
+  {
+   "id": "8324c8efa768",
+   "title": "【今日放送 00:00】同じゼミの染谷さんがセクシー女優だった話。 第3集",
+   "url": "https://anilist.co/anime/208685",
+   "source": "AniList 放送表",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-20T05:32:23+08:00",
+   "summary": ""
+  },
+  {
+   "id": "96a066fee58d",
+   "title": "【今日放送 02:20】闇芝居 十七期 第2集",
+   "url": "https://anilist.co/anime/213359",
+   "source": "AniList 放送表",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-20T05:32:23+08:00",
+   "summary": ""
+  },
+  {
+   "id": "53ba5f5f4fb9",
+   "title": "【今日放送 10:00】仙逆 第150集",
+   "url": "https://anilist.co/anime/137653",
+   "source": "AniList 放送表",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-20T05:32:23+08:00",
    "summary": ""
   },
   {
@@ -1400,6 +1543,303 @@
    "lang": "ja",
    "weight": 6,
    "published": "2026-07-20T05:28:03+08:00",
+   "summary": ""
+  },
+  {
+   "id": "39b7d5646f89",
+   "title": "『BF6』が映画『トップガン』とコラボ！ シーズン4で日本が舞台の新マップ「ツル・リーフ」とリメイク版「ウェーク島」で大規模海戦が開幕！ カスタムロビーや観戦機能などシステム改善も実施",
+   "url": "http://www.gamespark.jp/article/2026/07/19/169477.html",
+   "source": "Game*Spark",
+   "category": "game",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-19T21:35:02+08:00",
+   "summary": "『バトルフィールド6』シーズン4は海戦がテーマ。日本舞台の『ツル・リーフ』や名作マップ『Wake Island』復活や『トップガン』コラボの空母強襲モード、待望の観戦機能等が実装されます。"
+  },
+  {
+   "id": "d340e10e37f5",
+   "title": "惑星開拓サバイバル『Nova Lands』簡単自動化・効率化で遊びやすさが光る！巨大なボスに挑まないという平和なプレイも【クラフトサバイバル名鑑】",
+   "url": "http://www.gamespark.jp/article/2026/07/19/169476.html",
+   "source": "Game*Spark",
+   "category": "game",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-19T21:30:03+08:00",
+   "summary": "【クラフトサバイバル名鑑】では、同ジャンルのゲームが好きな筆者による定番ゲームの魅力を紹介しています。"
+  },
+  {
+   "id": "5c38f096186c",
+   "title": "『モンスト』の熱狂を海外、そしてスポーツへ。MIXI CEOが語る「3度のパラダイムシフト」と「ソーシャルの力」【GAME FUTURE SUMMIT 2026】",
+   "url": "http://www.gamespark.jp/article/2026/07/19/169475.html",
+   "source": "Game*Spark",
+   "category": "game",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-19T20:00:03+08:00",
+   "summary": "F2Pからスポーツベッティングへ"
+  },
+  {
+   "id": "5bba775da6fb",
+   "title": "『SEKIRO』アニメ、狼が戦っている間“あの人たち”は何をしていた？ 一撃の重さが伝わる剣戟と群像劇が光る「SEKIRO: NO DEFEAT」試写レポ",
+   "url": "http://www.gamespark.jp/article/2026/07/19/169474.html",
+   "source": "Game*Spark",
+   "category": "game",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-19T19:00:03+08:00",
+   "summary": "九朗様はかわいい。死なず半兵衛がかっこいい。"
+  },
+  {
+   "id": "68db7f9a89db",
+   "title": "この体験、唯一無二！些細な選択ミスで即死、ギャンブル要素たっぷりな「遊べる本」ことゲームブックが令和の世に『ヴェリタステイルズ：暗黒城の魔女』として顕現",
+   "url": "http://www.gamespark.jp/article/2026/07/19/169473.html",
+   "source": "Game*Spark",
+   "category": "game",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-19T18:00:03+08:00",
+   "summary": "デジタル化によって、かつて少年たちが行ったチート「指栞」も気軽に可能。ゲームブックのアナログの魅力が、快適性を備えたまま現代に蘇える。"
+  },
+  {
+   "id": "7615a8164e23",
+   "title": "「『Hades』や『Disco Elysium』といった、思いもよらない作品からインスピレーションを得ることも」ライフシム『Paralives』【開発者インタビュー】",
+   "url": "http://www.gamespark.jp/article/2026/07/19/169472.html",
+   "source": "Game*Spark",
+   "category": "game",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-19T17:45:03+08:00",
+   "summary": "気になる新作インディーゲームの開発者にインタビューする本企画。今回は、Alex Massé and team開発、PC/Mac向けに5月25日に早期アクセスが開始されたライフシミュレーション『Paralives』開発者へのミニインタビューをお届けします。"
+  },
+  {
+   "id": "9b500cb8c1cc",
+   "title": "『活俠傳』日本語字幕にルビが付くパッチ配信！日本語化Mod最新アプデで何も持たないブサイク主人公の成り上がりがよりわかりやすく",
+   "url": "http://www.gamespark.jp/article/2026/07/19/169471.html",
+   "source": "Game*Spark",
+   "category": "game",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-07-19T17:36:35+08:00",
+   "summary": "三師兄のプロフィールなども読みやすくなりました。"
+  },
+  {
+   "id": "09e6d4744192",
+   "title": "筋力トレーニングをする人は長生きするとの研究結果",
+   "url": "https://gigazine.net/news/20260719-resistance-training-live-longer/",
+   "source": "GIGAZINE",
+   "category": "general",
+   "lang": "ja",
+   "weight": 5,
+   "published": "2026-07-19T21:00:00+08:00",
+   "summary": "筋力トレーニングはスポーツに役立つ筋肉を付けたり見た目を良くしたりするだけでなく、健康にも大きなメリットをもたらすことが知られています。合計約15万人を最大30年間追跡した新たな研究では、筋力トレーニングをする人は長生きするという結果が示されました。続きを読む..."
+  },
+  {
+   "id": "607368722d50",
+   "title": "Claude Fable 5が一部のサブスクプランで使用可能に",
+   "url": "https://gigazine.net/news/20260719-claude-fable-5-plan/",
+   "source": "GIGAZINE",
+   "category": "general",
+   "lang": "ja",
+   "weight": 5,
+   "published": "2026-07-19T20:00:00+08:00",
+   "summary": "AnthropicがClaude Fable 5をMaxプランおよびTeam Premiumプランの一部として利用可能にすることを発表しました。続きを読む..."
+  },
+  {
+   "id": "fc1ee1b74f65",
+   "title": "バンクーバー警察のウェブサイトには閲覧していたのがバレないようにすぐ離脱できる「クイックエスケープボタン」が搭載されている",
+   "url": "https://gigazine.net/news/20260719-quick-escape/",
+   "source": "GIGAZINE",
+   "category": "general",
+   "lang": "ja",
+   "weight": 5,
+   "published": "2026-07-19T19:00:00+08:00",
+   "summary": "カナダのバンクーバー警察のウェブサイト「https://vpd.ca/」には、直前までサイトを見ていたことがバレにくいように素早く離脱する「QUICK ESCAPE」というボタンがあります。もし誰かが危険にさらされていて、警察に助けを求めたいと考えている自分の行動を隠したい場合に、ブラウザやタブを閉じるよりも行動を隠し"
+  },
+  {
+   "id": "a93be11996ea",
+   "title": "無料でブラウザ・ShareX・iOSのショートカットなどから即座にファイルをアップロードして共有できる「Zipline」、オープンソースでセルフホスト可能",
+   "url": "https://gigazine.net/news/20260719-zipline/",
+   "source": "GIGAZINE",
+   "category": "general",
+   "lang": "ja",
+   "weight": 5,
+   "published": "2026-07-19T17:00:00+08:00",
+   "summary": "ファイルを共有するには一般的に共有サーバーへアクセスしてからファイルのアップロード、その後に共有用URLのコピーという手順になりますが、短時間にいくつも作成されるファイルを共有するという場面では、何度も何度も同じ作業を繰り返すことになり手間がかかります。生成された共有URLをすぐに利用できる「Zipline」であれば、"
+  },
+  {
+   "id": "5873742b7961",
+   "title": "イヤホン単体で通話録音ができ文字起こし連携も可能＆透明デザインで中身が透けてるノイズキャンセリングワイヤレスイヤホン「Nothing Ear(3a)」を実際に使ってみたレビュー",
+   "url": "https://gigazine.net/news/20260719-nothing-ear-3a/",
+   "source": "GIGAZINE",
+   "category": "general",
+   "lang": "ja",
+   "weight": 5,
+   "published": "2026-07-19T16:20:00+08:00",
+   "summary": "イギリスのデバイスメーカー・Nothingから、上位モデルのNothing Ear(3)の廉価版となるノイズキャンセリングワイヤレスイヤホン「Nothing Ear(3a)」が2026年7月7日に発売されました。Nothingブランドを象徴する透明デザインに色鮮やかなカラーバリエーションを取り入れつつ、税込1万5960"
+  },
+  {
+   "id": "92ee1204bbdf",
+   "title": "鋼鉄の2倍・アルミニウムの3倍の強度を持つ「耐火ハイエントロピー合金」を新手法で作製、今後の金属の作り方を変える可能性",
+   "url": "https://gigazine.net/news/20260719-super-alloy-metal-manufacturing/",
+   "source": "GIGAZINE",
+   "category": "general",
+   "lang": "ja",
+   "weight": 5,
+   "published": "2026-07-19T09:00:00+08:00",
+   "summary": "航空機から食器まで幅広い製品に使われる合金は、現代社会に欠かせない材料です。オーストラリア・モナシュ大学や中国・重慶大学などの研究チームが、原子の並びを制御する新たな方法によって、鋼鉄の2倍、アルミニウムの3倍の強度を持つ耐火ハイエントロピー合金を作製したことを報告しました。モナシュ大学はこの耐火ハイエントロピー合金を"
+  },
+  {
+   "id": "9cb03a192765",
+   "title": "圧迫された腫瘍の成長がなぜ遅くなるのかをAIが解明",
+   "url": "https://gigazine.net/news/20260719-physical-pressure-tumors-grow-slower/",
+   "source": "GIGAZINE",
+   "category": "general",
+   "lang": "ja",
+   "weight": 5,
+   "published": "2026-07-19T07:00:00+08:00",
+   "summary": "腫瘍を物理的に圧迫すると成長が遅くなることが知られています。新たな研究で、腫瘍が圧力に屈してしまうメカニズムが明らかになりました。続きを読む..."
+  },
+  {
+   "id": "2fd97c3a2154",
+   "title": "Appleが日本でiPhone・Apple Music・Apple Oneに続きiCloud＋も値上げ",
+   "url": "https://gigazine.net/news/20260719-apple-raises-icloud-plus-subscription-prices/",
+   "source": "GIGAZINE",
+   "category": "general",
+   "lang": "ja",
+   "weight": 5,
+   "published": "2026-07-18T23:00:00+08:00",
+   "summary": "Appleが日本を含む8カ国でクラウドストレージサービス・iCloud＋の値上げを実施しました。続きを読む..."
+  },
+  {
+   "id": "c2b7ed0620d2",
+   "title": "知能が高い人ほどエコな車に乗るという研究結果",
+   "url": "https://gigazine.net/news/20260718-intelligence-voting-charitable-giving-prosocial/",
+   "source": "GIGAZINE",
+   "category": "general",
+   "lang": "ja",
+   "weight": 5,
+   "published": "2026-07-18T21:00:00+08:00",
+   "summary": "他者や社会全体に利益を生む行動は向社会的行動と呼ばれ、この中には不特定多数への援助や寄付、選挙での投票といったものが含まれます。新たな研究では、知能指数が高い人ほど投票や寄付、環境に優しい車の購入といった向社会的行動をする可能性が高いことが明らかになりました。続きを読む..."
+  },
+  {
+   "id": "0358e39baec2",
+   "title": "郷土料理「すこ」の味わいをサイダーにした越前大野の「すこサイダー」を飲んでみた",
+   "url": "https://gigazine.net/news/20260718-suko-cider/",
+   "source": "GIGAZINE",
+   "category": "general",
+   "lang": "ja",
+   "weight": 5,
+   "published": "2026-07-18T20:30:00+08:00",
+   "summary": "「天空の城」の1つ・越前大野城がある福井県大野市は名水でも知られており、郷土料理「すこ」と組み合わせた「越前おおの名水すこサイダー」が販売されています。「すこ」はネットスラングのほうしか知らなかったので、いったいどんなサイダーなのか買って飲んでみました。続きを読む..."
+  },
+  {
+   "id": "2cdff81c5dfb",
+   "title": "【漫画更新】Tensei Shitara Ken deshita 第 98 话「Dias」",
+   "url": "https://mangadex.org/chapter/8613ee14-68b9-4f64-82a1-521db57d4cf9",
+   "source": "MangaDex",
+   "category": "comic",
+   "lang": "zh",
+   "weight": 4,
+   "published": "2026-07-20T05:32:25+08:00",
+   "summary": ""
+  },
+  {
+   "id": "c9afe52515a5",
+   "title": "【漫画更新】Ore wa Seikan Kokka no Akutoku Ryoushu! 第 48 话「Monsters」",
+   "url": "https://mangadex.org/chapter/20c8054c-083a-420c-980b-356f1342cd62",
+   "source": "MangaDex",
+   "category": "comic",
+   "lang": "zh",
+   "weight": 4,
+   "published": "2026-07-20T05:32:25+08:00",
+   "summary": ""
+  },
+  {
+   "id": "e0634aec162b",
+   "title": "【漫画更新】I Live in Isekai 第 48 话「The Ruins Of Nazdahara」",
+   "url": "https://mangadex.org/chapter/11a0f843-1982-4487-871e-9c09bec10551",
+   "source": "MangaDex",
+   "category": "comic",
+   "lang": "zh",
+   "weight": 4,
+   "published": "2026-07-20T05:32:25+08:00",
+   "summary": ""
+  },
+  {
+   "id": "deabfd6a1eca",
+   "title": "【漫画更新】Zero no Tsukaima Gaiden: Tabasa no Bouken 第 24 话「Tabitha's Adventure 4」",
+   "url": "https://mangadex.org/chapter/65db9fcf-f716-4c2c-a312-3fe17441ee62",
+   "source": "MangaDex",
+   "category": "comic",
+   "lang": "zh",
+   "weight": 4,
+   "published": "2026-07-20T05:32:25+08:00",
+   "summary": ""
+  },
+  {
+   "id": "0e441c66c31b",
+   "title": "【漫画更新】Dominant 第 5 话「Night of atonement」",
+   "url": "https://mangadex.org/chapter/4ff411b9-0630-4092-953c-3ce9bcbeafca",
+   "source": "MangaDex",
+   "category": "comic",
+   "lang": "zh",
+   "weight": 4,
+   "published": "2026-07-20T05:32:25+08:00",
+   "summary": ""
+  },
+  {
+   "id": "26f8c026f9ae",
+   "title": "【漫画更新】Excel Saga 第 8 话「\"Where Destinies Meet\"」",
+   "url": "https://mangadex.org/chapter/9e779525-6156-4e98-8924-a7d29461d8a6",
+   "source": "MangaDex",
+   "category": "comic",
+   "lang": "zh",
+   "weight": 4,
+   "published": "2026-07-20T05:32:25+08:00",
+   "summary": ""
+  },
+  {
+   "id": "168f4dfb8da9",
+   "title": "【漫画更新】Touhou - Koishi no Okashi-zukuri Daisakusen! (Doujinshi) 第 ? 话",
+   "url": "https://mangadex.org/chapter/3a1b8cc2-433e-44e1-9726-a8a258dc003b",
+   "source": "MangaDex",
+   "category": "comic",
+   "lang": "zh",
+   "weight": 4,
+   "published": "2026-07-20T05:32:25+08:00",
+   "summary": ""
+  },
+  {
+   "id": "b011b1931c2f",
+   "title": "【漫画更新】Onee-chan ga Kita 第 55 话",
+   "url": "https://mangadex.org/chapter/c7630ea7-355a-4546-b23a-de4d3ae5b77f",
+   "source": "MangaDex",
+   "category": "comic",
+   "lang": "zh",
+   "weight": 4,
+   "published": "2026-07-20T05:32:25+08:00",
+   "summary": ""
+  },
+  {
+   "id": "ffd802cc1b67",
+   "title": "【漫画更新】Fushigi Yuugi - Byakko Senki 第 24 话「The Yè Huá Mén」",
+   "url": "https://mangadex.org/chapter/7f9a5325-fc7e-433e-b7e1-17541f53f8b4",
+   "source": "MangaDex",
+   "category": "comic",
+   "lang": "zh",
+   "weight": 4,
+   "published": "2026-07-20T05:32:25+08:00",
+   "summary": ""
+  },
+  {
+   "id": "b19b629d5465",
+   "title": "【漫画更新】Hai Kouen no Homeless Seijo 第 8.4 话",
+   "url": "https://mangadex.org/chapter/88e2281d-712c-4821-95b9-2197eb8416f1",
+   "source": "MangaDex",
+   "category": "comic",
+   "lang": "zh",
+   "weight": 4,
+   "published": "2026-07-20T05:32:25+08:00",
    "summary": ""
   }
  ]
