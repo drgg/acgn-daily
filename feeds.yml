@@ -28,13 +28,10 @@ rss:
     weight: 7
 
   # ---------- Comic 漫画 ----------
-  - name: コミックナタリー
-    url: https://natalie.mu/comic/feed/news
-    category: comic
-    lang: ja
-    weight: 8
-    # natalie 对抓取器 UA 返回 405，需伪装浏览器 UA
-    ua: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+  # コミックナタリー(natalie.mu/comic/feed/news) 经核查对数据中心 IP 段
+  # 一律 405（换浏览器 UA 亦无效），无法在 Actions 环境使用，已移除；
+  # 漫画区由 MangaDex API + ANN + 关键词分流兜底。
+  # 单个源需要特殊 UA 时可加 `ua: "..."` 字段按源覆盖。
 
   # ---------- Game 游戏 ----------
   - name: 4Gamer 総合
