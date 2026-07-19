@@ -33,6 +33,8 @@ rss:
     category: comic
     lang: ja
     weight: 8
+    # natalie 对抓取器 UA 返回 405，需伪装浏览器 UA
+    ua: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 
   # ---------- Game 游戏 ----------
   - name: 4Gamer 総合
@@ -114,7 +116,8 @@ classifier:
 site:
   timezone: Asia/Shanghai
   max_items_per_source: 15
-  max_total_items: 120
+  max_total_items: 160
+  min_per_category: 10    # 截断时每分类保底条数，防止低权重分类空栏
   concurrency: 4          # 抓取并发度；本地网络不稳时可降为 1-2
   archive_days: 90        # 归档保留天数
   # 部署后的站点地址，用于 feed.xml 中的自引用链接（可留空）

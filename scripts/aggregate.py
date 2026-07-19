@@ -124,7 +124,9 @@ def make_item(title, url, source, category, lang, weight, published=None, summar
 def fetch_rss(feed_cfg, limit):
     items = []
     try:
-        resp = SESSION.get(feed_cfg["url"], timeout=TIMEOUT)
+        # 个别源按 UA 拒绝抓取器（如 natalie 405），允许在 feeds.yml 里按源覆盖 UA
+        headers = {"User-Agent": feed_cfg["ua"]} if feed_cfg.get("ua") else None
+        resp = SESSION.get(feed_cfg["url"], headers=headers, timeout=TIMEOUT)
         resp.raise_for_status()  # HTTP 错误页不再被静默解析成 0 条
         parsed = feedparser.parse(resp.content)
         for e in parsed.entries[:limit]:
@@ -366,9 +368,21 @@ def main():
             seen_url.add(it["url"])
     items = list(seen.values())
 
-    # 排序：权重 desc → 发布时间 desc（元组一次排序即可）；截断总量
+    # 排序：权重 desc → 发布时间 desc（元组一次排序即可）
     items.sort(key=lambda x: (x["weight"], x["published"]), reverse=True)
-    items = items[:max_total]
+
+    # 截断总量时给每个分类保底配额，避免低权重源所在的分类被整体挤掉
+    # （否则漫画/综合等区会因全局按权重截断而空栏）
+    if len(items) > max_total:
+        min_per_cat = site.get("min_per_category", 10)
+        by_cat = {}
+        for it in items:
+            by_cat.setdefault(it["category"], []).append(it)
+        reserved_ids = {it["id"] for lst in by_cat.values() for it in lst[:min_per_cat]}
+        reserved = [it for it in items if it["id"] in reserved_ids]
+        others = [it for it in items if it["id"] not in reserved_ids]
+        items = reserved + others[:max(max_total - len(reserved), 0)]
+        items.sort(key=lambda x: (x["weight"], x["published"]), reverse=True)
 
     payload = {
         "date": TODAY,
