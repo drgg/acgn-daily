@@ -1,12 +1,12 @@
 {
  "date": "2026-07-20",
- "generated_at": "2026-07-20T04:42:35+08:00",
- "count": 105,
+ "generated_at": "2026-07-20T05:28:39+08:00",
+ "count": 120,
  "categories": {
-  "anime": 30,
+  "anime": 45,
   "comic": 0,
-  "game": 75,
-  "novel": 0,
+  "game": 60,
+  "novel": 15,
   "general": 0
  },
  "sources": [
@@ -23,7 +23,7 @@
   {
    "name": "コミックナタリー",
    "count": 0,
-   "error": "SSLError: HTTPSConnectionPool(host='natalie.mu', port=443): Max retries exceeded with url: /comic/feed/news (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
+   "error": "HTTPError: 405 Client Error: Not Allowed for url: https://natalie.mu/comic/feed/news"
   },
   {
    "name": "4Gamer 総合",
@@ -41,8 +41,28 @@
    "error": null
   },
   {
+   "name": "ラノベニュースオンライン",
+   "count": 15,
+   "error": null
+  },
+  {
+   "name": "GIGAZINE",
+   "count": 15,
+   "error": null
+  },
+  {
    "name": "机核 GCORES",
    "count": 15,
+   "error": null
+  },
+  {
+   "name": "anilist_airing",
+   "count": 14,
+   "error": null
+  },
+  {
+   "name": "bangumi_calendar",
+   "count": 14,
    "error": null
   },
   {
@@ -51,34 +71,14 @@
    "error": null
   },
   {
-   "name": "ラノベニュースオンライン",
-   "count": 0,
-   "error": "SSLError: HTTPSConnectionPool(host='ln-news.com', port=443): Max retries exceeded with url: /feed (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-  },
-  {
-   "name": "GIGAZINE",
-   "count": 0,
-   "error": "SSLError: HTTPSConnectionPool(host='gigazine.net', port=443): Max retries exceeded with url: /news/rss_2.0/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-  },
-  {
-   "name": "anilist_airing",
-   "count": 0,
-   "error": "SSLError: HTTPSConnectionPool(host='graphql.anilist.co', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
+   "name": "mangadex_latest",
+   "count": 15,
+   "error": null
   },
   {
    "name": "jikan_season_now",
    "count": 0,
-   "error": "SSLError: HTTPSConnectionPool(host='api.jikan.moe', port=443): Max retries exceeded with url: /v4/seasons/now?limit=10&sfw=true (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-  },
-  {
-   "name": "bangumi_calendar",
-   "count": 0,
-   "error": "SSLError: HTTPSConnectionPool(host='api.bgm.tv', port=443): Max retries exceeded with url: /calendar (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-  },
-  {
-   "name": "mangadex_latest",
-   "count": 0,
-   "error": "SSLError: HTTPSConnectionPool(host='api.mangadex.org', port=443): Max retries exceeded with url: /chapter?limit=15&order%5BreadableAt%5D=desc&translatedLanguage%5B%5D=zh&translatedLanguage%5B%5D=zh-hk&translatedLanguage%5B%5D=en&includes%5B%5D=manga (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
+   "error": "RetryError: HTTPSConnectionPool(host='api.jikan.moe', port=443): Max retries exceeded with url: /v4/seasons/now?limit=10&sfw=true (Caused by ResponseError('too many 504 error responses'))"
   }
  ],
  "items": [
@@ -90,7 +90,7 @@
    "category": "anime",
    "lang": "en",
    "weight": 9,
-   "published": "2026-07-19T13:23:05+08:00",
+   "published": "2026-07-19T21:23:05+08:00",
    "summary": "Romantic comedy launched as dōjinshi in 2018, ends in 9th volume on September 16"
   },
   {
@@ -101,7 +101,7 @@
    "category": "anime",
    "lang": "en",
    "weight": 9,
-   "published": "2026-07-19T13:15:00+08:00",
+   "published": "2026-07-19T21:15:00+08:00",
    "summary": "Sigsawa, artist Hayato Asaki launch new manga Kemono-tachi no Peregrinatio on July 17"
   },
   {
@@ -112,7 +112,7 @@
    "category": "anime",
    "lang": "en",
    "weight": 9,
-   "published": "2026-07-19T11:15:00+08:00",
+   "published": "2026-07-19T19:15:00+08:00",
    "summary": "17 manga volumes including Chainsaw Man, Gachiakuta, The Summer Hikaru Died, Witch Hat Atelier, One Piece, Demon Slayer, Dandadan, Blue Lock, The Apothecary Dia"
   },
   {
@@ -123,7 +123,7 @@
    "category": "anime",
    "lang": "en",
    "weight": 9,
-   "published": "2026-07-19T09:15:00+08:00",
+   "published": "2026-07-19T17:15:00+08:00",
    "summary": "Ka Sakana launches manga adaptation on Tuesday"
   },
   {
@@ -134,7 +134,7 @@
    "category": "anime",
    "lang": "en",
    "weight": 9,
-   "published": "2026-07-19T06:01:42+08:00",
+   "published": "2026-07-19T14:01:42+08:00",
    "summary": "Yu Sasahara is voicing Maiko Tokishima, Shogo Batori is voicing Giro Hando, Fuka Izumi is voicing Naru Jurinna"
   },
   {
@@ -145,7 +145,7 @@
    "category": "anime",
    "lang": "en",
    "weight": 9,
-   "published": "2026-07-19T05:41:50+08:00",
+   "published": "2026-07-19T13:41:50+08:00",
    "summary": "English dubs for all 3 series debut on Sunday"
   },
   {
@@ -156,7 +156,7 @@
    "category": "anime",
    "lang": "en",
    "weight": 9,
-   "published": "2026-07-19T00:51:40+08:00",
+   "published": "2026-07-19T08:51:40+08:00",
    "summary": "Coming-of-age series launched in June 2021, inspired anime in January 2025"
   },
   {
@@ -167,7 +167,7 @@
    "category": "anime",
    "lang": "en",
    "weight": 9,
-   "published": "2026-07-18T18:39:44+08:00",
+   "published": "2026-07-19T02:39:44+08:00",
    "summary": "Haruka Shiraishi, Miyu Tomita join cast of October series"
   },
   {
@@ -178,7 +178,7 @@
    "category": "anime",
    "lang": "en",
    "weight": 9,
-   "published": "2026-07-18T15:00:00+08:00",
+   "published": "2026-07-18T23:00:00+08:00",
    "summary": "Detective Conan returns from break last week, ranks 2nd"
   },
   {
@@ -189,7 +189,7 @@
    "category": "anime",
    "lang": "en",
    "weight": 9,
-   "published": "2026-07-18T13:00:00+08:00",
+   "published": "2026-07-18T21:00:00+08:00",
    "summary": "Magical Girl Witch Trials Switch version debuts at #2, Echoes of Aincrad at #5"
   },
   {
@@ -200,7 +200,7 @@
    "category": "anime",
    "lang": "en",
    "weight": 9,
-   "published": "2026-07-18T11:00:00+08:00",
+   "published": "2026-07-18T19:00:00+08:00",
    "summary": "Ami Koshimizu, Kaede Hondo join cast as Arisu's sisters"
   },
   {
@@ -211,7 +211,7 @@
    "category": "anime",
    "lang": "en",
    "weight": 9,
-   "published": "2026-07-18T07:54:21+08:00",
+   "published": "2026-07-18T15:54:21+08:00",
    "summary": "Game's planned global version also seemingly canceled as Square Enix, Tencent terminate licensing agreement"
   },
   {
@@ -222,7 +222,7 @@
    "category": "anime",
    "lang": "en",
    "weight": 9,
-   "published": "2026-07-17T21:00:00+08:00",
+   "published": "2026-07-18T05:00:00+08:00",
    "summary": "Witch Watch, DAN DA DAN anime; Mobile Suit Gundam the Witch from Mercury—Vanadis Heart, Star Wars Visions: Tsukumo manga ship"
   },
   {
@@ -233,7 +233,7 @@
    "category": "anime",
    "lang": "en",
    "weight": 9,
-   "published": "2026-07-17T19:00:00+08:00",
+   "published": "2026-07-18T03:00:00+08:00",
    "summary": "\"System Sync\" store to run from August 14-30 will feature merch, photo installations, stamp rally"
   },
   {
@@ -244,8 +244,19 @@
    "category": "anime",
    "lang": "en",
    "weight": 9,
-   "published": "2026-07-17T17:17:44+08:00",
+   "published": "2026-07-18T01:17:44+08:00",
    "summary": "Cristina Vee, Marwa Elda, Abi Kumar, Yussef Benelbar, more star in 1st 2 dubbed episodes on Saturday"
+  },
+  {
+   "id": "20801edc2c20",
+   "title": "『追放された悪役令嬢は【錬金スキル】で華麗なるチート生活を満喫する』のコミカライズ連載が開始",
+   "url": "https://ln-news.com/articles/126138",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-07-20T05:00:00+08:00",
+   "summary": ""
   },
   {
    "id": "f6f0aaa61dfe",
@@ -255,7 +266,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 8,
-   "published": "2026-07-19T12:37:07+08:00",
+   "published": "2026-07-19T20:37:07+08:00",
    "summary": "Yostarは2026年7月19日，「ステラソラ」の公式生放送を実施し，ゲーム内イベント「ワーキングサマーバケーション」を7月21日のメンテナンス後から8月4日4：59まで開催すると発表した。新たな限定★5巡遊者「ウィロー（水着）」やメインストーリー第八章の実装など最新情報をお伝えしよう。"
   },
   {
@@ -266,7 +277,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 8,
-   "published": "2026-07-19T12:30:00+08:00",
+   "published": "2026-07-19T20:30:00+08:00",
    "summary": "バンダイナムコエンターテインメントは本日（2026年7月19日），オンラインゲーム「機動戦士ガンダムバトルオペレーション2」の8周年を記念した「8周年大感謝祭」を，7月23日14：00から開催すると発表した。"
   },
   {
@@ -277,7 +288,40 @@
    "category": "game",
    "lang": "ja",
    "weight": 8,
-   "published": "2026-07-19T11:00:00+08:00",
+   "published": "2026-07-19T19:00:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "db451cb51e39",
+   "title": "アニメ『ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。』第3話「隠し子疑惑を向けられた上、初冒険に付き合うことになった」のあらすじ＆先行カット解禁",
+   "url": "https://ln-news.com/articles/126095",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-07-19T18:00:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "f2156e232f05",
+   "title": "『デート・ア・ライブ』15周年記念オンラインくじが登場 つなこ氏による描き下ろしイラストや原作イラストを使用したオリジナルグッズがラインナップ",
+   "url": "https://ln-news.com/articles/126063",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-07-19T16:30:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "9df68ca42d8d",
+   "title": "「小説『薬屋のひとりごと』原作展 毒と薬、科学とミステリー」大阪での巡回展が開催中",
+   "url": "https://ln-news.com/articles/126134",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-07-19T15:00:00+08:00",
    "summary": ""
   },
   {
@@ -288,8 +332,41 @@
    "category": "game",
    "lang": "ja",
    "weight": 8,
-   "published": "2026-07-19T06:00:00+08:00",
+   "published": "2026-07-19T14:00:00+08:00",
    "summary": "「龍が如く3」と，17年後に“再演”された「龍が如く極3/龍が如く3外伝DarkTies」。快適さの裏で失われる手触り，社会派ドラマの系譜，大胆な改変に宿る日本の大衆娯楽の文法から，シリーズとRGGスタジオが歩んだサバイバルの歴史を読み解く。"
+  },
+  {
+   "id": "c0cf688d6dc4",
+   "title": "アニメ『転生したら剣でしたII』舞台挨拶付き第1～3話先行上映会の開催が決定",
+   "url": "https://ln-news.com/articles/126132",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-07-19T13:30:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "0fd35df1145e",
+   "title": "【先週の重版：7月12日～7月18日】『あそびのかんけい』第1～3巻、『透明な夜に駆ける君と、目に見えない恋をした。』シリーズなど",
+   "url": "https://ln-news.com/articles/126136",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-07-19T12:00:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "2416bd2f1c92",
+   "title": "アニメ『捨てられ聖女の異世界ごはん旅 隠れスキルでキャンピングカーを召喚しました』第3話「海で開戦！ 海鮮バーベキュー！」のあらすじ＆先行カット解禁",
+   "url": "https://ln-news.com/articles/126115",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-07-19T10:00:00+08:00",
+   "summary": ""
   },
   {
    "id": "ecdcbf787001",
@@ -299,8 +376,52 @@
    "category": "game",
    "lang": "ja",
    "weight": 8,
-   "published": "2026-07-19T01:00:00+08:00",
+   "published": "2026-07-19T09:00:00+08:00",
    "summary": "ある放課後，フリーズしたノートPCに“強制再起動”という名の拳を振り上げた凛。そこに割って入ったのは「機械精霊が怒っちゃう」と主張する穂香だった。曰く，彼女の頭の中は新クラスが追加された「Warhammer40,000:Darktide」でいっぱいなのだという。そんなわけで，今回は「WH40KD」の話をします。"
+  },
+  {
+   "id": "c5b7cf6cb638",
+   "title": "GCN文庫2026年7月刊行のラインナップをご紹介。『クラスメイトの元アイドルが、とにかく挙動不審なんです。4』『ハブられルーン使いの異世界冒険譚6』など6冊",
+   "url": "https://ln-news.com/articles/126122",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-07-19T08:30:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "16fb125c36a1",
+   "title": "『ダンジョンに出会いを求めるのは間違っているだろうか』神威解放したヘスティア1／7スケールフィギュアが2027年5月発売",
+   "url": "https://ln-news.com/articles/126099",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-07-19T07:00:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "697c3395bfec",
+   "title": "『口約束は果たされた～辺境伯家の婿は溺愛される～』のコミカライズ連載が開始",
+   "url": "https://ln-news.com/articles/126121",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-07-19T05:00:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "846250597e20",
+   "title": "アニメ『無自覚聖女は今日も無意識に力を垂れ流す』第3話「建国記念パーティー」のあらすじ＆先行カット解禁",
+   "url": "https://ln-news.com/articles/126108",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-07-18T18:00:00+08:00",
+   "summary": ""
   },
   {
    "id": "b19069b6269b",
@@ -310,7 +431,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 8,
-   "published": "2026-07-18T09:06:32+08:00",
+   "published": "2026-07-18T17:06:32+08:00",
    "summary": "LacunaWorksが開発した「DesktopReptiles」がSteamでリリースされた。飼育ケージをレイアウトしたり，水やエサをやったり，温度管理をしたりして，画面の隅で暮らすヒョウモントカゲモドキを観察する，爬虫類ファン垂涎の放置系シミュレーションゲームだ。"
   },
   {
@@ -321,8 +442,30 @@
    "category": "game",
    "lang": "ja",
    "weight": 8,
-   "published": "2026-07-18T09:00:00+08:00",
+   "published": "2026-07-18T17:00:00+08:00",
    "summary": "今週発売されたSteamの注目タイトルやセール情報をお届けする「週刊Steam広場」。今週は，スチームパンクの世界を舞台とするローグライトタクティカルRPG「DeadWeight」や，近未来の日本を舞台とするトリックアクションレースゲーム「電車アタック」がリリースされた。"
+  },
+  {
+   "id": "68962a70f9ab",
+   "title": "アニメ『死亡遊戯で飯を食う。』アニメガ×ソフマップ先行販売フェアが開催中",
+   "url": "https://ln-news.com/articles/126116",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-07-18T16:30:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "3959a907d7a9",
+   "title": "『落ちこぼれ聖女は最強竜騎士の専属治癒担当』のスペシャルPVが公開中 クライヴ役を江口拓也さんが担当",
+   "url": "https://ln-news.com/articles/126119",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-07-18T15:00:00+08:00",
+   "summary": ""
   },
   {
    "id": "1f73318e322f",
@@ -332,8 +475,30 @@
    "category": "game",
    "lang": "ja",
    "weight": 8,
-   "published": "2026-07-18T06:36:39+08:00",
+   "published": "2026-07-18T14:36:39+08:00",
    "summary": "HoodedHorseは2026年7月17日，MadCookiesStudioが開発したPC向けの新作ソフト「Fogpiercer（フォグピアサー）」の配信を開始し，ローンチトレイラーを公開した。固有のカードを持つ機関車や貨車などでデッキを作り，終末世界を戦い抜くというデッキ構築型ローグライトだ。"
+  },
+  {
+   "id": "e97481a76887",
+   "title": "知念実希人氏初のライトノベル作品『偽世界転生』発売記念サイン会が紀伊國屋書店新宿本店にて開催決定",
+   "url": "https://ln-news.com/articles/126113",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-07-18T13:30:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "29986bfe1ed2",
+   "title": "アニメ『二十世紀電氣目録-ユーレカ・エヴリカ-』第3話「二人の夢」のあらすじ＆先行カット解禁",
+   "url": "https://ln-news.com/articles/126107",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-07-18T12:00:00+08:00",
+   "summary": ""
   },
   {
    "id": "5a1cd49b90b9",
@@ -343,7 +508,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 8,
-   "published": "2026-07-18T03:43:29+08:00",
+   "published": "2026-07-18T11:43:29+08:00",
    "summary": "フリューは，INFOLDがサービス中の恋愛シム「恋と深空」と，プリ機「Bloomit」とのコラボを発表した。男性主人公5人と2ショット風のプリが撮れる撮影コースを搭載する。撮影フレームや新たに収録したガイド音声，作中のBGMを収め，カレと一緒に撮ったような仕上がりを楽しめるという。"
   },
   {
@@ -354,7 +519,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 8,
-   "published": "2026-07-18T02:00:00+08:00",
+   "published": "2026-07-18T10:00:00+08:00",
    "summary": ""
   },
   {
@@ -365,7 +530,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 8,
-   "published": "2026-07-18T00:00:00+08:00",
+   "published": "2026-07-18T08:00:00+08:00",
    "summary": "DigitalExtremesは7月10日，11日の2日間，開発・運営するオンラインアクションRPG「Warframe」と，現在開発中でクローズドαテストが実施されている新作「Soulframe」のファンイベント「TennoCon2026」を開催した。本稿ではイベントのレポートや，現地で行ったインタビューをお届けしよう"
   },
   {
@@ -376,7 +541,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 8,
-   "published": "2026-07-18T00:00:00+08:00",
+   "published": "2026-07-18T08:00:00+08:00",
    "summary": "EsportsFoundationは，世界最大級のeスポーツイベント「EsportsWorldCup2026」を，フランス・パリで7月6日から8月23日まで開催している。本稿では，同団体の幹部であるMikeMcCabe氏，MohammedAlnimer氏，FabianScheuermann氏，HansJagnow氏への"
   },
   {
@@ -387,7 +552,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 8,
-   "published": "2026-07-17T23:00:00+08:00",
+   "published": "2026-07-18T07:00:00+08:00",
    "summary": "買ったばかりで開封したての新品Switch2が「100％充電で何時間起動してくれるのか」を測りました。レギュレーションと言い訳をここに記します。9.9割以上のユーザーには価値のなさそうなタイムアタックですが，参考記録にどうぞ。"
   },
   {
@@ -398,7 +563,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 8,
-   "published": "2026-07-17T17:41:38+08:00",
+   "published": "2026-07-18T01:41:38+08:00",
    "summary": "ソニー・インタラクティブエンタテインメントは本日（2026年7月18日），8月7日に発売する対戦格闘ゲーム「MARVELTōkon:FightingSouls」の登場キャラクター「ゴーストライダー」を紹介するキャラクターガイド動画を公開した。"
   },
   {
@@ -409,7 +574,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 8,
-   "published": "2026-07-17T17:00:00+08:00",
+   "published": "2026-07-18T01:00:00+08:00",
    "summary": "FairGamesは本日，サバイバルクラフト・アドベンチャー「Necesse:ネセス」の大型アップデート「錆とロマンス」を7月30日に配信すると発表した。新バイオームや戦闘要素，ロマンス要素が追加される。Steam無料ウィークエンドも開催される予定だ。"
   },
   {
@@ -420,7 +585,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-19T15:00:00+08:00",
+   "published": "2026-07-19T23:00:00+08:00",
    "summary": "本期时间轴制作： 天行之前老白曾经约过狼叔录了一期游戏纸媒节目，但总觉得意犹未尽。这一次两人摆上酒，在他家客厅里，聊了点这十年来的辛酸苦辣。说了很多，都是亲身经历，满嘴荒唐言，一壶快乐酒。"
   },
   {
@@ -431,7 +596,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T12:30:03+08:00",
+   "published": "2026-07-19T20:30:03+08:00",
    "summary": "TVドラマ『VIVANT』のサイドストーリー『ドラム―VIVANT THE ORIGIN STORY―』の第4話に、声優の大谷育江が出演することがわかった。ジャミーンの携帯音声役を務める。"
   },
   {
@@ -442,7 +607,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T11:00:03+08:00",
+   "published": "2026-07-19T19:00:03+08:00",
    "summary": "声優の戸谷菊之介の楽曲「Off to the Groove」が7月26日に配信リリースされる。8月には単独としては初のライブイベントの開催も控えており、アーティスト活動が本格的に始動する。"
   },
   {
@@ -453,7 +618,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T10:30:03+08:00",
+   "published": "2026-07-19T18:30:03+08:00",
    "summary": "「にじさんじ」所属VTuber三枝明那のフィギュアが登場。フリューの高品質ブランド「F:NEX」からのアイテムとなっており、価格は24,750円（税込）で発売は2027年5月を予定している。"
   },
   {
@@ -464,7 +629,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T10:00:03+08:00",
+   "published": "2026-07-19T18:00:03+08:00",
    "summary": "Xのフォロワー数52万人のにいちによるマンガ『現実（リアル）もたまには嘘をつく』が、2027年にTVアニメ化することが決定した。"
   },
   {
@@ -475,7 +640,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T09:45:02+08:00",
+   "published": "2026-07-19T17:45:02+08:00",
    "summary": "TVアニメ『WIND BREAKER』から桜遥らの描き下ろしイラストを使用したグッズが手に入る「まるくじ TVアニメ『WIND BREAKER』【アニマルチャイナ】」が登場。2026年7月26日(日) 23時59分まで発売中だ。"
   },
   {
@@ -486,7 +651,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T09:30:02+08:00",
+   "published": "2026-07-19T17:30:02+08:00",
    "summary": "アニメ『銀河特急 ミルキー☆サブウェイ』より、オンラインくじでしか手に入らなかった限定イラストが、完全新作グッズとして新たに登場。受注販売を開始した。"
   },
   {
@@ -497,7 +662,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T09:00:03+08:00",
+   "published": "2026-07-19T17:00:03+08:00",
    "summary": "「一番くじ 勝利の女神：NIKKE CHAPTER8」では、フィギュア、等身大タペストリー、プレイマット、ひんやりクールタオルなどが当たります♪"
   },
   {
@@ -508,7 +673,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T08:52:06+08:00",
+   "published": "2026-07-19T16:52:06+08:00",
    "summary": "Now Gamingは毎週日曜日、各ライターがその週にプレイしたゲームについて、ゆるく書きちらすコーナーです。553回目です。"
   },
   {
@@ -519,7 +684,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T08:45:03+08:00",
+   "published": "2026-07-19T16:45:03+08:00",
    "summary": "スヌーピーとギンガムチェックを組み合わせた「巾着」「ミニポーチ」「ガマ口ポーチ」「シュシュ」「バンスクリップ」が登場☆"
   },
   {
@@ -530,7 +695,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T08:40:03+08:00",
+   "published": "2026-07-19T16:40:03+08:00",
    "summary": "『新テニスの王子様 U-17 WORLD CUP(アンダーセブンティーンワールドカップ) 決勝メンバー決定戦』が、2026年秋に放送開始。今回、ティザービジュアル第3弾、オープニングテーマ、エンディングテーマが同時発表となった。さらに、スペイン代表 ロミオ・フェルナンデス役は城田優に決定した。"
   },
   {
@@ -541,7 +706,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T08:35:30+08:00",
+   "published": "2026-07-19T16:35:30+08:00",
    "summary": "アニメ『鬼滅の刃』全編再放送第十五話では、鬼殺隊員の村田さんが初登場で大活躍!? 「今後も付き合い長い村田さんじゃないか！」とネット上でも歓喜の声♪"
   },
   {
@@ -552,7 +717,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T08:30:03+08:00",
+   "published": "2026-07-19T16:30:03+08:00",
    "summary": "『陰の実力者になりたくて！』の豪華賞品が手に入る「陰の実力者になりたくて！オンラインくじ 第2弾」が、オンラインくじサービス「くじ引き堂」にて2026年7月21日(火)12時より販売開始となる。"
   },
   {
@@ -563,7 +728,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T08:15:03+08:00",
+   "published": "2026-07-19T16:15:03+08:00",
    "summary": "夏アニメ『無職転生III ～異世界行ったら本気だす～』より、2026年7月19日（日）から放送開始となる第4話 「水王級魔術師」のあらすじと先行場面カットが公開された。"
   },
   {
@@ -574,7 +739,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T08:00:03+08:00",
+   "published": "2026-07-19T16:00:03+08:00",
    "summary": "TVアニメ『鉄鍋のジャン！』が、7月5日よりテレビ東京ほかにて放送スタート。主題歌を担当する・原因は自分にある。の大倉空人さんと長野凌大さんにインタビュー！"
   },
   {
@@ -585,7 +750,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T07:30:04+08:00",
+   "published": "2026-07-19T15:30:04+08:00",
    "summary": "「モンチッチ」のスマホアクセサリー、「モンチッチ DECOLOOP」が2026年7月17日（金）より発売が開始された。"
   },
   {
@@ -596,7 +761,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T07:18:45+08:00",
+   "published": "2026-07-19T15:18:45+08:00",
    "summary": "本稿ではSteamにてこの1週間でセールが開始されたタイトルのうち、特に割引率の高いゲームに焦点を当てて紹介する。"
   },
   {
@@ -607,7 +772,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T07:00:07+08:00",
+   "published": "2026-07-19T15:00:07+08:00",
    "summary": "『僕のヒーローアカデミア』と京都の老舗木版画工房「竹笹堂」がコラボした緑谷出久・爆豪勝己・轟焦凍の浮世絵木版画が登場。2026年7月31日（金）より「HIKE」公式サイトおよび一部店舗にて販売される。"
   },
   {
@@ -618,7 +783,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T05:27:24+08:00",
+   "published": "2026-07-19T13:27:24+08:00",
    "summary": "今週のAUTOMATONにて反響の大きかったゲーム紹介系記事を中心に、7本の記事をピックアップ。今週は『ダスクブラッド』のほか、『稗: The Dream Of A Cockspur』や『サドンアタック：ゼロポイント』などが話題となった。"
   },
   {
@@ -629,7 +794,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T04:01:15+08:00",
+   "published": "2026-07-19T12:01:15+08:00",
    "summary": "はこにわ大海戦氏は7月15日、海戦シミュレーション『はこにわ大海戦』を公開した。本作は徳岡宏樹氏による『箱庭諸島』をモチーフとした、島開拓海戦シミュレーションだ。"
   },
   {
@@ -640,7 +805,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T03:01:09+08:00",
+   "published": "2026-07-19T11:01:09+08:00",
    "summary": "ゲーム人材の紹介・派遣サービスを手がけるIMAGICA GEEQに転職のあれこれを訊く連載の第9回。今回は2025年度のゲーム業界における派遣事情について訊いてみた。"
   },
   {
@@ -651,7 +816,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-19T01:56:43+08:00",
+   "published": "2026-07-19T09:56:43+08:00",
    "summary": "正式リリースを迎えた『Palworld / パルワールド』の勢いが止まらず、Steamの同時接続プレイヤー数は増加を続け、ついに90万人を超えたようだ。"
   },
   {
@@ -662,7 +827,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-18T15:00:00+08:00",
+   "published": "2026-07-18T23:00:00+08:00",
    "summary": "本期时间轴制作： 西楼《死亡空间》之父Glen Schofield宣布退休；《全面战争：战锤40K》公布最新实机演示；《英雄联盟》国服经典模式定档7月30日；《守望先锋》角斗领域不再加入新英雄和新地图；《女神异闻录４ Revival》公布中文语音宣传片；《湮灭之潮》成都线下试玩会招募开启；《The Duskbloods"
   },
   {
@@ -673,7 +838,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-18T14:35:57+08:00",
+   "published": "2026-07-18T22:35:57+08:00",
    "summary": "本期内容1、《古剑》新游戏的试玩体验2、三国争洛阳，八仙，这两个好不好看3、聊聊有21个新职业的魔兽世界声明：任何网游的私服都是违法的，合法的就不是私服了。玩私服极有可能突然数据消失。而且没有保护。不推荐任何人玩私服！不推荐任何人玩私服！"
   },
   {
@@ -684,7 +849,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-18T14:11:00+08:00",
+   "published": "2026-07-18T22:11:00+08:00",
    "summary": "全球知名电子游戏公司世嘉（SEGA）今日宣布，世嘉北京旗舰店于北京朝阳大悦城B1层正式盛大开业。作为世嘉全国第二家常设官方门店与华北地区的首家综合旗舰店，此次开业旨在为华北地区的广大玩家与粉丝打造专属的线下互动空间，同样标志着世嘉在C端渠道拓展战略上迈出了重要一步。 世嘉北京旗舰店延续了品牌一贯的创新精神，店内不仅汇集"
   },
   {
@@ -695,7 +860,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-18T11:00:00+08:00",
+   "published": "2026-07-18T19:00:00+08:00",
    "summary": "上周，北京环球影城举办了 “洛天依14周年共鸣之夜线下生日歌会·超无限信号” 限定活动，感谢北环的邀请，我也终于能够再次以一个“老二次元”的身份参与这场线下聚会。 坦白说，我对洛天依的关注还停留在好多年前。作为那时最出圈的中文VOCALOID电子歌姬，我总是会粗暴地把她比作“中国版的初音未来”，后来，我的注意力被工作、"
   },
   {
@@ -706,7 +871,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-18T09:17:46+08:00",
+   "published": "2026-07-18T17:17:46+08:00",
    "summary": "大家好，欢迎收听《游戏人有态度》，我是大盛。就在昨天，Kimi 发布了新一代大模型 K3。更有意思的是，Kimi 没有只把它包装成一个“更强的聊天机器人”，而是顺手推出了一个非常有传播感的小游戏平台：K399。这个名字一出来，懂游戏的人很难不联想到 4399。所以这期，我特意找来到北京旅游的《周五摸鱼》主播萧墨，我们想"
   },
   {
@@ -717,7 +882,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-18T09:02:41+08:00",
+   "published": "2026-07-18T17:02:41+08:00",
    "summary": "私がポケモンにどっぷりハマったきっかけは「ダブルバトル」。そして、私のポケモンとの出会い方も、おそらく皆さんの大半といささか異なる。"
   },
   {
@@ -728,7 +893,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-18T08:31:25+08:00",
+   "published": "2026-07-18T16:31:25+08:00",
    "summary": "Leylineは7月16日、『Guildrun』の体験版をリリースした。本作はPvEローグライク・オートバトラーとして、体験版時点より高い評価を博している。"
   },
   {
@@ -739,7 +904,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-18T07:45:50+08:00",
+   "published": "2026-07-18T15:45:50+08:00",
    "summary": "offbrand gamesは7月17日、Icedrop Gamesが手がけるローグライク・ビリヤードゲーム『Ultrapool』を8月25日に配信すると発表した。"
   },
   {
@@ -750,7 +915,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-18T07:27:18+08:00",
+   "published": "2026-07-18T15:27:18+08:00",
    "summary": "Ubisoftは7月17日、『アサシン クリード ブラック フラッグ RE:シンクロ』の販売本数が発売から1週間で300万本を突破したことを発表した。一方で、開発を担当したUbisoft Barcelonaではレイオフ計画も立ち上がっている。"
   },
   {
@@ -761,7 +926,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-18T07:21:23+08:00",
+   "published": "2026-07-18T15:21:23+08:00",
    "summary": "提到《Another Eden（另一个伊甸：超越时空的猫）》，对于许多热爱日式 RPG 的玩家而言，绝对是一个分量十足的名字。这部由曾执笔《时空之轮》、《异度装甲》等作品的著名剧作家加藤正人创作的，拥有宏大时空世界观的作品，在长线运营的手机端已经走过了十个年头。而就在近期，由新成立的独立工作室“Studio Prism"
   },
   {
@@ -772,7 +937,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-18T07:00:00+08:00",
+   "published": "2026-07-18T15:00:00+08:00",
    "summary": "■ 世纪华通发布半年度业绩预告，出海产品保持高位增长 7月14日，世纪华通发布2026年半年度业绩预告。预告中显示，经公司初步测算,预计2026 年上半年合并营业收入约220 亿元,同比增长约28%。其中游戏业务这一核心板块表现突出。 这要归功于子公司的海外业务仍然呈现强势增长。世纪华通旗下Century Games的"
   },
   {
@@ -783,7 +948,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-18T04:27:45+08:00",
+   "published": "2026-07-18T12:27:45+08:00",
    "summary": "PlayWayは7月16日、threeWが手がける『Ore Factory Squad』を配信した。さっそく多くのプレイヤーを集めており、好評率も高い好調なスタートを切っている。"
   },
   {
@@ -794,7 +959,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-18T04:00:00+08:00",
+   "published": "2026-07-18T12:00:00+08:00",
    "summary": "欢迎回到“核电波”！今天我们回忆一下曾经的网吧与包机房生活，听西蒙再讲讲他差点被闪光弹物理带走的故事。本期为机核视频播客节目音频版，若大家想看我们在录节目的时候究竟是什么样的状态,可以关注我们的B站账号【核电波】 本期主播：Nadya / 西蒙 / Ryoma"
   },
   {
@@ -805,7 +970,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-18T03:24:51+08:00",
+   "published": "2026-07-18T11:24:51+08:00",
    "summary": "lackMill Gamesは7月17日、『Gallipoli』を8月20日に発売すると発表した。本作は第一次世界大戦におけるガリポリの戦いをモチーフにしたFPSだ。"
   },
   {
@@ -816,7 +981,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-18T01:20:54+08:00",
+   "published": "2026-07-18T09:20:54+08:00",
    "summary": "101XPは7月18日、『The Life and Suffering of Sir Brante』の無料配布をSteamで開始した。配布期間は7月24日2時まで。"
   },
   {
@@ -827,7 +992,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-18T01:00:00+08:00",
+   "published": "2026-07-18T09:00:00+08:00",
    "summary": "统计学的原理支撑了社会调查的可靠性，尽管它违反直觉。民众觉得”样本不够多“，和调查者暗示”统计方法是黑箱操作“，是同一种偏见的一体两面。本期讨论了这类现象，下期会推进到更底层。本期主播：重轻从8月1日开始，重轻要做一个系列讲座，题目是《二十世纪的乐器》。具体信息：在北京的 Pillbox 俱乐部，每个周六晚和周日下午，"
   },
   {
@@ -838,7 +1003,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-18T00:52:02+08:00",
+   "published": "2026-07-18T08:52:02+08:00",
    "summary": "Bethesda Game Studiosは7月17日、『Fallout 3』および『Fallout: New Vegas』のリマスター版の開発を進めていると発表。その他同社IPの今後の展望についても明かされている。"
   },
   {
@@ -849,7 +1014,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-17T16:00:00+08:00",
+   "published": "2026-07-18T00:00:00+08:00",
    "summary": "由Recurring Dream开发，indienova负责中国区发行的复古桌面悬疑冒险游戏《桌面探索者》（Desktop Explorer）现已在Steam平台发售。国区定价62元，首发九折优惠，仅需55.8元。另外，游戏还分别与《梦界狂徒》、《接线疑云》、《加利宅邸悬案》等作品组成捆绑包，一起购买有额外优惠。 《桌"
   },
   {
@@ -860,7 +1025,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-17T15:00:00+08:00",
+   "published": "2026-07-17T23:00:00+08:00",
    "summary": "本期时间轴制作： 老斧子最近的“索尼互娱宣布将于2028年1月起取消PS平台新游戏实体盘生产”新闻，我们想以此为由头，聊聊关于过去自己经历的二手交易的趣事，包括但不限于二手书、二手游戏、小卡、服饰、数码产品等等。当然节目后半段也推荐和分享了最近看的书《侦破我的命案》，几个推理解谜文字游戏，和一些影视作品的观后感。"
   },
   {
@@ -871,7 +1036,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-17T14:19:58+08:00",
+   "published": "2026-07-17T22:19:58+08:00",
    "summary": "贝塞斯达游戏工作室负责人 Todd Howard 在官网发布长文，介绍工作室的未来计划以及玩家可以在数年中期待的内容。B社宣布，正在使用全新的 Creation Engine 3引擎打造《辐射5》，目前正处于前期制作阶段。在此基础上，黑曜石娱乐将再次与贝塞斯达合作开发一款全新的《辐射》系列游戏。 此外，《辐射3》和《辐"
   },
   {
@@ -882,7 +1047,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-17T14:18:00+08:00",
+   "published": "2026-07-17T22:18:00+08:00",
    "summary": "继 《辐射5》及黑曜石娱乐《辐射》新作官宣，贝塞斯达承诺持续推出《星空》及《上古卷轴Online》更新。官方确认，目前《星空》拥有超过1700万玩家，累计游玩时间近10亿小时。贝塞斯达明年将推出全新的《星空》星裔内容，并继续更新故事和优化玩法。 与此同时，贝塞斯达旗下的工作室合作也在加深。ZeniMax 在线工作室将与"
   },
   {
@@ -893,7 +1058,7 @@
    "category": "game",
    "lang": "ja",
    "weight": 7,
-   "published": "2026-07-17T12:41:35+08:00",
+   "published": "2026-07-17T20:41:35+08:00",
    "summary": "HoYoverseは7月17日、『ゼンレスゾーンゼロ』の新バージョンを7月29日にリリースすると発表した。新バージョンでは新キャラのほか、さまざまな要素が新たに実装される。"
   },
   {
@@ -904,7 +1069,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-17T11:20:07+08:00",
+   "published": "2026-07-17T19:20:07+08:00",
    "summary": "【机事本】是机核文章区的栏目，每周五更新。每周五下班之前，我们会收集几位编辑的“小作文”，题材随意，立意自选，栏目名取自Windows系统自带的最轻便的文本编辑器，代表“轻便与畅快”。本周出场人物：鼠鼠，萝卜，引擎鼠鼠：竞体初心者观赛有感这半年我突然陷入了奇妙且荒谬的状态：作为一个对体育本身毫无兴趣，并且初高中大学一直"
   },
   {
@@ -915,7 +1080,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-17T11:04:16+08:00",
+   "published": "2026-07-17T19:04:16+08:00",
    "summary": "发行商 Daedalic Entertainment 与开发商 gameXcite 今日正式拓展《星际迷航：航海家号 - 穿越未知》的游戏宇宙，推出扩展通行证及首个DLC“德尔塔编年史”（Delta Chronicles）。与此同时，面向所有玩家的免费更新0.8版本也于今日正式上线。 <内嵌内容，请前往机核查看>对于刚"
   },
   {
@@ -926,7 +1091,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-17T10:39:57+08:00",
+   "published": "2026-07-17T18:39:57+08:00",
    "summary": "想象一下，如果一款二次元游戏内置桌面伴侣功能，玩家拥有的角色可以陪你学习、工作、听歌，会是什么样子？ 此时此刻，我一边在写稿，一边电脑桌面的背景是一位叫做“亚纪子”的美少女。她坐在一旁楼梯上看书，每隔几分钟便会放下手中的书，和我互动聊天，拿书中的问题考我。当然，如果你用的是手机，也可以架在一旁，和她一起看书，偶尔点击屏"
   },
   {
@@ -937,7 +1102,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-17T10:27:00+08:00",
+   "published": "2026-07-17T18:27:00+08:00",
    "summary": "触乐怪话，每天胡侃和游戏有关的屁事、鬼事、新鲜事。 明面与暗面（图/小罗） 上周末，我和王琳茜老师去了上海BW。此前，我对游戏展的印象大概是热闹与拥挤，它们是游戏玩家的盛会。虽然总免不了排队，但它们将这种体验归还至游玩与交流本身。对于媒体来说，在线下也能有机会接触项目组，直观感受某款游戏的人气值。 但这次有些不同。 在"
   },
   {
@@ -948,7 +1113,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-17T10:26:51+08:00",
+   "published": "2026-07-17T18:26:51+08:00",
    "summary": "6月10日对于黄威来说非常重要。在这一天，他拿到了50万元的天使投资，投资人是一家电力公司的负责人老张。在黄威的计划里，他将用这笔资金做AI漫剧和AI游戏。过去20年，他一直在房地产行业工作。而在一个月前，他还在研究鱼缸造景。拿到投资后，他立马推掉了一单鱼缸造景的生意。 ■ 一家AI初创团队 黄威44岁，他在今年2月决"
   },
   {
@@ -959,7 +1124,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-16T09:50:22+08:00",
+   "published": "2026-07-16T17:50:22+08:00",
    "summary": "触乐怪话，每天胡侃和游戏有关的屁事、鬼事、新鲜事。 说得简单！（图/小罗） 《节奏天国：奇迹之星》发售之后，我第一时间就买了下来，却没有第一时间玩，而是很有“先见之明”地看了看其他人的实况。毕竟，尽管上一作“节奏天国”已经是10年前的事儿了，但新作难度还没个准，而我的反应速度肯定比10年前差得多。为了一定程度上避免被可"
   },
   {
@@ -970,7 +1135,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-16T09:50:00+08:00",
+   "published": "2026-07-16T17:50:00+08:00",
    "summary": "“所以，你能向我们提供什么帮助？“我面前的波兰人双臂支在桌子上，严肃地看着我。我甚至可以清晰地看到他的淡灰蓝色的瞳孔。”你看过了我们的游戏，现在我们在找它在中国的发行商，我们需要熟悉中国市场的合作伙伴，也在考虑进行资金方面的合作——现在您可以告诉我，您可以为我们做点什么了。” 我参加的这场闭门交流会在这座老建筑里举行，"
   },
   {
@@ -981,7 +1146,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-16T04:15:21+08:00",
+   "published": "2026-07-16T12:15:21+08:00",
    "summary": "7月15日，2026“指尖星图”游戏创新大赛典礼于北京举行，最终结果揭晓。 “指尖星图”游戏创新大赛颁奖典礼于北京石景山区成功举行 “指尖星图”游戏创新大赛旨在深入贯彻创新驱动发展战略，推动原创游戏内容创新发展，促进创新成果转化与产业协同，构建以机制创新为核心、以产品质量为导向的创新游戏生态体系。 本届大赛由石景山园管"
   },
   {
@@ -992,7 +1157,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-15T08:57:00+08:00",
+   "published": "2026-07-15T16:57:00+08:00",
    "summary": "触乐怪话，每天胡侃和游戏有关的屁事、鬼事、新鲜事。 没准真会这么想（图/小罗） 几年以前，我去拜访一位北京的朋友，身为北京土著以及玩家，他有一整个书房和一大排书柜整齐摆放着自己的海量游戏收藏，从DOS时代的国产经典到最新的PS游戏典藏版，真是眼花缭乱。 羡慕嫉妒中，我不禁幽幽地酸着，希望他这满坑满谷的东西一切安好。朋友"
   },
   {
@@ -1003,7 +1168,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-15T08:57:00+08:00",
+   "published": "2026-07-15T16:57:00+08:00",
    "summary": "前几天，刚刚结束的BilibiliWorld 2026（BW2026）现场，大部分人都会对一个“菜鸡”袋子印象深刻——超大的方正双肩包，可爱、显眼又实用，几乎可以说是人手一个。即使到现在，你都能看到不少人在社交平台分享回味：“这个雷霆大包完全盾牌来着”“一定要领这个包，硬蛇皮材质，容量特别大，还有魔术贴翻盖，拿回去给家"
   },
   {
@@ -1014,7 +1179,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-15T08:40:00+08:00",
+   "published": "2026-07-15T16:40:00+08:00",
    "summary": "上个周末在逛BW展时，每当经过4号馆，我的目光总会被腾讯FPS游戏《三角洲行动》展台前人潮拥挤的场景所吸引。 《三角洲行动》展台 从远处看，展台复刻了新赛季“烽火地带”的新地图AZ3核电站。走近后，一部分玩家围在台前看热场演出，一部分玩家排在展台的正前方，期望能够进入AZ3，实景感受搜刮与撤离，还有一部分玩家在展台旁的"
   },
   {
@@ -1025,7 +1190,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-14T12:00:15+08:00",
+   "published": "2026-07-14T20:00:15+08:00",
    "summary": "触乐怪话，每天胡侃和游戏有关的屁事、鬼事、新鲜事。 本插画纯属虚构，如有雷同...（图/小罗） 算上三四名决赛，今年美加墨世界杯只剩下四场比赛。这届世界杯的开赛时间对中国球迷不太友好，要么是在凌晨，要么是在早上。我能从容看上的场次并不多。像今晚的半决赛法国对阵西班牙，就只能放弃，我可不想顶着疲惫的脑子，起床写稿子。 我"
   },
   {
@@ -1036,7 +1201,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-14T12:00:00+08:00",
+   "published": "2026-07-14T20:00:00+08:00",
    "summary": "7月11日的乌镇，《蛋仔派对》第4届创作者大会在细雨中开场。涌入现场的人群看起来大多数都是大学或者研究生刚毕业的样子，但他们中，不少人已经是有着三四年经验的成熟乐园地图创作者了，这几年，他们是蛋仔乐园生命力的代名词。在现场展示的获奖作品中，一部分地图精巧的玩法和机关设计、环环相扣的剧情铺设、还有如幻似梦的场景呈现，已经"
   },
   {
@@ -1047,7 +1212,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-14T02:00:46+08:00",
+   "published": "2026-07-14T10:00:46+08:00",
    "summary": "7月10日（本周五），BiliBiliWorld 2026在上海国家会展中心拉开帷幕，这场为期三天的ACGN年度盛事每年都会吸引几十万人参与。 本届BiliBiliWorld 2026，万智牌携手漫威，在现场展出了刚刚发售的万智牌最新系列——万智牌丨漫威超级英雄——中的诸多珍稀卡牌以及产品。现场还设置了试玩体验、打卡合"
   },
   {
@@ -1058,7 +1223,7 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-13T13:06:47+08:00",
+   "published": "2026-07-13T21:06:47+08:00",
    "summary": "触乐怪话，每天胡侃和游戏有关的屁事、鬼事、新鲜事。 好可爱呀（图/小罗） 我做媒体工作一个多月了。我算是误打误撞来到这个行业，此前没有受过任何相关的训练，报道写作也是从零学起。 到目前为止，我最喜欢的工作是和人聊天。 一个月前，在一次关于“如何尽量快乐地工作”的对话里，我还很高兴地说：“哎，感觉采访的时候是最快乐的！”"
   },
   {
@@ -1069,173 +1234,173 @@
    "category": "game",
    "lang": "zh",
    "weight": 7,
-   "published": "2026-07-13T13:04:48+08:00",
+   "published": "2026-07-13T21:04:48+08:00",
    "summary": "在得知《焚忆塑终》进入2026光子游戏大赛复赛后，繁星和队友才发现，他们已经错过了提交新版本的时间。 团队里的程序当时正在实习，原本准备等到端午假期，再修掉几个Bug，提交一个更完善的新版本。提交窗口却在端午假期前关闭了。最终进入复赛的，仍是他们的旧版本：虽然可以完整游玩，核心功能、美术资源和存档系统都已经做完，但是还"
   },
   {
-   "id": "39b7d5646f89",
-   "title": "『BF6』が映画『トップガン』とコラボ！ シーズン4で日本が舞台の新マップ「ツル・リーフ」とリメイク版「ウェーク島」で大規模海戦が開幕！ カスタムロビーや観戦機能などシステム改善も実施",
-   "url": "http://www.gamespark.jp/article/2026/07/19/169477.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
+   "id": "82689678f21c",
+   "title": "【今日更新】转学后班上的清纯可爱美少女，竟是小时候玩在一起的哥们儿",
+   "url": "https://bgm.tv/subject/456080",
+   "source": "Bangumi 每日放送",
+   "category": "anime",
+   "lang": "zh",
    "weight": 6,
-   "published": "2026-07-19T13:35:02+08:00",
-   "summary": "『バトルフィールド6』シーズン4は海戦がテーマ。日本舞台の『ツル・リーフ』や名作マップ『Wake Island』復活や『トップガン』コラボの空母強襲モード、待望の観戦機能等が実装されます。"
+   "published": "2026-07-20T05:28:04+08:00",
+   "summary": ""
   },
   {
-   "id": "d340e10e37f5",
-   "title": "惑星開拓サバイバル『Nova Lands』簡単自動化・効率化で遊びやすさが光る！巨大なボスに挑まないという平和なプレイも【クラフトサバイバル名鑑】",
-   "url": "http://www.gamespark.jp/article/2026/07/19/169476.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
+   "id": "840d0b019cf5",
+   "title": "【今日更新】最强废渣皇子暗中活跃于帝位之争",
+   "url": "https://bgm.tv/subject/456081",
+   "source": "Bangumi 每日放送",
+   "category": "anime",
+   "lang": "zh",
    "weight": 6,
-   "published": "2026-07-19T13:30:03+08:00",
-   "summary": "【クラフトサバイバル名鑑】では、同ジャンルのゲームが好きな筆者による定番ゲームの魅力を紹介しています。"
+   "published": "2026-07-20T05:28:04+08:00",
+   "summary": ""
   },
   {
-   "id": "5c38f096186c",
-   "title": "『モンスト』の熱狂を海外、そしてスポーツへ。MIXI CEOが語る「3度のパラダイムシフト」と「ソーシャルの力」【GAME FUTURE SUMMIT 2026】",
-   "url": "http://www.gamespark.jp/article/2026/07/19/169475.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
+   "id": "ea8b97876575",
+   "title": "【今日更新】天子传奇：姬发篇",
+   "url": "https://bgm.tv/subject/491582",
+   "source": "Bangumi 每日放送",
+   "category": "anime",
+   "lang": "zh",
    "weight": 6,
-   "published": "2026-07-19T12:00:03+08:00",
-   "summary": "F2Pからスポーツベッティングへ"
+   "published": "2026-07-20T05:28:04+08:00",
+   "summary": ""
   },
   {
-   "id": "5bba775da6fb",
-   "title": "『SEKIRO』アニメ、狼が戦っている間“あの人たち”は何をしていた？ 一撃の重さが伝わる剣戟と群像劇が光る「SEKIRO: NO DEFEAT」試写レポ",
-   "url": "http://www.gamespark.jp/article/2026/07/19/169474.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
+   "id": "832a2a29e70d",
+   "title": "【今日更新】骸骨骑士大人异世界冒险中 第二季",
+   "url": "https://bgm.tv/subject/528828",
+   "source": "Bangumi 每日放送",
+   "category": "anime",
+   "lang": "zh",
    "weight": 6,
-   "published": "2026-07-19T11:00:03+08:00",
-   "summary": "九朗様はかわいい。死なず半兵衛がかっこいい。"
+   "published": "2026-07-20T05:28:04+08:00",
+   "summary": ""
   },
   {
-   "id": "68db7f9a89db",
-   "title": "この体験、唯一無二！些細な選択ミスで即死、ギャンブル要素たっぷりな「遊べる本」ことゲームブックが令和の世に『ヴェリタステイルズ：暗黒城の魔女』として顕現",
-   "url": "http://www.gamespark.jp/article/2026/07/19/169473.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
+   "id": "ccad9fbeb1ba",
+   "title": "【今日更新】碧蓝之海 第三季",
+   "url": "https://bgm.tv/subject/569116",
+   "source": "Bangumi 每日放送",
+   "category": "anime",
+   "lang": "zh",
    "weight": 6,
-   "published": "2026-07-19T10:00:03+08:00",
-   "summary": "デジタル化によって、かつて少年たちが行ったチート「指栞」も気軽に可能。ゲームブックのアナログの魅力が、快適性を備えたまま現代に蘇える。"
+   "published": "2026-07-20T05:28:04+08:00",
+   "summary": ""
   },
   {
-   "id": "7615a8164e23",
-   "title": "「『Hades』や『Disco Elysium』といった、思いもよらない作品からインスピレーションを得ることも」ライフシム『Paralives』【開発者インタビュー】",
-   "url": "http://www.gamespark.jp/article/2026/07/19/169472.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
+   "id": "1af6c30ef48c",
+   "title": "【今日更新】斗球女弹子",
+   "url": "https://bgm.tv/subject/569671",
+   "source": "Bangumi 每日放送",
+   "category": "anime",
+   "lang": "zh",
    "weight": 6,
-   "published": "2026-07-19T09:45:03+08:00",
-   "summary": "気になる新作インディーゲームの開発者にインタビューする本企画。今回は、Alex Massé and team開発、PC/Mac向けに5月25日に早期アクセスが開始されたライフシミュレーション『Paralives』開発者へのミニインタビューをお届けします。"
+   "published": "2026-07-20T05:28:04+08:00",
+   "summary": ""
   },
   {
-   "id": "9b500cb8c1cc",
-   "title": "『活俠傳』日本語字幕にルビが付くパッチ配信！日本語化Mod最新アプデで何も持たないブサイク主人公の成り上がりがよりわかりやすく",
-   "url": "http://www.gamespark.jp/article/2026/07/19/169471.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
+   "id": "a763f2351420",
+   "title": "【今日更新】暴怒千金发誓复仇。～凭借魔导书之力打垮祖国～",
+   "url": "https://bgm.tv/subject/579246",
+   "source": "Bangumi 每日放送",
+   "category": "anime",
+   "lang": "zh",
    "weight": 6,
-   "published": "2026-07-19T09:36:35+08:00",
-   "summary": "三師兄のプロフィールなども読みやすくなりました。"
+   "published": "2026-07-20T05:28:04+08:00",
+   "summary": ""
   },
   {
-   "id": "5ba5e8dde64b",
-   "title": "帝江号で巻き起こる異変とは...？8番出口ライクな『エンドフィールド』の同人ゲームが登場。ペリカも怖い。アジアインディー発掘録！【2026年7月前半】",
-   "url": "http://www.gamespark.jp/article/2026/07/19/169470.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
+   "id": "bcfe760dc3e0",
+   "title": "【今日更新】『你们先走我断后』，于是10年后我成为了传说",
+   "url": "https://bgm.tv/subject/590786",
+   "source": "Bangumi 每日放送",
+   "category": "anime",
+   "lang": "zh",
    "weight": 6,
-   "published": "2026-07-19T09:30:02+08:00",
-   "summary": "まだ広く知られていない、魅力あふれるアジア産（主に中国・韓国）のゲームや、一部の国で話題のインディーゲームを新旧問わずにご紹介。気になる作品はSteamのウィッシュリストに加えて日本語対応をそっと後押ししましょう。"
+   "published": "2026-07-20T05:28:04+08:00",
+   "summary": ""
   },
   {
-   "id": "29b85a210974",
-   "title": "「レシピの試行錯誤を重ね、配合の組み合わせや地域ごとの好み、利益計算などをまとめたガイドを作成してくれた人も」密造酒製造SLG『The Brewline』【開発者インタビュー】",
-   "url": "http://www.gamespark.jp/article/2026/07/19/169469.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
+   "id": "a70fef678374",
+   "title": "【今日更新】蜘蛛侠与他的神奇朋友们 第五季",
+   "url": "https://bgm.tv/subject/595884",
+   "source": "Bangumi 每日放送",
+   "category": "anime",
+   "lang": "zh",
    "weight": 6,
-   "published": "2026-07-19T09:15:03+08:00",
-   "summary": "気になる新作インディーゲームの開発者にインタビューする本企画。今回は、Alcora Games開発、PC向けに6月4日にリリースされた密造酒製造シミュレーション『The Brewline』開発者へのミニインタビューをお届けします。"
+   "published": "2026-07-20T05:28:04+08:00",
+   "summary": ""
   },
   {
-   "id": "5245ae24e72d",
-   "title": "「実は『怪盗スライ・クーパー』シリーズからも影響を受けている」短編深海ホラー『There's Nothing Down There』【開発者インタビュー】",
-   "url": "http://www.gamespark.jp/article/2026/07/19/169468.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
+   "id": "c5361ac7d4c5",
+   "title": "【今日更新】与奔驰于透明之夜的你，谈一场看不见的恋爱。",
+   "url": "https://bgm.tv/subject/607340",
+   "source": "Bangumi 每日放送",
+   "category": "anime",
+   "lang": "zh",
    "weight": 6,
-   "published": "2026-07-19T09:00:03+08:00",
-   "summary": "気になる新作インディーゲームの開発者にインタビューする本企画。今回は、Tim Trankle氏開発、PC向けに6月4日にリリースされた短編深海ホラー『There's Nothing Down There』開発者へのミニインタビューをお届けします。"
+   "published": "2026-07-20T05:28:04+08:00",
+   "summary": ""
   },
   {
-   "id": "a8d908f5efba",
-   "title": "「上半身をひねる操作」がファンを熱狂させ、そして新規参入を阻んだ―『MechWarrior』シリーズの近年における復活の物語【オリーさんのロボゲーコラム】",
-   "url": "http://www.gamespark.jp/article/2026/07/19/169467.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
+   "id": "bbce6c188093",
+   "title": "【今日更新】万古至尊：李云霄传",
+   "url": "https://bgm.tv/subject/607933",
+   "source": "Bangumi 每日放送",
+   "category": "anime",
+   "lang": "zh",
    "weight": 6,
-   "published": "2026-07-19T08:45:03+08:00",
-   "summary": "シリーズの華々しい復活と、不在の間に変わってしまったこと。"
+   "published": "2026-07-20T05:28:04+08:00",
+   "summary": ""
   },
   {
-   "id": "633902fcc857",
-   "title": "「ストーリーに関しては、昔の戦争映画、とりわけ冷戦期を舞台にした映画から影響を受けた」シンプルRTS『デスクウォーズ：兵団乱闘』【開発者インタビュー】",
-   "url": "http://www.gamespark.jp/article/2026/07/19/169466.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
+   "id": "cfedfd6afb98",
+   "title": "【今日更新】无用圣女的异世界美食之旅 凭借隐藏技能召唤露营车",
+   "url": "https://bgm.tv/subject/636067",
+   "source": "Bangumi 每日放送",
+   "category": "anime",
+   "lang": "zh",
    "weight": 6,
-   "published": "2026-07-19T08:30:03+08:00",
-   "summary": "気になる新作インディーゲームの開発者にインタビューする本企画。今回は、Rattleaxe Games開発、PC/Linux向けに6月11日にリリースされたシンプルRTS『デスクウォーズ：兵団乱闘』開発者へのミニインタビューをお届けします。"
+   "published": "2026-07-20T05:28:04+08:00",
+   "summary": ""
   },
   {
-   "id": "40a87f7c921a",
-   "title": "『めっちゃカメレオン』“発光ペイント”機能が実装！ピカピカに擬態してハンターを欺こう",
-   "url": "http://www.gamespark.jp/article/2026/07/19/169465.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
+   "id": "cfcb352f7096",
+   "title": "【今日更新】北斗神拳 拳王军杂兵们的挽歌 第二季",
+   "url": "https://bgm.tv/subject/637339",
+   "source": "Bangumi 每日放送",
+   "category": "anime",
+   "lang": "zh",
    "weight": 6,
-   "published": "2026-07-19T07:28:50+08:00",
-   "summary": "マップ「HIKAKINミュージアム」限定の「挑発音」のボリューム調整も入っています。"
+   "published": "2026-07-20T05:28:04+08:00",
+   "summary": ""
   },
   {
-   "id": "1f9b096355e7",
-   "title": "『アサクリ ブラック フラッグ RE:シンクロ』海賊はなぜブリテン人系なのか？本国の政治動乱と新世界海賊の関係【ゲームで世界を観る#135】",
-   "url": "http://www.gamespark.jp/article/2026/07/19/169464.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
+   "id": "c38f618db5db",
+   "title": "【今日更新】一家之主 第15季",
+   "url": "https://bgm.tv/subject/663444",
+   "source": "Bangumi 每日放送",
+   "category": "anime",
+   "lang": "zh",
    "weight": 6,
-   "published": "2026-07-19T07:00:03+08:00",
-   "summary": "ロマンのためではなく、明日を生きる一か八かの賭け。"
+   "published": "2026-07-20T05:28:04+08:00",
+   "summary": ""
   },
   {
-   "id": "92353a5e74de",
-   "title": "「『POSTAL』シリーズ初のコミック版のクラファンが8月実施予定」2026年7月12日～7月18日の秘宝はこれだ！【週刊トレハン】",
-   "url": "http://www.gamespark.jp/article/2026/07/19/169463.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "2264eb604d9c",
+   "title": "【今日放送 17:30】サザエさん 第2841集",
+   "url": "https://anilist.co/anime/2406",
+   "source": "AniList 放送表",
+   "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-07-19T06:00:03+08:00",
-   "summary": "まだ見つかっていない、コアでマニアックな気になるゲーム・エンタメ情報を一挙にご紹介する「週刊トレジャーハント」の2026年7月12日～7月18日分です。"
+   "published": "2026-07-20T05:28:03+08:00",
+   "summary": ""
   }
  ]
 }
