@@ -111,6 +111,29 @@
   .meta{font-family:var(--mono);font-size:11px;color:var(--ink-soft);text-align:right;white-space:nowrap}
   .meta .src{display:block;color:var(--ink)}
   .lang-tag{border:1px solid var(--rule);padding:0 4px;margin-left:6px}
+  .mt-tag{border:1px dashed var(--rule);padding:0 4px;margin-left:4px;color:var(--ink-soft)}
+
+  /* 界面语言切换 */
+  .langsw{display:flex;border:1px solid var(--rule);background:#FFF}
+  .langsw button{
+    padding:9px 13px;font-family:var(--mono);font-size:12px;
+    background:transparent;border:none;border-right:1px solid var(--rule);
+    color:var(--ink);cursor:pointer;
+  }
+  .langsw button:last-child{border-right:none}
+  .langsw button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+
+  /* 可展开摘要 */
+  details.sumbox{margin-top:3px}
+  details.sumbox summary{
+    cursor:pointer;font-family:var(--mono);font-size:11px;color:var(--ink-soft);
+    list-style:none;user-select:none;display:inline-block;
+  }
+  details.sumbox summary::-webkit-details-marker{display:none}
+  details.sumbox summary::before{content:"▸ "}
+  details.sumbox[open] summary::before{content:"▾ "}
+  details.sumbox summary:hover{color:var(--ink)}
+  details.sumbox .summary{margin-top:2px}
 
   .empty{padding:60px 0;text-align:center;color:var(--ink-soft);font-size:14px}
   .empty b{display:block;font-family:var(--serif);font-size:22px;color:var(--ink);margin-bottom:8px}
@@ -159,6 +182,11 @@
 
   <main>
     <div class="tools">
+      <div class="langsw" role="group" aria-label="界面语言">
+        <button data-lang="zh" aria-pressed="true">中</button>
+        <button data-lang="ja" aria-pressed="false">日</button>
+        <button data-lang="en" aria-pressed="false">EN</button>
+      </div>
       <input type="search" id="q" placeholder="搜索标题 / 来源…" aria-label="搜索资讯">
       <select id="archive" aria-label="查看往期"><option value="">今日</option></select>
     </div>
@@ -174,8 +202,37 @@
 
 <script>
 const CAT_CH = {anime:"動",comic:"漫",game:"遊",novel:"小",general:"綜"};
-const LANG_CH = {zh:"中",ja:"日",en:"英"};
+/* 三语界面文案；条目正文的翻译由数据里的 i18n 字段提供（聚合时机翻） */
+const UI = {
+  zh:{all:"全部",anime:"動畫",comic:"漫畫",game:"遊戲",novel:"小說",general:"綜合",
+      search:"搜索标题 / 来源…",today:"今日",more:"内容提要",mt:"机翻",
+      updated:(t,n)=>`更新于 ${t} · 共 ${n} 条`,
+      empty:"今日无此栏目消息",emptySub:"换个领域或清空搜索试试",
+      demo:"示例数据 · 部署后自动替换为真实抓取结果",lang:{zh:"中",ja:"日",en:"英"}},
+  ja:{all:"すべて",anime:"アニメ",comic:"マンガ",game:"ゲーム",novel:"ノベル",general:"総合",
+      search:"タイトル / ソースを検索…",today:"本日",more:"あらすじ",mt:"自動訳",
+      updated:(t,n)=>`${t} 更新 · 全 ${n} 件`,
+      empty:"本日このカテゴリのニュースはありません",emptySub:"カテゴリや検索条件を変えてみてください",
+      demo:"サンプルデータ · デプロイ後に実データへ置き換わります",lang:{zh:"中",ja:"日",en:"英"}},
+  en:{all:"ALL",anime:"ANIME",comic:"COMIC",game:"GAME",novel:"NOVEL",general:"MISC",
+      search:"Search title / source…",today:"Today",more:"Summary",mt:"MT",
+      updated:(t,n)=>`Updated ${t} · ${n} items`,
+      empty:"No news in this section today",emptySub:"Try another section or clear the search",
+      demo:"Sample data · replaced by real data after deployment",lang:{zh:"ZH",ja:"JA",en:"EN"}}
+};
 let DATA = null, cat = "all", q = "";
+let uiLang = (()=>{ try{ return localStorage.getItem("acgn-lang") }catch(_){ return null } })() || "zh";
+if(!UI[uiLang]) uiLang = "zh";
+
+/* 取当前界面语言下的条目文案：有机翻用机翻，否则回退原文 */
+function tr(it){
+  const t = it.lang!==uiLang && it.i18n && it.i18n[uiLang];
+  return {
+    title: (t && t.title) || it.title,
+    summary: (t && t.summary) || it.summary || "",
+    translated: !!(t && t.title)
+  };
+}
 
 /* 演示用示例数据：线上部署后由 data/latest.json 覆盖 */
 const SAMPLE = {
@@ -184,7 +241,7 @@ const SAMPLE = {
   items:[
    {id:"a1",category:"anime",lang:"ja",source:"AniList 放送表",published:"2026-07-20T22:30:00+08:00",url:"#",title:"【今日放送 22:30】〈示例〉夏季新番第3集更新",summary:"聚合脚本会自动列出当天所有放送集数与时间。"},
    {id:"a2",category:"anime",lang:"zh",source:"Bangumi 每日放送",published:"2026-07-20T20:00:00+08:00",url:"#",title:"【今日更新】〈示例〉某人气续作动画（中文条目名由 Bangumi API 提供）",summary:""},
-   {id:"a3",category:"anime",lang:"en",source:"Anime News Network",published:"2026-07-20T09:12:00+08:00",url:"#",title:"〈示例〉Studio 宣布原创剧场版企划，2027 年上映",summary:"英文源条目可在流水线中接入翻译步骤生成双语标题。"},
+   {id:"a3",category:"anime",lang:"en",source:"Anime News Network",published:"2026-07-20T09:12:00+08:00",url:"#",title:"(Sample) Studio announces original film project for 2027",summary:"Machine translation demo: switch language to see this entry translated.",i18n:{zh:{title:"〈示例〉某工作室宣布 2027 年原创剧场版企划",summary:"机翻演示：切换语言可看到此条被翻译。"},ja:{title:"〈例〉スタジオが2027年のオリジナル劇場版企画を発表",summary:"自動訳デモ：言語を切り替えるとこのエントリが翻訳されます。"}}},
    {id:"a4",category:"anime",lang:"ja",source:"アニメイトタイムズ",published:"2026-07-20T08:40:00+08:00",url:"#",title:"〈示例〉声优阵容公开：主役 CV 追加发表",summary:""},
    {id:"c1",category:"comic",lang:"ja",source:"natalie",published:"2026-07-20T10:05:00+08:00",url:"#",title:"〈示例〉周刊连载迎来最终回，单行本最终卷 9 月发售",summary:""},
    {id:"c2",category:"comic",lang:"zh",source:"MangaDex",published:"2026-07-20T07:30:00+08:00",url:"#",title:"【漫画更新】〈示例〉第 128 话（中文翻译组更新）",summary:""},
@@ -207,39 +264,71 @@ function esc(s){ return String(s??"").replace(/[&<>"']/g,
 function safeUrl(u){ return /^https?:\/\//i.test(u||"") ? esc(u) : "#" }
 
 function render(){
+  const L = UI[uiLang];
   const list = document.getElementById("list");
   const empty = document.getElementById("empty");
   const kw = q.trim().toLowerCase();
-  const items = DATA.items.filter(it =>
-    (cat==="all" || it.category===cat) &&
-    (!kw || (it.title+it.source).toLowerCase().includes(kw))
-  );
-  list.innerHTML = items.map(it => `
+  const items = DATA.items.filter(it=>{
+    if(cat!=="all" && it.category!==cat) return false;
+    if(!kw) return true;
+    const t = tr(it);  // 原文与译文都可被搜索命中
+    return (it.title+" "+t.title+" "+it.source).toLowerCase().includes(kw);
+  });
+  list.innerHTML = items.map(it=>{
+    const t = tr(it);
+    return `
     <li>
       <span class="badge b-${esc(it.category)}">${CAT_CH[it.category]||"·"}</span>
       <div class="item-main">
-        <a class="title" href="${safeUrl(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>
-        ${it.summary ? `<div class="summary">${esc(it.summary)}</div>` : ""}
+        <a class="title" href="${safeUrl(it.url)}" target="_blank" rel="noopener"${t.translated?` title="${esc(it.title)}"`:""}>${esc(t.title)}</a>
+        ${t.summary ? `<details class="sumbox"><summary>${L.more}</summary><div class="summary">${esc(t.summary)}</div></details>` : ""}
       </div>
       <div class="meta">
         <span class="src">${esc(it.source)}</span>
-        ${fmtTime(it.published)}<span class="lang-tag">${LANG_CH[it.lang]||it.lang}</span>
+        ${fmtTime(it.published)}<span class="lang-tag">${L.lang[it.lang]||esc(it.lang)}</span>${t.translated?`<span class="mt-tag">${L.mt}</span>`:""}
       </div>
-    </li>`).join("");
+    </li>`}).join("");
   empty.hidden = items.length > 0;
+}
+
+/* 统计条与"更新于"（依赖数据，随语言/数据变化重绘） */
+function renderStat(){
+  const L = UI[uiLang], c = DATA.categories || {};
+  document.getElementById("d-gen").textContent =
+    L.updated((DATA.generated_at||"").slice(11,16), DATA.items.length);
+  document.getElementById("statbar").innerHTML =
+    (DATA.demo ? `<span class="demo-flag">${L.demo}</span>` : "") +
+    ["anime","comic","game","novel","general"]
+      .map(k=>`<span>${L[k]} <i>${c[k]||0}</i></span>`).join("");
+}
+
+/* 静态界面文案（不依赖数据） */
+function renderChrome(){
+  const L = UI[uiLang];
+  document.querySelectorAll("nav.spine button").forEach(b=>{
+    b.textContent = L[b.dataset.cat==="all" ? "all" : b.dataset.cat] || b.textContent;
+  });
+  document.getElementById("q").placeholder = L.search;
+  const todayOpt = document.querySelector("#archive option[value='']");
+  if(todayOpt) todayOpt.textContent = L.today;
+  document.getElementById("empty").innerHTML = `<b>${L.empty}</b>${L.emptySub}`;
+  document.querySelectorAll(".langsw button").forEach(b=>
+    b.setAttribute("aria-pressed", String(b.dataset.lang===uiLang)));
+  document.documentElement.lang = {zh:"zh-CN",ja:"ja",en:"en"}[uiLang];
+}
+
+function setLang(l){
+  if(!UI[l]) return;
+  uiLang = l;
+  try{ localStorage.setItem("acgn-lang", l) }catch(_){}
+  renderChrome();
+  if(DATA){ renderStat(); render(); }
 }
 
 function mount(data){
   DATA = data;
   document.getElementById("d-date").textContent = data.date.replaceAll("-",".");
-  document.getElementById("d-gen").textContent =
-    "更新于 " + (data.generated_at||"").slice(11,16) + " · 共 " + data.items.length + " 条";
-  const c = data.categories || {};
-  document.getElementById("statbar").innerHTML =
-    (data.demo ? `<span class="demo-flag">示例数据 · 部署后自动替换为真实抓取结果</span>` : "") +
-    `<span>動畫 <i>${c.anime||0}</i></span><span>漫畫 <i>${c.comic||0}</i></span>
-     <span>遊戲 <i>${c.game||0}</i></span><span>小說 <i>${c.novel||0}</i></span>
-     <span>綜合 <i>${c.general||0}</i></span>`;
+  renderStat();
   render();
 }
 
@@ -251,6 +340,9 @@ document.querySelectorAll("nav.spine button").forEach(b=>{
     cat = b.dataset.cat; render();
   });
 });
+document.querySelectorAll(".langsw button").forEach(b=>
+  b.addEventListener("click", ()=>setLang(b.dataset.lang)));
+renderChrome();
 document.getElementById("q").addEventListener("input",e=>{ q=e.target.value; render(); });
 document.getElementById("archive").addEventListener("change",async e=>{
   const v = e.target.value;

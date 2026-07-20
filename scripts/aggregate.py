@@ -114,7 +114,7 @@ def make_item(title, url, source, category, lang, weight, published=None, summar
         "lang": lang,
         "weight": weight,
         "published": published or datetime.now(TZ).isoformat(timespec="seconds"),
-        "summary": clean_text(summary, 160),
+        "summary": clean_text(summary, 300),
     }
 
 
@@ -197,7 +197,7 @@ def api_jikan_season_now(limit=10):
         out.append(make_item(
             f"【本季热番】{a['title']}" + (f"（MAL {score}分）" if score else ""),
             a["url"], "MyAnimeList 季度榜", "anime", "en", 5,
-            summary=(a.get("synopsis") or "")[:160],
+            summary=(a.get("synopsis") or "")[:300],
         ))
     return out
 
@@ -273,6 +273,92 @@ def fetch_api(api_cfg):
     except Exception as exc:
         report(api_cfg["adapter"], 0, f"{type(exc).__name__}: {exc}")
         return []
+
+
+# ----------------------------------------------------------------------
+# 机器翻译：标题/摘要译成中日英，供前端三语切换
+# 免费接口 + 指纹缓存（同一条目只翻一次）+ 熔断（接口不可用则整体放弃，
+# 前端自动回退原文），翻译失败不影响主流水线
+# ----------------------------------------------------------------------
+GT_LANG = {"zh": "zh-CN", "ja": "ja", "en": "en"}
+_gt_stats = {"ok": 0, "fail": 0}
+
+
+def gt_translate(text, src, tgt):
+    if (_gt_stats["fail"] >= 8 and _gt_stats["ok"] == 0) or _gt_stats["fail"] >= 40:
+        return None  # 熔断：接口不可用或失败过多，不再逐条尝试（下次运行续翻）
+    try:
+        r = requests.get(
+            "https://translate.googleapis.com/translate_a/single",
+            params={"client": "gtx", "sl": GT_LANG.get(src, "auto"),
+                    "tl": GT_LANG[tgt], "dt": "t", "q": text},
+            headers=UA, timeout=10,
+        )
+        r.raise_for_status()
+        out = "".join(seg[0] for seg in r.json()[0] if seg and seg[0]).strip()
+        _gt_stats["ok"] += 1
+        return out or None
+    except Exception:
+        _gt_stats["fail"] += 1
+        return None
+
+
+def translate_items(items):
+    tcfg = CONFIG.get("translate", {})
+    if not tcfg.get("enabled"):
+        return
+    targets = [l for l in tcfg.get("targets", ["zh", "ja", "en"]) if l in GT_LANG]
+    cache_file = ROOT / "data" / "i18n_cache.json"
+    try:
+        cache = json.loads(cache_file.read_text(encoding="utf-8"))
+    except Exception:
+        cache = {}
+
+    # 只翻缓存里没有的（标题必备；有摘要的还需摘要）
+    jobs = []
+    for it in items:
+        for tgt in targets:
+            if tgt == it["lang"]:
+                continue
+            have = cache.get(it["id"], {}).get(tgt) or {}
+            if have.get("title") and (have.get("summary") or not it["summary"]):
+                continue
+            jobs.append((it, tgt))
+
+    def work(job):
+        it, tgt = job
+        title = gt_translate(it["title"], it["lang"], tgt)
+        summary = gt_translate(it["summary"], it["lang"], tgt) if it["summary"] else ""
+        time.sleep(0.1)  # 对免费接口保持克制
+        return it["id"], tgt, title, summary
+
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for fut in as_completed([pool.submit(work, j) for j in jobs]):
+            iid, tgt, title, summary = fut.result()
+            if title is None:
+                continue  # 失败条目下次运行自动重试
+            entry = cache.setdefault(iid, {}).setdefault(tgt, {})
+            entry["title"] = title
+            if summary:
+                entry["summary"] = summary
+
+    # 挂到条目上（仅非原文语言且缓存命中的）
+    for it in items:
+        tr = {t: cache[it["id"]][t] for t in targets
+              if t != it["lang"] and cache.get(it["id"], {}).get(t)}
+        if tr:
+            it["i18n"] = tr
+
+    # 缓存修剪：当前条目优先保留，其余按最近插入保留至上限
+    cache_max = tcfg.get("cache_max", 4000)
+    pruned = {it["id"]: cache[it["id"]] for it in items if it["id"] in cache}
+    for k, v in reversed(list(cache.items())):
+        if len(pruned) >= cache_max:
+            break
+        pruned.setdefault(k, v)
+    cache_file.write_text(json.dumps(pruned, ensure_ascii=False), encoding="utf-8")
+    print(f"[I18N] 待翻 {len(jobs)} 项，成功 {_gt_stats['ok']} 次请求，"
+          f"失败 {_gt_stats['fail']} 次，缓存 {len(pruned)} 条")
 
 
 # ----------------------------------------------------------------------
@@ -383,6 +469,9 @@ def main():
         others = [it for it in items if it["id"] not in reserved_ids]
         items = reserved + others[:max(max_total - len(reserved), 0)]
         items.sort(key=lambda x: (x["weight"], x["published"]), reverse=True)
+
+    # 只对最终入选条目做翻译（截断后再翻，节省请求）
+    translate_items(items)
 
     payload = {
         "date": TODAY,
