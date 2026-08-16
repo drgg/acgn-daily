@@ -1,17 +1,22 @@
 {
  "date": "2026-08-16",
- "generated_at": "2026-08-16T06:22:22+08:00",
+ "generated_at": "2026-08-16T18:12:17+08:00",
  "count": 160,
  "categories": {
-  "anime": 45,
-  "comic": 11,
-  "game": 75,
-  "novel": 15,
-  "general": 14
+  "anime": 50,
+  "comic": 10,
+  "game": 67,
+  "novel": 23,
+  "general": 10
  },
  "sources": [
   {
    "name": "Anime News Network",
+   "count": 15,
+   "error": null
+  },
+  {
+   "name": "AUTOMATON",
    "count": 15,
    "error": null
   },
@@ -27,11 +32,6 @@
   },
   {
    "name": "Game*Spark",
-   "count": 15,
-   "error": null
-  },
-  {
-   "name": "AUTOMATON",
    "count": 15,
    "error": null
   },
@@ -52,8 +52,8 @@
   },
   {
    "name": "anilist_airing",
-   "count": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://graphql.anilist.co/"
+   "count": 20,
+   "error": null
   },
   {
    "name": "bangumi_calendar",
@@ -78,8 +78,113 @@
  ],
  "items": [
   {
-   "id": "6fb401037b39",
-   "title": "Plott' Announces Rakuraku Hanten Short Anime for September",
+   "id": "d67ab2da538c",
+   "title": "Skip & Loafer Anime's 2nd Season Reveals April 2027 Debut in Teaser Video",
+   "url": "https://www.animenewsnetwork.com/news/2026-08-16/skip-and-loafer-anime-2nd-season-reveals-april-2027-debut-in-teaser-video/.240621",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-08-16T16:40:36+08:00",
+   "summary": "Takatsugu Wakabayashi returns to compose music with new composer Michiru",
+   "i18n": {
+    "zh": {
+     "title": "Skip & Loafer 动画第二季将于 2027 年 4 月首播，预告视频",
+     "summary": "若林高继回归，与新作曲家 Michiru 合作创作音乐"
+    },
+    "ja": {
+     "title": "スキップ＆ローファーアニメ第2シーズン、ティザービデオで2027年4月のデビューを明らかに",
+     "summary": "若林崇継が新作曲家ミチルとともに作曲に復帰"
+    }
+   }
+  },
+  {
+   "id": "7f37bba98209",
+   "title": "Toryumon Takeda's Doga Manga Ends in 7th Volume",
+   "url": "https://www.animenewsnetwork.com/news/2026-08-15/toryumon-takeda-doga-manga-ends-in-7th-volume/.240608",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-08-16T11:53:41+08:00",
+   "summary": "Series about noble who dies, gets put in cyborg body debuted in October 2023",
+   "i18n": {
+    "zh": {
+     "title": "武田龙门的狗漫画第七卷完结",
+     "summary": "关于死去的贵族被放入机器人身体的系列剧于 2023 年 10 月首播"
+    },
+    "ja": {
+     "title": "武田登竜門の動画漫画、7巻で完結",
+     "summary": "死んでサイボーグの体に入れられる貴族を描いたシリーズが2023年10月にデビュー"
+    }
+   }
+  },
+  {
+   "id": "18af21129bab",
+   "title": "Patlabor the Case Files Game Debuts on September 17",
+   "url": "https://www.animenewsnetwork.com/news/2026-08-15/patlabor-the-case-files-game-debuts-on-september-17/.240599",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-08-16T11:43:53+08:00",
+   "summary": "Game to launch for PS5, PC in Japanese, English, Simplified Chinese, Traditional Chinese, Korean",
+   "i18n": {
+    "zh": {
+     "title": "《Patlabor the Case Files》游戏将于 9 月 17 日首发",
+     "summary": "游戏即将推出 PS5、PC 版本，支持日语、英语、简体中文、繁体中文、韩语"
+    },
+    "ja": {
+     "title": "ゲーム「パトレイバー事件簿」9月17日登場",
+     "summary": "PS5、PC向けに日本語、英語、簡体字中国語、繁体字中国語、韓国語で発売予定のゲーム"
+    }
+   }
+  },
+  {
+   "id": "2c887cd43000",
+   "title": "Boruto Manga Takes 1-Month Break",
+   "url": "https://www.animenewsnetwork.com/news/2026-08-15/boruto-manga-takes-1-month-break/.240585",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-08-16T11:09:24+08:00",
+   "summary": "Manga returns in November issue that will ship on September 18",
+   "i18n": {
+    "zh": {
+     "title": "《博人传》漫画暂停 1 个月",
+     "summary": "漫画于 11 月回归，将于 9 月 18 日发货"
+    },
+    "ja": {
+     "title": "漫画「BORUTO」が1ヶ月休載",
+     "summary": "マンガは9月18日発送の11月号に掲載されます"
+    }
+   }
+  },
+  {
+   "id": "fa527fa3e40e",
+   "title": "Kingdom Hearts IV Game Presents 4-Minute Trailer",
+   "url": "https://www.animenewsnetwork.com/news/2026-08-15/kingdom-hearts-iv-game-presents-4-minute-trailer/.240610",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-08-16T08:26:18+08:00",
+   "summary": "Coco world, paper-thin version of Mickey teased with '100%' promise of 2027 release",
+   "i18n": {
+    "zh": {
+     "title": "《王国之心 IV》游戏推出 4 分钟预告片",
+     "summary": "《可可世界》，薄如纸的米奇版本，并承诺 100% 于 2027 年发布"
+    },
+    "ja": {
+     "title": "『キングダム ハーツ IV』ゲーム 4 分間のトレーラーが公開",
+     "summary": "ココワールド、紙のように薄いミッキーバージョンが2027年リリースの「100％」約束でからかわれる"
+    }
+   }
+  },
+  {
+   "id": "202edd98473b",
+   "title": "Plott Announces Rakuraku Hanten Short Anime for September",
    "url": "https://www.animenewsnetwork.com/news/2026-08-15/plott-announces-rakuraku-hanten-short-anime-for-september/.240605",
    "source": "Anime News Network",
    "category": "anime",
@@ -89,11 +194,11 @@
    "summary": "Mafia battle series to stream on YouTube",
    "i18n": {
     "zh": {
-     "title": "Plott' 宣布九月推出乐乐半田短片动画",
+     "title": "Plott 宣布九月推出乐乐半田短片动画",
      "summary": "黑手党战斗系列将在 YouTube 上直播"
     },
     "ja": {
-     "title": "Plott'、9月にらくらく半纏ショートアニメを発表",
+     "title": "Plott、楽々半纏のショートアニメを9月に発表",
      "summary": "マフィアバトルシリーズがYouTubeでストリーミング配信へ"
     }
    }
@@ -389,6 +494,368 @@
     "ja": {
      "title": "うちの剣聖マスターが可愛すぎて一緒に居られない！ TVアニメ化決定、ビジュアル公開",
      "summary": "デレギュラがアニメ制作へ"
+    }
+   }
+  },
+  {
+   "id": "e4f29d2fb876",
+   "title": "アニメ『ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。』第7話「侵入者と秘密の通路」のあらすじ＆先行カット解禁",
+   "url": "https://ln-news.com/articles/126350",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T18:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "动漫：在我告诉你把它交给我并继续前进10年后，它成为了一个传奇。第7集《入侵者与秘密通道》剧情简介及先行剪辑公开"
+    },
+    "en": {
+     "title": "Anime: 10 years after I told you to leave it to me and move on, it became a legend. ” Episode 7 “The Intruder and the Secret Passage” synopsis and advance cut released"
+    }
+   }
+  },
+  {
+   "id": "a641bc578357",
+   "title": "『領地のすべてをゴーレムで自動化した俺、サボっていると言われて追放されたので魔境をチート技術で開拓します！』のコミカライズ連載が開始",
+   "url": "https://ln-news.com/articles/126344",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T16:30:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "「我用傀儡让领地里的一切都自动化了，自从因为偷懒而被放逐后，我就打算用作弊技术来发展魔界！」 ' 漫画连载开始"
+    },
+    "en": {
+     "title": "``I automated everything in the territory with golems, and since I was exiled because I was told I was slacking off, I'm going to use cheat technology to develop the demon realm! ' Comic serialization begins"
+    }
+   }
+  },
+  {
+   "id": "e7dc43da33c8",
+   "title": "ガガガ文庫2026年8月刊行のラインナップをご紹介。『きみからうまれる2』『白き帝国8』など3冊",
+   "url": "https://ln-news.com/articles/126367",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T15:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "介绍2026年8月出版的Gagaga文库的阵容。《Born from You 2》和《White Empire 8》等3本书"
+    },
+    "en": {
+     "title": "Introducing the lineup of Gagaga Bunko published in August 2026. 3 books including “Born from You 2” and “White Empire 8”"
+    }
+   }
+  },
+  {
+   "id": "dc9ffefccb96",
+   "title": "深夜のタクシーで乗客が感染者か見きわめ，送り届けた先で降ろすか射殺する。「WHERE TO?」の舞台は誰も信じられない街［BIC2026］",
+   "url": "https://www.4gamer.net/games/033/G103349/20260816013/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T14:35:12+08:00",
+   "summary": "ホラーゲーム「WHERETO?」が，釜山で開催中のインディーゲームイベント「BIC2026」に出展されていた。深夜の街でタクシーを運転し，乗せた客が感染者かどうかを見きわめ，送り届けた先で降ろすか射殺するかを判断するという，ダークな雰囲気の作品だ。",
+   "i18n": {
+    "zh": {
+     "title": "他们确定深夜出租车上的乘客是否被感染，然后要么让他们下车，要么在目的地将他们枪杀。 “去哪里？”故事发生在一座无人相信的城市 [BIC2026]",
+     "summary": "恐怖游戏《WHERETO》在釜山举办的独立游戏盛会“BIC2026”上展出。这是一款黑暗氛围的作品，玩家在半夜驾驶出租车，判断自己搭载的乘客是否被感染，并决定是让他们下车还是在目的地将他们枪杀。"
+    },
+    "en": {
+     "title": "They determine if a passenger in a late-night taxi is infected, and either drop them off or shoot them dead at the destination. “WHERE TO?” is set in a city that no one can believe [BIC2026]",
+     "summary": "The horror game ``WHERETO?'' was exhibited at the indie game event ``BIC2026'' being held in Busan. This is a work with a dark atmosphere in which the player drives a taxi in the middle of the night, determines whether the passengers he picks up are infected, and decides whether to drop them off or shoot them dead at the destination."
+    }
+   }
+  },
+  {
+   "id": "837a3c541638",
+   "title": "漫画に取り込まれた漫画家を操作するホラーゲーム「Yūrei」。前のページに戻って描き直せば，その先の道が変わる［BIC2026］",
+   "url": "https://www.4gamer.net/games/033/G103350/20260816014/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T14:31:49+08:00",
+   "summary": "韓国・釜山で開催されたインディーゲームイベント「BusanIndieConnectFestival2026」で，フランスのチームが「Yūrei」のデモ版を出展していた。プレイヤーが操作するのは，自分の描いた漫画に取り込まれた漫画家だ。ページを行き来して過去の場面を描き直しながら，未完の物語に決着をつけていく。",
+   "i18n": {
+    "zh": {
+     "title": "《Yūrei》是一款恐怖游戏，您可以控制在漫画中被捕获的漫画家。如果返回并重新绘制上一页，前面的路径将会改变[BIC2026]",
+     "summary": "在韩国釜山举办的独立游戏盛会“BusanIndieConnectFestival 2026”上，法国团队展示了《Yūrei》的试玩版。玩家控制一名漫画家，该漫画家已融入他或她所绘制的漫画中。通过在页面之间来回翻阅并重新绘制过去的场景，未完成的故事得到了结论。"
+    },
+    "en": {
+     "title": "``Yūrei'' is a horror game where you control a manga artist who has been captured in a manga. If you go back and redraw the previous page, the path ahead will change [BIC2026]",
+     "summary": "At the indie game event \"BusanIndieConnectFestival 2026\" held in Busan, South Korea, a French team exhibited a demo version of \"Yūrei\". The player controls a manga artist who has been incorporated into the manga he or she has drawn. By going back and forth between pages and redrawing past scenes, the unfinished story is brought to a conclusion."
+    }
+   }
+  },
+  {
+   "id": "44c90c69bb85",
+   "title": "開発者育成の拠点は，首都ジャカルタではなくバンドン。インドネシア通信・デジタル省とBICが2027年1月から共同事業を実施［BIC2026］",
+   "url": "https://www.4gamer.net/games/999/G999905/20260816012/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T13:45:52+08:00",
+   "summary": "BIC2026の会場に，インドネシア共和国通信・デジタル省（Komdigi）の担当者が来ていた。約200社まで増えた同国のゲームスタジオの現状，そしてインドネシアでゲームを出すために今なにが要るのかが説明された。",
+   "i18n": {
+    "zh": {
+     "title": "开发商的发展基地是万隆，而不是首都雅加达。印度尼西亚通信和数字部与 BIC 将从 2027 年 1 月起开展联合项目 [BIC2026]",
+     "summary": "印度尼西亚共和国通信和数字部 (Komdigi) 的代表出席了 BIC2026 会场。他解释了该国游戏工作室的现状（已增加到约200家公司），以及现在在印尼发行游戏需要什么。"
+    },
+    "en": {
+     "title": "The base for developing developers is Bandung, not the capital Jakarta. Indonesian Ministry of Communications and Digital and BIC will carry out joint project from January 2027 [BIC2026]",
+     "summary": "A representative from the Ministry of Communications and Digital of the Republic of Indonesia (Komdigi) was at the BIC2026 venue. He explained the current situation of game studios in the country, which have increased to about 200 companies, and what is needed now to release games in Indonesia."
+    }
+   }
+  },
+  {
+   "id": "5daeeb9b950f",
+   "title": "アニメ『凶乱令嬢ニア・リストン 病弱令嬢に転生した神殺しの武人の華麗なる無双録』シチュエーションビジュアル第1弾が公開",
+   "url": "https://ln-news.com/articles/126368",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T13:30:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "动画《猛烈少女妮娅·利斯顿：转生为病弱少女的绝世弑神武士无双六》的第一弹情景视觉图公开。"
+    },
+    "en": {
+     "title": "The first situation visual for the anime “Nia Liston, the Fierce Young Lady: The Brilliant Musou Roku of the God-killing Warrior Who Was Reincarnated as a Sickly Young Lady” has been released."
+    }
+   }
+  },
+  {
+   "id": "ca770f284e8f",
+   "title": "父を探し，知能を蝕むウイルスが残したスラムを少女が旅する「Rustown」。殴られても殴り返せない，ストーリー没入型アクション［BIC2026］",
+   "url": "https://www.4gamer.net/games/033/G103348/20260816011/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T13:20:28+08:00",
+   "summary": "韓国・釜山で開催された「BIC2026」の会場で，寂れた街を探索する見下ろし視点のアクションアドベンチャー「Rustown」を体験した。プレイヤーには攻撃手段が一切ない。道を進むには，さまざまなルートを見つけ，必要なアイテムを集めていくことになる。",
+   "i18n": {
+    "zh": {
+     "title": "《锈镇》讲述了一个年轻女孩穿越被病毒侵蚀的贫民窟寻找父亲的故事，这种病毒侵蚀了她的智力。即使被击中也无法反击的沉浸式故事动作 [BIC2026]",
+     "summary": "在韩国釜山举办的“BIC2026”会场，我体验了《Rustown》，这是一款以自上而下的视角探索废弃小镇的动作冒险游戏。玩家没有攻击手段。为了在道路上前进，你需要找到各种路线并收集必要的物品。"
+    },
+    "en": {
+     "title": "``Rustown'' is a story about a young girl who travels through the slums left behind by a virus that erodes her intelligence in search of her father. Immersive story action where you can't hit back even if you get hit [BIC2026]",
+     "summary": "At the \"BIC2026\" venue held in Busan, South Korea, I experienced \"Rustown,\" an action adventure from a top-down perspective that explores a deserted town. Players have no means of attack. To advance on the path, you will need to find various routes and collect the necessary items."
+    }
+   }
+  },
+  {
+   "id": "974790062dd9",
+   "title": "1か月先の計画は立てない。ダークな童話世界のローグライトアクション「Cinderia」を作るMyACG Studioは，アイデアを2時間で遊べる形にする［BIC2026］",
+   "url": "https://www.4gamer.net/games/988/G098872/20260816010/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T12:43:05+08:00",
+   "summary": "中国のMyACGStudioが開発するローグライトアクション「Cinderia」は，Steamでのアーリーアクセス開始から4か月半で4600件以上のレビューを集めた。中国のスタジオでありながら，売上は海外が国内を上回っているという。",
+   "i18n": {
+    "zh": {
+     "title": "不要提前一个月制定计划。 MyACG Studio 创造了黑暗童话世界中的 Rogue-lite 动作游戏《灰姑娘》，在两个小时内将一个想法变成了可玩的形式 [BIC2026]",
+     "summary": "由中国MyACGStudio开发的一款Roguelite动作游戏《灰姑娘》在Steam抢先体验后四个半月内已获得超过4,600条评论。尽管是一家中国工作室，但据说海外销量超过了国内销量。"
+    },
+    "en": {
+     "title": "Don't make plans for a month ahead. MyACG Studio, which creates the rogue-lite action game “Cinderia” in a dark fairy tale world, turns an idea into a playable form in two hours [BIC2026]",
+     "summary": "Cinderia, a roguelite action game developed by China's MyACGStudio, has garnered over 4,600 reviews in the four and a half months since its early access on Steam. Despite being a Chinese studio, sales overseas are said to exceed domestic sales."
+    }
+   }
+  },
+  {
+   "id": "e680d153fe5c",
+   "title": "女装メイド姿な人食い狼が，人間の少女を守るために立ち上がる。伝統的な高難度ターン制ローグライク「砂の女王」，Steamストアページを公開",
+   "url": "https://www.4gamer.net/games/033/G103347/20260816009/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T12:20:25+08:00",
+   "summary": "HuyuPixelは本日（2026年8月16日），新作PC用ソフト「砂の女王」のSteamストアページを公開した。本作は，かわいらしいドットアートが魅力的なターン制ローグライクゲームだ。人間の少女を守るために立ち上がった人食い狼が，世界中を敵に回して戦うストーリーが描かれる。",
+   "i18n": {
+    "zh": {
+     "title": "一只扮成女扮男装的食人狼挺身而出，保护一名人类女孩。传统高难度回合制Roguelike《沙之女王》Steam商店页面发布",
+     "summary": "HuyuPixel 今天（2026 年 8 月 16 日）发布了新 PC 软件《Queen of Sand》的 Steam 商店页面。本作是一款像素风可爱的回合制Roguelike游戏。故事讲述了一只食人狼挺身而出，保护人类女孩，与世界抗争的故事。"
+    },
+    "en": {
+     "title": "A man-eating wolf dressed as a cross-dressing maid stands up to protect a human girl. Traditional highly difficult turn-based roguelike “Queen of Sand”, Steam store page released",
+     "summary": "HuyuPixel today (August 16, 2026) released the Steam store page for the new PC software ``Queen of Sand''. This work is a turn-based roguelike game with cute pixel art. The story depicts a man-eating wolf who stands up to protect a human girl and fights against the world."
+    }
+   }
+  },
+  {
+   "id": "0069c58ccc6d",
+   "title": "【先週の重版：8月9日～8月15日】『魔術探偵・時崎狂三の事件簿』、『チュートリアルが始まる前に』第1～5巻など",
+   "url": "https://ln-news.com/articles/126376",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T12:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "【上周重印：8月9日～8月15日】《魔侦探时崎狂三案卷》、《教程开始之前》第1卷到第5卷等"
+    },
+    "en": {
+     "title": "[Last week's reprint: August 9th to August 15th] \"Magic Detective Kurumi Tokisaki's Case Files\", \"Before the Tutorial Begins\" Volumes 1 to 5, etc."
+    }
+   }
+  },
+  {
+   "id": "a798aea7df65",
+   "title": "クローン勇者を育て，限界が来たら次世代へ。ちょっとブラックな都市建設RPG「Clone. Optimize. Sacrifice.」，Steamストアページを公開",
+   "url": "https://www.4gamer.net/games/033/G103346/20260816007/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T11:39:43+08:00",
+   "summary": "個人開発者のRyanSaunders氏は本日（2026年8月16日），PC用ソフト「Clone.Optimize.Sacrifice.」のSteamストアページを公開した。本作は，科学と魔法が共存する世界を舞台とするシティビルダーRPGだ。クローン勇者たちを生産し，ダンジョンに送り出して攻略を目指す。",
+   "i18n": {
+    "zh": {
+     "title": "训练克隆人英雄，当他们达到极限时，进入下一代。略显黑暗的城市建设RPG《克隆.优化.牺牲.》，Steam商店页面发布",
+     "summary": "个人开发者 Ryan Saunders 今天（2026 年 8 月 16 日）发布了 PC 软件“Clone.Optimize.Sacrifice”的 Steam 商店页面。本作是以科学与魔法共存的世界为背景的城市建设角色扮演游戏。生产克隆人英雄并将他们送入地下城来征服他们。"
+    },
+    "en": {
+     "title": "Train clone heroes, and when they reach their limits, move on to the next generation. A slightly dark city-building RPG \"Clone. Optimize. Sacrifice.\", Steam store page released",
+     "summary": "Individual developer Ryan Saunders today (August 16, 2026) released the Steam store page for the PC software \"Clone.Optimize.Sacrifice.\" This work is a city builder RPG set in a world where science and magic coexist. Produce clone heroes and send them to dungeons to conquer them."
+    }
+   }
+  },
+  {
+   "id": "d72744e63022",
+   "title": "「キングダム ハーツIV」の発売が2027年後半に決定。新たな冒険の舞台を紹介する最新トレイラー公開",
+   "url": "https://www.4gamer.net/games/015/G101577/20260816004/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T11:03:29+08:00",
+   "summary": "スクウェア・エニックスは，「キングダムハーツ」シリーズのナンバリング最新作となる「キングダムハーツIV」を2027年後半にリリースすると発表し，最新トレイラーを公開した。トレイラーでは，新たな冒険の舞台として，映画「リメンバー・ミー」の世界が登場することが紹介されている。",
+   "i18n": {
+    "zh": {
+     "title": "《王国之心 IV》将于 2027 年下半年上映，介绍新冒险关卡的最新预告片发布",
+     "summary": "史克威尔艾尼克斯宣布，《王国之心》系列最新编号作品《王国之心 IV》将于 2027 年下半年发售，并发布了最新预告片。预告片介绍了电影《勿忘我》的世界，作为新冒险的背景。"
+    },
+    "en": {
+     "title": "“Kingdom Hearts IV” will be released in the second half of 2027. Latest trailer introducing new adventure stage released",
+     "summary": "Square Enix has announced that ``Kingdom Hearts IV'', the latest numbered work in the ``Kingdom Hearts'' series, will be released in the second half of 2027, and released the latest trailer. The trailer introduces the world of the movie ``Remember Me'' as the setting for a new adventure."
+    }
+   }
+  },
+  {
+   "id": "8d838db36c1e",
+   "title": "放置系スマホRPG「杖と剣の伝説」，コラボイベント「ぼっち・ざ・ぼうけん！」を本日スタート。結束バンドの4人がカンスティンに登場",
+   "url": "https://www.4gamer.net/games/913/G091380/20260816005/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T10:58:25+08:00",
+   "summary": "BOLTRAYGAMESは本日（2026年8月16日），スマートフォン向けRPG「杖と剣の伝説」で，アニメ「ぼっち・ざ・ろっく！」とのコラボイベント「ぼっち・ざ・ぼうけん！」を開始した。今回のコラボでは，後藤ひとり，伊地知虹夏，山田リョウ，喜多郁代の「結束バンド」4人がカンスティンに登場する。",
+   "i18n": {
+    "zh": {
+     "title": "放置类智能手机角色扮演游戏《藤剑传说》与合作活动《Bocchi Za Bouken!》今天开始。四名系着扎带的人出现在 Kanstin",
+     "summary": "BOLTRAYGAMES 今天（2026 年 8 月 16 日）推出了与智能手机角色扮演游戏《藤剑传说》中的动画《Bocchi Za Rock!》合作的活动《Bocchi Za Bouken!》。此次合作中，“Zieiband”组合的四名成员后藤仁、井地幸花、山田亮、喜多郁世将出演《Kanstain》。"
+    },
+    "en": {
+     "title": "The idle smartphone RPG “Legend of Cane and Sword” and collaboration event “Bocchi Za Bouken!” started today. Four people with cable ties appear at Kanstin",
+     "summary": "BOLTRAYGAMES today (August 16, 2026) launched a collaboration event ``Bocchi Za Bouken!'' with the anime ``Bocchi Za Rock!'' in the smartphone RPG ``Legend of Cane and Sword''. In this collaboration, the four members of the \"Zieiband\" group, Hitori Goto, Koka Ijichi, Ryo Yamada, and Ikuyo Kita, will appear on Kanstain."
+    }
+   }
+  },
+  {
+   "id": "1ec753081894",
+   "title": "敵からパーツを剥ぎ取ってロボを改造！ ターン制エクストラクションRPG「ROBOSCAV」，体験版を公開。製品版は2027年内にアーリーアクセス開始",
+   "url": "https://www.4gamer.net/games/033/G103345/20260816003/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T10:39:32+08:00",
+   "summary": "SmileyFaceGamesは2026年8月15日，PC用ソフト「ROBOSCAV」のデモ版をSteamで公開した。本作は，ロボットを操作して戦うターン制エクストラクションRPGだ。ある惑星に不時着したエンジニアとなり，ロボット部隊を遠隔操作して惑星脱出のための資源を収集していく。",
+   "i18n": {
+    "zh": {
+     "title": "通过从敌人身上剥离零件来改造你的机器人！回合制提取角色扮演游戏“ROBOSCAV”试玩版发布。产品版本将于 2027 年开始抢先体验",
+     "summary": "2026年8月15日，SmileyFaceGames在Steam上发布了PC软件“ROBOSCAV”的演示版本。本作是一款控制机器人进行战斗的回合制提取RPG。你成为一名迫降在星球上的工程师，远程控制机器人小队收集资源逃离星球。"
+    },
+    "en": {
+     "title": "Modify your robot by stripping parts from your enemies! Trial version of turn-based extraction RPG \"ROBOSCAV\" released. The product version will start early access in 2027",
+     "summary": "On August 15, 2026, SmileyFaceGames released the demo version of the PC software \"ROBOSCAV\" on Steam. This work is a turn-based extraction RPG in which you control robots and fight. You become an engineer who crash-landed on a planet, and remotely control a robot squad to collect resources to escape the planet."
+    }
+   }
+  },
+  {
+   "id": "d8a3bf05bd80",
+   "title": "アニメ『捨てられ聖女の異世界ごはん旅 隠れスキルでキャンピングカーを召喚しました』第7話「お腰につけたムーチ団子～、一つ残らずくださいな～♪」のあらすじ＆先行カット解禁",
+   "url": "https://ln-news.com/articles/126364",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T10:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "动画《废弃圣人的异世界晚餐之旅 召唤了隐藏技能的露营者》的剧情简介和预告片第7话“腰间的莫奇团子，请全部给我”♪"
+    },
+    "en": {
+     "title": "Synopsis and preview cuts released for the anime “Abandoned Saint’s Dinner Journey to Another World: I Summoned a Camper with Hidden Skills” Episode 7 “The Mooch Dango on Your Waist, Please Give Me Every One of It”♪"
+    }
+   }
+  },
+  {
+   "id": "25a732f335f8",
+   "title": "アニメ『片田舎のおっさん、剣聖になる』×浜友グループ3事業合同コラボレーションイベントが延長開催中",
+   "url": "https://ln-news.com/articles/126348",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T08:30:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "动画《乡下老人变剑圣》×滨友组3事业联动活动延长中"
+    },
+    "en": {
+     "title": "Anime “An Old Man from the Countryside Becomes a Kensei” x Hamayu Group 3 Business Joint Collaboration Event is being extended"
+    }
+   }
+  },
+  {
+   "id": "6bb387d71519",
+   "title": "『千歳くんはラムネ瓶のなか』努力型の後天的リア充少女・内田優空1／7スケールフィギュアが2027年2月発売",
+   "url": "https://ln-news.com/articles/126272",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-16T07:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "勤劳后天的真人少女内田悠久的《千岁君是弹珠瓶中》1/7比例手办将于2027年2月发售"
+    },
+    "en": {
+     "title": "“Chitose-kun wa Ramune Bottle no Naka” 1/7 scale figure of Yuku Uchida, the hard-working acquired real-life girl will be released in February 2027"
     }
    }
   },
@@ -989,6 +1456,531 @@
     },
     "en": {
      "title": "The first episode of the anime “Sasaki and Pee-chan Season 2” will be broadcast as a 1-hour special. Advance free screenings featuring cast members will also be held."
+    }
+   }
+  },
+  {
+   "id": "99338da71f3c",
+   "title": "「光が死んだ夏」アニメ放送1周年☆ 佳紀、ヒカル、田中、朝子がケーキやクラッカーでお祝い♪ くじ引き堂に豪華グッズが勢ぞろい",
+   "url": "https://animeanime.jp/article/2026/08/16/102101.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T18:00:03+08:00",
+   "summary": "アニメ放送1周年を迎えた『光が死んだ夏』の辻中佳紀、ヒカル、田中、山岸朝子が、オンラインくじサービス「くじ引き堂」に登場！",
+   "i18n": {
+    "zh": {
+     "title": "动画《光死的夏天》播出一周年☆芳树、光、田中、麻子用蛋糕和饼干庆祝♪抽奖大厅里排列着奢侈品",
+     "summary": "庆祝动画播出一周年的《光消逝的夏天》中的津中芳树、光、田中、山岸麻子将出现在在线抽签服务“Kujibikido”中！"
+    },
+    "en": {
+     "title": "The 1st anniversary of the anime broadcast of “The Summer Where Light Died” ☆ Yoshiki, Hikaru, Tanaka, and Asako celebrate with cake and crackers ♪ Luxurious goods are lined up at the lottery hall",
+     "summary": "Yoshiki Tsujinaka, Hikaru, Tanaka, and Asako Yamagishi from \"The Summer Where Light Died\", which celebrated the 1st anniversary of the anime broadcast, will appear on the online lottery service \"Kujibikido\"!"
+    }
+   }
+  },
+  {
+   "id": "de98d6d50905",
+   "title": "オープンワールドサバイバル『ルーンスケープ：ドラゴンワイルズ』初心者攻略｜鉄装備を目指そう。毒沼攻略と最初のドラゴン討伐まで徹底解説",
+   "url": "https://automaton-media.com/articles/guide/20260816-460412/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T17:30:15+08:00",
+   "summary": "本稿では、『ルーンスケープ：ドラゴンワイルズ』の初心者ガイドとして、鉄装備作成から最初のドラゴン討伐まで解説していく。",
+   "i18n": {
+    "zh": {
+     "title": "开放世界生存《Runescape: Dragon Wilds》新手攻略 |瞄准铁制装备。彻底解说如何征服毒沼，第一次讨伐巨龙",
+     "summary": "在本文中，作为 Runescape: Dragon Wilds 的初学者指南，我们将解释从创建铁装备到击败第一条龙的所有内容。"
+    },
+    "en": {
+     "title": "Open world survival ``Runescape: Dragon Wilds'' Beginner Strategy | Aim for iron equipment. Thorough explanation of how to conquer the poisonous swamp and the first dragon subjugation",
+     "summary": "In this article, as a beginner's guide to Runescape: Dragon Wilds, we will explain everything from creating iron equipment to defeating the first dragon."
+    }
+   }
+  },
+  {
+   "id": "c06476e488d4",
+   "title": "「あかね噺」朱音、からし、ひかるが和モダン衣装で粋に登場☆ 阿良川享二ら兄弟子たちのアクキーも♪ オンラインくじ「くじ引き堂」",
+   "url": "https://animeanime.jp/article/2026/08/16/102100.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T17:30:03+08:00",
+   "summary": "くじ引き堂「TVアニメ『あかね噺』オンラインくじ」では、朱音のほか、阿良川まいける、阿良川こぐま、阿良川享二、阿良川ぐりこと兄弟子たちもアクキーで勢ぞろい♪",
+   "i18n": {
+    "zh": {
+     "title": "“芭梨茜”茜、芥子、光穿着现代日本服装时尚登场☆荒川恭司等兄弟姐妹的阿贵也登场♪在线抽奖“Kujibikido”",
+     "summary": "除了茜之外，在《TV动画《茜的香蕉》在线抽奖》中，除了茜之外，还有茜以及荒川舞鹤、荒川小熊、荒川恭二和荒川九里子的兄弟姐妹。"
+    },
+    "en": {
+     "title": "“Akane Banashi” Akane, Karashi, and Hikaru appear stylishly in modern Japanese costumes ☆ Akki of Kyoji Aragawa and other siblings is also available ♪ Online lottery “Kujibikido”",
+     "summary": "In addition to Akane, the Kujibikido ``TV Anime ``Akane Banashi'' Online Lottery'' features Akane as well as Maikeru Aragawa, Koguma Aragawa, Kyoji Aragawa, and Guriko Aragawa's siblings."
+    }
+   }
+  },
+  {
+   "id": "338d3ff79aa1",
+   "title": "「天幕のジャードゥーガル」シタラやドレゲネ、ムハンマドがグッズに！ブランケットやキャンバスアートなど全33種で登場",
+   "url": "https://animeanime.jp/article/2026/08/16/102099.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T17:00:03+08:00",
+   "summary": "TVアニメ『天幕のジャードゥーガル』より、劇中イラストを使用した全33種のオリジナルグッズが登場。2026年8月21日（金）12時より、ECサイト「ともすと」にて受注予約がスタートする。",
+   "i18n": {
+    "zh": {
+     "title": "“帐篷的贾杜加尔”西塔拉、德雷吉尼、穆罕默德以商品形式登场！有 33 种类型可供选择，包括毯子和画布艺术品",
+     "summary": "TV动画《Tentaku no Jadugar》中共有33种使用剧中插图的原创周边商品。预订将于 2026 年 8 月 21 日星期五 12:00 在 EC 网站“Tomosuto”开始。"
+    },
+    "en": {
+     "title": "“Jadugal of the Tent” Sitara, Dregene, and Muhammad are available as goods! Available in 33 types including blankets and canvas art",
+     "summary": "A total of 33 types of original goods using illustrations from the play are now available from the TV anime \"Tentaku no Jadugar\". Pre-orders will start on the EC site \"Tomosuto\" from 12:00 on Friday, August 21, 2026."
+    }
+   }
+  },
+  {
+   "id": "b173d2fc23dc",
+   "title": "『ほの暮しの庭』はホラー苦手でもギリ遊べる。『MARVEL Tōkon: Fighting Souls』は面白いからこそさらなる改善を期待。今週のゲーミング",
+   "url": "https://automaton-media.com/articles/now-gaming/20260816-460407/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T16:44:52+08:00",
+   "summary": "Now Gamingは毎週日曜日、各ライターがその週にプレイしたゲームについて、ゆるく書きちらすコーナーです。557回目です。",
+   "i18n": {
+    "zh": {
+     "title": "《Honogurashi no Niwa》是一款即使不喜欢恐怖的人也能享受的游戏。 《MARVEL Tōkon: Fighting Souls》很有趣，所以我希望它能进一步改进。本周游戏",
+     "summary": "每个周日，Now Gaming 都是一个角落，每位作家都会松散地写下他们本周玩过的游戏。这是第557次。"
+    },
+    "en": {
+     "title": "``Honogurashi no Niwa'' is a game that even people who don't like horror can enjoy. ``MARVEL Tōkon: Fighting Souls'' is interesting, so I hope it will be improved further. This week's gaming",
+     "summary": "Every Sunday, Now Gaming is a corner where each writer loosely writes about the games they played that week. This is the 557th time."
+    }
+   }
+  },
+  {
+   "id": "ea9dc91b2ee2",
+   "title": "“始めは ただ欲しかった”「HUNTER×HUNTER」幻影旅団団長・クロロが立体化！本を片手に念を発動するシーンも再現",
+   "url": "https://animeanime.jp/article/2026/08/16/102098.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T16:30:03+08:00",
+   "summary": "『HUNTER×HUNTER』より幻影旅団団長クロロが立体化された。劇中に登場する様々なシーンが再現可能なフィギュアは、2026年8月3日から予約開始中だ。",
+   "i18n": {
+    "zh": {
+     "title": "“一开始只是想要” 《HUNTER×HUNTER》 幻影旅团队长库洛洛3D化了！还再现了念一手拿着书而被激活的场景。",
+     "summary": "《HUNTER x HUNTER》中，幻影旅团团长库洛洛被立体化。可以再现电影中出现的各种场景的人物模型将于 2026 年 8 月 3 日起接受预订。"
+    },
+    "en": {
+     "title": "“At first I just wanted it” “HUNTER×HUNTER” The Phantom Troupe leader Chrollo is now in 3D! The scene where Nen is activated with a book in one hand is also reproduced.",
+     "summary": "From \"HUNTER x HUNTER\", Chrollo, the leader of the Phantom Troupe, has been made into a three-dimensional figure. Pre-orders for figures that can reproduce various scenes that appear in the movie are available from August 3, 2026."
+    }
+   }
+  },
+  {
+   "id": "bb547285edf1",
+   "title": "中国战队全部缺席《Dota2》TI15八强，创下历史最差成绩",
+   "url": "https://www.gcores.com/articles/218411",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-08-16T16:14:44+08:00",
+   "summary": "随着 Team Resilience 于今日在《Dota2》TI15突围赛中以2比1的比分不敌 Team Spirit ，三支中国战队 XG 、VG 、TR 全部折戟，无一晋级八强。本次缺席正赛也创下了中国队自TI1以来的历史最差战绩。 本届国际邀请赛是继 TI9 以来第二次在中国举办，正赛阶段将于8月20日在上海重燃战火。",
+   "i18n": {
+    "ja": {
+     "title": "「Dota2」TI15準々決勝で中国チーム全敗、史上最悪の結果に",
+     "summary": "今日の「Dota2」TI15ブレイクアウトマッチではTeam ResilienceがTeam Spiritに2-1で敗れたため、中国の3チームXG、VG、TRはいずれも敗退し、準々決勝に進むチームはいなかった。この本戦欠場は、中国チームにとってTI1以来の最悪記録となった。この国際招待大会が中国で開催されるのはTI9以来2度目で、メインステージは8月20日に上海で再開される。"
+    },
+    "en": {
+     "title": "All Chinese teams were absent from the quarterfinals of \"Dota2\" TI15, setting the worst result in history",
+     "summary": "As Team Resilience lost to Team Spirit with a score of 2-1 in the \"Dota2\" TI15 breakout match today, the three Chinese teams XG, VG, and TR all failed and none advanced to the quarterfinals. This absence from the main match also set the Chinese team's worst record in history since TI1. This international invitational tournament is held in China for the second time since TI9, and the main stage will resume in Shanghai on August 20."
+    }
+   }
+  },
+  {
+   "id": "9c3c4356ba91",
+   "title": "「パトレイバー」名(迷)シーンを再現!? 遊馬と野明の“ダンジョン再び”や、後藤＆しのぶの老成した関係性がジオラマアクスタに！【9月13日まで完全受注生産】",
+   "url": "https://animeanime.jp/article/2026/08/16/102097.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T16:00:03+08:00",
+   "summary": "アニメ『機動警察パトレイバー』シリーズより、泉野明、篠原遊馬、後藤喜一、南雲しのぶ、香貫花・クランシー、熊耳武緒、内海、バドリナート・ハルチャンド、黒崎がジオラマアクスタになって登場♪",
+   "i18n": {
+    "zh": {
+     "title": "再现《机动警察》中的著名场景！？由真和野明的“再次地下城”以及后藤和忍的成熟关系现在都在立体模型 axta 中！ 【9月13日之前完全按订单生产】",
+     "summary": "出自动画《机动警察》系列，泉野晃、筱原由真、后藤喜一、南云忍、卡努卡·克兰西、熊上武夫、内海、巴德里纳特·胡昌德、黑崎以立体模型 axta 的身份登场♪"
+    },
+    "en": {
+     "title": "Recreate the famous scenes from “Patlabor”!? Yuma and Noaki’s “dungeon again” and Goto & Shinobu’s mature relationship are now in diorama axta! [Completely made to order until September 13th]",
+     "summary": "From the anime ``Mobile Police Patlabor'' series, Akira Izumino, Yuma Shinohara, Kiichi Goto, Shinobu Nagumo, Kanuka Clancy, Takeo Kumagami, Utsumi, Badrinath Hurchand, and Kurosaki appear as diorama axta♪"
+    }
+   }
+  },
+  {
+   "id": "bebfd029a553",
+   "title": "「ついにキター！」日番谷冬獅郎、完全卍解で“大人の姿”に！CVは梶裕貴に「豪華だ!!」更木剣八の卍解“エモすぎ演出”にも注目☆「BLEACH」第44話【ネタバレあり反応まとめ】",
+   "url": "https://animeanime.jp/article/2026/08/16/102096.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T15:30:02+08:00",
+   "summary": "TVアニメ『BLEACH 千年血戦篇』の最終クールとなる「-禍進譚（かしんたん）-」。2026年8月15日に放送された第44話「THE PERFECT CRIMSON」では、更木剣八と日番谷冬獅郎の卍解に注目が集まった。",
+   "i18n": {
+    "zh": {
+     "title": "“终于来了！”日番谷敏郎以“成人形态”全面盘解！梶裕贵的简历“华丽！！”还请关注更木健八的卞解“太情绪化的制作”☆《BLEACH》第44集【剧透反应总结】",
+     "summary": "《-Kashintan-》是TV动画《死神：千年血战》的最终季。 2026年8月15日播出的第44集《THE PERFECT CRIMSON》中，更木剑八和日番谷敏郎的卞解受到了人们的关注。"
+    },
+    "en": {
+     "title": "“Finally here!” Toshiro Hitsugaya in his “adult form” with full Bankai! Yuki Kaji's CV is \"gorgeous!!\" Also pay attention to Kenpachi Zaraki's Bankai \"too emotional production\" ☆ \"BLEACH\" Episode 44 [Summary of reactions with spoilers]",
+     "summary": "\"-Kashintan-\" is the final season of the TV anime \"BLEACH: Millennium Blood War\". In episode 44, \"THE PERFECT CRIMSON,\" which aired on August 15, 2026, attention was focused on Kenpachi Zaraki and Toshiro Hitsugaya's Bankai."
+    }
+   }
+  },
+  {
+   "id": "71a91a39a4e6",
+   "title": "『龍が如く７外伝』は75％オフで1500円切り。『JUDGE EYES』は745円で買える。高評価フンコロガシピンボール風アクションはわずか205円。今週の高割引率PCゲーム",
+   "url": "https://automaton-media.com/articles/newsjp/steam-sale-20260816-460399/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T15:29:11+08:00",
+   "summary": "本稿ではSteamにてこの1週間でセールが開始されたタイトルのうち、特に割引率の高いゲームに焦点を当てて紹介する。",
+   "i18n": {
+    "zh": {
+     "title": "《Ryu ga Gotoku 7 Gaiden》75%折扣，仅需1,500日元。 “JUDGE EYES”的售价为745日元。好评如潮的粪甲虫弹球式动作，仅需 205 日元。本周高折扣电脑游戏",
+     "summary": "在本文中，我们将重点关注过去一周在 Steam 上发售的游戏，尤其是折扣率特别高的游戏。"
+    },
+    "en": {
+     "title": "``Ryu ga Gotoku 7 Gaiden'' is 75% off and only 1,500 yen. ``JUDGE EYES'' can be purchased for 745 yen. Highly rated dung beetle pinball style action for just 205 yen. This week's high discount PC games",
+     "summary": "In this article, we will focus on titles that have been on sale on Steam in the past week, with a focus on games with particularly high discount rates."
+    }
+   }
+  },
+  {
+   "id": "106746bdc883",
+   "title": "「キングダム ハーツ」初の“完全新作ストーリー”アニメーション制作決定！キーブレードを持つ謎の少年が…Disney Kids & Familyとスクウェア・エニックスが共同制作",
+   "url": "https://animeanime.jp/article/2026/08/16/102095.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T15:15:03+08:00",
+   "summary": "世界的大ヒットゲームシリーズ「キングダム ハーツ」初のオリジナルアニメーションシリーズ『キングダム ハーツ（仮題）』の制作が発表された。ディズニー・チャンネルでの放送、ディズニー公式動画配信サービス「Disney+ (ディズニープラス)」での配信が予定されている。",
+   "i18n": {
+    "zh": {
+     "title": "《王国之心》首部“全新故事”动画制作决定！拿着钥匙刃的神秘男孩...由 Disney Kids & Family 和 Square Enix 联合制作",
+     "summary": "全球热门游戏系列《王国之心》的首部原创动画系列《王国之心（暂定名）》已宣布制作。计划在迪士尼频道播出，并在迪士尼官方视频发行服务“Disney+”上发行。"
+    },
+    "en": {
+     "title": "“Kingdom Hearts” first “completely new story” animation production decided! A mysterious boy with a keyblade...Co-produced by Disney Kids & Family and Square Enix",
+     "summary": "The production of ``Kingdom Hearts (tentative title)'', the first original animation series of the worldwide hit game series ``Kingdom Hearts'', has been announced. It is scheduled to be broadcast on Disney Channel and distributed on Disney's official video distribution service \"Disney+\"."
+    }
+   }
+  },
+  {
+   "id": "27cbea5b97b2",
+   "title": "「センチメンタルサーカス」新キャラ・白黒小熊座も仲間入り♪ “切な可愛い”ティーサロンがテーマの新グッズ登場",
+   "url": "https://animeanime.jp/article/2026/08/16/102094.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T15:00:03+08:00",
+   "summary": "「センチメンタルサーカス」より、ティーサロンをイメージした新テーマ『今夜、白黒小熊座ティーサロンで』グッズが新登場。2026年9月頃より、全国の販売店やネットショップにて発売される。",
+   "i18n": {
+    "zh": {
+     "title": "《青涩马戏团》新角色黑白熊加入♪以“甜蜜可爱”茶沙龙为主题的新商品现已上市",
+     "summary": "《青涩马戏团》以茶沙龙为主题的新商品“今晚在黑白熊座茶沙龙”现已上市。将于2026年9月左右在全国零售店和网上商店发售。"
+    },
+    "en": {
+     "title": "\"Sentimental Circus\" new character, Black and White Bear, joins the group ♪ New goods with a \"sweet and cute\" tea salon theme are now available",
+     "summary": "From \"Sentimental Circus\", new goods with a tea salon theme \"Tonight at the Black and White Kumaza Tea Salon\" are now available. It will be on sale at retail stores and online shops nationwide from around September 2026."
+    }
+   }
+  },
+  {
+   "id": "8aa204ce12bf",
+   "title": "声優・島崎信長、宮野真守からの“高度なアドバイス”を告白！「忘却バッテリー」石井マーク・河西健吾が登壇 アニメ第1期振り返り上映会第2回レポ",
+   "url": "https://animeanime.jp/article/2026/08/16/102093.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T14:30:03+08:00",
+   "summary": "『忘却バッテリー』第1期振り返り上映会第2回が、2026年8月9日（日）に開催された。本編#4～#6を上 映した本イベントについてのレポートが公開された。",
+   "i18n": {
+    "zh": {
+     "title": "声优岛崎信长承认宫野守的“高级建议”！ 《遗忘电池》石井马克、葛西健吾将登场，动画第一季回顾放映第二次报道",
+     "summary": "《遗落电池》第一季的第二次回顾放映于 2026 年 8 月 9 日星期日举行。放映了第 4 至第 6 集主要剧集的本次活动报道已经发布。"
+    },
+    "en": {
+     "title": "Voice actor Nobunaga Shimazaki confesses “advanced advice” from Mamoru Miyano! “Oblivion Battery” Mark Ishii and Kengo Kasai will be on stage, 2nd report of the retrospective screening of the first season of the anime",
+     "summary": "The second retrospective screening of the first season of “Oblivion Battery” was held on Sunday, August 9, 2026. A report on this event, which screened main episodes #4 to #6, has been released."
+    }
+   }
+  },
+  {
+   "id": "d161a8d47a86",
+   "title": "「スキップとローファー 2nd season」27年4月放送開始！黒沢ともよ＆江越彬紀のコメントも公開「当たり前じゃ無くて、とっても幸せです」",
+   "url": "https://animeanime.jp/article/2026/08/16/102092.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T14:00:04+08:00",
+   "summary": "TVアニメ『スキップとローファー』の最新情報が発表された。第2期のタイトルは『スキップとローファー 2nd season』に決定し、2027年4月より放送がスタートする。ティザーPVや新イラスト、メインキャストの黒沢ともよと江越彬紀のコメントも公開された。",
+   "i18n": {
+    "zh": {
+     "title": "《Skip and Loafers 第二季》将于2027年4月开播！黑泽知代和江江明树也发表了评论：“这不太自然，但我很高兴。”",
+     "summary": "电视动画《Skip and Loafers》的最新情报公开。第二季的标题已确定为“Skip and Loafers 第二季”，将于 2027 年 4 月开始播出。预告片 PV、新插图以及主要演员黑泽智代和江江秋树的评论也已公开。"
+    },
+    "en": {
+     "title": "“Skip and Loafers 2nd season” will start broadcasting in April 2027! Comments from Tomoyo Kurosawa and Akiki Egoe have also been released: ``It's nothing natural, but I'm very happy.''",
+     "summary": "The latest information on the TV anime ``Skip and Loafers'' has been announced. The title of the second season has been decided as ``Skip and Loafers 2nd season,'' and broadcasting will begin in April 2027. A teaser PV, new illustrations, and comments from main cast members Tomoyo Kurosawa and Akiki Egoe have also been released."
+    }
+   }
+  },
+  {
+   "id": "2f5778fbdda1",
+   "title": "“圧倒的に好評”カードショップ経営シム『TCG Card Shop Simulator』9月15日に正式リリース決定、Switch/PS5版も同時発売へ。仕入れたトレカでの対戦がついにできる",
+   "url": "https://automaton-media.com/articles/newsjp/tcg-card-shop-simulator-20260816-460390/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T13:47:49+08:00",
+   "summary": "OPNeon Gamesは8月16日、『TCG Card Shop Simulator』を9月15日に正式リリースすると発表した。同日にはNintendo Switch/SwitchおよびPS5向けにもリリースされる予定だ。",
+   "i18n": {
+    "zh": {
+     "title": "“人气超高”的卡牌店经营模拟游戏《TCG卡牌店模拟器》将于9月15日正式发售，Switch/PS5版也将同时发售。您终于可以使用您购买的交易卡互相对战了。",
+     "summary": "OPNeon Games于8月16日宣布，TCG卡牌店模拟器将于9月15日正式发售。任天堂 Switch/Switch 和 PS5 版也计划于同一天发售。"
+    },
+    "en": {
+     "title": "“Overwhelmingly popular” card shop management sim “TCG Card Shop Simulator” will be officially released on September 15th, and the Switch/PS5 version will also be released at the same time. You can finally play against each other using the trading cards you purchased.",
+     "summary": "OPNeon Games announced on August 16th that TCG Card Shop Simulator will be officially released on September 15th. It is also scheduled to be released for Nintendo Switch/Switch and PS5 on the same day."
+    }
+   }
+  },
+  {
+   "id": "30093c872008",
+   "title": "「名探偵プリキュア！」くれあとるるかの過去が「想像以上に重かった…」“人間と妖精は最高のパートナー”に考察続々！ キュアアルカナお披露目にも歓喜の声☆第29話【ネタバレあり反応まとめ】",
+   "url": "https://animeanime.jp/article/2026/08/16/102091.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T13:45:03+08:00",
+   "summary": "TVアニメ『名探偵プリキュア！』の第29話「二人の過去」が、2026年8月16日に放送。キュアアルカナがお披露目となり、SNS上で大きな話題となった。",
+   "i18n": {
+    "zh": {
+     "title": "「普雷库亚侦探！」 Kureta和Ruka的过去“比我想象的更重要……”和“人类和妖精是最好的伙伴”，还有更多的思考！为《Cure Arcana》揭幕欢呼☆第29集【剧透反应总结】",
+     "summary": "电视动画《名侦探光之美少女！》第29集《两个人的过去》将于2026年8月16日播出。Cure Arcana一经亮相，就成为SNS上的热门话题。"
+    },
+    "en": {
+     "title": "\"Detective PreCure!\" Kureta and Ruka's past was \"more important than I imagined...\" and \"Humans and fairies are the best partners\", and more thoughts on it! Cheers at the unveiling of Cure Arcana☆Episode 29 [Summary of reactions with spoilers]",
+     "summary": "TV anime “Detective Precure!” ” Episode 29 “The Past of Two People” will be broadcast on August 16, 2026. Cure Arcana was unveiled and became a hot topic on SNS."
+    }
+   }
+  },
+  {
+   "id": "77e49d5c1cff",
+   "title": "“彼らが破滅するのを見守ることしかできない”無情と人間臭さのSF群像劇ADV『BLACK SHEEP TOWN』をもう遊んだか",
+   "url": "https://automaton-media.com/articles/special-column/bst-20260816-460380/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T12:50:08+08:00",
+   "summary": "連載第4回となる本稿では、BA-KUが2022年9月にSteam向けにリリースしたビジュアルノベル『BLACK SHEEP TOWN』を紹介。",
+   "i18n": {
+    "zh": {
+     "title": "你玩过《黑羊镇》这种“只能看着它们被毁灭”的无情人性科幻合奏剧ADV吗？",
+     "summary": "在本系列的第四篇文章中，我们将介绍 BA-KU 于 2022 年 9 月在 Steam 上发布的视觉小说《BLACK SHEEP TOWN》。"
+    },
+    "en": {
+     "title": "Have you played “BLACK SHEEP TOWN”, a heartless and human-like science fiction ensemble drama ADV where “all you can do is watch them be destroyed”?",
+     "summary": "In this article, the fourth in the series, we introduce the visual novel ``BLACK SHEEP TOWN'' released by BA-KU on Steam in September 2022."
+    }
+   }
+  },
+  {
+   "id": "f5e0c46bc884",
+   "title": "ついにヒノカミ神楽が!!「神すぎる」「何度観ても圧巻」「涙ちょちょぎれ回」…「鬼滅の刃」禰豆子の覚醒と“竈門炭治郎のうた”に号泣再放送第十九話【ネタバレあり反応まとめ】",
+   "url": "https://animeanime.jp/article/2026/08/16/102090.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T12:45:02+08:00",
+   "summary": "アニメ『鬼滅の刃』全編再放送第十九話は、多くの人が神回と絶賛する「竈門炭治郎 立志編」でも重要なエピソード。特殊エンディングで泣いてください！",
+   "i18n": {
+    "zh": {
+     "title": "最后是日神神乐！！ 「太神了」「看多少遍都精彩」「催人泪下的一集」……「鬼灭之刃」祢豆子的觉醒和「灶门炭治郎的歌」让她落泪第 19 集【剧透反应总结】",
+     "summary": "全长重播的动画《鬼灭之刃》第19集，是被许多人誉为神剧的《灶门炭治郎立志编》中的重要一集。特别的结局请哭吧！"
+    },
+    "en": {
+     "title": "Finally, Hinokami Kagura!! ``It's too divine'' ``It's spectacular no matter how many times I watch it'' ``A tearful episode''... ``Demon Slayer: Kimetsu no Yaiba'' Nezuko's awakening and ``Kamado Tanjiro's song'' make her cry in tears Episode 19 [Summary of reactions with spoilers]",
+     "summary": "The 19th episode of the anime \"Demon Slayer: Kimetsu no Yaiba\", which is a full-length rebroadcast, is an important episode in \"Kamado Tanjiro Risshi Hen\", which many people praise as a divine episode. Please cry at the special ending!"
+    }
+   }
+  },
+  {
+   "id": "06f0f1649506",
+   "title": "PS5『ゴースト・オブ・ヨウテイ』の“大型拡張”は10月1日発売。老舗FPS『AVA』の新作『AVA RE:BIRTH』発表。今週の見逃せないゲーム記事7選",
+   "url": "https://automaton-media.com/articles/newsjp/20260816-460353/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T12:19:59+08:00",
+   "summary": "今週のAUTOMATONにて反響の大きかったゲーム紹介系記事を中心に、7本の記事をピックアップ。今週は『ゴースト・オブ・ヨウテイ』拡張コンテンツのほか、『AVA RE:BIRTH』や『ゴールデンレトリバーと過ごす日々』などが話題となった。",
+   "i18n": {
+    "zh": {
+     "title": "PS5《妖精之魂》的“主要资料片”将于 10 月 1 日发售。老牌FPS游戏《AVA》发布新作《AVA RE:BIRTH》。本周 7 篇必看的游戏文章",
+     "summary": "我们挑选了 7 篇文章，重点关注本周 AUTOMATON 反响热烈的游戏介绍文章。本周，除了《妖精之魂》扩展内容外，《AVA RE:BIRTH》和《金毛寻回犬的日子》也成为热门话题。"
+    },
+    "en": {
+     "title": "The “major expansion” for PS5 “Ghost of Youtei” will be released on October 1st. Announcement of the new work “AVA RE:BIRTH” from the long-established FPS “AVA”. 7 must-see gaming articles this week",
+     "summary": "We have picked up 7 articles, focusing on game introduction articles that received a great response from this week's AUTOMATON. This week, in addition to the ``Ghost of Youtei'' expansion content, ``AVA RE:BIRTH'' and ``Days with a Golden Retriever'' were talked about."
+    }
+   }
+  },
+  {
+   "id": "9b7d79092819",
+   "title": "スヌーピーをモダンプレッピーにデザイン♪ 秋冬にピッタリなセーターやラグビーシャツ、パファージャケットなど全12型登場【トミー ヒルフィガー】",
+   "url": "https://animeanime.jp/article/2026/08/16/102089.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T12:00:03+08:00",
+   "summary": "スヌーピー、チャーリー・ブラウンたちとTommy Hilfiger（トミー ヒルフィガー）がコラボしたキッズコレクション☆",
+   "i18n": {
+    "zh": {
+     "title": "史努比的现代学院派设计♪ 适合秋冬的毛衣、橄榄球衫、羽绒服等 12 种 [Tommy Hilfiger]",
+     "summary": "与史努比、查理·布朗和汤米·希尔费格合作打造的儿童系列☆"
+    },
+    "en": {
+     "title": "A modern preppy design of Snoopy♪ 12 types of sweaters, rugby shirts, puffer jackets, etc. perfect for fall and winter [Tommy Hilfiger]",
+     "summary": "Kids collection created in collaboration with Snoopy, Charlie Brown and Tommy Hilfiger☆"
+    }
+   }
+  },
+  {
+   "id": "fc5648e620c3",
+   "title": "Vol.95 对话热男HotGuys ： 想把快乐做到八十岁",
+   "url": "https://www.gcores.com/radios/218405",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-08-16T12:00:00+08:00",
+   "summary": "概述这一期我们请来科技数码频道「热男 HotGuys」的两位联合创始人崔野和尹国威。从《国行顶配 3》聊起，我们拆解了一条剧情向数码视频从创意、读稿、分镜、踩点、拍摄到后期审片的完整过程，也回到热男的创业起点：一群在爱搞机共事多年的伙伴，为什么只带着半年房租走出来创业，又如何让六位合伙人与一支十人团队稳定合作至今。这期也聊到内容团队很难绕开的问题：创意怎样拍板，商业合作为什么会选择热男，手机壳、贴纸、椰子鸡和辣椒酱为什么没能成为第二曲线；当小剧场不再稀缺、短视频改变内容消费、AI 开始生成视频，科技媒体还可以做多久？热男给出的答案很简单：只要还能覆盖成本，就一直做下去。媒介会变，观众会变，但让",
+   "i18n": {
+    "ja": {
+     "title": "Vol.95 HotGuys対談「80歳まで幸せでいたい」",
+     "summary": "概要 今回は、テクノロジー デジタル チャンネル「HotGuys」の共同創設者である Cui Ye 氏と ying Guowei 氏をお招きします。 「National Bank Top 3」についての雑談から始まり、クリエイティビティ、原稿読み、絵コンテ、撮影、撮影、ポストレビューに至るまでのプロットからデジタルビデオまでの全プロセスを解剖し、また、なぜ長年協力してきたパートナーのグループがたった半年の家賃でビジネスを始めたのか、なぜ6人のパートナーと10人のチームが今日まで安定的に協力できたのかというホットマンのビジネスの原点に立ち返った。この号では、コンテンツ チームが回避するのが難しい問題についても触れています。クリエイティビティをどのように決めるか、ビジネス協力に魅力的な男性を選ぶ理由、携帯電話のケース、ステッカー、ココナッツ チキン、チリソースが第 2 のカーブにならなかった理由。小さな劇場がもはや不足しなくなり、ショートビデオがコンテンツ消費を変え、AIがビデオを生成し始めたとき、テクノロジーメディアはいつまでそれを続けることができるでしょうか？ Hot Man の答えはシンプルです。コストを賄える限り、やり続けることです。メディアも変わり、聴衆も変わりますが、"
+    },
+    "en": {
+     "title": "Vol.95 Conversation with HotGuys: I want to be happy until I’m eighty",
+     "summary": "Overview In this issue, we invite Cui Ye and Yin Guowei, two co-founders of the technology digital channel \"HotGuys\". Starting from the chat about \"National Bank Top 3\", we dissected the complete process of a plot-to-digital video from creativity, draft reading, storyboarding, filming, shooting to post-review, and also returned to the starting point of Hot Man's business: why a group of partners who have been working together for many years came out to start a business with only half a year's rent, and how have six partners and a team of ten people been able to cooperate stably to this day. This issue also talks about issues that are difficult for content teams to avoid: how to decide on creativity, why do you choose hot men for business cooperation, why mobile phone cases, stickers, coconut chicken and chili sauce failed to become the second curve; when small theaters are no longer scarce, short videos change content consumption, and AI starts to generate videos, how long can technology media continue to do so? The answer given by Hot Man is simple: as long as the cost can be covered, keep doing it. The medium will change, the audience will change, but let"
+    }
+   }
+  },
+  {
+   "id": "78dd50e7392f",
+   "title": "「ハイキュー!!」日向翔陽、孤爪研磨、赤葦京治…彼らの熱い名場面を永久保存！トレーディング場面写アクリルスタンド、アクリルキーホルダーなどが受注開始！",
+   "url": "https://animeanime.jp/article/2026/08/16/102088.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T11:15:03+08:00",
+   "summary": "アニメ『ハイキュー!!』よりトレーディング場面写シリーズのグッズなど多数登場。「AMNIBUS」にて、受注販売が開始されている。",
+   "i18n": {
+    "zh": {
+     "title": "“海九！！”日向翔阳、小豆健二、赤石敬二……他们的火爆名场面将永远被保留！我们现在接受场景照片亚克力架、亚克力钥匙扣等订单！",
+     "summary": "动画《排球！！》中交易场景系列的众多周边商品现在可用。 “AMNIBUS”已开始接受订单和销售。"
+    },
+    "en": {
+     "title": "\"Haikyu!!\" Shoyo Hinata, Kenji Kozume, Keiji Akaashi... Their hot famous scenes will be preserved forever! We are now accepting orders for trading scene photo acrylic stands, acrylic key chains, and more!",
+     "summary": "Many goods from the trading scene series from the anime \"Haikyu!!\" are now available. Orders and sales have started at \"AMNIBUS\"."
+    }
+   }
+  },
+  {
+   "id": "1a90ceb28a4d",
+   "title": "【平成女子×少女マンガ】「カードキャプターさくら」王道魔法少女モノから“封印解除（レリーズ）”されたオタクの扉～汝のあるべき姿に戻らん～",
+   "url": "https://animeanime.jp/article/2026/08/16/102087.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T11:05:03+08:00",
+   "summary": "ずっと魔法少女に憧れてた。ずっとさくらちゃんになりたかった。小学生時代を彩ってくれた大好きな作品。だけど……気付いたら立派なオタクになってたよ。",
+   "i18n": {
+    "zh": {
+     "title": "【平成少女×少女漫画】《魔卡少女樱》从经典的魔法少女事中“解放”出来的御宅族门～你不会再回到本该的样子了～",
+     "summary": "我一直很欣赏魔法少女。我一直想成为小樱。我最喜欢的作品给我的小学时光增添了色彩。但……不知不觉间，我已经成为了一名伟大的御宅族。"
+    },
+    "en": {
+     "title": "[Heisei Girls x Girls Manga] “Cardcaptor Sakura” The otaku door that has been “released” from the classic magical girl thing ~ You will not return to what you should be ~",
+     "summary": "I've always admired magical girls. I've always wanted to be Sakura-chan. My favorite work that colored my elementary school days. But...before I realized it, I had become a great otaku."
+    }
+   }
+  },
+  {
+   "id": "6df33729c0e8",
+   "title": "SP.11 2026暑期档中场点兵：有的爆了，有的撤了",
+   "url": "https://www.gcores.com/radios/218406",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-08-16T11:00:00+08:00",
+   "summary": "本期SP，喵臣串台青年度日指南，和主播拉帝快速短评暑期档前半段看过的片子。等暑期档结束之后，摇摆指南也会推出更加完整的盘点，敬请期待！本期时间轴：00:03:00 《奥德赛》 00:09:15 《蜘蛛侠 崭新之日》 00:22:24 《痴迷》 00:31:44 《三国第一部 争洛阳》 00:34:20 《群星闪耀时》 00:36:00 《恐怖游轮》 00:37:53 《玩具总动员5》 00:44:36 《超级少女》 00:51:50 《后室》 00:54:51 《火遮眼》 01:01:45 暑期档还有什么期待的更多精彩，敬请期待。感谢大家的收听与支持！",
+   "i18n": {
+    "ja": {
+     "title": "SP.11 2026年夏シーズンの中盤部隊：一部は爆発、一部は撤退",
+     "summary": "今号の SP では、ミャオチェンがチャンネルに参加して若者たちの時間の過ごし方をガイドし、アンカーのラディが夏のシーズン前半に観た映画を簡単にレビューします。サマーシーズンが終わったら、スイングガイドもより充実した在庫をリリースする予定ですので、お楽しみに！この号のタイムライン: 00:03:00 「オデッセイ」 00:09:15 「スパイダーマン：ニュー・デイ」 00:22:24 「オブセッション」 00:31:44 「Three Kingdoms Part 1: Battle for Luoyang」 00:34:20 「When the Stars Shine」 00:36:00 「Terror Cruise」 00:37:53 「トイ・ストーリー 5」 00:44:36 「スーパーガール」 00:51:50 「バック・ルーム」 00:54:51 「ファイア・カバーズ・アイズ」 01:01:45 夏に他に楽しみにしていることは何ですか?乞うご期待。聞いてくださった皆さん、応援してくださった皆さん、ありがとうございました！"
+    },
+    "en": {
+     "title": "SP.11 2026 summer season midfield troops: some exploded, some withdrew",
+     "summary": "In this issue of SP, Miaochen joins the channel to guide young people through their daily lives, and host Ladi gives a quick review of the movies they watched during the first half of the summer season. After the summer season is over, the Swing Guide will also release a more complete inventory, so stay tuned! Timeline of this issue: 00:03:00 \"The Odyssey\" 00:09:15 \"Spider-Man: A New Day\" 00:22:24 \"Obsession\" 00:31:44 \"Three Kingdoms Part 1: Battle for Luoyang\" 00:34:20 \"When the Stars Shine\" 00:36:00 \"Terror Cruise\" 00:37:53 \"Toy Story 5\" 00:44:36 \"Supergirl\" 00:51:50 \"Back Room\" 00:54:51 \"Fire Covers Eyes\" 01:01:45 What else are you looking forward to in the summer season? Stay tuned. Thank you everyone for listening and supporting!"
+    }
+   }
+  },
+  {
+   "id": "8c7bcec007f0",
+   "title": "「『キングダム ハーツIV』は絶対2027年に出す」と野村哲也氏が断言。長尺映像や開発状況など、新情報いろいろ公開",
+   "url": "https://automaton-media.com/articles/newsjp/20260816-460374/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-16T10:23:36+08:00",
+   "summary": "スクウェア・エニックスは8月16日、『キングダム ハーツIV』のロングトレイラーを公開。あわせて『キングダム ハーツ』25周年記念配信では、野村哲也氏が2027年に確実にリリースすると、“断言”する場面も見られた。",
+   "i18n": {
+    "zh": {
+     "title": "“《王国之心 IV》肯定会在 2027 年发布，”野村哲也宣称。长视频、开发动态等各种新信息发布",
+     "summary": "Square Enix 于 8 月 16 日发布了《王国之心 IV》的长预告片。此外，在《王国之心》25周年纪念直播中，有一个场景是野村哲也“确认”该游戏一定会在2027年发布。"
+    },
+    "en": {
+     "title": "\"'Kingdom Hearts IV' will definitely be released in 2027,\" Tetsuya Nomura declared. Release of various new information such as long videos and development status",
+     "summary": "Square Enix released the long trailer for \"Kingdom Hearts IV\" on August 16th. Additionally, during the 25th anniversary broadcast for Kingdom Hearts, there was a scene where Tetsuya Nomura ``affirmed'' that the game would definitely be released in 2027."
     }
    }
   },
@@ -1980,875 +2972,107 @@
    }
   },
   {
-   "id": "04d2bb638471",
-   "title": "声优、导演、原作者参演：TV动画《尼古喵喵》片头曲MV公开",
-   "url": "https://www.gcores.com/articles/218357",
-   "source": "机核 GCORES",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-14T13:54:25+08:00",
-   "summary": "8月13日，演唱组合忘れらんねえよ公开了TV动画《尼古喵喵》片头曲《なんもねえ》的MV。 <内嵌内容，请前往机核查看> MV的舞台是一个看起来有些眼熟的地下收容所。在动画中配音的声优夏吉优子、稻田彻以及动画版导演木村拓、原作者にゃんにゃんファクトリー都参演了该MV。 《尼古喵喵》原作是にゃんにゃんファクトリー在讲谈社《YoungMagazine》上连载的漫画，讲述了在人类和兽人共存的世界里爱抽烟的兽人尼古喵喵的日常。TV动画版《尼古喵喵》已于7月2日开播。",
-   "i18n": {
-    "ja": {
-     "title": "声優・監督・原作者参加：TVアニメ「ニコニャウ」オープニング曲MV公開",
-     "summary": "歌手グループ・Forgetが8月13日、TVアニメ『ニコ・ミュウニャウ』のオープニング曲「NARUTO」のMVを公開した。 <埋め込みコンテンツについては、マシンコアに移動してご覧ください> MVの舞台は、見覚えのある地下シェルター。 MVにはアニメで声を担当した声優の夏樹裕子と稲田徹をはじめ、アニメ版の監督である木村拓氏、原作者の徹裕子氏も参加した。 『ニコ・ミュウ』の原作は、人間と獣人が共存する世界を舞台に、喫煙好きのオーク、ニコ・ミュウの日常を描いたマンガで、講談社「ヤングマガジン」で連載されている。 7月2日よりTVアニメ版「ニコミュウ」がスタートしました。"
-    },
-    "en": {
-     "title": "Voice actor, director, original author participating: TV animation \"Nico Meow\" opening song MV released",
-     "summary": "On August 13th, the singing group Forget released the MV for the opening song \"Naruto\" of the TV animation \"Niko Mew Meow\". <For embedded content, please go to the machine core to view it> The stage of the MV is an underground shelter that looks familiar. The voice actors Yuko Natsuki and Toru Inada who voiced their voices in the animation, as well as the director of the animated version, Taku Kimura, and the original author, Yuko Toru, all participated in the MV. The original work of \"Niko Mew\" is a manga serialized by Kodansha's \"Young Magazine\" by Kodansha, which tells the daily life of Nico Mew, a smoking-loving orc in a world where humans and beasts coexist. The TV animated version of \"Nico Mew\" was launched on July 2."
-    }
-   }
-  },
-  {
-   "id": "c1d46a913653",
-   "title": "定档9月的《王者万象棋》，想让自己“万象更新”",
-   "url": "http://www.chuapp.com/article/291559.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-13T23:00:00+08:00",
-   "summary": "8月7日，触乐在青岛参加了天美工作室群“王者荣耀”IP英雄策略对战新游《王者万象棋》的预定档发布会。截至预定档发布会时，《王者万象棋》的全网预约量已经突破5000万。在发布会现场，游戏制作人Donny宣布，游戏将正式定档9月上线。 目前预约人数已突破五千万 此前，《王者万象棋》已经于早些时候（7月28日）开启了面向PC端和安卓端抢先体验测试。从体验服表现和玩家反馈来说，《王者万象棋》最大的特色在于和传统自走棋巨大差异化的游戏体验——在游戏中，玩家需要以更接近卡牌策略的玩法，达成合理的手牌管理和连锁反应，从而养成英雄等级和技能效果，这让游戏在基础规则上做了较大的玩法减法，而在进阶内容方面则构筑了",
-   "i18n": {
-    "ja": {
-     "title": "9月には「万象棋王」も予定、「すべてをアップデートしたい」",
-     "summary": "8月7日、Chuleは青島で開催されたTianmei Studio Groupの「Honor of Kings」IPヒーロー戦略バトル新作「King of Wanxiang Chess」の予定記者会見に参加した。 『万象棋王』のオンライン予約数は、発売予定日時点で5,000万件を突破。記者会見で、ゲームプロデューサーのドニー氏は、ゲームが正式に9月に発売される予定であると発表した。現在、予約数は5,000万件を超えています。以前、「King of Wanxiang Chess」は、PC および Android 向けの早期アクセス テストを以前 (7 月 28 日) に開始していました。エクスペリエンスサーバーのパフォーマンスとプレイヤーのフィードバックから、「King of Wanxiang Chess」の最大の特徴は、従来のオートチェスとは大きく異なるゲームエクスペリエンスです。ゲームでは、プレイヤーはカード戦略に近いゲームプレイを使用して、合理的なハンドマネジメントと連鎖反応を達成し、ヒーローレベルとスキル効果を開発する必要があります。これにより、ゲームプレイの基本ルールに大幅な減算が加えられ、高度なコンテンツを構築できるようになります。"
-    },
-    "en": {
-     "title": "\"King of Wanxiang Chess\" is scheduled for September, and I want to \"update everything\"",
-     "summary": "On August 7, Chule participated in the scheduled press conference of Tianmei Studio Group’s “Honor of Kings” IP hero strategy battle new game “King of Wanxiang Chess” in Qingdao. As of the release date of the scheduled release, the number of online reservations for \"King of Wanxiang Chess\" has exceeded 50 million. At the press conference, game producer Donny announced that the game will be officially scheduled to be launched in September. At present, the number of reservations has exceeded 50 million. Previously, \"King of Wanxiang Chess\" had launched early access testing for PC and Android earlier (July 28). From the experience server performance and player feedback, the biggest feature of \"King of Wanxiang Chess\" is the game experience that is greatly different from traditional auto chess - in the game, players need to use a gameplay closer to card strategy to achieve reasonable hand management and chain reactions, so as to develop hero levels and skill effects. This allows the game to make major subtractions in the basic rules of the gameplay, and build advanced content."
-    }
-   }
-  },
-  {
-   "id": "648fc745f47e",
-   "title": "在《维修物语》里，我们把那些年弄坏的机器一一修好",
-   "url": "http://www.chuapp.com/article/291562.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-13T19:43:37+08:00",
-   "summary": "8月6日，试玩版就获得了颇多好评的《维修物语》终于上线，在短短两天内就获得了高达97%的好评如潮，评论数首日就逼近千条，第二天直接迅速破两千，官方也证实销量迅速逼近了十万份。对于一款小体量的游戏来说，这无疑是值得肯定的巨大成功。 制作组发布公告 在我动笔的8月11日，全区评价情况已经如图 那么，《维修物语》的魅力究竟在哪里？或者说这款游戏是否该立刻入库？且容我细细道来——若是小时候就好奇物件内部结构，喜欢拆玩具玩的朋友，可以立刻入库。 剧情通关时间大约10小时，但可以继续爽 ■ 经历锤炼的核心玩法 提起《维修物语》的核心玩法，就不能忽略掉制作组Mandragora的前作《我是未来》。作为一款末",
-   "i18n": {
-    "ja": {
-     "title": "「メンテナンスストーリー」では、長い年月を経て壊れた機械を一つ一つ修理していきます",
-     "summary": "8月6日、好評を博した『メンテナンスストーリー』の体験版がついに配信開始されました。わずか 2 日で 97% の絶賛を受けました。コメント数は初日に1000件に近づき、翌日にはあっという間に2000件を超えた。関係者らはまた、売り上げがすぐに10万部に近づいたことを認めた。小規模なゲームとしては、これは間違いなく評価に値する大成功です。制作チームが発表を行った。書き始めた8月11日、地区全体の評価状況は写真の通りでした。では、『メンテナンスストーリー』の魅力とは何でしょうか？それともこのゲームはすぐにお蔵入りになったほうがいいでしょうか？詳しく説明しましょう。子供の頃に物の内部構造に興味があり、おもちゃを分解して遊ぶのが好きなら、すぐに収納場所にしまうことができます。ストーリークリアまでに10時間ほどかかりますが、引き続き楽しむことができます ■鍛え上げられた核となるゲームプレイ 『メンテナンスストーリー』の核となるゲームプレイを語る上で、制作チームMandragoraによる前作『I Am the Future』を無視することはできません。遅刻として"
-    },
-    "en": {
-     "title": "In \"Maintenance Story\", we repair the machines that have been broken over the years one by one",
-     "summary": "On August 6, the trial version of \"Maintenance Story\", which received a lot of praise, was finally launched. In just two days, it received rave reviews of 97%. The number of comments approached 1,000 on the first day, and quickly exceeded 2,000 the next day. Officials also confirmed that sales quickly approached 100,000 copies. For a small game, this is undoubtedly a huge success worthy of recognition. The production team issued an announcement. On August 11, when I started writing, the evaluation situation of the entire district was as shown in the picture. So, what is the charm of \"Maintenance Story\"? Or should this game be put into storage immediately? Let me explain in detail - if you were curious about the internal structure of objects as a child and like to take apart toys to play, you can put them in storage immediately. It takes about 10 hours to complete the story, but you can continue to enjoy it ■ The core gameplay that has been tempered When talking about the core gameplay of \"Maintenance Story\", we cannot ignore the previous work \"I Am the Future\" by the production team Mandragora. As a late"
-    }
-   }
-  },
-  {
-   "id": "174bd4daae61",
-   "title": "触乐怪话：赛博暹罗哪家强",
-   "url": "http://www.chuapp.com/article/291563.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-13T19:43:08+08:00",
-   "summary": "触乐怪话，每天胡侃和游戏有关的屁事、鬼事、新鲜事。 图/不是小罗 这几天，《蛋仔派对》和《暹罗厘普》联动了，联动的建模圆滚滚得恰到好处，尤其是“暹罗厘普”，完全展现了暹罗配色的最大可爱，让我忍不住每天盯着建模看上十几分钟。如果各位读者朋友也玩《蛋仔派对》，还请一定要试试看！ 在有些地图中，很有一些忧郁的感觉 互联网上的赛博暹罗猫也有很多。除了刚刚提到的暹罗厘普，《怪物猎人：崛起》DLC里的“呆猫”，还有不少人耳熟能详的小豆泥，也都是暹罗。从认真分析的角度来说，暹罗猫之所以很容易在互联网传播，诞生各种表情包，除了性格情绪外放，还可能是因为暹罗猫确实长相辨识度非常高，那种脸部黢黑、其他地方微微泛棕",
-   "i18n": {
-    "ja": {
-     "title": "奇妙な話: どの Cyber​​Siam 企業が強いですか?",
-     "summary": "変なものが大好きで、くだらない話や幽霊の話、ゲーム関連の新ネタなどを日々語っています。写真 / ロナウジーニョではありません ここ数日、「エッグ・パーティー」と「サイアム・リプー」がリンクされています。連動造形もバッチリで、特に「サイアム・リプ」はサイアムの色合わせの可愛さが存分に発揮されています。毎日10分以上は模型を見つめずにはいられません。読者やお友達の皆さんも『エッグマンパーティー』をぜひプレイしてみてください！一部のマップでは、非常にメランコリックな雰囲気が漂います。インターネット上にはサイバーシャム猫もたくさんいます。先ほどのシャム・リプーのほか、『モンスターハンター：ライズ』のDLCに登場する「ふしだらな猫」や、おなじみのあんこもシャムです。真剣な分析の観点から見ると、シャム猫がインターネット上で容易に拡散し、さまざまな顔文字を生み出している理由は、その性格や感情のためだけでなく、シャム猫の外観が実際に非常に認識されており、顔が暗く、他の部分がわずかに茶色であるためでもあります。"
-    },
-    "en": {
-     "title": "Weird stories: Which CyberSiam company is stronger?",
-     "summary": "He is very fond of weird things, and talks about nonsense, ghost things, and new things related to games every day. Picture / Not Ronaldinho In the past few days, \"Egg Party\" and \"Siam Lipu\" have been linked. The linked modeling is just right, especially \"Siam Lipu\", which fully demonstrates the cuteness of Siam's color matching. I can't help but stare at the modeling for more than ten minutes every day. If all readers and friends also play \"Eggman Party\", please be sure to give it a try! In some maps, there is a very melancholic feeling. There are also many Cyber ​​Siamese cats on the Internet. In addition to the Siamese Lipu just mentioned, the \"slutty cat\" in the \"Monster Hunter: Rise\" DLC, and the familiar red bean paste are also Siamese. From a serious analysis point of view, the reason why Siamese cats are easily spread on the Internet and give birth to various emoticons is not only because of their personality and emotions, but also because Siamese cats are indeed very recognizable in appearance, with a dark face and slightly brownish elsewhere."
-    }
-   }
-  },
-  {
-   "id": "63cc177335df",
-   "title": "从Xbox到PS5：初代《光环》的进化历程",
-   "url": "http://www.chuapp.com/article/291558.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-12T20:40:25+08:00",
-   "summary": "2001年，初代《光环》在Xbox主机上发售，为主机第一人称射击游戏奠定了标准。2011年，《光环：十周年版》在Xbox 360主机上发售，这是一款充满缺陷的复刻版。为了弥补缺陷，玩家们自力更生，在2012年至2019年连载更新了内容更丰富的《SPV3》复刻战役MOD。2026年7月28日，《光环：战役进化》在PC、PS5和Xbox Series S/X上正式发售，这一次复刻使用了虚幻引擎5。《战役进化》是“光环”系列第一次登陆索尼主机平台，也是系列画面最好、辅助功能选项最多的一款游戏。无论你是从原版《光环》坚持至今的老玩家，还是第一次接触系列的新玩家，《战役进化》都是一款值得尝试的佳作。 ■",
-   "i18n": {
-    "ja": {
-     "title": "Xbox から PS5 へ: オリジナル Halo の進化",
-     "summary": "2001 年に、オリジナルの「Halo」が Xbox コンソールでリリースされ、コンソールの一人称シューティング ゲームの標準を確立しました。 2011年にXbox 360本体で『Halo: 10th Anniversary Edition』が発売されました。欠陥だらけのレプリカでした。この欠点を補うために、プレイヤーは自らの努力に頼って、2012 年から 2019 年にかけて、より豊富なコンテンツを備えた「SPV3」レプリカ キャンペーン MOD を連続的に更新しました。2026 年 7 月 28 日、「Halo: Battle Evolved」が PC、PS5、Xbox Series S/X で正式にリリースされました。今回はUnreal Engine 5を使用して再版されました。「Campaign Evolved」は、「Halo」シリーズがソニーのコンソールプラットフォームに初めて上陸した作品です。また、シリーズの中で最高のグラフィックと最も多くの補助機能オプションを備えたゲームでもあります。初代『Halo』から続けている古参プレイヤーでも、初めてシリーズに触れる新規プレイヤーでも、『Campaign Evolved』は試す価値のある傑作だ。 ■"
-    },
-    "en": {
-     "title": "From Xbox to PS5: The evolution of the original Halo",
-     "summary": "In 2001, the original \"Halo\" was released on the Xbox console, setting the standard for console first-person shooter games. In 2011, \"Halo: 10th Anniversary Edition\" was released on the Xbox 360 console. It was a replica full of flaws. In order to make up for the shortcomings, players relied on their own efforts and serially updated the \"SPV3\" replica campaign MOD with richer content from 2012 to 2019. On July 28, 2026, \"Halo: Battle Evolved\" was officially released on PC, PS5 and Xbox Series S/X. This time it was reprinted using Unreal Engine 5. \"Campaign Evolved\" is the first time the \"Halo\" series has landed on Sony's console platform. It is also the game with the best graphics and the most auxiliary function options in the series. Whether you are an old player who has persisted from the original \"Halo\" or a new player who is coming into contact with the series for the first time, \"Campaign Evolved\" is a masterpiece worth trying. ■"
-    }
-   }
-  },
-  {
-   "id": "5d0cb16b5a53",
-   "title": "触乐怪话：登上了一座“神之山”",
-   "url": "http://www.chuapp.com/article/291553.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-12T20:39:56+08:00",
-   "summary": "触乐怪话，每天胡侃和游戏有关的屁事、鬼事、新鲜事。 图/小罗 （本文可能包含对游戏《孤山独影》一定程度的剧透。） Hi，我是新来的又一位“陈”姓编辑。 由于我的加入，编辑部似乎首次同时有3位姓“陈”的编辑。如果在类似《News Tower》这种模拟经营游戏里，此时或许能弹出一个名为“三消”的隐藏成就。 前段时间，我刚过上了短暂但愉快的30岁“暑假”，并将《孤山独影》断断续续打通了。很难说是不是参选游戏样本过少的原因，但就目前而言，这是我认为“今年第一棒”的游戏。 它其实也是我正儿八经玩的第一个攀岩游戏。我对这个小众品类最早的记忆可以追溯到4399里的小游戏《GRIP》（站内翻译叫《攀岩求生》）",
-   "i18n": {
-    "ja": {
-     "title": "奇妙な話：「神の山」に登る",
-     "summary": "変なものが大好きで、くだらない話や幽霊の話、ゲーム関連の新ネタなどを日々語っています。写真 / Xiao Luo (この記事には、ゲーム「Lonely Shadow on the Mountain」のネタバレがある程度含まれる可能性があります。) こんにちは、私は「Chen」という姓のもう一人の新米編集者です。私の入社により、初めて編集部に「陳」姓の編集者が同時に３人いることになったそうです。 「ニュースタワー」のようなビジネスシミュレーションゲームをプレイしている場合、この時点で「マッチ3」と呼ばれる隠れた実績が表示されることがあります。少し前、30歳の短くも楽しい「夏休み」を過ごしたばかりで、断続的に「孤独の山」を読み終えた。参加ゲームのサンプルが少なすぎるためかどうかを判断するのは難しいですが、今のところ、これが今年の「最初のベスト」ゲームだと私は考えています。実はこれが私が初めてプレイしたロッククライミングゲームでした。このニッチなカテゴリに関する私の最も古い記憶は、4399 年のミニゲーム「GRIP」に遡ります (サイトの翻訳は「ロック クライミング サバイバル」と呼ばれています)。"
-    },
-    "en": {
-     "title": "Weird story: Climbing a \"Mountain of God\"",
-     "summary": "He is very fond of weird things, and talks about nonsense, ghost things, and new things related to games every day. Picture / Xiao Luo (This article may contain spoilers to a certain extent for the game \"Lonely Shadow on the Mountain\".) Hi, I am another new editor with the surname \"Chen\". Due to my joining, it seems that for the first time there are three editors named \"Chen\" in the editorial department at the same time. If you are in a business simulation game like \"News Tower\", a hidden achievement called \"Match 3\" may pop up at this time. Some time ago, I just had a short but pleasant \"summer vacation\" at the age of 30, and I finished \"Lonely Mountain\" intermittently. It’s hard to say whether it’s because the sample of participating games is too small, but for now, this is what I consider to be the “first best” game of the year. It was actually the first rock climbing game I ever played. My earliest memory of this niche category can be traced back to the mini-game \"GRIP\" in 4399 (the site's translation is called \"Rock Climbing Survival\")"
-    }
-   }
-  },
-  {
-   "id": "5ff054cff1b4",
-   "title": "网易MINI-GAME，让高校开发者看到更多可能",
-   "url": "http://www.chuapp.com/article/291554.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-12T18:28:00+08:00",
-   "summary": "7月27日，大二在读的“羊哞哞”离开待了3天时间的杭州网易大厦。望着逐渐空荡的会议室，他感觉有点留恋。在这里，他和“矢量跃迁”团队的另外4名成员一起紧张激烈地投入了48个小时，为2026年网易游戏高校MINI-GAME挑战赛决赛完整地制作了一个游戏Demo。 比赛结果现在已经揭晓了。他们的作品《三脚猫行动》最终获得了一等奖。这是一个结合了潜行刺杀和rougelike要素的搜打撤游戏。在全黑的场景中，玩家需要借助手电筒光逃脱追捕。评委称这部作品“完成度极高”，而且“确实体会到了藏匿带来的心流压力”。 这样的队伍在决赛一共有28个。从挑战赛官宣到决赛启幕的近3个月中，官方收到了将数百份初赛作品，涵",
-   "i18n": {
-    "ja": {
-     "title": "NetEase MINI-GAME により、大学の開発者はより多くの可能性を見ることができます",
-     "summary": "7月27日、2年生の「Yang Mo Mo」さんは3日間滞在した杭州の網易ビルを出た。ますます空になっていく会議室を見て、彼は少し懐かしい気持ちになった。ここでは、彼と「Vector Leap」チームの他の 4 人のメンバーが 48 時間熱心に働き、2026 NetEase Game College MINI-GAME Challenge Finals 用のゲーム デモを完全に制作しました。この度、コンテストの結果が発表されました。彼らの作品『三本足の猫大作戦』がついに最優秀賞を受賞した。これは、ステルス暗殺とルージュのような要素を組み合わせた探索と防衛のゲームです。完全に暗いシーンでは、プレイヤーは捕獲から逃れるために懐中電灯の光を使用する必要があります。審査員はこの作品が「非常に完成度が高かった」、「隠れることによってもたらされる流れの圧力を本当に感じた」と評価した。決勝には合計 28 チームが参加します。挑戦の公式発表から決勝戦の開始ま​​での過去 3 か月間で、公式は数百の予備エントリーを受け取りました。"
-    },
-    "en": {
-     "title": "NetEase MINI-GAME allows university developers to see more possibilities",
-     "summary": "On July 27, \"Yang Mo Mo\", a sophomore, left the NetEase Building in Hangzhou where he had stayed for three days. Looking at the increasingly empty conference room, he felt a little nostalgic. Here, he and four other members of the \"Vector Leap\" team worked intensely for 48 hours to completely produce a game demo for the 2026 NetEase Game College MINI-GAME Challenge Finals. The results of the competition have now been announced. Their work \"Operation Three-Legged Cat\" finally won the first prize. This is a search-and-defend game that combines stealth assassination and rougelike elements. In a completely dark scene, players need to use flashlight light to escape capture. The judges said that this work is \"extremely complete\" and \"really feels the pressure of flow brought about by hiding.\" There are a total of 28 such teams in the finals. In the past three months from the official announcement of the challenge to the start of the finals, the official received hundreds of preliminary entries, including"
-    }
-   }
-  },
-  {
-   "id": "7de5af7d8113",
-   "title": "《影之刃零》预购实机视频上线：铸造“又新又旧”的武侠世界",
-   "url": "http://www.chuapp.com/article/291557.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-12T10:43:00+08:00",
-   "summary": "8月11日晚，触乐应邀来到上海，参加了《影之刃零》的闭门线下观影会。观影内容是长达11分钟的《影之刃零》预购实机视频。目前，PV已经全网公开，游戏也正式开启了预售。 在现场，灵游坊的主创团队把这个视频称为“又新又旧”。不光是因为它展示了玩家见过和没见过的Boss、敌人与角色；也是因为它更完整地展现了传统武侠在《影之刃零》这个新媒介，甚至在潜在的全球受众中能够具有的面貌。 《影之刃零》今日公开长达11分钟的新实机视频 这次PV由PS5普通版本实机录制由玩家已经很熟悉的马车追逐战开篇，但以相当具有电影感的运镜记录了正常完整战斗。新内容则包括试玩中推出的“荒行子”经历完全杀气改造后的二阶段、还有一些",
-   "i18n": {
-    "ja": {
-     "title": "『シャドウ ブレード ゼロ』予約動画が公開：“新旧”の格闘技世界を創造",
-     "summary": "8月11日の夜、Chuleさんは上海に招待され、『シャドウ ブレード ゼロ』の非公開オフライン鑑賞会に参加した。視聴コンテンツは「シャドウブレード ゼロ」の11分間の先行予約動画。現在、PVがインターネット全公開され、ゲームも正式に予約販売が開始されている。現場では、Lingyoufang のメインクリエイティブチームがこのビデオを「新しいと同時に古い」と呼びました。プレイヤーが見たことも見たこともないボス、敵、キャラクターが登場するからだけではありません。それはまた、伝統的な武道が「シャドウ ブレード ゼロ」という新しい媒体でどのように見えるのか、さらには潜在的な世界中の視聴者に向けて、より完全に示されているからでもあります。 『シャドウブレード ゼロ』は本日、11分間の新たなライブ映像を公開した。このPVはPS5の通常版に収録されております。プレイヤーにはおなじみの馬車の追跡から始まりますが、通常の完全な戦闘が非常に映画的なカメラの動きで記録されます。新しいコンテンツには、完全な殺人的変化を経て裁判で開始された「Huang Xingzi」の第 2 段階と、"
-    },
-    "en": {
-     "title": "\"Shadow Blade Zero\" pre-order video is online: creating a \"new and old\" martial arts world",
-     "summary": "On the evening of August 11, Chule was invited to Shanghai and participated in the closed-door offline viewing party of \"Shadow Blade Zero\". The viewing content is an 11-minute pre-order video of \"Shadow Blade Zero\". At present, the PV has been released to the entire Internet, and the game has officially started pre-sales. At the scene, the main creative team of Lingyoufang called this video \"new and old at the same time.\" Not only because it shows bosses, enemies and characters that players have seen and never seen before; but also because it more completely shows what traditional martial arts can look like in the new medium of \"Shadow Blade Zero\", and even to a potential global audience. \"Shadow Blade Zero\" released a new 11-minute live video today. This PV was recorded on the regular version of the PS5. It starts with a horse-drawn carriage chase that players are already familiar with, but the normal and complete battle is recorded with a very cinematic camera movement. The new content includes the second stage of \"Huang Xingzi\" launched in the trial after undergoing a complete murderous transformation, and some"
-    }
-   }
-  },
-  {
-   "id": "33de7b7706b5",
-   "title": "买不起房的年轻人，在房屋装修游戏里缓解愁苦",
-   "url": "http://www.chuapp.com/article/291551.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-11T18:51:49+08:00",
-   "summary": "编者按：你有没有留意到，近年来一大批将房屋装修作为主要玩法的模拟游戏涌入市场，并吸引了海量玩家？外媒TWIV的作者Maddie Agne在一篇文章中指出，此类游戏之所以日益流行，很大程度上是因为许多玩家在现实生活中没有足够的经济实力买房，只能通过这种方式望梅止渴，在游戏里缓解无力买房的愁苦。 过去一年间，包含家居设计元素的游戏悄然兴起，吸引了越来越多的玩家。笔者从小爱看家居生活频道（Home and Garden Television）的电视节目，对家居设计游戏可以说毫无抵抗力，而在全球范围内，这类游戏已经打下了坚实且广泛的玩家基础。 《焕家物语》就是这样一款温馨的装修游戏 自从2025年5月",
-   "i18n": {
-    "ja": {
-     "title": "家を買う余裕のない若者は、家の装飾ゲームで悲しみを和らげることができる",
-     "summary": "編集後記： 近年、家の装飾を主なゲームプレイとするシミュレーションゲームが数多く市場に流入し、多くのプレイヤーを魅了していることをご存知ですか？海外メディアTWIVの著者マディ・アグネ氏は記事の中で、このようなゲームの人気が高まっている理由は、多くのプレイヤーが現実で家を買えるほどの経済力を持っていないことが大きく、この方法は喉の渇きを潤し、ゲーム内で家を買えない苦痛を和らげるためにしか使えないからだと指摘した。ここ 1 年で、ホーム デザイン要素を含むゲームが静かに登場し、ますます多くのプレイヤーを魅了しています。私は子供の頃からホーム＆ガーデンテレビの番組を見るのが大好きで、ホームデザインゲームには抵抗がないと言えます。しかし、このようなゲームは世界中で強固で広範なプレイヤーベースを構築しています。 「Huan Family Story」はとても温かいデコレーションゲームです。 2025年5月以降"
-    },
-    "en": {
-     "title": "Young people who cannot afford a house can relieve their sorrow in house decoration games",
-     "summary": "Editor's note: Have you noticed that in recent years, a large number of simulation games with house decoration as the main gameplay have flooded into the market and attracted a large number of players? Maddie Agne, the author of foreign media TWIV, pointed out in an article that the reason why such games are becoming increasingly popular is largely because many players do not have enough financial strength to buy a house in real life, so they can only use this method to quench their thirst and relieve the pain of being unable to buy a house in the game. In the past year, games containing home design elements have quietly emerged, attracting more and more players. I have loved watching TV programs on the Home and Garden Television since I was a child, and I can say that I have no resistance to home design games. However, such games have built a solid and extensive player base around the world. \"Huan Family Story\" is such a warm decoration game. Since May 2025"
-    }
-   }
-  },
-  {
-   "id": "9deea7b927c8",
-   "title": "触乐怪话：玩桌游，想要黑化",
-   "url": "http://www.chuapp.com/article/291552.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-11T18:51:00+08:00",
-   "summary": "触乐怪话，每天胡侃和游戏有关的屁事、鬼事、新鲜事。 你太天真了！图/小罗 8月初的一个周末，新物集在成都举办了一场BGM游戏展，里面布置有桌游区域。这是我与线下桌游展的初接触，整体体验是疑惑又美妙。 BGM游戏展久负盛名，但这还是第一次在成都举办。它的举办地位于金牛区的一座酒店。酒店的好处很明显，时间灵活。它的开始时间就很成都，中午12点开场，足以让人在周末睡个懒觉。它结束的时间在晚上8点，散场后又恰好能够吃夜宵。但要说最有地方特色的还是展会的主线玩法：麻将收集战。如果获得清一色等特殊牌型，能够获得额外抽奖机会。 此乃“清一色” 这不比清一色的盖章好玩多了？还未进门，我就对桌游展多了一分好感。",
-   "i18n": {
-    "ja": {
-     "title": "奇妙な話: ボードゲームをして黒人になりたい",
-     "summary": "変なものが大好きで、くだらない話や幽霊の話、ゲーム関連の新ネタなどを日々語っています。あなたはとてもナイーブですね！写真/ロナウジーニョ 8月初旬の週末、新烏路は成都でBGMゲームの展示会を開催し、店内にボードゲームエリアを設けた。オフラインのボードゲーム展示会に参加するのはこれが初めてでしたが、全体的な経験はわかりにくく、素晴らしいものでした。 BGMゲームショーは以前から有名ですが、成都で開催されるのは今回が初めてです。金牛区のホテルで開催された。ホテルの利点は明白で、柔軟な営業時間です。開始時間は成都らしく、正午にオープンするため、週末に人々が寝泊まりするのに十分です。午後8時に終了し、ショーの後は夜食を食べることができます。しかし、最も特徴的なのは、展示会のメインゲームプレイである麻雀コレクションバトルです。全色などの特別なカードタイプを手に入れると、追加の抽選チャンスが得られます。こちらは「全色」です。オールカラースタンプよりずっと楽しいんじゃないでしょうか？入る前からボードゲームの展示に良い印象を持っていました。"
-    },
-    "en": {
-     "title": "Weird story: Playing board games and wanting to become a black man",
-     "summary": "He is very fond of weird things, and talks about nonsense, ghost things, and new things related to games every day. You are so naive! Photo / Ronaldinho On a weekend in early August, Xinwuji held a BGM game exhibition in Chengdu, with a board game area inside. This was my first contact with an offline board game exhibition, and the overall experience was confusing and wonderful. The BGM Game Show has long been famous, but this is the first time it is held in Chengdu. It was held in a hotel in Jinniu District. The benefits of the hotel are obvious, flexible hours. Its starting time is very Chengdu, opening at 12 noon, which is enough for people to sleep in on the weekend. It ends at 8 pm, and you can have a late night snack after the show. But the most distinctive feature is the main gameplay of the exhibition: Mahjong collection battle. If you get special card types such as all colors, you can get additional lottery opportunities. This is \"all colors\". Isn't this much more fun than all-color stamps? Before I even walked in, I had a good impression of the board game exhibition."
-    }
-   }
-  },
-  {
-   "id": "f2d3ea421c9e",
-   "title": "和《蔚蓝档案》玩家一起蹦迪",
-   "url": "http://www.chuapp.com/article/291550.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-11T16:04:20+08:00",
-   "summary": "8月8日，触乐前往上海参加了《蔚蓝档案》三周年纪念音乐会。这场演唱会由阿里鱼主办、悠星负责内容，在出发前，悠星的工作人员特意说：“演唱会是Livehouse形式哦。” 当时我很难将《蔚蓝档案》与Livehouse联系在一起。之前，我去过一两次摇滚乐队的Livehouse。观众会全程站立、挤在一起，乐队在不远处的舞台演出。场馆小而聚焦，能将轰隆作响的音乐笼罩在耳边。我也刷到过《蔚蓝档案》在BW的打碟现场，但首次在线下举办音乐会，并且挑战二游很少做过的Livehouse形式，我也会有些担忧，《蔚蓝档案》会选择哪些曲子，又将如何编排？玩家会适应这种形式吗？ 我来到蜚声Livehouse。据朋友说，这",
-   "i18n": {
-    "ja": {
-     "title": "「ブルー ファイル」のプレイヤーと一緒にダンス",
-     "summary": "チュレは8月8日、「ブルーファイル」3周年記念コンサートに参加するため上海へ行った。このコンサートはAliyuが主催し、Youxingが内容を担当しました。出発前にYouxingのスタッフは「コンサートはライブハウス形式になる」と具体的に言っていた。当時の私にとって「ブルーファイル」とライブハウスを結びつけるのは難しかった。私はこれまでに1、2回、ロックバンドのライブハウスに行ったことがあります。バンドが近くのステージで演奏している間、観客はパフォーマンス中ずっと立った状態で集まります。会場は小さく集中しているため、賑やかな音楽が耳を包み込みます。 『ブルーファイル』のDJシーンはBWでも見てきましたが、オフラインコンサートを開催するのは初めてで、セカンドゲームではあまり行われないライブハウス形式に挑戦します。私もちょっと気になるのですが、『ブルーファイル』はどんな曲を選んで、どんなアレンジになるのでしょう？プレイヤーはこのフォーマットに適応できるでしょうか?有名なライブハウスに来ました。友人によると、これは"
-    },
-    "en": {
-     "title": "Dance with the players of \"Blue Files\"",
-     "summary": "On August 8, Chule went to Shanghai to participate in the third anniversary concert of \"Blue Files\". This concert was hosted by Aliyu and Youxing was responsible for the content. Before departure, the staff of Youxing specifically said: \"The concert will be in the form of a livehouse.\" At that time, it was difficult for me to associate \"Blue Files\" with livehouse. I've been to a rock band's livehouse once or twice before. The audience will be standing and huddled together throughout the performance while the band performs on a nearby stage. The venue is small and focused, allowing the booming music to envelope your ears. I have also seen the DJing scene of \"Blue Files\" at BW, but this is the first time to hold an offline concert, and challenge the livehouse format that is rarely done by second games. I am also a little worried, what songs will \"Blue Files\" choose and how will it be arranged? Will players adapt to this format? I came to the famous Livehouse. According to friends, this"
-    }
-   }
-  },
-  {
-   "id": "bf801a4d8ea6",
-   "title": "2026“穿越火线”IP嘉年华：让长青多走一步",
-   "url": "http://www.chuapp.com/article/291548.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-10T22:01:44+08:00",
-   "summary": "8月8日，我前往济南融创国际体育中心参加2026“穿越火线”IP嘉年华。 前往场馆途中，打车软件已经开始显示目的地周围拥堵。司机师傅问我：“那里是不是有什么活动？”我说，是游戏“穿越火线”的嘉年华，有表演，还有比赛。师傅带着一点中年人的疲惫回答我：“年轻时我也玩游戏，‘魂斗罗’之类的，后来工作了，要养家糊口，就没时间玩了。”然后他话锋一转：“游戏好，能吸引年轻人，我也能多拉点活。” 到达现场，这里的确聚集了许多年轻人。不少人背着大包，听口音是从外地赶来的。场馆里座无虚席，舞台表演、更新发布和CFPL、CFML双端夏季赛总决赛先后登场，观众们始终保持着很高的热情，欢呼声不断。 本次嘉年华的主题是",
-   "i18n": {
-    "ja": {
-     "title": "2026 年「CrossFire」IP カーニバル: Evergreen にもう一歩を踏み出させましょう",
-     "summary": "8月8日、2026年の「クロスファイア」IPカーニバルに参加するために済南スナック国際スポーツセンターに行きました。会場に向かう途中、タクシー配車アプリで目的地周辺の渋滞が表示され始めた。運転手は私に「そこで何かアクティビティはありますか？」と尋ねました。パフォーマンスや競技会が行われるゲーム「クロスファイア」のカーニバルだと言いました。マスターは中年疲れ気味に「私も若い頃は『魂斗羅』などのゲームをやっていましたが、働き始めて家族を養わなければいけなくなって、遊ぶ時間がなくなってしまいました」と答えてくれました。それから彼は話題を変えました。「ゲームは良いもので、若者を惹きつけることができます。私はもっと仕事ができるでしょう。」現場に到着すると、確かに多くの若者が集まっていた。多くの人が大きなバッグを持っていて、そのアクセントは他の場所から来たように聞こえました。会場は満席となり、ステージパフォーマンスやアップデートリリース、CFPLとCFMLのダブルエンド夏の決勝戦などが次々とステージに上がった。観客の熱気は常に高く、歓声が絶えなかった。今回のカーニバルのテーマは、"
-    },
-    "en": {
-     "title": "2026 \"CrossFire\" IP Carnival: Let Evergreen take one more step",
-     "summary": "On August 8, I went to Jinan Sunac International Sports Center to participate in the 2026 \"Cross Fire\" IP Carnival. On the way to the venue, taxi-hailing apps have started to show congestion around the destination. The driver asked me: \"Are there any activities there?\" I said it was a carnival for the game \"Cross Fire\", with performances and competitions. The master answered me with a bit of middle-aged fatigue: \"When I was young, I also played games, such as 'Contra', but then I started working and had to support my family, so I had no time to play.\" Then he changed the subject: \"The games are good, they can attract young people, and I can do more work.\" When we arrived at the scene, there were indeed many young people gathered here. Many people were carrying big bags and their accents sounded like they were coming from other places. The venue was packed with seats, and stage performances, update releases, and the CFPL and CFML double-ended summer finals all came on stage one after another. The audience always maintained a high level of enthusiasm and cheers continued. The theme of this carnival is"
-    }
-   }
-  },
-  {
-   "id": "c27cb938286c",
-   "title": "《文明》诞生35周年，席德·梅尔谈这个系列的过去、现在和未来",
-   "url": "http://www.chuapp.com/article/291547.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-10T22:01:00+08:00",
-   "summary": "传奇游戏设计师席德·梅尔透露，他的4岁孙子最近迷上了深受“文明”系列玩家喜爱的一首歌曲：《文明4》主题曲《我们的天父》（Baba Yetu）。“我孙子日夜不停地哼唱，太喜欢那首歌了。”72岁的梅尔说，“他还没到上学的年龄，从来没有玩过‘文明’游戏，却已经非常熟悉那首主题曲。我录了一大堆他跟唱《我们的天父》的视频。” 传奇游戏设计师席德·梅尔 “文明”是2K旗下工作室Firaxis的经典回合制策略游戏系列，即将于9月迎来35周年纪念日。如今，在许多家庭，几代人一起玩《文明》的现象相当普遍。“很多家长告诉我，他们的儿女经他们推荐接触《文明》，后来成为了这个系列的铁杆粉丝。”梅尔说，“随着玩家社区不",
-   "i18n": {
-    "ja": {
-     "title": "『シヴィライゼーション』誕生35周年にシドマイヤーがシリーズの過去・現在・未来を語る",
-     "summary": "伝説的なゲームデザイナーのシド・マイヤー氏は、4歳の孫が最近、『シヴィライゼーション』シリーズのプレイヤーに愛されている曲、『シヴィライゼーション4』のテーマソング「Baba Yetu」（ババ・イェトゥ）に夢中になっていると明かした。 「私の孫は昼も夜もこの歌を口ずさみ続けており、その曲がとても大好きです」と72歳のマイヤーさんは語った。 「彼はまだ学校に通う年齢ではなく、『シヴィライゼーション』ゲームをプレイしたこともありませんが、テーマソングにはすでによく馴染みました。私は彼が『Our Heavenly Father』に合わせて歌っているビデオをたくさん録画しました。」 伝説的なゲームデザイナー、シド・マイヤー氏 『シヴィライゼーション』は、9月に創立35周年を迎える2KのスタジオFiraxisの古典的なターンベースストラテジーゲームシリーズです。今日、多くの家族で複数の世代が一緒にシヴィライゼーションをプレイするのは非常に一般的です。 「多くの親が、自分の息子や娘が彼らから『シヴィライゼーション』を紹介され、後にシリーズの熱狂的なファンになったと語ってくれました」とマイヤー氏は語った。 「プレイヤーコミュニティが成長し続けるにつれて、"
-    },
-    "en": {
-     "title": "On the 35th anniversary of the birth of \"Civilization\", Sid Meier talks about the past, present and future of the series",
-     "summary": "Legendary game designer Sid Meier revealed that his 4-year-old grandson has recently become obsessed with a song loved by players of the \"Civilization\" series: \"Baba Yetu\" (Baba Yetu), the theme song of \"Civilization 4\". \"My grandson keeps humming it day and night and loves that song so much,\" said 72-year-old Meier. \"He is not yet old enough to go to school and has never played the 'Civilization' game, but he is already very familiar with the theme song. I recorded a lot of videos of him singing along to 'Our Heavenly Father.'\" Legendary game designer Sid Meier \"Civilization\" is a classic turn-based strategy game series from 2K's studio Firaxis, which will celebrate its 35th anniversary in September. Today, it’s quite common in many families for multiple generations to play Civilization together. “Many parents have told me that their sons and daughters were introduced to Civilization by them and later became die-hard fans of the series,” Meier said. “As the player community continues to grow,"
-    }
-   }
-  },
-  {
-   "id": "eda8a6ee4a85",
-   "title": "【今日更新】二十世纪电气目录",
-   "url": "https://bgm.tv/subject/255209",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-16T06:21:03+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日の更新】20世紀電気カタログ"
-    },
-    "en": {
-     "title": "[Today’s Update] 20th Century Electrical Catalog"
-    }
-   }
-  },
-  {
-   "id": "3e4e63dd1e00",
-   "title": "【今日更新】碧蓝航线：微速前行！第二季",
-   "url": "https://bgm.tv/subject/454083",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-16T06:21:03+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日更新】アズールレーン：ゆっくり前進！シーズン2"
-    },
-    "en": {
-     "title": "[Today’s Update] Azur Lane: Moving forward at a slow speed! Season 2"
-    }
-   }
-  },
-  {
-   "id": "aced96958880",
-   "title": "【今日更新】再见菈菈",
-   "url": "https://bgm.tv/subject/495291",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-16T06:21:03+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日の更新】さようならララ"
-    },
-    "en": {
-     "title": "【Today’s update】Goodbye Lala"
-    }
-   }
-  },
-  {
-   "id": "3f48b32ae36f",
-   "title": "【今日更新】无职转生 第三季 ～到了异世界就拿出真本事～",
-   "url": "https://bgm.tv/subject/501963",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-16T06:21:03+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日更新】無職転生 シーズン3 ～異世界に来たら実力を発揮～"
-    },
-    "en": {
-     "title": "[Today’s update] Jobless Reincarnation Season 3 ~ Show your true skills when you arrive in another world ~"
-    }
-   }
-  },
-  {
-   "id": "01e7d5ff6591",
-   "title": "【今日更新】恶女不才，请多关照 ～雏宫蝶鼠换身传～",
-   "url": "https://bgm.tv/subject/545008",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-16T06:21:03+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日更新】悪女には才能がないので、よろしくお願いします ～雛宮の胡蝶ねずみの体の変化の物語～"
-    },
-    "en": {
-     "title": "[Today’s update] Evil girls are not talented, please take care of them ~Hinaguya Butterfly Mouse Changing Body~"
-    }
-   }
-  },
-  {
-   "id": "8cfcfaeae982",
-   "title": "【今日更新】人造人009 涅墨西斯",
-   "url": "https://bgm.tv/subject/571896",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-16T06:21:03+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日の更新】サイボーグ009 ネメシス"
-    },
-    "en": {
-     "title": "[Today’s update] Cyborg 009 Nemesis"
-    }
-   }
-  },
-  {
-   "id": "06d8bfd083bc",
-   "title": "【今日更新】柯蒂斯总统",
-   "url": "https://bgm.tv/subject/574041",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-16T06:21:03+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日の最新情報】カーティス社長"
-    },
-    "en": {
-     "title": "【Today’s Update】President Curtis"
-    }
-   }
-  },
-  {
-   "id": "b620b1734bc3",
-   "title": "【今日更新】航海王 女英雄们的故事",
-   "url": "https://bgm.tv/subject/577191",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-16T06:21:03+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日更新】ワンピース ヒロインたちの物語"
-    },
-    "en": {
-     "title": "【Today’s Update】One Piece The Story of the Heroines"
-    }
-   }
-  },
-  {
-   "id": "30d3b75a83f3",
-   "title": "【今日更新】世界最强的后卫 ～迷宫国的新人探索者～",
-   "url": "https://bgm.tv/subject/583862",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-16T06:21:03+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日更新】世界最強の守り手 ～迷宮の国の新人探索者～"
-    },
-    "en": {
-     "title": "[Today’s Update] The World’s Strongest Defender ~The Rookie Explorer of the Labyrinth Country~"
-    }
-   }
-  },
-  {
-   "id": "722a0a8026a2",
-   "title": "【今日更新】Let's Go 怪奇组",
-   "url": "https://bgm.tv/subject/595106",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-16T06:21:03+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日の更新】レッツゴー変グループ"
-    },
-    "en": {
-     "title": "【Today's Update】Let's Go Weird Group"
-    }
-   }
-  },
-  {
-   "id": "40ac3363cf72",
-   "title": "【今日更新】超超超超超喜欢你的100个女朋友 第三季",
-   "url": "https://bgm.tv/subject/598058",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-16T06:21:03+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日更新】君のことが好きな100人の彼女 超超超超超超大好き シーズン3"
-    },
-    "en": {
-     "title": "[Today’s Update] 100 Girlfriends Who Like You Super Super Super Super Super Super Love You Season 3"
-    }
-   }
-  },
-  {
-   "id": "78bbc4e83130",
-   "title": "【今日更新】茶啊二中 第6季",
-   "url": "https://bgm.tv/subject/613039",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-16T06:21:03+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日の更新】ちゃあ第二中学校 シーズン6"
-    },
-    "en": {
-     "title": "【Today’s update】Chaa No. 2 Middle School Season 6"
-    }
-   }
-  },
-  {
-   "id": "0ffed9cad78f",
-   "title": "【今日更新】炒翻天",
-   "url": "https://bgm.tv/subject/615835",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-16T06:21:03+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日の更新】超誇大宣伝"
-    },
-    "en": {
-     "title": "[Today’s update] Super hype"
-    }
-   }
-  },
-  {
-   "id": "35e1e6bdfefe",
-   "title": "【今日更新】做得很好！名作君 完全新作",
-   "url": "https://bgm.tv/subject/619052",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-16T06:21:03+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日の更新】よくやった！名作、完全新作"
-    },
-    "en": {
-     "title": "[Today’s update] Well done! Masterpiece, completely new work"
-    }
-   }
-  },
-  {
-   "id": "08e1b7d63409",
-   "title": "【今日更新】同一个研讨会的染谷同学是AV女优的事",
-   "url": "https://bgm.tv/subject/633354",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-16T06:21:03+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日の更新】同じセミナーに参加した染谷さんはAV女優"
-    },
-    "en": {
-     "title": "[Today’s update] Someya-san who attended the same seminar is an AV actress"
-    }
-   }
-  },
-  {
-   "id": "58e955b1cbda",
-   "title": "焚き火とコーヒー、そして謎解き。可愛いブタの配達人と歩むチルな冒険物語『A Tiny Wander』【体験版プレイレポ】",
-   "url": "http://www.gamespark.jp/article/2026/08/16/170751.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "5da12b2e65e1",
+   "title": "無料でオープンソースの写真撮影ワークフローアプリ「darktable」、RAW現像も可能",
+   "url": "https://gigazine.net/news/20260816-darktable/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-16T06:00:04+08:00",
-   "summary": "刻々と表情を変える豊かな自然を「山の配達人」と歩む、穏やかで癒される3D探索ADV。",
+   "weight": 5,
+   "published": "2026-08-16T17:00:00+08:00",
+   "summary": "写真の選別やRAW現像、部分的な色補正からJPEGへの書き出しまでをまとめて行え、被写体を自動選択するAIマスクやAIノイズ除去もPC内で処理できる無料でオープンソースの写真ワークフローアプリ「darktable」が公開されています。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "篝火，咖啡，解开谜团。可爱小猪快递员的冷酷冒险故事《小小流浪》【试玩版游玩报告】",
-     "summary": "一款平静而舒缓的 3D 探索 ADV，您将与“山地送货员”一起行走在每时每刻都在变化的丰富大自然中。"
+     "title": "免费开源摄影工作流程应用程序“darktable”也允许 RAW 开发",
+     "summary": "Darktable 是一款免费开源的照片工作流程应用程序，可以执行从照片选择、RAW 开发、部分色彩校正到一次性导出到 JPEG 等所有操作，以及在 PC 上自动选择主题的 AI 遮蔽和 AI 噪点消除等功能。阅读更多..."
     },
     "en": {
-     "title": "Bonfire, coffee, and solving mysteries. A chill adventure story about a cute pig courier “A Tiny Wander” [Trial version play report]",
-     "summary": "A calm and soothing 3D exploration ADV where you walk with a ``mountain deliveryman'' through rich nature that changes its appearance every moment."
+     "title": "Free and open source photography workflow app “darktable” also allows RAW development",
+     "summary": "Darktable is a free and open source photo workflow application that can perform everything from photo selection, RAW development, partial color correction, and export to JPEG all at once, as well as AI masking that automatically selects subjects and AI noise removal on your PC. read more..."
     }
    }
   },
   {
-   "id": "7e72c82462e7",
-   "title": "艶やか童話ヒロインたちの温泉シーンも！セクシー美少女スタイリッシュACT『Swords & Slippers』ウィッシュリスト20万件達成",
-   "url": "http://www.gamespark.jp/article/2026/08/15/170750.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "2faaf05d01b3",
+   "title": "アリババのAI「Qwen」が6カ月間に30億回ダウンロードされる世界1位のAIモデルに",
+   "url": "https://gigazine.net/news/20260816-alibaba-qwen-3-billion-downloads/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-15T18:05:02+08:00",
-   "summary": "全身を使って立ち回る豪快なアクションにも注目。",
+   "weight": 5,
+   "published": "2026-08-16T16:45:00+08:00",
+   "summary": "中国・アリババ(阿里巴巴)が展開しているオープンウェイトAIモデル「Qwen」シリーズが、過去6カ月間で30億回ダウンロードされたことがわかりました。この数字は国外各社や国内のライバルを上回るものです。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "童话般的华丽女主角的温泉场景！性感美少女时尚ACT《剑与拖鞋》达成20万愿望单",
-     "summary": "还要注意使用整个身体移动的动态动作。"
+     "title": "阿里巴巴AI“Qwen”成为全球第一AI模型 6个月下载量30亿",
+     "summary": "据透露，中国阿里巴巴开发的Qwen系列开放权重人工智能模型在过去六个月内下载量已达30亿次。这个数字超过了国外公司和国内竞争对手。阅读更多..."
     },
     "en": {
-     "title": "Hot spring scenes featuring gorgeous fairy tale heroines! Sexy beautiful girl stylish ACT “Swords & Slippers” achieved 200,000 wishlists",
-     "summary": "Also pay attention to the dynamic action that uses the whole body to move around."
+     "title": "Alibaba's AI \"Qwen\" becomes the world's No. 1 AI model with 3 billion downloads in 6 months",
+     "summary": "It has been revealed that the Qwen series of open weight AI models developed by China's Alibaba has been downloaded 3 billion times in the past six months. This number exceeds that of foreign companies and domestic rivals. read more..."
     }
    }
   },
   {
-   "id": "c82a26624d01",
-   "title": "ロード画面なしで本当に無限の「バックルーム」体験『Infinite Backrooms』Steam早期アクセス開始―マルチプレイにも対応",
-   "url": "http://www.gamespark.jp/article/2026/08/15/170749.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "306a6c41d823",
+   "title": "SpaceXがCursorの買収を正式に完了",
+   "url": "https://gigazine.net/news/20260816-spacex-officially-closes-cursor-acquisition/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-15T17:30:03+08:00",
-   "summary": "多くのゲームがリリースされてきた「バックルーム」に新たな1作が加わります。",
+   "weight": 5,
+   "published": "2026-08-16T15:00:00+08:00",
+   "summary": "イーロン・マスク氏率いるSpaceXが、AIコーディングツール・Cursorの開発元であるAnysphereの買収を完了させました。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "Infinite Backrooms，真正无尽的“后台”体验，无需加载屏幕，现已在 Steam 抢先体验中提供 - 还支持多人游戏",
-     "summary": "已经发售了多款游戏的《Back Room》将追加新作。"
+     "title": "SpaceX正式完成对Cursor的收购",
+     "summary": "埃隆·马斯克 (Elon Musk) 领导的 SpaceX 已完成对 AI 编码工具 Cursor 开发商 Anysphere 的收购。阅读更多..."
     },
     "en": {
-     "title": "Infinite Backrooms, a truly endless “backroom” experience without loading screens, now available on Steam Early Access – also supports multiplayer",
-     "summary": "A new work will be added to \"Back Room\", where many games have been released."
+     "title": "SpaceX officially completes acquisition of Cursor",
+     "summary": "SpaceX, led by Elon Musk, has completed the acquisition of Anysphere, the developer of the AI ​​coding tool Cursor. read more..."
     }
    }
   },
   {
-   "id": "cc2cf43cd34e",
-   "title": "アニメ「キングダム ハーツ」野村哲也氏がコメント発表！シナリオチームと密に連携、今回用のキャラクターデザインも複数体描き下ろし。「ヒントは1枚だけ発表されたキーアート」",
-   "url": "http://www.gamespark.jp/article/2026/08/15/170748.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "59d3478be7c5",
+   "title": "格安かつコンパクトでUPS・雷サージ機能を有する「CyberPower ST425JP」レビュー",
+   "url": "https://gigazine.net/news/20260816-cyberpower-st425jp/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-15T17:15:03+08:00",
-   "summary": "アニメ「キングダム ハーツ」の発表に際し、野村哲也氏によるコメントが公開されました。",
+   "weight": 5,
+   "published": "2026-08-16T11:00:00+08:00",
+   "summary": "夏の盛りは突然の雷雨による落雷・停電の危険性が高まる季節です。「CyberPower ST425JP」はコンパクトながら定格出力260WのUPSであり、さらに雷サージの機能も併せ持っているとのことなので、落雷・停電対策に打ってつけであるということで実際に使用感を確認してみました。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "动漫《王国之心》野村哲也发表评论！在与剧本团队的密切合作下，本次绘制了多个角色设计。 “暗示只公布了一件关键艺术作品。”",
-     "summary": "在动画《王国之心》公布时，野村哲也发表了评论。"
+     "title": "廉价、紧凑、具有UPS/雷击浪涌功能的“Cyber​​Power ST425JP”评测",
+     "summary": "盛夏是突发雷雨天气导致雷击、停电风险增加的季节。 “Cyber​​Power ST425JP”是一款额定输出为260W的紧凑型UPS，还具有雷击浪涌功能，因此我们决定检查其可用性，因为它非常适合应对雷击和停电。阅读更多..."
     },
     "en": {
-     "title": "Tetsuya Nomura from the anime “Kingdom Hearts” releases his comments! In close collaboration with the scenario team, several character designs were drawn for this time. “The hint is that only one key art was announced.”",
-     "summary": "At the time of the announcement of the anime \"Kingdom Hearts\", a comment by Tetsuya Nomura was released."
+     "title": "Review of \"CyberPower ST425JP\" which is cheap and compact and has UPS/lightning surge function",
+     "summary": "The height of summer is the season when the risk of sudden thunderstorms resulting in lightning strikes and power outages increases. \"CyberPower ST425JP\" is a compact UPS with a rated output of 260W, and it also has a lightning surge function, so we decided to check out its usability as it is perfect for countering lightning strikes and power outages. read more..."
     }
    }
   },
   {
-   "id": "c0b08b6b2383",
-   "title": "ChatGPTにライターの座を奪われたと暴露した開発者と否定するCEOの対立続く運転シム『Rideshare \"スティミュレーター\"』ストアページにAI生成コンテンツの開示を記載",
-   "url": "http://www.gamespark.jp/article/2026/08/15/170747.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "c9f9b9eb3607",
+   "title": "テクノロジー企業がデータセンターのエネルギーコストを負担しなければならないとする法案が進行中",
+   "url": "https://gigazine.net/news/20260816-tech-company-pay-data-center-cost/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-15T16:49:55+08:00",
-   "summary": "Saber InteractiveはライターをAIと置き換えた事実はなく、AIを使用しているのは実験的なおまけモード内のみだとしていました。",
+   "weight": 5,
+   "published": "2026-08-16T07:00:00+08:00",
+   "summary": "アメリカではデータセンターの建設が相次いでおり、データセンターが過剰に電力を消費することで一般市民の電気代も上がるのではないか、という懸念が出ています。新たに、アメリカの下院エネルギー・商業委員会が、データセンターのエネルギーコストをテクノロジー企業に転嫁させる法案を全会一致で可決させたことが分かりました。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "驾驶模拟游戏“Rideshare “Stimulator”的商店页面上列出了人工智能生成内容的披露，其中透露自己因 ChatGPT 失去编剧职位的开发者与否认这一点的首席执行官之间的冲突仍在继续。",
-     "summary": "Saber Interactive并没有用AI取代作家，并表示它只是在实验性奖励模式中使用AI。"
+     "title": "一项法案正在进行中，要求科技公司承担数据中心的能源成本",
+     "summary": "在美国，数据中心纷纷建设，人们担心数据中心会消耗过多电力，导致普通民众的电费上涨。美国众议院能源和商务委员会宣布，一致通过一项法案，将数据中心能源成本转嫁给科技公司。阅读更多..."
     },
     "en": {
-     "title": "Disclosure of AI-generated content is listed on the store page of the driving sim “Rideshare “Stimulator”, where the conflict continues between the developer who revealed that he lost his writer position to ChatGPT and the CEO who denies it.",
-     "summary": "Saber Interactive has not replaced the writer with AI, and has said that it only uses AI in an experimental bonus mode."
-    }
-   }
-  },
-  {
-   "id": "7a4ab2352ff8",
-   "title": "『Slay the Spire 2』新キャラクターと“もう一つのAct 2”を開発中―大型コンテンツ注力で更新ペースは当面ゆるやかに",
-   "url": "http://www.gamespark.jp/article/2026/08/15/170746.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-15T15:15:02+08:00",
-   "summary": "新要素の中から謎の「足」が公開。ネタバレへの配慮で詳細は明かされず。",
-   "i18n": {
-    "zh": {
-     "title": "《杀戮尖塔2》新角色和《另一幕2》正在开发中 - 更新速度暂时会缓慢，重点关注大内容",
-     "summary": "新元素中露出了一条神秘的“腿”。由于担心剧透，细节不会透露。"
-    },
-    "en": {
-     "title": "\"Slay the Spire 2\" new characters and \"another Act 2\" under development - update pace will be slow for the time being with focus on large content",
-     "summary": "A mysterious \"leg\" is revealed among the new elements. Details will not be disclosed due to spoiler concerns."
-    }
-   }
-  },
-  {
-   "id": "1f4c8287362c",
-   "title": "サイバーパンクな街で事件を捜査する『NEO BERLIN 2087』2028年発売予定！ 最新トレイラーも披露",
-   "url": "http://www.gamespark.jp/article/2026/08/15/170745.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-15T14:45:03+08:00",
-   "summary": "主人公の刑事ノーランは、警察長官の父を殺された娘ナタリーを探して守るという重い任務を担うこととなります。",
-   "i18n": {
-    "zh": {
-     "title": "调查赛博朋克小镇事件的《NEO BERLIN 2087》预定于 2028 年上映！还公布了最新预告片",
-     "summary": "主角诺兰侦探肩负着寻找和保护他的女儿娜塔莉的重任，她的父亲是一名警察局长，她被杀了。"
-    },
-    "en": {
-     "title": "\"NEO BERLIN 2087\", which investigates incidents in a cyberpunk town, is scheduled to be released in 2028! Also unveiled the latest trailer",
-     "summary": "The main character, detective Nolan, has the heavy duty of finding and protecting his daughter Natalie, whose father, a police commissioner, was killed."
-    }
-   }
-  },
-  {
-   "id": "9f8c3f76cdac",
-   "title": "「買うべきではない10の理由」を素直に話してウィッシュリスト激増！最大100人ミリタリーFPS『WARDOGS』―早期アクセス開始は9月10日",
-   "url": "http://www.gamespark.jp/article/2026/08/15/170744.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-15T14:30:02+08:00",
-   "summary": "現地時間8月11日付けのプレスリリースではSteamウィッシュリストは80万件と発表されていました。",
-   "i18n": {
-    "zh": {
-     "title": "诚实地告诉我“你不应该购买它的 10 个理由”后，我的愿望清单猛增！最多 100 名玩家的军事 FPS“WARDOGS” - 抢先体验将于 9 月 10 日开始",
-     "summary": "在当地时间8月11日的新闻稿中，宣布Steam愿望清单数量为80万。"
-    },
-    "en": {
-     "title": "My wish list has skyrocketed by honestly telling me ``10 reasons why you shouldn't buy it''! Up to 100 players military FPS \"WARDOGS\" - Early access starts on September 10th",
-     "summary": "In a press release dated August 11, local time, it was announced that the number of Steam wishlists is 800,000."
-    }
-   }
-  },
-  {
-   "id": "71bae6034c45",
-   "title": "レトロゲーム互換機「Polymega」ベースユニットの新バージョンが登場！ 処理速度向上やディスクドライブ変更などで改良",
-   "url": "http://www.gamespark.jp/article/2026/08/15/170743.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-15T14:00:03+08:00",
-   "summary": "現在予約枠の受付を行っており、初回分1,000枠は既に受付終了。第2回と第3回がそれぞれ1,000枠分受付中です。",
-   "i18n": {
-    "zh": {
-     "title": "复古游戏兼容机“Polymega”主机的新版本现已上市！通过提高处理速度和更换磁盘驱动器等进行改进。",
-     "summary": "目前我们正在接受预订，前1000个名额已经接受。目前，我们正在接受第二轮和第三轮各 1,000 个名额的申请。"
-    },
-    "en": {
-     "title": "A new version of the retro game compatible machine \"Polymega\" base unit is now available! Improved by improving processing speed and changing disk drives, etc.",
-     "summary": "We are currently accepting reservations, and the first 1,000 slots have already been accepted. We are currently accepting applications for 1,000 slots each for the 2nd and 3rd rounds."
-    }
-   }
-  },
-  {
-   "id": "2af22cf9632e",
-   "title": "『Fallout 4』向けパッチを現地時間8月18日に配信とベセスダが予告―『スカイリム』アプデも作業中",
-   "url": "http://www.gamespark.jp/article/2026/08/15/170742.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-15T13:26:18+08:00",
-   "summary": "パッチ配信前の予防措置についてもアナウンスされています。",
-   "i18n": {
-    "zh": {
-     "title": "Bethesda 宣布《辐射 4》补丁将于当地时间 8 月 18 日发布 - 《天际》更新也在进行中",
-     "summary": "还公布了补丁分发之前要采取的预防措施。"
-    },
-    "en": {
-     "title": "Bethesda announces patch for Fallout 4 to be released on August 18th local time - Skyrim update also in the works",
-     "summary": "Precautions to be taken before patch distribution are also announced."
-    }
-   }
-  },
-  {
-   "id": "3e09b9db430f",
-   "title": "『キングダム ハーツIV』は2027年後半に発売で「リメンバー・ミー」のワールド登場！ゲームプレイ含むトレイラー公開―ディズニーと野村哲也氏、スクエニ共同制作のアニメシリーズも発表",
-   "url": "http://www.gamespark.jp/article/2026/08/15/170741.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-15T11:40:11+08:00",
-   "summary": "新たな物語「ロストマスター篇」が描かれます。",
-   "i18n": {
-    "zh": {
-     "title": "《王国之心IV》将于2027年下半年上映，《勿忘我》的世界将会出现！包含游戏玩法的预告片已发布 - 迪士尼和野村哲也还宣布由史克威尔艾尼克斯联合制作的动画系列",
-     "summary": "将绘制新故事“失落大师版”。"
-    },
-    "en": {
-     "title": "“Kingdom Hearts IV” will be released in the second half of 2027, and the world of “Remember Me” will appear! Trailer including gameplay released - Disney and Tetsuya Nomura also announce anime series co-produced by Square Enix",
-     "summary": "A new story \"Lost Master Edition\" will be drawn."
-    }
-   }
-  },
-  {
-   "id": "081d8281173e",
-   "title": "「本当に電波的なものにしか救われない人たちへ」―にゃるら氏が“趣味100％”で作る『妹、他者、パラノイア』。創作と自傷、他者を描く理由【インタビュー】",
-   "url": "http://www.gamespark.jp/article/2026/08/15/170740.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-15T11:30:03+08:00",
-   "summary": "「もうクリックしたくない」と思わせたい―『NEEDY GIRL OVERDOSE』にゃるら氏が新作『妹、他者、パラノイア』で目指す“生活感のある恐怖”",
-   "i18n": {
-    "zh": {
-     "title": "“献给那些真正只能通过无线电波之类的东西来拯救的人”——尼亚鲁拉先生创作的《姐妹，其他，偏执狂》“100%作为一种爱好”。创作、自残以及吸引他人的原因【访谈】",
-     "summary": "想让你觉得不想再点击了——《NEEDY GIRL OVERDOSE》 Nyalla 在新作《姐姐、其他、偏执狂》中力求“有生活感的恐怖”"
-    },
-    "en": {
-     "title": "\"For those who can only really be saved by things like radio waves\" - \"Sister, Others, Paranoia\" created by Mr. Nyarula \"100% as a hobby\". Creation, self-harm, and the reason for drawing others [Interview]",
-     "summary": "I want to make you feel like you don't want to click anymore - \"NEEDY GIRL OVERDOSE\" Nyalla aims for \"horror with a sense of life\" in her new work \"Sister, Others, Paranoia\""
-    }
-   }
-  },
-  {
-   "id": "b0ad3659ab64",
-   "title": "人の心を読めてしまう主人公、相手を自殺に追い込むことも…『ニディガ』にゃるら氏の「心地よい不快感」与える文章が読めるノベル『妹、他者、パラノイア』Steam配信開始",
-   "url": "http://www.gamespark.jp/article/2026/08/15/170739.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-15T11:01:15+08:00",
-   "summary": "「孤独、執着、そして人間の心の最も暗い深淵へ」。",
-   "i18n": {
-    "zh": {
-     "title": "主角能读懂人们的心思，有时甚至会逼迫他们自杀……《Nidiga》中 Nyarula 的小说《姐妹，其他，偏执狂》现已在 Steam 上架，你可以在其中阅读让你感到“令人愉快的不适”的句子。",
-     "summary": "“孤独、痴迷、人心最黑暗的深处。”"
-    },
-    "en": {
-     "title": "The main character can read people's minds, and sometimes drives them to suicide... ``Sister, Other, Paranoia'', a novel by Nyarula from ``Nidiga'' where you can read sentences that give you a ``pleasant discomfort'', is now available on Steam",
-     "summary": "\"Loneliness, obsession, and the darkest depths of the human heart.\""
-    }
-   }
-  },
-  {
-   "id": "b6229d72ee76",
-   "title": "脱出方法は投票で暴くか暗殺。『ダンガンロンパ』と『逆転裁判』で義務教育を終えた作者によるミステリー×デスゲームADV『Trick × Trick』Steam配信開始！",
-   "url": "http://www.gamespark.jp/article/2026/08/15/170738.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-15T11:00:03+08:00",
-   "summary": "「超能力」が事件やトリックに深く関わってきます。",
-   "i18n": {
-    "zh": {
-     "title": "逃脱的方法是通过投票或暗杀来揭露。玩过《弹丸论破》和《逆转裁判》后完成义务教育的作者创作的神秘x死亡游戏ADV《Trick x Trick》现已在Steam上架！",
-     "summary": "“超级大国”深陷事件和诡计之中。"
-    },
-    "en": {
-     "title": "The way to escape is to reveal it by voting or assassinate. Mystery x death game ADV “Trick x Trick” by the author who completed compulsory education after playing “Danganronpa” and “Gyakuten Saiban” is now available on Steam!",
-     "summary": "``Superpowers'' are deeply involved in incidents and tricks."
-    }
-   }
-  },
-  {
-   "id": "1c3fdaa9b5cb",
-   "title": "約8割が“ぽっちゃり化”を希望ー『カリアのアトリエ』ユーザーアンケート「カリア開発会議」が中間発表、約3万4,000件もの回答が集まる",
-   "url": "http://www.gamespark.jp/article/2026/08/15/170737.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-15T10:00:04+08:00",
-   "summary": "カリアのアトリエ中間発表で、約78.6%がぽっちゃり化要素を支持。34,392件中約27,000件が賛意。8月23日まで意見受付中。",
-   "i18n": {
-    "zh": {
-     "title": "约80%希望变“胖”——“Atelier Karia”用户调查“Karia发展大会”临时公布，收集了约34,000份回复",
-     "summary": "在Karia工作室的中期公告中，大约78.6%的人支持胖乎乎的因素。 34,392 票中约有 27,000 票赞成。我们将在 8 月 23 日之前接受意见。"
-    },
-    "en": {
-     "title": "Approximately 80% wish to become “chubby” - Interim announcement of “Atelier Karia” user survey “Karia Development Conference”, with approximately 34,000 responses collected",
-     "summary": "In the mid-term announcement of Karia's Atelier, approximately 78.6% supported the chubby factor. Approximately 27,000 of 34,392 votes were in favor. We are accepting comments until August 23rd."
+     "title": "A bill is underway that would require technology companies to cover data center energy costs",
+     "summary": "In the United States, data centers are being built one after another, and there are concerns that data centers will consume excessive amounts of electricity, leading to rising electricity bills for the general public. It has been announced that the U.S. House of Representatives Energy and Commerce Committee has unanimously passed a bill that would shift data center energy costs to technology companies. read more..."
     }
    }
   },
@@ -2958,48 +3182,6 @@
    }
   },
   {
-   "id": "d156ea76c3e7",
-   "title": "Telegramの5つあるデータセンターの謎",
-   "url": "https://gigazine.net/news/20260815-mistery-of-telegram-dc/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-15T11:00:00+08:00",
-   "summary": "メッセージングアプリ「Telegram」は5つの データセンター(DC)を保有していることがドキュメントやAPIを通じて知られています。これに対して、5つのDCが並立しているというのはあくまでもTelegramによる主張に過ぎないのでは、と疑問を抱いた中国の開発者Coxxs氏が実際に調査した結果を自身のブログにて公開していました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "Telegram 五个数据中心之谜",
-     "summary": "通过文档和API得知，消息应用“Telegram”有五个数据中心（DC）。另一方面，中国开发商Coxxs对五个DC共存的事实表示怀疑只是Telegram的说法，并在他的博客上发布了实际调查的结果。阅读更多..."
-    },
-    "en": {
-     "title": "The mystery of Telegram's five data centers",
-     "summary": "It is known through documents and API that the messaging app \"Telegram\" has five data centers (DC). On the other hand, Chinese developer Coxxs, who had doubts that the fact that five DCs were coexisting was just a claim made by Telegram, published the results of an actual investigation on his blog. read more..."
-    }
-   }
-  },
-  {
-   "id": "17653f828175",
-   "title": "深呼吸は人々を慎重にするのではなくむしろハイリスクな行動を増加させる可能性",
-   "url": "https://gigazine.net/news/20260815-deep-breathing-increase-risk-taking-behavior/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-15T10:00:00+08:00",
-   "summary": "ゆっくりと深い呼吸をする深呼吸は、焦っている時に心を落ち着かせたり、ストレスを軽減してリラックスしたりするのに役立ちます。深呼吸をすると思考が落ち着き、より慎重な判断を下せるようになると考える人は多いかもしれませんが、新たな研究では深呼吸がむしろハイリスクな行動を増加させる可能性があると示されました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "深呼吸可能会增加高风险行为而不是让人们更加谨慎",
-     "summary": "缓慢而深呼吸。当您感到焦虑时，深呼吸可以帮助您平静心情、减轻压力并帮助您放松。许多人可能认为深呼吸可以平静思绪，帮助他们做出更审慎的决定，但一项新的研究表明，深呼吸实际上可能会增加高危行为。阅读更多..."
-    },
-    "en": {
-     "title": "Deep breathing may increase high-risk behavior rather than making people more cautious",
-     "summary": "Breathe slowly and deeply. Deep breathing can help calm your mind when you're feeling anxious, reduce stress, and help you relax. Many people may think that deep breathing calms their thoughts and helps them make more prudent decisions, but a new study shows that deep breathing may actually increase high-risk behaviors. read more..."
-    }
-   }
-  },
-  {
    "id": "defcd6acd442",
    "title": "マンガ「作らせて！絵島さん」作者にインタビューしてこだわりのポイントや会社員をしながらマンガを描く「二足のわらじ」を実現する方法について聞いてみた",
    "url": "https://gigazine.net/news/20260815-eshima-san-interview/",
@@ -3021,339 +3203,173 @@
    }
   },
   {
-   "id": "00007db17126",
-   "title": "AIの「分かったふり」を見続けていると人間も「分からない」と言えなくなるという研究結果",
-   "url": "https://gigazine.net/news/20260815-ai-advice-suppresses-people-willingness-idk/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-15T07:00:00+08:00",
-   "summary": "生成AIはしばしば、聞かれたことに対して「分かりません」とは答えずに適当なでっち上げを返してくることがあります。生成AIを使う人間もこれに影響され、「分かりません」と言えなくなってしまっている可能性が見えてきました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "研究结果表明，如果人类一直看着人工智能“假装听懂”，人类将不再能说“我听不懂”",
-     "summary": "当被问及时，生成式人工智能通常不会回答“我不知道”，而是会提出一些随机的捏造。我们已经开始看到使用生成式人工智能的人类也可能受到这种影响，并且不再能够说“我不明白”。阅读更多..."
-    },
-    "en": {
-     "title": "Research results show that if humans keep watching AI's ``pretending to understand'', humans will no longer be able to say ``I don't understand''",
-     "summary": "Generative AI often doesn't answer \"I don't know\" when asked, but instead comes up with some random fabrication. We have begun to see the possibility that humans using generative AI are also affected by this, and are no longer able to say, \"I don't understand.\" read more..."
-    }
-   }
-  },
-  {
-   "id": "9f719149068e",
-   "title": "白地図の都道府県をはがしてぶつけて連鎖させる「白地図ストライク47」を遊んでみた",
-   "url": "https://gigazine.net/news/20260814-white-map-strike-47/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-14T22:36:00+08:00",
-   "summary": "白地図から都道府県を1つはがして引っ張り、弾としてぶつけて他の都道府県のHPを削り連鎖させる「白地図ストライク47」というゲームが公開されていたので、47都道府県全攻略(？)めざしてプレイしてみました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "我尝试玩“Blank Map Strike 47”，在空白地图上剥离都道府县，击中它们，然后将它们连锁起来。",
-     "summary": "一款名为《Blank Map Strike 47》的游戏发布了，你可以从一张空白地图中剥离一个都道府县，拉动它，然后将其作为子弹击中，以减少其他都道府县的生命值并连锁它们，所以我尝试以征服所有 47 都道府县为目标（？）。阅读更多..."
-    },
-    "en": {
-     "title": "I tried playing ``Blank Map Strike 47'' where you peel off the prefectures on a blank map, hit them, and chain them.",
-     "summary": "A game called ``Blank Map Strike 47'' was released, where you peel off one prefecture from a blank map, pull it, and hit it as a bullet to reduce the HP of other prefectures and chain them, so I tried playing with the aim of conquering all 47 prefectures (?). read more..."
-    }
-   }
-  },
-  {
-   "id": "6b496c6d19f2",
-   "title": "タトゥーやアートメイク用の「滅菌済み」インクの約3分の1が細菌に汚染されている、感染症を引き起こす病原菌も",
-   "url": "https://gigazine.net/news/20260814-tattoo-ink-microbial-contamination/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-14T21:00:00+08:00",
-   "summary": "針で皮膚に傷を付けてインクを染み込ませるタトゥーは、ファッションや自己表現として広く受け入れられています。また近年は、専用の針で皮膚に色素を埋め込んで眉やアイラインを描く美容目的のアートメイクも盛んです。ところが、アメリカ食品医薬品局(FDA)が259個のタトゥーインクやアートメイク用インク(permanent makeup ink：PMU)を調査したところ、たとえ「滅菌済み」とラベルが貼られているものであっても、約3分の1には細菌が混入していることが判明しました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "大约三分之一的“消毒”纹身和永久化妆品墨水受到细菌污染，包括可能引起感染的病原体。",
-     "summary": "纹身是用针在皮肤上切开并用墨水浸泡的纹身，被广泛认为是一种时尚和自我表达的形式。近年来，以美容为目的的永久化妆也开始流行，使用特殊的针将颜料嵌入皮肤并画眉毛和眼线。然而，当美国食品和药物管理局 (FDA) 调查 259 种纹身墨水和永久化妆墨水 (PMU) 时，发现大约三分之一被细菌污染，即使它们被标记为“已灭菌”。 阅读更多..."
-    },
-    "en": {
-     "title": "Approximately one-third of ``sterilized'' ink for tattoos and permanent makeup is contaminated with bacteria, including pathogens that can cause infections.",
-     "summary": "Tattoos, in which the skin is incised with a needle and soaked with ink, are widely accepted as a form of fashion and self-expression. In recent years, permanent makeup for beauty purposes has also become popular, using special needles to embed pigment into the skin and draw eyebrows and eyeliner. However, when the U.S. Food and Drug Administration (FDA) investigated 259 tattoo inks and permanent makeup inks (PMU), it was found that approximately one-third were contaminated with bacteria, even if they were labeled as ``sterilized.'' read more..."
-    }
-   }
-  },
-  {
-   "id": "1dc09b81a765",
-   "title": "Linuxのデスクトップ利用が1日のうちに22％まで急増したことがCloudflareのデータで明らかに",
-   "url": "https://gigazine.net/news/20260814-linux-desktop-cloudflare/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-14T20:00:00+08:00",
-   "summary": "Linuxデスクトップからのウェブアクセスが、ある平日に全デスクトップ向けトラフィックの約22％を占めるまで急増していたことがCloudflareのデータから明らかになりました。一般的なOSシェア統計ではLinuxのデスクトップシェアは5％前後とされることが多いため、約22％というシェアは異常に高い数字です。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "Cloudflare 数据显示 Linux 桌面使用率一天内飙升至 22%",
-     "summary": "Cloudflare 数据显示，在一个工作日内，来自 Linux 桌面的 Web 访问量迅速增加到所有桌面流量的 22% 左右。根据一般操作系统份额统计，Linux的桌面份额往往在5%左右，因此22%左右的份额是一个异常高的数字。阅读更多..."
-    },
-    "en": {
-     "title": "Cloudflare data reveals that Linux desktop usage soared to 22% in one day",
-     "summary": "Cloudflare data revealed that web access from Linux desktops rapidly increased to about 22% of all desktop traffic on one weekday. According to general OS share statistics, Linux's desktop share is often around 5%, so a share of about 22% is an abnormally high number. read more..."
-    }
-   }
-  },
-  {
-   "id": "cc1b5b249863",
-   "title": "OpenAIにはサム・アルトマンCEOや経営陣に直接苦情を送ることができる専用のメールアドレスがある",
-   "url": "https://gigazine.net/news/20260814-openai-special-address/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-14T19:30:00+08:00",
-   "summary": "ChatGPTで知られるOpenAIの社内には、サム・アルトマンCEOや社長のグレッグ・ブロックマン氏など経営陣に直接業務における問題を報告して迅速な解決を求める「friction」というメールアドレスがあると元従業員が明かしました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "OpenAI 有一个专门的电子邮件地址，您可以直接向首席执行官 Sam Altman 和管理层发送投​​诉。",
-     "summary": "一位前员工透露，在 OpenAI 内部（被称为 ChatGPT），有一个名为“摩擦”的电子邮件地址，可以直接向首席执行官 Sam Altman 和总裁 Greg Brockman 等管理层报告业务问题，以便快速解决。阅读更多..."
-    },
-    "en": {
-     "title": "OpenAI has a dedicated email address where you can send complaints directly to CEO Sam Altman and management.",
-     "summary": "A former employee revealed that within OpenAI, known as ChatGPT, there is an email address called ``friction'' that directly reports business problems to management such as CEO Sam Altman and President Greg Brockman for quick resolution. read more..."
-    }
-   }
-  },
-  {
-   "id": "298dd844dca5",
-   "title": "総工費920億円超の海底ケーブルがハリー・ポッターファンの要求でルートを変更",
-   "url": "https://gigazine.net/news/20260814-harry-potter-fans-force-relocation-undersea-cable/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-14T19:00:00+08:00",
-   "summary": "ハリー・ポッターファンが、作中で登場する屋敷しもべ妖精・ドビーのお墓の下を通る海底ケーブルの敷設計画を聞きつけ、ルート変更を要求し、無事ルート変更を実現することに成功しました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "总建设成本超过920亿日元的海底电缆应哈利波特迷的要求改变路线",
-     "summary": "一位哈利波特迷听说计划铺设一条海底电缆，这条电缆将穿过故事中出现的家养小精灵多比的坟墓，并要求改变路线，并成功改变了路线。阅读更多..."
-    },
-    "en": {
-     "title": "Submarine cable with total construction cost of over 92 billion yen changes route at the request of Harry Potter fans",
-     "summary": "A Harry Potter fan heard about plans to lay an undersea cable that would pass under the grave of Dobby, the house elf who appears in the story, and requested that the route be changed, and the route was successfully changed. read more..."
-    }
-   }
-  },
-  {
-   "id": "0e1fb8bbe3e6",
-   "title": "2026年8月14日のヘッドラインニュース",
-   "url": "https://gigazine.net/news/20260814-headline/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-14T18:57:00+08:00",
-   "summary": "2026年7月24日(金)から大ヒット上映中の『映画ちいかわ 人魚の島のひみつ』をもっと楽しめるようになるかもしれない、「3分くらいでわかる予習ムービー」が新たにYouTubeで公開されました。映画ではキャラクターたちの関係は改めて説明されないため、原作漫画やTVアニメを見ていない人はこれを見るとほどよく関係を知ることができそうです。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "2026 年 8 月 14 日头条新闻",
-     "summary": "YouTube 上发布了新的《大约 3 分钟就能看懂的准备电影》，可以帮助您欣赏 2026 年 7 月 24 日（星期五）起大热上映的《电影千井川：人鱼岛的秘密》。电影中没有解释角色之间的关系，所以没有看过原作漫画或电视动画的人可以通过观看来更好地理解其中的关系。阅读更多..."
-    },
-    "en": {
-     "title": "Headline news for August 14, 2026",
-     "summary": "A new ``preparation movie that you can understand in about 3 minutes'' has been released on YouTube, which may help you enjoy ``Movie Chiikawa: The Secret of Mermaid Island'', which is being screened as a big hit from July 24, 2026 (Friday). The relationships between the characters are not explained in the movie, so people who haven't seen the original manga or TV anime will be able to understand the relationships better by watching this. read more..."
-    }
-   }
-  },
-  {
-   "id": "def76baa1286",
-   "title": "【漫画更新】Umamusume - Pretty Derby PisuPisu☆SupiSupi - Golshi-chan 第 64 话「Onwards, to the Demon Realm!」",
-   "url": "https://mangadex.org/chapter/c3364625-8644-4e1e-b279-ab195ce5077e",
+   "id": "617639637fcb",
+   "title": "【漫画更新】Onna Kishi to Kemomimi no Ko 第 76 话「Beyond Time」",
+   "url": "https://mangadex.org/chapter/8d3c12a9-c2e3-4557-8201-b6eb8a7e9626",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-08-16T06:21:04+08:00",
+   "published": "2026-08-16T18:11:14+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【漫画更新】ウマ娘 プリティーダービー ぴすぴす☆すぴすぴ ゴルシちゃん 第64話「いざ、魔界へ！」"
+     "title": "【漫画更新】女騎士とケモ耳の子 第76話「時を越えて」"
     },
     "en": {
-     "title": "【Manga Update】Umamusume - Pretty Derby PisuPisu☆SupiSupi - Golshi-chan Chapter 64 \"Onwards, to the Demon Realm!\""
+     "title": "【Manga Update】Onna Kishi to Kemomimi no Ko Chapter 76 \"Beyond Time\""
     }
    }
   },
   {
-   "id": "f1df8b322e21",
-   "title": "【漫画更新】Akatsuki Jihen 第 39 话",
-   "url": "https://mangadex.org/chapter/054c130e-da9f-4971-b5b1-81c23eac21ba",
+   "id": "6154bcd2d52f",
+   "title": "【漫画更新】D.Diver 第 37 话「Comrades」",
+   "url": "https://mangadex.org/chapter/f1c4a90c-cc93-45cd-8f4f-12877ef5170f",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-08-16T06:21:04+08:00",
+   "published": "2026-08-16T18:11:14+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】暁事変 第39話"
+     "title": "【コミック更新】D.Diver 第37話「同志」"
     },
     "en": {
-     "title": "【Manga Update】Akatsuki Jihen Chapter 39"
+     "title": "【Comic Update】D.Diver Chapter 37 \"Comrades\""
     }
    }
   },
   {
-   "id": "10b3babd38f9",
-   "title": "【漫画更新】27-ji no Cinderella 第 6.5 话",
-   "url": "https://mangadex.org/chapter/064b6b64-adf4-4e08-8ee2-d1a58984a5ec",
+   "id": "36971eb5b310",
+   "title": "【漫画更新】Inazuma Eleven GO 第 26 话「The Earth Eleven!!」",
+   "url": "https://mangadex.org/chapter/3bde6546-e07c-4aca-9bb2-76764ba95ebe",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-08-16T06:21:04+08:00",
+   "published": "2026-08-16T18:11:14+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】27時のシンデレラ 第6.5話"
+     "title": "【マンガ更新】イナズマイレブンGO 第26話「ジ・アースイレブン!!」"
     },
     "en": {
-     "title": "【Manga Update】27-ji no Cinderella Chapter 6.5"
+     "title": "【Manga Update】Inazuma Eleven GO Chapter 26 \"The Earth Eleven!!\""
     }
    }
   },
   {
-   "id": "9227da17c745",
-   "title": "【漫画更新】Jitsu wa Ore, Saikyou deshita? 第 151 话「Teresia's Secret」",
-   "url": "https://mangadex.org/chapter/7b4cbf81-6db7-41d5-8673-cec2a9811468",
+   "id": "11655b8c8c95",
+   "title": "【漫画更新】Waka-chan wa Kyou mo Azatoi 第 176 话",
+   "url": "https://mangadex.org/chapter/4ee1e24c-f9b9-4ff9-be2d-b4fb43441c63",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-08-16T06:21:04+08:00",
+   "published": "2026-08-16T18:11:14+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】実は私、最強でした?第151話「テレシアの秘密」"
+     "title": "【マンガ更新】和花ちゃんは今日もあざとい 第176話"
     },
     "en": {
-     "title": "【Manga Update】Jitsu wa Ore, Saikyou deshita? Chapter 151 \"Teresia's Secret\""
+     "title": "【Manga Update】Waka-chan wa Kyou mo Azatoi Chapter 176"
     }
    }
   },
   {
-   "id": "9bef55cba85c",
-   "title": "【漫画更新】JK Modeler's Guide 第 4 话「Kaiyodo ARTPLA Yurucamp Capsule Edition Kagamihara Nadeshiko」",
-   "url": "https://mangadex.org/chapter/0834bca8-2d6c-4f62-aa6f-5d543070eec8",
+   "id": "deb851974dc9",
+   "title": "【漫画更新】Vigilante Part 2 第 92 话",
+   "url": "https://mangadex.org/chapter/ef1390ad-c0bc-4c55-9e87-6298ebbfff18",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-08-16T06:21:04+08:00",
+   "published": "2026-08-16T18:11:14+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】JKモデラーズガイド 第4章「海洋堂ARTPLA ゆるキャン カプセル版 各務原なでしこ」"
+     "title": "【コミック更新】ヴィジランテ パート2 第92話"
     },
     "en": {
-     "title": "【Manga Update】JK Modeler's Guide Chapter 4 \"Kaiyodo ARTPLA Yurucamp Capsule Edition Kagamihara Nadeshiko\""
+     "title": "【Comic Update】Vigilante Part 2 Chapter 92"
     }
    }
   },
   {
-   "id": "bab21d115e80",
-   "title": "【漫画更新】Suki na Ko ni Kokuttara Futago no Imouto ga Omake de Tsuitekita 第 6 话「The ones who like each other move in sync.」",
-   "url": "https://mangadex.org/chapter/34a8482d-f352-4bb6-a450-c62995b70cf4",
+   "id": "2579fed047fe",
+   "title": "【漫画更新】Konoyude, Anatato 第 4 话",
+   "url": "https://mangadex.org/chapter/05d747bf-f902-441d-a41c-be99f8327376",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-08-16T06:21:04+08:00",
+   "published": "2026-08-16T18:11:14+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】『好きな子に気づいたら双子の妹がおまけでついてきました』第6話『好きな人同士がシンクロして動きます。"
+     "title": "【マンガ更新】このゆで、あなたと 第4話"
     },
     "en": {
-     "title": "【Manga Update】Suki na Ko ni Kokuttara Futago no Imouto ga Omake de Tsuitekita Chapter 6 \"The ones who like each other move in sync.\""
+     "title": "【Manga Update】Konoyude, Anatato Chapter 4"
     }
    }
   },
   {
-   "id": "de083e43caba",
-   "title": "【漫画更新】Ichijou Hanao wa Koi wo Shiranai 第 11 话",
-   "url": "https://mangadex.org/chapter/36533b8f-322c-4a18-9c64-43024a10346d",
+   "id": "b4ee99c9cb4f",
+   "title": "【漫画更新】The Tower of Eden: Luluchika, Kunya and the Tower's Labyrinth 第 1 话",
+   "url": "https://mangadex.org/chapter/027ea5e9-4947-4520-ac79-c874b63ca91e",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-08-16T06:21:04+08:00",
+   "published": "2026-08-16T18:11:14+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】一条花男は恋を知らない 第11話"
+     "title": "【コミック更新】エデンの塔 ルルチカとクニャと塔の迷宮 第一章"
     },
     "en": {
-     "title": "【Manga Update】Ichijou Hanao wa Koi wo Shiranai Chapter 11"
+     "title": "【Comic Update】The Tower of Eden: Luluchika, Kunya and the Tower's Labyrinth Chapter 1"
     }
    }
   },
   {
-   "id": "f05ccd43ef8f",
-   "title": "【漫画更新】Oishinbo 第 324 话「Side Dish Showdown (Part 2)」",
-   "url": "https://mangadex.org/chapter/6174e5b8-05af-4150-927a-e2cd0a17b16a",
+   "id": "c68558ee8ca0",
+   "title": "【漫画更新】Ki ni Natteru Hito ga Otoko ja Nakatta 第 175 话「Go Ahead, Say It」",
+   "url": "https://mangadex.org/chapter/3bbdabb7-c1ce-4287-b9f6-628eb6760b43",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-08-16T06:21:04+08:00",
+   "published": "2026-08-16T18:11:14+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【漫画更新】美味しんぼ 第324話「おかず対決（後編）」"
+     "title": "【マンガ更新】君になった人が男になった 第175話「さあ、言ってみろ」"
     },
     "en": {
-     "title": "【Manga Update】Oishinbo Chapter 324 \"Side Dish Showdown (Part 2)\""
+     "title": "【Manga Update】Ki ni Natteru Hito ga Otoko ja Nakatta Chapter 175 \"Go Ahead, Say It\""
     }
    }
   },
   {
-   "id": "6ae8ff049dd4",
-   "title": "【漫画更新】Shichi Genme wa Ninja Shugyou Desu! 第 22 话",
-   "url": "https://mangadex.org/chapter/a680a671-d280-40d2-9acf-5e79523213b1",
+   "id": "494a6e39ff9e",
+   "title": "【漫画更新】Danjo-hi 1:39 no Heikou Sekai wa Omoi no Hoka Futsuu 第 288 话「How to Clear Class Observation」",
+   "url": "https://mangadex.org/chapter/23ebaa83-6af8-48b8-bbef-53c514784dfe",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-08-16T06:21:04+08:00",
+   "published": "2026-08-16T18:11:14+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】七源女は忍者修行です！第22章"
+     "title": "【マンガ更新】ダンジョウヒ 1:39の平和世界は想い出の放課後 第288話「授業参観のクリア方法」"
     },
     "en": {
-     "title": "【Manga Update】Shichi Genme wa Ninja Shugyou Desu! Chapter 22"
-    }
-   }
-  },
-  {
-   "id": "1f39d944d97c",
-   "title": "【漫画更新】Animaru Kedaman 第 7 话「Two Leaders」",
-   "url": "https://mangadex.org/chapter/dae5844e-e64e-4c43-9a20-991fdef5305a",
-   "source": "MangaDex",
-   "category": "comic",
-   "lang": "zh",
-   "weight": 4,
-   "published": "2026-08-16T06:21:04+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【マンガ更新】あにまるケダマン 第7話「二人のリーダー」"
-    },
-    "en": {
-     "title": "【Manga Update】Animaru Kedaman Chapter 7 \"Two Leaders\""
+     "title": "【Manga Update】Danjo-hi 1:39 no Heikou Sekai wa Omoi no Hoka Futsuu Chapter 288 \"How to Clear Class Observation\""
     }
    }
   }
