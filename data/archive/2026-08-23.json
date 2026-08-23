@@ -1,13 +1,13 @@
 {
  "date": "2026-08-23",
- "generated_at": "2026-08-23T06:22:04+08:00",
+ "generated_at": "2026-08-23T18:11:50+08:00",
  "count": 160,
  "categories": {
-  "anime": 46,
-  "comic": 11,
-  "game": 76,
-  "novel": 15,
-  "general": 12
+  "anime": 53,
+  "comic": 10,
+  "game": 65,
+  "novel": 22,
+  "general": 10
  },
  "sources": [
   {
@@ -16,12 +16,12 @@
    "error": null
   },
   {
-   "name": "アニメ！アニメ！",
+   "name": "AUTOMATON",
    "count": 15,
    "error": null
   },
   {
-   "name": "AUTOMATON",
+   "name": "アニメ！アニメ！",
    "count": 15,
    "error": null
   },
@@ -46,14 +46,14 @@
    "error": null
   },
   {
-   "name": "机核 GCORES",
-   "count": 15,
+   "name": "anilist_airing",
+   "count": 20,
    "error": null
   },
   {
-   "name": "anilist_airing",
-   "count": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://graphql.anilist.co/"
+   "name": "机核 GCORES",
+   "count": 15,
+   "error": null
   },
   {
    "name": "bangumi_calendar",
@@ -61,12 +61,12 @@
    "error": null
   },
   {
-   "name": "触乐",
+   "name": "mangadex_latest",
    "count": 15,
    "error": null
   },
   {
-   "name": "mangadex_latest",
+   "name": "触乐",
    "count": 15,
    "error": null
   },
@@ -77,6 +77,94 @@
   }
  ],
  "items": [
+  {
+   "id": "5a9b52cc78c2",
+   "title": "Murciélago TV Anime Debuts in January 2027",
+   "url": "https://www.animenewsnetwork.com/news/2026-08-23/murcielago-tv-anime-debuts-in-january-2027/.240872",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-08-23T16:20:04+08:00",
+   "summary": "HIDIVE to exclusively stream anime in U.S., Canada, U.K., Australia, New Zealand"
+  },
+  {
+   "id": "6e6998db8e32",
+   "title": "The Moon on the Rainy Night Anime Listed for 2027",
+   "url": "https://www.animenewsnetwork.com/daily-briefs/2026-08-23/the-moon-on-the-rainy-night-anime-listed-for-2027/.240854",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-08-23T12:54:47+08:00",
+   "summary": "REMOW reported at its Anime NYC panel on Saturday that the television anime of Kuzushiro's The Moon on a Rainy Night (Amayo no Tsuki) manga is \"coming..."
+  },
+  {
+   "id": "6272d140d0c7",
+   "title": "Kazé US Manga Imprint Plans to Launch With 5-8 Titles in 2027, to Grow to 25-30 Titles Per Year by 2029",
+   "url": "https://www.animenewsnetwork.com/news/2026-08-23/kaze-us-manga-imprint-plans-to-launch-with-5-8-titles-in-2027-to-grow-to-25-30-titles-per-year-by-/.240866",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-08-23T12:23:37+08:00",
+   "summary": "KAZÉ imprint to also launch in Brazil, Spain in 2027"
+  },
+  {
+   "id": "7331269e1f02",
+   "title": "Publang Announces 5 New BL Manhwa, Web Novel Titles at Anime NYC",
+   "url": "https://www.animenewsnetwork.com/news/2026-08-22/publang-announces-5-new-bl-manhwa-web-novel-titles-at-anime-nyc/.240857",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-08-23T11:21:12+08:00",
+   "summary": "New lineup includes Define the Relationship, The Hunter's Gonna Lay Low, PASSION manhwa; Healer and The Hunter's Gonna Lay Low web novels"
+  },
+  {
+   "id": "29c212e946f0",
+   "title": "GKIDS Licenses Vampire Hunter D: Bloodlust Anime, Live-Action 5 Centimeters Per Second Film",
+   "url": "https://www.animenewsnetwork.com/news/2026-08-22/gkids-licenses-vampire-hunter-d-bloodlust-anime-live-action-5-centimeters-per-second-film/.240863",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-08-23T10:37:39+08:00",
+   "summary": "GKIDS to screen Vampire Hunter D: Bloodlust film in N. America in 2027 after select screenings with Japanese audio this fall"
+  },
+  {
+   "id": "4ad12614f1a2",
+   "title": "Manga Mirai Service Shuts Down",
+   "url": "https://www.animenewsnetwork.com/news/2026-08-22/manga-mirai-service-shuts-down/.240835",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-08-23T07:24:17+08:00",
+   "summary": "Users can transfer purchased titles to NTT Solmare's MangaPlaza or request refunds"
+  },
+  {
+   "id": "56d6920c5994",
+   "title": "Code Vein II Game's 'Mask of Idris' DLC Debuts on September 9",
+   "url": "https://www.animenewsnetwork.com/news/2026-08-22/code-vein-ii-game-mask-of-idris-dlc-debuts-on-september-9/.240841",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-08-23T07:02:41+08:00",
+   "summary": "DLC previewed in teaser"
+  },
+  {
+   "id": "28a8fed76d59",
+   "title": "Haikyū!! Anime's 'Bakemono-tachi' Special Unveils Teaser, Key Visual",
+   "url": "https://www.animenewsnetwork.com/news/2026-08-22/haikyu-anime-bakemono-tachi-special-unveils-teaser-key-visual/.240850",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-08-23T06:58:11+08:00",
+   "summary": "2nd Haikyū!! anime film also reveals key visual"
+  },
   {
    "id": "0248c4d514f2",
    "title": "J-Novel Club Licenses 10 Light Novels, 1 Manga",
@@ -111,8 +199,8 @@
    "summary": "Company to release Solo Leveling Ragnarok novel in English; Solo Leveling comic, novel, audiobook in Spanish"
   },
   {
-   "id": "8d5773f456bb",
-   "title": "Duel Masters Lost: Danzai no Shōnen Anime Reveals October 9 Debut",
+   "id": "2b825e6e1e5d",
+   "title": "Duel Masters Lost: Danzai no Shōnen Anime Reveals October 9 Debut (Updated)",
    "url": "https://www.animenewsnetwork.com/news/2026-08-22/duel-masters-lost-danzai-no-shonen-anime-reveals-october-9-debut/.240836",
    "source": "Anime News Network",
    "category": "anime",
@@ -351,6 +439,116 @@
      "summary": "『ヴァンパイアハンター D: 血の要塞』コミックは 12 月 16 日にデビュー。高樹彩子のマンガ『ヴァンパイアハンターD:薔薇姫』の英語版が2027年3月に発売"
     }
    }
+  },
+  {
+   "id": "e000252ab80d",
+   "title": "アニメ『ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。』第8話「10年ぶりにパーティが揃った」のあらすじ＆先行カット解禁",
+   "url": "https://ln-news.com/articles/126400",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-23T18:00:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "cff2cf7b0131",
+   "title": "ダンガン文庫2026年8月刊行のラインナップをご紹介。『白の平民魔法使い』『ブルーロア・プラネット2』など2冊",
+   "url": "https://ln-news.com/articles/126235",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-23T16:30:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "e63dacaaf6b0",
+   "title": "イベント「本好きの下剋上 領主の養女展（福岡会場）」が博多マルイにて開催中",
+   "url": "https://ln-news.com/articles/126414",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-23T15:00:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "dfdc52c855ba",
+   "title": "アニメ『マジカル★エクスプローラー』第1～3話先行上映会の開催が決定 最新情報解禁特番も8月28日（金）配信へ",
+   "url": "https://ln-news.com/articles/126404",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-23T13:30:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "f2804ab344cf",
+   "title": "【先週の重版：8月16日～8月22日】『攻撃力ゼロから始める剣聖譚』第1巻、『死亡エンドを回避したギャルゲーのヒロインたちが俺の【日記帳】を読んで秘密を知ったらしい』第2巻など",
+   "url": "https://ln-news.com/articles/126448",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-23T12:00:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "9d26ecc4c688",
+   "title": "AIのレスポンスを待つ間にFPS「DOOM」のフリー版を楽しもう。AI作業と暇つぶしを両立させる「kaboom.claude」とは",
+   "url": "https://www.4gamer.net/games/999/G999905/20260823004/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-23T11:37:13+08:00",
+   "summary": "AnthropicのAI「ClaudeCode」の作業中にFPS「DOOM」のフリー版を楽しめる「kaboom.claude」が公開された。ゲームをインストールする必要はなく，Claudeが作業を開始するとただちにプレイ可能になるという。"
+  },
+  {
+   "id": "7f99909862ec",
+   "title": "「チェンクロ」，チャリの魅力を世に広める「ファールラート」が登場",
+   "url": "https://www.4gamer.net/games/223/G022384/20260821040/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-23T10:00:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "7b77694a851a",
+   "title": "カドカワBOOKS編集部による小説コンテスト「異世界“最かわ”ヒロインコンテスト」の最終選考結果が発表 「優秀賞」に1作品が選出",
+   "url": "https://ln-news.com/articles/126425",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-23T09:00:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "b01bfec3a776",
+   "title": "［インタビュー］良い意味での“インディー感”が戻ってきた釜山（BIC 2026）で，コントローラー文化のない韓国に「英語とコントローラー対応を早く！」 30本のリストを片手に吉田修平氏が，韓国と世界のインディーシーンを語る",
+   "url": "https://www.4gamer.net/games/991/G999110/20260819026/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-23T09:00:00+08:00",
+   "summary": "というわけで，恒例の吉田修平インディーゲームショウ振り返り企画のBIC（BusanIndieConnectFestival）版だ。氏は去年に続いて2回目の参加なので，だいぶいろいろ見えてきたようで，韓国開発者に重要なコメントを残していた。"
+  },
+  {
+   "id": "6fbbe01a07e5",
+   "title": "アニメ『報われなかった村人A、貴族に拾われて溺愛される上に、実は持っていた伝説級の神スキルも覚醒した』は2027年放送決定",
+   "url": "https://ln-news.com/articles/126439",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-23T07:00:00+08:00",
+   "summary": ""
   },
   {
    "id": "6fdcaeccb7cf",
@@ -597,6 +795,25 @@
    }
   },
   {
+   "id": "2dfd378aa1a6",
+   "title": "『王者の盤狂わせ』第3巻発売記念フェアが全国の書店にて開催決定",
+   "url": "https://ln-news.com/articles/126299",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-08-22T09:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "纪念《红番风》第3卷发售的博览会将在全国书店举办。"
+    },
+    "en": {
+     "title": "A fair to commemorate the release of Volume 3 of “Kou no Ban Kaze” will be held at bookstores nationwide."
+    }
+   }
+  },
+  {
    "id": "1ed6415eb2ff",
    "title": "［プレゼント］A賞はMSIの携帯型ゲームPC「Claw 8 AI+ A2VM」。Alienwareのウルトラワイドゲーミングディスプレイなども当たるプレゼント企画を実施中",
    "url": "https://www.4gamer.net/games/999/G999905/20260821012/",
@@ -618,21 +835,21 @@
    }
   },
   {
-   "id": "2dfd378aa1a6",
-   "title": "『王者の盤狂わせ』第3巻発売記念フェアが全国の書店にて開催決定",
-   "url": "https://ln-news.com/articles/126299",
+   "id": "feda8caeccd2",
+   "title": "アニメ『冰剣の魔術師が世界を統べるII』は2026年10月8日（木）より放送開始 キービジュアル＆主題歌情報も解禁",
+   "url": "https://ln-news.com/articles/126424",
    "source": "ラノベニュースオンライン",
    "category": "novel",
    "lang": "ja",
    "weight": 8,
-   "published": "2026-08-22T09:00:00+08:00",
+   "published": "2026-08-22T07:00:00+08:00",
    "summary": "",
    "i18n": {
     "zh": {
-     "title": "纪念《红番风》第3卷发售的博览会将在全国书店举办。"
+     "title": "动画《冰剑魔法师统治世界II》将于2026年10月8日星期四开播，主视觉图和主题曲信息也同时公开"
     },
     "en": {
-     "title": "A fair to commemorate the release of Volume 3 of “Kou no Ban Kaze” will be held at bookstores nationwide."
+     "title": "The anime “Ice Sword Magician Rules the World II” will start broadcasting on Thursday, October 8, 2026. Key visual and theme song information also released"
     }
    }
   },
@@ -654,25 +871,6 @@
     "en": {
      "title": "\"IDOLiSH7 VISIBLIVE TOUR \"4WARD JOURNEY\"\" has begun. Posting a report and photos of the Makuhari performance where 16 people gathered",
      "summary": "The live tour \"IDOLiSH7 VISIBLIVE TOUR '4WARDJOURNEY'\" by 16 idols of \"IDOLiSH7\" began on August 21, 2026 at Makuhari Messe. The official report of the first day's performance has also arrived."
-    }
-   }
-  },
-  {
-   "id": "feda8caeccd2",
-   "title": "アニメ『冰剣の魔術師が世界を統べるII』は2026年10月8日（木）より放送開始 キービジュアル＆主題歌情報も解禁",
-   "url": "https://ln-news.com/articles/126424",
-   "source": "ラノベニュースオンライン",
-   "category": "novel",
-   "lang": "ja",
-   "weight": 8,
-   "published": "2026-08-22T07:00:00+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "动画《冰剑魔法师统治世界II》将于2026年10月8日星期四开播，主视觉图和主题曲信息也同时公开"
-    },
-    "en": {
-     "title": "The anime “Ice Sword Magician Rules the World II” will start broadcasting on Thursday, October 8, 2026. Key visual and theme song information also released"
     }
    }
   },
@@ -913,6 +1111,281 @@
      "title": "Anime “Taking Care of a Talented Woman: At a prestigious school full of flowers in Takane, I decided to take care of the school's best young lady (who has no living skills)” Episode 8 “No Lies” synopsis & preview cuts released"
     }
    }
+  },
+  {
+   "id": "3bb3fc2ccc4f",
+   "title": "大人もほしい…!!ちいかわ×ジャポニカのコラボ学習帳がレトロかわいい！表紙にアニメのワンシーンをデザイン♪",
+   "url": "https://animeanime.jp/article/2026/08/23/102313.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T18:00:03+08:00",
+   "summary": "『ちいかわ』と1970年から愛される「ジャポニカ学習帳」がコラボした「5mm方眼罫」と「じゆうちょう」が登場。全国の文具取扱店やオンラインショップなどで取り扱い中だ。"
+  },
+  {
+   "id": "77256e3c4e90",
+   "title": "「ONE PIECE」新作映画が2作連続公開決定！27年夏「FILM GOD VALLEY」29年「FILM BAAD」",
+   "url": "https://animeanime.jp/article/2026/08/23/102312.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T17:40:02+08:00",
+   "summary": "『ONE PIECE FILM RED』以来の映画最新作『ONE PIECE FILM GOD VALLEY』が2027 年の夏に日本で公開決定。さらに 2029 年には『ONE PIECE FILM BAAD』の日本公開も発表された。"
+  },
+  {
+   "id": "2433a575e052",
+   "title": "ハローキティ＆クロミ × LOVEBOAT コラボ！“ギャルかわ”な「ドリーミーキャンディシール」が新登場",
+   "url": "https://animeanime.jp/article/2026/08/23/102311.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T17:30:03+08:00",
+   "summary": "「ハローキティ」「クロミ」と「LOVEBOAT」のコラボレーションによる「Dreamy Candy Seal（ドリーミーキャンディシール）」が登場する。"
+  },
+  {
+   "id": "799d8f130cc4",
+   "title": "「ヒロアカ」デクや爆豪、轟たちの強い眼差しをその手に！体験型バーチャル展示のグッズラインナップが公開",
+   "url": "https://animeanime.jp/article/2026/08/23/102310.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T17:15:02+08:00",
+   "summary": "アニメ『僕のヒーローアカデミア』の10周年を記念した特別企画として、AniqueによるVRChat上での体験型バーチャル展示「ヒーローたちの足跡」が2026年8月28日より開催される。このたび同展にて展開される、描き下ろしビジュアルのグッズラインナップが公開された。Anique運営のECサイト「Anique Shop」にて受注販売が実施される。"
+  },
+  {
+   "id": "ff925a8c5d22",
+   "title": "「BLEACH」井上織姫の“自爆特攻”で「月島さん」がSNSのトレンド入り!?「月島さん、なんとかして！」「こういう時の月島さんじゃないのか！」第45話【ネタバレあり反応まとめ】",
+   "url": "https://animeanime.jp/article/2026/08/23/102309.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T17:10:29+08:00",
+   "summary": "TVアニメ『BLEACH 千年血戦篇』の最終クールとなる「-禍進譚（かしんたん）-」。2026年8月22日に放送された第45話「DEFEND YOU」では、井上織姫の“自爆特攻”がと「月島さん」が話題となった。"
+  },
+  {
+   "id": "a4e96c667cd8",
+   "title": "コテージ自由生活シム『フィンランド・コテージ・シミュレーター』開発者にインタビューしたら、「サウナと酒」の話ばかり出てくる。サウナで生音収録、ビールは現地価格、死ぬときは密造酒",
+   "url": "https://automaton-media.com/articles/interviewsjp/20260823-462003/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T17:03:41+08:00",
+   "summary": "やたらと生々しいフィンランドのコテージ暮らしを体験できる『フィンランド・コテージ・シミュレーター』の開発者にインタビューを実施した。"
+  },
+  {
+   "id": "3f2c5e76cd88",
+   "title": "「ONE PIECE」空島編の一番くじが登場！ ルフィ、ナミ、クリケットらを立体化♪ ラストワン賞にはプロジェクター機構付き「黄金の大鐘楼」も！",
+   "url": "https://animeanime.jp/article/2026/08/23/102308.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T17:00:03+08:00",
+   "summary": "『ONE PIECE』空島編を題材にした「一番くじ ONE PIECE -空に奏でる“島の歌声”（ラブ・ソング）-」が登場。2026年10月29日より順次発売予定で、ルフィやナミ、モンブラン・クリケット、ワイパーのフィギュアなど、空島編にまつわるアイテムがラインナップされる。"
+  },
+  {
+   "id": "c0c8473ac1e9",
+   "title": "モンチッチ×EMODA（エモダ） 初コラボ！ 瀬川陽菜乃がLOOKモデルに♪ スウェットやキーチェーンなど全5型☆",
+   "url": "https://animeanime.jp/article/2026/08/23/102307.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T16:30:03+08:00",
+   "summary": "人気キャラクター「モンチッチ」と「EMODA（エモダ）」の初のコラボレーションアイテムが登場。2026年8月28日より公式通販サイト「RUNWAY channel」にて先行予約販売を開始し、9月13日からはルミネエスト新宿店で先行発売を行う。"
+  },
+  {
+   "id": "ae68b01baf1e",
+   "title": "『シュタインズ・ゲート リブート』は眉毛が動くだけで大分印象変わる。『ほの暮しの庭』は本当にスローライフできる。『sobosuba』の“ボヨボヨ”感が唯一無二。今週のゲーミング",
+   "url": "https://automaton-media.com/articles/now-gaming/20260823-462056/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T16:12:07+08:00",
+   "summary": "Now Gamingは毎週日曜日、各ライターがその週にプレイしたゲームについて、ゆるく書きちらすコーナーです。558回目です。"
+  },
+  {
+   "id": "5a3bb7f4213f",
+   "title": "从夯到拉锐评今年玩到的各种游戏【视频播客音频版】",
+   "url": "https://www.gcores.com/radios/218633",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-08-23T16:10:00+08:00",
+   "summary": "欢迎回到“核电波”！今天我们尝试从夯到拉“锐评”1-8月玩过的单机游戏，仅个人观点！ 本期为机核视频播客节目音频版，若大家想看我们在录节目的时候究竟是什么样的状态,可以关注我们的B站账号【核电波】 本期主播：Nadya / 西蒙 / Ryoma"
+  },
+  {
+   "id": "06c0cad024fd",
+   "title": "「鬼灯の冷徹」鬼灯、ピーチ・マキ、白澤が和喫茶でお出迎え♪ 限定アイテム目白押しのオンラインくじが新登場",
+   "url": "https://animeanime.jp/article/2026/08/23/102306.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T16:00:03+08:00",
+   "summary": "TVアニメ『鬼灯の冷徹』より、和喫茶をテーマにしたオンラインくじが登場。2026年8月21日より「くじロードONLINE」にて販売中だ。"
+  },
+  {
+   "id": "23237a6d6264",
+   "title": "「ワンピース」エースがボールを放つ！サボはドリブル!! 圧倒的躍動感が胸アツ… NBAコラボでフィギュア化！第5弾",
+   "url": "https://animeanime.jp/article/2026/08/23/102305.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T15:30:03+08:00",
+   "summary": "『ONE PIECE』とNBAコラボフィギュア第5弾は、エースとサボが登場！"
+  },
+  {
+   "id": "e9aa669a963e",
+   "title": "オープンワールドサバイバル『ルーンスケープ：ドラゴンワイルズ』初心者攻略｜フェルホロウ攻略。石炭のおすすめ入手場所やマウント、3つの呪い解除法を徹底解説",
+   "url": "https://automaton-media.com/articles/guide/20260823-462037/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T15:07:05+08:00",
+   "summary": "本稿では、『ルーンスケープ：ドラゴンワイルズ』のエリア「フェルホロウ」についての攻略を解説する。"
+  },
+  {
+   "id": "4edc4dde2a55",
+   "title": "「ONE PIECE」麦わらストアに「どデカ！BIGクッション」登場！圧倒的ビッグサイズでリラックスタイムにも♪",
+   "url": "https://animeanime.jp/article/2026/08/23/102304.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T15:00:03+08:00",
+   "summary": "『ONE PIECE』より、TV animation ONE PIECE ロゴシリーズの「どデカ！BIGクッション」が登場。オフィシャルグッズストア「ONE PIECE 麦わらストア」にて、期間限定で予約を受け付けている。"
+  },
+  {
+   "id": "599eabb6a8a8",
+   "title": "『風のクロノア １＆２アンコール』が75％オフの1400円切り。『Risk of Rain』は80％オフでわずか約200円とお安い。今週の高割引率PCゲーム",
+   "url": "https://automaton-media.com/articles/newsjp/steam-sale-20260823-462028/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T14:21:33+08:00",
+   "summary": "本稿ではSteamにてこの1週間でセールが開始されたタイトルのうち、特に割引率の高いゲームに焦点を当てて紹介する。"
+  },
+  {
+   "id": "d529c17236b4",
+   "title": "「BLUE GIANT」主人公・宮本大の故郷“仙台”で大型企画開催！特別展示や限定グッズ、企業コラボの全貌が公開",
+   "url": "https://animeanime.jp/article/2026/08/23/102303.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T14:00:03+08:00",
+   "summary": "2026年9月11日から開催される、人気コミック『BLUE GIANT』の仙台特別企画「The Homecoming of BLUE GIANT」の全貌が公開された。"
+  },
+  {
+   "id": "b351bbd2d31c",
+   "title": "「アイナナ」IDOLiSH7、TRIGGER、Re:vale、ŹOOĻが集結！16名によるライブツアーが開幕【初日レポ】",
+   "url": "https://animeanime.jp/article/2026/08/23/102302.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T13:30:03+08:00",
+   "summary": "『アイドリッシュセブン』のアイドル16名によるライブツアー「アイドリッシュセブン VISIBLIVE TOUR\"4WARD JOURNEY\"」が、2026年8月21日に幕張メッセ国際展示場1～3にて開幕した。本ツアーはIDOLiSH7、TRIGGER、Re:vale、ŹOOĻの4グループが集結するもので、幕張を皮切りに8月28日～30 日のインテックス大阪5号館、9月13日のマリンメッセ福岡B館へと続く。この記事では熱気に包まれた初日公演の模様を振り返る。"
+  },
+  {
+   "id": "d74825c7c621",
+   "title": "『ファンタジーライフｉ』スマホ版がいきなり配信開始。ドタバタ協力マルチ“釣り”FPS『How to Fish』が人気爆発中。今週の見逃せないゲーム記事7選",
+   "url": "https://automaton-media.com/articles/newsjp/20260822-461967/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T13:02:48+08:00",
+   "summary": "今週のAUTOMATONにて反響の大きかったゲーム紹介系記事を中心に、7本の記事をピックアップ。今週は『ファンタジーライフｉ』スマホ版のほか、『Order of the Sinking Star』や『Japanese Ramen Simulator』などが話題となった。"
+  },
+  {
+   "id": "c31744edc392",
+   "title": "モンチッチとハローキティがおそろいの赤リボンでおめかし♪ 限定コラボアイテムが全国の「ドン・キホーテ」から新登場！",
+   "url": "https://animeanime.jp/article/2026/08/23/102301.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T13:00:03+08:00",
+   "summary": "「モンチッチ」と「ハローキティ」がコラボした、かわいいデザインのアパレルや雑貨が新登場。2026年8月29日より、全国のドン・キホーテ (一部店舗を除く）にてに発売される。"
+  },
+  {
+   "id": "a600b52635a7",
+   "title": "「ちいかわぽけっと」恐竜＆アリスモチーフの公式グッズ第3弾が発売！POP UP STORE初日の模様をお届け【レポ】",
+   "url": "https://animeanime.jp/article/2026/08/23/102300.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T12:30:03+08:00",
+   "summary": "『ちいかわ』初のスマホアプリ『ちいかわぽけっと（ちいぽけ）』は、2026年8月21日の公式グッズ第3弾の発売にあわせ、同日より「ちいかわぽけっと POP UP STORE」を開催中だ。東京会場の池袋PARCO本館6F「0% IKEBUKURO」には初日から多くのファンが訪れ、「恐竜」と「アリス」をモチーフにした新作グッズを心待ちにする熱気に包まれた。"
+  },
+  {
+   "id": "e2e5fb8a889d",
+   "title": "“死ねない幽霊”たちが暮らす町で、少女たちの寂しさと友情と暴力を描くビジュアルノベル『ghostpia シーズンワン』をもう遊んだか",
+   "url": "https://automaton-media.com/articles/special-column/20260823-462016/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T12:00:51+08:00",
+   "summary": "『ghostpia シーズンワン』は、一見したかわいらしさとは裏腹に、その奥に孤独、暴力、生きることへの疑問といった、根源的な悩みが潜んでいる。"
+  },
+  {
+   "id": "58919f1fdd6e",
+   "title": "ムーミンやリトルミイ、スナフキンの世界観をデザインしたバッグ、リュックなど全19アイテムが発売！「Samantha Thavasa」",
+   "url": "https://animeanime.jp/article/2026/08/23/102299.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T12:00:04+08:00",
+   "summary": "ムーミンやリトルミイ、スナフキンの世界観をデザインに落とし込んだバッグ、リュック、長財布、バッグチャームなど全19アイテムが、「Samantha Thavasa（サマンサタバサ）」より発売される。"
+  },
+  {
+   "id": "68637d1b29d1",
+   "title": "基本プレイ無料『NTE』の新マップは広いし、なんかずっとテンション高い。車は飛びまくり水上バイクでデートまで、移動だけで「遊び」の洪水",
+   "url": "https://automaton-media.com/articles/special-column/20260823-461987/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-08-23T11:02:42+08:00",
+   "summary": "『NTE: Neverness to Everness』Ver.1.3の新エリアは、移動すら遊びに変わるような「異様なテンションの高さ」を感じられる作りになっていた。"
+  },
+  {
+   "id": "c2c523aed02f",
+   "title": "EP12.寻找张伟：关于卷积神经网络一段不为人知的往事",
+   "url": "https://www.gcores.com/radios/218669",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-08-23T01:47:20+08:00",
+   "summary": "更正和补充：LeCun 的论文于1989 年 7 月投稿、9 月接受、12 月发表，前后约 5 个月。芝加哥大学时期，SIANN主要用于对候选区域做分类和假阳性筛除；到了R2的商业系统，张伟将其改造成CNN 全图扫描 + 传统算法二次过滤的混合架构。为适应 90 年代有限的算力，他还引入可分离卷积核，将 2D 卷积拆成两个 1D 卷积，大幅降低计算量。R2 的ImageChecker成为 FDA 批准的首个放射影像 AI 产品。到 2000 年代中期，每年已辅助数千万例读片，并形成数亿美元规模的保险支付。---------------------------------------------"
+  },
+  {
+   "id": "46fa3abd1b8e",
+   "title": "[281]游戏回_钟馗王者归来",
+   "url": "https://www.gcores.com/radios/218668",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-08-22T23:37:47+08:00",
+   "summary": "本期主题1、《黑神话：钟馗》2、黄昏血族3、《GTA6》泄露视频4、《牛来》的一些想法5、《奥德赛》"
   },
   {
    "id": "a4dbd777fad1",
@@ -1957,422 +2430,48 @@
    }
   },
   {
-   "id": "d07436be24a9",
-   "title": "30年后，“打开”宝可梦的方式还在增加",
-   "url": "http://www.chuapp.com/article/291566.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-19T17:34:00+08:00",
-   "summary": "每天回到家，赵林都要拿出自己的宝可梦卡组。 卡组是雷属性，开放环境构筑，已经陪着他打了3年，也让他拿到过不错的成绩。直到现在，他还在为优化卡组而不断思考，三不五时就要去论坛和社交平台上看一看，学一学。有时候工作太忙，他也会拿出卡牌看一看，摆一摆，在忙碌的生活中，这是为数不多的休闲时光。 ■ “安定感” 1996年2月，世界上第一款“宝可梦”游戏《宝可梦：红/绿》发售。同年10月，宝可梦集换式卡牌游戏（PTCG）在日本首次发售。截至2026年3月，“宝可梦”游戏软件全球累计出货量已经超过5.15亿份；PTCG卡牌累计制造超过850亿张，以16种语言发行，销往90多个国家和地区。 如今，“宝可梦”"
-  },
-  {
-   "id": "b54cc4918a2c",
-   "title": "触乐怪话：闭上眼，大步走",
-   "url": "http://www.chuapp.com/article/291575.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-19T17:33:55+08:00",
-   "summary": "触乐怪话，每天胡侃和游戏有关的屁事、鬼事、新鲜事。 朋友是多人游戏最高的配置（图/小罗） 上周六，朋友约我一起玩《Big Walk》。这是一款最近相当热门的多人联机加冒险解谜游戏。不过我那天新冠未愈，体力有限，我们玩了两个多小时就暂停了进度。玩的时候，我还有点发烧，意识不太清醒，很多细微的感受都记不太清楚了，现在让我试着努力回想一下。 我上一次玩类似的游戏，大概是《人类一败涂地》。起初，我以为《Big Walk》可能在关卡设计上会有些类似于《人类一败涂地》，比如是线性的解锁，挨个解开，最后抵达结局。 第一关确实如此。从教学大厅出来之后，玩家被一座断桥限制在一个区域内，需要解开4个谜题，获得4个"
-  },
-  {
-   "id": "fa5839ea73ee",
-   "title": "触乐怪话：《杀死比尔》与《堡垒之夜》的6件事",
-   "url": "http://www.chuapp.com/article/291567.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-18T21:09:20+08:00",
-   "summary": "触乐怪话，每天胡侃和游戏有关的屁事、鬼事、新鲜事。 有的电影彩蛋值得一步三回头，有的头也不回（图/小罗） 8月的一个周末，我去电影院看了《杀死比尔：血色全传》在中国院线的点映场，片长超过4个小时。我已经忘记第一次看《杀死比尔》是什么时候了，也万万没有想到有一天能在院线的大荧幕里看到这部电影，也许是院线的不景气和当下审核的种种原因促成了这部电影来到中国。但在我看来，无论如何《杀死比尔》是一部十分值得在电影院重温的类型片巨作——要是在杜比影院就更好了。 如果你坚持到了最后——我是说真正的最后，漫长的片尾字幕全部滚完之后，银幕上会出现一段10分钟的动画短片彩蛋。画风明亮鲜艳，是强烈的《堡垒之夜》美术"
-  },
-  {
-   "id": "5d21c2bd7482",
-   "title": "《雾海之下》的待机模式，你发现了吗？",
-   "url": "http://www.chuapp.com/article/291571.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-18T21:09:00+08:00",
-   "summary": "《雾海之下》给游戏添加了一个“待机模式”。我是昨天测试这款游戏时，无意间发现的。 当时我刚好停下来整理思路，顺便在电脑上回复几条工作消息。也就几分钟，游戏里的音乐忽然变了，松弛的爵士乐慢慢响起来，画面也切到了炉火旁的一张空沙发。整个过程很自然，就像是进入了屏保：画面上显示着时间，滑动滑块，就能重新回到游戏。 这是一个很小的细节，却是《雾海之下》这次首测给我留下的很深印象的一个瞬间。 昨天无意间发现的待机画面 因为对一款还处在首测阶段的游戏来说，有些东西其实完全可以“不那么完整”。临时替代的美术资源、还没有来得及打磨的UI、尚未完善的系统，这些都很常见。首测的意义，本来就是让玩家提前接触游戏的核"
-  },
-  {
-   "id": "3f6aeb73b1de",
-   "title": "一家日本厂商制作的游戏，怎样成为巴西游戏行业的宝贵遗产？",
-   "url": "http://www.chuapp.com/article/291568.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-17T18:28:00+08:00",
-   "summary": "编者按：上世纪90年代中期，日本厂商卡普空（Capcom）制作了采用2D画面的街机赛车游戏《Slip Stream》，但你可能很难想象，卡普空仅在巴西和少数几个拉美国家发行了这款游戏，却从未将它带到日本本土，以及行业发展成熟度更高、规模更大的北美市场。 前不久，外媒Time Extension记者杰克·雅沃德与熟悉巴西游戏行业的多位资深人士对话，请他们回顾了卡普空在巴西推出《Slip Stream》的尘封往事。触乐对文章内容进行了编译。 作为一名以报道复古游戏为生的记者，我总是热衷于寻找那些鲜为人知，幕后故事却精彩纷呈的游戏。从许多方面来看，街机赛车游戏《Slip Stream》就是这样一部作"
-  },
-  {
-   "id": "09dad7eb514e",
-   "title": "触乐怪话：想去博物馆",
-   "url": "http://www.chuapp.com/article/291569.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-17T18:27:58+08:00",
-   "summary": "触乐怪话，每天胡侃和游戏有关的屁事、鬼事、新鲜事。 在外面排大队真的好晒！（图/小罗） 最近，国家博物馆有一些相当有趣的展览，比如展出隋代一系列文物的“李静训和她的时代”，“双星耀世——三星堆金沙遗址古蜀文明展”以及“叩问永恒——庞贝的探索与发觉”。家里人一直计划着和我一起去看，结果却因为无论如何都抢不到预约名额始终未能成型。 只能说，在北京生活久了，又很宅，我似乎对暑期的旅游旺季缺乏具体概念。每次被拖到颐和园之类的地方去，我才会在旅游团的前后夹击和景区的各种限流措施中发出“怎么到处都人满为患”的感慨。 这次国家博物馆抢票更是。因为微信小程序的预约方式非常麻烦，必须不断退出页面再刷新才能刷出票"
-  },
-  {
-   "id": "e13b52218a90",
-   "title": "腾讯投资的国产3A单机，为何要做小众的高速战斗？",
-   "url": "http://www.chuapp.com/article/291565.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-16T21:00:45+08:00",
-   "summary": "推开这扇石门，就能走进阿瓦隆与现代伦敦交织的世界——眼前的试玩大厅以大英博物馆圆形阅览室为原型，“亚瑟王传说”里的石中剑，就立于正中央。 试玩会现场 “欢迎来到《湮灭之潮》首次线下试玩会的现场。”开发组对试玩者说。 8月15日，《湮灭之潮》在成都开启了为期两天、试玩规模超千人的线下试玩会。成都音乐公园东郊记忆的一角立起了一座殿堂，门前站有骑士雕塑，玩家正式试玩前还会有一段石中剑灯光秀，这种规格在同类游戏宣发中并不多见。 《湮灭之潮》由成都日蚀边缘工作室研发、腾讯投资，是一款以“亚瑟王传说”为题材的动作冒险单机游戏，研发已近5年。在《黑神话：悟空》之后，国产动作单机新作消息不断。与近年受到关注的"
-  },
-  {
-   "id": "60c118e4ffce",
-   "title": "触乐本周行业大事：腾讯、吉比特Q2及上半年业绩发布，信宸资本入局灵犀互娱收购，甄子丹助阵《影之刃零》预售开启",
-   "url": "http://www.chuapp.com/article/291564.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-08-15T15:00:00+08:00",
-   "summary": "■ 腾讯Q2业绩发布，游戏收入持续增长 8月12日，腾讯公布2026年第二季度业绩。数据显示，2026年第二季度，腾讯本土本土市场游戏收入同比增长17%至人民币473亿元；国际市场游戏收入为人民币186亿元，受汇率波动影响同比下降0.8%，按固定汇率计算则同比增长4%。 腾讯增值服务三大业务板块季度经营数据 本土市场方面，多款核心及长青产品保持增长。《王者荣耀》《和平精英》《三角洲行动》《无畏契约》《无畏契约：源能行动》以及《洛克王国：世界》对收入增长贡献较为显著。其中，《三角洲行动》和《无畏契约》端游的平均日活跃账户数均在二季度创下历史新高。同时，新游《洛克王国：世界》二季度平均日活跃账户数"
-  },
-  {
-   "id": "eda8a6ee4a85",
-   "title": "【今日更新】二十世纪电气目录",
-   "url": "https://bgm.tv/subject/255209",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-23T06:21:24+08:00",
-   "summary": ""
-  },
-  {
-   "id": "3e4e63dd1e00",
-   "title": "【今日更新】碧蓝航线：微速前行！第二季",
-   "url": "https://bgm.tv/subject/454083",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-23T06:21:24+08:00",
-   "summary": ""
-  },
-  {
-   "id": "aced96958880",
-   "title": "【今日更新】再见菈菈",
-   "url": "https://bgm.tv/subject/495291",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-23T06:21:24+08:00",
-   "summary": ""
-  },
-  {
-   "id": "3f48b32ae36f",
-   "title": "【今日更新】无职转生 第三季 ～到了异世界就拿出真本事～",
-   "url": "https://bgm.tv/subject/501963",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-23T06:21:24+08:00",
-   "summary": ""
-  },
-  {
-   "id": "01e7d5ff6591",
-   "title": "【今日更新】恶女不才，请多关照 ～雏宫蝶鼠换身传～",
-   "url": "https://bgm.tv/subject/545008",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-23T06:21:24+08:00",
-   "summary": ""
-  },
-  {
-   "id": "8cfcfaeae982",
-   "title": "【今日更新】人造人009 涅墨西斯",
-   "url": "https://bgm.tv/subject/571896",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-23T06:21:24+08:00",
-   "summary": ""
-  },
-  {
-   "id": "06d8bfd083bc",
-   "title": "【今日更新】柯蒂斯总统",
-   "url": "https://bgm.tv/subject/574041",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-23T06:21:24+08:00",
-   "summary": ""
-  },
-  {
-   "id": "b620b1734bc3",
-   "title": "【今日更新】航海王 女英雄们的故事",
-   "url": "https://bgm.tv/subject/577191",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-23T06:21:24+08:00",
-   "summary": ""
-  },
-  {
-   "id": "30d3b75a83f3",
-   "title": "【今日更新】世界最强的后卫 ～迷宫国的新人探索者～",
-   "url": "https://bgm.tv/subject/583862",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-23T06:21:24+08:00",
-   "summary": ""
-  },
-  {
-   "id": "722a0a8026a2",
-   "title": "【今日更新】Let's Go 怪奇组",
-   "url": "https://bgm.tv/subject/595106",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-23T06:21:24+08:00",
-   "summary": ""
-  },
-  {
-   "id": "40ac3363cf72",
-   "title": "【今日更新】超超超超超喜欢你的100个女朋友 第三季",
-   "url": "https://bgm.tv/subject/598058",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-23T06:21:24+08:00",
-   "summary": ""
-  },
-  {
-   "id": "78bbc4e83130",
-   "title": "【今日更新】茶啊二中 第6季",
-   "url": "https://bgm.tv/subject/613039",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-23T06:21:24+08:00",
-   "summary": ""
-  },
-  {
-   "id": "0ffed9cad78f",
-   "title": "【今日更新】炒翻天",
-   "url": "https://bgm.tv/subject/615835",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-23T06:21:24+08:00",
-   "summary": ""
-  },
-  {
-   "id": "35e1e6bdfefe",
-   "title": "【今日更新】做得很好！名作君 完全新作",
-   "url": "https://bgm.tv/subject/619052",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-23T06:21:24+08:00",
-   "summary": ""
-  },
-  {
-   "id": "08e1b7d63409",
-   "title": "【今日更新】同一个研讨会的染谷同学是AV女优的事",
-   "url": "https://bgm.tv/subject/633354",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-08-23T06:21:24+08:00",
-   "summary": ""
-  },
-  {
-   "id": "c6b4a700953e",
-   "title": "13年続く『Warframe』はなぜ今も“型破り”なのか？日本文化、音楽、物語、フレームデザインの哲学を開発陣に訊く【インタビュー】",
-   "url": "http://www.gamespark.jp/article/2026/08/23/171104.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "d3a9ed5a7824",
+   "title": "出社するよりも完全リモートワークの方が幸福度が高いという研究結果",
+   "url": "https://gigazine.net/news/20260823-remote-workers-highest-well-being/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-23T06:00:04+08:00",
-   "summary": "今年のアップデートや今後の展望、『Warframe』が大事にしていること、そしてクリエイティブディレクターのレベッカ氏が最近ハマっているアニメなどをお聞きしました。"
+   "weight": 5,
+   "published": "2026-08-23T13:30:00+08:00",
+   "summary": "新型コロナウイルスのパンデミックをきっかけにリモートワークが普及しましたが、従業員の孤立や職場とのつながりの低下を懸念してオフィス勤務へ戻す企業もあります。コロラド大学ボルダー校のステファニー・ジョンソン氏らの研究チームが、アメリカの大規模医療機関が実施した従業員アンケートの回答7704人分を分析したところ、完全リモートワークの従業員が最も高い幸福度を報告したことが判明しました。続きを読む..."
   },
   {
-   "id": "ab83f03ab328",
-   "title": "『ウマ娘』キセキ、エピファネイアの“原案イラスト”が公開！ゲーム内とひと味違う雰囲気は一見の価値あり",
-   "url": "http://www.gamespark.jp/article/2026/08/22/171103.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "042c7bea2675",
+   "title": "無料で多種多彩なビジョンAIモデルを試用・比較・評価できる「Roboflow Playground」",
+   "url": "https://gigazine.net/news/20260823-roboflow-playground/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-22T22:50:03+08:00",
-   "summary": "『ウマ娘 プリティーダービー』より「キセキ」と「エピファネイア」の原案イラストが公開！"
+   "weight": 5,
+   "published": "2026-08-23T11:00:00+08:00",
+   "summary": "ゼロショットコンピュータビジョンモデルとは事前の追加学習やアノテーションデータなしで訓練時に見たことのない 新しいオブジェクトやクラスを認識・検出できるAIモデルです。ゼロショットコンピュータビジョンモデルを比較検討するには最新モデルの調査・クラウドAPIを呼び出すコードの記述・オープンウェイトモデル用インフラ整備といった時間のかかる作業が不可欠であり、下手をすると結果が出るまでに新しいモデルが登場していることすらありえます。「Roboflow Playground」は記事作成時点で130種類以上の人気かつ最先端のビジョンAIモデルを簡単に試用・比較・評価できるツールです。続きを読む..."
   },
   {
-   "id": "b871addf8007",
-   "title": "『ウマ娘』5.5周年で「エピファネイア」が育成ウマ娘化！新登場「エフフォーリア」もサポカで早速実装",
-   "url": "http://www.gamespark.jp/article/2026/08/22/171102.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "cec03cd7af96",
+   "title": "640億円の支払いでTikTokがアメリカ司法省との児童オンラインプライバシー保護法違反に関する訴訟に和解",
+   "url": "https://gigazine.net/news/20260823-doj-tiktok-settle-400-million-coppa/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-22T22:45:52+08:00",
-   "summary": "『ウマ娘』の5.5周年を飾る新育成ウマ娘として、「エピファネイア」が8月24日12時からのガチャで実装！"
+   "weight": 5,
+   "published": "2026-08-23T08:33:00+08:00",
+   "summary": "アメリカ司法省がショート動画プラットフォームのTikTokに対して児童オンラインプライバシー保護法(COPPA)違反に関する訴訟を起こしていた件で、TikTokが4億ドル(約640億円)の和解金を支払うことに合意しました。続きを読む..."
   },
   {
-   "id": "eedda9ce3129",
-   "title": "全て最安値を更新！『バニーガーデン2』や『へべれけ ばにーがーでん』、『LoveR Kiss EM』など、美少女との交流をお得価格で楽しもう【eショップのお薦めセール】",
-   "url": "http://www.gamespark.jp/article/2026/08/22/171101.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "ade6439db4ac",
+   "title": "ChatGPTが危険な医療アドバイスをしたとしてOpenAIが提訴される、病気の牧師に「神はあなたの体が永遠に壊れ続けるようには設計していない」と助言",
+   "url": "https://gigazine.net/news/20260823-openai-lawsuit-chatgpt-medical-advice/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-22T20:00:04+08:00",
-   "summary": "次に遊ぶゲームを探している方は、セールでお得に手に入れてみてはいかがでしょうか。"
-  },
-  {
-   "id": "20eb6414111d",
-   "title": "『ウマ娘』新ウマ娘「ファレノプシス」「エフフォーリア」発表！気になる勝負服姿もお披露目",
-   "url": "http://www.gamespark.jp/article/2026/08/22/171100.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-22T19:45:02+08:00",
-   "summary": "5.5周年生放送で2人の新ウマ娘がさっそく発表！"
-  },
-  {
-   "id": "66c50fc919d1",
-   "title": "ガシャポン『ポケモン』スイングコレクションに、“くさタイプ”が大集合！ナゾノクサやリーフィアなど全5種",
-   "url": "http://www.gamespark.jp/article/2026/08/22/171099.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-22T19:00:03+08:00",
-   "summary": "ガシャポン「ポケットモンスター スイングコレクション Type:Grass」が8月第5週より発売！"
-  },
-  {
-   "id": "fe5c89e937e4",
-   "title": "予約購入者中心のテストで同接9万人！最大100人ミリタリーFPS『WARDOGS』クローズドベータが大賑わい。Steamから参加申請も可能",
-   "url": "http://www.gamespark.jp/article/2026/08/22/171098.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-22T18:30:03+08:00",
-   "summary": "『WARDOGS』のクローズドベータは8月24日まで開催中です。"
-  },
-  {
-   "id": "c4468b5b759e",
-   "title": "【1,200円→120円】1993年のDECOベルトスクロールACTリメイク版が90%オフに！『Night Slashers: Remake』スイッチ版セール中",
-   "url": "http://www.gamespark.jp/article/2026/08/22/171097.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-22T18:00:04+08:00",
-   "summary": "リメイク版は2024年に発売されました。"
-  },
-  {
-   "id": "fc4165639a2f",
-   "title": "引き締まったお腹に健康的な太もも！『FF7 リバース』より「水着ティファ」フィギュアが予約開始",
-   "url": "http://www.gamespark.jp/article/2026/08/22/171096.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-22T17:30:03+08:00",
-   "summary": "あみあみにて、「ファイナルファンタジーVIIリバース STATIC ARTS ティファ・ロックハート -水着 Ver.-」が予約開始！"
-  },
-  {
-   "id": "4195d551aa1f",
-   "title": "PC-98風サウンド＆ビジュアルの短編ノベル『DISK-Y』開発中。WL2.4万集めるもSteamリリース断念したホラーノベル開発者の新作",
-   "url": "http://www.gamespark.jp/article/2026/08/22/171095.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-22T17:15:03+08:00",
-   "summary": "心理的な問題を抱えた転校生に学校を案内します。"
-  },
-  {
-   "id": "e23c255d4b1c",
-   "title": "「最も心に響いたのは、退役軍人の方々からいただいたフィードバック」砲撃SLG『IRON NEST: Heavy Turret Simulator』【開発者インタビュー】",
-   "url": "http://www.gamespark.jp/article/2026/08/22/171094.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-22T17:00:03+08:00",
-   "summary": "気になる新作インディーゲームの開発者にインタビューする本企画。今回は、Nick Nieuwoudt氏とDominik Latos氏開発、PC向けに8月6日にリリースされた砲撃シミュレーション『IRON NEST: Heavy Turret Simulator』開発者へのミニインタビューをお届けします。"
-  },
-  {
-   "id": "843f93079345",
-   "title": "初報から9年かかった『イナズマイレブン 英雄たちのヴィクトリーロード』実質的な開発期間は「3年弱」だった。“物語の続き”にも言及したシリーズ18周年記念・日野晃博氏メッセージ公開",
-   "url": "http://www.gamespark.jp/article/2026/08/22/171093.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-22T16:50:02+08:00",
-   "summary": "オンライン大会は「今後も改良」、追加ストーリーに関しては今後さらに驚くべき展開も。"
-  },
-  {
-   "id": "784899bf763c",
-   "title": "【お知らせ】ゲーマーのためのトーク番組「Game*Sparkのラジオ善意X」8月22日22時より放送！",
-   "url": "http://www.gamespark.jp/article/2026/08/22/171092.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-22T16:30:03+08:00",
-   "summary": "Game*Sparkライターの文章書く彦、編集部のキーボード打海、タンクトップの3名がYouTube/Xにてトークをお届けします。"
-  },
-  {
-   "id": "c79bb023a220",
-   "title": "スタイリッシュ電車バトルACT『電車アタック』プレイヤー数30万人突破！販売本数15万本・Steamレビューは“圧倒的に好評”",
-   "url": "http://www.gamespark.jp/article/2026/08/22/171091.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-22T16:00:04+08:00",
-   "summary": "Steamレビューは“圧倒的に好評”となっています。"
-  },
-  {
-   "id": "012bd713db2a",
-   "title": "急所に当たれば一撃！ 体力ゲージなしの物理演算バトルゲーム『Gladio Mori』9月正式リリース決定",
-   "url": "http://www.gamespark.jp/article/2026/08/22/171090.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-22T15:30:04+08:00",
-   "summary": "プレイヤー自身が技セットを作成することも可能。"
+   "weight": 5,
+   "published": "2026-08-23T07:00:00+08:00",
+   "summary": "肺塞栓症を患っていた男性が医療アドバイスを求めてChatGPTを利用したところ、不正確な回答をされ、その結果治療が遅れてしまったとして、その男性がChatGPT開発元のOpenAIを訴えたことが分かりました。続きを読む..."
   },
   {
    "id": "0b71508e8f23",
@@ -2416,17 +2515,6 @@
      "summary": "Hubble.md is a free and open source memo pad application designed on the premise that AI handles files, such as having an AI agent directly edit Markdown-format memos and creating HTML-format dashboards, bookshelves, and maps from multiple memos. read more..."
     }
    }
-  },
-  {
-   "id": "36b1db8e9a99",
-   "title": "AIモデルを選ぶ時に「実際に何をしているのか？」という内部構造や処理フローをアニメーションで視覚化して確認できる「modelmap」",
-   "url": "https://gigazine.net/news/20260822-modelmap/",
-   "source": "GIGAZINE",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-22T17:00:00+08:00",
-   "summary": "Hugging Faceは多数のAIモデルを共有していますが、AIモデルを選定する際にはどのAIモデルが内部的にどのような動きをしているのか、モデルの違いによって何が変わるのかが気になるところです。「modelmap」はAIモデルがどのような構造をしていて動作中にどのような処理フローをおこなっているのかを視覚的に確認することのできるサイトです。続きを読む..."
   },
   {
    "id": "6059d0823f22",
@@ -2492,27 +2580,6 @@
    }
   },
   {
-   "id": "b25147ebeec1",
-   "title": "テスラが中国で約300万台をリコール、禁止予定の格納式ドアハンドルが理由",
-   "url": "https://gigazine.net/news/20260822-tesla-recalls-3-million-cars-china/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-22T10:00:00+08:00",
-   "summary": "現地時間の2026年8月21日(金)、テスラと他10社の自動車メーカーが、約430万台の自動車をリコールすると発表しました。これは中国史上最大規模の自動車リコールとなります。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "因可伸缩门把手计划被禁用，特斯拉在中国召回约300万辆汽车",
-     "summary": "当地时间 2026 年 8 月 21 日星期五，特斯拉和其他 10 家汽车制造商宣布将召回约 430 万辆汽车。这是中国历史上最大规模的汽车召回事件。阅读更多..."
-    },
-    "en": {
-     "title": "Tesla recalls about 3 million cars in China due to retractable door handles scheduled to be banned",
-     "summary": "On Friday, August 21, 2026 (local time), Tesla and 10 other automakers announced that they would recall approximately 4.3 million vehicles. This is the largest car recall in Chinese history. read more..."
-    }
-   }
-  },
-  {
    "id": "9588ce856558",
    "title": "「木之本桜 My First Sparkle」の彩色原型はこんな感じ、CLAMP画業35周年×カードキャプターさくら連載30周年×グッドスマイルカンパニー25周年で描き下ろしイラストを立体化",
    "url": "https://gigazine.net/news/20260822-cc-sakura-gsf2026/",
@@ -2534,229 +2601,110 @@
    }
   },
   {
-   "id": "9e6ab688bf39",
-   "title": "ゲームボーイアドバンスっぽいAndroid搭載ゲーム機「Konkr Pocket Advance」がAYANEOから登場",
-   "url": "https://gigazine.net/news/20260822-ayaneo-konkr-pocket-advance/",
-   "source": "GIGAZINE",
-   "category": "game",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-22T07:00:00+08:00",
-   "summary": "携帯ゲーム機を開発するAYANEOが、完全にゲームボーイアドバンスな見た目の新作携帯ゲーム機「Konkr Pocket Advance」を発売しました。2021年にリリースされたAndroid 12をOSとして採用し、USB Type-CポートやWi-Fi機能などを備えています。続きを読む..."
+   "id": "43d4c219b3d0",
+   "title": "【漫画更新】Countach 第 277 话「Next Stage」",
+   "url": "https://mangadex.org/chapter/10343149-f520-4e9d-8788-7f3cfd178e08",
+   "source": "MangaDex",
+   "category": "comic",
+   "lang": "zh",
+   "weight": 4,
+   "published": "2026-08-23T18:11:13+08:00",
+   "summary": ""
   },
   {
-   "id": "a2ae86b003da",
-   "title": "使い込むほど成長するAIエージェント「Hermes Agent」で実際に行った作業をスキル化して再利用してみた",
-   "url": "https://gigazine.net/news/20260821-hermes-agent-skill/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-21T22:00:00+08:00",
-   "summary": "前回、AIエージェント「Hermes Agent」をインストールしてGIGAZINEの記事を調査させてみたところ、ブラウザ操作に失敗したり、選んだものとは別の記事を開いてしまったりと試行錯誤しつつも最終的には目的の記事を見つけて内容をまとめることに成功しました。Hermes Agentにはこうして実際に行った作業の手順やトラブルの解決方法を「スキル」として保存し、別のセッションでも再利用できるようにする機能があります。そこで今回は、前回の「GIGAZINEから記事を探して内容をまとめる」という一連の作業を実際にスキル化し、新しいセッションで同じような作業を頼んだ際に前回の経験がどのように生かさ",
+   "id": "d99e86e47aa2",
+   "title": "【漫画更新】Fei Ren Zai 第 450 话「Taking a Hiatus For a While is Comfortable, Taking a Hiatus All the Time Is Even More Comfortable」",
+   "url": "https://mangadex.org/chapter/1a1d4ac0-b0dd-4ce8-b28c-82e38a26df31",
+   "source": "MangaDex",
+   "category": "comic",
+   "lang": "zh",
+   "weight": 4,
+   "published": "2026-08-23T18:11:13+08:00",
+   "summary": ""
+  },
+  {
+   "id": "b5484fe8f185",
+   "title": "【漫画更新】Fei Ren Zai 第 449 话「Divine Beast Bai Ze in the Current Life!」",
+   "url": "https://mangadex.org/chapter/e00c1f37-9521-4824-a0e0-cc185fc53832",
+   "source": "MangaDex",
+   "category": "comic",
+   "lang": "zh",
+   "weight": 4,
+   "published": "2026-08-23T18:11:13+08:00",
+   "summary": ""
+  },
+  {
+   "id": "475702b27b67",
+   "title": "【漫画更新】Ki ni naru anoko wa geki juu kanjou na otokonoko deshita 第 3 话",
+   "url": "https://mangadex.org/chapter/538c085e-77b1-4b04-a73c-feb3848e6ce6",
+   "source": "MangaDex",
+   "category": "comic",
+   "lang": "zh",
+   "weight": 4,
+   "published": "2026-08-23T18:11:13+08:00",
+   "summary": "",
    "i18n": {
-    "zh": {
-     "title": "我尝试重新利用AI代理“赫尔墨斯代理”实际完成的工作，当你将其用作技能时，它就会成长",
-     "summary": "上次，当我安装AI代理“Hermes Agent”并让它调查GIGAZINE上的文章时，尽管尝试了一些错误，例如无法操作浏览器或打开与我选择的文章不同的文章，我还是能够找到所需的文章并总结内容。 Hermes Agent 有一个功能，可以让您将实际工作步骤和故障排除方法保存为“技能”，并在其他会话中重复使用。因此，这次我们实际上将针对上次完成的一系列任务“从GIGAZINE搜索文章并总结内容”来培养一项技能，以及当被要求在新会话中执行类似任务时我们将如何利用以前的经验。"
+    "ja": {
+     "title": "【マンガ更新】キになったあの子は激重な男の子でした​​ 第3話"
     },
     "en": {
-     "title": "I tried reusing the work actually done with the AI ​​agent \"Hermes Agent\" that grows as you use it as a skill",
-     "summary": "Last time, when I installed the AI ​​agent ``Hermes Agent'' and had it investigate articles on GIGAZINE, I was able to find the desired article and summarize the contents despite trial and error, such as failing to operate the browser or opening a different article than the one I had selected. Hermes Agent has a function that allows you to save actual work steps and troubleshooting methods as \"skills\" and reuse them in other sessions. Therefore, this time, we will actually develop a skill for the series of tasks we did last time, ``Searching for articles from GIGAZINE and summarizing the contents,'' and how we will utilize our previous experience when asked to perform similar tasks in a new session."
+     "title": "【Manga Update】Ki ni naru anoko wa geki juu kanjou na otokonoko deshita Chapter 3"
     }
    }
   },
   {
-   "id": "fee7cfe87b50",
-   "title": "AIの回答をコピペしないでくれと頼む運動「Don’t paste the AI, please.(AIが書いたものをコピペしないでください)」",
-   "url": "https://gigazine.net/news/20260821-dont-paste-the-ai-please/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-21T20:00:00+08:00",
-   "summary": "ChatGPTなどのAIは、仕組み上、自分が出力した文章の正誤ないしは真偽を確認できません。できているように見えても実際は違うので、最終的には人間がその正確性を確認する必要があります。ところが、この仕組みを知らずにAIが生成した文章をそのままコピペする人間が存在し、そのような文章を受け取った人間にはまずその文章が正しいのかどうかを確認しなければならないという不要な負担が生じています。こうした「AI文章そのままコピペ」をやめてくれと訴える運動が行われています。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "一项要求人们不要复制粘贴人工智能答案的活动：“请不要粘贴人工智能。”",
-     "summary": "ChatGPT等AI因其机制无法确认其输出句子的正确性或真实性。即使看起来已经完成了，但实际上并没有，因此人类最终需要确认其准确性。然而，有些人不了解这种机制，只是简单地复制粘贴人工智能生成的句子，给收到此类句子的人造成不必要的负担，因为他们必须先检查句子是否正确。有一场运动呼吁结束这种“逐字复制和粘贴人工智能文本”的行为。阅读更多..."
-    },
-    "en": {
-     "title": "A campaign asking people not to copy and paste answers from AI: “Don’t paste the AI, please.”",
-     "summary": "AI such as ChatGPT cannot confirm the correctness or authenticity of the sentences it outputs due to its mechanism. Even if it looks like it's done, it's actually not, so humans ultimately need to confirm its accuracy. However, there are people who are unaware of this mechanism and simply copy and paste sentences generated by AI, creating an unnecessary burden on those who receive such sentences as they must first check whether the sentences are correct. There is a campaign calling for an end to such ``copying and pasting AI text verbatim''. read more..."
-    }
-   }
-  },
-  {
-   "id": "64f691f3f4f0",
-   "title": "インターネット年齢確認の強化により悪質なアダルトサイトが増加したとPornhubが調査結果を公表、「無料ポルノ」の検索結果上位10件のうち7件が規制に準拠していないサイトだった",
-   "url": "https://gigazine.net/news/20260821-internet-age-checks-boosted-rogue-adult-sites/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-21T19:00:00+08:00",
-   "summary": "イギリスにはインターネット上のコンテンツから未成年者を守るための「オンライン安全法」に基づく、年齢確認義務が存在します。この年齢確認義務の登場により、より悪質なアダルトサイトが増加していると、大手ポルノサイトのPornhubが報告しています。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "Pornhub公布了一项调查结果，称由于加强了互联网年龄验证，恶意成人网站数量有所增加，“免费色情”搜索结果前10名中有7个是不符合规定的网站。",
-     "summary": "在英国，《在线安全法》规定了年龄验证要求，以保护未成年人免受互联网内容的侵害。主要色情网站 Pornhub 报告称，年龄验证要求的引入导致恶意成人网站数量增加。阅读更多..."
-    },
-    "en": {
-     "title": "Pornhub has announced the results of a survey saying that the number of malicious adult sites has increased due to strengthened Internet age verification, and 7 of the top 10 search results for \"free porn\" were sites that did not comply with regulations.",
-     "summary": "In the UK, age verification requirements exist under the Online Safety Act to protect minors from content on the internet. Pornhub, a major porn site, reports that the introduction of this age verification requirement has led to an increase in the number of malicious adult sites. read more..."
-    }
-   }
-  },
-  {
-   "id": "e6f25c8ec95d",
-   "title": "大量のmicroSDカードを3年間耐久テストしてわかった優秀なメーカーと期待外れのメーカーは？",
-   "url": "https://gigazine.net/news/20260821-microsd-card-test-3-years/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-21T18:00:00+08:00",
-   "summary": "microSDカードはゲーム機やカメラなどの重要なデータを保存するために使われているため、どれほどの耐久性があるのかは購入を決める大きなポイントです。テクノロジー愛好家のマット・コール氏が、3年にわたって続けているmicroSDカードの耐久性テストの結果を報告しました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "经过3年的大量microSD卡测试，哪些厂商表现出色，哪些厂商令人失望？",
-     "summary": "MicroSD卡用于存储游戏机、相机等的重要数据，因此它们的耐用性是决定购买时的一个重要考虑因素。技术爱好者 Matt Cole 报告了他长达三年的 microSD 卡耐用性测试的结果。阅读更多..."
-    },
-    "en": {
-     "title": "After testing a large number of microSD cards for 3 years, which manufacturers are excellent and which are disappointing?",
-     "summary": "MicroSD cards are used to store important data for game consoles, cameras, etc., so how durable they are is an important point when deciding on a purchase. Technology enthusiast Matt Cole reported on the results of his three-year long microSD card durability test. read more..."
-    }
-   }
-  },
-  {
-   "id": "19ed1a0712e3",
-   "title": "2026年8月21日のヘッドラインニュース",
-   "url": "https://gigazine.net/news/20260821-headline/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-21T17:53:00+08:00",
-   "summary": "サンライズ50周年記念作品として制作される『装甲騎兵ボトムズ』シリーズ完全新作『装甲騎兵ボトムズ 灰色の魔女』の本予告が公開されました。本作は劇場全2部作となり、第1作は2026年11月20日(金)より全国公開。監督を押井守、原作・監修を髙橋良輔、制作をサンライズ、制作協力をProduction I.Gが担当します。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "2026 年 8 月 21 日头条新闻",
-     "summary": "为纪念《日出》50周年而制作的《装甲部队沃托姆》系列全新作品《装甲部队沃托姆：灰女巫》预告片已公开。该作品将分为两部分，第一部将于 2026 年 11 月 20 日星期五在全国上映。该电影将由押井守执导，高桥亮介编剧和监督，Sunrise 制作，Production I.G 协助。阅读更多..."
-    },
-    "en": {
-     "title": "Headline news for August 21, 2026",
-     "summary": "The trailer for ``Armored Trooper Votoms: Gray Witch,'' a completely new work in the ``Armored Trooper Votoms'' series produced to commemorate Sunrise's 50th anniversary, has been released. This work will be a two-part movie, with the first film to be released nationwide on Friday, November 20, 2026. The film will be directed by Mamoru Oshii, written and supervised by Ryosuke Takahashi, produced by Sunrise, and assisted by Production I.G. read more..."
-    }
-   }
-  },
-  {
-   "id": "333c18533c03",
-   "title": "【漫画更新】Ojou-sama to Inu: Keiyaku-kon no Hajimekata 第 5.5 话",
-   "url": "https://mangadex.org/chapter/81711cd0-53ab-4f56-86c8-1d7669716b68",
+   "id": "295c61dbedfd",
+   "title": "【漫画更新】Kon'yaku haki desuka? Hai yorokon de. Datte boku wa ane no kawari desukara! 第 4 话",
+   "url": "https://mangadex.org/chapter/03690404-3eb0-4c8c-9e44-e82b68a544ea",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-08-23T06:21:26+08:00",
+   "published": "2026-08-23T18:11:13+08:00",
    "summary": ""
   },
   {
-   "id": "892a8b29d4a9",
-   "title": "【漫画更新】Ojou-sama to Inu: Keiyaku-kon no Hajimekata 第 5 话",
-   "url": "https://mangadex.org/chapter/bf644c9e-26da-4b76-adae-422469273f29",
+   "id": "7cdd0bf6db07",
+   "title": "【漫画更新】Polar Night 第 2 话",
+   "url": "https://mangadex.org/chapter/f30a51a9-bd88-4cf7-b552-980210c0b6c0",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-08-23T06:21:26+08:00",
+   "published": "2026-08-23T18:11:13+08:00",
    "summary": ""
   },
   {
-   "id": "f5d6c854f8d1",
-   "title": "【漫画更新】Ojou-sama to Inu: Keiyaku-kon no Hajimekata 第 4 话",
-   "url": "https://mangadex.org/chapter/b2fe1b9e-83f5-4517-babf-5e82cdfd73d4",
+   "id": "6d7cee81a9ab",
+   "title": "【漫画更新】Isekai Majutsushi wa Mahou wo Tonaenai 第 60 话",
+   "url": "https://mangadex.org/chapter/5be28588-78f9-478d-a834-af7ae4e3cf08",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-08-23T06:21:26+08:00",
+   "published": "2026-08-23T18:11:13+08:00",
    "summary": ""
   },
   {
-   "id": "53b05605fcc3",
-   "title": "【漫画更新】Ojou-sama to Inu: Keiyaku-kon no Hajimekata 第 3 话",
-   "url": "https://mangadex.org/chapter/4f686d7e-73f4-4f77-bbbb-f09cb1c07672",
+   "id": "4eaa258deb36",
+   "title": "【漫画更新】Megane, Tokidoki, Yankee-kun 第 43.2 话",
+   "url": "https://mangadex.org/chapter/9a80e773-80d9-42aa-8dcc-ae6e31ca3e07",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-08-23T06:21:26+08:00",
+   "published": "2026-08-23T18:11:13+08:00",
    "summary": ""
   },
   {
-   "id": "ff7207a01211",
-   "title": "【漫画更新】Ojou-sama to Inu: Keiyaku-kon no Hajimekata 第 2 话",
-   "url": "https://mangadex.org/chapter/0e8acd8d-736d-4142-8b8c-8caffe9b96d1",
+   "id": "803362896205",
+   "title": "【漫画更新】Megane, Tokidoki, Yankee-kun 第 43.1 话",
+   "url": "https://mangadex.org/chapter/5b29ed2d-6274-4666-ad53-40e421c59521",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-08-23T06:21:26+08:00",
-   "summary": ""
-  },
-  {
-   "id": "60e33ebd0299",
-   "title": "【漫画更新】Ojou-sama to Inu: Keiyaku-kon no Hajimekata 第 1 话",
-   "url": "https://mangadex.org/chapter/cd20fb9a-8235-4d65-aabf-d61bfcd5a78a",
-   "source": "MangaDex",
-   "category": "comic",
-   "lang": "zh",
-   "weight": 4,
-   "published": "2026-08-23T06:21:26+08:00",
-   "summary": ""
-  },
-  {
-   "id": "f6ec49cc403a",
-   "title": "【漫画更新】Aru Hi Kareshi ga Onnanoko ni Natteshimata Couple no Nichijou 第 29 话「Weight」",
-   "url": "https://mangadex.org/chapter/9136a448-846d-42a8-acce-e46faad02cb7",
-   "source": "MangaDex",
-   "category": "comic",
-   "lang": "zh",
-   "weight": 4,
-   "published": "2026-08-23T06:21:26+08:00",
-   "summary": ""
-  },
-  {
-   "id": "78fdc4348769",
-   "title": "【漫画更新】Yani Neko 第 264 话「264mg」",
-   "url": "https://mangadex.org/chapter/25a47422-b001-4624-be9e-f0232689c759",
-   "source": "MangaDex",
-   "category": "comic",
-   "lang": "zh",
-   "weight": 4,
-   "published": "2026-08-23T06:21:26+08:00",
-   "summary": ""
-  },
-  {
-   "id": "a7aaa3bdceb4",
-   "title": "【漫画更新】Ars Goetia ~Munou to Yobareta Shounen wa, 72 no Akuma wo Shieki Shite Musou Suru~ 第 26 话",
-   "url": "https://mangadex.org/chapter/03bc76ee-80e8-4998-a969-d4cdac0800fa",
-   "source": "MangaDex",
-   "category": "comic",
-   "lang": "zh",
-   "weight": 4,
-   "published": "2026-08-23T06:21:26+08:00",
-   "summary": ""
-  },
-  {
-   "id": "95f3f296e3cd",
-   "title": "【漫画更新】Yani Neko 第 263 话「263mg」",
-   "url": "https://mangadex.org/chapter/8b876978-6d2a-4717-bd7c-feb97909ece0",
-   "source": "MangaDex",
-   "category": "comic",
-   "lang": "zh",
-   "weight": 4,
-   "published": "2026-08-23T06:21:26+08:00",
+   "published": "2026-08-23T18:11:13+08:00",
    "summary": ""
   }
  ]
