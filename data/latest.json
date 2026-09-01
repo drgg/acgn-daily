@@ -1,12 +1,12 @@
 {
  "date": "2026-09-01",
- "generated_at": "2026-09-01T01:16:54+08:00",
+ "generated_at": "2026-09-01T09:01:44+08:00",
  "count": 160,
  "categories": {
-  "anime": 54,
+  "anime": 55,
   "comic": 10,
-  "game": 71,
-  "novel": 15,
+  "game": 67,
+  "novel": 18,
   "general": 10
  },
  "sources": [
@@ -16,12 +16,12 @@
    "error": null
   },
   {
-   "name": "アニメ！アニメ！",
+   "name": "AUTOMATON",
    "count": 15,
    "error": null
   },
   {
-   "name": "AUTOMATON",
+   "name": "アニメ！アニメ！",
    "count": 15,
    "error": null
   },
@@ -41,18 +41,13 @@
    "error": null
   },
   {
-   "name": "GIGAZINE",
-   "count": 15,
-   "error": null
-  },
-  {
    "name": "机核 GCORES",
    "count": 15,
    "error": null
   },
   {
-   "name": "bangumi_calendar",
-   "count": 10,
+   "name": "GIGAZINE",
+   "count": 15,
    "error": null
   },
   {
@@ -61,12 +56,12 @@
    "error": null
   },
   {
-   "name": "mangadex_latest",
-   "count": 15,
+   "name": "bangumi_calendar",
+   "count": 10,
    "error": null
   },
   {
-   "name": "触乐",
+   "name": "mangadex_latest",
    "count": 15,
    "error": null
   },
@@ -74,9 +69,52 @@
    "name": "jikan_season_now",
    "count": 0,
    "error": "RetryError: HTTPSConnectionPool(host='api.jikan.moe', port=443): Max retries exceeded with url: /v4/seasons/now?limit=10&sfw=true (Caused by ResponseError('too many 504 error responses'))"
+  },
+  {
+   "name": "触乐",
+   "count": 15,
+   "error": null
   }
  ],
  "items": [
+  {
+   "id": "8b4e087e3f82",
+   "title": "Inukami! Novel Illustrator Kanna Wakatsuki Plans to Sue Publisher WiZH for Alleged Copyright Infringement",
+   "url": "https://www.animenewsnetwork.com/news/2026-08-31/inukami-novel-illustrator-kanna-wakatsuki-plans-to-sue-publisher-wizh-for-alleged-copyright-/.241161",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-09-01T04:05:46+08:00",
+   "summary": "Wakatsuki claims that WiZH used unauthorized artwork for complete edition volumes of Inukami! novels",
+   "i18n": {
+    "zh": {
+     "title": "犬上！ Novel Illustrator Kanna Wakatsuki Plans to Sue Publisher WiZH for Alleged Copyright Infringement",
+     "summary": "Wakatsuki claims that WiZH used unauthorized artwork for complete edition volumes of Inukami!小说"
+    },
+    "ja": {
+     "title": "いぬかみ！小説イラストレーター若月カンナ、著作権侵害で出版社WiZHを提訴予定",
+     "summary": "若月氏はWiZHが『いぬかみ』の完全版に無断のアートワークを使用したと主張！小説"
+    }
+   }
+  },
+  {
+   "id": "531709d00804",
+   "title": "Sony Launches Ad-Supported Live TV on PlayStation 5 in U.S.",
+   "url": "https://www.animenewsnetwork.com/news/2026-08-31/sony-launches-ad-supported-live-tv-on-playstation-5-in-u.s/.241166",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-09-01T02:12:12+08:00",
+   "summary": "Free service includes anime, movies, TV shows, sports, news, more",
+   "i18n": {
+    "ja": {
+     "title": "ソニー、米国で PlayStation 5 で広告付きライブ TV を開始",
+     "summary": "無料サービスにはアニメ、映画、テレビ番組、スポーツ、ニュースなどが含まれます"
+    }
+   }
+  },
   {
    "id": "b210b6b7e4c2",
    "title": "Pluto TV Adds Mononoke, Terror in Resonance, Kabaneri of the Iron Fortress, More Anime",
@@ -86,7 +124,16 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-09-01T01:00:00+08:00",
-   "summary": "Streaming service launches linear channels \"It's Anime,\" \"Big A Anime\""
+   "summary": "Streaming service launches linear channels \"It's Anime,\" \"Big A Anime\"",
+   "i18n": {
+    "zh": {
+     "title": "Pluto TV 新增《幽灵》、《共鸣的恐怖》、《甲铁城的卡巴内瑞》等更多动漫"
+    },
+    "ja": {
+     "title": "Pluto TV にモノノ怪、残響のテロル、甲鉄城のカバネリなどのアニメが追加",
+     "summary": "ストリーミングサービスがリニアチャンネル「It's Anime」「Big A Anime」を開始"
+    }
+   }
   },
   {
    "id": "5d3b7f10f342",
@@ -97,7 +144,16 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-09-01T00:02:41+08:00",
-   "summary": "Indie game creator Bon's game launches on Steam in 2026"
+   "summary": "Indie game creator Bon's game launches on Steam in 2026",
+   "i18n": {
+    "zh": {
+     "title": "讲谈社宣布推出 PC 版 Buzz or Die 视觉小说"
+    },
+    "ja": {
+     "title": "講談社、PC 向け Buzz or Die ビジュアルノベルを発表",
+     "summary": "インディーゲームクリエイター Bon のゲームが 2026 年に Steam で発売"
+    }
+   }
   },
   {
    "id": "aececf2f842d",
@@ -108,7 +164,13 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-09-01T00:00:00+08:00",
-   "summary": "Steins;Gate Re:Boot for Switch 2 debuts at #4, for PS5 at #5"
+   "summary": "Steins;Gate Re:Boot for Switch 2 debuts at #4, for PS5 at #5",
+   "i18n": {
+    "ja": {
+     "title": "日本のビデオゲームランキング、8月17日～23日",
+     "summary": "Switch 2 用 Steins;Gate Re:Boot が第 4 位、PS5 用が第 5 位に初登場"
+    }
+   }
   },
   {
    "id": "c03f071ba944",
@@ -119,7 +181,16 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-08-31T23:00:00+08:00",
-   "summary": "Escape from the Seventh Night is based on Takuma Sakai's Nanoka no Yoru o Nukedashite light novel series with character designs by Nanna Fujimi"
+   "summary": "Escape from the Seventh Night is based on Takuma Sakai's Nanoka no Yoru o Nukedashite light novel series with character designs by Nanna Fujimi",
+   "i18n": {
+    "zh": {
+     "title": "漫画起来！ Global Adds Escape from the Seventh Night, Daughter of the Dragon God in English"
+    },
+    "ja": {
+     "title": "マンガUP! Global、英語で「龍神の娘、第七夜からの脱出」を追加",
+     "summary": "『七夜からの脱出』は酒井拓馬のライトノベル『菜の花の夜を抜けて』シリーズを原作とし、キャラクターデザインは藤見なんなが担当している。"
+    }
+   }
   },
   {
    "id": "1df306ade3a8",
@@ -130,7 +201,16 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-08-31T22:32:36+08:00",
-   "summary": "Riho Sugiyama as Takiko Mizuse, Ai Kakuma as Homare Takanashi, Minami Tsuda as Chiyo Mitsunaka"
+   "summary": "Riho Sugiyama as Takiko Mizuse, Ai Kakuma as Homare Takanashi, Minami Tsuda as Chiyo Mitsunaka",
+   "i18n": {
+    "zh": {
+     "title": "TV动画《我的继母和继姐妹都不是坏人》公开了另外3名演员",
+     "summary": "杉山里穗饰演水濑泷子，角间爱饰演高梨稷，津田南饰演光中千代"
+    },
+    "ja": {
+     "title": "TVアニメ『義母と妹は悪くない』追加キャスト3名が決定"
+    }
+   }
   },
   {
    "id": "6a095377f11c",
@@ -152,7 +232,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-08-31T21:15:00+08:00",
-   "summary": "Founder, CEO Junkoo Kim pointed to priority driving the quarter: leaning further into AI-powered features"
+   "summary": "Founder, CEO Junkoo Kim pointed to priority driving the quarter: leaning further into AI-powered features",
+   "i18n": {
+    "zh": {
+     "title": "Webtoon Ent.报告 2026 年第二季度运营亏损 1,560 万美元",
+     "summary": "创始人兼首席执行官 Junkoo Kim 指出本季度的首要推动因素：进一步倾向于人工智能驱动的功能"
+    },
+    "ja": {
+     "title": "ウェブトゥーン入口2026年第2四半期に1,560万米ドルの営業損失を報告",
+     "summary": "創設者兼 CEO の Junkoo Kim 氏は、この四半期を推進する優先事項として、AI を活用した機能のさらなる推進を指摘しました。"
+    }
+   }
   },
   {
    "id": "4dc1bde92444",
@@ -163,7 +253,13 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-08-31T19:24:50+08:00",
-   "summary": "1st season debuted in 2024"
+   "summary": "1st season debuted in 2024",
+   "i18n": {
+    "ja": {
+     "title": "狼と香辛料: 商人と賢い狼の出会い シーズン 2 アニメ 2027 年デビュー",
+     "summary": "第1シーズンは2024年に放送開始"
+    }
+   }
   },
   {
    "id": "06ad0ebf30fc",
@@ -174,7 +270,16 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-08-31T19:00:00+08:00",
-   "summary": "Star Aina Suzuki performs opening theme"
+   "summary": "Star Aina Suzuki performs opening theme",
+   "i18n": {
+    "zh": {
+     "title": "FX Fighter Kurumi-chan 电视动画在主要宣传视频中透露 10 月 1 日首播"
+    },
+    "ja": {
+     "title": "TVアニメ『FXファイターくるみちゃん』10月1日デビューが本編プロモーションビデオで明らかに",
+     "summary": "鈴木愛奈がオープニングテーマを披露"
+    }
+   }
   },
   {
    "id": "461b5afe1751",
@@ -185,7 +290,13 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-08-31T18:21:52+08:00",
-   "summary": "Hinata's activities suspended until end of December this year"
+   "summary": "Hinata's activities suspended until end of December this year",
+   "i18n": {
+    "ja": {
+     "title": "Music Ray'n、声優・日向もか「信頼を傷つける行為があった」と活動停止",
+     "summary": "ひなたは今年12月末まで活動休止"
+    }
+   }
   },
   {
    "id": "623518aa2bfd",
@@ -196,7 +307,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-08-31T17:00:00+08:00",
-   "summary": "Anime based on Fukufuku's light novel series to debut in 2027"
+   "summary": "Anime based on Fukufuku's light novel series to debut in 2027",
+   "i18n": {
+    "zh": {
+     "title": "TV动画《不幸中诞生的最强男人》公开2个角色宣传片",
+     "summary": "根据福福轻小说系列改编的动画将于 2027 年上映"
+    },
+    "ja": {
+     "title": "TVアニメ「不幸から生まれた最強の男」PV、キャラクター2人公開",
+     "summary": "フクフクさんのライトノベルが原作のアニメが2027年に放送予定"
+    }
+   }
   },
   {
    "id": "54c16801fbf7",
@@ -207,7 +328,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-08-31T15:42:58+08:00",
-   "summary": "Nino leaves Type-Moon studio BB due to personal reasons"
+   "summary": "Nino leaves Type-Moon studio BB due to personal reasons",
+   "i18n": {
+    "zh": {
+     "title": "Aniplex to Publish Fate/Extra Record Game; Kazuya Nino 离开 Type-Moon 工作室 BB，辞去游戏总监职务",
+     "summary": "Nino因个人原因离开Type-Moon工作室BB"
+    },
+    "ja": {
+     "title": "アニプレックス、『Fate/EXTRA RECORD GAME』を発売決定。二納一哉氏がTYPE-MOONスタジオBBを退社、ゲームディレクターを辞任",
+     "summary": "ニノが一身上の都合によりTYPE-MOONスタジオBBを退社"
+    }
+   }
   },
   {
    "id": "518a0d2fcbcd",
@@ -218,7 +349,13 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-08-31T13:44:42+08:00",
-   "summary": "SHAFT to produce anime adaptation"
+   "summary": "SHAFT to produce anime adaptation",
+   "i18n": {
+    "ja": {
+     "title": "伊藤一角の漫画「8月31日の長い夏」がTVアニメ化、実写化される",
+     "summary": "シャフトがアニメ化決定"
+    }
+   }
   },
   {
    "id": "5948985dac38",
@@ -229,7 +366,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-08-31T13:36:06+08:00",
-   "summary": "CloverWorks animates 1st new anime film in franchise in 6+ years"
+   "summary": "CloverWorks animates 1st new anime film in franchise in 6+ years",
+   "i18n": {
+    "zh": {
+     "title": "《精灵宝可梦：外卡​​》动画电影宣布将于 2027 年上映",
+     "summary": "CloverWorks 制作了 6 年来第一部新的动画电影"
+    },
+    "ja": {
+     "title": "『ポケットモンスター ワイルドカード』アニメ映画が2027年に発表",
+     "summary": "CloverWorks が 6 年以上ぶりのシリーズ初の新作アニメ映画をアニメ化"
+    }
+   }
   },
   {
    "id": "9154b12aa34d",
@@ -240,7 +387,184 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-08-31T11:00:00+08:00",
-   "summary": "New teaser, cast member, ending theme song artist also revealed"
+   "summary": "New teaser, cast member, ending theme song artist also revealed",
+   "i18n": {
+    "zh": {
+     "title": "我的幸福婚姻动画特别版将于 10 月 25 日播出（全 3 集）",
+     "summary": "新预告片、演员阵容、片尾主题曲艺术家也曝光"
+    },
+    "ja": {
+     "title": "『わたしの幸せな結婚』アニメスペシャルは10月25日より全3話で放送",
+     "summary": "新予告、キャストメンバー、エンディングテーマソングアーティストも公開"
+    }
+   }
+  },
+  {
+   "id": "37c2a107acf7",
+   "title": "『魔術師クノンは見えている』のオンラインくじが登場 Ani-Artイラストを使用したオリジナルグッズがラインナップ",
+   "url": "https://ln-news.com/articles/126385",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-09-01T08:30:00+08:00",
+   "summary": "",
+   "i18n": {
+    "en": {
+     "title": "Online lottery for “The Magician Knon is visible” is now available Lineup of original goods using Ani-Art illustrations"
+    }
+   }
+  },
+  {
+   "id": "3b2d77e68eda",
+   "title": "映画「ヘルレイザー」正統続編の新作ホラー「Clive Barker’s Hellraiser: Revival」プレイレポート。パズルボックスの力で魔界の迷宮を突破せよ［gamescom］",
+   "url": "https://www.4gamer.net/games/037/G103786/20260831045/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-09-01T08:00:00+08:00",
+   "summary": "gamescom2026会場にて，SaberInteractiveが手がける一人称視点サバイバルホラー「CliveBarker’sHellraiser:Revival」のプレイアブルデモを体験した。映画「ヘルレイザー」シリーズの正史として描かれる本作は，暴力や性表現，そして生理的嫌悪感をあおる恐怖演出に一切の妥協がない意欲作だ。",
+   "i18n": {
+    "zh": {
+     "title": "新恐怖电影《克莱夫·巴克的猛鬼追魂：复兴》的剧情报道，是电影《猛鬼追魂》的官方续集。借助拼图盒的力量突破魔界迷宫【gamescom】",
+     "summary": "在 gamescom 2026 会场，我体验了 Clive Barker 的 Hellraiser: Revival 的可玩演示，这是 SaberInteractive 制作的第一人称生存恐怖游戏。这部被描述为《猛鬼追魂》电影系列正史的作品，是一部在暴力、性表达和引起生理厌恶的恐怖制作上毫不妥协的雄心勃勃的作品。"
+    },
+    "en": {
+     "title": "A play report on the new horror movie “Clive Barker’s Hellraiser: Revival”, the official sequel to the movie “Hellraiser”. Break through the maze of the demon world with the power of puzzle boxes [gamescom]",
+     "summary": "At the gamescom 2026 venue, I experienced a playable demo of Clive Barker's Hellraiser: Revival, a first-person survival horror created by SaberInteractive. This work, which is depicted as the official history of the ``Hellraiser'' movie series, is an ambitious work that makes no compromises in violence, sexual expression, and horror production that arouses physiological disgust."
+    }
+   }
+  },
+  {
+   "id": "dabdb4c3a730",
+   "title": "「アズールレーン」9周年イベントの模様を配信する番組は9月5日，6日に配信。忘れずに見たい「今週の公式配信番組」ピックアップ",
+   "url": "https://www.4gamer.net/games/421/G042182/20260831035/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-09-01T07:00:00+08:00",
+   "summary": "2026年9月5日，6日に開催されるイベント「アズールレーン9thAnniversaryAZURLANEMUSI9FES.」。そのステージプログラムの模様をお届けする番組が配信となる。今回もこの1週間で予定されている，ゲームに関連した公式配信番組を中心に，いくつかをピックアップして紹介しよう。",
+   "i18n": {
+    "zh": {
+     "title": "The program broadcasting the 9th anniversary event of \"Azur Lane\" will be broadcast on September 5th and 6th.挑选你不想忘记观看的“本周官方广播节目”"
+    },
+    "en": {
+     "title": "The program broadcasting the 9th anniversary event of \"Azur Lane\" will be broadcast on September 5th and 6th. Pick up “this week’s official broadcast programs” that you don’t want to forget to watch",
+     "summary": "The event \"Azur Lane 9th AnniversaryAZURLANEMUSI9FES.\" will be held on September 5th and 6th, 2026. A program that shows the stage program will be distributed. This time as well, we will introduce some of the official game-related programs scheduled for the past week."
+    }
+   }
+  },
+  {
+   "id": "d0a1921ec44c",
+   "title": "2026年9月発売の注目ラノベをPickup！ 続・魔法科高校の劣等生 メイジアン・カンパニー／やはり俺の青春ラブコメはまちがっている。結／魔女と傭兵などの最新刊が登場",
+   "url": "https://ln-news.com/articles/126523",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-09-01T07:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "挑选 2026 年 9 月发行的著名轻小说！ 続・魔法科大学の劣等生メイジアン・カンパni／やはり俺の青春ラブコメはまちがっている。 Yui/魔女与雇佣兵的最新版本现已上市"
+    },
+    "en": {
+     "title": "Pick up notable light novels released in September 2026! 続・魔法科高校の劣等生 メイジアン・カンパニー／やはり俺の青春ラブコメはまちがっている。 The latest editions of Yui/Witches and Mercenaries are now available"
+    }
+   }
+  },
+  {
+   "id": "aa4a3fc37dee",
+   "title": "［プレイレポ］「鬼武者 Way of the Sword」，多彩な技を駆使して強大なボスと真っ向勝負。スリリングな駆け引きが熱い剣戟アクション",
+   "url": "https://www.4gamer.net/games/865/G086595/20260901003/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-09-01T06:00:08+08:00",
+   "summary": "カプコンの新作アクション「鬼武者WayoftheSword」のプレイレポートをお届けする。本作はとにかくアクションの出来がよく，強敵と真っ向から斬り結ぶボス戦が実に楽しい。受け流しや見切り，一閃を使いこなすほど面白さは増し，気が付けば練習モードで延々と戦い続けてしまうほどなのだ。",
+   "i18n": {
+    "zh": {
+     "title": "【游玩报告】《鬼武者剑道》，利用多种技巧与强大的boss进行正面交锋。 Sword fighting action with thrilling tactics",
+     "summary": "カプコンの新作akushon「鬼武者剑道」のプreirereポートをお届けする。本作はとにかくakushinno出来がよく，强敌と真っ向から斩り结ぶボsu戦が実に楽しい。 The more you master parries, closeouts, and flash attacks, the more fun it gets, and before you know it, you'll find yourself fighting endlessly in practice mode."
+    },
+    "en": {
+     "title": "[Play Report] \"Onimusha Way of the Sword\", use a variety of techniques to fight head-to-head against powerful bosses. Sword fighting action with thrilling tactics",
+     "summary": "We bring you a play report of Capcom's new action game \"Onimusha Way of the Sword\". The action in this game is really good, and the boss fights where you go head-to-head with powerful enemies are really fun. The more you master parries, closeouts, and flash attacks, the more fun it gets, and before you know it, you'll find yourself fighting endlessly in practice mode."
+    }
+   }
+  },
+  {
+   "id": "6f41787ac322",
+   "title": "『廃ゲーマーの農夫転生 ～俺だけが知っている最弱職能の進化先で成り上がる!?～』のコミカライズ連載が開始",
+   "url": "https://ln-news.com/articles/126483",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-09-01T05:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "漫画《废弃玩家转生为农民～进化出只有我知道的最弱职业能力，我要成功了！？》 ~'' has started"
+    },
+    "en": {
+     "title": "Comic serialization of ``Reincarnation of an abandoned gamer as a farmer ~ I'm going to succeed by evolving the weakest job ability that only I know!? ~'' has started"
+    }
+   }
+  },
+  {
+   "id": "0f52198de0a3",
+   "title": "「HBO Max」，10月1日より日本のPrime Videoにてサブスクリプションで提供開始。プランはスタンダード/プレミアムを用意",
+   "url": "https://www.4gamer.net/games/991/G999102/20260831019/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-09-01T03:00:00+08:00",
+   "summary": "PrimeVideoは本日（2026年9月1日），ワーナーブラザース・ディスカバリーとのパートナーシップ契約の締結を発表した。これにより，PrimeVideoにて「HBOMax」をサブスクリプションで10月1日より利用できるようになる。ローンチ時には「ゲーム・オブ・スローンズ」「THELASTOFUS」などがラインナップされる。",
+   "i18n": {
+    "zh": {
+     "title": "《HBO Max》将于 10 月 1 日起在日本 Prime Video 上提供订阅服务。提供标准/高级计划"
+    },
+    "en": {
+     "title": "\"HBO Max\" will be available as a subscription on Prime Video in Japan from October 1st. Standard/premium plans available"
+    }
+   }
+  },
+  {
+   "id": "fe83e38db091",
+   "title": "「ボードゲームアリーナ」の31日連続実装イベントまとめ。「ニュークレウム」「テラフォーミング・マーズ：ダイスゲーム」などが登場",
+   "url": "https://www.4gamer.net/games/639/G063965/20260901002/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-09-01T02:47:42+08:00",
+   "summary": "2026年8月31日，AsmodeeDigitalが運営するオンラインボードゲームサイト「ボードゲームアリーナ」で，季節の大型イベント「SUMMEROFGAMES2026：KINGDOMOFCATS」が終了した。期間中は毎日1本，計31タイトルが正式実装された。本稿ではその内容をまとめて紹介する。",
+   "i18n": {
+    "en": {
+     "title": "Summary of 31 consecutive days of \"Board Game Arena\" events. ``Nucleum'', ``Terraforming Mars: Dice Game'', etc. appear"
+    }
+   }
+  },
+  {
+   "id": "3b4a01391aed",
+   "title": "「Steam PvEサバイバルクラフトフェス」が本日スタート。「Project Zomboid」「Medieval Dynasty」「サブノーティカ」などをピックアップ",
+   "url": "https://www.4gamer.net/games/038/G003821/20260901001/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-09-01T02:18:36+08:00",
+   "summary": "Valveは本日（2026年9月1日），同社によるゲームプラットフォームの「Steam」で，テーマイベント「SteamPvEサバイバルクラフトフェス」を開始した。PvEを中心に，サバイバルとクラフトを主要なゲームループに据えた作品が集められている。",
+   "i18n": {
+    "en": {
+     "title": "“Steam PvE Survival Craft Fest” starts today. Picked up “Project Zomboid”, “Medieval Dynasty”, “Subnautica”, etc."
+    }
+   }
   },
   {
    "id": "e2dd3156527e",
@@ -251,7 +575,12 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-08-31T20:31:50+08:00",
-   "summary": "SIEは本日，「StateofPlay」を日本時間2026年9月3日22：00から配信すると発表した。今回は通常の「StateofPlay」に続いて「StateofPlay日本」も放送する。「FINALFANTASYVIIREVELATION」の紹介や，日本・アジアのスタジオが手掛けるタイトルの最新情報を届ける。"
+   "summary": "SIEは本日，「StateofPlay」を日本時間2026年9月3日22：00から配信すると発表した。今回は通常の「StateofPlay」に続いて「StateofPlay日本」も放送する。「FINALFANTASYVIIREVELATION」の紹介や，日本・アジアのスタジオが手掛けるタイトルの最新情報を届ける。",
+   "i18n": {
+    "en": {
+     "title": "SIE's information program \"State of Play\" will be broadcast on September 3rd at 22:00. ``State of Play Japan'' and 2 programs to be distributed consecutively"
+    }
+   }
   },
   {
    "id": "1c3516480d40",
@@ -262,7 +591,13 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-08-31T20:13:14+08:00",
-   "summary": "ヨ氏は本日，ブラウザ版「メロウの呪い（まじない）」をノベルゲームコレクションで公開した。価格は無料。本作は，人魚姫を題材にした乙女ゲームだ。流血表現のほか，主人公と女性キャラクターの恋愛描写が用意されているとのこと。"
+   "summary": "ヨ氏は本日，ブラウザ版「メロウの呪い（まじない）」をノベルゲームコレクションで公開した。価格は無料。本作は，人魚姫を題材にした乙女ゲームだ。流血表現のほか，主人公と女性キャラクターの恋愛描写が用意されているとのこと。",
+   "i18n": {
+    "en": {
+     "title": "The cursed protagonist searches for his missing sister. Browser version of ``Merrow's Curse'', a maiden game based on a mermaid princess, released for free",
+     "summary": "Today, Mr. Yo released the browser version of ``Mellow's Curse'' in the Novel Game Collection. The price is free. This work is an otome game based on a mermaid princess. In addition to depictions of bloodshed, there will also be depictions of romance between the main character and a female character."
+    }
+   }
   },
   {
    "id": "b486a0c2430e",
@@ -273,7 +608,12 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-08-31T20:02:49+08:00",
-   "summary": "FOSSILは2026年8月28日，「マインクラフト」とコラボした限定ウォッチコレクションを発表した。「ネザー」「ジ・エンド」「MinecraftDungeonsII」にインスパイアされた3モデルをラインナップし，同日から公式オンラインストアで先行販売を開始している。"
+   "summary": "FOSSILは2026年8月28日，「マインクラフト」とコラボした限定ウォッチコレクションを発表した。「ネザー」「ジ・エンド」「MinecraftDungeonsII」にインスパイアされた3モデルをラインナップし，同日から公式オンラインストアで先行販売を開始している。",
+   "i18n": {
+    "en": {
+     "title": "\"Minecraft\" x FOSSIL announces limited watch collection. 3 models inspired by “The Nether”, “The End” and “Minecraft Dungeons II”"
+    }
+   }
   },
   {
    "id": "99bb1f36d36e",
@@ -284,7 +624,17 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-08-31T19:52:26+08:00",
-   "summary": "HalberdStudiosは2026年8月26日，開発中の新作タイトル「MariachiLegends」の発売日が，2027年4月27日に決定したと発表した。本作は，死神に選ばれし探偵として，故郷を脅かす犯罪者や連続殺人事件へ立ち向かう，メトロイドヴァニアアクションゲームだ。"
+   "summary": "HalberdStudiosは2026年8月26日，開発中の新作タイトル「MariachiLegends」の発売日が，2027年4月27日に決定したと発表した。本作は，死神に選ばれし探偵として，故郷を脅かす犯罪者や連続殺人事件へ立ち向かう，メトロイドヴァニアアクションゲームだ。",
+   "i18n": {
+    "zh": {
+     "title": "《Mariachi Legends》是一款结合了墨西哥传奇和经典玩法的类银河战士恶魔城，将于 2027 年 4 月 27 日发布",
+     "summary": "HalberdStudios于2026年8月26日宣布，正在开发的新作《Mariachi Legends》的发售日期已定于2027年4月27日。这是一款类银河战士恶魔城动作游戏，你扮演一名被死神选中的侦探，对抗威胁你家乡的罪犯和连环谋杀案。"
+    },
+    "en": {
+     "title": "Mariachi Legends, a Metroidvania that combines Mexican legends and classic gameplay, will be released on April 27, 2027",
+     "summary": "HalberdStudios announced on August 26, 2026 that the release date of the new title \"Mariachi Legends\" under development has been decided on April 27, 2027. This is a Metroidvania action game where you play as a detective chosen by the Grim Reaper to confront criminals and serial murders that threaten your hometown."
+    }
+   }
   },
   {
    "id": "a1cdcaa93d55",
@@ -306,7 +656,16 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-08-31T19:21:33+08:00",
-   "summary": "コジマプロダクションは2026年8月31日，同社の設立10周年を記念した展覧会を，10月31日から12月20日まで東京都港区の麻布台ヒルズギャラリーで開催すると発表した。会場では未公開資料の展示や，本展のためだけに構築された映像インスタレーションなどが用意される。"
+   "summary": "コジマプロダクションは2026年8月31日，同社の設立10周年を記念した展覧会を，10月31日から12月20日まで東京都港区の麻布台ヒルズギャラリーで開催すると発表した。会場では未公開資料の展示や，本展のためだけに構築された映像インスタレーションなどが用意される。",
+   "i18n": {
+    "zh": {
+     "title": "10月31日起将举办纪念小岛制作所成立10周年的展览。计划展出未出版的材料和视频装置。"
+    },
+    "en": {
+     "title": "An exhibition commemorating the 10th anniversary of the establishment of Kojima Productions will be held from October 31st. Exhibitions of unpublished materials and video installations are planned.",
+     "summary": "Kojima Productions announced on August 31, 2026 that an exhibition commemorating the company's 10th anniversary will be held from October 31st to December 20th at Azabudai Hills Gallery in Minato-ku, Tokyo.会場では未公開資料の展示や，本展のためだけに構築された映像インスタレーションなどが用意される。"
+    }
+   }
   },
   {
    "id": "fd3fead6a68c",
@@ -317,7 +676,13 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-08-31T19:18:17+08:00",
-   "summary": "AMATAGamesは本日，8bit風オープンダンジョンRPG「CrescentTower:RISING〜クレセント・タワーライジング〜」のSteam版を配信すると発表した。全5章のオムニバスストーリーを軸に，14種類のクラスとスキルブロックを組み合わせた育成や，マッピングを重視したダンジョン探索を楽しめる。配信時期は未定。"
+   "summary": "AMATAGamesは本日，8bit風オープンダンジョンRPG「CrescentTower:RISING〜クレセント・タワーライジング〜」のSteam版を配信すると発表した。全5章のオムニバスストーリーを軸に，14種類のクラスとスキルブロックを組み合わせた育成や，マッピングを重視したダンジョン探索を楽しめる。配信時期は未定。",
+   "i18n": {
+    "en": {
+     "title": "\"Crescent Tower: RISING\", Steam version will be distributed. An 8-bit style RPG where you can enjoy a 5-chapter story and the training of 14 classes and skill blocks.",
+     "summary": "AMATAGamesは本日，8bit風オープンダンジョンRPG「CrescentTower:RISING〜クレセント・タワーライジング〜」のSteam版を配信すると発表した。全5章のオムニバスストーリーを軸に，14種類のクラスとスキルブロックを組み合わせた育成や，マッピングを重視したダンジョン探索を楽しめる。 The delivery date is undecided."
+    }
+   }
   },
   {
    "id": "0835c6dc6717",
@@ -328,7 +693,17 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-08-31T19:16:23+08:00",
-   "summary": "WINDUPは本日，PC向け倉庫作業シミュレータ「BOBLOGISTICS」を発表し，Steamストアページを公開した。本作では，なんでも作る会社「BOBCOMPANY」の新人インターンとなり，注文された商品を倉庫から探し出して発送する仕事をこなしていく。"
+   "summary": "WINDUPは本日，PC向け倉庫作業シミュレータ「BOBLOGISTICS」を発表し，Steamストアページを公開した。本作では，なんでも作る会社「BOBCOMPANY」の新人インターンとなり，注文された商品を倉庫から探し出して発送する仕事をこなしていく。",
+   "i18n": {
+    "zh": {
+     "title": "作为一家生产一切的公司的实习生，我在仓库工作，寻找并运送订购的产品，从日常用品到科幻物品。仓库作业模拟器“BOB LOGISTICS”将于2026年第四季度发布",
+     "summary": "WINDUP 今天发布了 PC 版仓库工作模拟器“BOBLOGISTICS”，并发布了 Steam 商店页面。在这款游戏中，你成为 BOBCOMPANY 的新实习生，这是一家生产一切产品的公司，你的工作是从仓库中找到订购的产品并将其运送。"
+    },
+    "en": {
+     "title": "As an intern at a company that makes everything, I work in a warehouse, searching for and shipping ordered products, from daily necessities to sci-fi items. Warehouse work simulator “BOB LOGISTICS” to be released in the fourth quarter of 2026",
+     "summary": "WINDUP today announced the warehouse work simulator ``BOBLOGISTICS'' for PC and released the Steam store page. In this game, you become a new intern at BOBCOMPANY, a company that makes everything, and your job is to find ordered products from the warehouse and ship them."
+    }
+   }
   },
   {
    "id": "cb1810d7fa06",
@@ -339,7 +714,15 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-08-31T19:07:51+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "《马比诺吉Mobile》预注册用户数突破10万"
+    },
+    "en": {
+     "title": "The number of pre-registered users of \"Mabinogi Mobile\" exceeds 100,000"
+    }
+   }
   },
   {
    "id": "a94b2d6f779d",
@@ -350,7 +733,17 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-08-31T19:00:00+08:00",
-   "summary": "本日，声優の中村悠一さんと，フリーライターのマフィア梶田さんによるWeb番組「わしゃがなTV」の最新動画が公開された。今回は，梶田さんが購入したトレーディングフィギュア「どうぶつの森ハッピールーム」と「EVANGELIONROOM」を紹介する。"
+   "summary": "本日，声優の中村悠一さんと，フリーライターのマフィア梶田さんによるWeb番組「わしゃがなTV」の最新動画が公開された。今回は，梶田さんが購入したトレーディングフィギュア「どうぶつの森ハッピールーム」と「EVANGELIONROOM」を紹介する。",
+   "i18n": {
+    "zh": {
+     "title": "Washagana TV的最新视频介绍了交易玩偶“动物森友会：新视野快乐房间”。静惠的房间和伊娃很像！？",
+     "summary": "今天，声优中村雄一和自由作家梶田黑手党的网络节目《Washagana TV》的最新视频公开了。这次为大家介绍的是梶田先生购买的交易玩偶「动物森友会新视野快乐房间」和「EVANGELIONROOM」。"
+    },
+    "en": {
+     "title": "Washagana TV's latest video introduces the trading figure ``Animal Crossing: New Horizons Happy Room''. Shizue's room looks like Eva!?",
+     "summary": "Today, the latest video of the web program ``Washagana TV'' by voice actor Yuichi Nakamura and freelance writer Mafia Kajita was released. This time, we will introduce the trading figures ``Animal Crossing: New Horizons Happy Room'' and ``EVANGELIONROOM'' that Mr. Kajita purchased."
+    }
+   }
   },
   {
    "id": "38f0dc1b1c61",
@@ -361,7 +754,12 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-08-31T18:46:49+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "en": {
+     "title": "Full-size 2DMV of “Proseca” and Sekai ver. “Hauta” released"
+    }
+   }
   },
   {
    "id": "9026c0d01fd5",
@@ -372,7 +770,15 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-08-31T18:23:53+08:00",
-   "summary": "gamescom2026にて，ニュージーランドのAstronautDiariesによるハック＆スラッシュ型アクションADV「Denari」が公開されていた。南太平洋地域特有の文化や神話伝承を盛り込んだ注目作で，新たに「ニーア」シリーズで知られるエミ・エヴァンスさんのボーカル参加やSwitch向けの発売も決定した。"
+   "summary": "gamescom2026にて，ニュージーランドのAstronautDiariesによるハック＆スラッシュ型アクションADV「Denari」が公開されていた。南太平洋地域特有の文化や神話伝承を盛り込んだ注目作で，新たに「ニーア」シリーズで知られるエミ・エヴァンスさんのボーカル参加やSwitch向けの発売も決定した。",
+   "i18n": {
+    "zh": {
+     "title": "融入南太平洋文化的动作ADV《Denari》，Emi Evans参与主唱，Switch版即将发售 [gamescom]"
+    },
+    "en": {
+     "title": "Action ADV “Denari” that incorporates South Pacific culture, Emi Evans will participate in vocals and Switch version will be released [gamescom]"
+    }
+   }
   },
   {
    "id": "a776fd1947f7",
@@ -383,7 +789,12 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-08-31T18:19:55+08:00",
-   "summary": "EXNOAが運営するDMMGAMESは本日（2026年8月31日），iOS版「GAMESSTORE」をリリースした。これは，DMMGAMESのアプリゲームをAppStoreを通さず，iPhoneで直接遊べるようになるサービスだ。また，iOS版「GAMESSTORE」のリリースを記念したキャンペーンが9月2日より開催される。"
+   "summary": "EXNOAが運営するDMMGAMESは本日（2026年8月31日），iOS版「GAMESSTORE」をリリースした。これは，DMMGAMESのアプリゲームをAppStoreを通さず，iPhoneで直接遊べるようになるサービスだ。また，iOS版「GAMESSTORE」のリリースを記念したキャンペーンが9月2日より開催される。",
+   "i18n": {
+    "en": {
+     "title": "iOS version of “GAMES STORE” released today. A service that allows you to play DMM GAMES app games directly on your iPhone without going through the App Store."
+    }
+   }
   },
   {
    "id": "1ec22a88fedf",
@@ -571,6 +982,17 @@
    "weight": 8,
    "published": "2026-08-30T13:30:00+08:00",
    "summary": ""
+  },
+  {
+   "id": "75162aed6c96",
+   "title": "《庄园领主》销量突破400万，全新更新同步上线",
+   "url": "https://www.gcores.com/articles/219078",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-09-01T08:55:00+08:00",
+   "summary": "由 Slavic Magic 打造的中世纪城市建造游戏《庄园领主》销量突破400万份。开发团队在感谢玩家支持的同时，同步推出抢先体验阶段迄今规模最大的内容更新。据悉本次更新涵盖乳牛畜牧、苹果酒与蜂蜜酒酿造、燕麦种植等全新玩法，并对物流、建造与季节性机制进行全面重构。 《庄园领主》最初由波兰开发者 Greg Styczeń 历时数年一手打造的游戏，2024年4月开启抢先体验首日便创下百万销量纪录。本次新增内容超过 30 项重大变更，包括全新地图、主 HUD 界面重新设计、工匠主动配方系统以及建材场与季节性动物繁殖等深度机制。 开发团队在 Steam 公告中也直面了社群对内容更新节奏的批评。公告表"
   },
   {
    "id": "c970a679cfff",
@@ -1260,7 +1682,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:36+08:00",
    "summary": ""
   },
   {
@@ -1271,7 +1693,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:36+08:00",
    "summary": ""
   },
   {
@@ -1282,7 +1704,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:36+08:00",
    "summary": ""
   },
   {
@@ -1293,7 +1715,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:36+08:00",
    "summary": ""
   },
   {
@@ -1304,7 +1726,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:36+08:00",
    "summary": ""
   },
   {
@@ -1315,7 +1737,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:36+08:00",
    "summary": ""
   },
   {
@@ -1326,7 +1748,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:36+08:00",
    "summary": ""
   },
   {
@@ -1337,7 +1759,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:36+08:00",
    "summary": ""
   },
   {
@@ -1348,7 +1770,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:36+08:00",
    "summary": ""
   },
   {
@@ -1359,51 +1781,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
-   "summary": ""
-  },
-  {
-   "id": "70bacad6f3a6",
-   "title": "【今日放送 19:57】最強出涸らし皇子の暗躍帝位争い 無能を演じるSSランク皇子は皇位継承戦を影から支配する 第9集",
-   "url": "https://anilist.co/anime/169582",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
-   "summary": ""
-  },
-  {
-   "id": "83d46fbf6c3c",
-   "title": "【今日放送 20:00】透明な夜に駆ける君と、目に見えない恋をした。 第9集",
-   "url": "https://anilist.co/anime/202269",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
-   "summary": ""
-  },
-  {
-   "id": "b6dd5a93f7ce",
-   "title": "【今日放送 21:00】骸骨騎士様、只今異世界へお出掛け中Ⅱ 第9集",
-   "url": "https://anilist.co/anime/185542",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
-   "summary": ""
-  },
-  {
-   "id": "93e47aba6f4d",
-   "title": "【今日放送 21:00】ワールド イズ ダンシング 第10集",
-   "url": "https://anilist.co/anime/206521",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:36+08:00",
    "summary": ""
   },
   {
@@ -1414,7 +1792,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:35+08:00",
    "summary": ""
   },
   {
@@ -1425,7 +1803,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:35+08:00",
    "summary": ""
   },
   {
@@ -1436,7 +1814,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:35+08:00",
    "summary": ""
   },
   {
@@ -1447,7 +1825,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:35+08:00",
    "summary": ""
   },
   {
@@ -1458,7 +1836,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:35+08:00",
    "summary": ""
   },
   {
@@ -1469,7 +1847,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:35+08:00",
    "summary": ""
   },
   {
@@ -1480,7 +1858,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:35+08:00",
    "summary": ""
   },
   {
@@ -1491,7 +1869,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:35+08:00",
    "summary": ""
   },
   {
@@ -1502,7 +1880,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:35+08:00",
    "summary": ""
   },
   {
@@ -1513,129 +1891,63 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-09-01T01:16:12+08:00",
+   "published": "2026-09-01T09:00:35+08:00",
    "summary": ""
   },
   {
-   "id": "e00198be3729",
-   "title": "『RPGツクールMZ』で疑似3D実現でも話題のRPG『Lie of Caelum: Spirit』クラファン開始―日本語対応の『ゼノギアス』インスパイア作",
-   "url": "http://www.gamespark.jp/article/2026/09/01/171558.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "3c9405e88dad",
+   "title": "【今日放送 19:30】対ありでした。 ～お嬢さまは格闘ゲームなんてしない～ 第9集",
+   "url": "https://anilist.co/anime/128757",
+   "source": "AniList 放送表",
+   "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-09-01T00:00:02+08:00",
-   "summary": "メインで60時間超え！ボリュームも壮大なクラファン開始"
+   "published": "2026-09-01T09:00:35+08:00",
+   "summary": ""
   },
   {
-   "id": "229a904e449f",
-   "title": "『Fate/EXTRA Record』開発が“メテオライズ”に―爆乳ハイパーバトル『ヴァルキリードライヴ ビクニ』など過去に手掛ける",
-   "url": "http://www.gamespark.jp/article/2026/09/01/171557.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "5dab6c6d486c",
+   "title": "【今日放送 20:30】きみが死ぬまで恋をしたい 第9集",
+   "url": "https://anilist.co/anime/187260",
+   "source": "AniList 放送表",
+   "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-08-31T23:30:02+08:00",
-   "summary": "studio BB公式サイトは更新無し―続報待たれるリメイク作"
+   "published": "2026-09-01T09:00:35+08:00",
+   "summary": ""
   },
   {
-   "id": "c5cbbf015dff",
-   "title": "Game*Sparkレビュー：『鬼武者 Way of the Sword』は剣戟ゲーの歴史に鋭く斬り込む傑作！初見も古参も幻魔と楽しく踊ろう",
-   "url": "http://www.gamespark.jp/article/2026/09/01/171556.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "c2680a17df18",
+   "title": "【今日放送 20:55】身代わり令嬢を救ったのは冷酷無慈悲な氷の王子の愛でした 第9集",
+   "url": "https://anilist.co/anime/213665",
+   "source": "AniList 放送表",
+   "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-08-31T23:00:03+08:00",
-   "summary": "『鬼武者 Way of the Sword』の爽快な剣戟とストーリーの魅力を徹底レビュー！"
+   "published": "2026-09-01T09:00:35+08:00",
+   "summary": ""
   },
   {
-   "id": "267c810770b4",
-   "title": "『メタルギア ソリッド4』マスコレ版、Steamで“圧倒的に好評”スタート―念願の移植版が歓迎される",
-   "url": "http://www.gamespark.jp/article/2026/08/31/171555.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "7b7ee05ff986",
+   "title": "iPhoneがAndroidを上回った唯一の年代は？GIGAZINE読者のスマホ利用率を調べてみた",
+   "url": "https://gigazine.net/news/20260901-gigazine-user-smartphone-android-maker/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-31T22:45:02+08:00",
-   "summary": "18年越しの移植が好調スタート！60fps動作も高評価"
+   "weight": 5,
+   "published": "2026-09-01T08:00:00+08:00",
+   "summary": "スマートフォンは連絡や決済、写真撮影など生活のさまざまな場面で使われており、AndroidとiPhoneのどちらを使うのかや、どのメーカーの端末を選ぶのかにはユーザーごとの好みが表れます。そこで、GIGAZINEが実施した2026年夏のプレゼントアンケートで、GIGAZINE読者が使っているスマートフォンの種類やAndroidスマートフォンのメーカーについて詳しく聞いてみました。なお、設問は自由記述以外全て複数選択可能になっているため、それぞれの割合を合計すると100％を超えます。続きを読む..."
   },
   {
-   "id": "b5cacdf9afe6",
-   "title": "生産物を売って資金調達、商売敵は武力で排除―冒険と経営が融合したギルド運営RPG『ダンジョン4X』2027年配信",
-   "url": "http://www.gamespark.jp/article/2026/08/31/171554.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "ba266be47b61",
+   "title": "「ChatGPT Work」の仕組みに関する考察",
+   "url": "https://gigazine.net/news/20260901-understanding-chatgpt-work/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-31T22:34:03+08:00",
-   "summary": "お金が物言う世界で、冒険者ギルドを運営"
-  },
-  {
-   "id": "c8f9605d21f1",
-   "title": "ゲームの広告や、店内のポップといった「販促ツール」の歴史。宣伝物から振り返るゲーム文化の深みについて【CEDEC2026】",
-   "url": "http://www.gamespark.jp/article/2026/08/31/171553.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-31T22:00:04+08:00",
-   "summary": "ビデオゲームを彩る文化はゲームハードやソフト、クリエイターだけではありません。開発したゲームをユーザーに広めるための、宣伝物もまた文化を作ったもののひとつです。スクウェア・エニックスのゲーム保存プロジェクトの過程から、その歴史を振り返ります。"
-  },
-  {
-   "id": "d293aa534d01",
-   "title": "格闘アクションの真髄は「理論的な動作の流れ」にあり…中国武術指導者とゲームデザイナーが贈る「キマるアクション」の考え方【CEDEC2026】",
-   "url": "http://www.gamespark.jp/article/2026/08/31/171552.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-31T21:45:03+08:00",
-   "summary": "「もっとアニメーションを洗練したい」「自分でアクション構成を考えられるようになりたい」と思うクリエイターの助けとなるでしょう。"
-  },
-  {
-   "id": "f12ba7389f99",
-   "title": "自分のSteamゲームを棚に並べて整理、襲来する海賊はショットガンで撃退―整理シム×FPS『Game Shelver 99』11月17日リリース",
-   "url": "http://www.gamespark.jp/article/2026/08/31/171551.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-31T21:30:03+08:00",
-   "summary": "整理するのは他ならぬあなたのソフトです！"
-  },
-  {
-   "id": "491da81015c8",
-   "title": "高度な建築が楽しめるボクセル世界のサンドボックスが早期アクセス開始。戦闘では多彩な武器やアクションを使いこなす―採れたて！本日のSteam注目ゲーム15選【2026年8月31日】",
-   "url": "http://www.gamespark.jp/article/2026/08/31/171550.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-31T21:01:13+08:00",
-   "summary": "ブロックの形状を変更したり、パレットで色を変えたりと自由自在。"
-  },
-  {
-   "id": "d1fc05b5cc94",
-   "title": "「State of Play」「State of Play 日本」2番組を連続で9月3日午後10時配信！『FF7 リベレーション』の広大な世界の紹介も",
-   "url": "http://www.gamespark.jp/article/2026/08/31/171549.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-31T20:22:38+08:00",
-   "summary": "「State of Play」「State of Play 日本」を連続放送！"
-  },
-  {
-   "id": "0f72bfde9ed4",
-   "title": "この街で、誰として生きる？基本無料&キャラガチャなしの『無限大ANANTA』が描く、新しい都市型オープンワールド―開発者インタビュー【gamescom 2026】",
-   "url": "http://www.gamespark.jp/article/2026/08/31/171548.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-08-31T20:00:04+08:00",
-   "summary": "ついにリリース日も決まった期待作！"
+   "weight": 5,
+   "published": "2026-09-01T05:00:00+08:00",
+   "summary": "オープンソース開発者のサイモン・ウィリソン氏が、2026年7月に登場した「ChatGPT ワーク」について調査を行い、わかった仕組みについてブログで情報を公開しました。続きを読む..."
   },
   {
    "id": "b643272f59b5",
@@ -1726,135 +2038,113 @@
    "summary": "韓国政府は全国民に無料で公共AIサービスを提供するプロジェクト「AI for All」を推進しています。新たに「AI for All」の運営事業者として、携帯電話事業者のSKテレコム、通信事業者のKT、IT企業のカカオがそれぞれ主導するコンソーシアム(共同事業体)が選定されました。続きを読む..."
   },
   {
-   "id": "58e11231a853",
-   "title": "OSに年齢確認を義務づける法案でLinuxなどのオープンソースOSが除外される、Windows・macOS・iOS・Androidは引き続き対象に",
-   "url": "https://gigazine.net/news/20260831-os-age-verification-law-amendment/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-31T14:57:00+08:00",
-   "summary": "OS(オペレーティングシステム)を提供する者にユーザーの年齢確認を実施するという法律に、「提供者が固定されないオープンソースのOSも対象になるのか」と批判があったことを受け、カリフォルニア州議会が法律の修正を行いました。これによりLinux等のOSが法律の対象外となりました。続きを読む..."
-  },
-  {
-   "id": "8574c556bb84",
-   "title": "ソニーとワーナーが共同でAnthropicを提訴、楽曲をClaudeのトレーニングに利用された「史上最大かつ最も甚だしい知的財産窃盗事件」",
-   "url": "https://gigazine.net/news/20260831-sony-warner-sue-anthropic/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-08-31T14:50:00+08:00",
-   "summary": "大手音楽会社のソニー・ミュージックパブリッシング(SMP)とワーナーチャペルミュージック(WCM)が、AI「Claude」の開発元であるAnthropicを共同で提訴しました。両社はAnthropicがClaudeをトレーニングするにあたり、著作権で保護された作品数万曲を利用したと主張、損害賠償を求めています。続きを読む..."
-  },
-  {
-   "id": "68be439c5da9",
-   "title": "【漫画更新】Blue Lock 第 173 话「VS. ENGLAND」",
-   "url": "https://mangadex.org/chapter/8420d72e-ae92-4bc8-8542-754370bdf272",
+   "id": "f496617f1ecb",
+   "title": "【漫画更新】Poisonous Doctor: First Wife's Daughter 第 1 话",
+   "url": "https://mangadex.org/chapter/22d45499-d702-4f7d-a944-ae150e2c13a4",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-01T01:16:13+08:00",
+   "published": "2026-09-01T09:00:37+08:00",
    "summary": ""
   },
   {
-   "id": "c9a11faed159",
-   "title": "【漫画更新】Blue Lock 第 22 话「UNTIL THIS FIRE BURNS OUT」",
-   "url": "https://mangadex.org/chapter/e99df88a-9597-469b-93c9-1120ce5a44e0",
+   "id": "2f900ba49cf5",
+   "title": "【漫画更新】Kaijin Reijou 第 1.2 话「I'm in love with a hell of a woman」",
+   "url": "https://mangadex.org/chapter/11813161-626b-418f-b587-236d169d22b2",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-01T01:16:13+08:00",
+   "published": "2026-09-01T09:00:37+08:00",
    "summary": ""
   },
   {
-   "id": "07e8a0614c21",
-   "title": "【漫画更新】Kounodori 第 ? 话「TRACK 50 INFERTILITY(3)」",
-   "url": "https://mangadex.org/chapter/a0546ed4-3d55-421a-a3e4-85b72999050f",
+   "id": "93c2f1dae1d7",
+   "title": "【漫画更新】Yankee Assistant no Ashizawa-kun ni Koi o Shita 第 1 话",
+   "url": "https://mangadex.org/chapter/d306048f-ca1d-41b5-b1dc-22611102e73d",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-01T01:16:13+08:00",
+   "published": "2026-09-01T09:00:37+08:00",
    "summary": ""
   },
   {
-   "id": "05773c6e8ff7",
-   "title": "【漫画更新】Kimi wa \"Suki\" no Daimeishi 第 2 话",
-   "url": "https://mangadex.org/chapter/386491dd-ff76-46d0-a7f6-838172bd2438",
+   "id": "8f1fcb188d7f",
+   "title": "【漫画更新】Gal ni Yasashii Otaku-kun 第 1.2 话",
+   "url": "https://mangadex.org/chapter/b6cb7e1d-03f1-4ed1-81bd-20df00f74858",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-01T01:16:13+08:00",
+   "published": "2026-09-01T09:00:37+08:00",
    "summary": ""
   },
   {
-   "id": "8ff35f33ec80",
-   "title": "【漫画更新】Blue Lock 第 21 话「BREAK THROUGH!」",
-   "url": "https://mangadex.org/chapter/d31d57d2-6fba-4697-9f90-df6be9ea7187",
+   "id": "825250cdbc68",
+   "title": "【漫画更新】Inescapable Runaway Love 第 1 话",
+   "url": "https://mangadex.org/chapter/c5141907-28ae-4af0-ae5b-ae94c18ecf17",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-01T01:16:13+08:00",
+   "published": "2026-09-01T09:00:37+08:00",
    "summary": ""
   },
   {
-   "id": "ad454395319c",
-   "title": "【漫画更新】Kounodori 第 ? 话「TRACK 50 INFERTILITY(2)」",
-   "url": "https://mangadex.org/chapter/f3ae9783-888c-47fa-a043-6f9737134791",
+   "id": "7020f60bc4a7",
+   "title": "【漫画更新】Rising Sun 第 3 话「Baptism」",
+   "url": "https://mangadex.org/chapter/1f0362b9-878b-4a0d-9f1c-2fc1c7227eef",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-01T01:16:13+08:00",
+   "published": "2026-09-01T09:00:37+08:00",
    "summary": ""
   },
   {
-   "id": "b580040f73bf",
-   "title": "【漫画更新】Kimi wa \"Suki\" no Daimeishi 第 1 话",
-   "url": "https://mangadex.org/chapter/5e6929ac-bc55-4d78-80d4-13aa4a80f8fd",
+   "id": "5f5d7b6af83c",
+   "title": "【漫画更新】Akogare no Maid-san wa Tabako ga Niau 第 1 话",
+   "url": "https://mangadex.org/chapter/0372065e-cbe1-44fb-91b1-f0385b0a5f94",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-01T01:16:13+08:00",
+   "published": "2026-09-01T09:00:37+08:00",
    "summary": ""
   },
   {
-   "id": "3146cb4c2298",
-   "title": "【漫画更新】Akumade Seijo 第 4 话「Versus Senpai!?」",
-   "url": "https://mangadex.org/chapter/b8eef2c4-ba1f-4a72-aa26-2ebb1c1ef741",
+   "id": "e97ec1f3a283",
+   "title": "【漫画更新】My Adventurer Life: I Became the Strongest Magic-Refining Sage in a New World 第 1.2 话",
+   "url": "https://mangadex.org/chapter/5c853515-7cdd-47f3-a091-c51c9b28b6ca",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-01T01:16:13+08:00",
+   "published": "2026-09-01T09:00:37+08:00",
    "summary": ""
   },
   {
-   "id": "6055996504e4",
-   "title": "【漫画更新】Blue Lock 第 20 话「BOILING」",
-   "url": "https://mangadex.org/chapter/2c3daaf8-9ce3-4857-a90c-633a14a92b88",
+   "id": "cb6051850e95",
+   "title": "【漫画更新】Wakfu 第 1.1 话「The Gobbette Milk Thief」",
+   "url": "https://mangadex.org/chapter/63ba59ed-161f-4408-adec-118fc6980761",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-01T01:16:13+08:00",
+   "published": "2026-09-01T09:00:37+08:00",
    "summary": ""
   },
   {
-   "id": "da14b4755417",
-   "title": "【漫画更新】Kounodori 第 ? 话「TRACK 50 INFERTILITY(1)」",
-   "url": "https://mangadex.org/chapter/94b96a9d-89ab-4ccc-a476-52ed7241c092",
+   "id": "6a388b5951c7",
+   "title": "【漫画更新】Ore no Genjitsu wa Ren'ai Game?? ~Ka to Omottara Inochigake no Game datta~ 第 1.2 话",
+   "url": "https://mangadex.org/chapter/d5c8c237-ef20-432b-9921-5b1990c8820d",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-01T01:16:13+08:00",
+   "published": "2026-09-01T09:00:37+08:00",
    "summary": ""
   }
  ]
