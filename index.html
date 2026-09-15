@@ -7,233 +7,154 @@
 <meta name="description" content="每日自动聚合动画·漫画·游戏·轻小说四大领域资讯">
 <link rel="alternate" type="application/rss+xml" title="ACGN 日報" href="feed.xml">
 <style>
+  /* 极光 Aurora：深色流动光斑 + 半透明卡片，无描边 */
   :root{
-    --paper:#F2F3EE;      /* 冷调新闻纸 */
-    --ink:#171A21;        /* 墨 */
-    --ink-soft:#5A5F6B;
-    --rule:#C9CCC2;       /* 细分栏线 */
-    --a:#DD4530;          /* 動 朱 */
-    --c:#1F5AC8;          /* 漫 琉璃蓝 */
-    --g:#0E8A66;          /* 遊 松绿 */
-    --n:#7A4BC8;          /* 小 堇紫 */
-    --gen:#8A6D3B;        /* 综合 茶 */
-    --mono:"SFMono-Regular","JetBrains Mono","Cascadia Mono",Consolas,monospace;
-    --sans:"PingFang SC","Hiragino Sans GB","Source Han Sans SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;
-    --serif:"Hiragino Mincho ProN","Source Han Serif SC","Noto Serif CJK SC","SimSun",serif;
+    --bg:#08080F; --ink:#F3F1FA; --soft:rgba(243,241,250,.56); --faint:rgba(243,241,250,.34);
+    --glass:rgba(255,255,255,.05); --glass-h:rgba(255,255,255,.09);
+    --a:#FF7EB3; --c:#6FA9FF; --g:#52E0AE; --n:#B990FF; --gen:#FFC46E;
+    --sans:"Inter","Segoe UI Variable Display","Segoe UI",-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+    --ease:cubic-bezier(.22,.8,.24,1);
+    interpolate-size:allow-keywords;
+    color-scheme:dark;
   }
   *{margin:0;padding:0;box-sizing:border-box}
-  html{background:var(--paper)}
-  body{
-    font-family:var(--sans);color:var(--ink);
-    max-width:1080px;margin:0 auto;padding:0 20px 80px;
-    -webkit-font-smoothing:antialiased;
-  }
+  html{background:var(--bg)}
+  body{color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden;min-height:100vh}
   a{color:inherit;text-decoration:none}
-  a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+  button,input,select{font:inherit;color:inherit}
+  :focus-visible{outline:2px solid var(--c);outline-offset:3px;border-radius:12px}
+  [data-c=anime]{--k:var(--a)} [data-c=comic]{--k:var(--c)} [data-c=game]{--k:var(--g)}
+  [data-c=novel]{--k:var(--n)} [data-c=general]{--k:var(--gen)} [data-c=all]{--k:var(--ink)}
 
-  /* ---------- 报头 ---------- */
-  header{
-    display:flex;align-items:flex-end;justify-content:space-between;gap:16px;
-    padding:34px 0 14px;border-bottom:3px solid var(--ink);
-  }
-  .masthead .kicker{
-    font-family:var(--mono);font-size:11px;letter-spacing:.22em;
-    color:var(--ink-soft);text-transform:uppercase;margin-bottom:6px;
-  }
-  .masthead h1{
-    font-family:var(--serif);font-weight:900;font-size:clamp(34px,6vw,54px);
-    letter-spacing:.06em;line-height:1;
-  }
-  .masthead h1 .four{display:inline-flex;gap:.08em;margin-right:.18em}
-  .masthead h1 .four b{font-family:var(--mono);font-size:.62em;align-self:flex-start;line-height:1.7}
-  .masthead h1 .four b:nth-child(1){color:var(--a)}
-  .masthead h1 .four b:nth-child(2){color:var(--c)}
-  .masthead h1 .four b:nth-child(3){color:var(--g)}
-  .masthead h1 .four b:nth-child(4){color:var(--n)}
-  .dateline{text-align:right;font-family:var(--mono);font-size:12px;color:var(--ink-soft);line-height:1.9}
-  .dateline strong{display:block;font-size:20px;color:var(--ink);letter-spacing:.05em}
+  /* 背景光斑 */
+  .sky{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+  .sky span{position:absolute;width:62vmax;height:62vmax;border-radius:50%;filter:blur(100px);opacity:.42;
+    animation:drift 30s ease-in-out infinite alternate}
+  .sky span:nth-child(1){background:#6A35F0;left:-18vmax;top:-24vmax}
+  .sky span:nth-child(2){background:#FF4A96;right:-24vmax;top:6vmax;animation-duration:36s;animation-delay:-10s;opacity:.3}
+  .sky span:nth-child(3){background:#1AA8FF;left:18vmax;bottom:-34vmax;animation-duration:42s;animation-delay:-20s;opacity:.32}
+  @keyframes drift{50%{transform:translate(6vmax,5vmax) scale(1.12)}100%{transform:translate(-4vmax,8vmax) scale(.95)}}
 
-  /* ---------- 统计条 ---------- */
-  .statbar{
-    display:flex;flex-wrap:wrap;gap:0;border-bottom:1px solid var(--rule);
-    font-family:var(--mono);font-size:12px;
-  }
-  .statbar span{padding:8px 14px 8px 0;margin-right:14px;color:var(--ink-soft)}
-  .statbar i{font-style:normal;font-weight:700;color:var(--ink)}
-  .demo-flag{background:var(--ink);color:var(--paper);padding:8px 10px !important;margin-right:14px}
+  .page{max-width:1200px;margin:0 auto;padding:18px 24px 90px}
 
-  /* ---------- 主体：书脊 + 内容 ---------- */
-  .layout{display:grid;grid-template-columns:64px 1fr;gap:28px;margin-top:22px}
+  /* 悬浮顶栏 */
+  .bar{position:sticky;top:14px;z-index:20;display:flex;align-items:center;gap:14px;padding:8px 8px 8px 22px;border-radius:999px;
+    background:rgba(18,18,30,.5);backdrop-filter:blur(24px) saturate(1.5);-webkit-backdrop-filter:blur(24px) saturate(1.5);
+    box-shadow:0 10px 40px rgba(0,0,0,.35)}
+  .logo{font-weight:800;font-size:18px;letter-spacing:-.02em;white-space:nowrap}
+  .logo b{background:linear-gradient(90deg,var(--a),var(--n),var(--c));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .logo span{color:var(--soft);font-weight:600;margin-left:4px}
+  .track{position:relative;display:flex;gap:2px;padding:4px;border-radius:999px;overflow-x:auto;scrollbar-width:none;min-width:0}
+  .track::-webkit-scrollbar{display:none}
+  .track::before{content:"";position:absolute;top:4px;bottom:4px;left:var(--ix,4px);width:var(--iw,0);border-radius:999px;
+    background:rgba(255,255,255,.12);transition:left .5s var(--ease),width .5s var(--ease)}
+  .track button{position:relative;z-index:1;border:0;background:none;padding:7px 15px;border-radius:999px;color:var(--soft);
+    font-weight:600;font-size:14px;cursor:pointer;white-space:nowrap;transition:color .3s}
+  .track button:hover,.track button[aria-pressed=true]{color:var(--ink)}
+  .track.sm button{padding:6px 11px;font-size:12.5px}
+  .bar .grow{flex:1}
+  .search{width:200px;border:0;border-radius:999px;background:rgba(255,255,255,.07);padding:9px 16px;transition:width .5s var(--ease),background .3s}
+  .search:focus{outline:none;width:260px;background:rgba(255,255,255,.12)}
+  .search::placeholder{color:var(--faint)}
 
-  nav.spine{position:sticky;top:16px;align-self:start;display:flex;flex-direction:column;gap:8px}
-  nav.spine button{
-    writing-mode:vertical-rl;text-orientation:mixed;
-    font-family:var(--serif);font-weight:700;font-size:15px;letter-spacing:.3em;
-    padding:16px 0;width:44px;min-height:112px;
-    background:transparent;border:1px solid var(--rule);border-left:5px solid var(--tab,var(--ink));
-    color:var(--ink);cursor:pointer;transition:background .15s,color .15s;
-  }
-  nav.spine button:hover{background:#E7E8E1}
-  nav.spine button[aria-pressed="true"]{background:var(--tab,var(--ink));color:var(--paper);border-color:var(--tab,var(--ink))}
-  nav.spine button.t-all{--tab:var(--ink)}
-  nav.spine button.t-anime{--tab:var(--a)}
-  nav.spine button.t-comic{--tab:var(--c)}
-  nav.spine button.t-game{--tab:var(--g)}
-  nav.spine button.t-novel{--tab:var(--n)}
-  nav.spine button.t-general{--tab:var(--gen)}
+  /* 头条 */
+  .hero{padding:96px 0 56px;max-width:900px}
+  .kicker{display:flex;align-items:center;gap:10px;color:var(--soft);font-size:14px;font-weight:500}
+  .kicker .live{width:8px;height:8px;border-radius:50%;background:var(--g);box-shadow:0 0 12px var(--g);animation:pulse 2.4s ease-in-out infinite}
+  @keyframes pulse{50%{opacity:.35}}
+  .demo{display:inline-block;margin-top:14px;padding:8px 16px;border-radius:14px;font-size:13.5px;
+    background:color-mix(in srgb,var(--gen) 16%,transparent);color:var(--gen)}
+  .hero .cat{display:inline-block;margin-top:28px;color:var(--k);font-weight:650;font-size:14px}
+  .hero h1{font-size:clamp(32px,5.6vw,64px);line-height:1.12;font-weight:720;letter-spacing:-.035em;margin-top:10px}
+  .hero h1 a{background:linear-gradient(100deg,#fff 30%,var(--k) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .hero p{color:var(--soft);font-size:18px;margin-top:20px;max-width:36em}
+  .hero .go{display:inline-flex;align-items:center;gap:10px;margin-top:30px;padding:12px 22px;border-radius:999px;background:var(--glass-h);
+    font-weight:600;transition:background .3s,gap .4s var(--ease)}
+  .hero .go:hover{background:rgba(255,255,255,.16);gap:16px}
+  .hero .go small{color:var(--soft);font-weight:500}
 
-  /* ---------- 工具行 ---------- */
-  .tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
-  .tools input[type=search]{
-    flex:1;min-width:200px;padding:9px 12px;font-size:14px;font-family:var(--sans);
-    background:#FFFFFF;border:1px solid var(--rule);border-radius:0;color:var(--ink);
-  }
-  .tools select{
-    padding:9px 10px;font-family:var(--mono);font-size:12px;
-    background:#FFF;border:1px solid var(--rule);color:var(--ink);
-  }
+  /* 数字行 */
+  .stats{display:flex;flex-wrap:wrap;gap:8px 44px;margin-bottom:48px}
+  .stats button{border:0;background:none;cursor:pointer;text-align:left;color:var(--soft);transition:color .3s}
+  .stats button b{display:block;font-size:44px;font-weight:300;letter-spacing:-.03em;line-height:1.05;color:var(--ink);transition:color .3s}
+  .stats button span::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--k);margin-right:7px;vertical-align:2px}
+  .stats button:hover b,.stats button[aria-pressed=true] b{color:var(--k)}
+  .stats button[aria-pressed=true]{color:var(--ink)}
 
-  /* ---------- 条目 ---------- */
-  ol.news{list-style:none}
-  ol.news li{
-    display:grid;grid-template-columns:34px 1fr auto;gap:12px;align-items:baseline;
-    padding:13px 2px;border-bottom:1px solid var(--rule);
-  }
-  .badge{
-    font-family:var(--serif);font-weight:800;font-size:15px;line-height:26px;
-    width:26px;height:26px;text-align:center;color:#fff;align-self:start;
-  }
-  .b-anime{background:var(--a)} .b-comic{background:var(--c)}
-  .b-game{background:var(--g)}  .b-novel{background:var(--n)} .b-general{background:var(--gen)}
-  .item-main a.title{font-size:15.5px;font-weight:600;line-height:1.55}
-  .item-main a.title:hover{text-decoration:underline;text-underline-offset:3px}
-  .item-main .summary{margin-top:3px;font-size:12.5px;color:var(--ink-soft);line-height:1.6}
-  .meta{font-family:var(--mono);font-size:11px;color:var(--ink-soft);text-align:right;white-space:nowrap}
-  .meta .src{display:block;color:var(--ink)}
-  .lang-tag{border:1px solid var(--rule);padding:0 4px;margin-left:6px}
-  .mt-tag{border:1px dashed var(--rule);padding:0 4px;margin-left:4px;color:var(--ink-soft)}
+  /* 卡片瀑布流 */
+  .grid{display:grid;grid-template-columns:repeat(var(--cols,3),minmax(0,1fr));gap:18px;align-items:start}
+  .grid .col{display:flex;flex-direction:column;gap:18px;min-width:0}
+  .card{padding:22px 22px 20px;border-radius:24px;background:var(--glass);
+    transition:background .4s var(--ease),transform .5s var(--ease),box-shadow .5s var(--ease)}
+  .card:hover{background:var(--glass-h);transform:translateY(-4px);box-shadow:0 24px 50px -28px color-mix(in srgb,var(--k) 70%,transparent)}
+  .card .hd{display:flex;justify-content:space-between;font-size:12.5px;color:var(--faint)}
+  .card .hd .c{color:var(--k);font-weight:650}
+  .card h3{font-size:16.5px;font-weight:600;line-height:1.5;margin-top:10px;overflow-wrap:anywhere}
+  .card h3 a{transition:color .25s} .card h3 a:hover{color:var(--k)}
+  .card p{color:var(--soft);font-size:14px;margin-top:8px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .card .ft{margin-top:14px;font-size:12.5px;color:var(--faint);display:flex;gap:10px;flex-wrap:wrap}
+  .card .ft .src{color:var(--soft)}
+  .grid.anim .card{animation:rise .8s var(--ease) both;animation-delay:calc(var(--i,0)*30ms)}
+  .hero.anim{animation:rise .9s var(--ease) both}
+  @keyframes rise{from{opacity:0;transform:translateY(16px)}}
 
-  /* 界面语言切换 */
-  .langsw{display:flex;border:1px solid var(--rule);background:#FFF}
-  .langsw button{
-    padding:9px 13px;font-family:var(--mono);font-size:12px;
-    background:transparent;border:none;border-right:1px solid var(--rule);
-    color:var(--ink);cursor:pointer;
-  }
-  .langsw button:last-child{border-right:none}
-  .langsw button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+  .empty{padding:80px 0;text-align:center;color:var(--soft)}
+  .empty b{display:block;color:var(--ink);font-size:22px;font-weight:600;margin-bottom:6px}
+  footer{margin-top:70px;text-align:center;color:var(--faint);font-size:13px;line-height:1.9}
+  footer a{text-decoration:underline;text-underline-offset:3px}
+  select{border:0;border-radius:999px;background:rgba(255,255,255,.07);padding:8px 12px;cursor:pointer}
+  select option{background:#15151f}
 
-  /* 可展开摘要 */
-  details.sumbox{margin-top:3px}
-  details.sumbox summary{
-    cursor:pointer;font-family:var(--mono);font-size:11px;color:var(--ink-soft);
-    list-style:none;user-select:none;display:inline-block;
+  @media (max-width:900px){
+    .bar{flex-wrap:wrap;border-radius:26px;padding:10px 10px 10px 18px}
+    .bar .grow{display:none}
+    #cats{order:5;width:100%}
+    .search{flex:1;width:auto;min-width:0} .search:focus{width:auto}
   }
-  details.sumbox summary::-webkit-details-marker{display:none}
-  details.sumbox summary::before{content:"▸ "}
-  details.sumbox[open] summary::before{content:"▾ "}
-  details.sumbox summary:hover{color:var(--ink)}
-  details.sumbox .summary{margin-top:2px}
-
-  .empty{padding:60px 0;text-align:center;color:var(--ink-soft);font-size:14px}
-  .empty b{display:block;font-family:var(--serif);font-size:22px;color:var(--ink);margin-bottom:8px}
-
-  footer{
-    margin-top:44px;padding-top:14px;border-top:3px solid var(--ink);
-    font-family:var(--mono);font-size:11px;color:var(--ink-soft);line-height:2;
+  @media (max-width:600px){
+    .page{padding:12px 16px 70px}
+    .hero{padding:56px 0 40px}
+    .hero p{font-size:16px}
+    .stats{gap:6px 26px}
+    .stats button b{font-size:32px}
   }
-
-  @media (max-width:720px){
-    .layout{grid-template-columns:1fr;gap:14px}
-    nav.spine{position:static;flex-direction:row;overflow-x:auto}
-    nav.spine button{writing-mode:horizontal-tb;min-height:0;width:auto;padding:8px 14px;
-      border-left:1px solid var(--rule);border-top:4px solid var(--tab,var(--ink));letter-spacing:.15em}
-    ol.news li{grid-template-columns:28px 1fr}
-    .meta{grid-column:2;text-align:left;margin-top:2px}
-    .meta .src{display:inline;margin-right:8px}
-  }
-  @media (prefers-reduced-motion: reduce){*{transition:none !important}}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 </head>
 <body>
-
-<header>
-  <div class="masthead">
-    <div class="kicker">DAILY DIGEST · ANIME / COMIC / GAME / NOVEL</div>
-    <h1><span class="four"><b>A</b><b>C</b><b>G</b><b>N</b></span>日報</h1>
+<div class="sky" aria-hidden="true"><span></span><span></span><span></span></div>
+<div class="page">
+  <div class="bar">
+    <div class="logo"><b>ACGN</b><span>日報</span></div>
+    <nav class="track" id="cats" aria-label="领域">
+      <button data-cat="all"><span data-t="all"></span></button>
+      <button data-cat="anime"><span data-t="anime"></span></button>
+      <button data-cat="comic"><span data-t="comic"></span></button>
+      <button data-cat="game"><span data-t="game"></span></button>
+      <button data-cat="novel"><span data-t="novel"></span></button>
+      <button data-cat="general"><span data-t="general"></span></button>
+    </nav>
+    <span class="grow"></span>
+    <input class="search" type="search" id="q" aria-label="搜索">
+    <select id="archive" aria-label="往期"><option value="">今日</option></select>
+    <div class="track sm" id="lang" role="group" aria-label="语言"><button data-lang="zh">中</button><button data-lang="ja">日</button><button data-lang="en">EN</button></div>
   </div>
-  <div class="dateline">
-    <strong id="d-date">----.--.--</strong>
-    <span id="d-gen">数据加载中…</span>
-  </div>
-</header>
 
-<div class="statbar" id="statbar"></div>
-
-<div class="layout">
-  <nav class="spine" aria-label="领域筛选">
-    <button class="t-all"     data-cat="all"     aria-pressed="true">全部</button>
-    <button class="t-anime"   data-cat="anime"   aria-pressed="false">動畫</button>
-    <button class="t-comic"   data-cat="comic"   aria-pressed="false">漫畫</button>
-    <button class="t-game"    data-cat="game"    aria-pressed="false">遊戲</button>
-    <button class="t-novel"   data-cat="novel"   aria-pressed="false">小說</button>
-    <button class="t-general" data-cat="general" aria-pressed="false">綜合</button>
-  </nav>
-
-  <main>
-    <div class="tools">
-      <div class="langsw" role="group" aria-label="界面语言">
-        <button data-lang="zh" aria-pressed="true">中</button>
-        <button data-lang="ja" aria-pressed="false">日</button>
-        <button data-lang="en" aria-pressed="false">EN</button>
-      </div>
-      <input type="search" id="q" placeholder="搜索标题 / 来源…" aria-label="搜索资讯">
-      <select id="archive" aria-label="查看往期"><option value="">今日</option></select>
-    </div>
-    <ol class="news" id="list"></ol>
-    <div class="empty" id="empty" hidden><b>今日无此栏目消息</b>换个领域或清空搜索试试</div>
-  </main>
+  <section class="hero" id="hero"></section>
+  <div class="stats" id="stats"></div>
+  <main class="grid" id="grid"></main>
+  <div class="empty" data-empty hidden></div>
+  <footer>本站由 GitHub Actions 每日自动聚合公开 RSS / API 生成，仅收录标题与链接并注明出处，点击跳转原文 · <a href="feed.xml">RSS 订阅</a><br>
+    数据源：Anime News Network · コミックナタリー · 4Gamer · AUTOMATON · 机核 · 触乐 · ラノベニュース · AniList · Bangumi · MangaDex · GIGAZINE 等</footer>
 </div>
 
-<footer>
-  本站由 GitHub Actions 每日自动聚合公开 RSS / API 生成，仅收录标题与链接并注明出处，点击跳转原文。<a href="feed.xml" style="text-decoration:underline">RSS 订阅</a><br>
-  数据源：Anime News Network · コミックナタリー · 4Gamer · AUTOMATON · 机核 · 触乐 · ラノベニュース · AniList · Bangumi · MangaDex · GIGAZINE 等
-</footer>
-
 <script>
-const CAT_CH = {anime:"動",comic:"漫",game:"遊",novel:"小",general:"綜"};
-/* 三语界面文案；条目正文的翻译由数据里的 i18n 字段提供（聚合时机翻） */
-const UI = {
-  zh:{all:"全部",anime:"動畫",comic:"漫畫",game:"遊戲",novel:"小說",general:"綜合",
-      search:"搜索标题 / 来源…",today:"今日",more:"内容提要",mt:"机翻",
-      updated:(t,n)=>`更新于 ${t} · 共 ${n} 条`,
-      empty:"今日无此栏目消息",emptySub:"换个领域或清空搜索试试",
-      demo:"示例数据 · 部署后自动替换为真实抓取结果",lang:{zh:"中",ja:"日",en:"英"}},
-  ja:{all:"すべて",anime:"アニメ",comic:"マンガ",game:"ゲーム",novel:"ノベル",general:"総合",
-      search:"タイトル / ソースを検索…",today:"本日",more:"あらすじ",mt:"自動訳",
-      updated:(t,n)=>`${t} 更新 · 全 ${n} 件`,
-      empty:"本日このカテゴリのニュースはありません",emptySub:"カテゴリや検索条件を変えてみてください",
-      demo:"サンプルデータ · デプロイ後に実データへ置き換わります",lang:{zh:"中",ja:"日",en:"英"}},
-  en:{all:"ALL",anime:"ANIME",comic:"COMIC",game:"GAME",novel:"NOVEL",general:"MISC",
-      search:"Search title / source…",today:"Today",more:"Summary",mt:"MT",
-      updated:(t,n)=>`Updated ${t} · ${n} items`,
-      empty:"No news in this section today",emptySub:"Try another section or clear the search",
-      demo:"Sample data · replaced by real data after deployment",lang:{zh:"ZH",ja:"JA",en:"EN"}}
-};
-let DATA = null, cat = "all", q = "";
-let uiLang = (()=>{ try{ return localStorage.getItem("acgn-lang") }catch(_){ return null } })() || "zh";
-if(!UI[uiLang]) uiLang = "zh";
-
-/* 取当前界面语言下的条目文案：有机翻用机翻，否则回退原文 */
-function tr(it){
-  const t = it.lang!==uiLang && it.i18n && it.i18n[uiLang];
-  return {
-    title: (t && t.title) || it.title,
-    summary: (t && t.summary) || it.summary || "",
-    translated: !!(t && t.title)
-  };
-}
-
+/* 设计模板共用内核：数据加载、筛选、搜索、三语、往期。
+   各模板只需实现 ACGN.start({ list(items, ctx), stat(ctx), chrome(ctx) }) 中的渲染函数。
+   约定的 DOM 钩子：[data-cat] 领域按钮、[data-lang] 语言按钮、[data-t=key] 界面文案、
+   #q 搜索框、#archive 往期下拉、[data-empty] 空状态容器。 */
+(function(){
+"use strict";
 /* 演示用示例数据：线上部署后由 data/latest.json 覆盖 */
 const SAMPLE = {
   date:"2026-07-20", generated_at:"2026-07-20T06:00:00+08:00", demo:true,
@@ -257,117 +178,214 @@ const SAMPLE = {
   ]
 };
 
-function fmtTime(iso){ try{ return iso.slice(11,16) }catch(e){ return "" } }
-/* 外部源标题/摘要一律转义后再进 innerHTML，防止恶意源注入脚本 */
-function esc(s){ return String(s??"").replace(/[&<>"']/g,
-  m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m])) }
-function safeUrl(u){ return /^https?:\/\//i.test(u||"") ? esc(u) : "#" }
+const BASE = "";
+const CATS = ["anime","comic","game","novel","general"];
+const CAT_CH = {anime:"動",comic:"漫",game:"遊",novel:"小",general:"綜"};
+const UI = {
+  zh:{all:"全部",anime:"動畫",comic:"漫畫",game:"遊戲",novel:"小說",general:"綜合",
+      search:"搜索标题 / 来源…",today:"今日",more:"内容提要",mt:"机翻",
+      updated:(t,n)=>`更新于 ${t} · 共 ${n} 条`,
+      empty:"今日无此栏目消息",emptySub:"换个领域或清空搜索试试",
+      demo:"示例数据 · 未能读取 data/latest.json",
+      demoFile:"示例数据 · 直接双击打开的页面读不到数据，请用本地服务器访问（python -m http.server）",
+      lang:{zh:"中",ja:"日",en:"英"},
+      week:["周日","周一","周二","周三","周四","周五","周六"]},
+  ja:{all:"すべて",anime:"アニメ",comic:"マンガ",game:"ゲーム",novel:"ノベル",general:"総合",
+      search:"タイトル / ソースを検索…",today:"本日",more:"あらすじ",mt:"自動訳",
+      updated:(t,n)=>`${t} 更新 · 全 ${n} 件`,
+      empty:"本日このカテゴリのニュースはありません",emptySub:"カテゴリや検索条件を変えてみてください",
+      demo:"サンプルデータ · data/latest.json を読み込めませんでした",
+      demoFile:"サンプルデータ · ファイルを直接開くとデータを読み込めません。ローカルサーバー（python -m http.server）経由で開いてください",
+      lang:{zh:"中",ja:"日",en:"英"},
+      week:["日曜","月曜","火曜","水曜","木曜","金曜","土曜"]},
+  en:{all:"ALL",anime:"ANIME",comic:"COMIC",game:"GAME",novel:"NOVEL",general:"MISC",
+      search:"Search title / source…",today:"Today",more:"Summary",mt:"MT",
+      updated:(t,n)=>`Updated ${t} · ${n} items`,
+      empty:"No news in this section today",emptySub:"Try another section or clear the search",
+      demo:"Sample data · could not load data/latest.json",
+      demoFile:"Sample data · pages opened from disk can't load data; serve locally (python -m http.server)",
+      lang:{zh:"ZH",ja:"JA",en:"EN"},
+      week:["SUN","MON","TUE","WED","THU","FRI","SAT"]}
+};
 
-function render(){
-  const L = UI[uiLang];
-  const list = document.getElementById("list");
-  const empty = document.getElementById("empty");
+let theme = null, DATA = null, cat = "all", q = "";
+let uiLang = (()=>{ try{ return localStorage.getItem("acgn-lang") }catch(_){ return null } })() || "zh";
+if(!UI[uiLang]) uiLang = "zh";
+
+/* 外部源标题/摘要一律转义后再进 innerHTML */
+const esc = s => String(s??"").replace(/[&<>"']/g,
+  m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+const safeUrl = u => /^https?:\/\//i.test(u||"") ? esc(u) : "#";
+const fmtTime = iso => (iso||"").slice(11,16);
+const weekday = date => new Date(date+"T12:00:00").getDay();
+
+function tr(it){
+  const t = it.lang!==uiLang && it.i18n && it.i18n[uiLang];
+  return { title:(t&&t.title)||it.title, summary:(t&&t.summary)||it.summary||"", translated:!!(t&&t.title) };
+}
+const byTime = (a,b) => (b.published||"").localeCompare(a.published||"");
+const byRank = (a,b) => (b.weight||0)-(a.weight||0) || byTime(a,b);
+
+function filtered(){
   const kw = q.trim().toLowerCase();
-  const items = DATA.items.filter(it=>{
+  return DATA.items.filter(it=>{
     if(cat!=="all" && it.category!==cat) return false;
     if(!kw) return true;
-    const t = tr(it);  // 原文与译文都可被搜索命中
-    return (it.title+" "+t.title+" "+it.source).toLowerCase().includes(kw);
+    return (it.title+" "+tr(it).title+" "+it.source).toLowerCase().includes(kw);
   });
-  list.innerHTML = items.map(it=>{
-    const t = tr(it);
-    return `
-    <li>
-      <span class="badge b-${esc(it.category)}">${CAT_CH[it.category]||"·"}</span>
-      <div class="item-main">
-        <a class="title" href="${safeUrl(it.url)}" target="_blank" rel="noopener"${t.translated?` title="${esc(it.title)}"`:""}>${esc(t.title)}</a>
-        ${t.summary ? `<details class="sumbox"><summary>${L.more}</summary><div class="summary">${esc(t.summary)}</div></details>` : ""}
-      </div>
-      <div class="meta">
-        <span class="src">${esc(it.source)}</span>
-        ${fmtTime(it.published)}<span class="lang-tag">${L.lang[it.lang]||esc(it.lang)}</span>${t.translated?`<span class="mt-tag">${L.mt}</span>`:""}
-      </div>
-    </li>`}).join("");
-  empty.hidden = items.length > 0;
 }
 
-/* 统计条与"更新于"（依赖数据，随语言/数据变化重绘） */
-function renderStat(){
-  const L = UI[uiLang], c = DATA.categories || {};
-  document.getElementById("d-gen").textContent =
-    L.updated((DATA.generated_at||"").slice(11,16), DATA.items.length);
-  document.getElementById("statbar").innerHTML =
-    (DATA.demo ? `<span class="demo-flag">${L.demo}</span>` : "") +
-    ["anime","comic","game","novel","general"]
-      .map(k=>`<span>${L[k]} <i>${c[k]||0}</i></span>`).join("");
+function ctx(){
+  return { L:UI[uiLang], lang:uiLang, cat, q, data:DATA, CATS, CAT_CH,
+           esc, safeUrl, fmtTime, tr, byTime, byRank, weekday };
 }
 
-/* 静态界面文案（不依赖数据） */
+/* 滑块指示器：容器上写 --ix/--iw，由 CSS 画出跟随选中项滑动的背景 */
+const indicators = new Set();
+function indicator(el){ if(el){ indicators.add(el); requestAnimationFrame(syncIndicators); } }
+function syncIndicators(){
+  indicators.forEach(el=>{
+    const b = el.querySelector("[aria-pressed=true]"); if(!b) return;
+    el.style.setProperty("--ix", b.offsetLeft+"px");
+    el.style.setProperty("--iw", b.offsetWidth+"px");
+  });
+}
+/* 瀑布流：按估算高度把卡片放进最矮的一列，阅读顺序仍大致按行从左到右（CSS columns 会变成按列从上到下） */
+const masonries = new Set();
+function masonry(el, cards, min=300, gap=18){
+  el._m = {cards, min, gap}; masonries.add(el); layoutMasonry(el);
+}
+function layoutMasonry(el){
+  const {cards, min, gap} = el._m;
+  const n = Math.max(1, Math.floor((el.clientWidth + gap) / (min + gap)));
+  const cols = Array.from({length:n}, ()=>({h:0, html:[]}));
+  cards.forEach(c=>{
+    const col = cols.reduce((a,b)=> b.h < a.h - 1 ? b : a);
+    col.html.push(c.html); col.h += c.h;
+  });
+  el.style.setProperty("--cols", n);
+  el.innerHTML = cols.map(c=>`<div class="col">${c.html.join("")}</div>`).join("");
+  el._n = n;
+}
+window.addEventListener("resize", ()=>{
+  syncIndicators();
+  masonries.forEach(el=>{
+    const {min, gap} = el._m;
+    if(Math.max(1, Math.floor((el.clientWidth + gap) / (min + gap))) !== el._n) layoutMasonry(el);
+  });
+});
+if(document.fonts) document.fonts.ready.then(syncIndicators);
+
+let animKey = "";
+function render(){
+  if(!DATA) return;
+  const items = filtered();
+  /* 只在切栏目/语言/数据时播放入场动画，输入搜索词时不闪 */
+  const key = cat+"|"+uiLang+"|"+DATA.generated_at+"|"+DATA.date;
+  const c = ctx(); c.animate = key!==animKey; animKey = key;
+  theme.list(items, c);
+  document.querySelectorAll("[data-empty]").forEach(e=> e.hidden = items.length>0);
+  syncIndicators();
+}
+function renderStat(){ if(DATA && theme.stat) theme.stat(ctx()); syncIndicators(); }
 function renderChrome(){
   const L = UI[uiLang];
-  document.querySelectorAll("nav.spine button").forEach(b=>{
-    b.textContent = L[b.dataset.cat==="all" ? "all" : b.dataset.cat] || b.textContent;
+  document.querySelectorAll("[data-t]").forEach(e=>{
+    const v = L[e.dataset.t]; if(typeof v==="string") e.textContent = v;
   });
-  document.getElementById("q").placeholder = L.search;
-  const todayOpt = document.querySelector("#archive option[value='']");
-  if(todayOpt) todayOpt.textContent = L.today;
-  document.getElementById("empty").innerHTML = `<b>${L.empty}</b>${L.emptySub}`;
-  document.querySelectorAll(".langsw button").forEach(b=>
-    b.setAttribute("aria-pressed", String(b.dataset.lang===uiLang)));
+  const qi = document.getElementById("q"); if(qi) qi.placeholder = L.search;
+  const today = document.querySelector("#archive option[value='']"); if(today) today.textContent = L.today;
+  document.querySelectorAll("[data-empty]").forEach(e=> e.innerHTML = `<b>${L.empty}</b><span>${L.emptySub}</span>`);
+  document.querySelectorAll("[data-lang]").forEach(b=> b.setAttribute("aria-pressed", String(b.dataset.lang===uiLang)));
   document.documentElement.lang = {zh:"zh-CN",ja:"ja",en:"en"}[uiLang];
+  if(theme.chrome) theme.chrome(ctx());
+  syncIndicators();
 }
 
+function setCat(c){
+  cat = c;
+  document.querySelectorAll("[data-cat]").forEach(b=> b.setAttribute("aria-pressed", String(b.dataset.cat===c)));
+  render();
+}
 function setLang(l){
   if(!UI[l]) return;
   uiLang = l;
   try{ localStorage.setItem("acgn-lang", l) }catch(_){}
-  renderChrome();
-  if(DATA){ renderStat(); render(); }
+  renderChrome(); renderStat(); render();
 }
+function mount(data){ DATA = data; renderStat(); render(); }
 
-function mount(data){
-  DATA = data;
-  document.getElementById("d-date").textContent = data.date.replaceAll("-",".");
-  renderStat();
-  render();
-}
-
-/* 交互 */
-document.querySelectorAll("nav.spine button").forEach(b=>{
-  b.addEventListener("click",()=>{
-    document.querySelectorAll("nav.spine button").forEach(x=>x.setAttribute("aria-pressed","false"));
-    b.setAttribute("aria-pressed","true");
-    cat = b.dataset.cat; render();
-  });
-});
-document.querySelectorAll(".langsw button").forEach(b=>
-  b.addEventListener("click", ()=>setLang(b.dataset.lang)));
-renderChrome();
-document.getElementById("q").addEventListener("input",e=>{ q=e.target.value; render(); });
-document.getElementById("archive").addEventListener("change",async e=>{
-  const v = e.target.value;
-  if(!v){ loadLatest(); return; }
-  try{ mount(await (await fetch(`data/archive/${v}.json`)).json()); }catch(_){}
-});
-
-/* 数据加载：线上读 latest.json，失败则用示例数据 */
 async function loadLatest(){
   try{
-    const r = await fetch("data/latest.json",{cache:"no-store"});
+    const r = await fetch(BASE+"data/latest.json",{cache:"no-store"});
     if(!r.ok) throw 0;
     mount(await r.json());
   }catch(_){ mount(SAMPLE); }
 }
-(async ()=>{
+
+function start(t){
+  theme = t;
+  document.addEventListener("click", e=>{
+    const c = e.target.closest("[data-cat]"); if(c){ setCat(c.dataset.cat); return; }
+    const l = e.target.closest("[data-lang]"); if(l){ setLang(l.dataset.lang); }
+  });
+  const qi = document.getElementById("q");
+  if(qi) qi.addEventListener("input", e=>{ q = e.target.value; render(); });
+  const sel = document.getElementById("archive");
+  if(sel) sel.addEventListener("change", async e=>{
+    const v = e.target.value;
+    if(!v){ loadLatest(); return; }
+    try{ mount(await (await fetch(`${BASE}data/archive/${v}.json`)).json()); }catch(_){}
+  });
+  renderChrome();
+  setCat("all");
   loadLatest();
-  try{
-    const idx = await (await fetch("data/archive_index.json")).json();
-    const sel = document.getElementById("archive");
-    idx.slice(0,30).forEach(d=>{
-      const o=document.createElement("option"); o.value=d; o.textContent=d; sel.appendChild(o);
-    });
-  }catch(_){}
+  if(sel) fetch(BASE+"data/archive_index.json").then(r=>r.json()).then(idx=>{
+    idx.slice(0,30).forEach(d=>{ const o=document.createElement("option"); o.value=d; o.textContent=d; sel.appendChild(o); });
+  }).catch(()=>{});
+}
+
+window.ACGN = { start, setCat, setLang, indicator, masonry, get cat(){ return cat } };
 })();
+</script>
+<script>
+const S = {zh:{top:"今日头条",read:"阅读原文"},ja:{top:"トップニュース",read:"記事を読む"},en:{top:"Top story",read:"Read"}};
+ACGN.indicator(document.getElementById("cats"));
+ACGN.indicator(document.getElementById("lang"));
+ACGN.start({
+  stat({data,L,CATS}){
+    const c = data.categories||{};
+    document.getElementById("stats").innerHTML =
+      `<button data-cat="all" data-c="all" aria-pressed="${ACGN.cat==="all"}"><b>${data.items.length}</b><span>${L.all}</span></button>` +
+      CATS.map(k=>`<button data-cat="${k}" data-c="${k}" aria-pressed="${ACGN.cat===k}"><b>${c[k]||0}</b><span>${L[k]}</span></button>`).join("");
+  },
+  list(items,{L,lang,esc,safeUrl,fmtTime,tr,byRank,byTime,data,animate,weekday}){
+    const hero = document.getElementById("hero"), grid = document.getElementById("grid");
+    const top = [...items].sort(byRank)[0];
+    const [y,m,d] = data.date.split("-");
+    const kicker = `<div class="kicker"><span class="live"></span>${esc(`${y} · ${m} · ${d}`)} · ${L.week[weekday(data.date)]||""} · ${L.updated((data.generated_at||"").slice(11,16), data.items.length)}</div>` +
+      (data.demo ? `<div class="demo">${location.protocol==="file:" ? L.demoFile : L.demo}</div>` : "");
+    hero.className = "hero" + (animate?" anim":"");
+    if(!top){ hero.innerHTML = kicker; grid.innerHTML = ""; return; }
+    const t = tr(top);
+    hero.dataset.c = top.category;
+    hero.innerHTML = kicker + `
+      <span class="cat">${S[lang].top} · ${L[top.category]||""}</span>
+      <h1><a href="${safeUrl(top.url)}" target="_blank" rel="noopener">${esc(t.title)}</a></h1>
+      ${t.summary?`<p>${esc(t.summary)}</p>`:""}
+      <a class="go" href="${safeUrl(top.url)}" target="_blank" rel="noopener">${S[lang].read} <small>${esc(top.source)}</small> →</a>`;
+    grid.className = "grid" + (animate?" anim":"");
+    ACGN.masonry(grid, items.filter(x=>x!==top).sort(byTime).map((it,i)=>{
+      const t = tr(it);
+      return {h: 4 + t.title.length/24 + (t.summary ? 3.2 : 0), html:`<article class="card" data-c="${esc(it.category)}" style="--i:${Math.min(i,15)}">
+        <div class="hd"><span class="c">${L[it.category]||""}</span><time>${(it.published||"").slice(5,10).replace("-","/")} ${fmtTime(it.published)}</time></div>
+        <h3><a href="${safeUrl(it.url)}" target="_blank" rel="noopener"${t.translated?` title="${esc(it.title)}"`:""}>${esc(t.title)}</a></h3>
+        ${t.summary?`<p>${esc(t.summary)}</p>`:""}
+        <div class="ft"><span class="src">${esc(it.source)}</span><span>${L.lang[it.lang]||esc(it.lang)}${t.translated?` · ${L.mt}`:""}</span></div>
+      </article>`};
+    }));
+  }
+});
 </script>
 </body>
 </html>
