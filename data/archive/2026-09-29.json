@@ -1,17 +1,22 @@
 {
  "date": "2026-09-29",
- "generated_at": "2026-09-29T01:51:44+08:00",
+ "generated_at": "2026-09-29T09:31:11+08:00",
  "count": 160,
  "categories": {
-  "anime": 42,
-  "comic": 13,
-  "game": 76,
-  "novel": 15,
-  "general": 14
+  "anime": 50,
+  "comic": 10,
+  "game": 72,
+  "novel": 18,
+  "general": 10
  },
  "sources": [
   {
    "name": "Anime News Network",
+   "count": 15,
+   "error": null
+  },
+  {
+   "name": "AUTOMATON",
    "count": 15,
    "error": null
   },
@@ -31,11 +36,6 @@
    "error": null
   },
   {
-   "name": "AUTOMATON",
-   "count": 15,
-   "error": null
-  },
-  {
    "name": "ラノベニュースオンライン",
    "count": 15,
    "error": null
@@ -46,18 +46,18 @@
    "error": null
   },
   {
+   "name": "anilist_airing",
+   "count": 4,
+   "error": null
+  },
+  {
    "name": "机核 GCORES",
    "count": 15,
    "error": null
   },
   {
-   "name": "anilist_airing",
-   "count": 3,
-   "error": null
-  },
-  {
    "name": "bangumi_calendar",
-   "count": 9,
+   "count": 10,
    "error": null
   },
   {
@@ -77,6 +77,72 @@
   }
  ],
  "items": [
+  {
+   "id": "ceb8a981a19c",
+   "title": "Hirayasumi Anime Unveils Teaser, Key Visual, Cast",
+   "url": "https://www.animenewsnetwork.com/news/2026-09-28/hirayasumi-anime-unveils-teaser-key-visual-cast/.242284",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-09-29T07:42:22+08:00",
+   "summary": "Yuma Uchida, Mayu Takahashi, Rikako Aikawa star in October 7 human drama anime"
+  },
+  {
+   "id": "ce5b79b29364",
+   "title": "Amata Games' Shinjuku Anomaly Game Reveals September 30 Launch in Trailer",
+   "url": "https://www.animenewsnetwork.com/news/2026-09-28/amata-games-shinjuku-anomaly-game-reveals-september-30-launch-in-trailer/.242280",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-09-29T06:00:00+08:00",
+   "summary": "Horror visual novel features anomaly photography gameplay for PC"
+  },
+  {
+   "id": "c6bc51d91e46",
+   "title": "Smile Up President Noriyuki Higashiyama Steps Down",
+   "url": "https://www.animenewsnetwork.com/news/2026-09-28/smile-up-president-noriyuki-higashiyama-steps-down/.242274",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-09-29T05:00:00+08:00",
+   "summary": "Smile Up continues to handle compensation measures for sexual abuse victims of Johnny Kitagawa"
+  },
+  {
+   "id": "a76535a87d0d",
+   "title": "Cells at Work! Gets Dental Spinoff Manga",
+   "url": "https://www.animenewsnetwork.com/news/2026-09-28/cells-at-work-gets-dental-spinoff-manga/.242279",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-09-29T04:00:00+08:00",
+   "summary": "Hataraku Saibō Dental debuts on October 26"
+  },
+  {
+   "id": "c878371a68f7",
+   "title": "Captain Tsubasa: Rising Sun Finals Manga Resumes Serialization in October",
+   "url": "https://www.animenewsnetwork.com/news/2026-09-28/captain-tsubasa-rising-sun-finals-manga-resumes-serialization-in-october/.242277",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-09-29T03:00:00+08:00",
+   "summary": "Series entered hiatus after 100th chapter in May"
+  },
+  {
+   "id": "340a2e56b3c7",
+   "title": "Live-Action Street Fighter Film Previews Ken vs. Ryu Rivalry in New Trailer",
+   "url": "https://www.animenewsnetwork.com/news/2026-09-28/live-action-street-fighter-film-previews-ken-vs-ryu-rivalry-in-new-trailer/.242276",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-09-29T02:00:00+08:00",
+   "summary": "Film opens on October 16"
+  },
   {
    "id": "a4ef84096c89",
    "title": "Stalled Despera Anime Project Gets Manga",
@@ -241,6 +307,72 @@
    "weight": 9,
    "published": "2026-09-28T15:48:02+08:00",
    "summary": "Tsurushima takes over manga's artist Shikako who died in November 2025"
+  },
+  {
+   "id": "5611a2e72eb5",
+   "title": "GCノベルズ2026年9月刊行のラインナップをご紹介。『転生したら剣でした21』『ヴァルキリー・バレット3』など5冊",
+   "url": "https://ln-news.com/articles/126778",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-09-29T08:30:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "252f3fc91833",
+   "title": "サウジアラビア発の新イベント「Kingdom of Gaming」，2026年12月1日〜3日にリヤドで初開催。Savvy Games Group，Ubisoft，Robloxが“Global Gaming Leaders”として参画",
+   "url": "https://www.4gamer.net/games/991/G999110/20260928016/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-09-29T08:30:00+08:00",
+   "summary": "ゲーム産業の新たな国際イベント「KingdomofGaming」の第1回が，2026年12月1日から3日にかけて，サウジアラビア・リヤドで開催される。パブリッシャやデベロッパ，投資家，テクノロジー企業，そして成長を続ける同国のゲームエコシステムを一堂に集める，投資と産業成長にフォーカスしたイベントだ。"
+  },
+  {
+   "id": "f1552dc1f7c2",
+   "title": "『オーバーロード』ナザリック地下大墳墓の守護者統括「アルベド」のfigmaが2027年6月発売",
+   "url": "https://ln-news.com/articles/126419",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-09-29T07:00:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "b80295d5e186",
+   "title": "「AION2」正式サービス前夜の特別生放送は10月4日に配信。忘れずに見たい「今週の公式配信番組」ピックアップ",
+   "url": "https://www.4gamer.net/games/421/G042182/20260928027/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-09-29T07:00:00+08:00",
+   "summary": "「AION2」の生放送が正式サービス前夜である10月4日に実施される。今回もこの1週間で予定されている，ゲームに関連した公式配信番組を中心に，いくつかをピックアップして紹介しよう。"
+  },
+  {
+   "id": "253804a4c176",
+   "title": "［インタビュー］「俺はこの業界を，SEKIROの最高難度でプレイしてるんだ」―――Red Dunes Gamesの“CKO”であるSultan Al Darmaki氏が，フロム脳の超本音トークで業界をぶった切り",
+   "url": "https://www.4gamer.net/games/883/G088337/20260924002/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-09-29T06:30:00+08:00",
+   "summary": "筆者は仕事柄色んな人とインタビューするが，ここまで爽快に，皆が言わないけど思っていることを，バッサバッサと口にする人は珍しい。ゲームが本当に大好きなゲーマーにこそ読んでほしい，必読インタビューだ。"
+  },
+  {
+   "id": "a517892aea55",
+   "title": "『【やり直し】最強ダンジョン配信者！ 突然10年前の世界に戻ったので全てをやり直す！』のコミカライズ連載が開始",
+   "url": "https://ln-news.com/articles/126751",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-09-29T05:00:00+08:00",
+   "summary": ""
   },
   {
    "id": "05750068ccb8",
@@ -635,6 +767,83 @@
      "title": "Introducing the lineup of Glast NOVELS published in September 2026. 3 books including ``The Villainous Aristocrat of Destruction Flag, When I Prevented the Protagonist's Route, the Heroines Became Severely Attached''"
     }
    }
+  },
+  {
+   "id": "5bbdcc7638c4",
+   "title": "《坦克世界》X《毁灭战士》联动将于10月1日实装",
+   "url": "https://www.gcores.com/articles/220341",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-09-29T09:15:00+08:00",
+   "summary": "贝塞斯达宣布， 《坦克世界》将于10月1日至12日推出与《DOOM》联动的“战车远征：DOOM”特别章节活动。本次联动包含全新主题通行证、专属战车，以及来自《DOOM》宇宙的五位联动乘员。 活动核心奖励为英国IX阶加值重型战车“FV225 Collector”，配有“FV225 Mk. BFG”3D风格。 FV225 Collector 就如其外观一样剽悍。此为一辆带有浓厚《DOOM》气息的英雄车辆：坚固、凶猛，并随时准备来用其双管火炮蹂躏敌人。玩家只需完成全部40个通行证阶段，就能解锁该战车。 五名全新指挥官分别为毁灭战士、Doomguy、山谬尔海登、希拉指挥官与瓦伦，均配有原版语音。玩家在"
+  },
+  {
+   "id": "eb4fe2e58749",
+   "title": "《战神：劳菲》今日开启预购，预购奖励及豪华版内容揭晓",
+   "url": "https://www.gcores.com/articles/220340",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-09-29T09:05:00+08:00",
+   "summary": "索尼互动娱乐宣布，《战神：劳菲》将于今日10时开启预购。作为预购奖励，玩家可获得遗愿铠甲套装、弗兰克金叶外观以及游戏内资源包。豪华版额外提供暗黑炼金铠甲套装、暗黑炼金剑、暗黑炼金弓鳞和暗黑炼金催化剂，并包含数字迷你画集与官方原声带。 与此同时，索尼还揭晓了主角的全新武器“巨蛇之弓”。这款附魔弓箭可在休眠与拉弓状态间快速切换，兼顾近战与远程攻击。完全按下瞄准键可开启精准模式，增加射程与精度。命中敌人特定部位能限制敌人行动，为后续近战创造机会。玩家最多可蓄力发射5支箭，配合伙伴弗兰克的击飞技能使用。 若玩家半按瞄准键，则可进入腰射模式。这种快速射击玩法便于压制空中敌人，实现在不同武器与技能间无缝切"
+  },
+  {
+   "id": "1c1275f8e8a8",
+   "title": "因習村生活シム『ほの暮しの庭』アプデで農地拡張にもっふもふのウシなどいろいろ追加。カカシの残り日数が確認できるなど、遊びやすさも向上",
+   "url": "https://automaton-media.com/articles/newsjp/20260929-470484/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-09-29T09:00:01+08:00",
+   "summary": "日本一ソフトウェアは9月29日、『ほの暮しの庭』にてアップデートを実施した。"
+  },
+  {
+   "id": "2da4d4f24bbd",
+   "title": "『The Last of Us』、“2つの新プロジェクト”始動。Part IとPart IIを越えて“『The Last of Us』の正史”を拡張",
+   "url": "https://automaton-media.com/articles/newsjp/20260929-470483/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-09-29T08:58:44+08:00",
+   "summary": "『The Last of Us』に関する2つの新プロジェクトがごく初期段階にあることが発表された。"
+  },
+  {
+   "id": "fe62c8f1fbe4",
+   "title": "《巫师 3：狂猎》重制版公布配置要求及新内容介绍",
+   "url": "https://www.gcores.com/articles/220342",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-09-29T08:50:00+08:00",
+   "summary": "《巫师 3：狂猎》重制版将于今日登陆 PC（Steam、GOG、Epic 游戏商城、Battle.net）、PlayStation 5、Xbox Series X|S 和 Nintendo Switch 2。无论玩家此前购买的是实体版还是数字版游戏，游戏上线后均可在对应平台免费升级为重制版。官方同步公布了配置要求及新内容介绍，详情如下： <内嵌内容，请前往机核查看> 配置要求最低配置 画质预设：低 分辨率：1080p 预期帧率：30 处理器：Intel Core i5-8400 / AMD Ryzen 5 2600 显卡：NVIDIA GeForce GTX 1660* / AMD Radeo"
+  },
+  {
+   "id": "cdf2868b00b2",
+   "title": "基本プレイ無料『サカつく2026』のロードマップがどどんと公開。12月には育成特化&スカウトマン復活の「新サカつくモード」を引っ提げ『サカつく2027』へと大型アプデ",
+   "url": "https://automaton-media.com/articles/newsjp/20260929-470472/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-09-29T08:25:36+08:00",
+   "summary": "セガは9月28日、「サカつくTV #11」を放送した。大型アップデートとして12月に配信を予定しているVer3.0までのロードマップが公開された。"
+  },
+  {
+   "id": "d7d5fcc8f326",
+   "title": "いよいよ本日配信『ウィッチャー3 リマスター』は変更点ドカ盛り。スキルツリー刷新、装備の外見変更、アイテム重量無視オプション、PCの新要件などパッチノートお披露目",
+   "url": "https://automaton-media.com/articles/newsjp/20260929-470462/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-09-29T08:08:13+08:00",
+   "summary": "CD PROJEKT REDは9月29日、『ウィッチャー3 ワイルドハント リマスター』の主な変更点をまとめて発表した。"
   },
   {
    "id": "84d1ce333c74",
@@ -1444,7 +1653,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-29T01:51:03+08:00",
+   "published": "2026-09-29T09:30:30+08:00",
    "summary": ""
   },
   {
@@ -1455,7 +1664,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-29T01:51:03+08:00",
+   "published": "2026-09-29T09:30:30+08:00",
    "summary": ""
   },
   {
@@ -1466,7 +1675,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-29T01:51:03+08:00",
+   "published": "2026-09-29T09:30:30+08:00",
    "summary": ""
   },
   {
@@ -1477,7 +1686,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-29T01:51:03+08:00",
+   "published": "2026-09-29T09:30:30+08:00",
    "summary": ""
   },
   {
@@ -1488,7 +1697,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-29T01:51:03+08:00",
+   "published": "2026-09-29T09:30:30+08:00",
    "summary": ""
   },
   {
@@ -1499,7 +1708,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-29T01:51:03+08:00",
+   "published": "2026-09-29T09:30:30+08:00",
    "summary": ""
   },
   {
@@ -1510,7 +1719,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-29T01:51:03+08:00",
+   "published": "2026-09-29T09:30:30+08:00",
    "summary": ""
   },
   {
@@ -1521,7 +1730,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-29T01:51:03+08:00",
+   "published": "2026-09-29T09:30:30+08:00",
    "summary": ""
   },
   {
@@ -1532,7 +1741,18 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-09-29T01:51:03+08:00",
+   "published": "2026-09-29T09:30:30+08:00",
+   "summary": ""
+  },
+  {
+   "id": "10717464ab6e",
+   "title": "【今日更新】武神主宰 姬州篇",
+   "url": "https://bgm.tv/subject/708411",
+   "source": "Bangumi 每日放送",
+   "category": "anime",
+   "lang": "zh",
+   "weight": 6,
+   "published": "2026-09-29T09:30:30+08:00",
    "summary": ""
   },
   {
@@ -1543,7 +1763,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-09-29T01:51:02+08:00",
+   "published": "2026-09-29T09:30:30+08:00",
    "summary": ""
   },
   {
@@ -1554,7 +1774,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-09-29T01:51:02+08:00",
+   "published": "2026-09-29T09:30:30+08:00",
    "summary": ""
   },
   {
@@ -1565,173 +1785,74 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-09-29T01:51:02+08:00",
+   "published": "2026-09-29T09:30:30+08:00",
    "summary": ""
   },
   {
-   "id": "afde1f4fa37d",
-   "title": "9月29日配信『ウィッチャー3 ワイルドハント リマスター』ビジュアル強化やスキルツリー刷新など大幅改善パッチノート公開。PCのシステム要件更新も",
-   "url": "http://www.gamespark.jp/article/2026/09/29/172881.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "4a3f4d53fb7b",
+   "title": "【今日放送 20:30】きみが死ぬまで恋をしたい 第13集",
+   "url": "https://anilist.co/anime/187260",
+   "source": "AniList 放送表",
+   "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-09-29T00:17:57+08:00",
-   "summary": "9月29日19時配信。"
+   "published": "2026-09-29T09:30:30+08:00",
+   "summary": ""
   },
   {
-   "id": "cfe525414cbe",
-   "title": "マリオ風ステージで大群を蹴散らす横スクロール型タワーディフェンス『Hostile Architect』が注目",
-   "url": "http://www.gamespark.jp/article/2026/09/29/172880.html",
+   "id": "ff4b767aa725",
+   "title": "最大同接37万人超えのカオスな釣り×FPS『How to Fish』初のコンテンツ追加アプデ配信！複数のミニ島に新武器、新ミニボスが登場",
+   "url": "http://www.gamespark.jp/article/2026/09/29/172887.html",
    "source": "Game*Spark",
    "category": "game",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-09-28T23:34:46+08:00",
-   "summary": "悪意あふれる罠でヒーローを撃退！Steamでの成功次第でコンソール版の検討も"
+   "published": "2026-09-29T09:05:02+08:00",
+   "summary": "開発者インタビューで語られていたアップデートと思われるものが登場。"
   },
   {
-   "id": "f964a03f8c94",
-   "title": "『エースコンバット8』先行アクセス9月29日7時、正式発売10月2日7時から。ローンチトレイラー公開",
-   "url": "http://www.gamespark.jp/article/2026/09/28/172879.html",
+   "id": "222db05e7dac",
+   "title": "『ほの暮しの庭』無料アップデート第1弾配信！新家畜や農地拡張、家具カタログ機能など追加でQOLも向上",
+   "url": "http://www.gamespark.jp/article/2026/09/29/172886.html",
    "source": "Game*Spark",
    "category": "game",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-09-28T22:12:34+08:00",
-   "summary": "スピーディなシーンが描かれているローンチトレイラー。"
+   "published": "2026-09-29T09:00:03+08:00",
+   "summary": "無料アップデート第1弾では新たな家畜やキャンプ家具が加わるほか、カカシの残り日数表示や加工機の連続投入といった遊びやすさを高める改善も施されます。"
   },
   {
-   "id": "d0879fcab1a4",
-   "title": "ケモノ娘と恐妻に挟まれる養育シム『Family Time』ウィッシュリスト50万越え達成―バズリ続ける日本語対応の注目作",
-   "url": "http://www.gamespark.jp/article/2026/09/28/172878.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "2bc1225b95cd",
+   "title": "GIGAZINEの記事更新をチェックする手段は「ブックマーク」が41.9％で最多、年代での違いはあるのか？",
+   "url": "https://gigazine.net/news/20260929-gigazine-user-update-check/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-28T22:01:06+08:00",
-   "summary": "娘は可愛いけど狼ママは怖い―死と隣り合わせの養育シム"
+   "weight": 5,
+   "published": "2026-09-29T08:00:00+08:00",
+   "summary": "ブラウザのブックマークからサイトを開いたり、X(旧Twitter)などのSNSやニュースアプリで記事を見つけたり、常にページを開いておいたりとGIGAZINEの記事更新をチェックする方法は人それぞれ。GIGAZINEが2026年夏に実施したプレゼントアンケートの結果をもとに、読者が普段どのような手段で記事の更新をチェックしているのか、全体の傾向と年代別の違いを調べてみました。続きを読む..."
   },
   {
-   "id": "86e872c0489c",
-   "title": "スイッチ2で『ウィッチャー3』世界の雄大さをより実感！海外YouTubeチャンネルによるリマスター版と既存スイッチ版の比較映像公開",
-   "url": "http://www.gamespark.jp/article/2026/09/28/172877.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "ee4e3be0b7e5",
+   "title": "オランダとフランスの政府機関が脱アメリカ依存を目指してLinuxベースのNixOSを採用する動きを進めている",
+   "url": "https://gigazine.net/news/20260929-dawo-securix-linux-nixos/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-28T21:15:03+08:00",
-   "summary": "フレームレートについてもアナウンスされていた上限の40fpsを概ね維持するなど、確かなリマスターの効果をうかがえる結果となっています。"
+   "weight": 5,
+   "published": "2026-09-29T06:00:00+08:00",
+   "summary": "ヨーロッパの政府機関ではアメリカ製のOSやクラウドサービスへの依存からの脱却を目指す動きが進んでいます。こうした動きの一環として、オランダとフランスでLinuxベースのNixOSを採用する取り組みが進んでいます。続きを読む..."
   },
   {
-   "id": "b887aad64b6c",
-   "title": "『エースコンバット8』ベンチマーク公開―FHD100FPS越えは上位2枚のみの重量級",
-   "url": "http://www.gamespark.jp/article/2026/09/28/172876.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "1d612164238c",
+   "title": "「野球場で赤ちゃんとリュックを背負い食べ物を抱えるママを傍観するパパ」の動画が大炎上、関係を邪推するネット民にママが怒りの反論投稿",
+   "url": "https://gigazine.net/news/20260929-mom-viral-giants-clip/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-28T21:00:03+08:00",
-   "summary": "発売が近づく『エスコン8』ですが、なかなかの重量級タイトルのようです！"
-  },
-  {
-   "id": "d524f3532f04",
-   "title": "散らばった約2,000本の骨を拾い集める整理整頓シムがリリース。博物館で9体の恐竜標本を復元しよう―採れたて！本日のSteam注目ゲーム15選【2026年9月28日】",
-   "url": "http://www.gamespark.jp/article/2026/09/28/172875.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-28T20:30:03+08:00",
-   "summary": "Steamのユーザーレビューは「非常に好評」のスタート。"
-  },
-  {
-   "id": "d7004bfb99cd",
-   "title": "ウィッシュリスト25万件達成！美女も擦れ切る侵食世界2.5D脱出RPG『ボイドダイバー：アビスからの脱出』2027年1月正式リリースを予定",
-   "url": "http://www.gamespark.jp/article/2026/09/28/172874.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-28T19:30:03+08:00",
-   "summary": "リリースへ向けた今後のロードマップも公開されました。"
-  },
-  {
-   "id": "273cd7d5c755",
-   "title": "70年代イスタンブール舞台の『GTA』風オープンワールドアクション『ALATURKA』トレイラー！ ウィッシュリスト登録数1万7千件突破",
-   "url": "http://www.gamespark.jp/article/2026/09/28/172873.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-28T19:15:02+08:00",
-   "summary": "叔父のドネルケバブ店で見習いとして働く主人公が、合法的なケバブの配達だけでなく、地元の連中に持ちかけられた怪しい仕事をこなすこととなります。"
-  },
-  {
-   "id": "c3bc65b6117d",
-   "title": "【漫画じゃんげま】540.「マブちゲームショウ」の巻",
-   "url": "http://www.gamespark.jp/article/2026/09/28/172872.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-28T19:00:03+08:00",
-   "summary": "シューター女子のちょっぴりコミカルでドタバタでだらだらフレンドリーファイアな日常を描いた、Game*Sparkオリジナルの4コマ連載漫画『じゃんげま』。スマホゲーム&自堕落大臣の真渕真帆。めんどくさがりの彼女が「ゲームショウ」を開催した理由とは？"
-  },
-  {
-   "id": "9e01a346458b",
-   "title": "凶暴なウミウシ少女が豪快な技でガラスの敵を打ち砕くホラーアクションADV『Brokensides』発表！",
-   "url": "http://www.gamespark.jp/article/2026/09/28/172871.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-28T18:45:02+08:00",
-   "summary": "シュールな世界を探索し、行く手を阻むガラスのような敵を打ち砕き、この世界で何が起きているかを解き明かしていきます。"
-  },
-  {
-   "id": "5735a17ba39b",
-   "title": "世界中のインディーゲームが集まる「UKIYO GAME BAR」東京でプレオープン中。インディーゲームのイベント出展支える“業界の黒子”が365日遊べる場所を作った理由とは【インタビュー】",
-   "url": "http://www.gamespark.jp/article/2026/09/28/172870.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-28T18:30:03+08:00",
-   "summary": "世界中のインディーゲームが集まる「UKIYO GAME BAR」の狙いを聞きました。"
-  },
-  {
-   "id": "d041b1bc857c",
-   "title": "『サクラ大戦』30周年記念展が東京・京都で開催―描き下ろしキービジュアルのアクリルパネルやグッズや帝国&巴里華撃団のTシャツなどグッズも充実",
-   "url": "http://www.gamespark.jp/article/2026/09/28/172869.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-28T18:15:02+08:00",
-   "summary": "『サクラ大戦』30周年を記念した展示会が、2026年10月～2027年1月に東京・京都で開催！"
-  },
-  {
-   "id": "b0256df487c6",
-   "title": "怪物より怖いのは“街そのもの”―なぜ『The Sinking City 2』の水没都市アーカムはこんなにも怖いのか？ラヴクラフト原典から読み解く【特集】",
-   "url": "http://www.gamespark.jp/article/2026/09/28/172868.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-28T18:00:04+08:00",
-   "summary": "ラヴクラフト作品を見事凝縮した“歩ける悪夢”アーカムの世界を紐解く。"
-  },
-  {
-   "id": "bfb45b548a5f",
-   "title": "オフライン中も自動周回してくれる放置系3DダンジョンRPG『Dragon's Tear』ストアページ公開。クリア済み階層を周回して装備を集め地下100階にたどり着こう",
-   "url": "http://www.gamespark.jp/article/2026/09/28/172867.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-28T17:45:03+08:00",
-   "summary": "2027年第1四半期にリリース予定。"
+   "weight": 5,
+   "published": "2026-09-29T05:00:00+08:00",
+   "summary": "野球の試合中継で、「赤ちゃんとリュックを背負い食べ物を抱えてパパの元へ向かうママ」が映し出されたところ、インターネット上で「何もせず席でママと食べ物を待つだけのパパ」に対する批判の声が大量に投稿されるようになりました。しかし、これは完全に誤解であると、動画のママ本人が反論しています。続きを読む..."
   },
   {
    "id": "bf5238ed5372",
@@ -1811,234 +1932,113 @@
    "summary": "アサヒ飲料の炭酸水ブランド「ウィルキンソン」に、深みのあるグレープの香りとスパイス感のある味わいだという「ウィルキンソン タンサン クラフト グレープ」が、2026年9月15日(火)に登場しました。一体どのような炭酸水になっているのか気になったので、実際に飲んでみました。続きを読む..."
   },
   {
-   "id": "1a2e56f9fb54",
-   "title": "「塾代を払うよりChatGPTやGeminiを使って」と保護者に勧め、塾が教室を閉鎖へ",
-   "url": "https://gigazine.net/news/20260928-dymocks-tutoring-close-use-ai/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-09-28T16:15:00+08:00",
-   "summary": "子どもの成績を伸ばそうと塾に通わせている保護者に、塾の運営会社自身がChatGPTやGeminiの利用を勧めるという異例の事態が起きました。続きを読む..."
-  },
-  {
-   "id": "2fdd98257bae",
-   "title": "AIに「推測するな」と指示するだけで架空データが70％から20％に減少したという実験結果",
-   "url": "https://gigazine.net/news/20260928-ai-do-not-guess/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-09-28T15:30:00+08:00",
-   "summary": "生成AIにウェブページから情報を抜き出させる際に「ページに値がなければnullを使い、推測しないでください」と指示するだけで、存在しない値を作り出す割合が70.7％から20.2％まで低下したという実験結果をAIエージェント向けマーケットプレイスのEarn an Honest Dollarが公開しました。続きを読む..."
-  },
-  {
-   "id": "bfffc83bb899",
-   "title": "ビル・ゲイツがAIの危険性に警鐘、AI企業の自主規制では足りないと主張",
-   "url": "https://gigazine.net/news/20260928-bill-gates-warns-ai/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-09-28T15:10:00+08:00",
-   "summary": "Microsoftの共同創業者で慈善家のビル・ゲイツ氏が、NBCの報道番組「Meet the Press」に出演し、AIの危険性について警鐘を鳴らしました。続きを読む..."
-  },
-  {
-   "id": "835e0b59d291",
-   "title": "Appleが振動フィードバック「Taptic Engine」の特許侵害で8990億円の賠償金支払いを命じられる",
-   "url": "https://gigazine.net/news/20260928-apple-5-7-billion-patent-infringement-taptic-engine/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-09-28T14:50:00+08:00",
-   "summary": "AppleがMacやiPhone、Apple Watchなどに搭載してきた触覚フィードバック「Taptic Engine」が、特許を侵害しているとして、同社に対して57億ドル(約8990億円)の賠償金支払いを命じる判決が下されました。続きを読む..."
-  },
-  {
-   "id": "838789e7a217",
-   "title": "RedditでNintendo Switchの海賊版ゲームを宣伝していたモデレーターが任天堂に7億円超の支払いを命じられる",
-   "url": "https://gigazine.net/news/20260928-nintendo-switch-pirates-archbox/",
-   "source": "GIGAZINE",
-   "category": "game",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-09-28T14:00:00+08:00",
-   "summary": "任天堂はソーシャル掲示板のRedditでモデレーターを務めていたジェームズ・ウィリアムズ氏に対し、2024年6月に訴訟を提起しました。2026年9月23日に欠席裁判による判決が下され、任天堂が要求していたのと同額となる450万ドル(約7億1000万円)の損害賠償の支払いが命じられました。続きを読む..."
-  },
-  {
-   "id": "7a040b2a367d",
-   "title": "AI「Jev」が「ポケモン赤」を37時間40分で殿堂入り、費用はわずか約260円だが補助システムが必要で完全自律だとマサラタウンから出られず",
-   "url": "https://gigazine.net/news/20260928-jev-pokemon-red/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-09-28T13:40:00+08:00",
-   "summary": "意思決定AIモデル「Jev」に「ポケットモンスター 赤」をプレイさせる実験が行われ、37時間40分のプレイを経て殿堂入りを果たしました。ゲームクリアまでにJevが下した判断は合計1万6150回で、AIの利用料金は合計1.65ドル(約260円)だったとのことです。続きを読む..."
-  },
-  {
-   "id": "53db486fcaa5",
-   "title": "アリババとByteDanceによるNVIDIAの最先端チップ購入を中国政府が承認へ",
-   "url": "https://gigazine.net/news/20260928-china-nvidia-chips/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-09-28T13:25:00+08:00",
-   "summary": "2026年9月にNVIDIAが発表したワークステーション向けの高性能GPU「RTX Pro 5500」について、中国政府がIT大手・アリババ(阿里巴巴)とByteDanceによる購入を認める方針であることがわかりました。続きを読む..."
-  },
-  {
-   "id": "b6a453313f9c",
-   "title": "よく冷えるが価格は約2億7000万円で重さ約13kg、24金製の特注ミニPCが爆誕",
-   "url": "https://gigazine.net/news/20260928-24-carat-gold-mini-pc/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-09-28T13:00:00+08:00",
-   "summary": "フランスのPCメーカーKubbが販売するファンレスミニPC「Kubb Fanless」を24金の無垢材で作った「特注モデル」が製作されました。価格は約170万ドル(約2億6800万円)で、重量は約13kg。もちろん見た目だけではなく、金は一般的なアルミニウムより熱伝導率が高いため、ファンを使わないミニPCにとって冷却性能の向上という実用上の効果もあるとのことです。続きを読む..."
-  },
-  {
-   "id": "597799bdc90b",
-   "title": "【漫画更新】Sasha-chan to Classmate Otaku-kun 第 92 话「K.O. (Volume)」",
-   "url": "https://mangadex.org/chapter/eb8014de-c09d-4ffd-894c-2fe48e181e48",
+   "id": "f6e9a7e8204d",
+   "title": "【漫画更新】Washizu - Enma's Mahjong 第 29 话「Sparkling Frog 3」",
+   "url": "https://mangadex.org/chapter/08cac218-9f22-4972-85bf-48a6e315b5cd",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-29T01:51:04+08:00",
+   "published": "2026-09-29T09:30:32+08:00",
    "summary": ""
   },
   {
-   "id": "bbda652894d9",
-   "title": "【漫画更新】Tetsunabe no Jan! R: Choujou Sakusen 第 26 话「Bulle Versus Vlad」",
-   "url": "https://mangadex.org/chapter/df17d236-5619-43da-9af7-cb77b062177e",
+   "id": "64fadb6434f5",
+   "title": "【漫画更新】Watashi no naka de Ichiban ni Hikaru Anata 第 9 话「Café au Lait: Fleeting and Forever」",
+   "url": "https://mangadex.org/chapter/ee3a9b82-402d-4e3c-bb5d-6235cd7fc085",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-29T01:51:04+08:00",
+   "published": "2026-09-29T09:30:32+08:00",
    "summary": ""
   },
   {
-   "id": "80ad43fde330",
-   "title": "【漫画更新】Behemoth no Hanamuko 第 19 话",
-   "url": "https://mangadex.org/chapter/0ab589b3-2b24-47d4-bee4-029fe96afd36",
+   "id": "e40961eb3a59",
+   "title": "【漫画更新】Blue Flames 第 60 话「Saint」",
+   "url": "https://mangadex.org/chapter/97b71996-0663-4591-af04-972c04223732",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-29T01:51:04+08:00",
+   "published": "2026-09-29T09:30:32+08:00",
    "summary": ""
   },
   {
-   "id": "a7c6ef633bf8",
-   "title": "【漫画更新】Senyuu. 第 152 话「Extraordinary New Year: Part 2」",
-   "url": "https://mangadex.org/chapter/10c176f9-aa4c-4ebb-9772-614cd2632840",
+   "id": "bb92555f97fc",
+   "title": "【漫画更新】Sasha-chan to Classmate Otaku-kun 第 92.5 话「Aoi-Chan and Kagawa-San.」",
+   "url": "https://mangadex.org/chapter/d5932b8d-7268-4c8d-a35e-60f80d2e444f",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-29T01:51:04+08:00",
+   "published": "2026-09-29T09:30:32+08:00",
    "summary": ""
   },
   {
-   "id": "9a0d2f8ebb7d",
-   "title": "【漫画更新】Akatsuki ni Sazanami 第 8.2 话「To Hide - Part 2」",
-   "url": "https://mangadex.org/chapter/63477509-5288-4d3c-b5a0-dfff8f49daab",
+   "id": "275970a7de02",
+   "title": "【漫画更新】Monkey Peak the Rock 第 27 话「Eleven People」",
+   "url": "https://mangadex.org/chapter/32862664-d137-443e-b42d-60056b3ecc2c",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-29T01:51:04+08:00",
+   "published": "2026-09-29T09:30:32+08:00",
    "summary": ""
   },
   {
-   "id": "28d42f3a8e0d",
-   "title": "【漫画更新】Akanabe-sensei wa Tereshirazu 第 54 话「The teacher oversleeps」",
-   "url": "https://mangadex.org/chapter/0f58b011-0ebf-452b-89ff-0b385859f865",
+   "id": "5707708b103a",
+   "title": "【漫画更新】Monkey Peak the Rock 第 26 话「The Captain」",
+   "url": "https://mangadex.org/chapter/c357b92d-8406-4771-b437-69116ec6079b",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-29T01:51:04+08:00",
+   "published": "2026-09-29T09:30:32+08:00",
    "summary": ""
   },
   {
-   "id": "eacc4ee07bb3",
-   "title": "【漫画更新】Tenmaku no Jaadugar 第 43 话",
-   "url": "https://mangadex.org/chapter/256f3df2-3727-4258-893e-81eee2104f7e",
+   "id": "e6b5898c78d4",
+   "title": "【漫画更新】Monkey Peak the Rock 第 25 话「Hourglass of Blood #2」",
+   "url": "https://mangadex.org/chapter/c49412b5-466f-450d-82bc-08373634d42d",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-29T01:51:04+08:00",
+   "published": "2026-09-29T09:30:32+08:00",
    "summary": ""
   },
   {
-   "id": "1528aa1ba0a4",
-   "title": "【漫画更新】Lost Man 第 96 话「The Sun Returns」",
-   "url": "https://mangadex.org/chapter/c252524c-4b66-4be1-9354-b8fd74fb3813",
+   "id": "430c9137938a",
+   "title": "【漫画更新】Monkey Peak the Rock 第 24 话「Hourglass of Blood #1」",
+   "url": "https://mangadex.org/chapter/bbea42ee-64c5-4745-9db6-ab1be1dd7c2f",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-29T01:51:04+08:00",
+   "published": "2026-09-29T09:30:32+08:00",
    "summary": ""
   },
   {
-   "id": "6f65cb1875ff",
-   "title": "【漫画更新】Kimi wa Yotsuba no Clover 第 102 话「与你的未来」",
-   "url": "https://mangadex.org/chapter/df5697a4-fb3c-4715-ad0f-ce89052f4d9e",
+   "id": "3b55f9031fe1",
+   "title": "【漫画更新】Monkey Peak the Rock 第 23 话「Hourglass Hall #3」",
+   "url": "https://mangadex.org/chapter/ab972348-5952-46f7-8cf2-f59a9ee67259",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-29T01:51:04+08:00",
+   "published": "2026-09-29T09:30:32+08:00",
    "summary": ""
   },
   {
-   "id": "7fe18a543fd1",
-   "title": "【漫画更新】Arafoo Ossan wa Slow Life no Yume wo Miru ka? 第 33 话",
-   "url": "https://mangadex.org/chapter/8efac6c4-c18d-4988-ad15-15131b003157",
+   "id": "96711e3afc11",
+   "title": "【漫画更新】Monkey Peak the Rock 第 22 话「Hourglass Hall #2」",
+   "url": "https://mangadex.org/chapter/ed2d8456-4293-4574-b3b5-05665e2be4d3",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-09-29T01:51:04+08:00",
-   "summary": ""
-  },
-  {
-   "id": "7563e531743a",
-   "title": "【漫画更新】Hiroin-kun 第 10 话「Naked Hiking」",
-   "url": "https://mangadex.org/chapter/612c195d-7ee7-4c0a-a94a-a1a2d1299943",
-   "source": "MangaDex",
-   "category": "comic",
-   "lang": "zh",
-   "weight": 4,
-   "published": "2026-09-29T01:51:04+08:00",
-   "summary": ""
-  },
-  {
-   "id": "5ab6e08a25a4",
-   "title": "【漫画更新】Moto teki kanbu-san wa mahou shoujo ni o netsu 第 25 话「Former Evil General's Love」",
-   "url": "https://mangadex.org/chapter/dc49b1aa-fa07-4f86-980d-e5ee75498528",
-   "source": "MangaDex",
-   "category": "comic",
-   "lang": "zh",
-   "weight": 4,
-   "published": "2026-09-29T01:51:04+08:00",
-   "summary": ""
-  },
-  {
-   "id": "771f7a658201",
-   "title": "【漫画更新】Munou to Iware Tsuzuketa Madoushi, Jitsu wa Sekai Saikyou Nanoni Yuuhei Sareteita node Jikaku Nashi 第 9 话",
-   "url": "https://mangadex.org/chapter/5aa40734-a3d8-4d31-a70b-1d4532f3b18c",
-   "source": "MangaDex",
-   "category": "comic",
-   "lang": "zh",
-   "weight": 4,
-   "published": "2026-09-29T01:51:04+08:00",
+   "published": "2026-09-29T09:30:32+08:00",
    "summary": ""
   }
  ]
