@@ -1,13 +1,13 @@
 {
  "date": "2026-10-01",
- "generated_at": "2026-10-01T00:08:51+08:00",
+ "generated_at": "2026-10-01T09:06:10+08:00",
  "count": 160,
  "categories": {
-  "anime": 49,
+  "anime": 52,
   "comic": 10,
-  "game": 75,
-  "novel": 15,
-  "general": 11
+  "game": 70,
+  "novel": 18,
+  "general": 10
  },
  "sources": [
   {
@@ -21,12 +21,17 @@
    "error": null
   },
   {
+   "name": "AUTOMATON",
+   "count": 15,
+   "error": null
+  },
+  {
    "name": "4Gamer 総合",
    "count": 15,
    "error": null
   },
   {
-   "name": "AUTOMATON",
+   "name": "Game*Spark",
    "count": 15,
    "error": null
   },
@@ -47,7 +52,7 @@
   },
   {
    "name": "anilist_airing",
-   "count": 8,
+   "count": 9,
    "error": null
   },
   {
@@ -61,7 +66,7 @@
    "error": null
   },
   {
-   "name": "Game*Spark",
+   "name": "触乐",
    "count": 15,
    "error": null
   },
@@ -69,14 +74,108 @@
    "name": "jikan_season_now",
    "count": 0,
    "error": "RetryError: HTTPSConnectionPool(host='api.jikan.moe', port=443): Max retries exceeded with url: /v4/seasons/now?limit=10&sfw=true (Caused by ResponseError('too many 504 error responses'))"
-  },
-  {
-   "name": "触乐",
-   "count": 15,
-   "error": null
   }
  ],
  "items": [
+  {
+   "id": "c3085e06f63b",
+   "title": "Smells Like Green Spirit's Saburō Nagai Launches New Manga",
+   "url": "https://www.animenewsnetwork.com/news/2026-09-30/smells-like-green-spirit-saburo-nagai-launches-new-manga/.242324",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-01T08:00:00+08:00",
+   "summary": "Iei ga Nai! BL manga debuted on September 29"
+  },
+  {
+   "id": "f1bf7e16610f",
+   "title": "Thunder 3 Anime Gets 2nd Season in 2027",
+   "url": "https://www.animenewsnetwork.com/news/2026-09-30/thunder-3-anime-gets-2nd-season-in-2027/.242360",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-01T07:16:23+08:00",
+   "summary": "Season 1 from Gantz creator Hiroya Oku (as Yuki Ikeda) ended on Wednesday"
+  },
+  {
+   "id": "e9829ee7d907",
+   "title": "Bottom-Tier Character Tomozaki Novels End with 12th Volume",
+   "url": "https://www.animenewsnetwork.com/news/2026-09-30/bottom-tier-character-tomozaki-novels-end-with-12th-volume/.242356",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-01T07:00:00+08:00",
+   "summary": "Final novel ships on October 16"
+  },
+  {
+   "id": "d9cabf71d959",
+   "title": "Chiikawa Anime Film Drops to #2, Star Detective Precure! Film Stays at #3",
+   "url": "https://www.animenewsnetwork.com/news/2026-09-30/chiikawa-anime-film-drops-to-no.2-star-detective-precure-film-stays-at-no.3/.242305",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-01T06:00:00+08:00",
+   "summary": "Cosmic Princess Kaguya! drops to #10"
+  },
+  {
+   "id": "8758a4fd8da9",
+   "title": "Obocchama-kun Manga Gets New Anime in 2027",
+   "url": "https://www.animenewsnetwork.com/news/2026-09-30/obocchama-kun-manga-gets-new-anime-in-2027/.242357",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-01T04:48:56+08:00",
+   "summary": "Chie Kōjiro reprises role of Obocchama-kun from original 1989 anime"
+  },
+  {
+   "id": "796f1fe49cd5",
+   "title": "Idea Factory Announces New Adventure Game Brand, 1st Project ICONOLOGY",
+   "url": "https://www.animenewsnetwork.com/news/2026-09-30/idea-factory-announces-new-adventure-game-brand-1st-project-iconology/.242355",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-01T04:00:00+08:00",
+   "summary": "IFChronicle's ICONOLOGY game in development for Switch, PC via Steam"
+  },
+  {
+   "id": "72da657aec69",
+   "title": "Kanojo wa Uso o Ai Shisugiteru Manga Gets New Story",
+   "url": "https://www.animenewsnetwork.com/news/2026-09-30/kanojo-wa-uso-o-ai-shisugiteru-manga-gets-new-story/.242323",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-01T03:00:00+08:00",
+   "summary": "New work commemorates 10th anniversary of Kotomi Aoki's manga"
+  },
+  {
+   "id": "024d2da43c71",
+   "title": "Crunchyroll to Stream Super Psychic Policeman Chojo, Dandivine, Full Clearing Another World Under a Goddess with Zero Believers, More Anime",
+   "url": "https://www.animenewsnetwork.com/news/2026-09-30/crunchyroll-to-stream-super-psychic-policeman-chojo-dandivine-full-clearing-another-world-under-a-/.242347",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-01T01:20:56+08:00",
+   "summary": "Also: TOUGEN ANKI: Nikko Kegon Falls Arc, The Cold Sato-san is Only Sweet to Me, more"
+  },
+  {
+   "id": "b8cdc684038d",
+   "title": "Shonen Jump+ Cuts Ties With Chainsaw Man Editor Shihei Lin, His Company Mix Green",
+   "url": "https://www.animenewsnetwork.com/news/2026-09-30/shonen-jump-cuts-ties-with-chainsaw-man-editor-shihei-lin-his-company-mix-green/.242346",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-01T00:24:32+08:00",
+   "summary": "Lin states that Mix Green will still handle editorial duties for SPY×FAMILY, Dandadan, Centuria, WITCHRIV"
+  },
   {
    "id": "2429f5276f0e",
    "title": "Seirei Gensouki - Spirit Chronicles Anime Gets 3rd Season",
@@ -241,6 +340,127 @@
    "weight": 9,
    "published": "2026-09-30T06:00:00+08:00",
    "summary": "Manga launched on Monday"
+  },
+  {
+   "id": "09bac3513397",
+   "title": "MF文庫J 2026年9月刊行のラインナップをご紹介。『Re：ゼロから始める異世界生活46』『ニブンノ・イノチ』など7冊",
+   "url": "https://ln-news.com/articles/126800",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-01T08:30:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "f84a46238c45",
+   "title": "スマホゲームのセルラン分析（2026年9月17日〜9月23日）。今週の1位は「eFootball」。東南アジアにおける4月〜6月の収益ランキングも",
+   "url": "https://www.4gamer.net/games/536/G053628/20260928001/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-01T08:00:00+08:00",
+   "summary": "世界有数のスマホゲーム大国である日本において，現在最も売れているタイトルをはじめ，さまざまなデータを毎週お届けする本連載。今週の国内収益ランキング1位は「eFootball」となった。今回は，東南アジアにおける4月〜6月の収益ランキングも紹介しよう。"
+  },
+  {
+   "id": "11bd19d69357",
+   "title": "“♡胸いっぱいのRPG”を謳う「ブラウンダスト2」が，少年ジャンプ＋の人気漫画を原作としたTVアニメ「魔都精兵のスレイブ2」とコラボ中！【PR】",
+   "url": "https://www.4gamer.net/games/665/G066579/20260930005/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-01T07:10:00+08:00",
+   "summary": "NEOWIZが運営している「ブラウンダスト2」は，登場するキャラクターがちょっぴりセクシーなことでも知られるターン制のアドベンチャーRPGだ。現在，同じく少しエッチなTVアニメ「魔都精兵のスレイブ2」とのコラボを実施中なので，その内容を紹介しよう。"
+  },
+  {
+   "id": "f938ac90827c",
+   "title": "［プレイレポ］「ストリートファイター6」新キャラクター「アルジュン」の性能をチェック。相手の体力を「白ゲージ」化して一気に奪う，ステゴロヨガの神秘に迫る",
+   "url": "https://www.4gamer.net/games/635/G063504/20261001001/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-01T07:00:00+08:00",
+   "summary": "カプコンは2026年10月13日，対戦格闘ゲーム「ストリートファイター6」に，新キャラクター「アルジュン」を実装する。今回，実装に先立って開催された試遊会で，アルジュンを一足早くプレイしてきた。本稿では，各種必殺技の性能や，実際に触れて感じたプレイフィールをお届けする。"
+  },
+  {
+   "id": "e61d2d7ffcc3",
+   "title": "［インタビュー］「真・三國無双２ with 猛将伝 Remastered」本日発売。“原作”のプレイ感覚を再現するために施された工夫とは",
+   "url": "https://www.4gamer.net/games/978/G097828/20260925024/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-01T07:00:00+08:00",
+   "summary": "コーエーテクモゲームスは本日，「真・三國無双２with猛将伝Remastered」を発売する。東京ゲームショウ2026に来場していた庄知彦プロデューサー，井山裕敬ディレクターへのインタビューをお届けしよう。"
+  },
+  {
+   "id": "9c6773a79410",
+   "title": "そうだ アニメ，見よう：第269回は30年前の名作漫画をアニメ化した「鉄鍋のジャン」。“悪魔のような料理人”秋山 醤とライバルたちの激闘を描く",
+   "url": "https://www.4gamer.net/games/338/G033856/20260929023/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-01T07:00:00+08:00",
+   "summary": "「そうだアニメ，見よう」第269回は，西条真二氏が「週刊少年チャンピオン」誌上で連載していた料理漫画をアニメ化した「鉄鍋のジャン」。制作はTROYCA，シリーズ構成を上江洲誠氏が担当。監督を「Fate/Zero」や「アルドノア・ゼロ」のあおきえい氏が務めている。"
+  },
+  {
+   "id": "b63f46fd1465",
+   "title": "アニメ『転生したら剣でした』全12話オールナイト上映会が立川シネマシティにて10月10日（土）開催",
+   "url": "https://ln-news.com/articles/126792",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-01T07:00:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "814d85daeefe",
+   "title": "［インタビュー］「面白いインディーゲームを作っていれば，我々が必ず見つけ出す」。NeoWiz出身の3人が設立した，韓国初のインディーゲーム専門パブリッシャ「Red Brick House」の思想",
+   "url": "https://www.4gamer.net/games/000/G100047/20260926004/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-01T06:30:00+08:00",
+   "summary": "実は，韓国には「インディー専業パブリッシャー」がいなかったのだが，その記念すべき1社目は，類まれな経歴を持った3人のスピンオフだった。独特の運営方針は，インディー開発者なら必見だ。"
+  },
+  {
+   "id": "afb6db24e6f0",
+   "title": "PCで高評価のボードゲームRPG「ヴィラクタル」にSwitch2 / Switch版登場！ 出目を戦略的に使うシステムや，疑念を生む協力プレイが魅力【PR】",
+   "url": "https://www.4gamer.net/games/011/G101108/20260928025/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-01T06:15:00+08:00",
+   "summary": "2026年10月1日にSwitch2/Switch版がリリースとなる「ヴィラクタル」は，ダイスを振ってフィールドを進み，練りに練ったカードデッキでバトルに挑む，ボードゲームRPGだ。高い戦略性やリプレイ性，疑念が尽きない協力プレイなど，本作の魅力を紹介しよう。"
+  },
+  {
+   "id": "7245379c04e4",
+   "title": "［プレイレポ］「むちむちポーク！＆ピンクスゥイーツ Boosted」はケイブの中でも異色のSTGが2本セット。アレンジBGMは必聴！",
+   "url": "https://www.4gamer.net/games/011/G101100/20260911039/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-01T06:00:00+08:00",
+   "summary": "10月1日発売の「むちむちポーク！＆ピンクスゥイーツBoosted」の先行プレイレポートをお届けしよう。本作は，ケイブの中でも異色な縦スクロール弾幕シューティング2本をセットにしたXBOX360版をベースに，新たな要素を加えたタイトルだ。"
+  },
+  {
+   "id": "3b1662cd57e9",
+   "title": "『あそびのかんけい』のコミカライズ連載がヤングアニマル19号にて開始",
+   "url": "https://ln-news.com/articles/126763",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-01T05:00:00+08:00",
+   "summary": ""
   },
   {
    "id": "703e4035852d",
@@ -611,6 +831,50 @@
      "title": "Shiki Aoki and Kazuyuki Okitsu added to the cast of the anime “The Ice Sword Magician Rules the World II”"
     }
    }
+  },
+  {
+   "id": "02dc407984e5",
+   "title": "XBOXのボスが“XBOX部門売却の噂”を真っ向から否定。「売り物じゃない」として",
+   "url": "https://automaton-media.com/articles/newsjp/20261001-471047/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-10-01T08:47:16+08:00",
+   "summary": "Asha Sharma氏は、現地時間9月30日に公開されたThe New York Timesのインタビューにて、XBOX部門売却に関する噂を否定した。"
+  },
+  {
+   "id": "feae609b0f9d",
+   "title": "“鉄道”キャラといえば？ アンケート〆切は10月8日【#鉄道の日】",
+   "url": "https://animeanime.jp/article/2026/10/01/103396.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-10-01T08:30:14+08:00",
+   "summary": "アニメ！アニメ！では「“鉄道”キャラといえば？」と題した読者アンケートを5年ぶりに実施します。〆切は10月8日。"
+  },
+  {
+   "id": "692ab37bff6e",
+   "title": "「3i计划」秋季阅兵阵容曝光，发布会直播预约已开启",
+   "url": "https://www.gcores.com/articles/220433",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-10-01T08:00:00+08:00",
+   "summary": "「3i计划」十月场阵容大曝光！32款精品佳作将带来最新消息，包括已上线爆款，如《潜水员戴夫》《链在一起》《土豆兄弟》和《雨中冒险2》；以及备受期待的未上线作品，如《Among Us Story: On Guard》《小马岛2：熊猫马戏团》《塔罗斯法则3》及《要塞4》。 此外，发布会还将在全球范围内首次曝光8款全新游戏，分别由《机械迷城》开发商Amanita Design、《I Am Your Beast》开发商Strange Scaffold等久负盛名的独立游戏工作室制作。 发布会将于10月8日24:00即10月9日零点，在Bilibili全球同步直播。 直播现已开放预约：https://t."
+  },
+  {
+   "id": "07706fa5aadf",
+   "title": "一番好きなスポーツアニメは？ アンケート〆切は10月7日【#スポーツの日】",
+   "url": "https://animeanime.jp/article/2026/10/01/103395.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-10-01T06:15:03+08:00",
+   "summary": "アニメ！アニメ！では「一番好きなスポーツアニメは？」と題した読者アンケートを昨年に引き続き実施します。〆切は10月7日。"
   },
   {
    "id": "784239d66505",
@@ -1410,7 +1674,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:29+08:00",
    "summary": ""
   },
   {
@@ -1421,7 +1685,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:29+08:00",
    "summary": ""
   },
   {
@@ -1432,7 +1696,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:29+08:00",
    "summary": ""
   },
   {
@@ -1443,7 +1707,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:29+08:00",
    "summary": ""
   },
   {
@@ -1454,7 +1718,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:29+08:00",
    "summary": ""
   },
   {
@@ -1465,7 +1729,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:29+08:00",
    "summary": ""
   },
   {
@@ -1476,7 +1740,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:29+08:00",
    "summary": ""
   },
   {
@@ -1487,7 +1751,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:29+08:00",
    "summary": ""
   },
   {
@@ -1498,7 +1762,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:29+08:00",
    "summary": ""
   },
   {
@@ -1509,7 +1773,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:29+08:00",
    "summary": ""
   },
   {
@@ -1520,261 +1784,41 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:29+08:00",
    "summary": ""
   },
   {
-   "id": "48a9fb7de97c",
-   "title": "【今日放送 20:00】クレバテスⅡ-魔獣の王と偽りの勇者伝承- 第13集",
-   "url": "https://anilist.co/anime/198946",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "5feebb731a6f",
+   "title": "約3000万円もかかる無響室を小型マイクとBluetoothスピーカーで代替",
+   "url": "https://gigazine.net/news/20261001-bluetooth-speaker-sound-chamber/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-01T00:08:10+08:00",
-   "summary": ""
+   "weight": 5,
+   "published": "2026-10-01T07:50:00+08:00",
+   "summary": "PCハードウェアや周辺機器の検証を行うLTT Labsが、通常は高価な無響室と多数のスピーカーを使って測定する人間の耳の音響特性を、Bluetoothスピーカーと小型マイク、ニューラルネットワークを組み合わせて低コストで推定する手法を開発しました。1人につき10方向から音を測定し、残りの方向をAIで推定することで、従来より短時間かつ簡単に個人ごとの耳の特性を調べられる可能性を示しています。続きを読む..."
   },
   {
-   "id": "379783e2670e",
-   "title": "【今日放送 21:00】Re:ゼロから始める異世界生活 4th season 第19集",
-   "url": "https://anilist.co/anime/189046",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "ce4e43f72c71",
+   "title": "ビル・ゲイツが「AI規制はサイバー攻撃やバイオテロを防ぐために必要」「AIは人間の仕事を奪う」とインタビューで語る",
+   "url": "https://gigazine.net/news/20261001-bill-gates-warning-ai-ezra-klein/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-01T00:08:10+08:00",
-   "summary": ""
+   "weight": 5,
+   "published": "2026-10-01T06:00:00+08:00",
+   "summary": "Microsoftの創業者であり億万長者のビル・ゲイツ氏は近年、さまざまな場面でAIに対する懸念を表明しています。日刊紙のニューヨーク・タイムズに掲載されたジャーナリストのエズラ・クライン氏とのインタビューでも、ゲイツ氏はAIのさまざまなリスクや必要な対策、そしてAIが人類にもたらす利益について語っています。続きを読む..."
   },
   {
-   "id": "8b5fce1eef96",
-   "title": "【今日放送 21:30】Re:ゼロから始める休憩時間(ブレイクタイム) 4th Season 第19集",
-   "url": "https://anilist.co/anime/210687",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "27f6202cbb53",
+   "title": "鳥が飛行機にぶつかる「バードストライク」が起きてもめったに墜落しないのはなぜか？",
+   "url": "https://gigazine.net/news/20261001-bird-strike-plane-crash-prevention/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-01T00:08:10+08:00",
-   "summary": ""
-  },
-  {
-   "id": "7ca1849d3c9e",
-   "title": "【今日放送 23:00】新テニスの王子様 U-17 WORLD CUP 決勝メンバー決定戦 第1集",
-   "url": "https://anilist.co/anime/199068",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-01T00:08:10+08:00",
-   "summary": ""
-  },
-  {
-   "id": "5e807853a488",
-   "title": "【今日放送 23:30】転生したら剣でした 第2期 第1集",
-   "url": "https://anilist.co/anime/159042",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-01T00:08:10+08:00",
-   "summary": ""
-  },
-  {
-   "id": "c0efcc0cc59e",
-   "title": "【今日放送 23:44】サンダー３ 第12集",
-   "url": "https://anilist.co/anime/207254",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-01T00:08:10+08:00",
-   "summary": ""
-  },
-  {
-   "id": "0973eae1f013",
-   "title": "【今日放送 00:15】도굴왕 第12集",
-   "url": "https://anilist.co/anime/184356",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-01T00:08:10+08:00",
-   "summary": ""
-  },
-  {
-   "id": "d788d4bb8e05",
-   "title": "【今日放送 10:56】氷の城壁 第2期 第1集",
-   "url": "https://anilist.co/anime/213805",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-01T00:08:10+08:00",
-   "summary": ""
-  },
-  {
-   "id": "2a9503f488d1",
-   "title": "放棄されたノートPCの中を冒険するパズルACT『SNAPTIC』クラファン初日で1,400万円突破！",
-   "url": "http://www.gamespark.jp/article/2026/10/01/172987.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-01T00:00:04+08:00",
-   "summary": "レトロな3Dと実写映像を採用したパズルACT、更なる支援で日本語対応も"
-  },
-  {
-   "id": "664c468a68d1",
-   "title": "ソロでも遊べる天族vs魔族の基本無料オープンワールドMMORPG『AION 2』先行アクセス開始―誰でも無料で始められる正式サービスは10月5日",
-   "url": "http://www.gamespark.jp/article/2026/10/01/172986.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-30T23:30:04+08:00",
-   "summary": "世界の広さは、前作の36倍。"
-  },
-  {
-   "id": "33d10b8c3ed5",
-   "title": "欧州人サムライRPG『Expeditions: Samurai』パーティー人数拡大、仲間スキル参照やキャラメイク拡充の大型アプデ配信―11月には鬼島津登場の第2章解放も",
-   "url": "http://www.gamespark.jp/article/2026/10/01/172985.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-30T23:00:03+08:00",
-   "summary": "多彩な見た目やアイテムの追加、ゲーム性を向上する新システムが登場しています。"
-  },
-  {
-   "id": "73fb04083404",
-   "title": "愛娘の成長見守る育成シム『プリンセスメーカー：予言の子供たち』正式リリース。新イベントやエンディング追加のアプデも",
-   "url": "http://www.gamespark.jp/article/2026/09/30/172984.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-30T22:47:47+08:00",
-   "summary": "一時は今後が危ぶまれることも"
-  },
-  {
-   "id": "75e2cf619670",
-   "title": "『ウィッチャー３』リマスター版の対応Modが探しやすく！Mod共有サイトNexus Modsでフィルタリング可能に",
-   "url": "http://www.gamespark.jp/article/2026/09/30/172983.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-30T22:17:27+08:00",
-   "summary": "ページ自体はオリジナル版と統一、専用タグで見分ける形に"
-  },
-  {
-   "id": "0e87ccee6ebc",
-   "title": "『ポケモン』30周年グッズの新作が順次発売！一つにつながる「ジムバッジコレクション ガラル」、クリアファイルやキーホルダーも",
-   "url": "http://www.gamespark.jp/article/2026/09/30/172982.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-30T22:00:03+08:00",
-   "summary": "30周年のピックアップテーマ「つながる」をイメージした新作グッズがポケモンセンターで10月3日発売！オンラインでは10月1日10時より取り扱われます。"
-  },
-  {
-   "id": "ec0d17699172",
-   "title": "須田剛一氏率いるグラスホッパー・マニファクチュアがNetEase傘下からの独立を発表―両者の関係は今後も良好、機会があれば相互協力も",
-   "url": "http://www.gamespark.jp/article/2026/09/30/172981.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-30T21:47:46+08:00",
-   "summary": "創業30周年やその先に向けてのさらなる飛躍（ホッパー）を見守ってほしいとコメントしています。"
-  },
-  {
-   "id": "3bfd4f1ce67c",
-   "title": "“斜め移動”に調整！ リマスター版『トルネコの大冒険 不思議のダンジョン』スイッチ/スイッチ2版でもアップデートが配信",
-   "url": "http://www.gamespark.jp/article/2026/09/30/172980.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-30T21:45:03+08:00",
-   "summary": "スクウェア・エニックスは、『トルネコの大冒険 不思議のダンジョン ちょっとステキなリマスター』のスイッチ/スイッチ2版アップデートを配信しました。"
-  },
-  {
-   "id": "e6fb8c02b310",
-   "title": "スイッチ2をお得に楽しもう！『FFVII』リメイクシリーズ2作や『FFT』、『アサクリ シャドウズ』、『デイヴ・ザ・ダイバー』などがお買い得【eショップのお薦めセール】",
-   "url": "http://www.gamespark.jp/article/2026/09/30/172979.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-30T21:30:03+08:00",
-   "summary": "次に遊ぶゲームを探している方は、セールでお得に手に入れてみてはいかがでしょうか。"
-  },
-  {
-   "id": "122d103f18bc",
-   "title": "『紅の砂漠』水中探索等も追加のDLC「未知なる旅路」10月30日に発売延期―当初の予定から2週間の追加開発期間",
-   "url": "http://www.gamespark.jp/article/2026/09/30/172978.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-30T21:15:36+08:00",
-   "summary": "より完成度の高いコンテンツと安定したプレイ体験のためとしています。"
-  },
-  {
-   "id": "d39705a49e08",
-   "title": "『マイクラ』世界のARPG続編『Minecraft Dungeons II』配信。新次元「シフト」登場、装備システムも大幅進化",
-   "url": "http://www.gamespark.jp/article/2026/09/30/172977.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-30T21:09:19+08:00",
-   "summary": "『マイクラ』の世界で自由度の高い大冒険を！"
-  },
-  {
-   "id": "72a97abf326b",
-   "title": "時代劇×ローグライクがアツい！『Ghost of Yōtei Complete Edition』の追加コンテンツ「Most Wanted／剣客戯譚」でもう一度羊蹄六人衆をシバき倒そう【プレイレポ】",
-   "url": "http://www.gamespark.jp/article/2026/09/30/172976.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-30T21:00:03+08:00",
-   "summary": "時代劇とローグライクの化学反応はすさまじいものでした"
-  },
-  {
-   "id": "a5d5bb56d7b8",
-   "title": "ゲーム屋経営とオープンワールド探索を組み合わせたショップシムが正式リリース。日本風のマップで釣りやバスケに興じ店舗の拡張目指す―採れたて！本日のSteam注目ゲーム11選【2026年9月30日】",
-   "url": "http://www.gamespark.jp/article/2026/09/30/172975.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-30T20:30:03+08:00",
-   "summary": "四季折々のイベントやダーツ、配達、アスレチックなどのミニゲームも多数実装されています。"
-  },
-  {
-   "id": "af179eb5df91",
-   "title": "儲けて、集めて、最速も目指せ！最大4人協力プレイ対応のミニカー専門店経営シム『Supercar Collection Together』11月10日早期アクセス開始",
-   "url": "http://www.gamespark.jp/article/2026/09/30/172974.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-30T19:14:25+08:00",
-   "summary": "高評価の前作からマルチプレイ対応や、各種コンテンツを拡充して進化させた最新作です。"
-  },
-  {
-   "id": "e7e171d05140",
-   "title": "【LoL】「True Damage」が帰ってくる！ Worlds2026アンセムとなる新曲「Know My Name」を10月9日に全世界同時公開",
-   "url": "http://www.gamespark.jp/article/2026/09/30/172973.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-09-30T18:30:02+08:00",
-   "summary": "Riot Gamesはバーチャル音楽ユニット「True Damage」の再始動と新曲「Know My Name」がWorlds 2026公式アンセムに決定したと発表しました。"
+   "weight": 5,
+   "published": "2026-10-01T05:00:00+08:00",
+   "summary": "飛行機に鳥が衝突する「バードストライク」はエンジンの故障などを招き、乗客の命にも関わることがあります。科学系YouTubeチャンネルのMinuteEarthが、こうした衝突が墜落事故につながりにくい理由を解説しています。続きを読む..."
   },
   {
    "id": "7914b206e80c",
@@ -1854,157 +1898,113 @@
    "summary": "アメリカ国民が公共リリースに簡単にアクセスできるようにするための入口として、トランプ大統領が「America.gov」の立ち上げを発表しました。続きを読む..."
   },
   {
-   "id": "6834c2aca286",
-   "title": "ChatGPTなどの汎用AIに本物の車を運転させたら「実車では？」と気付いて運転を拒否、最終的に走らせた方法とは",
-   "url": "https://gigazine.net/news/20260930-chatgpt-drive-car/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-09-30T16:10:00+08:00",
-   "summary": "ChatGPTなどに使われる汎用(はんよう)AIモデルに本物の自動車のハンドル・アクセル・ブレーキを任せてみる実験を、サンフランシスコ・ベイエリアの技術者3人によるプロジェクト「DrivingBench」が実施しました。続きを読む..."
-  },
-  {
-   "id": "f72ceccc365c",
-   "title": "ローソンで「焼きとうもろこしを敷き詰めた弁当」＆「白米に激辛キーマカレーをちょっとだけのせた弁当」を買って食べてみた",
-   "url": "https://gigazine.net/news/20260930-ittentoppa-corn-curry/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-09-30T16:00:00+08:00",
-   "summary": "2026年9月29日にローソンの新商品として「一点突破すぎ！敷き詰めごはん 焼とうもろこし」と「一点突破すぎ！ごはんがすすむ キーマカレー(激辛)」が登場しました。どちらも税込297円というお手頃価格の弁当で、「おかずが焼きとうもろこしのみ」「激辛キーマカレーを少量のせただけ」というまさに一点突破な弁当に仕上がっているとのこと。ボリューム感や味が気になったので実際に買って食べてみました。続きを読む..."
-  },
-  {
-   "id": "4ef537a9cae2",
-   "title": "出生率低下を受け政府が独自開発の出会い系サービス「FirstDate」を試験的にスタート",
-   "url": "https://gigazine.net/news/20260930-firstdate-singapore-government-built-dating-service/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-09-30T15:29:00+08:00",
-   "summary": "シンガポール政府が21～35歳の独身男女向けに、出会い系サービス「FirstDate」の提供を開始しました。FirstDateを開発したのは2016年に設立されたシンガポール政府技術庁で、記事作成時点では公務員限定で利用可能です。続きを読む..."
-  },
-  {
-   "id": "07a2c314ac80",
-   "title": "マクドナルドはAI価格設定システムで店舗ごとの「最適価格」を算出している、バーガーキングなど他店舗の価格も考慮",
-   "url": "https://gigazine.net/news/20260930-mcdonalds-push-ai-price-big-mac/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-09-30T14:00:00+08:00",
-   "summary": "世界各国に店舗を展開するマクドナルドがアメリカや一部の海外市場において、「AIを使ったメニューの最適価格の算出」を行っていると海外メディアのロイターが報じました。中には店舗同士がわずか2マイル(約3.2km)しか離れていないのに、ビッグマックの価格が1.2ドル(約190円)も違うケースがあるとのことです。続きを読む..."
-  },
-  {
-   "id": "0de854797077",
-   "title": "【漫画更新】Pakoheru 第 1 话",
-   "url": "https://mangadex.org/chapter/d54e15d9-ee62-4c67-9c76-b9051cec6dbb",
+   "id": "b914100c93cc",
+   "title": "【漫画更新】Kanojo Kanrichuu ni Tsuki 第 4 话",
+   "url": "https://mangadex.org/chapter/febb6bc3-ed99-40db-af2a-ad656a6030a5",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:30+08:00",
    "summary": ""
   },
   {
-   "id": "df1e3a984162",
-   "title": "【漫画更新】Normal Girl 第 17 话「Metamorphosis」",
-   "url": "https://mangadex.org/chapter/589c8a0b-11a0-4692-afbb-c16eb9228181",
+   "id": "b00c3e8b17aa",
+   "title": "【漫画更新】Save the Earth! 第 19 话「Outer planet (1)」",
+   "url": "https://mangadex.org/chapter/c1a63f10-c97b-4837-8e33-eb146f056492",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:30+08:00",
    "summary": ""
   },
   {
-   "id": "9d8d27ef5d84",
-   "title": "【漫画更新】Jitsu wa Ore, Saikyou deshita? 第 156 话「The Coronation」",
-   "url": "https://mangadex.org/chapter/abcc749e-a2c3-44a3-a98a-8b9b51c50b60",
+   "id": "2968fe8c59fb",
+   "title": "【漫画更新】Ryuu: Ron 第 3 话「Friend's Plan」",
+   "url": "https://mangadex.org/chapter/06c43267-8356-4667-8084-a7cee44779c1",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:30+08:00",
    "summary": ""
   },
   {
-   "id": "37351577054f",
-   "title": "【漫画更新】Akanabe-sensei wa Tereshirazu 第 56 话「Sensei and favorability check」",
-   "url": "https://mangadex.org/chapter/ad425ddd-3bb9-47bd-b7af-86af4e74e5e6",
+   "id": "4dccb28d13a2",
+   "title": "【漫画更新】Eurydice neun Eopda 第 88 话",
+   "url": "https://mangadex.org/chapter/4c68072a-ac81-4afd-8665-691baf524d82",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:30+08:00",
    "summary": ""
   },
   {
-   "id": "e766ec22bb7e",
-   "title": "【漫画更新】Haimiya-senpai wa Kowakute Kawaii 第 43 话",
-   "url": "https://mangadex.org/chapter/4f9bdc37-3a30-4954-b4b4-169aae766ad0",
+   "id": "924597e0ae57",
+   "title": "【漫画更新】Hanabi wa Samenai Yume wo miru 第 20.5 话「Side Story」",
+   "url": "https://mangadex.org/chapter/b200854d-a101-4b45-b023-2b9d855d166e",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:30+08:00",
    "summary": ""
   },
   {
-   "id": "0111f3822479",
-   "title": "【漫画更新】Uchi no Maid ga Class no Suki na Ko ni Niteiru 第 1 话",
-   "url": "https://mangadex.org/chapter/61cfb21b-6e83-43c3-a01b-9c2e266e8026",
+   "id": "9940b82e349f",
+   "title": "【漫画更新】Hanabi wa Samenai Yume wo miru 第 20 话「Dream 20」",
+   "url": "https://mangadex.org/chapter/f32064ef-1caf-44f0-84e0-6bfcafcf9702",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:30+08:00",
    "summary": ""
   },
   {
-   "id": "dcc2dceb6d4e",
-   "title": "【漫画更新】Yoimiya Nagi ga Mane ni Yashoku wo Tsukuru Wake 第 3 话",
-   "url": "https://mangadex.org/chapter/abe98c4e-0819-43c3-9276-e54d34e69fc0",
+   "id": "3f0dff915505",
+   "title": "【漫画更新】Wǒ Jiǎnqǐle Yīdì Shǔxìng 第 32 话「Bountiful Harvest」",
+   "url": "https://mangadex.org/chapter/450e634f-68f8-466d-a1c6-48e5a53806ae",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:30+08:00",
    "summary": ""
   },
   {
-   "id": "801390a98ace",
-   "title": "【漫画更新】Kokoro Irozuku Koi ga shitai 第 16 话「What should we do for the school festival?」",
-   "url": "https://mangadex.org/chapter/97deeae2-0a59-42c3-9765-436f9f4ee911",
+   "id": "0cc9bf6626b2",
+   "title": "【漫画更新】Xīngjiǎ Húnjiàng Zhuàn 第 160 话「An Immortal's Might is Truly Unfathomable」",
+   "url": "https://mangadex.org/chapter/b9bab42f-5313-43d0-a5df-41083ae7d9b0",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:30+08:00",
    "summary": ""
   },
   {
-   "id": "1e969a130214",
-   "title": "【漫画更新】Alice, Dokomademo 第 33 话「Sleeping side by side」",
-   "url": "https://mangadex.org/chapter/f0f14bb9-190f-4966-aaf9-7b5a7100d3d1",
+   "id": "48070413f8a9",
+   "title": "【漫画更新】Xīngjiǎ Húnjiàng Zhuàn 第 159 话「Picking up Zhang Liuye」",
+   "url": "https://mangadex.org/chapter/3a92ace3-5909-4de2-b540-4f685f9b4770",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:30+08:00",
    "summary": ""
   },
   {
-   "id": "c3eee5cafa48",
-   "title": "【漫画更新】Mimi 第 245 话「Copy Cat.」",
-   "url": "https://mangadex.org/chapter/ed4fb717-48e8-4b62-b5fd-0566b9714674",
+   "id": "75aa1ad4d562",
+   "title": "【漫画更新】Xīngjiǎ Húnjiàng Zhuàn 第 158 话「Mai Clan's Four Talents」",
+   "url": "https://mangadex.org/chapter/9c31f323-4997-4225-8ad6-3093de7281ec",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-01T00:08:11+08:00",
+   "published": "2026-10-01T09:05:30+08:00",
    "summary": ""
   }
  ]
