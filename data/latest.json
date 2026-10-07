@@ -1,12 +1,12 @@
 {
  "date": "2026-10-07",
- "generated_at": "2026-10-07T00:23:55+08:00",
+ "generated_at": "2026-10-07T09:18:48+08:00",
  "count": 160,
  "categories": {
-  "anime": 52,
+  "anime": 55,
   "comic": 10,
-  "game": 73,
-  "novel": 15,
+  "game": 67,
+  "novel": 18,
   "general": 10
  },
  "sources": [
@@ -26,12 +26,12 @@
    "error": null
   },
   {
-   "name": "Game*Spark",
+   "name": "4Gamer 総合",
    "count": 15,
    "error": null
   },
   {
-   "name": "4Gamer 総合",
+   "name": "Game*Spark",
    "count": 15,
    "error": null
   },
@@ -51,6 +51,11 @@
    "error": null
   },
   {
+   "name": "机核 GCORES",
+   "count": 15,
+   "error": null
+  },
+  {
    "name": "bangumi_calendar",
    "count": 12,
    "error": null
@@ -66,17 +71,117 @@
    "error": null
   },
   {
-   "name": "机核 GCORES",
-   "count": 15,
-   "error": null
-  },
-  {
    "name": "jikan_season_now",
    "count": 0,
    "error": "ConnectionError: HTTPSConnectionPool(host='api.jikan.moe', port=443): Max retries exceeded with url: /v4/seasons/now?limit=10&sfw=true (Caused by NewConnectionError(\"HTTPSConnection(host='api.jikan.moe', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
   }
  ],
  "items": [
+  {
+   "id": "a36f398f2e40",
+   "title": "Toshiaki Yamada's Tokyo Duel Manga Ends",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-06/toshiaki-yamada-tokyo-duel-manga-ends/.242534",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-07T05:00:00+08:00",
+   "summary": "Action manga launched in 2020",
+   "i18n": {
+    "zh": {
+     "title": "山田俊明的《东京决斗》漫画完结",
+     "summary": "2020年推出动作漫画"
+    },
+    "ja": {
+     "title": "山田敏明のトーキョーデュエル漫画、完結",
+     "summary": "2020年創刊のアクション漫画"
+    }
+   }
+  },
+  {
+   "id": "c98ee92ac686",
+   "title": "Monster Hunter Rise Game Sells 20 Million Copies Worldwide",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-06/monster-hunter-rise-game-sells-20-million-copies-worldwide/.242547",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-07T04:00:00+08:00",
+   "summary": "Game launched in March 2021",
+   "i18n": {
+    "zh": {
+     "title": "《怪物猎人：崛起》游戏全球销量突破 2000 万份",
+     "summary": "游戏于 2021 年 3 月推出"
+    },
+    "ja": {
+     "title": "『モンスターハンターライズ』全世界で2,000万本販売",
+     "summary": "2021年3月発売予定のゲーム"
+    }
+   }
+  },
+  {
+   "id": "9a756a6f5f53",
+   "title": "Crunchyroll Streams New Battle Spirits TV Anime",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-06/crunchyroll-streams-new-battle-spirits-tv-anime/.242553",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-07T03:30:42+08:00",
+   "summary": "Anime premiered on Tuesday",
+   "i18n": {
+    "zh": {
+     "title": "Crunchyroll 直播新的《战斗之魂》电视动画",
+     "summary": "动画于周二首播"
+    },
+    "ja": {
+     "title": "Crunchyroll がバトルスピリッツの新作 TV アニメを配信",
+     "summary": "アニメは火曜日に初公開されました"
+    }
+   }
+  },
+  {
+   "id": "385538ff2214",
+   "title": "K Manga Adds Sen Sen Senki Manga",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-06/k-manga-adds-sen-sen-senki-manga/.242550",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-07T03:00:00+08:00",
+   "summary": "A-10, Ryūga Kawasaki debuted dark fantasy manga on June 10",
+   "i18n": {
+    "zh": {
+     "title": "K Manga 新增 Sen Sen Senki Manga",
+     "summary": "A-10、川崎龙雅于 6 月 10 日首次推出黑暗奇幻漫画"
+    },
+    "ja": {
+     "title": "Kマンガに閃戦記マンガが追加",
+     "summary": "A-10、川崎龍牙が6月10日にダークファンタジーマンガをデビュー"
+    }
+   }
+  },
+  {
+   "id": "8ffdba9b0210",
+   "title": "A Returner's Magic Should Be Special Season 2 Anime Reveals Same-Day Dub Release, Cast",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-06/a-returner-magic-should-be-special-season-2-anime-reveals-same-day-dub-release-cast/.242551",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-07T02:00:00+08:00",
+   "summary": "Season debuts on Wednesday",
+   "i18n": {
+    "zh": {
+     "title": "《归来者的魔法应该是特别的》第二季动画配音、演员阵容将于同日发布",
+     "summary": "本季将于周三首播"
+    },
+    "ja": {
+     "title": "アニメ『帰還者の魔法は特別であるべき』シーズン2の同日吹き替えリリースとキャストが明らかに",
+     "summary": "水曜日にシーズンデビュー"
+    }
+   }
+  },
   {
    "id": "05b576df1ec0",
    "title": "CloverWorks' Omnibus Anime Film Grotesqqque Previews 'Nocturne' in New Trailer",
@@ -86,7 +191,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-10-06T23:39:29+08:00",
-   "summary": "Video features Kairi Yagi's insert song \"Tiny Luck\""
+   "summary": "Video features Kairi Yagi's insert song \"Tiny Luck\"",
+   "i18n": {
+    "zh": {
+     "title": "CloverWorks 的综合动画电影 Grotesqqque 在新预告片中预览了“Nocturne”",
+     "summary": "视频收录了 Kairi Yagi 的插入歌曲“Tiny Luck”"
+    },
+    "ja": {
+     "title": "CloverWorksのオムニバスアニメ映画Grotesqqqueが新しい予告編で「Nocturne」をプレビュー",
+     "summary": "八木カイリ挿入歌「Tiny Luck」を収録した映像"
+    }
+   }
   },
   {
    "id": "76048ce3b63a",
@@ -97,7 +212,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-10-06T23:00:00+08:00",
-   "summary": "Game launches for PS5, Xbox X|S, PC on March 5, 2027"
+   "summary": "Game launches for PS5, Xbox X|S, PC on March 5, 2027",
+   "i18n": {
+    "zh": {
+     "title": "高达：Rogue Orbit Game 的演练预告片预览战斗、定制",
+     "summary": "游戏将于 2027 年 3 月 5 日推出 PS5、Xbox X|S、PC 版"
+    },
+    "ja": {
+     "title": "「GUNDAM:Rogue Orbit Game」ウォークスルートレーラープレビュー 戦闘、カスタマイズ",
+     "summary": "ゲームは PS5、Xbox X|S、PC 向けに 2027 年 3 月 5 日に発売"
+    }
+   }
   },
   {
    "id": "86441310372e",
@@ -108,7 +233,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-10-06T21:03:06+08:00",
-   "summary": "Manga about half-yōkai boy launches on vertical Jump Toon service on Friday"
+   "summary": "Manga about half-yōkai boy launches on vertical Jump Toon service on Friday",
+   "i18n": {
+    "zh": {
+     "title": "《我们的血誓》的 Kazu Kakazu 推出 Yosuga Tagurite 漫画系列",
+     "summary": "关于半妖怪男孩的漫画将于周五在垂直 Jump Toon 服务上推出"
+    },
+    "ja": {
+     "title": "『われらの血の誓い』のかかずかず先生によるマンガ『ヨスガタグリテ』シリーズがスタート",
+     "summary": "半分妖怪の少年についての漫画が金曜日に垂直ジャンプトゥーンサービスで開始されます"
+    }
+   }
   },
   {
    "id": "50527c45cccb",
@@ -119,7 +254,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-10-06T21:00:00+08:00",
-   "summary": "Service also adds Kill Me Baby, Song of the Thirty-Year-Olds' Blues, Time Traveler's Disease, A Meal by Moonlight, more"
+   "summary": "Service also adds Kill Me Baby, Song of the Thirty-Year-Olds' Blues, Time Traveler's Disease, A Meal by Moonlight, more",
+   "i18n": {
+    "zh": {
+     "title": "emaqi 服务新增流媒体《我的控制下》、《士兵新郎和白萝卜新娘》、《新一骑当千》、《另外 8 部漫画》",
+     "summary": "服务还增加了《杀掉我宝贝》、《三十岁的布鲁斯之歌》、《时间旅行者病》、《月光下的一顿饭》等"
+    },
+    "ja": {
+     "title": "emaqi サービスが私のコントロール下でストリーミングを追加、兵士の花婿と大根の花嫁、真・一騎当千、その他のマンガ 8 件",
+     "summary": "サービスには「キルミーベイベー」「三十路のブルースの歌」「タイムトラベラーの病気」「月明かりの食事」なども追加されます"
+    }
+   }
   },
   {
    "id": "437d9eeab80e",
@@ -130,7 +275,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-10-06T20:37:04+08:00",
-   "summary": "Company launched YouTube short anime Rakuraku Hanten on September 18"
+   "summary": "Company launched YouTube short anime Rakuraku Hanten on September 18",
+   "i18n": {
+    "zh": {
+     "title": "Short Net Anime Studio Plott 将开始制作无线电视动画",
+     "summary": "公司于 9 月 18 日推出 YouTube 短片动画《乐乐半天》"
+    },
+    "ja": {
+     "title": "ショートネットアニメスタジオPlottが地上波TVアニメ制作を開始",
+     "summary": "同社は9月18日、YouTubeショートアニメ「楽々飯店」を公開した。"
+    }
+   }
   },
   {
    "id": "57b63229a1dc",
@@ -141,7 +296,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-10-06T17:35:18+08:00",
-   "summary": "Yōhei Azakami joins cast as hero Ash"
+   "summary": "Yōhei Azakami joins cast as hero Ash",
+   "i18n": {
+    "zh": {
+     "title": "初出茅庐的恶魔领主的入门商店动画的第二个预告片揭示了更多演员，一月首映",
+     "summary": "赤上阳平加盟饰演英雄阿什"
+    },
+    "ja": {
+     "title": "駆け出し魔王のスターターショップアニメ第2弾ティザーで追加キャストが明らかに、1月デビュー",
+     "summary": "主人公アッシュ役に阿座上洋平が出演"
+    }
+   }
   },
   {
    "id": "4f8b8a0f7062",
@@ -152,7 +317,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-10-06T17:03:05+08:00",
-   "summary": "Fūka Izumi plays Alicia in TV anime by Noriyoshi Sasaki, Studio Clutch, Seven"
+   "summary": "Fūka Izumi plays Alicia in TV anime by Noriyoshi Sasaki, Studio Clutch, Seven",
+   "i18n": {
+    "zh": {
+     "title": "《乙女女主角的生存之战》动画预告片公布了工作人员和演员阵容，将于 2027 年 7 月首次亮相",
+     "summary": "和泉富香在佐佐木典吉的电视动画《Studio Clutch》、《七》中饰演艾莉西亚"
+    },
+    "ja": {
+     "title": "乙女ヒロインの生存競争アニメのティーザーがスタッフ、キャストを公開、2027年7月デビュー",
+     "summary": "スタジオクラッチ、セブン原作、佐々木則良原作のTVアニメでアリシア役を泉風花が演じる"
+    }
+   }
   },
   {
    "id": "bd39ba1cb5a0",
@@ -163,7 +338,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-10-06T07:51:08+08:00",
-   "summary": "Production I.G founder Mitsuhisa Ishikawa also credited with planning with Anno"
+   "summary": "Production I.G founder Mitsuhisa Ishikawa also credited with planning with Anno",
+   "i18n": {
+    "zh": {
+     "title": "庵野秀明、泉渕裕联合导演大和 √2199 电影，I.G、Khara",
+     "summary": "Production I.G创始人石川光久也对《庵野》的策划功不可没"
+    },
+    "ja": {
+     "title": "庵野秀明、出渕裕 共同監督 ヤマト√2199 Film at I.G、Khara",
+     "summary": "Production I.Gの創設者である石川光久氏も庵野氏の企画に携わった"
+    }
+   }
   },
   {
    "id": "815c0690c892",
@@ -174,7 +359,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-10-06T05:00:00+08:00",
-   "summary": "Free-to-play game launched in July 2024"
+   "summary": "Free-to-play game launched in July 2024",
+   "i18n": {
+    "zh": {
+     "title": "新电波男子比赛将于 12 月 7 日结束服务",
+     "summary": "免费游戏于 2024 年 7 月推出"
+    },
+    "ja": {
+     "title": "『新作電波人間ゲーム』12月7日サービス終了",
+     "summary": "2024 年 7 月に開始される基本プレイ無料のゲーム"
+    }
+   }
   },
   {
    "id": "6efe0d6eb531",
@@ -185,7 +380,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-10-06T04:00:00+08:00",
-   "summary": "Togashi to decline future work requests with deadlines in order to focus on his own manuscripts"
+   "summary": "Togashi to decline future work requests with deadlines in order to focus on his own manuscripts",
+   "i18n": {
+    "zh": {
+     "title": "《Hunter X Hunter》漫画创作者富坚义宏因身体/心理健康问题而限制工作",
+     "summary": "富坚拒绝未来有期限的工作请求，以便专注于自己的手稿"
+    },
+    "ja": {
+     "title": "『HUNTER×HUNTER』漫画作者・冨樫義博氏、心身の健康問題のため仕事を制限へ",
+     "summary": "富樫、自身の原稿に集中するため、今後の期限付きの仕事の依頼を断る"
+    }
+   }
   },
   {
    "id": "3853b35f45ea",
@@ -196,7 +401,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-10-06T03:33:06+08:00",
-   "summary": "Series debuted on Monday"
+   "summary": "Series debuted on Monday",
+   "i18n": {
+    "zh": {
+     "title": "OceanVeil直播魔法少女育成计划重启动画",
+     "summary": "系列于周一首播"
+    },
+    "ja": {
+     "title": "OceanVeil Streams 魔法少女育成計画 再始動 アニメ",
+     "summary": "シリーズは月曜日にデビューしました"
+    }
+   }
   },
   {
    "id": "59ab9dc24d7a",
@@ -207,7 +422,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-10-06T03:00:00+08:00",
-   "summary": "2nd issue looks for more Japanese creators who want their story published overseas"
+   "summary": "2nd issue looks for more Japanese creators who want their story published overseas",
+   "i18n": {
+    "zh": {
+     "title": "美国《Young》杂志特刊获得第二期",
+     "summary": "第二期寻找更多希望自己的故事在海外出版的日本创作者"
+    },
+    "ja": {
+     "title": "ヤングマガジン USA スペシャルが第 2 号を取得",
+     "summary": "第 2 号では、ストーリーを海外で出版したいと考えている日本のクリエイターをさらに募集します"
+    }
+   }
   },
   {
    "id": "90a788167a61",
@@ -218,7 +443,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-10-06T02:00:00+08:00",
-   "summary": "Justin Briner, Hollis Beck, Lacey Deline, more star in dub on Tuesday"
+   "summary": "Justin Briner, Hollis Beck, Lacey Deline, more star in dub on Tuesday",
+   "i18n": {
+    "zh": {
+     "title": "下岗的作弊法师在《生命》动画中获得第二次租约，并获得当日英文配音",
+     "summary": "贾斯汀·布林纳 (Justin Briner)、霍利斯·贝克 (Hollis Beck)、莱西·德琳 (Lacey Deline) 以及周二的更多配音明星"
+    },
+    "ja": {
+     "title": "解雇されたチート付与魔術師は二度目の人生を楽しむ アニメが同日英語吹き替え版を取得",
+     "summary": "ジャスティン・ブライナー、ホリス・ベック、レイシー・デラインら、火曜日の吹き替え出演スターが続出"
+    }
+   }
   },
   {
    "id": "d448e1bee212",
@@ -229,7 +464,17 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-10-06T01:12:04+08:00",
-   "summary": "Manga available on MediaOCD's website include ALTERNATIVE[SELF LINER NOTE], more"
+   "summary": "Manga available on MediaOCD's website include ALTERNATIVE[SELF LINER NOTE], more",
+   "i18n": {
+    "zh": {
+     "title": "MediaOCD 宣布达成出售 Manga Mavericks Books、Mahjong Pros 漫画实体版的协议",
+     "summary": "MediaOCD 网站上提供的漫画包括 ALTERNATIVE[SELF LINER NOT] 等"
+    },
+    "ja": {
+     "title": "MediaOCD、マンガ・マーベリックス・ブックスと麻雀プロからマンガの物理版を販売する契約を発表",
+     "summary": "MediaOCD の Web サイトで公開されているマンガには、ALTERNATIVE[SELF LINER NOTE] などがあります。"
+    }
+   }
   },
   {
    "id": "d9d927233ad5",
@@ -240,7 +485,179 @@
    "lang": "en",
    "weight": 9,
    "published": "2026-10-06T00:10:16+08:00",
-   "summary": "Series also streams in Canada, Latin America, Australia, New Zealand, South Africa, India, Southeast Asia, Europe"
+   "summary": "Series also streams in Canada, Latin America, Australia, New Zealand, South Africa, India, Southeast Asia, Europe",
+   "i18n": {
+    "zh": {
+     "title": "Crunchyroll 将于 10 月 11 日开始直播《龙珠超：比鲁斯》动画",
+     "summary": "该剧还在加拿大、拉丁美洲、澳大利亚、新西兰、南非、印度、东南亚、欧洲播出"
+    },
+    "ja": {
+     "title": "Crunchyroll、アニメ『ドラゴンボール超 ビルス』を10月11日より配信へ",
+     "summary": "シリーズはカナダ、ラテンアメリカ、オーストラリア、ニュージーランド、南アフリカ、インド、東南アジア、ヨーロッパでも配信されています"
+    }
+   }
+  },
+  {
+   "id": "1ceb70609b04",
+   "title": "ソニーのゲーミングヘッドセット「INZONE H9 II」にFnaticカラーのバリエーションモデルが10月22日発売",
+   "url": "https://www.4gamer.net/games/640/G064031/20261006029/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-07T09:02:27+08:00",
+   "summary": "2026年10月7日，ソニーは，ゲーマー向け製品ブランド「INZONE」から，プロeスポーツチーム「Fnatic」とコラボレーションしたヘッドセット「INZONEH9IIFnaticEdition」と，インイヤーイヤフォン「INZONEE9」の「GlassPurple」モデルを10月22日に発売すると発表した。",
+   "i18n": {
+    "zh": {
+     "title": "索尼游戏耳机“INZONE H9 II”Fnatic色变模型将于10月22日发布",
+     "summary": "2026年10月7日，索尼宣布将于10月22日发布与专业电竞战队“Fnatic”合作的“INZONEH9IIFnatic Edition”耳机以及游戏玩家产品品牌“INZONE”的入耳式耳机“INZONEE9”的“GlassPurple”型号。"
+    },
+    "en": {
+     "title": "Fnatic color variation model of Sony's gaming headset \"INZONE H9 II\" will be released on October 22nd",
+     "summary": "On October 7, 2026, Sony announced that it will release the \"INZONEH9IIFnatic Edition\" headset in collaboration with the professional e-sports team \"Fnatic\" and the \"GlassPurple\" model of the in-ear earphones \"INZONEE9\" from the gamer product brand \"INZONE\" on October 22nd."
+    }
+   }
+  },
+  {
+   "id": "22d99ce9ba8d",
+   "title": "ゲームはどうすれば“その人の作品”になるのか。岡部佳祐氏の「ストレスものづくり」と，ヨコオタロウ氏の物語に“ひどいこと”が起きる理由［The Tenth Mosaic］",
+   "url": "https://www.4gamer.net/games/529/G052929/20261005007/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-07T09:00:00+08:00",
+   "summary": "「NieR」シリーズのヨコオタロウ氏と，「ENDERLILIES」の岡部佳祐氏が「TheTenthMosaic」で対談。市場を見る岡部氏の「ストレスものづくり」と，完成されたものは自分で作らないというヨコオ氏が，創作論やゲームを取り巻く変化について話し合った。",
+   "i18n": {
+    "zh": {
+     "title": "游戏如何成为“那个人的作品”？冈部圭介的“压力制造”以及横尾太郎故事中为什么会发生“可怕的事情”【第十张马赛克】",
+     "summary": "《NieR》系列的横尾太郎和《ENDERLILIES》的冈部圭介在《TheTenthMosaic》中进行对话。关注市场的冈部先生谈到了“压力制造”，而自称自己不制作成品的横尾先生则讨论了创作理论和围绕游戏的变化。"
+    },
+    "en": {
+     "title": "How can a game become “that person’s work”? Keisuke Okabe's \"stress manufacturing\" and why \"terrible things\" happen in Yoko Taro's story [The Tenth Mosaic]",
+     "summary": "Yoko Taro of the \"NieR\" series and Keisuke Okabe of \"ENDERLILIES\" have a conversation on \"TheTenthMosaic\". Mr. Okabe, who looks at the market, talked about ``stress manufacturing,'' and Mr. Yokoo, who says he doesn't make finished products himself, discussed creation theory and changes surrounding games."
+    }
+   }
+  },
+  {
+   "id": "d1c229957cc1",
+   "title": "見えないところに恐怖は宿る。「アローン・イン・ザ・ダーク」「サイレントヒル」「零」「クロックタワー」の作り手が語るホラーの原点と美学［The Tenth Mosaic］",
+   "url": "https://www.4gamer.net/games/649/G064998/20261005005/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-07T09:00:00+08:00",
+   "summary": "「見えない恐怖」はどう作られるのか？ フレデリック・レイナル氏，外山圭一郎氏，柴田誠氏，河野一二三氏というサバイバルホラーの歴史を形作った4人のクリエイターが，時代を越えて通じる恐怖のデザインを語り合った。",
+   "i18n": {
+    "zh": {
+     "title": "恐惧存在于你看不到的地方。 《鬼屋孤独》、《寂静岭》、《零》和《钟楼》的创作者讲述恐怖的起源和美学【第十张马赛克】",
+     "summary": "“看不见的恐惧”是如何产生的？弗雷德里克·雷纳尔 (Frédéric Reynal)、富山敬一郎 (Keiichiro Toyama)、柴田诚 (Makoto Shibata) 和河野一富美 (Hifumi Kono) 这四位塑造了生存恐怖历史的创作者讨论了他们永恒的恐怖设计。"
+    },
+    "en": {
+     "title": "Fear dwells in places you can't see. The origin and aesthetics of horror as told by the creator of “Alone in the Dark,” “Silent Hill,” “Zero,” and “Clock Tower” [The Tenth Mosaic]",
+     "summary": "How is \"invisible fear\" created? Frédéric Reynal, Keiichiro Toyama, Makoto Shibata, and Hifumi Kono, four creators who have shaped the history of survival horror, discussed their timeless designs for horror."
+    }
+   }
+  },
+  {
+   "id": "99e0652031cc",
+   "title": "ベリーズファンタジー2026年10月刊行のラインナップをご紹介。『転生公女は任期満了に伴い家族の元に帰らせていただきます』『要らない私は、貴方の前から消えますので。』など8冊",
+   "url": "https://ln-news.com/articles/126871",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-07T08:30:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "介绍2026年10月出版的伯利兹幻想的阵容。“转世公主将在任期结束时回到她的家人。”“如果你不需要我，我将从你的面前消失。”和8本书。"
+    },
+    "en": {
+     "title": "Introducing the lineup of Belize Fantasy published in October 2026. ``The reincarnated princess will return to her family at the end of her term.'' ``If you don't need me, I will disappear from your front.'' ” and 8 books."
+    }
+   }
+  },
+  {
+   "id": "53bb7e8addc5",
+   "title": "斬撃で攻撃を跳ね返し，360度ショットで敵をなぎ倒せ！ 魔法薬シリーズ完結編「マジックポーション・リベレーターズ」試遊レポート［OIGS2026］",
+   "url": "https://www.4gamer.net/games/686/G068632/20261006031/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-07T08:00:00+08:00",
+   "summary": "10月3日と4日に開催された「OSAKAINDIEGAMESSUMMIT2026」にて，ARTIFACTSの新作「マジックポーション・リベレーターズ」のデモ版が出展された。シリーズ完結編として全方位攻撃が可能になるなど進化した本作のプレイフィールと，開発者の樹ひかり氏によるコメントをお届けしよう。",
+   "i18n": {
+    "zh": {
+     "title": "用砍击击退攻击，并用 360 度射击消灭敌人！魔药系列大结局《魔药解放者》试用报告【OIGS2026】",
+     "summary": "在10月3日至4日举办的“OSAKAINDIEGAMESSUMMIT2026”上，展出了ARTIFACTS新作《Magic Potion Liberators》的演示版本。作为该系列的最后一部分，我们想向您介绍这款游戏的游戏感，以及开发者 Hikari Ituki 的评论，该游戏随着从各个方向的攻击能力而演变。"
+    },
+    "en": {
+     "title": "Repel attacks with slashes and mow down enemies with 360 degree shots! Magic potion series finale “Magic Potion Liberators” trial report [OIGS2026]",
+     "summary": "At \"OSAKAINDIEGAMESSUMMIT2026\" held on October 3rd and 4th, a demo version of ARTIFACTS' new work \"Magic Potion Liberators\" was exhibited. As the final part of the series, we would like to introduce you to the play feel of this game, which has evolved with the ability to attack from all directions, as well as comments from developer Hikari Itsuki."
+    }
+   }
+  },
+  {
+   "id": "91e6463a6d54",
+   "title": "アニメ『真の聖女である私は追放されました。だからこの国はもう終わりです』は2027年1月放送開始 エリアーヌがこれまでのあらすじを語るティザーPVも",
+   "url": "https://ln-news.com/articles/126863",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-07T07:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "动画《我，真正的圣人，被放逐了。》所以这个国家结束了”将于2027年1月开始播出。还有一个预告片PV，其中艾莉安讲述了迄今为止的情节。"
+    },
+    "en": {
+     "title": "Anime “I, a true saint, have been banished.” So this country is over” will start broadcasting in January 2027. There is also a teaser PV in which Eliane talks about the plot so far."
+    }
+   }
+  },
+  {
+   "id": "f338986b0823",
+   "title": "ドロマイの“過去と未来”が語られた「ドロッセルマイヤーズ15周年祭」をレポート。新作「ドロッセルマイヤーズ・ヒストリア」の100人同時プレイも",
+   "url": "https://www.4gamer.net/games/048/G104813/20261007002/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-07T07:00:00+08:00",
+   "summary": "アナログゲームブランド・ドロッセルマイヤーズの創立15周年を記念したイベント「ドロッセルマイヤーズ15周年祭」が2026年10月4日，LOFT9Shibuyaで開催された。渡辺範明氏と佐々木隼氏が登壇し，15年間の歩みや今後のものづくりについて語ったイベントの模様をレポートする。",
+   "i18n": {
+    "zh": {
+     "title": "关于“Drossel Meyers 15 周年庆典”的报道，讨论了 Dromai 的“过去和未来”。 100人可同时玩新游戏“Drossel Meyers Historia”",
+     "summary": "模拟游戏品牌Drossel Meyers创立15周年纪念活动“Drossel Meyers 15周年庆典”于2026年10月4日在LOFT9涩谷举行。我们将报道渡边典明先生和佐佐木淳先生上台谈论过去15年的进步以及制造业的未来的活动。"
+    },
+    "en": {
+     "title": "Report on the \"Drossel Meyers 15th Anniversary Festival\" where the \"past and future\" of Dromai were discussed. 100 people can play the new game “Drossel Meyers Historia” at the same time",
+     "summary": "The event \"Drossel Meyers 15th Anniversary Festival\" commemorating the 15th anniversary of the founding of the analog game brand Drossel Meyers was held on October 4, 2026 at LOFT9Shibuya. We will report on the event in which Mr. Noriaki Watanabe and Mr. Jun Sasaki took the stage and talked about the progress made over the past 15 years and the future of manufacturing."
+    }
+   }
+  },
+  {
+   "id": "83353d7c8283",
+   "title": "『聖女聖戦 ―大罪勇者と思い出の魔女―』のコミカライズ連載が開始",
+   "url": "https://ln-news.com/articles/126835",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-07T05:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "《圣斗士：大罪之勇者与记忆的魔女》漫画开始连载"
+    },
+    "en": {
+     "title": "Comic serialization of “Saint Holy War: The Hero of Deadly Sins and the Witch of Memories” begins"
+    }
+   }
   },
   {
    "id": "e80bff5979e6",
@@ -251,7 +668,17 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T22:00:00+08:00",
-   "summary": "新作ガンダムゲーム「GUNDAMROGUEORBIT」のメディア向け試遊会では，アセンブルの詳細が明かされた。“ガンダム顔”から渋い量産機風まで，さまざまな機体を作れる。部位を再生するボスとの戦いでは，部位破壊もし放題だ。"
+   "summary": "新作ガンダムゲーム「GUNDAMROGUEORBIT」のメディア向け試遊会では，アセンブルの詳細が明かされた。“ガンダム顔”から渋い量産機風まで，さまざまな機体を作れる。部位を再生するボスとの戦いでは，部位破壊もし放題だ。",
+   "i18n": {
+    "zh": {
+     "title": "【游玩报告】「GUNDAM ROGUE ORBIT」的主角可以根据定制从高达外观变为量产机。体验 Boss 战，你可以摧毁任意数量的零件",
+     "summary": "在新高达游戏「GUNDAMROGUEORBIT」的媒体预览中，公开了组装细节。您可以创建各种飞机，从具有“高达面孔”的飞机到具有酷炫量产飞机外观的飞机。在与可再生身体部位的 Boss 的战斗中，你可以随心所欲地摧毁身体部位。"
+    },
+    "en": {
+     "title": "[Play Report] The main character of \"GUNDAM ROGUE ORBIT\" can change from a Gundam look to a mass-produced machine depending on the customization. Experience boss battles where you can destroy as many parts as you like",
+     "summary": "At the media preview of the new Gundam game ``GUNDAMROGUEORBIT'', details of the assembly were revealed. You can create a variety of aircraft, from those with a \"Gundam face\" to those with a cool mass-produced aircraft look. In battles with bosses that regenerate body parts, you can destroy body parts as much as you like."
+    }
+   }
   },
   {
    "id": "24cf9845b4cb",
@@ -262,7 +689,17 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T21:00:00+08:00",
-   "summary": "セガは本日，オンラインRPG「PSO2ニュージェネシスver.2」の公式情報番組「NGSHeadlineWAVE」を配信した。番組では，2026年10月のアップデート情報や，「驚安の殿堂ドン・キホーテ」とのコラボなどが発表された。"
+   "summary": "セガは本日，オンラインRPG「PSO2ニュージェネシスver.2」の公式情報番組「NGSHeadlineWAVE」を配信した。番組では，2026年10月のアップデート情報や，「驚安の殿堂ドン・キホーテ」とのコラボなどが発表された。",
+   "i18n": {
+    "zh": {
+     "title": "“PSO2 NGS”官方计划摘要。 10月7日起，等级上限提升至125级。全新装备类别“护身符”、难度极高的“碎星狂暴”三级等新信息一次性发布。",
+     "summary": "世嘉今天发布了在线角色扮演游戏“PSO2 New Genesis ver.2”的官方信息程序“NGS HeadlineWAVE”。节目中公布了2026年10月的更新信息以及与平价名人堂堂吉诃德的合作。"
+    },
+    "en": {
+     "title": "\"PSO2 NGS\" official program summary. From October 7th, the level cap will be increased to 125. New information such as the new equipment category \"Amulet\" and the extremely difficult \"Star-Smashing Rampage\" Rank 3 released all at once.",
+     "summary": "Sega today distributed the official information program ``NGS HeadlineWAVE'' for the online RPG ``PSO2 New Genesis ver.2''. On the program, update information for October 2026 and a collaboration with Don Quijote, the hall of fame of cheap prices, were announced."
+    }
+   }
   },
   {
    "id": "fe0ab880a116",
@@ -273,7 +710,17 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T20:30:47+08:00",
-   "summary": "ActivisionBlizzardJapanは本日（2026年10月6日），10月23日に発売を予定している新作タイトル「CallofDuty:ModernWarfare4」の最新情報を公開した。今回明かされたのは，本作のモードの1つ「DMZ」についての情報だ。"
+   "summary": "ActivisionBlizzardJapanは本日（2026年10月6日），10月23日に発売を予定している新作タイトル「CallofDuty:ModernWarfare4」の最新情報を公開した。今回明かされたのは，本作のモードの1つ「DMZ」についての情報だ。",
+   "i18n": {
+    "zh": {
+     "title": "《使命召唤：现代战争4》发布有关PvPvE式撤离射击模式“DMZ”的各种信息",
+     "summary": "动视暴雪日本今天（2026年10月6日）发布了计划于10月23日发售的新作《使命召唤：现代战争4》的最新信息。这次透露的是有关本作模式之一“DMZ”的信息。"
+    },
+    "en": {
+     "title": "“Call of Duty: Modern Warfare 4” releases various information regarding PvPvE-style extraction shooter mode “DMZ”",
+     "summary": "Activision Blizzard Japan today (October 6, 2026) released the latest information on the new title \"Call of Duty: Modern Warfare 4\" scheduled to be released on October 23. What was revealed this time is information about \"DMZ\", one of the modes of this work."
+    }
+   }
   },
   {
    "id": "bd315bf65ca6",
@@ -284,7 +731,17 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T19:38:02+08:00",
-   "summary": "NEOLAVIは本日，PC用ソフト「推しの中身、気になりませんか？」の体験版の配信を開始した。本作は，VTuber事務所「ステラリア」のエントランスを任された新人警備員として，来訪者の入館を許可するか，拒否するかを判断していく書類審査アドベンチャーだ。"
+   "summary": "NEOLAVIは本日，PC用ソフト「推しの中身、気になりませんか？」の体験版の配信を開始した。本作は，VTuber事務所「ステラリア」のエントランスを任された新人警備員として，来訪者の入館を許可するか，拒否するかを判断していく書類審査アドベンチャーだ。",
+   "i18n": {
+    "zh": {
+     "title": "一种文件筛选 ADV，您可以在 VTuber 办公室担任保安，并检查访客“您对里面有什么感到好奇吗？” Steam 现已推出试用版",
+     "summary": "NEOLAVI今天开始发售PC软件试用版“你对推荐的内容感到好奇吗？”本作是一款文件筛选冒险游戏，你扮演一名被分配到VTuber办公室“Stellaria”入口的新保安，决定是否允许或拒绝访客进入。"
+    },
+    "en": {
+     "title": "A document screening ADV where you become a security guard at a VTuber office and check visitors \"Are you curious about what's inside?\" Trial version now available on Steam",
+     "summary": "NEOLAVI today began distributing the trial version of the PC software ``Are you curious about the contents of the recommendation?'' This work is a document screening adventure in which you play as a new security guard assigned to the entrance of the VTuber office ``Stellaria'' and decide whether to allow or deny visitors entry."
+    }
+   }
   },
   {
    "id": "b76f73821124",
@@ -295,7 +752,17 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T19:32:05+08:00",
-   "summary": "「Momodora」シリーズの開発者rdein氏が，新作「RecordofDorathia」を発表した。本作は，8種類のクラスから4人パーティを編成し，迷宮世界を探索していくターン制ダンジョン探索RPG。近いうちにSteamストアページとトレイラーを公開予定とのことだ。"
+   "summary": "「Momodora」シリーズの開発者rdein氏が，新作「RecordofDorathia」を発表した。本作は，8種類のクラスから4人パーティを編成し，迷宮世界を探索していくターン制ダンジョン探索RPG。近いうちにSteamストアページとトレイラーを公開予定とのことだ。",
+   "i18n": {
+    "zh": {
+     "title": "由 Momodora 系列开发商 rdein 打造的回合制地下城探索角色扮演游戏《Record of Dorathia》现已发布。",
+     "summary": "《桃花》系列的开发商rdein先生宣布了新作《多拉西亚的记录》。本作是一款回合制地下城探索角色扮演游戏，由来自八个不同职业的四人组成的队伍探索迷宫世界。 Steam 商店页面和预告片即将发布。"
+    },
+    "en": {
+     "title": "Record of Dorathia, a turn-based dungeon exploration RPG created by rdein, the developer of the Momodora series, has been announced.",
+     "summary": "Mr. rdein, the developer of the \"Momodora\" series, has announced a new work, \"Record of Dorathia.\" This work is a turn-based dungeon exploration RPG in which a party of four people from eight different classes explores a labyrinth world. A Steam store page and trailer will be released soon."
+    }
+   }
   },
   {
    "id": "dea2c95283db",
@@ -306,7 +773,17 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T19:22:05+08:00",
-   "summary": "QuiteOKGamesは2026年10月5日，開発中の新作タイトル「Reshine」のデモ版を，10月19日にSteamでリリースすると発表した。本作は，錆びついた蓄音機や電話機，古びたおもちゃなど，長い年月を経て劣化してしまった物に新たな命を吹き込んでいく修復シミュレーションゲームだ。"
+   "summary": "QuiteOKGamesは2026年10月5日，開発中の新作タイトル「Reshine」のデモ版を，10月19日にSteamでリリースすると発表した。本作は，錆びついた蓄音機や電話機，古びたおもちゃなど，長い年月を経て劣化してしまった物に新たな命を吹き込んでいく修復シミュレーションゲームだ。",
+   "i18n": {
+    "zh": {
+     "title": "《Reshine》是一款模拟游戏，能够完美地修复随时间流逝而变质的宝藏，其试玩版将于 10 月 19 日发布。",
+     "summary": "QuiteOKGames 于 2026 年 10 月 5 日宣布，将于 10 月 19 日在 Steam 上发布正在开发的新作《Reshine》的试玩版。这是一款修复模拟游戏，你可以为多年来老化的物体（例如生锈的留声机、电话和旧玩具）注入新的生命。"
+    },
+    "en": {
+     "title": "The demo version of “Reshine,” a simulation game that beautifully restores treasures that have deteriorated over time, will be released on October 19th.",
+     "summary": "QuiteOKGames announced on October 5, 2026 that it will release the demo version of its new title \"Reshine\" under development on Steam on October 19. This is a restoration simulation game in which you breathe new life into objects that have deteriorated over the years, such as rusted phonographs, telephones, and old toys."
+    }
+   }
   },
   {
    "id": "1b3931d4d4f3",
@@ -317,7 +794,17 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T19:09:52+08:00",
-   "summary": "11bitstudiosは，サバイバルシミュレーション「Frostpunk」のSwitch版を10月19日に配信すると発表した。タッチ操作や専用UIに対応し，大寒波によって氷漬けとなった地球を舞台に，蒸気機関を頼りに生き延びようとする人々の不満に対処しつつ，都市の存続を図るという社会派シミュレーションを手元で楽しめる。"
+   "summary": "11bitstudiosは，サバイバルシミュレーション「Frostpunk」のSwitch版を10月19日に配信すると発表した。タッチ操作や専用UIに対応し，大寒波によって氷漬けとなった地球を舞台に，蒸気機関を頼りに生き延びようとする人々の不満に対処しつつ，都市の存続を図るという社会派シミュレーションを手元で楽しめる。",
+   "i18n": {
+    "zh": {
+     "title": "触手可及的寒冷生存模拟游戏。 Switch版《霜朋克》将于10月19日发售",
+     "summary": "11bitstudios宣布生存模拟游戏《霜朋克》的Switch版将于10月19日发售。该游戏兼容触摸控制和专用用户界面，背景设定在因严寒浪潮而冰封的世界中，您可以享受社交模拟，在城市中尝试生存，同时应对依靠蒸汽机生存的人们的挫败感。"
+    },
+    "en": {
+     "title": "You can play a frigid survival simulation at your fingertips. Switch version “Frostpunk” to be released on October 19th",
+     "summary": "11bitstudios has announced that the Switch version of the survival simulation ``Frostpunk'' will be released on October 19th. Compatible with touch controls and a dedicated UI, the game is set in a world frozen in ice due to a severe cold wave, and you can enjoy a social simulation in which you try to survive a city while dealing with the frustrations of people who rely on steam engines to survive."
+    }
+   }
   },
   {
    "id": "4d1fd38939de",
@@ -328,7 +815,17 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T19:05:24+08:00",
-   "summary": "セガは本日（2026年10月6日），サッカークラブ経営シミュレーションゲーム「FootballManager27」の解説動画「戦術調整とマッチエンジンの進化」を公開した。今回の動画では，選手の動作の改善，新機能「戦術調整」などが紹介されている。"
+   "summary": "セガは本日（2026年10月6日），サッカークラブ経営シミュレーションゲーム「FootballManager27」の解説動画「戦術調整とマッチエンジンの進化」を公開した。今回の動画では，選手の動作の改善，新機能「戦術調整」などが紹介されている。",
+   "i18n": {
+    "zh": {
+     "title": "足球俱乐部经营模拟《足球经理27》解说视频《战术调整与比赛引擎进化》发布",
+     "summary": "世嘉今天（2026 年 10 月 6 日）发布了足球俱乐部经营模拟游戏《Football Manager27》的解说视频《战术调整和比赛引擎进化》。该视频介绍了对球员动作的改进、称为“战术调整”的新功能等。"
+    },
+    "en": {
+     "title": "Soccer club management simulation \"Football Manager 27\", commentary video \"Tactical adjustment and match engine evolution\" released",
+     "summary": "Sega today (October 6, 2026) released an explanation video ``Tactical adjustment and match engine evolution'' for the soccer club management simulation game ``FootballManager27''. This video introduces improvements to player movements, a new feature called ``Tactical Adjustment,'' and more."
+    }
+   }
   },
   {
    "id": "673905af8691",
@@ -339,7 +836,15 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T19:04:56+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "添加《Proseca》和《Demon Lord》作为节奏游戏歌曲"
+    },
+    "en": {
+     "title": "“Proseca” and “Demon Lord” added as rhythm game songs"
+    }
+   }
   },
   {
    "id": "4d27a73d02f4",
@@ -350,7 +855,17 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T18:21:46+08:00",
-   "summary": "BattlestateGamesは本日（2026年10月6日），ルートシューター「EscapefromTarkov」のアップデート1.2.0.0を配信する。今回は，PvEモードに大幅な変更が実施され，PMCボットの刷新やPvEプレステージの追加などが行われる。"
+   "summary": "BattlestateGamesは本日（2026年10月6日），ルートシューター「EscapefromTarkov」のアップデート1.2.0.0を配信する。今回は，PvEモードに大幅な変更が実施され，PMCボットの刷新やPvEプレステージの追加などが行われる。",
+   "i18n": {
+    "zh": {
+     "title": "《逃离塔科夫》更新 1.2.0.0 今天发布，增加了 PvE 声望并对 PMC 机器人进行了重大修改",
+     "summary": "BattlestateGames 今天（2026 年 10 月 6 日）将为战利品射击游戏“逃离塔科夫”发布更新 1.2.0.0。这次，PvE 模式发生了重大变化，包括对 PMC 机器人的彻底修改以及 PvE Prestige 的添加。"
+    },
+    "en": {
+     "title": "\"Escape from Tarkov\" update 1.2.0.0 released today, adding PvE prestige and major overhaul of PMC bots",
+     "summary": "BattlestateGames today (October 6, 2026) will release update 1.2.0.0 for the loot shooter \"Escape from Tarkov\". This time, major changes have been made to the PvE mode, including an overhaul of the PMC bot and the addition of PvE Prestige."
+    }
+   }
   },
   {
    "id": "2c3333e804bc",
@@ -361,7 +876,17 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T18:03:11+08:00",
-   "summary": "ゲーム作家のuracon氏は本日，PC用ソフト「人狼バーガー」の体験版の配信をSteamで開始した。本作は，ハンバーガー作りを通して，友情を育んだり，打ち砕いたりする協力＆裏切りのソーシャル推理ゲームだ。"
+   "summary": "ゲーム作家のuracon氏は本日，PC用ソフト「人狼バーガー」の体験版の配信をSteamで開始した。本作は，ハンバーガー作りを通して，友情を育んだり，打ち砕いたりする協力＆裏切りのソーシャル推理ゲームだ。",
+   "i18n": {
+    "zh": {
+     "title": "大家一起来做汉堡吧！寻找隐藏在商店员工中的间谍的悬疑游戏《狼人汉堡》试玩版现已在 Steam 上架",
+     "summary": "游戏作者 uracon 今天开始在 Steam 上分发 PC 软件“狼人汉堡”的试用版。本作是一款合作与背叛的社会悬疑游戏，玩家通过制作汉堡的过程建立和破坏友谊。"
+    },
+    "en": {
+     "title": "Let's all make hamburgers! The trial version of \"Werewolf Burger\", a mystery game to find a spy hidden among store staff, is now available on Steam",
+     "summary": "Game author uracon today began distributing the trial version of the PC software ``Werewolf Burger'' on Steam. This work is a social mystery game of cooperation and betrayal in which players build and destroy friendships through the process of making hamburgers."
+    }
+   }
   },
   {
    "id": "e3287dc4fb53",
@@ -372,7 +897,15 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T18:00:00+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "为纪念《Marika官方故事》第19卷发售，将在大垣书店举办网络签名会"
+    },
+    "en": {
+     "title": "A web autograph session will be held at Ogaki Shoten to commemorate the release of Volume 19 of “Marika Official Story”"
+    }
+   }
   },
   {
    "id": "d2fefa211228",
@@ -383,7 +916,17 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T17:58:12+08:00",
-   "summary": "FuseGamesとSecretModeは本日（2026年10月6日），「スター・ウォーズ」の銀河を舞台にしたランベースのレーシングアドベンチャーゲーム「スター・ウォーズ：ギャラクティック・レーサー」を発売した。あわせて，ローンチトレイラーを公開している。"
+   "summary": "FuseGamesとSecretModeは本日（2026年10月6日），「スター・ウォーズ」の銀河を舞台にしたランベースのレーシングアドベンチャーゲーム「スター・ウォーズ：ギャラクティック・レーサー」を発売した。あわせて，ローンチトレイラーを公開している。",
+   "i18n": {
+    "zh": {
+     "title": "目标是在一场致命的竞赛中成为银河系中最快的人。 《星球大战：银河赛车》今日上映，发布预告片",
+     "summary": "FuseGames 和 SecretMode 今天（2026 年 10 月 6 日）推出了《星球大战：银河赛车》，这是一款以星球大战星系为背景的跑步竞速冒险游戏。与此同时，还发布了首发预告片。"
+    },
+    "en": {
+     "title": "Aim to be the fastest in the galaxy in a deadly race. \"Star Wars: Galactic Racer\" released today, launch trailer released",
+     "summary": "FuseGames and SecretMode today (October 6, 2026) launched Star Wars: Galactic Racer, a run-based racing adventure game set in the Star Wars galaxy. At the same time, a launch trailer has been released."
+    }
+   }
   },
   {
    "id": "0dc96fef7270",
@@ -394,7 +937,17 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T17:57:36+08:00",
-   "summary": "GOODFUNCORPORATIONは，PvPvE型ホラー脱出アクションRPG「HUNGER」のクローズドβテストを，2026年10月19日18：00から10月26日18：00まで開催すると発表した。本作はナポレオン戦争後の荒廃した19世紀ヨーロッパを舞台に，プレイヤーは過酷な環境で生き残りをかけた冒険に挑むことになる。"
+   "summary": "GOODFUNCORPORATIONは，PvPvE型ホラー脱出アクションRPG「HUNGER」のクローズドβテストを，2026年10月19日18：00から10月26日18：00まで開催すると発表した。本作はナポレオン戦争後の荒廃した19世紀ヨーロッパを舞台に，プレイヤーは過酷な環境で生き残りをかけた冒険に挑むことになる。",
+   "i18n": {
+    "zh": {
+     "title": "PvPvE恐怖逃脱动作RPG《HUNGER》将于10月19日起内测。在 19 世纪满目疮痍的欧洲为生存而战",
+     "summary": "GOODFUNCORPORATION宣布将于2026年10月19日18:00至2026年10月26日18:00对PvPvE恐怖逃脱动作RPG《饥饿》进行内测。这款游戏以拿破仑战争后满目疮痍的19世纪欧洲为背景，玩家将在恶劣的环境中展开一场生存冒险。"
+    },
+    "en": {
+     "title": "Closed beta test for PvPvE horror escape action RPG \"HUNGER\" will be held from October 19th. Fight for survival in devastated Europe in the 19th century",
+     "summary": "GOODFUNCORPORATION has announced that it will hold a closed beta test for the PvPvE horror escape action RPG \"HUNGER\" from 18:00 on October 19, 2026 to 18:00 on October 26, 2026. This game is set in 19th century Europe, which was devastated after the Napoleonic Wars, and players will take on an adventure to survive in a harsh environment."
+    }
+   }
   },
   {
    "id": "e733af4fe72f",
@@ -405,7 +958,17 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T17:35:13+08:00",
-   "summary": "セガは，2026年10月14日に発売する「トータルウォー：ショーグン2コンプリートエディション」の紹介動画を同社公式YouTubeチャンネルで公開している。作品の見どころが，ゲームプレイシーンや開発者のコメントを交えて紹介されている。"
+   "summary": "セガは，2026年10月14日に発売する「トータルウォー：ショーグン2コンプリートエディション」の紹介動画を同社公式YouTubeチャンネルで公開している。作品の見どころが，ゲームプレイシーンや開発者のコメントを交えて紹介されている。",
+   "i18n": {
+    "zh": {
+     "title": "聚焦《全面战争：幕府将军2完整版》亮点介绍视频已发布",
+     "summary": "世嘉发布了《全面战争：幕府将军 2 完整版》的介绍视频，该视频将于 2026 年 10 月 14 日在该公司的官方 YouTube 频道上发布。介绍了作品的亮点以及游戏场景和开发者的评论。"
+    },
+    "en": {
+     "title": "An introduction video focusing on the highlights of \"Total War: Shogun 2 Complete Edition\" has been released",
+     "summary": "Sega has released an introduction video for ``Total War: Shogun 2 Complete Edition'', which will be released on October 14, 2026, on the company's official YouTube channel. Highlights of the work are introduced along with gameplay scenes and comments from the developer."
+    }
+   }
   },
   {
    "id": "d946c2971741",
@@ -416,7 +979,17 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T16:41:27+08:00",
-   "summary": "KRAFTONは本日（2026年10月6日），Switch2用ソフト「TheAscentUltimateEdition」の予約受付をニンテンドーeショップで開始した。価格は3500円（税込）。また，ソロ・協力プレイの様子を捉えた新規トレイラーも公開された。"
+   "summary": "KRAFTONは本日（2026年10月6日），Switch2用ソフト「TheAscentUltimateEdition」の予約受付をニンテンドーeショップで開始した。価格は3500円（税込）。また，ソロ・協力プレイの様子を捉えた新規トレイラーも公開された。",
+   "i18n": {
+    "zh": {
+     "title": "Nintendo Switch 2 软件“The Ascent Ultimate Edition”在 Nintendo eShop 开始预购",
+     "summary": "KRAFTON 今天（2026 年 10 月 6 日）开始在任天堂 eShop 上接受 Switch 2 软件“The Ascent Ultimate Edition”的预订。价格为3500日元（含税）。还发布了一段包含单人和合作游戏的新预告片。"
+    },
+    "en": {
+     "title": "Pre-orders for Nintendo Switch 2 software “The Ascent Ultimate Edition” begin on Nintendo eShop",
+     "summary": "KRAFTON today (October 6, 2026) started accepting reservations for the Switch 2 software ``The Ascent Ultimate Edition'' on the Nintendo eShop. The price is 3500 yen (tax included). A new trailer that captures solo and cooperative play has also been released."
+    }
+   }
   },
   {
    "id": "386697a1fe7a",
@@ -427,7 +1000,15 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T16:30:00+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "漫画《厌倦了把青梅竹马放在第一位的未婚夫》开始连载"
+    },
+    "en": {
+     "title": "Comic serialization of “I’m tired of my fiancé who prioritizes his childhood friend” begins"
+    }
+   }
   },
   {
    "id": "adcdf2ebb27d",
@@ -438,7 +1019,15 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T15:00:00+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "【9月28日-10月4日】每周轻小说销量排名"
+    },
+    "en": {
+     "title": "[September 28th - October 4th] Weekly light novel sales ranking"
+    }
+   }
   },
   {
    "id": "2cff0970bea4",
@@ -449,7 +1038,15 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T13:30:00+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "动画《Sabitami Bisco》第二季首个预告视觉图公开"
+    },
+    "en": {
+     "title": "The first teaser visual for the 2nd season of the anime “Sabitami Bisco” has been released"
+    }
+   }
   },
   {
    "id": "e3c38fad6516",
@@ -460,7 +1057,15 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T12:00:00+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "漫画《我想失去童贞》开始连载"
+    },
+    "en": {
+     "title": "Comic serialization of “I Want to Lose My Virginity” begins"
+    }
+   }
   },
   {
    "id": "565f5e6dab49",
@@ -471,7 +1076,15 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T10:00:00+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "动漫《刀剑神域》Animega x Sofmap预售会正在举办"
+    },
+    "en": {
+     "title": "Anime “Sword Art Online” Animega x Sofmap pre-sale fair is being held"
+    }
+   }
   },
   {
    "id": "5e1dc88b9fe7",
@@ -482,7 +1095,15 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T08:30:00+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "第23届讲谈社轻小说文库新人奖最终评选结果已公布。"
+    },
+    "en": {
+     "title": "The final selections for the 23rd Kodansha Light Novel Bunko Newcomer Award have been announced."
+    }
+   }
   },
   {
    "id": "67b7edeb7854",
@@ -493,7 +1114,15 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T07:00:00+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "“因为奴隶的期待和评价而无法利用”决定制作TV动画"
+    },
+    "en": {
+     "title": "“I can’t exploit it because of the expectations and evaluations from my slaves” decided to be made into a TV anime"
+    }
+   }
   },
   {
    "id": "b957b52af3bb",
@@ -504,7 +1133,15 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-06T05:00:00+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "漫画《侯二公子离家出走～我没有天赋，所以放弃一切成为冒险家～》开始"
+    },
+    "en": {
+     "title": "Comic serialization of ``The second son of a marquis runs away from home ~I have no talent, so I give up everything and become an adventurer~'' begins"
+    }
+   }
   },
   {
    "id": "b45539802c1f",
@@ -515,7 +1152,15 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-05T18:00:00+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "《幻想曲文库大感恩节2026 Online》将于10月25日（周日）发行"
+    },
+    "en": {
+     "title": "“Fantasia Bunko Dai Thanksgiving 2026 Online” will be distributed on October 25th (Sunday)"
+    }
+   }
   },
   {
    "id": "4d26c2fb5299",
@@ -526,7 +1171,15 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-05T16:30:00+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "《羽暮物语之魔城修真记》漫画开始连载"
+    },
+    "en": {
+     "title": "Comic serialization of “Haguremonotatsu no Demon Castle Cultivation Record” begins"
+    }
+   }
   },
   {
    "id": "2ecd7ff5204a",
@@ -537,7 +1190,15 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-05T15:00:00+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "《约会大作战》在线抽奖现已上线以《警察恶魔》为主题的全新插画周边商品上架"
+    },
+    "en": {
+     "title": "``Date A Live'' online lottery is now available Newly illustrated goods with the theme of ``Police Devil'' are available"
+    }
+   }
   },
   {
    "id": "51eaa6685df9",
@@ -548,7 +1209,15 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-05T13:30:00+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "动画《缺月的梅赛德斯：我转生为吸血鬼贵族，但感觉自己会被抛弃，所以我征服了地下城》的第一张主视觉图"
+    },
+    "en": {
+     "title": "The first main visual for the anime “Mercedes of the Missing Moon: I was reincarnated as a vampire aristocrat, but I feel like I’ll be abandoned, so I conquer the dungeon”"
+    }
+   }
   },
   {
    "id": "8e2040f46554",
@@ -559,7 +1228,15 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-05T12:00:00+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "与剧场版动画《青春痘不会梦见亲爱的朋友》的合作企划《青春痘不会梦见亲爱的朋友》正在5家矢吕拉面店举办"
+    },
+    "en": {
+     "title": "Collaboration project “Rascal Does Not Dream of Dear Friend” with the theatrical anime “Rascal Does Not Dream of Dear Friend” is being held at 5 Yaro Ramen stores"
+    }
+   }
   },
   {
    "id": "bc763793db5f",
@@ -570,7 +1247,162 @@
    "lang": "ja",
    "weight": 8,
    "published": "2026-10-05T10:00:00+08:00",
-   "summary": ""
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "衍生漫画《转生为剑我的菜》开始连载"
+    },
+    "en": {
+     "title": "Spin-off comic ``Reincarnated as a Sword My Dish'' begins serialization"
+    }
+   }
+  },
+  {
+   "id": "4ad40c540e09",
+   "title": "『League of Legends』のアプデで突如“他人のリプレイ確認不可”となりプレイヤーたちの不満相次ぐ。上手い人を参考にしたいだけなのに",
+   "url": "https://automaton-media.com/articles/newsjp/20261007-472143/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-10-07T08:56:57+08:00",
+   "summary": "『League of Legends』に向けたパッチ26.20にて、突如他人のリプレイを確認することができなくなった。この変更について、プレイヤーからの不満が相次いでいる。",
+   "i18n": {
+    "zh": {
+     "title": "英雄联盟的一次更新突然无法查看其他人的回放，引发了一系列玩家的抱怨。我只是想参考那些擅长这方面的人。",
+     "summary": "英雄联盟26.20补丁之后，突然就无法查看其他人的重播了。玩家们一直在抱怨这一变化。"
+    },
+    "en": {
+     "title": "An update to League of Legends suddenly made it impossible to check other people's replays, causing a series of complaints from players. I just want to refer to people who are good at it.",
+     "summary": "With patch 26.20 for League of Legends, it suddenly became impossible to check other people's replays. Players have been complaining about this change."
+    }
+   }
+  },
+  {
+   "id": "702e1c2a455a",
+   "title": "「ALWAYS 三丁目の夕日」の配信はどこで見れる？見放題を比較",
+   "url": "https://animeanime.jp/article/2026/10/07/103578.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-10-07T08:52:14+08:00",
+   "summary": "『ALWAYS 三丁目の夕日』の配信状況を主要動画配信サービスで調査しました。昭和33年の東京下町を描く本作はU-NEXT・Huluで見放題配信中。Amazonプライムビデオのレンタルや宅配DVD、金曜ロードショーの放送日もまとめています。",
+   "i18n": {
+    "zh": {
+     "title": "哪里可以看《第三街的日落》？比较无限观看",
+     "summary": "我们调查了《ALWAYS Sunset on Third Street》在主要视频分发服务上的分发状况。该作品描绘了 1955 年的东京市中心，可在 U-NEXT 和 Hulu 上无限次观看。我们还有 Amazon Prime Video 租赁、送货上门 DVD 和周五路演播放日期的列表。"
+    },
+    "en": {
+     "title": "Where can I watch “ALWAYS Sunset on Third Street”? Compare unlimited viewing",
+     "summary": "We investigated the distribution status of ``ALWAYS Sunset on Third Street'' on major video distribution services. This work, which depicts downtown Tokyo in 1955, is available for unlimited viewing on U-NEXT and Hulu. We also have a list of Amazon Prime Video rentals, home delivery DVDs, and Friday Roadshow broadcast dates."
+    }
+   }
+  },
+  {
+   "id": "8f37f195f33e",
+   "title": "「ブラック・ショーマン」の配信はどこで見れる？レンタル料金とお得な視聴方法",
+   "url": "https://animeanime.jp/article/2026/10/07/103577.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-10-07T08:45:46+08:00",
+   "summary": "映画『ブラック・ショーマン』はU-NEXT・Amazonプライムビデオ・Leminoなど主要な動画配信サービスでレンタル配信されています。見放題の有無や各サービスのレンタル料金、登録特典のポイントを使ったお得な視聴方法を紹介します。",
+   "i18n": {
+    "zh": {
+     "title": "哪里可以看《黑马秀人》？租借费用和经济的观看方式",
+     "summary": "电影《Black Showman》可在 U-NEXT、Amazon Prime Video 和 Lemino 等主要视频发行服务上租借。我们将向您介绍无限观看的可用性、每种服务的租赁费用以及使用注册奖励积分的有利观看方法。"
+    },
+    "en": {
+     "title": "Where can I watch “Black Showman”? Rental fees and economical viewing methods",
+     "summary": "The movie ``Black Showman'' is available for rental on major video distribution services such as U-NEXT, Amazon Prime Video, and Lemino. We will introduce you to the availability of unlimited viewing, rental fees for each service, and advantageous viewing methods using registration bonus points."
+    }
+   }
+  },
+  {
+   "id": "7777c29eb03b",
+   "title": "「とある科学の超電磁砲」の配信はどこで見れる？1期・2期・3期を見放題で視聴できるサブスクを比較",
+   "url": "https://animeanime.jp/article/2026/10/07/103576.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-10-07T08:39:42+08:00",
+   "summary": "『とある科学の超電磁砲』は1期・2期・3期の全3シリーズをDMM TV・U-NEXT・dアニメストア・Huluで見放題配信中。シーズン別の配信状況やNetflixの配信範囲、見る順番、新作『とある暗部の少女共棲』の配信日も紹介します。",
+   "i18n": {
+    "zh": {
+     "title": "《某科学的超电磁炮》哪里可以看？比较可让您随意观看第 1 季、第 2 季和第 3 季的订阅",
+     "summary": "《某科学的超电磁炮》全 3 系列（第 1、2、3 季）可在 DMM TV、U-NEXT、d Anime Store 和 Hulu 上无限观看。我们还将介绍新作品《某黑暗女孩并存》的按季发行情况、Netflix 发行范围、观看顺序以及上映日期。"
+    },
+    "en": {
+     "title": "Where can I watch “A Certain Scientific Railgun”? Compare subscriptions that allow unlimited viewing of seasons 1, 2, and 3",
+     "summary": "All 3 series of ``A Certain Scientific Railgun'' (seasons 1, 2, and 3) are available for unlimited viewing on DMM TV, U-NEXT, d Anime Store, and Hulu. We will also introduce the distribution status by season, Netflix distribution range, viewing order, and the release date of the new work ``A Certain Dark Girl Coexist''."
+    }
+   }
+  },
+  {
+   "id": "704b02a8d540",
+   "title": "「グランド・イリュージョン」の配信はどこで見れる？見放題・レンタルを比較",
+   "url": "https://animeanime.jp/article/2026/10/07/103575.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-10-07T08:35:46+08:00",
+   "summary": "『グランド・イリュージョン』の配信状況を主要動画配信サービスで調査しました。4人のマジシャンが銀行強盗を宣言する本作はU-NEXTで見放題配信中。Amazonプライムビデオなどのレンタルや宅配DVD、日本語吹替版の声優もまとめています。",
+   "i18n": {
+    "zh": {
+     "title": "哪里可以看《大幻境》？比较无限观看/租赁",
+     "summary": "我们调查了《大幻境》在主要视频分发服务上的分发状况。这部讲述四位魔术师宣称要去抢劫银行的作品，在 U-NEXT 上可以无限观看。我们还有可供出租的配音演员列表，例如 Amazon Prime Video、送货上门 DVD 和日语配音版本。"
+    },
+    "en": {
+     "title": "Where can I watch \"Grand Illusion\"? Compare unlimited viewing/rental",
+     "summary": "We investigated the distribution status of \"Grand Illusion\" on major video distribution services. This work, in which four magicians declare they are going to rob a bank, is available for unlimited viewing on U-NEXT. We also have a list of voice actors for rentals such as Amazon Prime Video, home delivery DVDs, and Japanese dubbed versions."
+    }
+   }
+  },
+  {
+   "id": "9b55499a5ff1",
+   "title": "『マインクラフト』新スナップショットで「氷の洞窟」が到来。頭上注意な「つらら」や“新ゾンビ亜種”など、危険いっぱい極寒世界",
+   "url": "https://automaton-media.com/articles/newsjp/20261007-472132/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-10-07T08:11:04+08:00",
+   "summary": "Mojang Studiosは10月6日、『Minecraft』Java版向けに「26.4 Snapshot 3」を配信開始した。",
+   "i18n": {
+    "zh": {
+     "title": "“冰洞”现已出现在新的 Minecraft 快照中。充满“冰柱”和“新僵尸亚种”等危险的寒冷世界",
+     "summary": "Mojang Studios 于 10 月 6 日开始分发 Java 版本“Minecraft”的“26.4 Snapshot 3”。"
+    },
+    "en": {
+     "title": "\"Ice Cave\" has arrived in a new Minecraft snapshot. A frigid world full of dangers such as “iccicles” and “new zombie subspecies”",
+     "summary": "Mojang Studios began distributing ``26.4 Snapshot 3'' for the Java version of ``Minecraft'' on October 6th."
+    }
+   }
+  },
+  {
+   "id": "6982d0eee2ff",
+   "title": "「薬屋」第3期や「鑑定スキル」第3期、話題の異世界系作品も！「J:COM STREAM」秋アニメが順次配信中",
+   "url": "https://animeanime.jp/article/2026/10/07/103574.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-10-07T06:30:04+08:00",
+   "summary": "J:COMの動画配信サービス「J:COM STREAM」では、2026年秋アニメが順次配信中だ。12月に劇場版の公開を控える『薬屋のひとりごと』第3期、『転生貴族、鑑定スキルで成り上がる 第3期』など人気作の続編をはじめ、『転生した大聖女は、聖女であることをひた隠す』や『凶乱令嬢ニア・リストン 病弱令嬢に転生した神殺しの武人の華麗なる無双録』など話題の異世界系作品も多数ラインナップしている。",
+   "i18n": {
+    "zh": {
+     "title": "还有其他一些世界相关的作品也很受欢迎，比如《药剂师店》第三季和《鉴定技巧》第三季！ 《J:COM STREAM》秋季动画依次发行",
+     "summary": "J:COM的视频发行服务“J:COM STREAM”目前正在于2026年秋季发行动画。阵容包括《药剂师的广后》第3季和将于12月上映的《转生贵族：第3季：转生贵族使用鉴定技能》等热门作品的续集，以及多部热门作品。 《转世大圣隐瞒自己是圣人》、《烈女尼娅·利斯顿：弑神武士转世为病娇少女的无双辉煌录》等超凡脱俗的作品。"
+    },
+    "en": {
+     "title": "There are also other world-related works that are popular, such as the third season of “Apothecary Shop” and the third season of “Appraisal Skills”! \"J:COM STREAM\" autumn anime is being distributed sequentially",
+     "summary": "J:COM's video distribution service \"J:COM STREAM\" is currently distributing anime in the fall of 2026. The lineup includes sequels to popular works such as ``The Apothecary's Hirogoto'' Season 3 and ``A Reincarnated Aristocrat: The 3rd Season: A Reincarnated Aristocrat uses Appraisal Skills'', which will be released in theaters in December, as well as a number of popular otherworldly works such as ``The Reincarnated Great Saint Hides That She Is a Saint'' and ``The Fierce Lady Nia Liston: The Brilliant Musou Record of the God-Slaying Samurai Who Reincarnated as a Sickly Young Lady.''"
+    }
+   }
   },
   {
    "id": "cab83d283580",
@@ -581,7 +1413,17 @@
    "lang": "zh",
    "weight": 7,
    "published": "2026-10-06T23:00:00+08:00",
-   "summary": "本期时间轴制作：西楼今年夏天，狼叔的女儿上了大学。回忆起女儿从小到大的故事，狼叔说：有许多值得纪念的时刻，也有很多人生路上的遗憾。但回忆起带女儿打游戏的时光，老父亲的脸上便容光焕发。那么，狼叔如何用游戏陪伴女儿长大呢？"
+   "summary": "本期时间轴制作：西楼今年夏天，狼叔的女儿上了大学。回忆起女儿从小到大的故事，狼叔说：有许多值得纪念的时刻，也有很多人生路上的遗憾。但回忆起带女儿打游戏的时光，老父亲的脸上便容光焕发。那么，狼叔如何用游戏陪伴女儿长大呢？",
+   "i18n": {
+    "ja": {
+     "title": "大人になって、オオカミおじさんは娘にどんなゲームを教えましたか?コンピューターに精通した親のための必聴のゲーム子育てプログラム",
+     "summary": "この号の年表制作：西館 この夏、オオカミおじさんの娘は大学に通いました。ラングおじさんは、幼少期から成人になるまでの娘の話を思い出しながら、「人生には思い出に残る瞬間がたくさんあり、後悔もたくさんあります。」と語った。しかし、娘とゲームをして過ごした時間を思い出すと、年老いた父親の顔が明るくなった。では、オオカミおじさんは娘の成長に合わせてどのようにゲームを利用しているのでしょうか?"
+    },
+    "en": {
+     "title": "Growing up, what games did Uncle Wolf teach his daughter to play? A must-listen game parenting program for computer-savvy parents",
+     "summary": "Timeline production of this issue: West Building This summer, Uncle Wolf’s daughter went to college. Recalling his daughter's story from childhood to adulthood, Uncle Lang said: There are many memorable moments and many regrets in life. But when he recalled the time he spent playing games with his daughter, the old father's face lit up. So, how does Uncle Wolf use games to accompany his daughter as she grows up?"
+    }
+   }
   },
   {
    "id": "a1c8d186e824",
@@ -592,7 +1434,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T21:34:03+08:00",
-   "summary": "『アークナイツ：エンドフィールド』に向けた新バージョン「丹青渡（たんせいわたり）」の詳細が発表された。"
+   "summary": "『アークナイツ：エンドフィールド』に向けた新バージョン「丹青渡（たんせいわたり）」の詳細が発表された。",
+   "i18n": {
+    "zh": {
+     "title": "新版本《明日方舟：End Field》引入了新干员“苏（CV 种崎敦美）”和“珉豪（CV 中村佑一）”。 《客栈经营农耕生活》等专题节目汇总",
+     "summary": "《明日方舟：End Field》新版本《探生渡》的详细信息已经公布。"
+    },
+    "en": {
+     "title": "The new version of \"Arknights: End Field\" introduces new operators \"Sue (CV Atsumi Tanezaki)\" and \"Minho (CV Yuichi Nakamura).\" Summary of special programs such as “Inn Management Farming Life”",
+     "summary": "Details of the new version of ``Tansei Wataru'' for ``Arknights: End Field'' have been announced."
+    }
+   }
   },
   {
    "id": "41d6c1b98611",
@@ -603,7 +1455,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T21:25:13+08:00",
-   "summary": "『アークナイツ：エンドフィールド』の新バージョン「丹青渡」の予告特別番組が配信された。新要素に加えて、さまざまな改善も紹介されている。"
+   "summary": "『アークナイツ：エンドフィールド』の新バージョン「丹青渡」の予告特別番組が配信された。新要素に加えて、さまざまな改善も紹介されている。",
+   "i18n": {
+    "zh": {
+     "title": "在新版本的《明日方舟：恩德菲尔德》中，你可以从仓库“直接”放置装备。玩法变得更加简单，包括引入“过期理性恢复代理自动转换”",
+     "summary": "新版《明日方舟：恩德菲尔德》《探精堂》的特别预览节目已经发布。除了新元素之外，还引入了各种改进。"
+    },
+    "en": {
+     "title": "In the new version of \"Arknights: Endfield\", you can place equipment \"directly\" from the warehouse. Much easier to play, including the introduction of “automatic conversion of expired rationality recovery agents”",
+     "summary": "A special preview program for the new version of ``Arknights: Endfield'' ``Tanseido'' has been distributed. In addition to new elements, various improvements are also introduced."
+    }
+   }
   },
   {
    "id": "b14a709b5037",
@@ -614,7 +1476,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T21:25:09+08:00",
-   "summary": "『アークナイツ：エンドフィールド』のSteam版が10月15日にリリースされる。"
+   "summary": "『アークナイツ：エンドフィールド』のSteam版が10月15日にリリースされる。",
+   "i18n": {
+    "zh": {
+     "title": "《明日方舟：恩德菲尔德》Steam 版将于 10 月 15 日发售。最后",
+     "summary": "Steam 版《明日方舟：恩德菲尔德》将于 10 月 15 日发布。"
+    },
+    "en": {
+     "title": "\"Arknights: Endfield\" Steam version to be released on October 15th. Finally",
+     "summary": "The Steam version of Arknights: Endfield will be released on October 15th."
+    }
+   }
   },
   {
    "id": "b598be6d0ac0",
@@ -625,7 +1497,17 @@
    "lang": "zh",
    "weight": 7,
    "published": "2026-10-06T21:00:00+08:00",
-   "summary": "9 月底的时候，罗技一口气公布了其 G PRO 系列的诸多新品，包括PRO X 2 RT 参天 8K电竞磁轴键盘、GPW5 ULTRA电竞鼠标（PRO X3 SUPERSTRIKE）、PRO X 3无线游戏耳机等。GPW5 ULTRA电竞鼠标（PRO X3 SUPERSTRIKE）对于系列用户来说应该不算陌生，内敛的外观设计秉承着系列风格，整体而言外观变动不大，更多的是在细节上的迭代，也因此国行版本叫 GPW5 ULTRA 再合适不过了。 这次的 GPW5 ULTRA 重量约 59g，并且重心居中。经典的 GPW 外围尺寸能保证使用时的握感，平衡的重心也可以让用户在移动和悬空时握持感受更均衡，"
+   "summary": "9 月底的时候，罗技一口气公布了其 G PRO 系列的诸多新品，包括PRO X 2 RT 参天 8K电竞磁轴键盘、GPW5 ULTRA电竞鼠标（PRO X3 SUPERSTRIKE）、PRO X 3无线游戏耳机等。GPW5 ULTRA电竞鼠标（PRO X3 SUPERSTRIKE）对于系列用户来说应该不算陌生，内敛的外观设计秉承着系列风格，整体而言外观变动不大，更多的是在细节上的迭代，也因此国行版本叫 GPW5 ULTRA 再合适不过了。 这次的 GPW5 ULTRA 重量约 59g，并且重心居中。经典的 GPW 外围尺寸能保证使用时的握感，平衡的重心也可以让用户在移动和悬空时握持感受更均衡，",
+   "i18n": {
+    "ja": {
+     "title": "新製品、新しい選択肢、新しいトレンド、Logicool G PRO X3 シリーズ製品の開封",
+     "summary": "9月末、ロジクールは、PRO X 2 RT Santen 8K ゲーミング磁気軸キーボード、GPW5 ULTRA ゲーミング マウス (PRO X3 SUPERSTRIKE)、PRO GPW5 ULTRA ゲーミング マウス (PRO 今回の GPW5 ULTRA の重さは約 59g で、重心が高くなります。クラシックな GPW 周辺サイズにより、使用中に快適なグリップが確保され、重心のバランスが取れているため、ユーザーはよりバランスの取れた操作を行うことができます。移動時や空中にぶら下がっているときのグリップ。"
+    },
+    "en": {
+     "title": "New products, new choices and new trends, unboxing Logitech G PRO X3 series products",
+     "summary": "At the end of September, Logitech announced many new products in its G PRO series, including PRO X 2 RT Santen 8K gaming magnetic axis keyboard, GPW5 ULTRA gaming mouse (PRO X3 SUPERSTRIKE), PRO The GPW5 ULTRA gaming mouse (PRO This time the GPW5 ULTRA weighs about 59g and has a center of gravity. The classic GPW peripheral size ensures a comfortable grip during use, and the balanced center of gravity also allows users to have a more balanced grip when moving and hanging in the air."
+    }
+   }
   },
   {
    "id": "b7664be803dc",
@@ -636,7 +1518,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T20:45:15+08:00",
-   "summary": "『アークナイツ：エンドフィールド』の新バージョン「丹青渡」の予告特別番組を配信した。このなかでは将来のバージョンでの、ロドスの登場が告知されている。"
+   "summary": "『アークナイツ：エンドフィールド』の新バージョン「丹青渡」の予告特別番組を配信した。このなかでは将来のバージョンでの、ロドスの登場が告知されている。",
+   "i18n": {
+    "zh": {
+     "title": "《明日方舟：恩德菲尔德》终于宣布“罗多斯”登场。展示“驾驶座视角”和类似“华法林”的热门一瞥",
+     "summary": "新版《明日方舟：恩德菲尔德》《探精堂》特别预告节目已发布。在此，罗德在未来版本中的出现被公布。"
+    },
+    "en": {
+     "title": "“Arknights: Endfield” finally announces the appearance of “Rhodos”. Showing hot glimpses such as “driver’s seat perspective” and what looks like “warfarin”",
+     "summary": "A special preview program for the new version of ``Arknights: Endfield'' ``Tanseido'' was distributed. In this, the appearance of Rhodes in a future version is announced."
+    }
+   }
   },
   {
    "id": "0dc85d26d28e",
@@ -647,7 +1539,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T20:00:04+08:00",
-   "summary": "『魔法少女まどか☆マギカ』シリーズより、キャラクターをイメージしたスマートウォッチとリングウォッチが登場。10月9日より予約受付を開始し、スマートウォッチは10月30日、リングウォッチは12月11日に発売される。"
+   "summary": "『魔法少女まどか☆マギカ』シリーズより、キャラクターをイメージしたスマートウォッチとリングウォッチが登場。10月9日より予約受付を開始し、スマートウォッチは10月30日、リングウォッチは12月11日に発売される。",
+   "i18n": {
+    "zh": {
+     "title": "《魔法少女小圆》小圆的智能手表和戒指手表现已上市！用雷电作品再现灵魂宝石",
+     "summary": "“魔法少女小圆”系列中，推出了基于角色的智能手表和戒指手表。预购将于 10 月 9 日开始，智能手表将于 10 月 30 日发售，戒指手表将于 12 月 11 日发售。"
+    },
+    "en": {
+     "title": "\"Puella Magi Madoka Magica\" Madoka's smart watch and ring watch are now available! Reproducing the soul gem with raden work",
+     "summary": "From the \"Puella Magi Madoka Magica\" series, smart watches and ring watches based on characters are now available. Pre-orders will begin on October 9th, and the smartwatch will be released on October 30th and the ring watch on December 11th."
+    }
+   }
   },
   {
    "id": "32ec9db206bf",
@@ -658,7 +1560,17 @@
    "lang": "zh",
    "weight": 7,
    "published": "2026-10-06T20:00:00+08:00",
-   "summary": "🐧👉《再荐茶社》更新通知QQ群：1055561149感谢大家一直以来的赞赏、订阅和支持，欢迎朋友们在评论中和我们一起分享游戏体验！- - - - - - - -03:38近期新闻雏选贝塞斯达接管黑曜石《逆转裁判5 VR》野间崇史GSC新作XBOX“神话成就”《绝地求生：黑域撤离》终止开发steam秋促22:39近期新游李选RedRocket Defencism-绝对火箭防卫主义死亡游戏调查报告Slow RoadsSongs of Glimmerwick黯井微光Well DwellerRADIOSOL尼瓦利斯之夜Nivalis NightsMinecraft Dungeons II46:11她在"
+   "summary": "🐧👉《再荐茶社》更新通知QQ群：1055561149感谢大家一直以来的赞赏、订阅和支持，欢迎朋友们在评论中和我们一起分享游戏体验！- - - - - - - -03:38近期新闻雏选贝塞斯达接管黑曜石《逆转裁判5 VR》野间崇史GSC新作XBOX“神话成就”《绝地求生：黑域撤离》终止开发steam秋促22:39近期新游李选RedRocket Defencism-绝对火箭防卫主义死亡游戏调查报告Slow RoadsSongs of Glimmerwick黯井微光Well DwellerRADIOSOL尼瓦利斯之夜Nivalis NightsMinecraft Dungeons II46:11她在",
+   "i18n": {
+    "ja": {
+     "title": "彼女は時間の外にいますが、彼は墓の円の中にいます。おすすめティークラブ42",
+     "summary": "🐧👉「おすすめ紅茶クラブ」更新のお知らせ QQグループ：1055561149 いつもご購読、ご愛顧いただき誠にありがとうございます。友達はコメント欄でゲーム体験を共有してください! - - - - - - - -03:38 最近のニュース: BethesdaがObsidianを買収 「逆転裁判5 VR」野間隆 GSCの新作GSC XBOX「Mythic Achievement」「PUBG: Underworld Exit」開発終了 Steam秋プロモーション 22:39 最近の新作ゲーム Li Xuan RedRocket Defencism - 絶対ロケット防衛主義デスゲーム調査報告書 Slow Roadsの歌Glimmerwick Well DwellerRADIOSOLNivalis NightsMinecraft Dungeons II46:11 彼女はいます"
+    },
+    "en": {
+     "title": "She is outside time, he is within the circle of the grave. Recommend Tea Club 42",
+     "summary": "🐧👉\"Recommended Tea Club\" update notification QQ group: 1055561149 Thank you for your continued appreciation, subscription and support. Friends are welcome to share the game experience with us in the comments! - - - - - - - -03:38 Recent news: Bethesda takes over Obsidian \"Ace Attorney 5 VR\" Noma Takashi GSC's new GSC XBOX \"Mythic Achievement\" \"PUBG: Underworld Exit\" terminates development steam autumn promotion 22:39 Recent new game Li Xuan RedRocket Defencism-Absolute Rocket Defenseism Death Game Investigation Report Slow RoadsSongs of Glimmerwick Well DwellerRADIOSOLNivalis NightsMinecraft Dungeons II46:11 She's in"
+    }
+   }
   },
   {
    "id": "660d5a21b4dd",
@@ -669,7 +1581,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T19:45:03+08:00",
-   "summary": "『しろたん』と『カナヘイの小動物』ピスケ＆うさぎの初コラボアイテムが登場。お互いになりきった限定マスコットやキーホルダーが、2026年10月9日より全国の『しろたん』直営取扱店などで販売される。"
+   "summary": "『しろたん』と『カナヘイの小動物』ピスケ＆うさぎの初コラボアイテムが登場。お互いになりきった限定マスコットやキーホルダーが、2026年10月9日より全国の『しろたん』直営取扱店などで販売される。",
+   "i18n": {
+    "zh": {
+     "title": "“Sirotan”×“Kanahei no Kojutsu”首次合作！身着 Pisuke 和 Usagi 的限量版吉祥物登场",
+     "summary": "隆重推出“Sirotan”与“Kanahei's Small Animals”Pisuke & Usagi 的首次合作商品。外形相似的限量版吉祥物和钥匙扣将于2026年10月9日起在全国Sirotan直营店发售。"
+    },
+    "en": {
+     "title": "“Sirotan” x “Kanahei no Kojutsu” first collaboration! Limited edition mascots dressed as Pisuke and Usagi appear",
+     "summary": "Introducing the first collaboration item between \"Sirotan\" and \"Kanahei's Small Animals\" Pisuke & Usagi. Limited edition mascots and keychains that look like each other will be sold at Sirotan directly managed stores nationwide from October 9, 2026."
+    }
+   }
   },
   {
    "id": "a652a0d99a58",
@@ -680,7 +1602,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T19:30:03+08:00",
-   "summary": "漫画家の冨樫義博先生が、公式Xにて仕事のセーブをすることを発表。この発表にファンから心配と労いの声が広がっている。"
+   "summary": "漫画家の冨樫義博先生が、公式Xにて仕事のセーブをすることを発表。この発表にファンから心配と労いの声が広がっている。",
+   "i18n": {
+    "zh": {
+     "title": "富坚义博宣布，由于精神和身体疾病，他将保留工作请求……“我希望富坚先生不要给自己太大压力”和“我很担心……不要给自己太大压力”是担忧的声音。",
+     "summary": "漫画家富坚义博在Official X上宣布他将保住自己的工作。此消息一出，引起了众多粉丝的关注和关注。"
+    },
+    "en": {
+     "title": "Yoshihiro Togashi announces that he will save work requests due to mental and physical illness... ``I hope Mr. Togashi doesn't push himself too hard'' and ``I'm worried...don't push yourself too hard'' are the voices of concern.",
+     "summary": "Manga artist Yoshihiro Togashi announced on Official X that he will be saving his job. This announcement has caused a lot of concern and concern from fans."
+    }
+   }
   },
   {
    "id": "fac8c081e328",
@@ -691,7 +1623,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T19:22:16+08:00",
-   "summary": "Secret Modeは10月6日、レースゲーム『スター・ウォーズ：ギャラクティック・レーサー』を配信した。"
+   "summary": "Secret Modeは10月6日、レースゲーム『スター・ウォーズ：ギャラクティック・レーサー』を配信した。",
+   "i18n": {
+    "zh": {
+     "title": "冲突与破坏竞赛《星球大战：银河赛车手》今日上映。支持最多12人多人游戏，前《Burnout》开发团队发布的公共安全最恶劣竞赛开始",
+     "summary": "Secret Mode于10月6日发售了赛车游戏《星球大战：银河赛车》。"
+    },
+    "en": {
+     "title": "Clash and destruction race “Star Wars: Galactic Racer” released today. Supports multiplayer for up to 12 people, the worst race for public safety released by the former \"Burnout\" developer team begins",
+     "summary": "Secret Mode released the racing game ``Star Wars: Galactic Racer'' on October 6th."
+    }
+   }
   },
   {
    "id": "fa51c87b1f98",
@@ -702,7 +1644,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T19:15:03+08:00",
-   "summary": "『葬送のフリーレン』より、ORBcafeとのコラボカフェ「天体観測キャンプ」が復刻開催。昨年好評を博したメニューや描き起こしミニキャラを使用したグッズに加え、新メニューやノベルティ、グッズも登場する。"
+   "summary": "『葬送のフリーレン』より、ORBcafeとのコラボカフェ「天体観測キャンプ」が復刻開催。昨年好評を博したメニューや描き起こしミニキャラを使用したグッズに加え、新メニューやノベルティ、グッズも登場する。",
+   "i18n": {
+    "zh": {
+     "title": "“葬礼自由人”合作咖啡馆回来了！ “天文观测营”菜单和商品回归",
+     "summary": "出自《葬礼自由人》，与ORBcafe的合作咖啡馆“天文观测营”将重印。除了去年的人气菜单和迷你人物画商品外，还将推出新菜单、新奇商品和商品。"
+    },
+    "en": {
+     "title": "“Funeral Free Ren” collaboration cafe is back! “Astronomical Observation Camp” menu and goods are back",
+     "summary": "From \"Funeral Free Ren\", the collaboration cafe \"Astronomical Observation Camp\" with ORBcafe will be reprinted. In addition to last year's popular menu items and goods featuring drawn mini-characters, new menus, novelties, and goods will also be available."
+    }
+   }
   },
   {
    "id": "8fbfb22845d1",
@@ -713,7 +1665,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T19:01:12+08:00",
-   "summary": "ひっそり動く古のソフトの置き土産。配ったメーカーはすでにゲーミング事業から撤退していた。"
+   "summary": "ひっそり動く古のソフトの置き土産。配ったメーカーはすでにゲーミング事業から撤退していた。",
+   "i18n": {
+    "zh": {
+     "title": "那天《Apex Legends》和《VRChat》突然停止运行。我彻底调查了被反作弊“Easy Anti-Cheat”拒绝“2个月”的神秘驱动程序",
+     "summary": "一个安静运行的老软件的纪念品。发行它的制造商已经退出游戏业务。"
+    },
+    "en": {
+     "title": "The day ``Apex Legends'' and ``VRChat'' suddenly stopped working. I thoroughly investigated the mysterious driver that was rejected by the anti-cheat \"Easy Anti-Cheat\" for \"2 months\"",
+     "summary": "A souvenir of an old software that works quietly. The manufacturer that distributed it had already withdrawn from the gaming business."
+    }
+   }
   },
   {
    "id": "5a368c838ae5",
@@ -724,7 +1686,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T19:00:04+08:00",
-   "summary": "『PEANUTS』より、スヌーピーと仲間たちがデザインされたノートやダイアリーなどのステーショナリーアイテムが登場。2026年10月6日（火）より、モレスキンストアおよびオンラインストアにて展開中だ。"
+   "summary": "『PEANUTS』より、スヌーピーと仲間たちがデザインされたノートやダイアリーなどのステーショナリーアイテムが登場。2026年10月6日（火）より、モレスキンストアおよびオンラインストアにて展開中だ。",
+   "i18n": {
+    "zh": {
+     "title": "有了史努比，创意无穷无尽！ “PEANUTS” x Moleskine 合作文具及周边商品第二版现已发售",
+     "summary": "从“PEANUTS”开始，与史努比和朋友们一起设计的笔记本和日记本等文具现已上市。将于 2026 年 10 月 6 日（星期二）起在 Moleskine 商店和网上商店发售。"
+    },
+    "en": {
+     "title": "With Snoopy, the ideas are endless! “PEANUTS” x Moleskine collaboration stationery & goods 2nd edition is now available",
+     "summary": "From ``PEANUTS'', stationery items such as notebooks and diaries designed with Snoopy and friends are now available. It will be available at Moleskine stores and online stores from October 6, 2026 (Tuesday)."
+    }
+   }
   },
   {
    "id": "e691056ca1f6",
@@ -735,7 +1707,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T18:45:02+08:00",
-   "summary": "ディズニー映画『ダンボ』より、公開85周年を記念した特別感あふれる新コレクションが登場。2026年10月6日（火）より順次、ディズニーストアにて発売される。"
+   "summary": "ディズニー映画『ダンボ』より、公開85周年を記念した特別感あふれる新コレクションが登場。2026年10月6日（火）より順次、ディズニーストアにて発売される。",
+   "i18n": {
+    "zh": {
+     "title": "《小飞象》上映 85 周年！推出以复古漫画风格设计的新系列，融入马戏团世界",
+     "summary": "迪士尼电影《小飞象》的特别新系列现已推出，以纪念其上映 85 周年。将于2026年10月6日（周二）起在迪士尼商店依次发售。"
+    },
+    "en": {
+     "title": "85th anniversary of “Dumbo” release! Introducing a new collection designed in a vintage comic style with the world of the circus",
+     "summary": "A special new collection from the Disney movie \"Dumbo\" is now available to commemorate the 85th anniversary of its release. It will be released sequentially at the Disney Store starting October 6, 2026 (Tuesday)."
+    }
+   }
   },
   {
    "id": "c9c0454089fa",
@@ -746,7 +1728,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T18:30:03+08:00",
-   "summary": "音楽原作キャラクターラッププロジェクトの『ヒプマイ』こと『ヒプノシスマイク -Division Rap Battle-』の12回目となるライブ「ヒプノシスマイク -Division Rap Battle- 12th LIVE ≪MIC AS ONE≫」が、2026年10月3日・4日の2日間にわたり横浜のぴあアリーナMMにて開催された。この記事では現地公演に加え、全国各地の映画館でのライブビューイングやABEMAでの生中継も実施された公演の模様を紹介する。"
+   "summary": "音楽原作キャラクターラッププロジェクトの『ヒプマイ』こと『ヒプノシスマイク -Division Rap Battle-』の12回目となるライブ「ヒプノシスマイク -Division Rap Battle- 12th LIVE ≪MIC AS ONE≫」が、2026年10月3日・4日の2日間にわたり横浜のぴあアリーナMMにて開催された。この記事では現地公演に加え、全国各地の映画館でのライブビューイングやABEMAでの生中継も実施された公演の模様を紹介する。",
+   "i18n": {
+    "zh": {
+     "title": "“Hypmai”木村昴、浅沼慎太郎、白井佑介、早水翔、岩崎良太、叶山翔太、小林优等7个部门的21名演员齐聚！第12届LIVE DAY1&2表现报告",
+     "summary": "音乐原创角色说唱项目《Hypnosismic -Division Rap Battle-》又名《Hypnosismic -Division Rap Battle-》第12次现场公演《Hypnosismic -Division Rap Battle- 12th LIVE ≪MIC AS ONE≫》于2026年10月3日至4日在Pia Arena MM举行了为期两天的演出横滨。在这篇文章中，除了当地的演出外，我们还将介绍在全国各地的剧院现场进行并在ABEMA上直播的演出。"
+    },
+    "en": {
+     "title": "\"Hypmai\" Subaru Kimura, Shintaro Asanuma, Yusuke Shirai, Sho Hayami, Ryota Iwasaki, Shota Hayama, Yu Kobayashi and 21 cast members from 7 divisions gather! 12th LIVE DAY1&2 performance report",
+     "summary": "The 12th live performance of ``Hypnosismic -Division Rap Battle-'', also known as ``Hypnosismic -Division Rap Battle-'', a music original character rap project, ``Hypnosismic -Division Rap Battle- 12th LIVE ≪MIC AS ONE≫'' was held over two days on October 3rd and 4th, 2026 at Pia Arena MM in Yokohama. In this article, we will introduce the performances that were held live in theaters across the country and broadcast live on ABEMA, in addition to the local performances."
+    }
+   }
   },
   {
    "id": "6671b54a563d",
@@ -757,7 +1749,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T18:28:14+08:00",
-   "summary": "基本プレイ無料ゲームのプレイ時間は横ばいの傾向であり、深刻な衰退は生じていないという見解が示された。一方で、その内容や収益については変化が見られるようだ。"
+   "summary": "基本プレイ無料ゲームのプレイ時間は横ばいの傾向であり、深刻な衰退は生じていないという見解が示された。一方で、その内容や収益については変化が見られるようだ。",
+   "i18n": {
+    "zh": {
+     "title": "市场分析指出，“免费游戏并未衰落”。《Narushio》等 RPG 系列表现良好，但“值班”状况是一个障碍",
+     "summary": "有观点认为，免费游戏的游戏时长一直持平，并没有出现严重下降的情况。另一方面，内容和利润似乎也发生了变化。"
+    },
+    "en": {
+     "title": "A market analysis states that ``free-to-play games are not in decline.'' RPG series such as “Narushio” are doing well, but the “duty job” situation is a hindrance",
+     "summary": "The view was expressed that the playing time of free-to-play games has been flat, and that no serious decline has occurred. On the other hand, there appear to be changes in the content and profits."
+    }
+   }
   },
   {
    "id": "aac6831e2c95",
@@ -768,7 +1770,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T18:15:03+08:00",
-   "summary": "『呪術廻戦』より、キャラクターごとに定められたモチーフアイコンをデザインしたラバースタンプ「呪術廻戦 モチーフアイコンスタンプコレクション（懐玉・玉折ver.）」が登場。"
+   "summary": "『呪術廻戦』より、キャラクターごとに定められたモチーフアイコンをデザインしたラバースタンプ「呪術廻戦 モチーフアイコンスタンプコレクション（懐玉・玉折ver.）」が登場。",
+   "i18n": {
+    "zh": {
+     "title": "五条悟、夏宇杰等 6 人的“柔术回战”图案图标现已作为邮票发售！ “凯玉/玉织”ver.释放",
+     "summary": "《柔术快线》中推出了“柔术快线主题图标图章集（海玉/玉织版）”，这是一个橡皮图章，设计有为每个角色确定的主题图标。"
+    },
+    "en": {
+     "title": "\"Jujutsu Kaisen\" motif icons of 6 people including Satoru Gojo and Ketsu Natsuyu are now available as stamps! “Kaitama/Tamaori” ver. released",
+     "summary": "From \"Jujutsu Kaisen\" comes the \"Jujutsu Kaisen Motif Icon Stamp Collection (Kaitama/Tamaori ver.)\", a rubber stamp designed with a motif icon determined for each character."
+    }
+   }
   },
   {
    "id": "0b382c5a2e56",
@@ -779,7 +1791,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T18:00:03+08:00",
-   "summary": "アニメ『おじゃる丸』が、キャラクター投票を開催。驚きの結果発表が公開され、声優の津田健次郎さんも反応し、話題を呼んでいる。"
+   "summary": "アニメ『おじゃる丸』が、キャラクター投票を開催。驚きの結果発表が公開され、声優の津田健次郎さんも反応し、話題を呼んでいる。",
+   "i18n": {
+    "zh": {
+     "title": "津田健二郎也忍不住反应过来！ “Ojarumaru”意外获得官方角色人气投票第一名……！ “推得太严重了”“这太神奇了”",
+     "summary": "动画《大蛇丸》正在进行角色投票。令人惊讶的结果已经公布，配音演员津田健二郎也做出了反应，引起了热议。"
+    },
+    "en": {
+     "title": "Kenjiro Tsuda couldn't help but react too! “Ojarumaru” unexpectedly won first place in the official character popularity poll…! “The push is too serious” “This is amazing”",
+     "summary": "The anime “Ojarumaru” is holding a character vote. The surprising results have been announced, and voice actor Kenjiro Tsuda has also reacted, creating a buzz."
+    }
+   }
   },
   {
    "id": "31ce3ae4d63e",
@@ -790,7 +1812,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T17:57:51+08:00",
-   "summary": "かえる。（KAERU）氏は、『この家には4人しか住んでいません』を公開した。"
+   "summary": "かえる。（KAERU）氏は、『この家には4人しか住んでいません』を公開した。",
+   "i18n": {
+    "zh": {
+     "title": "悬疑恐怖电影《这座房子里只有4个人住》讲述了一座房子里有“东西”，免费上映。一家四口平静的生活中潜藏着一些不寻常的东西。",
+     "summary": "改变。 (KAERU) 发布“这所房子里只有 4 个人住。”"
+    },
+    "en": {
+     "title": "Mysterious horror movie ``Only 4 people live in this house'', which sees a house with ``something'' in it, is available for free. Something abnormal lurks in the peaceful life of a family of four.",
+     "summary": "change. (KAERU) released ``Only 4 people live in this house.''"
+    }
+   }
   },
   {
    "id": "0f89bc563791",
@@ -801,7 +1833,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T17:45:03+08:00",
-   "summary": "声優・平野綾さんがXを更新。『涼宮ハルヒの憂鬱』の声優陣が勢ぞろいした様子を公開した。この様子に、ファンは大歓喜し話題になっている。"
+   "summary": "声優・平野綾さんがXを更新。『涼宮ハルヒの憂鬱』の声優陣が勢ぞろいした様子を公開した。この様子に、ファンは大歓喜し話題になっている。",
+   "i18n": {
+    "zh": {
+     "title": "“凉宫春日”SOS组合联合生日会正在举办！？看到声优齐聚一堂，粉丝们兴奋不已！ 「这是什么！？是梦吗！？」 “再次看到这张脸我很激动。”",
+     "summary": "配音演员平野绫更新了X。《凉宫春日的忧郁》的配音演员已经公开。粉丝们对此非常满意，也成为了热门话题。"
+    },
+    "en": {
+     "title": "“Haruhi Suzumiya” SOS group joint birthday party is being held!? Fans are excited to see the voice actors gathered together! \"What is this!? Is it a dream!?\" \"I'm overwhelmed to see this face again.\"",
+     "summary": "Voice actor Aya Hirano updated X. The voice actors for ``The Melancholy of Haruhi Suzumiya'' have been revealed. Fans are very happy with this and it has become a hot topic."
+    }
+   }
   },
   {
    "id": "904549bfcc9a",
@@ -812,7 +1854,17 @@
    "lang": "zh",
    "weight": 7,
    "published": "2026-10-06T17:38:00+08:00",
-   "summary": "备注：本文将涉及3.7版本的核心剧情描述，建议通关之后再阅读本文。完成《鸣潮》3.7版本主线“梦枢心相由心生”之后，我没有急着离开玄方城，而是又回了一趟城里。此时的朝月会已经热闹起来，街道两侧亮起灯火，熙熙攘攘的人群在一旁热闹地交谈着，烟火也在夜空中接连绽放。 从3.5到3.7，《鸣潮》用了三个版本，一点一点把玄方这片土地的过去、现在和未来铺陈在玩家眼前。直到最终章，故事终于不再绕开那个一直存在于所有传说背后的名字——心月狐。这个曾经只存在于岁主传说中的角色，也终于褪去了那层遥远的神秘感，留在了漂泊者的故事之中。当“心”与心月狐、与玄方城两百年来发生的一切逐渐拼合起来时，我才意识到，自己一路走"
+   "summary": "备注：本文将涉及3.7版本的核心剧情描述，建议通关之后再阅读本文。完成《鸣潮》3.7版本主线“梦枢心相由心生”之后，我没有急着离开玄方城，而是又回了一趟城里。此时的朝月会已经热闹起来，街道两侧亮起灯火，熙熙攘攘的人群在一旁热闹地交谈着，烟火也在夜空中接连绽放。 从3.5到3.7，《鸣潮》用了三个版本，一点一点把玄方这片土地的过去、现在和未来铺陈在玩家眼前。直到最终章，故事终于不再绕开那个一直存在于所有传说背后的名字——心月狐。这个曾经只存在于岁主传说中的角色，也终于褪去了那层遥远的神秘感，留在了漂泊者的故事之中。当“心”与心月狐、与玄方城两百年来发生的一切逐渐拼合起来时，我才意识到，自己一路走",
+   "i18n": {
+    "ja": {
+     "title": "月は玄方を照らし、心は定命の世界に戻る：「明潮」バージョン3.7の体験記",
+     "summary": "注: この記事には、バージョン 3.7 のコア プロットの説明が含まれます。この記事はゲームクリア後に読むことをお勧めします。 「明朝」バージョン 3.7 のメインストーリー「孟叔の心と心」を完了した後、私は急いで玄方市を離れず、再び玄方市に戻りました。この時期、朝月節は街路の両側にイルミネーションが灯り、賑わう人々が賑やかにおしゃべりし、夜空には花火が咲き誇り、にぎやかになっています。 3.5 から 3.7 まで、「Ming Tide」は 3 つのバージョンを使用し、Xuanfang ランドの過去、現在、未来を少しずつプレイヤーの前にレイアウトしました。最終章に至るまで、物語はついに、すべての伝説の背後に常に存在してきた名前、Xinyue Fox を中心に展開しなくなりました。かつては隋州の伝説の中にのみ存在していたこの人物は、最終的には遠い神秘の感覚を失い、放浪者の物語に残りました。 「心」、Xinyue Fox、そして過去200年間に玄芳市で起こったすべてのことが徐々にまとめられたとき、私はずっと歩いてきたことに気づきました。"
+    },
+    "en": {
+     "title": "The moon shines on Xuanfang, and the heart returns to the world of mortals: Notes on the experience of version 3.7 of \"Ming Tide\"",
+     "summary": "Note: This article will involve the core plot description of version 3.7. It is recommended to read this article after completing the game. After completing the main storyline of version 3.7 of \"Ming Chao\" \"Meng Shu's Heart-to-Heart\", I didn't rush to leave Xuanfang City, but went back to the city again. At this time, the Chaoyue Festival has become lively, with lights on both sides of the street, bustling crowds chatting lively, and fireworks blooming in the night sky. From 3.5 to 3.7, \"Ming Tide\" used three versions, laying out the past, present and future of Xuanfang land in front of players bit by bit. Until the final chapter, the story finally no longer revolves around the name that has always existed behind all legends - Xinyue Fox. This character who once only existed in the legend of Suizhu finally lost his distant sense of mystery and remained in the story of the Wanderer. When the \"heart\", Xinyue Fox, and everything that had happened in Xuanfang City in the past two hundred years were gradually put together, I realized that I had walked all the way."
+    }
+   }
   },
   {
    "id": "a95e30e4b724",
@@ -823,7 +1875,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T17:30:03+08:00",
-   "summary": "『魔法騎士レイアース』が令和に蘇る今、名作が揃うCLAMP作品にあらためめて注目。『こばと。』で描かれるさまざまな“好き”の形をのぞいてみませんか？"
+   "summary": "『魔法騎士レイアース』が令和に蘇る今、名作が揃うCLAMP作品にあらためめて注目。『こばと。』で描かれるさまざまな“好き”の形をのぞいてみませんか？",
+   "i18n": {
+    "zh": {
+     "title": "年轮蛋糕充满了 CLAMP 的美味！通过“Kobato”编织出爱的形式。",
+     "summary": "如今《魔法骑士雷亚斯》在令和时代复兴，我们再次关注CLAMP的作品，充满了杰作。 「小羽。你想看一下《爱》中描绘的各种“爱”的形态吗？"
+    },
+    "en": {
+     "title": "Baumkuchen packed with the deliciousness of CLAMP! The form of love woven through “Kobato.”",
+     "summary": "Now that \"Magic Knight Rayearth\" is being revived in the Reiwa era, we are paying attention once again to CLAMP's works, which are full of masterpieces. ``Kobato. Would you like to take a look at the various shapes of “love” depicted in “Love”?"
+    }
+   }
   },
   {
    "id": "79185ada297d",
@@ -834,7 +1896,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T17:29:09+08:00",
-   "summary": "生成AIを活用し、既存のゲームやIPをベースとするModなどのユーザー制作コンテンツが次々と出現。権利元からの削除要請を受ける例も発生している。"
+   "summary": "生成AIを活用し、既存のゲームやIPをベースとするModなどのユーザー制作コンテンツが次々と出現。権利元からの削除要請を受ける例も発生している。",
+   "i18n": {
+    "zh": {
+     "title": "随着一代AI的进化，《Elden Ring Mario Mod》和《辐射纽约版》相继出现。 “创作与侵权”的界限受到质疑，权利人也没有沉默。",
+     "summary": "利用生成式人工智能，基于现有游戏和 IP 的模组等用户创作的内容陆续出现。也有收到权利人提出删除请求的情况。"
+    },
+    "en": {
+     "title": "With the evolution of generation AI, \"Elden Ring Mario Mod\" and \"New York version of Fallout\" are appearing one after another. The line between \"creation and infringement\" is being questioned, and right holders are not silent either.",
+     "summary": "Utilizing generative AI, user-created content such as mods based on existing games and IP is appearing one after another. There have also been cases where requests for deletion have been received from rights holders."
+    }
+   }
   },
   {
    "id": "8d1e8ad652e8",
@@ -845,7 +1917,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T16:50:03+08:00",
-   "summary": "「ぬいもーしょんず ガンダム」「BIGフェイスぬいぐるみ シャア・アズナブル」「BIGフェイスぬいぐるみ アムロ・レイ」の3商品が現在バンダイ公式通販サイト「プレミアムバンダイ」に登場。予約受付は2026年10月9日（金）14時スタートだ。"
+   "summary": "「ぬいもーしょんず ガンダム」「BIGフェイスぬいぐるみ シャア・アズナブル」「BIGフェイスぬいぐるみ アムロ・レイ」の3商品が現在バンダイ公式通販サイト「プレミアムバンダイ」に登場。予約受付は2026年10月9日（金）14時スタートだ。",
+   "i18n": {
+    "zh": {
+     "title": "高达、夏亚、阿姆罗的可爱“大人偶”登场♪快来看看最适合拥抱的尺寸吧！",
+     "summary": "目前，“NuiMosions 高达”、“BIG Face 毛绒 夏亚·阿兹纳布尔”、“BIG Face 毛绒阿姆罗·雷”三款商品正在万代官方邮购网站“Premium Bandai”上发售。下午 2:00 开始接受预订。 2026 年 10 月 9 日星期五。"
+    },
+    "en": {
+     "title": "Introducing the cute “big dolls” of Gundam, Char, and Amuro♪ Check out the perfect size for hugging!",
+     "summary": "Three products, ``NuiMosions Gundam'', ``BIG Face Plush Char Aznable'', and ``BIG Face Plush Amuro Ray'' are currently available on Bandai's official mail order site ``Premium Bandai''. Reservations will be accepted starting at 2:00 p.m. on Friday, October 9, 2026."
+    }
+   }
   },
   {
    "id": "999e631b2a4d",
@@ -856,7 +1938,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T16:41:59+08:00",
-   "summary": "『機動戦士ガンダム 閃光のハサウェイ キルケーの魔女』は、Amazonプライムビデオで見放題配信されています。主な動画配信サービスの配信状況を比べ、マフティーを率いるハサウェイとギギの物語のあらすじ・見どころや声優キャストも紹介します。"
+   "summary": "『機動戦士ガンダム 閃光のハサウェイ キルケーの魔女』は、Amazonプライムビデオで見放題配信されています。主な動画配信サービスの配信状況を比べ、マフティーを率いるハサウェイとギギの物語のあらすじ・見どころや声優キャストも紹介します。",
+   "i18n": {
+    "zh": {
+     "title": "《机动战士高达闪光的海瑟薇 喀耳刻的魔女》在哪里可以看？在 Amazon Prime Video 上无限观看",
+     "summary": "《机动战士高达 闪光的海瑟薇 喀耳刻的魔女》可在 Amazon Prime Video 上无限观看。我们将比较主要视频发行服务的发行状况，并介绍领导穆夫提的海瑟薇和吉吉的故事的概要、亮点和配音演员阵容。"
+    },
+    "en": {
+     "title": "Where can I watch \"Mobile Suit Gundam: Flash of Hathaway: The Witch of Circe\"? Unlimited viewing on Amazon Prime Video",
+     "summary": "``Mobile Suit Gundam: Flash of Hathaway: The Witch of Circe'' is available for unlimited viewing on Amazon Prime Video. We will compare the distribution status of major video distribution services and introduce the synopsis, highlights, and voice actor cast of the story of Hathaway and Gigi, who lead the Mufti."
+    }
+   }
   },
   {
    "id": "995dff8ace62",
@@ -867,7 +1959,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T16:40:03+08:00",
-   "summary": "アニメ『鬼滅の刃』と味噌・醸造製品メーカー「ハナマルキ」のコラボレーションによる、竈門炭治郎たちがあしらわれた限定パッケージの「すぐ旨カップみそ汁」シリーズが登場。全6種が、2026年10月中旬より順次出荷されることがわかった。また本コラボレーションを記念し、ハナマルキの公式X（旧Twitter）では「オリジナルアクリルスタンドセット」や「コンプリートボックス」などが当たるプレゼント企画も行われる。"
+   "summary": "アニメ『鬼滅の刃』と味噌・醸造製品メーカー「ハナマルキ」のコラボレーションによる、竈門炭治郎たちがあしらわれた限定パッケージの「すぐ旨カップみそ汁」シリーズが登場。全6種が、2026年10月中旬より順次出荷されることがわかった。また本コラボレーションを記念し、ハナマルキの公式X（旧Twitter）では「オリジナルアクリルスタンドセット」や「コンプリートボックス」などが当たるプレゼント企画も行われる。",
+   "i18n": {
+    "zh": {
+     "title": "《鬼灭之刃》收录了炭治郎和义勇的原创插画♪花丸木“Sugu Umami杯味噌汤”合作，还可以赢取周边商品",
+     "summary": "动漫《鬼灭之刃》与味噌和酿造产品制造商“Hanamaruki”之间的合作推出了“Sugu Umami Cup Miso Soup”系列，其中包含灶门炭治郎和他的朋友们的限量版包装。据透露，所有六款将于 2026 年 10 月中旬起依次发货。此外，为了纪念这次合作，花丸官方"
+    },
+    "en": {
+     "title": "“Demon Slayer: Kimetsu no Yaiba” includes original illustrations of Tanjiro and Giyuu ♪ Hanamaruki “Sugu Umami Cup Miso Soup” collaboration where you can also win goods",
+     "summary": "A collaboration between the anime ``Demon Slayer: Kimetsu no Yaiba'' and the miso and brewed product manufacturer ``Hanamaruki'' has released the ``Sugu Umami Cup Miso Soup'' series, which comes in a limited edition package featuring Tanjiro Kamado and his friends. It has been revealed that all six types will be shipped sequentially from mid-October 2026. In addition, to commemorate this collaboration, Hanamaruki's official"
+    }
+   }
   },
   {
    "id": "77399ba89d35",
@@ -878,7 +1980,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T16:34:07+08:00",
-   "summary": "RENGAMEは10月6日、説明書が一切存在しない装置を操作する、ひらめき実験パズル『How to Use』を発表した。"
+   "summary": "RENGAMEは10月6日、説明書が一切存在しない装置を操作する、ひらめき実験パズル『How to Use』を発表した。",
+   "i18n": {
+    "zh": {
+     "title": "发布了“如何使用”游戏，您可以在其中操纵“使用方式是一个谜的设备”。无需说明，可尝试超过 15,000 次操作，只需反复试验，直至灵感迸发。",
+     "summary": "10 月 6 日，RENGAME 宣布了“如何使用”，这是一个鼓舞人心的实验谜题，涉及操作没有任何说明的设备。"
+    },
+    "en": {
+     "title": "Announced ``How to Use'', a game where you can manipulate ``a device whose use is a mystery''. No instructions required, over 15,000 operations to try, just trial and error until inspiration strikes.",
+     "summary": "On October 6th, RENGAME announced ``How to Use,'' an inspirational experimental puzzle that involves operating a device that does not have any instructions."
+    }
+   }
   },
   {
    "id": "023c46caeb02",
@@ -889,7 +2001,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T16:30:03+08:00",
-   "summary": "『ちいかわ』の新商品として、満天の夜空が幻想的な「2027年イヤーズアイテム」のほかこれからの季節に嬉しい「腹巻」や「1分丈腹巻パンツ」、用途やデザインから選べる「ポチ袋」が登場。「2027年イヤーズアイテム」は2026年10月16日より順次販売され、「腹巻」は10月上旬、「ポチ袋」は10月下旬、「1分丈腹巻パンツ」は11月下旬より取り扱いがスタートする。"
+   "summary": "『ちいかわ』の新商品として、満天の夜空が幻想的な「2027年イヤーズアイテム」のほかこれからの季節に嬉しい「腹巻」や「1分丈腹巻パンツ」、用途やデザインから選べる「ポチ袋」が登場。「2027年イヤーズアイテム」は2026年10月16日より順次販売され、「腹巻」は10月上旬、「ポチ袋」は10月下旬、「1分丈腹巻パンツ」は11月下旬より取り扱いがスタートする。",
+   "i18n": {
+    "zh": {
+     "title": "“Chiikawa”八件、兔子和充满夜空的天空♪2027年设计的商品现已上市！还有腹部包裹和口袋袋",
+     "summary": "“Chiikawa”的新产品包括具有神奇夜空的“2027年商品”，以及适合即将到来的季节的“肚兜”和“半长肚带裤”，以及可以从多种用途和设计中选择的“Pochi Bags”。 “2027年度商品”将从2026年10月16日起依次发售，“裹腹”从10月初开始，“保袋”从10月下旬开始，“半长裹腹裤”从11月下旬开始。"
+    },
+    "en": {
+     "title": "“Chiikawa” Hachiware, rabbits and a sky full of night sky♪ Items designed in 2027 are now available! Belly wraps and pocket bags too",
+     "summary": "New products from ``Chiikawa'' include ``2027 Year's Items,'' which have a magical night sky, as well as ``belly wraps'' and ``half-length belly band pants,'' which will be perfect for the coming season, and ``Pochi Bags,'' which you can choose from a variety of uses and designs. \"2027 Year's Items\" will be sold sequentially from October 16, 2026, with \"belly wraps\" starting in early October, \"pochibukuro\" in late October, and \"half-length belly wrap pants\" in late November."
+    }
+   }
   },
   {
    "id": "1930bc678284",
@@ -900,7 +2022,17 @@
    "lang": "zh",
    "weight": 7,
    "published": "2026-10-06T16:19:53+08:00",
-   "summary": "Battlestate Games发布了《逃离塔科夫》1.2.0.0版本。本次更新的主要内容包含对PvE游戏体验的大幅改进，以及全新“EXFIL Brothers”项目的启动 —— 这是一个鼓励老玩家邀请新玩家的系统。 PvEPvE迎来了重大的改动，包括AI行为逻辑优化以及全新的游戏进度机制，进一步改进玩家们已经熟悉的游戏体验： 转生：玩家可以在PvE解锁6个转生等级，每个等级都带有特殊奖励，包括游戏内货币TarCoin。所有通过转生获得的奖励都将在PvE角色中永久保留，重置存档也不会丢失。 AI PMC：重做了AI PMC的行为逻辑。现在他们在地图中的分布更有逻辑性，且趋向于在任务区域聚集。"
+   "summary": "Battlestate Games发布了《逃离塔科夫》1.2.0.0版本。本次更新的主要内容包含对PvE游戏体验的大幅改进，以及全新“EXFIL Brothers”项目的启动 —— 这是一个鼓励老玩家邀请新玩家的系统。 PvEPvE迎来了重大的改动，包括AI行为逻辑优化以及全新的游戏进度机制，进一步改进玩家们已经熟悉的游戏体验： 转生：玩家可以在PvE解锁6个转生等级，每个等级都带有特殊奖励，包括游戏内货币TarCoin。所有通过转生获得的奖励都将在PvE角色中永久保留，重置存档也不会丢失。 AI PMC：重做了AI PMC的行为逻辑。现在他们在地图中的分布更有逻辑性，且趋向于在任务区域聚集。",
+   "i18n": {
+    "ja": {
+     "title": "『Escape from Tarkov』PvE転生リリース＆EXFIL兄弟プロジェクト始動",
+     "summary": "Battlestate Games は、Escape from Tarkov のバージョン 1.2.0.0 をリリースしました。このアップデートの主な内容には、PvE ゲーム体験の大幅な改善と、古いプレイヤーが新しいプレイヤーを招待することを促す新しい「EXFIL Brothers」プロジェクトの開始が含まれます。 PvEPvE では、AI 動作ロジ​​ックの最適化や新しいゲーム進行メカニズムなどの大きな変更が導入され、プレイヤーがすでに慣れ親しんでいるゲーム エクスペリエンスがさらに向上しました。 転生: プレイヤーは PvE で 6 つの転生レベルのロックを解除でき、各レベルにはゲーム内通貨 TarCoin を含む特別な報酬が付属します。転生によって獲得したすべての報酬は PvE キャラクターに永続的に保持され、セーブファイルをリセットしても失われることはありません。 AI PMC: AI PMC の動作ロジックが再設計されました。それらはマップ全体にさらに論理的に分散され、ミッションエリアに集中する傾向があります。"
+    },
+    "en": {
+     "title": "\"Escape from Tarkov\" PvE reincarnation released and EXFIL Brothers project launched",
+     "summary": "Battlestate Games has released version 1.2.0.0 of Escape from Tarkov. The main content of this update includes significant improvements to the PvE game experience, as well as the launch of the new \"EXFIL Brothers\" project - a system that encourages old players to invite new players. PvEPvE has ushered in major changes, including AI behavior logic optimization and a new game progress mechanism, further improving the game experience that players are already familiar with: Reincarnation: Players can unlock 6 reincarnation levels in PvE, each level comes with special rewards, including the in-game currency TarCoin. All rewards obtained through reincarnation will be retained permanently in the PvE character, and will not be lost when resetting the save file. AI PMC: The behavioral logic of AI PMC has been redone. They are now more logically distributed across the map and tend to cluster in mission areas."
+    }
+   }
   },
   {
    "id": "d35d452f9026",
@@ -911,7 +2043,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T15:47:07+08:00",
-   "summary": "『デッドアカウント～二つの蒼い炎～』のプロジェクトディレクターを務めるキム・ビョンギ氏へのインタビューを実施。先行体験テストにおけるユーザーの反応や、原作とローグライト要素における結びつきなどを訊いた。"
+   "summary": "『デッドアカウント～二つの蒼い炎～』のプロジェクトディレクターを務めるキム・ビョンギ氏へのインタビューを実施。先行体験テストにおけるユーザーの反応や、原作とローグライト要素における結びつきなどを訊いた。",
+   "i18n": {
+    "zh": {
+     "title": "《Dead Account》这款 Rogue-lite RPG 的开发者表示：“每日回合时间短，策略有深度。”《Denno》带来的原创元素与重玩性的完美融合",
+     "summary": "我们对《死亡账户：两朵蓝色火焰》的项目总监金秉基进行了采访。我们询问了初步体验测试中的用户反应以及原作与 Roguelite 元素之间的联系。"
+    },
+    "en": {
+     "title": "The developer of Dead Account's rogue-lite RPG says, ``Daily rounds are short and the strategy is deep.'' A brilliant fusion of original elements and replayability brought out by “Denno”",
+     "summary": "We conducted an interview with Kim Byung-ki, the project director for \"Dead Account: Two Blue Flames.\" We asked about user reactions during preliminary experience tests and the connections between the original work and the roguelite elements."
+    }
+   }
   },
   {
    "id": "27aa5967a8bc",
@@ -922,7 +2064,17 @@
    "lang": "zh",
    "weight": 7,
    "published": "2026-10-06T15:27:14+08:00",
-   "summary": "站在Wonder Festival 2026上海站的场馆里，我很容易就想起了美国和日本的玩具从业者在大概50年前得出的那个结论：玩具卖到最后不能只卖玩具，搞玩具没有IP不行。Wonder Festival（下文简称WF）是世界上最著名的玩具/手办展览会，1984年由日本海洋堂主办。今年是第41年。日本本土的WF每年举办两届，分别是冬季展和夏季展，近年来，WF逐渐向海外扩张，先后在中国上海、韩国、泰国等地举办海外展会，并于2026年进入美国。WF在中国的首次展览是2018年，那也是WF第一次走出日本本土。2024年，Bilibili和WF主办方海洋堂达成协议，成为WF中国站的主办方。WF上海站每"
+   "summary": "站在Wonder Festival 2026上海站的场馆里，我很容易就想起了美国和日本的玩具从业者在大概50年前得出的那个结论：玩具卖到最后不能只卖玩具，搞玩具没有IP不行。Wonder Festival（下文简称WF）是世界上最著名的玩具/手办展览会，1984年由日本海洋堂主办。今年是第41年。日本本土的WF每年举办两届，分别是冬季展和夏季展，近年来，WF逐渐向海外扩张，先后在中国上海、韩国、泰国等地举办海外展会，并于2026年进入美国。WF在中国的首次展览是2018年，那也是WF第一次走出日本本土。2024年，Bilibili和WF主办方海洋堂达成协议，成为WF中国站的主办方。WF上海站每",
+   "i18n": {
+    "ja": {
+     "title": "ワンダーフェスティバルの中心となるゲーム要素を見つける",
+     "summary": "ワンダーフェスティバル 2026 上海駅の会場に立った私は、約 50 年前に米国と日本の玩具関係者が到達した結論を容易に思い出しました。それは、結局のところ、玩具は玩具としてのみ販売することはできず、知財がなければ玩具の開発はできないということです。ワンダーフェスティバル（以下、WF）は、世界で最も有名なおもちゃ・手芸の展示会です。 1984年に日本海洋堂が主催し、今年で41回目。日本の地元WFは年に2回、冬季展示会と夏季展示会を開催します。 WFは近年、上海、中国、韓国、タイなどで海外展示会を開催するなど、徐々に海外進出を進めており、2026年には米国にも進出する予定です。WFが初めて中国で展示会を行ったのは2018年で、WFが日本から初めて出展したのもこの時でした。 2024 年、ビリビリは WF 主催者である海陽唐と WF 中国の主催者となることで合意に達しました。 WF上海駅毎"
+    },
+    "en": {
+     "title": "Find gaming elements at the heart of Wonder Festival",
+     "summary": "Standing in the venue of Wonder Festival 2026 Shanghai Station, I was easily reminded of the conclusion reached by toy practitioners in the United States and Japan about 50 years ago: in the end, toys cannot be sold only as toys, and toys cannot be developed without IP. Wonder Festival (hereinafter referred to as WF) is the most famous toy/handicraft exhibition in the world. It was hosted by Japan Kaiyodo in 1984. This year is the 41st year. Japan's local WF holds two sessions each year, namely the winter exhibition and the summer exhibition. In recent years, WF has gradually expanded overseas, holding overseas exhibitions in Shanghai, China, South Korea, Thailand and other places, and will enter the United States in 2026. WF’s first exhibition in China was in 2018, which was also the first time that WF went out of Japan. In 2024, Bilibili reached an agreement with WF organizer Haiyang Tang to become the organizer of WF China. WF Shanghai station every"
+    }
+   }
   },
   {
    "id": "514f35d0c991",
@@ -933,7 +2085,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T15:01:43+08:00",
-   "summary": "Battlestate Gamesは10月6日、『Escape from Tarkov』に向けてパッチ1.2.0.0実装にあたるサーバーメンテナンスを開始した。"
+   "summary": "Battlestate Gamesは10月6日、『Escape from Tarkov』に向けてパッチ1.2.0.0実装にあたるサーバーメンテナンスを開始した。",
+   "i18n": {
+    "zh": {
+     "title": "《逃离塔科夫》今天的全新更新彻底改造了“PvE模式”。声望终于实现，PMC机器人沦为“死亡”，装备也根据等级豪华",
+     "summary": "10 月 6 日，Battlestate Games 开始服务器维护，为《逃离塔科夫》安装补丁 1.2.0.0。"
+    },
+    "en": {
+     "title": "\"Escape from Tarkov\" today's new update completely revamps \"PvE mode\". Prestige is finally implemented, PMC bots are reduced to “deadness”, and equipment is also luxurious according to the level",
+     "summary": "On October 6th, Battlestate Games began server maintenance to implement patch 1.2.0.0 for Escape from Tarkov."
+    }
+   }
   },
   {
    "id": "e33884ef05af",
@@ -944,7 +2106,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T14:55:33+08:00",
-   "summary": "Appleは10月5日、iPhone Duoの発売を10月23日に控え、同デバイス向けの準備に関してアプリ開発者に案内した。"
+   "summary": "Appleは10月5日、iPhone Duoの発売を10月23日に控え、同デバイス向けの準備に関してアプリ開発者に案内した。",
+   "i18n": {
+    "zh": {
+     "title": "从 2027 年 4 月起，iPhone 应用程序开发人员将被要求提交与 iPhone Duo 兼容的屏幕截图。我们已经接受支持版本的提交。",
+     "summary": "Apple 于 10 月 5 日向应用程序开发人员提供了在 10 月 23 日发布之前为 iPhone Duo 设备做好准备的指导。"
+    },
+    "en": {
+     "title": "iPhone app developers will be required to submit iPhone Duo compatible screenshots from April 2027 onwards. We are already accepting submissions of supported builds.",
+     "summary": "Apple on October 5th provided app developers with guidance on preparing for the iPhone Duo device ahead of its October 23rd release date."
+    }
+   }
   },
   {
    "id": "85c91e4b12d5",
@@ -955,7 +2127,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T13:22:26+08:00",
-   "summary": "舞台となる架空の州を描くにあたって、モデルになったフロリダ州の現地取材などがおこなわれたという。"
+   "summary": "舞台となる架空の州を描くにあたって、モデルになったフロリダ州の現地取材などがおこなわれたという。",
+   "i18n": {
+    "zh": {
+     "title": "显然，《侠盗猎车手 6》（GTA 6）的开发商与“当地警察和帮派”合作在外景拍摄。 “不安全的地方”也采用正宗的佛罗里达原料制成。",
+     "summary": "为了描绘故事发生的虚构州，以佛罗里达州为模型进行了现场研究。"
+    },
+    "en": {
+     "title": "Apparently, the developers of Grand Theft Auto 6 (GTA 6) worked with \"local police and gangs\" to film on location. “Unsafe places” are also made with authentic Florida ingredients.",
+     "summary": "In order to depict the fictional state in which the story takes place, on-site research was conducted in the state of Florida that served as a model."
+    }
+   }
   },
   {
    "id": "fb482995365c",
@@ -966,7 +2148,17 @@
    "lang": "ja",
    "weight": 7,
    "published": "2026-10-06T12:35:37+08:00",
-   "summary": "PandaFloraは10月6日、花屋経営シミュレーションゲーム『Panda Flora』を発表した。"
+   "summary": "PandaFloraは10月6日、花屋経営シミュレーションゲーム『Panda Flora』を発表した。",
+   "i18n": {
+    "zh": {
+     "title": "推出了一款花店模拟游戏“Panda Flora”，它可以让您更自由地制作花束。我们种植鲜花、经营商店，并致力于从单朵鲜花到包装的一切。",
+     "summary": "PandaFlora于10月6日发布了花店经营模拟游戏《Panda Flora》。"
+    },
+    "en": {
+     "title": "``Panda Flora'', a flower shop sim that allows you to make bouquets with greater freedom, is announced. We grow flowers, run a store, and are committed to everything from the individual flower to the wrapping.",
+     "summary": "PandaFlora announced the flower shop management simulation game ``Panda Flora'' on October 6th."
+    }
+   }
   },
   {
    "id": "67722243f7bf",
@@ -977,7 +2169,17 @@
    "lang": "zh",
    "weight": 7,
    "published": "2026-10-06T09:36:54+08:00",
-   "summary": "【进听友群+v Recallmikey】始于游戏，归于生活。欢迎收听《游戏开始｜Game Start》番外篇非常荣幸，我们的常驻主持人Even作为嘉宾，参与了【非正常营业】的线下节目录制，一起畅谈了游戏人生。对友台【非正常营业】感兴趣的伙伴，也欢迎订阅这档播客节目~从小到大，我们总被一句话规训：玩游戏=浪费时间、不务正业、虚度光阴。长大后才慢慢懂，游戏从来不是堕落的代名词它只是学生时代最便宜的快乐有人靠游戏解压、治愈内耗。有人靠游戏结识挚友、解锁圈子。有人把游戏玩成事业，开店、做内容、坚持热爱。人生不一定只有读书、上班、结婚一条路。适度游戏，认真生活🎮🕘时间轴00:00大主播突然翻牌，我懵了 "
+   "summary": "【进听友群+v Recallmikey】始于游戏，归于生活。欢迎收听《游戏开始｜Game Start》番外篇非常荣幸，我们的常驻主持人Even作为嘉宾，参与了【非正常营业】的线下节目录制，一起畅谈了游戏人生。对友台【非正常营业】感兴趣的伙伴，也欢迎订阅这档播客节目~从小到大，我们总被一句话规训：玩游戏=浪费时间、不务正业、虚度光阴。长大后才慢慢懂，游戏从来不是堕落的代名词它只是学生时代最便宜的快乐有人靠游戏解压、治愈内耗。有人靠游戏结识挚友、解锁圈子。有人把游戏玩成事业，开店、做内容、坚持热爱。人生不一定只有读书、上班、结婚一条路。适度游戏，认真生活🎮🕘时间轴00:00大主播突然翻牌，我懵了 ",
+   "i18n": {
+    "ja": {
+     "title": "番外編03: 人生は質問に答えて仕事をすることではありません。ゲームは時間の無駄なのでしょうか、それとも人生の解毒剤なのでしょうか？非通常業務",
+     "summary": "[リスニンググループに参加 +v Recallmikey] ゲームから始まり人生で終わります。 「ゲームスタート」の番外編へようこそ。 『アブノーマル・ビジネス』のオフライン番組収録にゲストとして参加させていただき、一緒にゲーム人生についてお話させていただけることは常駐ホストとしても大変光栄です。 Friendship Channelの[Abnormal Business]に興味のあるお友達も、このポッドキャストに登録してください〜 大人になってから、私たちはいつも「ゲームをする＝時間の無駄、ビジネスをしない、時間の無駄」という一文で教えられてきました。大人になって初めて、ゲームは決して堕落と同義ではなかったことが徐々に理解できるようになります。学生時代の安っぽい幸せにすぎない。ストレスを解消し、内面の葛藤を癒すためにゲームに依存する人もいます。親しい友達を作り、サークルのロックを解除するためにゲームに依存している人もいます。ゲームを仕事にして、ストアをオープンしたり、コンテンツを作成したり、情熱を持ち続ける人もいます。人生は必ずしも勉強、就職、結婚だけではありません。適度に遊び、真剣に生きましょう🎮🕘 タイムライン 00:00 大きなアンカーが突然カードをひっくり返して混乱しました"
+    },
+    "en": {
+     "title": "Extra Chapter 03: Life is not about answering questions to go to work. Is gaming a waste of time, or is it the antidote to life? Non-normal business",
+     "summary": "[Join the listening group +v Recallmikey] It starts from games and ends in life. Welcome to the extra chapter of \"Game Start\". It is a great honor for our resident host Even to participate in the offline program recording of [Abnormal Business] as a guest and talk about the game life together. Friends who are interested in [Abnormal Business] of Friendship Channel are also welcome to subscribe to this podcast ~ Growing up, we have always been taught by one sentence: Playing games = wasting time, not doing business, and wasting time. Only when I grow up do I gradually understand that games have never been synonymous with depravity. They are just the cheapest happiness in school days. Some people rely on games to relieve stress and heal internal conflicts. Some people rely on games to make close friends and unlock circles. Some people turn games into a career, opening stores, creating content, and persisting in their passion. Life is not necessarily just about studying, going to work, and getting married. Play moderately and live seriously🎮🕘 Timeline 00:00 The big anchor suddenly turned over the cards and I was confused"
+    }
+   }
   },
   {
    "id": "7cd9a6f06774",
@@ -988,7 +2190,17 @@
    "lang": "zh",
    "weight": 7,
    "published": "2026-10-05T21:00:00+08:00",
-   "summary": "本期时间轴制作: 老斧子文丑带大军回到黄河渡口为颜良复仇，这回在阵上又会遇到什么人呢？曹孟德摇人的本领还在不在？"
+   "summary": "本期时间轴制作: 老斧子文丑带大军回到黄河渡口为颜良复仇，这回在阵上又会遇到什么人呢？曹孟德摇人的本领还在不在？",
+   "i18n": {
+    "ja": {
+     "title": "俗語版三国志 第10章 文周、延津渡船で野営する",
+     "summary": "この号のタイムラインの制作: 老斧のウェン・チョウは、燕良の仇を討つために軍を率いて黄河渡し船に戻ります。今度は戦場で誰と出会うのか？曹孟徳の人々を揺さぶる能力はまだ残っているのでしょうか？"
+    },
+    "en": {
+     "title": "The Three Kingdoms in Vernacular Chapter 10 Wen Chou Encamps at Yanjin Ferry",
+     "summary": "Timeline production of this issue: Wen Chou, the old axe, leads the army back to the Yellow River Ferry to avenge Yan Liang. Who will he encounter on the battlefield this time? Is Cao Mengde's ability to shake people still there?"
+    }
+   }
   },
   {
    "id": "b02e3ee88426",
@@ -999,7 +2211,17 @@
    "lang": "zh",
    "weight": 7,
    "published": "2026-10-05T21:00:00+08:00",
-   "summary": "本期时间轴制作: 老斧子颜良被斩杀的消息传回冀州，袁本初得知个中缘由，当下冲冲大怒，刘皇叔眼看危在旦夕"
+   "summary": "本期时间轴制作: 老斧子颜良被斩杀的消息传回冀州，袁本初得知个中缘由，当下冲冲大怒，刘皇叔眼看危在旦夕",
+   "i18n": {
+    "ja": {
+     "title": "俗物三国志 第9章 袁本柱が怒って劉備を殺す",
+     "summary": "この号の年表制作：老斧顔良が斬首されたという知らせが冀州に戻ってきた。袁本柱はその理由を知って激怒した。叔父の劉黄は自分が危険にさらされていることに気づいた。"
+    },
+    "en": {
+     "title": "Vernacular Three Kingdoms Chapter 9 Yuan Benchu ​​angrily kills Liu Bei",
+     "summary": "Timeline production of this issue: The news that the old axe, Yan Liang, was beheaded came back to Jizhou. When Yuan Benchu ​​learned the reason, he was furious. Uncle Liu Huang saw that he was in danger."
+    }
+   }
   },
   {
    "id": "29f889ce3b43",
@@ -1010,7 +2232,17 @@
    "lang": "zh",
    "weight": 7,
    "published": "2026-10-05T18:46:00+08:00",
-   "summary": "在《蛋仔派对》里，一张乐园地图可以让玩家玩多久？ 在过去，可能是一周，甚至更短。但最近在十一蛋仔的“乐园双节派对”和“乐园新品节”活动上，一些乐园地图已经运营了数月，有数值迭代、有商业化支撑、有长期运营目标，甚至需要一支团队持续运营——它们已经很难再被简单地称作“玩家自制关卡”，我想，用“独立UGC产品”来形容或许更为贴切。 这些变化的背后，是《蛋仔派对》在编辑器工具和创作运营上进行的创新探索。UGC层面四年的亮眼成绩，为它在长线产品方法论上的探索提供了基础，也让它逐渐形成了独到的见解。这也是为什么，到了周末或假期，大多数用户会优先选择蛋仔。十一假期第五天，也是蛋仔位列iOS畅销榜TOP6的第"
+   "summary": "在《蛋仔派对》里，一张乐园地图可以让玩家玩多久？ 在过去，可能是一周，甚至更短。但最近在十一蛋仔的“乐园双节派对”和“乐园新品节”活动上，一些乐园地图已经运营了数月，有数值迭代、有商业化支撑、有长期运营目标，甚至需要一支团队持续运营——它们已经很难再被简单地称作“玩家自制关卡”，我想，用“独立UGC产品”来形容或许更为贴切。 这些变化的背后，是《蛋仔派对》在编辑器工具和创作运营上进行的创新探索。UGC层面四年的亮眼成绩，为它在长线产品方法论上的探索提供了基础，也让它逐渐形成了独到的见解。这也是为什么，到了周末或假期，大多数用户会优先选择蛋仔。十一假期第五天，也是蛋仔位列iOS畅销榜TOP6的第",
+   "i18n": {
+    "ja": {
+     "title": "ベストセラーNo.6とGemini Universe 地図づくりから商品づくりまで",
+     "summary": "「エッグマンパーティー」では、プレイヤーはパークマップでどれくらいの時間プレイできますか?以前は 1 週間、あるいはそれ以下だったかもしれません。しかし、最近、イレブン エッグマンの「パラダイス ダブル フェスティバル パーティー」や「パラダイス 新製品フェスティバル」のイベントでは、一部のパーク マップは数か月にわたって運用されており、数値の反復、商用サポート、長期的な運用目標があり、チームの運用継続が必要な場合さえあり、単純に「プレイヤーが作成したレベル」と呼ぶことはできなくなりました。 「独立したUGC製品」と表現するのが適切かもしれません。これらの変化の背景には、「Eggboy Party」によるエディター ツールとクリエイティブ オペレーションにおける革新的な探求があります。過去 4 年間にわたる UGC の優れたパフォーマンスは、長期的な製品方法論の探求の基礎を提供し、独自の洞察を徐々に形成することも可能にしました。このため、週末や休日には、ほとんどのユーザーが Danzi を優先することになります。国慶節の祝日の 5 日目に、Danzi は iOS のベストセラー トップ 6 にランクされました。"
+    },
+    "en": {
+     "title": "Best-selling No. 6 and Gemini Universe: From making maps to making products",
+     "summary": "In \"Eggman Party\", how long can a player play on a park map? In the past, it might have been a week, or even less. But recently, at Eleven Eggman’s “Paradise Double Festival Party” and “Paradise New Product Festival” events, some park maps have been in operation for several months, have numerical iterations, commercial support, long-term operational goals, and even require a team to continue operating - they can no longer be simply called “player-made levels”. I think it may be more appropriate to describe them as “independent UGC products”. Behind these changes are the innovative explorations made by \"Eggboy Party\" in editor tools and creative operations. The outstanding performance of UGC over the past four years has provided the foundation for its exploration of long-term product methodology, and has also allowed it to gradually form unique insights. This is why, on weekends or holidays, most users will give priority to Danzi. On the fifth day of the National Day holiday, Danzi ranked among the top 6 best sellers on iOS."
+    }
+   }
   },
   {
    "id": "e692020c0d78",
@@ -1021,7 +2253,17 @@
    "lang": "zh",
    "weight": 7,
    "published": "2026-10-05T18:35:35+08:00",
-   "summary": "作者：柏亚舟最近三年的国庆，我都得去一趟上海，去一个有点特别的展会。10月3日至4日，2026哔哩哔哩上海国际手办模型文化博览会（以下简称“WF2026”）在这里如期拉开帷幕。顺着人潮涌入场馆，你会发现一个别的展会不太会有的现象：在这预计突破15万的线下参与人次中，随处可见的是拖着巨大硬壳行李箱、绑着加固带的折叠小推车，甚至是背着专业防震摄影包的年轻人。 如果你不了解模玩圈子，大概会以为这群人是要在这个巨大的展馆里搬家。但如果你是一个资深的“胶佬”、原型师，或者只是单纯对二次元角色实体化抱有一份偏爱的人，你就会心领神会——那些箱子里装的，是用来妥善保护脆弱、精细、动辄耗费数月心血诞生的立体艺术"
+   "summary": "作者：柏亚舟最近三年的国庆，我都得去一趟上海，去一个有点特别的展会。10月3日至4日，2026哔哩哔哩上海国际手办模型文化博览会（以下简称“WF2026”）在这里如期拉开帷幕。顺着人潮涌入场馆，你会发现一个别的展会不太会有的现象：在这预计突破15万的线下参与人次中，随处可见的是拖着巨大硬壳行李箱、绑着加固带的折叠小推车，甚至是背着专业防震摄影包的年轻人。 如果你不了解模玩圈子，大概会以为这群人是要在这个巨大的展馆里搬家。但如果你是一个资深的“胶佬”、原型师，或者只是单纯对二次元角色实体化抱有一份偏爱的人，你就会心领神会——那些箱子里装的，是用来妥善保护脆弱、精细、动辄耗费数月心血诞生的立体艺术",
+   "i18n": {
+    "ja": {
+     "title": "なぜ15万人規模の「オフラインフィギュアパーティー」が必要なのか？",
+     "summary": "著者: Bai Yazhou 過去 3 年間の国慶節の間、私はちょっと特別な展覧会に行くために上海に行かなければなりません。 10月3日から4日まで、2026 Bilibili上海国際フィギュアモデル文化博覧会（以下、「WF2026」）が予定通りここで開幕した。会場に殺到した群衆に続いて、他の展示会ではめったに見られない現象が見られます。15万人ほどのオフライン参加者の中には、巨大なハードシェルのスーツケースや強化ストラップが付いた折りたたみ台車を引きずり、さらにはプロ仕様の耐衝撃撮影用バッグを運ぶ若者の姿もあちこちで見られます。模型サークルを知らない人は、この巨大な展示会場でこんな人たちが動いているのかと思うかも知れません。しかし、あなたが接着剤の上級者、プロトタイプ アーティスト、または単純に 2 次元のキャラクターを具現化することを好む人であれば、それを明確に理解できるでしょう。これらの箱には、作成するのに数か月の労力を要する、壊れやすく繊細な 3 次元アートを適切に保護するという目的が詰まっています。"
+    },
+    "en": {
+     "title": "Why do we still need an “offline figure party” with 150,000 people?",
+     "summary": "Author: Bai Yazhou During the National Day of the past three years, I have to go to Shanghai to go to a somewhat special exhibition. From October 3rd to 4th, the 2026 Bilibili Shanghai International Figure Model Culture Expo (hereinafter referred to as \"WF2026\") kicked off here as scheduled. Following the crowds pouring into the venue, you will find a phenomenon that is rarely seen in other exhibitions: among the 150,000 or so offline attendees, you can see everywhere dragging huge hard-shell suitcases, folding trolleys with reinforced straps, and even young people carrying professional shock-proof photography bags. If you don’t know the modeling circle, you might think that these people are moving in this huge exhibition hall. But if you are a senior glue guy, a prototype artist, or someone who simply has a preference for the materialization of two-dimensional characters, you will understand it clearly - those boxes are filled with the purpose of properly protecting fragile, delicate, three-dimensional art that often takes months of hard work to create."
+    }
+   }
   },
   {
    "id": "8d61e4787024",
@@ -1032,7 +2274,17 @@
    "lang": "zh",
    "weight": 7,
    "published": "2026-10-05T16:19:16+08:00",
-   "summary": "在刚刚落幕的WF2026上海展会上，INART展台首次对外展出了国产武侠动作游戏《影之刃零》主角魂的1:1与1:3比例雕像。展会现场人流量巨大，这组雕像也成为展位当中的热门看点之一，实物雕像从整体呈现到细节展示，都给到场的观众带来了很强的视觉冲击。 《影之刃零》3D美术负责人王琛也在个人微博放出了雕像更多的实拍照片，同时附带一部分研发阶段的细节物料。王琛在微博中介绍，这款雕像经过灵游坊内部的多轮监修，再由INART团队反复打磨成型。 制作团队对角色的多处细节都做了还原，既包括人物皮肤的质感表现，还落实到甲胄、布料上面的磨损与破损痕迹，尽量复刻游戏中魂一身饱经风霜的造型状态，把游戏内的角色质感展"
+   "summary": "在刚刚落幕的WF2026上海展会上，INART展台首次对外展出了国产武侠动作游戏《影之刃零》主角魂的1:1与1:3比例雕像。展会现场人流量巨大，这组雕像也成为展位当中的热门看点之一，实物雕像从整体呈现到细节展示，都给到场的观众带来了很强的视觉冲击。 《影之刃零》3D美术负责人王琛也在个人微博放出了雕像更多的实拍照片，同时附带一部分研发阶段的细节物料。王琛在微博中介绍，这款雕像经过灵游坊内部的多轮监修，再由INART团队反复打磨成型。 制作团队对角色的多处细节都做了还原，既包括人物皮肤的质感表现，还落实到甲胄、布料上面的磨损与破损痕迹，尽量复刻游戏中魂一身饱经风霜的造型状态，把游戏内的角色质感展",
+   "i18n": {
+    "ja": {
+     "title": "WF2026ではINARTの「シャドウブレードゼロ」主人公魂の1:1スタチューが初公開",
+     "summary": "閉幕したばかりのWF2026上海展示会において、INARTブースでは国産格闘技アクションゲーム『シャドウブレイド ゼロ』の主人公ソウルの1:1スケールスタチューと1:3スケールスタチューを初展示しました。展示会場には多くの人の流れがあり、この彫像群はブースの人気の目玉の一つとなった。物理的な彫像は、プレゼンテーション全体から詳細な展示に至るまで、聴衆に強い視覚的インパクトをもたらしました。 「シャドウ ブレード ゼロ」の 3D アート ディレクターであるワン チェン氏も、開発段階の詳細な資料とともに、個人の Weibo でこの像の実物写真をさらに公開しました。ワン・チェン氏は微博で、この像は霊游坊内で複数回の監督を受け、その後、INARTチームによって繰り返し研磨され、形作られたと紹介した。制作チームは、キャラクターの肌の質感、鎧や布の摩耗や損傷の痕跡など、キャラクターの多くの詳細を復元しました。彼らは、ゲーム内で風雨にさらされた魂の形状を再現し、ゲーム内でキャラクターの質感を表現するために最善を尽くしました。"
+    },
+    "en": {
+     "title": "WF2026 first exposed the 1:1 statue of the protagonist soul of INART's \"Shadow Blade Zero\"",
+     "summary": "At the just-concluded WF2026 Shanghai exhibition, the INART booth exhibited for the first time the 1:1 and 1:3 scale statues of the protagonist soul of the domestic martial arts action game \"Shadow Blade Zero\". There was a huge flow of people at the exhibition site, and this group of statues became one of the popular attractions in the booth. The physical statues brought a strong visual impact to the audience from the overall presentation to the detailed display. Wang Chen, the 3D art director of \"Shadow Blade Zero\", also released more real-life photos of the statue on his personal Weibo, along with some detailed materials from the development stage. Wang Chen introduced on Weibo that the statue had undergone multiple rounds of supervision within Lingyoufang, and was then repeatedly polished and shaped by the INART team. The production team restored many details of the character, including the texture of the character's skin, as well as the traces of wear and damage on the armor and cloth. They tried their best to replicate the weather-beaten shape of the soul in the game and show the texture of the character in the game."
+    }
+   }
   },
   {
    "id": "851024aee715",
@@ -1043,7 +2295,17 @@
    "lang": "zh",
    "weight": 7,
    "published": "2026-10-05T00:41:58+08:00",
-   "summary": "在今年的TGS2026，我试玩到了一款颇有些“年代感”的作品——《恐龙猎人：起源》。 说它有年代感，这其实并不是因为《恐龙猎人：起源》的画面或者技术表现落后于今天的游戏。恰恰相反，这款作品诞生自1990年代，而本作则是由Saber Interactive开发的系列重启作。由于使用了UE5，在视觉表现和动作演出上，它都称得上已经完全进入了现代游戏的范畴。《恐龙猎人：起源》所呈现出来的那种游戏气质，放到今天来看显得相当特别——茂密的丛林、突然从草丛里窜出来的恐龙、手里造型夸张的未来枪械，以及一个明显不讲道理的世界观：人类战士穿着高科技装甲，在原始生态与外星文明交织的世界里猎杀史前巨兽。 毕竟，“恐"
+   "summary": "在今年的TGS2026，我试玩到了一款颇有些“年代感”的作品——《恐龙猎人：起源》。 说它有年代感，这其实并不是因为《恐龙猎人：起源》的画面或者技术表现落后于今天的游戏。恰恰相反，这款作品诞生自1990年代，而本作则是由Saber Interactive开发的系列重启作。由于使用了UE5，在视觉表现和动作演出上，它都称得上已经完全进入了现代游戏的范畴。《恐龙猎人：起源》所呈现出来的那种游戏气质，放到今天来看显得相当特别——茂密的丛林、突然从草丛里窜出来的恐龙、手里造型夸张的未来枪械，以及一个明显不讲道理的世界观：人类战士穿着高科技装甲，在原始生态与外星文明交织的世界里猎杀史前巨兽。 毕竟，“恐",
+   "i18n": {
+    "ja": {
+     "title": "恐竜と銃器の間で狩猟の楽しさを再発見：『恐竜ハンター：オリジンズ』TGS体験会",
+     "summary": "今年のTGS2026では、かなり「時系列」な感じの作品『恐竜ハンター：オリジンズ』をプレイしてみました。時代を感じさせると言うのは、実際のところ、『Dinosaur Hunter: Origins』のグラフィックスや技術的パフォーマンスが今日のゲームに比べて遅れているからではありません。それに対して、このゲームは1990年代に生まれ、セイバーインタラクティブが開発したシリーズのリブートです。 UE5の採用により、ビジュアル性能やアクション性能においては完全に現代のゲームの範疇に入ったと言えるだろう。 「Dinosaur Hunter: Origins」が提示するゲーム スタイルは、今では非常に特別なものに思えます。鬱蒼としたジャングル、草むらから突然飛び出してくる恐竜、手に持った誇張された未来の銃、そして原始的な生態と異星文明が交差する世界で、ハイテク鎧を着た人間の戦士が先史時代の巨大な獣を狩るという明らかに不合理な世界観です。やっぱり「恐怖」"
+    },
+    "en": {
+     "title": "Between dinosaurs and firearms, rediscover the joy of hunting: \"Dinosaur Hunter: Origins\" TGS trial experience",
+     "summary": "At this year's TGS2026, I tried out a work that had a rather \"chronological\" feel - \"Dinosaur Hunter: Origins\". To say that it has a sense of age is actually not because the graphics or technical performance of \"Dinosaur Hunter: Origins\" lag behind today's games. On the contrary, this game was born in the 1990s, and this game is a series reboot developed by Saber Interactive. Due to the use of UE5, it can be said that it has completely entered the category of modern games in terms of visual performance and action performance. The game style presented by \"Dinosaur Hunter: Origins\" seems quite special today - dense jungles, dinosaurs suddenly jumping out of the grass, exaggerated future guns in hand, and an obviously unreasonable world view: human warriors wearing high-tech armor hunt prehistoric giant beasts in a world where primitive ecology and alien civilization intersect. After all, \"fear"
+    }
+   }
   },
   {
    "id": "a5370f139a89",
@@ -1054,7 +2316,17 @@
    "lang": "zh",
    "weight": 7,
    "published": "2026-10-04T23:00:00+08:00",
-   "summary": "本期时间轴制作：猪猪米这期节目录制于深圳核聚变之前。在广州，我见到老朋友也是中国独立游戏界的老前辈“拼命玩三郎”和机核老听众盲灯。我与两位老师坐在一起，说了一一些历史话题：曾经在国内闻名遐迩的\"万物破元\"游戏博物馆是怎样建立，又是如何告别的？游戏人文与内容的火种和精神在不同年代的玩家身上，会如何呈现和传递？"
+   "summary": "本期时间轴制作：猪猪米这期节目录制于深圳核聚变之前。在广州，我见到老朋友也是中国独立游戏界的老前辈“拼命玩三郎”和机核老听众盲灯。我与两位老师坐在一起，说了一一些历史话题：曾经在国内闻名遐迩的\"万物破元\"游戏博物馆是怎样建立，又是如何告别的？游戏人文与内容的火种和精神在不同年代的玩家身上，会如何呈现和传递？",
+   "i18n": {
+    "ja": {
+     "title": "ゲーム博物館での非事故死 |広州で「すべてが壊れた」物語を語ろう",
+     "summary": "このエピソードのタイムライン制作: Zhuzhumi このエピソードは、深センでの核融合の前に記録されました。広州では、中国のインディーズゲーム業界のベテランでもある旧友の「必死にプレイするサブロー」と、ジヘの昔の聞き手であるブラインド・ランタンに会いました。私は 2 人の教師と一緒に座り、いくつかの歴史的な話題について話しました。かつて国内で有名だったゲーム博物館「万物博源」はどのようにして設立され、どのように別れを告げたのでしょうか。ゲームの人間性とコンテンツの火と精神は、さまざまな世代のプレイヤーにどのように提示され、受け継がれるのでしょうか?"
+    },
+    "en": {
+     "title": "Non-accidental death in a game museum | In Guangzhou, let’s talk about the story of “everything is broken”",
+     "summary": "Timeline production of this episode: Zhuzhumi This episode was recorded before the nuclear fusion in Shenzhen. In Guangzhou, I met my old friend \"Desperately Playing Saburo\" who is also a veteran in China's independent game industry, and Jihe's old listener Blind Lantern. I sat with two teachers and talked about some historical topics: How was the \"All Things Po Yuan\" game museum that was once famous in the country established, and how did it say goodbye? How will the fire and spirit of game humanity and content be presented and passed on to players of different generations?"
+    }
+   }
   },
   {
    "id": "d4b11db5009b",
@@ -1400,8 +2672,16 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-07T00:20:35+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【本日の更新】ワンピース"
+    },
+    "en": {
+     "title": "【Today’s Update】One Piece"
+    }
+   }
   },
   {
    "id": "07913d768460",
@@ -1411,8 +2691,16 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-07T00:20:35+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【本日の更新】探偵が死んだ。シーズン2"
+    },
+    "en": {
+     "title": "[Today’s update] The detective is dead. Season 2"
+    }
+   }
   },
   {
    "id": "105b0e99f3a6",
@@ -1422,8 +2710,16 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-07T00:20:35+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【本日更新】転生したら剣でした Season2"
+    },
+    "en": {
+     "title": "[Today’s Update] Reincarnation is a Sword Season 2"
+    }
+   }
   },
   {
    "id": "9d5a251d1f96",
@@ -1433,8 +2729,16 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-07T00:20:35+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【本日更新】帰還者の魔法は特別です シーズン2"
+    },
+    "en": {
+     "title": "[Today’s Update] The Returner’s Magic is Special Season 2"
+    }
+   }
   },
   {
    "id": "3b9025828518",
@@ -1444,8 +2748,16 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-07T00:20:35+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【本日の更新】佐々木と神戸文鳥 シーズン2"
+    },
+    "en": {
+     "title": "【Today’s Update】Sasaki and Fumintori Kobe Season 2"
+    }
+   }
   },
   {
    "id": "e604eda64e6c",
@@ -1455,8 +2767,16 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-07T00:20:35+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【本日の更新】魔法騎士ラース（2026）"
+    },
+    "en": {
+     "title": "【Today’s Update】Magic Knight Raas (2026)"
+    }
+   }
   },
   {
    "id": "84fa7634eda7",
@@ -1466,8 +2786,16 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-07T00:20:35+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【本日の更新】悪のボス シーズン3"
+    },
+    "en": {
+     "title": "【Today’s Update】The Evil Boss Season 3"
+    }
+   }
   },
   {
    "id": "934f325e064a",
@@ -1477,8 +2805,16 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-07T00:20:35+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【本日更新】世界最強の魔女はここから始まる"
+    },
+    "en": {
+     "title": "[Today’s update] The world’s strongest witch begins here"
+    }
+   }
   },
   {
    "id": "1bbd224fc6ed",
@@ -1488,8 +2824,16 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-07T00:20:35+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【本日更新】獣王、武神、錬金術皇帝バイエン"
+    },
+    "en": {
+     "title": "[Today’s Update] Beast King, Martial God, Alchemy Emperor Bai En"
+    }
+   }
   },
   {
    "id": "98514f0aa0e6",
@@ -1499,8 +2843,16 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-07T00:20:35+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【本日更新】ダークアカデミー シーズン2"
+    },
+    "en": {
+     "title": "【Today’s Update】Dark Academy Season 2"
+    }
+   }
   },
   {
    "id": "31459c45d5dc",
@@ -1510,8 +2862,16 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-07T00:20:35+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【本日の更新】松野"
+    },
+    "en": {
+     "title": "【Today’s update】Matsuno"
+    }
+   }
   },
   {
    "id": "979bd7147963",
@@ -1521,30 +2881,16 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-07T00:20:35+08:00",
-   "summary": ""
-  },
-  {
-   "id": "32c6f505c843",
-   "title": "【今日放送 20:26】凶乱令嬢ニア・リストン 第1集",
-   "url": "https://anilist.co/anime/206949",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-07T00:20:34+08:00",
-   "summary": ""
-  },
-  {
-   "id": "07da8eef2bf3",
-   "title": "【今日放送 21:00】塩対応の佐藤さんが俺にだけ甘い 第1集",
-   "url": "https://anilist.co/anime/209502",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-07T00:20:34+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【本日の更新】ゲルぴよ第2号"
+    },
+    "en": {
+     "title": "【Today’s update】ゲルぴよ Issue 2"
+    }
+   }
   },
   {
    "id": "e958bc446452",
@@ -1554,8 +2900,16 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-07T00:20:34+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:47+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "【今日22:00播出】超级巡演！长城学姐 第 1 卷"
+    },
+    "en": {
+     "title": "[Broadcast today 22:00] Super tour! Chojo Senpai Volume 1"
+    }
+   }
   },
   {
    "id": "5359a38bdff1",
@@ -1565,8 +2919,16 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-07T00:20:34+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:47+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "【今日22:00播出】战斗之魂[Re]绝海之空Vol. 1"
+    },
+    "en": {
+     "title": "[Broadcast today 22:00] Battle Spirits [Re] Zekkai no Sora Vol. 1"
+    }
+   }
   },
   {
    "id": "0e322edfbe2e",
@@ -1576,206 +2938,79 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-07T00:20:34+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:47+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "【今日23:00播出】流亡的作弊魔术师享受着无忧无虑的第二人生。 ～我可以给所有东西加上“强化点”，不仅仅是武器，而且我可以随时取消效果，但是剩下的人会好吗？ ~ 第 1 卷"
+    },
+    "en": {
+     "title": "[Broadcast today 23:00] An exiled cheat-granting magician enjoys a carefree second life. ~I can add \"enhancement points\" to everything, not just weapons, and I can cancel the effects whenever I want, but will the remaining people be okay? ~ Volume 1"
+    }
+   }
   },
   {
-   "id": "93edd1888465",
-   "title": "【今日放送 00:35】天は赤い河のほとり 第14集",
-   "url": "https://anilist.co/anime/207809",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "6d589bd887c1",
+   "title": "NVIDIA製GPU「GeForce RTX 4090」「GeForce RTX 5090」などを中国に密輸した疑いでアメリカのテクノロジー企業CEOが逮捕される",
+   "url": "https://gigazine.net/news/20261007-ceo-charged-nvidia-gpu-smuggling-china/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-07T00:20:34+08:00",
-   "summary": ""
+   "weight": 5,
+   "published": "2026-10-07T07:00:00+08:00",
+   "summary": "近年のアメリカは中国によるAI開発を安全保障上の脅威と見なしており、NVIDIAなどが製造する高性能GPUの中国への輸出を禁止しています。そんな中、アメリカのカリフォルニア州にあるテクノロジー企業のCEOが、総額3億ドル(約470億円)を越えるNVIDIAの高性能GPUを密輸したとして逮捕・起訴されました。続きを読む...",
+   "i18n": {
+    "zh": {
+     "title": "一名美国科技公司首席执行官因涉嫌向中国走私 NVIDIA GPU“GeForce RTX 4090”和“GeForce RTX 5090”而被捕。",
+     "summary": "近年来，美国将中国的人工智能发展视为安全威胁，并禁止英伟达等公司生产的高性能GPU向中国出口。与此同时，美国加利福尼亚州一家科技公司的首席执行官因走私价值超过3亿美元（约合470亿日元）的NVIDIA高性能GPU而被捕并被起诉。阅读更多..."
+    },
+    "en": {
+     "title": "An American technology company CEO is arrested on suspicion of smuggling NVIDIA GPUs ``GeForce RTX 4090'' and ``GeForce RTX 5090'' to China.",
+     "summary": "In recent years, the United States has viewed China's AI development as a security threat and has banned the export of high-performance GPUs manufactured by NVIDIA and others to China. Meanwhile, the CEO of a technology company in California, USA, was arrested and indicted for smuggling NVIDIA's high-performance GPUs worth over 300 million dollars (about 47 billion yen). read more..."
+    }
+   }
   },
   {
-   "id": "4d855deb3739",
-   "title": "【今日放送 07:00】mofusand 第40集",
-   "url": "https://anilist.co/anime/204656",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "94f07cdfbc0b",
+   "title": "AIエージェント搭載ガジェットを自作できる「Muse Gadgets」、MetaがオープンソースのESP32マイクロチップファームウェアとLinux SDKを提供しユーザーがRaspberry Pi 5などのハードウェアにMuseを導入可能に",
+   "url": "https://gigazine.net/news/20261007-muse-gadgets/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-07T00:20:34+08:00",
-   "summary": ""
+   "weight": 5,
+   "published": "2026-10-07T06:00:00+08:00",
+   "summary": "「Muse Gadgets」はESP32ボードやRaspberry Piといった既存のデバイスにMetaが開発したパーソナルAIエージェント「Muse」を導入することにより、オープンソースハードウェアガジェットを自作できるプラットフォームです。SDKを通じてディスプレイ・ボタン・センサー・アクチュエーターなどを接続することで、ユーザー独自の機能を持つデバイスへと進化させることができます。続きを読む...",
+   "i18n": {
+    "zh": {
+     "title": "“Muse Gadgets”允许您创建自己的配备 AI 代理的小工具，Meta 提供开源 ESP32 微芯片固件和 Linux SDK，允许用户在 Raspberry Pi 5 等硬件上安装 Muse",
+     "summary": "“Muse Gadgets”是一个平台，允许您通过将 Meta 开发的个人 AI 代理“Muse”引入​​到 ESP32 板和 Raspberry Pi 等现有设备中来创建自己的开源硬件小工具。通过SDK连接显示器、按钮、传感器、执行器等，您可以将设备演变成具有用户特定功能的设备。阅读更多..."
+    },
+    "en": {
+     "title": "\"Muse Gadgets\" allows you to create your own gadgets equipped with AI agents, Meta provides open source ESP32 microchip firmware and Linux SDK, allowing users to install Muse on hardware such as Raspberry Pi 5",
+     "summary": "\"Muse Gadgets\" is a platform that allows you to create your own open source hardware gadgets by introducing the personal AI agent \"Muse\" developed by Meta into existing devices such as ESP32 boards and Raspberry Pi. By connecting displays, buttons, sensors, actuators, etc. through the SDK, you can evolve the device into a device with user-specific functions. read more..."
+    }
+   }
   },
   {
-   "id": "3abc77f94f2e",
-   "title": "【今日放送 10:00】一念永恒 第四季 第14集",
-   "url": "https://anilist.co/anime/199409",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "c189cc314daa",
+   "title": "ユニバーサル・スタジオ・ハリウッドの新アトラクション「ワイルド・スピード：ハリウッド・ドリフト」に乗った客の絶叫に近隣住民から苦情が相次ぐ",
+   "url": "https://gigazine.net/news/20261007-universal-coaster-screams-noise/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-07T00:20:34+08:00",
-   "summary": ""
-  },
-  {
-   "id": "4e47375ec579",
-   "title": "【今日放送 10:00】有兽焉 第六季 第11集",
-   "url": "https://anilist.co/anime/213486",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-07T00:20:34+08:00",
-   "summary": ""
-  },
-  {
-   "id": "f37a0f17a10b",
-   "title": "【今日放送 10:00】大夏守墓人 第4集",
-   "url": "https://anilist.co/anime/214974",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-07T00:20:34+08:00",
-   "summary": ""
-  },
-  {
-   "id": "7b73228ea79b",
-   "title": "銃撃＆ナイフで殺し合いレース！最大32人のハイスピード滑走対戦『Surf N Destroy』発表",
-   "url": "http://www.gamespark.jp/article/2026/10/07/173259.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-07T00:00:03+08:00",
-   "summary": "戦闘無しの“タイムトライアル”も実装！滑走しながら撃ち合い＆刺し合いレース"
-  },
-  {
-   "id": "ff7cbf96a525",
-   "title": "『メタルギア ソリッド4』ゲーム史上、最も長いイベントムービーで世界記録されていた！？18年以上の時を超え改めて注目",
-   "url": "http://www.gamespark.jp/article/2026/10/07/173258.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-06T23:00:04+08:00",
-   "summary": "2026年には移植版が発売！ソリッド・スネークが因縁に決着を付けるPS3タイトル"
-  },
-  {
-   "id": "954585158de4",
-   "title": "書類審査ADV『推しの中身、気になりませんか？』デモ版が公開―VTuber事務所の警備員となって来訪者を見極めろ",
-   "url": "http://www.gamespark.jp/article/2026/10/06/173257.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-06T22:30:03+08:00",
-   "summary": "書類や当日の予定表に矛盾がないかを見極めましょう。"
-  },
-  {
-   "id": "336c959c502d",
-   "title": "耐久か、それとも―『GUNDAM ROGUE ORBIT』は“組む”ところから戦いが始まっている。カスタマイズ要素と新ミッションをプレイ【プレイレポ】",
-   "url": "http://www.gamespark.jp/article/2026/10/06/173256.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-06T22:00:02+08:00",
-   "summary": "すべてを最強パーツで固められないからこそ、自分だけのガンダムヘリックスが生まれる。"
-  },
-  {
-   "id": "eb2c410efa90",
-   "title": "『エンドフィールド』今後実装のオペレーターがチラ見せ！「ケーちゃん」がやって来るーこれからの物語では「ロドス」も登場",
-   "url": "http://www.gamespark.jp/article/2026/10/06/173255.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-06T21:58:14+08:00",
-   "summary": "GRYPHLINEは10月6日、『アークナイツ：エンドフィールド』について「丹青渡」バージョン予告特別番組を配信しました。番組では"
-  },
-  {
-   "id": "09dd1857689a",
-   "title": "『エンドフィールド』比類なき画才を誇る“巨獣の代理人”「スー」いよいよ実装！ 男性新オペレーター「ミンホ」は管理人と“深い縁”ー「丹青渡」予告特別番組でお披露目",
-   "url": "http://www.gamespark.jp/article/2026/10/06/173254.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-06T21:56:54+08:00",
-   "summary": "GRYPHLINEは10月6日、『アークナイツ：エンドフィールド』について「丹青渡」バージョン予告特別番組を配信しました。番組では"
-  },
-  {
-   "id": "6d9d843a6ccd",
-   "title": "『心に咲く花』開発スタジオの新作パズルADV『WORK WORK WORK』プロローグデモ版10月8日配信―有能で従順な人間として労働、労働、労働",
-   "url": "http://www.gamespark.jp/article/2026/10/06/173253.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-06T21:45:03+08:00",
-   "summary": "“全てがうまくいく安全な壁の中”に疑問を持ち、時間切れになる前に脱出方法を見つけることができるでしょうか。"
-  },
-  {
-   "id": "7d88a5192109",
-   "title": "「テリアモン助手」の“最速撃墜”は必見！『エースコンバット8』船を破壊するミッションのプレイ動画がデジモン公式チャンネルで公開",
-   "url": "http://www.gamespark.jp/article/2026/10/06/173252.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-06T21:30:03+08:00",
-   "summary": "デジモンである「テリアモン助手」が『エースコンバット』シリーズ最新作に挑んでいます。"
-  },
-  {
-   "id": "2f6faba17b24",
-   "title": "公式Xも思わず絶叫？サンソフト『レトロゲームセレクション2』レーティングが12才以上対象の「CERO B」に",
-   "url": "http://www.gamespark.jp/article/2026/10/06/173251.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-06T21:15:03+08:00",
-   "summary": "レーティングの根拠は「セクシャル」であるということです。"
-  },
-  {
-   "id": "6093e39ebc02",
-   "title": "協力プレイ対応の無料ドット絵サバイバルゲームが正式リリース。自由気ままな世界で漁師から冒険者までなりたい自分に―採れたて！本日のSteam注目ゲーム【2026年10月6日】",
-   "url": "http://www.gamespark.jp/article/2026/10/06/173250.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-06T21:00:03+08:00",
-   "summary": "あらゆるスキルを成長させることができ、建築や防衛、ボス戦、料理、農業などが楽しめます。"
-  },
-  {
-   "id": "6f21cbe66912",
-   "title": "XBOX版の安定性が光る！人気TPSシリーズ最新作『Gears of War: E-Day』プラットフォーム別グラフィック比較動画公開",
-   "url": "http://www.gamespark.jp/article/2026/10/06/173249.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-06T20:45:03+08:00",
-   "summary": "XBOX Serie S|X、PC、Steam Machine、Steam Deckについて全編で取り上げられたほか、搭載GPUによる違いやROG ALLYでの動作にも触れています。"
-  },
-  {
-   "id": "0973f82cfa04",
-   "title": "非対称型ステルスホラー『Halloween: The Game』DLC第1弾が10月28日配信へ―「ハロウィン5」のマイケルスキンもやってくる！",
-   "url": "http://www.gamespark.jp/article/2026/10/06/173248.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-06T20:30:03+08:00",
-   "summary": "「ハロウィン5」版と2018年版「ハロウィン」のマイケル用スキンが新登場。市民キャラクターや衣装も追加されます。"
-  },
-  {
-   "id": "173ba8850565",
-   "title": "『Escape from Tarkov』アップデート1.2.0.0が配信。PvEモードの大幅な刷新とメンターシッププログラム「EXFIL Brothers」が追加",
-   "url": "http://www.gamespark.jp/article/2026/10/06/173247.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-06T20:15:03+08:00",
-   "summary": "PvEモードの刷新と初心者救済プログラムを追加するアップデートが配信されます。"
+   "weight": 5,
+   "published": "2026-10-07T05:00:00+08:00",
+   "summary": "アメリカのユニバーサル・スタジオ・ハリウッドで2026年9月16日にオープンした新アトラクション「ワイルド・スピード：ハリウッド・ドリフト」をめぐり、「乗客の叫び声がうるさい」という苦情が近隣住民から相次いだ結果、ユニバーサル側は防音壁を追加するなどの対策を行うことを約束しました。続きを読む...",
+   "i18n": {
+    "zh": {
+     "title": "邻居们抱怨乘坐好莱坞环球影城新景点“速度与激情：好莱坞漂移”时乘客的尖叫声。",
+     "summary": "由于附近居民对2026年9月16日在美国好莱坞环球影城开业的新景点“速度与激情：好莱坞漂移”产生的“乘客吵闹的尖叫声”进行了一系列投诉，环球影城已承诺采取增设隔音墙等措施。阅读更多..."
+    },
+    "en": {
+     "title": "Neighbors are complaining about the screams of passengers riding Universal Studios Hollywood's new attraction ``Fast and Furious: Hollywood Drift.''",
+     "summary": "As a result of a series of complaints from nearby residents about the ``noisy screams of passengers'' regarding the new attraction ``Fast and Furious: Hollywood Drift,'' which opened on September 16, 2026 at Universal Studios Hollywood in the United States, Universal has promised to take measures such as adding soundproof walls. read more..."
+    }
+   }
   },
   {
    "id": "5425cdb1fc24",
@@ -1786,7 +3021,17 @@
    "lang": "ja",
    "weight": 5,
    "published": "2026-10-06T22:10:00+08:00",
-   "summary": "YouTubeがショート動画のレコメンデーションシステムを更新し、オリジナルコンテンツを優先的に「おすすめ」することを発表しました。続きを読む..."
+   "summary": "YouTubeがショート動画のレコメンデーションシステムを更新し、オリジナルコンテンツを優先的に「おすすめ」することを発表しました。続きを読む...",
+   "i18n": {
+    "zh": {
+     "title": "YouTube 短片的“推荐”改为优先考虑原创内容，重新上传他人内容的频道曝光率将降低",
+     "summary": "YouTube宣布将更新其短视频推荐系统，优先考虑原创内容。阅读更多..."
+    },
+    "en": {
+     "title": "\"Recommendations\" for YouTube shorts changed to prioritize original content, channels that reupload other people's content will have less exposure",
+     "summary": "YouTube has announced that it will update its short video recommendation system to prioritize original content. read more..."
+    }
+   }
   },
   {
    "id": "d8806c4818af",
@@ -1797,7 +3042,17 @@
    "lang": "ja",
    "weight": 5,
    "published": "2026-10-06T21:00:00+08:00",
-   "summary": "AI企業のTavusが、リアルタイムの映像と音声で人間と対話するAIモデル「Griffin」を発表しました。研究プレビュー版「Griffin-Lite」を使った実験では、1分間のライブビデオ通話に参加した54人のうち26人、約48％が、会話相手のAIを実在する人間だと判断しました。続きを読む..."
+   "summary": "AI企業のTavusが、リアルタイムの映像と音声で人間と対話するAIモデル「Griffin」を発表しました。研究プレビュー版「Griffin-Lite」を使った実験では、1分間のライブビデオ通話に参加した54人のうち26人、約48％が、会話相手のAIを実在する人間だと判断しました。続きを読む...",
+   "i18n": {
+    "zh": {
+     "title": "AI 模型“Griffin”出现，在视频通话中将 48% 的参与者误认为人类，从单个图像中再现面部和身体动作",
+     "summary": "人工智能公司 Tavus 宣布推出一款名为“Griffin”的人工智能模型，它可以使用实时视频和音频与人类互动。在使用研究预览版“Griffin-Lite”进行的一项实验中，参与一分钟实时视频通话的 54 人中，有 26 人（约 48%）判断 AI 对话伙伴是真人。阅读更多..."
+    },
+    "en": {
+     "title": "AI model ``Griffin'' that misidentified 48% of participants as humans in a video call appeared, reproducing facial and body movements from a single image",
+     "summary": "AI company Tavus has announced an AI model called ``Griffin'' that interacts with humans using real-time video and audio. In an experiment using the research preview version ``Griffin-Lite'', 26 out of 54 people who participated in a one-minute live video call, or about 48%, judged the AI ​​conversation partner to be a real person. read more..."
+    }
+   }
   },
   {
    "id": "5ac01521edae",
@@ -1808,7 +3063,17 @@
    "lang": "ja",
    "weight": 5,
    "published": "2026-10-06T20:00:00+08:00",
-   "summary": "ロサンゼルスのラジオ局で活用されているAIパーソナリティを事例に、アメリカの一部の地域でラジオにおけるAIの活用が加速していることを、ロサンゼルスの地元紙であるLos Angeles Timesが報じています。続きを読む..."
+   "summary": "ロサンゼルスのラジオ局で活用されているAIパーソナリティを事例に、アメリカの一部の地域でラジオにおけるAIの活用が加速していることを、ロサンゼルスの地元紙であるLos Angeles Timesが報じています。続きを読む...",
+   "i18n": {
+    "zh": {
+     "title": "广播中人工智能人物的使用正在加速，但工会和人类人物不满意",
+     "summary": "洛杉矶当地报纸《洛杉矶时报》报道称，美国部分地区人工智能在广播中的应用正在加速，以洛杉矶一家广播电台使用的人工智能个性为例。阅读更多..."
+    },
+    "en": {
+     "title": "The use of AI personalities on radio is accelerating, but labor unions and human personalities are dissatisfied",
+     "summary": "The Los Angeles Times, a local newspaper in Los Angeles, reports that the use of AI in radio is accelerating in some areas of the United States, using the AI ​​personality used at a Los Angeles radio station as an example. read more..."
+    }
+   }
   },
   {
    "id": "5e943c82c62b",
@@ -1819,7 +3084,17 @@
    "lang": "ja",
    "weight": 5,
    "published": "2026-10-06T19:42:00+08:00",
-   "summary": "Googleが2026年10月9日から、個人の無料ユーザーが利用できるGeminiを軽量高速モデルの「Flash-Lite」のみに制限します。サブスクリプションの「AI Plus」ならその上位の「Flash」まで利用可能で、Gemini Proの利用には「AI Pro」か「AI Ultra」への加入が必要です。続きを読む..."
+   "summary": "Googleが2026年10月9日から、個人の無料ユーザーが利用できるGeminiを軽量高速モデルの「Flash-Lite」のみに制限します。サブスクリプションの「AI Plus」ならその上位の「Flash」まで利用可能で、Gemini Proの利用には「AI Pro」か「AI Ultra」への加入が必要です。続きを読む...",
+   "i18n": {
+    "zh": {
+     "title": "谷歌限制了可在免费和较低级别计划中使用的 Gemini 型号",
+     "summary": "从2026年10月9日开始，谷歌将限制个人免费用户可以使用的Gemini仅限于轻量级高速型号“Flash-Lite”。订阅“AI Plus”后，您最多可以使用级别更高的“Flash”，而要使用Gemini Pro，则需要订阅“AI Pro”或“AI Ultra”。阅读更多..."
+    },
+    "en": {
+     "title": "Google limits Gemini models that can be used in free and lower-tier plans",
+     "summary": "Starting October 9, 2026, Google will limit the Gemini that individual free users can use to only the lightweight and high-speed model \"Flash-Lite.\" With the subscription \"AI Plus\", you can use up to \"Flash\", which is higher in level, and to use Gemini Pro, you need to subscribe to \"AI Pro\" or \"AI Ultra\". read more..."
+    }
+   }
   },
   {
    "id": "52feeacff3ad",
@@ -1830,7 +3105,17 @@
    "lang": "ja",
    "weight": 5,
    "published": "2026-10-06T19:00:00+08:00",
-   "summary": "試験中のAIが外部の機関に不正アクセスを行うという事例が相次いでいます。こうしたAIは大抵、外部へのアクセスを遮断されている中で、独自のルートを見いだして不正な手段でアクセスを試みます。こうしたAIの痕跡を見つけ出すコミュニティが、いくつか発達しつつあります。続きを読む..."
+   "summary": "試験中のAIが外部の機関に不正アクセスを行うという事例が相次いでいます。こうしたAIは大抵、外部へのアクセスを遮断されている中で、独自のルートを見いだして不正な手段でアクセスを試みます。こうしたAIの痕跡を見つけ出すコミュニティが、いくつか発達しつつあります。続きを読む...",
+   "i18n": {
+    "zh": {
+     "title": "一个社区正在开发中，用于搜索在线失控人工智能代理的记录并追踪线索。",
+     "summary": "已有多起考试期间人工智能未经授权访问外部机构的案例。这些人工智能经常找到自己的路线，并试图通过非法手段进入，即使他们与外界的联系被封锁。一些社区正在开发寻找人工智能的痕迹。阅读更多..."
+    },
+    "en": {
+     "title": "A community is developing to search for records of AI agents running out of control online and follow clues.",
+     "summary": "There have been a number of cases in which AI during exams has gained unauthorized access to external institutions. These AIs often find their own routes and attempt to gain access through illegal means, even though their access to the outside world is blocked. Several communities are developing to find these traces of AI. read more..."
+    }
+   }
   },
   {
    "id": "c037b67e58ef",
@@ -1841,7 +3126,17 @@
    "lang": "ja",
    "weight": 5,
    "published": "2026-10-06T18:00:00+08:00",
-   "summary": "ハードディスクドライブ(HDD)は大容量のデータ記録媒体として広く用いられており、近年はSSD価格の高騰によってHDDの需要が高まっています。そんなHDDの故障率にメーカーによる違いがあるのかどうかを調べた結果が報告されています。続きを読む..."
+   "summary": "ハードディスクドライブ(HDD)は大容量のデータ記録媒体として広く用いられており、近年はSSD価格の高騰によってHDDの需要が高まっています。そんなHDDの故障率にメーカーによる違いがあるのかどうかを調べた結果が報告されています。続きを読む...",
+   "i18n": {
+    "zh": {
+     "title": "不同制造商的硬盘故障率是否有差异？",
+     "summary": "硬盘驱动器（HDD）作为大容量数据存储介质被广泛使用，近年来由于SSD价格飙升，对HDD的需求不断增加。已经报道了不同制造商的 HDD 故障率是否存在差异的调查结果。阅读更多..."
+    },
+    "en": {
+     "title": "Is there a difference in the failure rate of HDDs depending on the manufacturer?",
+     "summary": "Hard disk drives (HDDs) are widely used as large-capacity data storage media, and demand for HDDs has increased in recent years due to the soaring prices of SSDs. The results of investigating whether there are differences in the failure rate of HDDs depending on the manufacturer have been reported. read more..."
+    }
+   }
   },
   {
    "id": "2703b0446d90",
@@ -1852,150 +3147,207 @@
    "lang": "ja",
    "weight": 5,
    "published": "2026-10-06T17:58:00+08:00",
-   "summary": "バーガーキング自慢の直火焼き100％ビーフパティを使用した「ビッグマウス」シリーズに、3タイプのにんにくを使った特製ガーリックソースで仕上げた「ダブルビーフ＆ベーコン ビッグマウスギルティ」と「ビーフ＆ダブルハッシュ ビッグマウスギルティ」が新たに加わったので、食べに行ってきました。続きを読む..."
+   "summary": "バーガーキング自慢の直火焼き100％ビーフパティを使用した「ビッグマウス」シリーズに、3タイプのにんにくを使った特製ガーリックソースで仕上げた「ダブルビーフ＆ベーコン ビッグマウスギルティ」と「ビーフ＆ダブルハッシュ ビッグマウスギルティ」が新たに加わったので、食べに行ってきました。続きを読む...",
+   "i18n": {
+    "zh": {
+     "title": "我尝试了汉堡王的“Double Beef & Bacon Big Mouth Guilty”和“Beef & Double Hash Big Mouth Guilty”，其中配有由3种大蒜制成的特制蒜酱。",
+     "summary": "汉堡王的“大嘴”系列采用100%火焰烤牛肉饼，新增加了“双份牛肉和培根大嘴罪”和“牛肉和双哈希大嘴罪”，最后用3种大蒜制成的特制蒜酱，所以我去吃了它们。阅读更多..."
+    },
+    "en": {
+     "title": "I tried Burger King's \"Double Beef & Bacon Big Mouth Guilty\" and \"Beef & Double Hash Big Mouth Guilty\" which come with a special garlic sauce made with 3 types of garlic.",
+     "summary": "Burger King's ``Big Mouth'' series, which uses 100% flame-grilled beef patties, has newly added ``Double Beef & Bacon Big Mouth Guilty'' and ``Beef & Double Hash Big Mouth Guilty'' finished with a special garlic sauce made with 3 types of garlic, so I went to eat them. read more..."
+    }
+   }
   },
   {
-   "id": "c9e85586ed66",
-   "title": "2026年10月6日のヘッドラインニュース",
-   "url": "https://gigazine.net/news/20261006-headline/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-10-06T17:36:00+08:00",
-   "summary": "スターバックスから2026年10月9日(金)に「ブラックベリー ヨーグルト フラペチーノ 黒耳ver.／白耳ver.」が登場します。爽やかなブルーベリーヨーグルトにブラックベリーチョコレートソースを合わせ、ぴょこんと立ち上がる猫耳を模したチョコレートがあしらわれた、ハロウィンらしいフラペチーノになっています。続きを読む..."
-  },
-  {
-   "id": "3482100afba6",
-   "title": "AIが生成したニキビ治療薬の処方箋を発行するスタートアップが登場",
-   "url": "https://gigazine.net/news/20261006-nolla-derm-for-acne/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-10-06T13:53:00+08:00",
-   "summary": "医療スタートアップのNolla Healthがアメリカのユタ州で、AIによるニキビの診断から治療薬の初回処方までを行う試験プログラムを開始しました。これまでもAIによる処方の更新を認める試みはありましたが、同社によると、AIが新たな患者に初回の処方を行うことを州当局が認めたのは、アメリカで初めてとのことです。続きを読む..."
-  },
-  {
-   "id": "ffd20b9f6b82",
-   "title": "東芝がAIデータセンター向けHDDの生産能力を2027年度までに倍増させる計画発表でライバル企業のWestern DigitalとSeagateの株価が急落、東芝はさらに65TBと100TBも準備",
-   "url": "https://gigazine.net/news/20261006-toshiba-hdd-double/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-10-06T13:03:00+08:00",
-   "summary": "「東芝がAIデータセンター向けHDDの生産能力を2027年度中に2025年基準から倍増させる予定」と報じられました。これにより、ライバルのWestern DigitalとSeagateの株価が10％以上急落しました。続きを読む..."
-  },
-  {
-   "id": "69580f0f8bb2",
-   "title": "【漫画更新】The Hitman's Sales Techniques 第 4 话",
-   "url": "https://mangadex.org/chapter/cf47effa-5720-4aed-a879-5c7dc3dd3e3c",
+   "id": "a18629e8ddba",
+   "title": "【漫画更新】Fei Ren Zai 第 539 话「Who's The Most Handsome」",
+   "url": "https://mangadex.org/chapter/6304550b-d821-47e2-b1b1-d0dee2866d73",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-07T00:20:36+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【マンガ更新】フェイ・レンザイ 第539話「一番ハンサムなのは誰だ」"
+    },
+    "en": {
+     "title": "【Manga Update】Fei Ren Zai Chapter 539 \"Who's The Most Handsome\""
+    }
+   }
   },
   {
-   "id": "0222c838bcf0",
-   "title": "【漫画更新】Kao no Yoi Boisshu Oneesan 第 18 话「Boyish Onee-san Who's Way Ahead of Her Time」",
-   "url": "https://mangadex.org/chapter/fb33a63b-8c57-493f-9eab-2af401667fd0",
+   "id": "0752d8a0b03f",
+   "title": "【漫画更新】Isekai Arigatou 第 42 话「The Song and The Mermaid ④」",
+   "url": "https://mangadex.org/chapter/60caba01-73b2-46a5-a5fa-40d4910470ae",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-07T00:20:36+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【マンガ更新】異世界ありがとう 第42話「歌と人魚④」"
+    },
+    "en": {
+     "title": "【Manga Update】Isekai Arigatou Chapter 42 \"The Song and The Mermaid ④\""
+    }
+   }
   },
   {
-   "id": "8565decf2891",
-   "title": "【漫画更新】Aishite Hoshi no wa Ore Janai no ni! ~BL Game no Akuyaku Reisoku ni Tenseishita no ni Kirawarenakute Komattemasu~ 第 9 话「Did He Fall Head Over Heels At First SIght?」",
-   "url": "https://mangadex.org/chapter/d6635905-b2fd-4fbe-bb50-639259771c2d",
+   "id": "91d4d40984f9",
+   "title": "【漫画更新】Shin-Black Jack ni Yoroshiku 第 27 话「The Eve」",
+   "url": "https://mangadex.org/chapter/ff8cd886-280e-44c0-84b0-3448e2b55b99",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-07T00:20:36+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【漫画更新】新ブラックジャックによろしく 第27話「前夜」"
+    },
+    "en": {
+     "title": "【Manga Update】Shin-Black Jack ni Yoroshiku Chapter 27 \"The Eve\""
+    }
+   }
   },
   {
-   "id": "bbe0edcc8ea7",
-   "title": "【漫画更新】Danjo-hi 1:39 no Heikou Sekai wa Omoi no Hoka Futsuu 第 298 话「After the Class Observation」",
-   "url": "https://mangadex.org/chapter/e0560923-1fbc-42b0-b72d-a84f19a3b710",
+   "id": "8608c6a01247",
+   "title": "【漫画更新】Yotsuba to! 第 2 话「Yotsuba & Manners」",
+   "url": "https://mangadex.org/chapter/27d92b7c-12b9-4f08-bcc4-2406afe9718c",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-07T00:20:36+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【マンガ更新】よつばと！第2章「よつばとマナー」"
+    },
+    "en": {
+     "title": "【Manga Update】Yotsuba to! Chapter 2 \"Yotsuba & Manners\""
+    }
+   }
   },
   {
-   "id": "2639bfda1361",
-   "title": "【漫画更新】HANA 第 86 话「Hana and Ruby (1)」",
-   "url": "https://mangadex.org/chapter/1b580323-a530-47d8-a8f5-920f5c2b750d",
+   "id": "3ac978d48803",
+   "title": "【漫画更新】Wazawai Kitsune no Kuzure-chan 第 55 话「Mecha Maker Fox」",
+   "url": "https://mangadex.org/chapter/8ded2e87-5ed4-4912-bfd3-7169ad44a7fd",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-07T00:20:36+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【マンガ更新】わざわいキツネのくずれちゃん 第55話「メカメイカーフォックス」"
+    },
+    "en": {
+     "title": "【Manga Update】Wazawai Kitsune no Kuzure-chan Chapter 55 \"Mecha Maker Fox\""
+    }
+   }
   },
   {
-   "id": "67bb00c4f2f6",
-   "title": "【漫画更新】Brinny and the Empty Seat 第 29 话",
-   "url": "https://mangadex.org/chapter/d13671f3-3d09-47c9-951b-6670320bc352",
+   "id": "9b1def4b7fa1",
+   "title": "【漫画更新】Pokémon Kakumei 第 0.2 话「Boy meets thunder」",
+   "url": "https://mangadex.org/chapter/67af1654-94c1-48a1-b576-ae19d8717b67",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-07T00:20:36+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【マンガ更新】ポケモン革命 第0.2章「ボーイ・ミーツ・サンダー」"
+    },
+    "en": {
+     "title": "【Manga Update】Pokémon Kakumei Chapter 0.2 \"Boy meets thunder\""
+    }
+   }
   },
   {
-   "id": "9e76e9cb5647",
-   "title": "【漫画更新】Lost Man 第 103 话「Number 66」",
-   "url": "https://mangadex.org/chapter/76f0539c-5339-4f24-aee7-ede47660ea1c",
+   "id": "24404fc518a3",
+   "title": "【漫画更新】Xīngjiǎ Húnjiàng Zhuàn 第 178 话「Lingyin City」",
+   "url": "https://mangadex.org/chapter/03b82776-6597-438e-a9ce-c269066763be",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-07T00:20:36+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【コミック更新】星家勲章 第178話「霊隠市」"
+    },
+    "en": {
+     "title": "【Comic Update】Xīngjiǎ Húnjiàng Zhuàn Chapter 178 \"Lingyin City\""
+    }
+   }
   },
   {
-   "id": "9d1725f3ab42",
-   "title": "【漫画更新】Dāng È Yì Yù Dào Bìng Jiāo 第 82 话「My Lover」",
-   "url": "https://mangadex.org/chapter/5846b461-27df-438e-acd4-885b5dfde63f",
+   "id": "4bd26784b502",
+   "title": "【漫画更新】Xīngjiǎ Húnjiàng Zhuàn 第 177 话「Number-One Attack Dog」",
+   "url": "https://mangadex.org/chapter/8ddd8e3d-af99-423a-9aa3-5b8d76559a0d",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-07T00:20:36+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【コミック更新】星家勲章 第177話「ナンバーワンの攻撃犬」"
+    },
+    "en": {
+     "title": "【Comic Update】Xīngjiǎ Húnjiàng Zhuàn Chapter 177 \"Number-One Attack Dog\""
+    }
+   }
   },
   {
-   "id": "86f980f0cd5a",
-   "title": "【漫画更新】Mimi 第 248 话「Productivity.」",
-   "url": "https://mangadex.org/chapter/e4c4703c-5ad8-480b-9156-f19607854aaa",
+   "id": "b20a2e3006cb",
+   "title": "【漫画更新】Xīngjiǎ Húnjiàng Zhuàn 第 176 话「\"Star Master Secret Realm\"?」",
+   "url": "https://mangadex.org/chapter/6f90be9b-4659-42fa-a81c-b2028c7870aa",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-07T00:20:36+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【コミック更新】星家勲章 第176話「『スターマスター秘境』？」"
+    },
+    "en": {
+     "title": "【Comic Update】Xīngjiǎ Húnjiàng Zhuàn Chapter 176 \"\"Star Master Secret Realm\"?\""
+    }
+   }
   },
   {
-   "id": "46a0febc7aec",
-   "title": "【漫画更新】Kimi no Kami ga Ki ni Naru nda 第 1 话",
-   "url": "https://mangadex.org/chapter/6ab0b9f2-0c43-4fb6-9cd2-db8fbb3ec6d0",
+   "id": "030b7e1dcd8a",
+   "title": "【漫画更新】Tabako Toka Suwanasou na Kouhai 第 6 话",
+   "url": "https://mangadex.org/chapter/274d75e7-7d06-4bdd-b942-ff2251dcb2cb",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-07T00:20:36+08:00",
-   "summary": ""
+   "published": "2026-10-07T09:13:49+08:00",
+   "summary": "",
+   "i18n": {
+    "ja": {
+     "title": "【マンガ更新】タバコとかすわな後輩 第6話"
+    },
+    "en": {
+     "title": "【Manga Update】Tabako Toka Suwanasou na Kouhai Chapter 6"
+    }
+   }
   }
  ]
 }
