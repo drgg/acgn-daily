@@ -1,12 +1,12 @@
 {
  "date": "2026-10-14",
- "generated_at": "2026-10-14T01:16:50+08:00",
+ "generated_at": "2026-10-14T08:57:58+08:00",
  "count": 160,
  "categories": {
-  "anime": 56,
+  "anime": 59,
   "comic": 10,
-  "game": 69,
-  "novel": 15,
+  "game": 63,
+  "novel": 18,
   "general": 10
  },
  "sources": [
@@ -21,17 +21,17 @@
    "error": null
   },
   {
-   "name": "AUTOMATON",
-   "count": 15,
-   "error": null
-  },
-  {
    "name": "4Gamer 総合",
    "count": 15,
    "error": null
   },
   {
    "name": "Game*Spark",
+   "count": 15,
+   "error": null
+  },
+  {
+   "name": "AUTOMATON",
    "count": 15,
    "error": null
   },
@@ -46,13 +46,13 @@
    "error": null
   },
   {
-   "name": "机核 GCORES",
-   "count": 15,
+   "name": "anilist_airing",
+   "count": 14,
    "error": null
   },
   {
-   "name": "anilist_airing",
-   "count": 14,
+   "name": "机核 GCORES",
+   "count": 15,
    "error": null
   },
   {
@@ -77,6 +77,90 @@
   }
  ],
  "items": [
+  {
+   "id": "12f220f82a4d",
+   "title": "The Promised Neverland, Blue Box Manga Both Get New Novels",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-13/the-promised-neverland-blue-box-manga-both-get-new-novels/.242767",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-14T06:00:00+08:00",
+   "summary": "Nanao writes both Yakusoku no Neverland ~10-nen-me no Okurimono~, Ao no Hako Epilogue novels for release on December 4",
+   "i18n": {
+    "zh": {
+     "title": "约定的梦幻岛、蓝盒子漫画双双出新小说",
+     "summary": "七尾创作的《Yakusoku no Neverland ~10-nen-me no Okurimono~》和《Ao no Hako Epilogue》小说将于 12 月 4 日发行"
+    },
+    "ja": {
+     "title": "漫画『約束のネバーランド』と『ブルーボックス』の両方に新作小説が登場",
+     "summary": "菜々緒が書き下ろし小説『約束のネバーランド ～10年目のおくりもの～』『青の匣 エピローグ』12月4日発売"
+    }
+   }
+  },
+  {
+   "id": "5cb763fd5e67",
+   "title": "Tsūkaku Tantei Tsūtenji Natsume, Isekai Yurutto Survival Seikatsu Manga Both End",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-13/tsukaku-tantei-tsutenji-natsume-isekai-yurutto-survival-seikatsu-manga-both-end/.242773",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-14T05:00:00+08:00",
+   "summary": "Tsūkaku Tantei Tsūtenji Natsume ended on Friday, Isekai Yurutto Survival Seikatsu to end on November 9",
+   "i18n": {
+    "zh": {
+     "title": "津鹤侦探通天寺夏目、异界游戏生存生活漫画两端",
+     "summary": "《Tsūkaku Tantei Tsutenji Natsume》于周五结束，《Isekai Yurutto Survival Seikatsu》于 11 月 9 日结束"
+    },
+    "ja": {
+     "title": "通角探偵通天寺ナツメ、異世界ゆるっとサバイバル生活マンガ 両端",
+     "summary": "『探偵探偵 通天寺ナツメ』は金曜終了、『異世界ゆるっとサバイバル生活』は11月9日終了"
+    }
+   }
+  },
+  {
+   "id": "77abb5cfbf55",
+   "title": "Black Summoner Manga Ends With 200th Chapter",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-13/black-summoner-manga-ends-with-200th-chapter/.242783",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-14T04:00:00+08:00",
+   "summary": "Gin Ammo's adaptation of writer Doufu Mayoi, illustrator Kurogin's light novels launched in 2018",
+   "i18n": {
+    "zh": {
+     "title": "黑色召唤师漫画第200话完结",
+     "summary": "《Gin Ammo》改编自作家豆腐真三井、插画家黑银的轻小说，于 2018 年推出"
+    },
+    "ja": {
+     "title": "漫画「黒の召喚士」が200話で終了",
+     "summary": "2018年に発売された作家・迷井豆腐氏、イラスト・黒銀氏のライトノベルを、銀弾がアニメ化。"
+    }
+   }
+  },
+  {
+   "id": "c1f1aab81a3e",
+   "title": "Glacier Bay License Oedo-chan of Moguraya, A Vase of Life, Faraway Blue, More Manga",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-13/glacier-bay-license-oedo-chan-of-moguraya-a-vase-of-life-faraway-blue-more-manga/.242787",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-14T03:00:00+08:00",
+   "summary": "Also: All I Can Do, The Dovecote Express",
+   "i18n": {
+    "zh": {
+     "title": "冰川湾许可证 Moguraya 的 Oedo-chan、生命的花瓶、遥远的蓝色、更多漫画",
+     "summary": "另外：我能做的，鸽舍快车"
+    },
+    "ja": {
+     "title": "Glacier Bay License もぐら屋のお江戸ちゃん、A Vase of Life、Faraway Blue、その他のマンガ",
+     "summary": "関連記事: All I Can Do、Dovecote Express"
+    }
+   }
+  },
   {
    "id": "6b28671162c2",
    "title": "Manga Creator Masako Watanabe Dies at 97",
@@ -389,6 +473,84 @@
     "ja": {
      "title": "「また殺されましたか、刑事さん？」マンガ界の稲葉氏が新作マンガを発表",
      "summary": "ぬけだしラブコメ漫画、10月26日発売"
+    }
+   }
+  },
+  {
+   "id": "ab04470a31c4",
+   "title": "ガガガ文庫＆ブックス2026年10月刊行のラインナップをご紹介。『弱キャラ友崎くんLv.12』『塩対応の佐藤さんが俺にだけ甘い13』など5冊",
+   "url": "https://ln-news.com/articles/126939",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-14T08:30:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "介绍2026年10月出版的Gagaga文库&Books的阵容。《弱角色友崎君Lv.12》、《咸的佐藤同学对我来说只有甜13》等5本书"
+    },
+    "en": {
+     "title": "Introducing the lineup of Gagaga Bunko & Books published in October 2026. 5 books including ``Weak character Tomozaki-kun Lv.12'' and ``Sato-san who is salty is only sweet to me 13''"
+    }
+   }
+  },
+  {
+   "id": "d2ca2ae7f1ba",
+   "title": "『ハイスクールD×D』バニー姿の姫島朱乃1／3スケールフィギュアが2027年4月発売",
+   "url": "https://ln-news.com/articles/126606",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-14T07:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "《高校 DxD》姬岛明乃 1/3 比例兔子装手办将于 2027 年 4 月发售"
+    },
+    "en": {
+     "title": "\"High School DxD\" Himejima Akeno 1/3 scale figure in bunny costume will be released in April 2027"
+    }
+   }
+  },
+  {
+   "id": "86c8cbd5b575",
+   "title": "ニンテンドーミュージアムの新たな施設「スーパーファミリーレストラン」内覧会レポート。開業に先立ち公開された内装や提供メニューを紹介しよう",
+   "url": "https://www.4gamer.net/games/991/G999105/20261013058/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-14T06:00:00+08:00",
+   "summary": "任天堂は10月13日，ニンテンドーミュージアムの新たな飲食施設「スーパーファミリーレストラン」のメディア向け内覧試食会を開催した。本稿では，今秋の開業に先立ち公開された内装を，提供メニューの価格などと合わせてレポートしよう。11月より一部の来館者を対象とした試験営業も始まる予定だ。",
+   "i18n": {
+    "zh": {
+     "title": "任天堂博物馆新设施“超级家庭餐厅”预览报道。介绍一下开业前公开的内饰和菜单。",
+     "summary": "10 月 13 日，任天堂为任天堂博物馆的新餐饮设施“超级家庭餐厅”进行了媒体预览。在本文中，我们将报道今年秋季开业前揭晓的内部装潢以及菜单价格。还计划于 11 月开始对部分游客进行试运营。"
+    },
+    "en": {
+     "title": "Preview report of the Nintendo Museum's new facility \"Super Family Restaurant\". Let's introduce the interior and menu that was released prior to the opening.",
+     "summary": "On October 13th, Nintendo held a preview preview for the media of the Nintendo Museum's new dining facility, ``Super Family Restaurant.'' In this article, we will report on the interior, which was unveiled ahead of the opening this fall, along with the prices of the menu offered. A trial operation for some visitors is also scheduled to begin in November."
+    }
+   }
+  },
+  {
+   "id": "32300f1f2347",
+   "title": "『ちび神獣たちのお世話係始めました ～世界樹の森でもふもふスローライフ！～』のコミカライズ連載が開始",
+   "url": "https://ln-news.com/articles/126905",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-14T05:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "《我开始照顾赤壁神兽～伊特里亚奥德赛的慢生活！～》漫画开始连载"
+    },
+    "en": {
+     "title": "“I started taking care of the Chibi Divine Beasts ~ A slow life in the Etrian Odyssey! ~'' comic serialization begins"
     }
    }
   },
@@ -985,6 +1147,69 @@
    }
   },
   {
+   "id": "5888b5cc8046",
+   "title": "自动化 Roguelike《Vena》将于11月9日发售",
+   "url": "https://www.gcores.com/articles/220865",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-10-14T08:45:00+08:00",
+   "summary": "由独立开发者 Leonhard 打造、受《异星工厂》（Factorio）和《小丑牌》启发的自动化 Roguelike游戏《Vena》将于 11 月 9 日在 Steam 发售。试玩版将参加 10 月 19 日至 26 日举办的 Steam 新品节。 玩家在类似《卡卡颂》的六边形网格上放置地块、搭建生产链，同时满足每个阶段不断增长的资源需求。每个阶段开始前选择天赋，阶段之间在商店里掷骰子购买新地块。顺利的一局往往以数字爆炸收尾，而不断计算、追求完美优化的过程正是游戏最大的乐趣。一局时长 15 到 50 分钟，游戏支持包括简体中文在内的 29 种语言。 开发者表示，《Vena》是单人开发的诚意之作",
+   "i18n": {
+    "ja": {
+     "title": "自動ローグライク『Vena』11月9日リリース予定",
+     "summary": "Vena は、独立系開発者 Leonhard によって作成され、Factorio カードとジョーカー カードにインスピレーションを受けて作成された自動ローグライク ゲームで、11 月 9 日に Steam でリリースされます。デモは 10 月 19 日から 26 日まで開催される Steam ニューリリース フェスティバルに参加します。プレイヤーは「カルカソンヌ」のような六角形のグリッド上に区画を配置し、各段階で増大する資源需要に応えながら生産チェーンを構築します。各フェーズが始まる前に才能を選択し、ショップでサイコロを振ってフェーズの間に新しい区画を購入します。スムーズなゲームはデジタル爆発で終わることが多く、絶え間ない計算と完璧な最適化の追求のプロセスがゲームの最大の楽しみです。ゲームの所要時間は 15 ～ 50 分で、ゲームは簡体字中国語を含む 29 言語をサポートしています。開発者は「Vena」は一人の人間によって開発された誠実な作品であると述べています。"
+    },
+    "en": {
+     "title": "Automated Roguelike \"Vena\" will be released on November 9",
+     "summary": "Vena, an automated roguelike game created by independent developer Leonhard and inspired by Factorio and Joker Cards, will be released on Steam on November 9. The demo will be participating in the Steam New Releases Festival, which will be held from October 19th to 26th. Players place plots on a hexagonal grid similar to \"Carcassonne\" and build production chains while meeting the growing resource demands at each stage. Choose your talents before each phase begins, and roll dice in the shop to buy new plots between phases. A smooth game often ends with a digital explosion, and the process of constant calculation and pursuit of perfect optimization is the greatest pleasure of the game. A game lasts between 15 and 50 minutes, and the game supports 29 languages, including Simplified Chinese. The developer stated that \"Vena\" is a sincere work developed by a single person."
+    }
+   }
+  },
+  {
+   "id": "0407aedeffc4",
+   "title": "ふわふわフロッキー仕様！ガシャポン「miffy カラフルカラビナマスコット」に、王冠を付けたミッフィーなど全5種ラインナップ",
+   "url": "https://animeanime.jp/article/2026/10/14/103777.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-10-14T07:30:04+08:00",
+   "summary": "ガシャポン「miffy カラフルカラビナマスコット」が10月第4週より発売！",
+   "i18n": {
+    "zh": {
+     "title": "蓬松的植绒设计！包括戴皇冠的米菲在内的扭蛋“米菲彩色登山扣吉祥物”共5种",
+     "summary": "扭蛋“米菲彩色登山扣吉祥物”将于10月第4周起发售！"
+    },
+    "en": {
+     "title": "Fluffy flocked design! A total of 5 types of Gashapon \"Miffy Colorful Carabiner Mascot\" lineup including Miffy with a crown",
+     "summary": "Gashapon \"Miffy Colorful Carabiner Mascot\" will be released from the 4th week of October!"
+    }
+   }
+  },
+  {
+   "id": "36ba2b58510e",
+   "title": "しまむらで「ミルキー」「カントリーマアム」グッズが10月14日発売！ペコちゃんなどをデザインした、4足入りポーチ付きソックス",
+   "url": "https://animeanime.jp/article/2026/10/14/103776.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-10-14T06:30:03+08:00",
+   "summary": "全国のしまむらにて、「ミルキー」「カントリーマアム」のグッズが10月14日より発売！同日15時よりオンラインストアでも取り扱われます。",
+   "i18n": {
+    "zh": {
+     "title": "“Milky”和“Country Ma’am”周边商品将于10月14日在岛村发售！与 Peko-chan 等人一起设计的带小袋的袜子 4 双",
+     "summary": "“Milky”和“Country Ma'am”商品将于10月14日起在全国岛村店发售！该产品也将于当天下午 3 点起在网上商店发售。"
+    },
+    "en": {
+     "title": "“Milky” and “Country Ma’am” goods will be released at Shimamura on October 14th! 4 pairs of socks with a pouch designed with Peko-chan and others",
+     "summary": "\"Milky\" and \"Country Ma'am\" goods will be on sale from October 14th at Shimamura stores nationwide! It will also be available at the online store from 3pm on the same day."
+    }
+   }
+  },
+  {
    "id": "f4524576d737",
    "title": "【传言】《GTA6》PC版将于27年第一季度发售",
    "url": "https://www.gcores.com/articles/220860",
@@ -993,7 +1218,7 @@
    "lang": "zh",
    "weight": 7,
    "published": "2026-10-13T23:58:49+08:00",
-   "summary": "据 GamesBeat 报道，R星计划于 2027 年第一季度发布《GTA6》的 PC 版本。据悉，此消息得到了四位熟悉 Rockstar 工作室计划的业内人士证实。这四位消息人士均要求匿名，以免损害公司与R星的商业关系。 相比之下，《GTA5》的 PC 版在主机版发布一年七个月后才问世。由于本作的制作预算据称超过20亿美元，公司希望借此迅速扩大受众规模并加快变现。同时，PC 版能加速推进用户生成内容与在线模组。R星于2023年8月收购了热门服务器FiveM的开发团队 Cfx.re 。Twitch 首席执行官 Dan Clancy此前表示，《GTA6》的在线模式将于明年推出。截至发稿前，R星尚",
+   "summary": "据 GamesBeat 报道，R星计划于 2027 年第一季度发布《GTA6》的 PC 版本。据悉，此消息得到了四位熟悉 Rockstar 工作室计划的业内人士证实。这四位消息人士均要求匿名，以免损害公司与R星的商业关系。 换言之，主机版独占期最短约一个半月，最长约四个半月。相比之下，《GTA5》的 PC 版在主机版发布一年七个月后才问世。由于本作的制作预算据称超过20亿美元，公司希望借此迅速扩大受众规模并加快变现。同时，PC 版能加速推进用户生成内容与在线模组。R星于2023年8月收购了热门服务器FiveM的开发团队 Cfx.re 。Twitch 首席执行官 Dan Clancy此前表示，《",
    "i18n": {
     "ja": {
      "title": "【噂】PC版『GTA6』は27年第1四半期に発売予定",
@@ -1023,6 +1248,27 @@
     "en": {
      "title": "A 10,000-word analysis of the plot and metaphors of \"Silent Hill: Town Has Fallen\"｜WonderCores",
      "summary": "Timeline production of this issue: Tianxing For the video version of this episode, please see: https://www.bilibili.com/video/BV1kgpH6sEfK/ <Ten thousand words dismantling the plot and metaphors of \"Silent Hill: Town Fall\" [Video version]> The new game in the \"Silent Hill\" series \"Silent Hill: Townfall\" has been on sale for half a month, but the reviews on Steam are still mixed. What story is told under the Riddler-like narrative technique of this work? How many details did the production team hide in the clues? Has this game really ruined the brand of Silent Hill? In this issue, Ann and Mouse will use 10,000 words of text to explain the plot of this game to everyone, and analyze the mysteries hidden behind these designs. If you don’t know about this game yet, you are welcome to watch our preview video <Is Silent Hill changed to first person? Everything you should know before buying Townfall >"
+    }
+   }
+  },
+  {
+   "id": "1ba64d14d4f7",
+   "title": "《疯狂出租车：极速环游》新游戏地图“巴西”详情正式发布",
+   "url": "https://www.gcores.com/articles/220861",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-10-13T22:10:00+08:00",
+   "summary": "­世嘉宣布，驾驶动作游戏《疯狂出租车：极速环游》公布了最新游戏地图“巴西”及地图宣传片，玩家将可在剧情模式等多种模式中游玩“巴西”地图。本作预计于2027年登陆XBOX Series X|S/XBOX on PC/PC（Steam）/PlayStation 5/Nintendo Switch 2平台。 <内嵌内容，请前往机核查看> “巴西”地图宣传片同步公开，以旅行指南风格介绍巴西地图的魅力。玩家可从视频中一睹活力四射的街景与大自然相结合的赛道、兴奋雀跃的乘客，以及巴西独有的炫技玩法。 巴西地图充分展现了南美第一大国的无穷魅力，地图中不光有世界三大瀑布之一的壮观瀑布群和巨大的奇岩，也有被列为世",
+   "i18n": {
+    "ja": {
+     "title": "『Crazy Taxi: Speed Around』新ゲームマップ「ブラジル」の詳細が正式公開",
+     "summary": "セガは、ドライブアクションゲーム『クレイジータクシー：スピードツアー』において、最新ゲームマップ「ブラジル」およびマッププロモーションビデオを公開したと発表しました。プレイヤーはストーリーモードを含むさまざまなモードで「ブラジル」マップをプレイできます。このゲームは、2027 年に PC/PC (Steam)/PlayStation 5/Nintendo Switch 2 プラットフォームの XBOX Series X|S/XBOX で発売される予定です。 <埋め込みコンテンツについては、マシン コアに移動して表示してください> ブラジル地図の魅力を旅行ガイド風に紹介する「ブラジル」地図プロモーション ビデオも同時に公開されました。プレイヤーはビデオから、活気に満ちたストリートシーンと自然、興奮した乗客、そしてブラジルのユニークなスタントゲームプレイを組み合わせたトラックを見ることができます。ブラジルの地図は、南米最大の国の無限の魅力を十分に示しています。マップには世界三大瀑布の一つである壮大な滝や巨大な奇岩だけでなく、世界最大級の滝も掲載されています。"
+    },
+    "en": {
+     "title": "Details of the new game map \"Brazil\" in \"Crazy Taxi: Speed ​​​​Around\" are officially released",
+     "summary": "Sega announced that the driving action game \"Crazy Taxi: Speed ​​Tour\" has released the latest game map \"Brazil\" and a map promotional video. Players will be able to play the \"Brazil\" map in various modes including story mode. This game is expected to be launched on the XBOX Series X|S/XBOX on PC/PC (Steam)/PlayStation 5/Nintendo Switch 2 platform in 2027. <For embedded content, please go to the machine core to view> The \"Brazil\" map promotional video was released simultaneously, introducing the charm of the Brazilian map in the style of a travel guide. Players can see from the video a track that combines vibrant street scenes with nature, excited passengers, and Brazil’s unique stunt gameplay. The map of Brazil fully demonstrates the infinite charm of the largest country in South America. The map not only shows the spectacular waterfalls and huge strange rocks, one of the three largest waterfalls in the world, but also some of the world's largest waterfalls."
     }
    }
   },
@@ -1174,8 +1420,8 @@
    }
   },
   {
-   "id": "791f414500be",
-   "title": "「名探偵コナンパズル」新作グッズ第2弾！ 妖怪、冒険RPG、不思議の国のアリスの全3モチーフ登場",
+   "id": "6298ffa16e5a",
+   "title": "「名探偵コナン」安室透、赤井秀一、松田陣平らが妖怪、冒険RPG、不思議の国のアリスに!? 全3モチーフの新グッズ登場",
    "url": "https://animeanime.jp/article/2026/10/13/103770.html",
    "source": "アニメ！アニメ！",
    "category": "anime",
@@ -1185,11 +1431,11 @@
    "summary": "『名探偵コナンパズル 盤上の連鎖（クロスチェイン）』より、オリジナルグッズ第2弾が登場。2026年10月14日から10月28日まで受注販売が実施され、アクリルキーホルダーやアクリルブロックがラインナップされる。",
    "i18n": {
     "zh": {
-     "title": "“名侦探柯南拼图”新商品第2弹！妖怪、冒险RPG、爱丽丝梦游仙境共3个主题登场。",
+     "title": "《名侦探柯南》安室透、赤井秀一、松田仁平变身怪物、冒险RPG、爱丽丝梦游仙境！？全部 3 种图案的新商品现已上市",
      "summary": "《名侦探柯南 棋盘上的链环（交叉链）》原创商品第二弹现已发售。预购销售将于2026年10月14日至10月28日举行，产品阵容包括亚克力钥匙扣和亚克力积木。"
     },
     "en": {
-     "title": "2nd new “Detective Conan Puzzle” goods! A total of 3 motifs: Yokai, adventure RPG, and Alice in Wonderland appear.",
+     "title": "“Detective Conan” Tooru Amuro, Shuichi Akai, and Jinpei Matsuda become monsters, adventure RPGs, and Alice in Wonderland!? New goods with all 3 motifs now available",
      "summary": "The second series of original goods from \"Detective Conan Puzzle Chain on the Board (Cross Chain)\" is now available. Pre-order sales will be held from October 14th to October 28th, 2026, and the lineup will include acrylic key chains and acrylic blocks."
     }
    }
@@ -2252,7 +2498,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-14T01:12:11+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2271,7 +2517,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-14T01:12:11+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2290,7 +2536,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-14T01:12:11+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2309,7 +2555,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-14T01:12:11+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2328,7 +2574,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-14T01:12:11+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2347,7 +2593,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-14T01:12:11+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2366,7 +2612,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-14T01:12:11+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2385,7 +2631,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-14T01:12:11+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2404,7 +2650,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-14T01:12:11+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2423,7 +2669,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-14T01:12:11+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2442,7 +2688,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-14T01:12:11+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2461,7 +2707,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-14T01:12:11+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2473,25 +2719,6 @@
    }
   },
   {
-   "id": "6a08a7122ed0",
-   "title": "【今日放送 20:26】凶乱令嬢ニア・リストン 第2集",
-   "url": "https://anilist.co/anime/206949",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-14T01:12:10+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日20:26播出】烈女妮娅·利斯顿第2卷"
-    },
-    "en": {
-     "title": "[Broadcast today 20:26] Fierce Lady Nia Liston Volume 2"
-    }
-   }
-  },
-  {
    "id": "5b2fbaa907d6",
    "title": "【今日放送 21:00】塩対応の佐藤さんが俺にだけ甘い 第2集",
    "url": "https://anilist.co/anime/209502",
@@ -2499,7 +2726,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-14T01:12:10+08:00",
+   "published": "2026-10-14T08:54:30+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2518,7 +2745,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-14T01:12:10+08:00",
+   "published": "2026-10-14T08:54:30+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2537,7 +2764,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-14T01:12:10+08:00",
+   "published": "2026-10-14T08:54:30+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2556,7 +2783,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-14T01:12:10+08:00",
+   "published": "2026-10-14T08:54:30+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2575,7 +2802,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-14T01:12:10+08:00",
+   "published": "2026-10-14T08:54:30+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2594,7 +2821,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-14T01:12:10+08:00",
+   "published": "2026-10-14T08:54:30+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2613,7 +2840,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-14T01:12:10+08:00",
+   "published": "2026-10-14T08:54:30+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2632,7 +2859,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-14T01:12:10+08:00",
+   "published": "2026-10-14T08:54:30+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2651,7 +2878,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-14T01:12:10+08:00",
+   "published": "2026-10-14T08:54:30+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2670,7 +2897,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-14T01:12:10+08:00",
+   "published": "2026-10-14T08:54:30+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2689,7 +2916,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-14T01:12:10+08:00",
+   "published": "2026-10-14T08:54:30+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2701,229 +2928,65 @@
    }
   },
   {
-   "id": "323dced6a98e",
-   "title": "【今日放送 10:00】有兽焉 第六季 第12集",
-   "url": "https://anilist.co/anime/213486",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "c9642ed54f01",
+   "title": "AIスクレイパーのせいでホスティング費用が数倍に跳ね上がる事態が発生、サイト運営者は「AI企業は最悪の寄生虫」と痛烈に批判",
+   "url": "https://gigazine.net/news/20261014-dnalounge-ai-pushed-web-hosting-bill/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-14T01:12:10+08:00",
-   "summary": "",
+   "weight": 5,
+   "published": "2026-10-14T08:00:00+08:00",
+   "summary": "近年はAIの発達と普及により、AIがウェブサイトにアクセスして情報を抽出するAIスクレイピングが増加しています。そんなAIスクレイピングを執拗(しつよう)に行うAIスクレイパーのせいでウェブホスティング費用が激増していると、アメリカのサンフランシスコにある1983年創業のナイトクラブ・DNA Loungeが非難しています。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "【今日10:00播出】少年第6季第12集"
+     "title": "由于AI爬虫，出现了托管成本数倍暴涨的情况，网站运营者严厉批评“AI公司是最糟糕的寄生虫”",
+     "summary": "近年来，随着人工智能的发展和普及，人工智能访问网站并提取信息的人工智能抓取越来越多。 DNA Lounge 是一家于 1983 年在美国旧金山成立的夜总会，它指责由于 AI 抓取工具持续执行此类 AI 抓取，导致网络托管成本急剧增加。阅读更多..."
     },
     "en": {
-     "title": "[Broadcast today 10:00] Yuenen Season 6 Episode 12"
+     "title": "Due to the AI ​​scraper, a situation occurred where hosting costs jumped several times, and the site operator harshly criticized ``AI companies are the worst parasites''",
+     "summary": "In recent years, with the development and spread of AI, AI scraping, in which AI accesses websites and extracts information, has increased. DNA Lounge, a nightclub founded in 1983 in San Francisco, USA, has accused that web hosting costs have increased dramatically due to AI scrapers that persistently perform such AI scraping. read more..."
     }
    }
   },
   {
-   "id": "df02ef235fc3",
-   "title": "【今日放送 10:00】大夏守墓人 第5集",
-   "url": "https://anilist.co/anime/214974",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "0c1da1421b7b",
+   "title": "質問するだけでAIコーディングエージェントが実行ファイル・ライブラリ・アプリなどをリバースエンジニアリングできる「REA」、ソースコードなしで同等機能を実装可能",
+   "url": "https://gigazine.net/news/20261014-rea-tools/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-14T01:12:10+08:00",
-   "summary": "",
+   "weight": 5,
+   "published": "2026-10-14T06:00:00+08:00",
+   "summary": "「REA(Reverse Engineer Anything)」はバイナリ・アプリケーション・ランタイム動作全体にわたるリバースエンジニアリングを行うための包括的なプラットフォームです。ソースコードがない場合でも、対象を調査して機能の仕組みや根拠を明らかにし、同様の機能を実装することが可能であるため、プログラムの解析・変更・再構築が容易になります。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "【今日10:00播出】小津森通彬 Vol.1 5"
+     "title": "“REA”允许人工智能编码代理仅通过提出问题即可对可执行文件、库、应用程序等进行逆向工程，并且无需源代码即可实现等效功能",
+     "summary": "REA（Reverse Engineer Anything）是一个用于对二进制应用程序的整个运行时行为进行逆向工程的综合平台。即使没有源代码，也可以调查目标，明确功能的机制和基础，并实现相同的功能，从而更容易分析、更改和重建程序。阅读更多..."
     },
     "en": {
-     "title": "[Broadcast today 10:00] Onatsumori Tombin Vol. 5"
+     "title": "``REA'' allows AI coding agents to reverse engineer executable files, libraries, apps, etc. just by asking questions, and equivalent functions can be implemented without source code",
+     "summary": "REA (Reverse Engineer Anything) is a comprehensive platform for reverse engineering the entire runtime behavior of binary applications. Even if the source code is not available, it is possible to investigate the target, clarify the mechanism and basis of the function, and implement the same function, making it easier to analyze, change, and rebuild the program. read more..."
     }
    }
   },
   {
-   "id": "b7f21aae7ae7",
-   "title": "危険な火星地下探査の協力対応オープンワールドサバクラ『Blind Descent（盲目の降下）』日本語対応で早期アクセス12月2日開始",
-   "url": "http://www.gamespark.jp/article/2026/10/14/173566.html",
-   "source": "Game*Spark",
-   "category": "game",
+   "id": "64106cf47eaa",
+   "title": "通常の氷の約10倍の圧縮強度を持つ「スーパーアイス」が開発される",
+   "url": "https://gigazine.net/news/20261014-super-ice-ten-times-stronger/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-14T00:15:22+08:00",
-   "summary": "過酷な環境に適応する科学的な装備に加え、遺伝子変化による超人的なアップグレード要素もあるようです。",
+   "weight": 5,
+   "published": "2026-10-14T05:00:00+08:00",
+   "summary": "イスラエルのヘブライ大学などの研究チームが、通常の氷の約10倍の圧縮強度を持つ複合材料「BioPykrete」を開発しました。通常の氷は強い力を受けると一気に割れてしまいますが、BioPykreteは急に砕けず、徐々に変形するのが特徴です。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "开放世界沙漠俱乐部“盲降”支持火星危险地下探索合作。在日语支持下，抢先体验将于 12 月 2 日开始。",
-     "summary": "除了适应恶劣环境的科学装备外，似乎还存在通过基因改变实现超人的升级要素。"
+     "title": "将开发抗压强度约为普通冰10倍的“超级冰”",
+     "summary": "以色列希伯来大学和其他机构的一个研究小组开发了一种名为“BioPykrete”的复合材料，其抗压强度约为普通冰的10倍。普通的冰在受到强力作用时会立即破裂，但 BioPykrete 的独特之处在于它不会突然破裂，而是逐渐变形。阅读更多..."
     },
     "en": {
-     "title": "Open world desert club \"Blind Descent\" supporting cooperation in dangerous underground exploration of Mars. Early access starts on December 2nd with Japanese support.",
-     "summary": "In addition to scientific equipment to adapt to harsh environments, there also seems to be superhuman upgrade elements through genetic changes."
-    }
-   }
-  },
-  {
-   "id": "86d75146956c",
-   "title": "デモ版がSNSで大注目！OS風ウィンドウ操作×パズルACT『SNAPTIC』―クラファン4,000万円越えで日本語対応も決定済み",
-   "url": "http://www.gamespark.jp/article/2026/10/14/173565.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-13T23:45:02+08:00",
-   "summary": "Steam Workshopにも対応決定！3Dアクション×OS操作風のパズル要素を体験",
-   "i18n": {
-    "zh": {
-     "title": "试玩版在SNS上受到了广泛关注！类操作系统窗口操作x益智ACT“SNAPTIC” - 日本支持已确定为粉丝提供超过4000万日元",
-     "summary": "还兼容 Steam 创意工坊！体验3D动作x OS操作风格的解谜元素"
-    },
-    "en": {
-     "title": "The demo version is getting a lot of attention on SNS! OS-like window operation x puzzle ACT “SNAPTIC” - Japanese support has been decided for over 40 million yen for fans",
-     "summary": "Also compatible with Steam Workshop! Experience 3D action x OS operation style puzzle elements"
-    }
-   }
-  },
-  {
-   "id": "1edc7f1f6440",
-   "title": "ホラーでグロテスクな『塊魂』系アーケードアクション『ROLLA』リリース。しぶとい人類の抵抗に負けず立派に育て！",
-   "url": "http://www.gamespark.jp/article/2026/10/14/173564.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-13T23:15:02+08:00",
-   "summary": "銃弾やミサイルの雨に対抗しながら世界各地の都市をぺろりと平らげていきます。",
-   "i18n": {
-    "zh": {
-     "title": "以片魂为基础的恐怖怪诞街机动作游戏《ROLLA》发售。好好举起来，不要屈服于人类的顽强抵抗！",
-     "summary": "对抗枪林弹雨，摧毁世界各地的城市。"
-    },
-    "en": {
-     "title": "ROLLA, a horror and grotesque arcade action game based on Katamari Damacy, is released. Raise it well without giving in to the stubborn resistance of humanity!",
-     "summary": "Fight against a hail of bullets and missiles as you annihilate cities around the world."
-    }
-   }
-  },
-  {
-   "id": "83552515f076",
-   "title": "実在する伝統料理を作って怪物たちに立ち向かう。料理×デッキ構築ローグライトADV『ハングリー・ホラーズ』正式リリース",
-   "url": "http://www.gamespark.jp/article/2026/10/14/173563.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-13T23:00:04+08:00",
-   "summary": "早期アクセス開始時点から、怪物は20種類から34種類、料理カードは42種類から62種類に増える。",
-   "i18n": {
-    "zh": {
-     "title": "烹饪真正的传统菜肴并与怪物战斗。烹饪x套牌构建Roguelite ADV《Hungry Horrors》正式发布",
-     "summary": "从抢先体验开始，怪物数量将从20个增加到34个，烹饪卡数量从42个增加到62个。"
-    },
-    "en": {
-     "title": "Cook real traditional dishes and fight against monsters. Cooking x deck building roguelite ADV “Hungry Horrors” officially released",
-     "summary": "Starting from early access, the number of monsters will increase from 20 to 34, and the number of cooking cards will increase from 42 to 62."
-    }
-   }
-  },
-  {
-   "id": "bc469613f4e4",
-   "title": "仲間を食べちゃう要素も健在。“非常に好評”な協力登山ゲーム『PEAK』PS5版が米レーティング審査を通過",
-   "url": "http://www.gamespark.jp/article/2026/10/13/173562.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-13T22:30:03+08:00",
-   "summary": "カニバリズムでも10歳以上対象でOK？PS5版が明らかに",
-   "i18n": {
-    "zh": {
-     "title": "吃掉你朋友的元素仍然存在。 “非常受欢迎”的合作登山游戏《PEAK》PS5版通过美国评级审查",
-     "summary": "10岁以上的人可以吃人肉吗？ PS5版本揭晓"
-    },
-    "en": {
-     "title": "The element of eating your friends is still there. PS5 version of the “very popular” cooperative mountaineering game “PEAK” passes US ratings review",
-     "summary": "Is cannibalism OK for people over 10 years old? PS5 version revealed"
-    }
-   }
-  },
-  {
-   "id": "d1bec5edd56c",
-   "title": "制限時間はタバコが燃え尽きるまで…自動ハッキングルーチン構築ローグライト『smoke.exe』Steamで発売",
-   "url": "http://www.gamespark.jp/article/2026/10/13/173561.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-13T22:15:02+08:00",
-   "summary": "じっくり考えてノードを配置し、タバコに火をつけて見届けます。",
-   "i18n": {
-    "zh": {
-     "title": "时间限制到香烟烧完为止...自动黑客套路构建roguelite“smoke.exe”在Steam上发布",
-     "summary": "我小心翼翼地放置节点，点燃一支香烟，然后观察。"
-    },
-    "en": {
-     "title": "The time limit is until the cigarette burns out... Automatic hacking routine construction roguelite \"smoke.exe\" released on Steam",
-     "summary": "I carefully place the nodes, light a cigarette, and watch."
-    }
-   }
-  },
-  {
-   "id": "1cdf3432ec82",
-   "title": "迷宮に潜り、囲む鍋で仲間と温まる―最大3人協力のダンジョン探索サバイバル『Deep Dish Dungeon』配信開始",
-   "url": "http://www.gamespark.jp/article/2026/10/13/173560.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-13T22:00:03+08:00",
-   "summary": "メトロイドヴァニアとクラフト要素を掛けあわせたゲーム。",
-   "i18n": {
-    "zh": {
-     "title": "潜入迷宫，与周边火锅好友热身——最多3人合作的地下城探索生存游戏《深盘地牢》现已上线",
-     "summary": "一款结合了类银河战士恶魔城和制作元素的游戏。"
-    },
-    "en": {
-     "title": "Dive into the labyrinth and warm up with friends in the surrounding hot pot - \"Deep Dish Dungeon\", a dungeon exploration survival game with up to 3 people cooperation, now available",
-     "summary": "A game that combines Metroidvania and crafting elements."
-    }
-   }
-  },
-  {
-   "id": "a40117fbba7e",
-   "title": "『Gears of War: E-Day』ネットワーク障害は外部からの攻撃によるものと報告―対策に伴い重大な変更があった場合改めてアナウンスを予定",
-   "url": "http://www.gamespark.jp/article/2026/10/13/173559.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-13T21:15:03+08:00",
-   "summary": "一時はログインできずキャンペーンモードも遊べない状況となっていました。",
-   "i18n": {
-    "zh": {
-     "title": "《战争机器：E-Day》传因外部攻击导致网络故障，若应对措施有重大变化将另行公告",
-     "summary": "有一次，我无法登录，也无法玩战役模式。"
-    },
-    "en": {
-     "title": "'Gears of War: E-Day' network failure reportedly caused by external attack - further announcement will be made if there are any significant changes in response to countermeasures",
-     "summary": "At one point, I was unable to log in and was unable to play campaign mode."
-    }
-   }
-  },
-  {
-   "id": "f48081c645c6",
-   "title": "電卓×ローグライクな“非常に好評”パズルゲームが正式リリース。ボタンを改造して目標数値を導き出せ―採れたて！本日のSteam注目ゲーム3選【2026年10月13日】",
-   "url": "http://www.gamespark.jp/article/2026/10/13/173558.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-13T21:00:03+08:00",
-   "summary": "特殊なボタンやパッシブ強化を組み合わせ、限られた手数で難題に挑む異色の計算パズルローグライク。",
-   "i18n": {
-    "zh": {
-     "title": "一款一直“很火”的计算器x Roguelike益智游戏正式上线了。修改按钮导出目标值——新鲜收获！今天 Steam 上的 3 款精选游戏 [2026 年 10 月 13 日]",
-     "summary": "一款独特的计算解谜 Roguelike 游戏，结合特殊按钮和被动强化，以有限的步数解决难题。"
-    },
-    "en": {
-     "title": "A calculator x roguelike puzzle game that has been “very popular” has been officially released. Modify the button to derive the target value - Freshly harvested! Today's 3 featured games on Steam [October 13, 2026]",
-     "summary": "A unique calculation puzzle roguelike that combines special buttons and passive reinforcement to solve difficult problems with a limited number of moves."
+     "title": "\"Super ice\" with compressive strength about 10 times that of normal ice will be developed",
+     "summary": "A research team at Israel's Hebrew University and other institutions has developed a composite material called ``BioPykrete'' that has about 10 times the compressive strength of ordinary ice. Normal ice breaks all at once when subjected to strong force, but BioPykrete's unique feature is that it does not break suddenly and deforms gradually. read more..."
     }
    }
   },
@@ -3075,255 +3138,192 @@
    }
   },
   {
-   "id": "738368f23ce6",
-   "title": "麻辣湯をカップ春雨で再現した「福福彩菜 麻辣湯春雨」を食べてみた",
-   "url": "https://gigazine.net/news/20261013-fukufuku-harusame-maratan/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-10-13T16:08:00+08:00",
-   "summary": "エースコックの春雨カップブランドである福福彩菜に、SNSなどで若者や女性を中心に話題になっている麻辣湯の味わいをイメージした「福福彩菜 麻辣湯春雨」が2026年10月12日(月)に登場しました。15種のスパイスが織りなす本格的な味がやみつきになるとのことで、どんな春雨カップになっているのか実際に食べて確かめてみました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "我尝试了用杯子粉丝再现马来语的“福福绫奈马来语粉丝”",
-     "summary": "Acecook旗下粉丝杯品牌“福福绫奈”将于2026年10月12日（周一）发售以在年轻人和女性中成为热门话题的马来语风味为灵感的“福福绫奈马来语粉丝”。据说15种香料创造出的正宗味道让人上瘾，所以我尝试着吃，看看它是什么样的粉丝杯。阅读更多..."
-    },
-    "en": {
-     "title": "I tried ``Fukufuku Ayana Malayu Vermicelli'' which reproduced Malayu in a cup vermicelli",
-     "summary": "``Fukufuku Ayana Malayu Vermicelli'', which is inspired by the flavor of Malayu, which has become a hot topic on SNS among young people and women, will be released on October 12, 2026 (Monday) in Acecook's vermicelli cup brand Fukufuku Ayana. It is said that the authentic taste created by 15 kinds of spices is addictive, so I tried eating it to see what kind of vermicelli cup it is. read more..."
-    }
-   }
-  },
-  {
-   "id": "dfbbe120fbc6",
-   "title": "CloudflareがDenoを買収して1年後に公式サポート終了へ、開発継続は引き継ぐ人が現れるか次第",
-   "url": "https://gigazine.net/news/20261013-cloudflare-deno/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-10-13T16:00:00+08:00",
-   "summary": "Cloudflareが2026年10月9日にJavaScript実行環境「Deno」を開発する企業を買収したことを発表しました。Denoの開発チームはCloudflareに合流し、Deno本体の公式開発は約1年後に終了する予定です。Denoはオープンソースとして公開が続けられますが、開発元によるサポートは約1年後に終了し、その後の開発継続は新たな開発者に委ねられます。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "Cloudflare 收购 Deno 一年后官方支持结束，继续开发取决于是否有人接手",
-     "summary": "Cloudflare 于 2026 年 10 月 9 日宣布收购了一家开发 JavaScript 执行环境“Deno”的公司。 Deno 开发团队将加入 Cloudflare，Deno 本身的正式开发预计将在一年左右结束。 Deno 将继续开源发布，但开发者的支持将在大约一年后结束，继续开发将留给新的开发者。阅读更多..."
-    },
-    "en": {
-     "title": "Official support ends one year after Cloudflare acquires Deno, continued development depends on whether someone takes over",
-     "summary": "Cloudflare announced on October 9, 2026 that it has acquired a company that develops the JavaScript execution environment \"Deno.\" The Deno development team will join Cloudflare, and official development of Deno itself is scheduled to end in about a year. Deno will continue to be released as open source, but support from the developer will end after about a year, and continued development will be left to new developers. read more..."
-    }
-   }
-  },
-  {
-   "id": "943e272182ee",
-   "title": "ブラウザの「指紋」でユーザーを識別する仕組みを体験できるサイト、実際に回線を切り替えたりシークレットモードでも同じニックネームに",
-   "url": "https://gigazine.net/news/20261013-fingerprints-are-the-new-cookies/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-10-13T15:20:00+08:00",
-   "summary": "ウェブサイトを開くだけでブラウザの特徴を読み取り、ユーザーを識別する「フィンガープリンティング」という技術があります。Cookieを削除したりVPNに接続したりしても同じユーザーとして認識される可能性があるという仕組みを、実際に体験できるサイト「Fingerprints are the new cookies」が公開されています。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "一个可以体验通过浏览器的“指纹”识别用户的机制的网站，即使在切换线路或隐身模式下也可以使用相同的昵称",
-     "summary": "有一种称为“指纹识别”的技术，只需打开一个网站即可读取浏览器的特征并识别用户。一个名为“指纹是新的cookie”的网站已经发布，您可以在其中实际体验即使删除cookie或连接到VPN，也可能被识别为同一用户的机制。阅读更多..."
-    },
-    "en": {
-     "title": "A site where you can experience the mechanism of identifying users with the browser's \"fingerprint\", the same nickname even when switching lines or incognito mode",
-     "summary": "There is a technology called \"fingerprinting\" that reads the characteristics of the browser and identifies the user just by opening a website. A site called ``Fingerprints are the new cookies'' has been released where you can actually experience the mechanism that even if you delete cookies or connect to a VPN, you may be recognized as the same user. read more..."
-    }
-   }
-  },
-  {
-   "id": "d9258d1b5683",
-   "title": "【漫画更新】Buta Kizoku wa Mirai wo Kiri Hiraku you desu 第 24.1 话「The Final Match」",
-   "url": "https://mangadex.org/chapter/14e2b7c1-6b48-470d-9bd7-6f23758d5511",
+   "id": "c34b6eac99d9",
+   "title": "【漫画更新】Eurydice neun Eopda 第 108 话",
+   "url": "https://mangadex.org/chapter/c90ce916-87ff-4463-8c85-81e02cc9fafc",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-14T01:12:12+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】豚貴族は未来を切り開く君です 第24.1話「決勝戦」"
+     "title": "【コミック更新】Eurydice neun Eopda 第108話"
     },
     "en": {
-     "title": "【Manga Update】Buta Kizoku wa Mirai wo Kiri Hiraku you desu Chapter 24.1 \"The Final Match\""
+     "title": "【Comic Update】Eurydice neun Eopda Chapter 108"
     }
    }
   },
   {
-   "id": "88b7184efeea",
-   "title": "【漫画更新】Kuro no Shoukanshi 第 199.2 话「My Hero」",
-   "url": "https://mangadex.org/chapter/26941a6b-69b2-4da9-8305-a98f2bc4f02a",
+   "id": "2ccae977d34f",
+   "title": "【漫画更新】Scavengers Another Sky 第 17 话「BP-24 Vengeful Ghost Subjugation Pt. 1」",
+   "url": "https://mangadex.org/chapter/ea6e5f0e-2e1e-44bf-bb2c-6a780d92f620",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-14T01:12:12+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】黒の召喚士 第199.2話「My Hero」"
+     "title": "【マンガ更新】スカベンジャーズ アナザースカイ 第17章「BP-24 怨霊討伐 その1」"
     },
     "en": {
-     "title": "【Manga Update】Kuro no Shoukanshi Chapter 199.2 \"My Hero\""
+     "title": "【Manga Update】Scavengers Another Sky Chapter 17 \"BP-24 Vengeful Ghost Subjugation Pt. 1\""
     }
    }
   },
   {
-   "id": "02f1d816a12b",
-   "title": "【漫画更新】Is She Making Fun of Me? 第 13.2 话「Getting closer - Part 2」",
-   "url": "https://mangadex.org/chapter/11f2c542-112f-485c-8fc8-7f964d407eae",
+   "id": "302c131032e2",
+   "title": "【漫画更新】Natori to Shizuha 第 1 话「Once Again」",
+   "url": "https://mangadex.org/chapter/6a36df1e-d2d8-4842-b3c0-d28bdf560bb5",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-14T01:12:12+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【コミック更新】彼女は私のことをからかっているのですか？第13.2章「近づく - パート2」"
+     "title": "【マンガ更新】名取と静葉 第一章「もう一度」"
     },
     "en": {
-     "title": "【Comic Update】Is She Making Fun of Me? Chapter 13.2 \"Getting closer - Part 2\""
+     "title": "【Manga Update】Natori to Shizuha Chapter 1 \"Once Again\""
     }
    }
   },
   {
-   "id": "0e8d6bc7d56a",
-   "title": "【漫画更新】Shihai Shoujo Kubaru-chan 第 79 话「Graduation」",
-   "url": "https://mangadex.org/chapter/ceb0cb85-891f-4934-95dd-cee1a307c6d7",
+   "id": "90fc5c9c0add",
+   "title": "【漫画更新】Madoromi Barmaid 第 41 话「Goodbye Bamboo」",
+   "url": "https://mangadex.org/chapter/f8fd6b85-1ea9-400e-8c0c-0212238404fa",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-14T01:12:12+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【漫画更新】屍少女クバルちゃん 第79話『卒業』"
+     "title": "【マンガ更新】まどろみバーメイド 第41話「さよならバンブー」"
     },
     "en": {
-     "title": "【Manga Update】Shihai Shoujo Kubaru-chan Chapter 79 \"Graduation\""
+     "title": "【Manga Update】Madoromi Barmaid Chapter 41 \"Goodbye Bamboo\""
     }
    }
   },
   {
-   "id": "9a26f4dd39e1",
-   "title": "【漫画更新】Nukitashi R - Nukige Mitai na Shima ni Sunderu Watashi wa Dou Surya Ii desu ka? R 第 17 话",
-   "url": "https://mangadex.org/chapter/76bd78e4-343d-43dc-aa61-7d5f4b701b2b",
+   "id": "a48803d9bb72",
+   "title": "【漫画更新】Aim for the Ace! 第 96 话",
+   "url": "https://mangadex.org/chapter/89d23ecf-805b-4734-9969-a736e52585bc",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-14T01:12:12+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】ぬきたしR ～ぬきげみたいな島にすんでる私はどうですか？ R 第17章"
+     "title": "【コミック更新】エースをねらえ！第96章"
     },
     "en": {
-     "title": "【Manga Update】Nukitashi R - Nukige Mitai na Shima ni Sunderu Watashi wa Dou Surya Ii desu ka? R Chapter 17"
+     "title": "【Comic Update】Aim for the Ace! Chapter 96"
     }
    }
   },
   {
-   "id": "78af62db5233",
-   "title": "【漫画更新】Boruto: Saikyo Dash Generations 第 28 话「Shinobi Squad: Konoha Rangers!」",
-   "url": "https://mangadex.org/chapter/e312765b-edd4-4c5e-a991-91ee61fa6994",
+   "id": "f3427250d7ec",
+   "title": "【漫画更新】Aim for the Ace! 第 95 话",
+   "url": "https://mangadex.org/chapter/e71b5500-cad3-4618-9ef3-5b1e2a9f820f",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-14T01:12:12+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】BORUTO-ボルト- 最強ダッシュジェネレーションズ 第28話「忍び隊 木の葉レンジャー！」"
+     "title": "【コミック更新】エースをねらえ！第95章"
     },
     "en": {
-     "title": "[Manga Update] Boruto: Saikyo Dash Generations Chapter 28 \"Shinobi Squad: Konoha Rangers!\""
+     "title": "【Comic Update】Aim for the Ace! Chapter 95"
     }
    }
   },
   {
-   "id": "c744843d9353",
-   "title": "【漫画更新】Boruto: Saikyo Dash Generations 第 31 话「Final Chapter: Naruto And Boruto!」",
-   "url": "https://mangadex.org/chapter/1d7ef069-8142-4556-be38-e5344adfbf74",
+   "id": "430e6d0a78f7",
+   "title": "【漫画更新】Aim for the Ace! 第 94 话",
+   "url": "https://mangadex.org/chapter/6d909322-5800-4aed-a077-f74aade7a254",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-14T01:12:12+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】BORUTO-ボルト-最強ダッシュジェネレーションズ第31話「最終章：ナルトとボルト！」"
+     "title": "【コミック更新】エースをねらえ！第94章"
     },
     "en": {
-     "title": "[Manga Update] Boruto: Saikyo Dash Generations Chapter 31 \"Final Chapter: Naruto And Boruto!\""
+     "title": "【Comic Update】Aim for the Ace! Chapter 94"
     }
    }
   },
   {
-   "id": "90b5f6a870e0",
-   "title": "【漫画更新】Boruto: Saikyo Dash Generations 第 29 话「Rock Lee's Springtime of Youth Full Power Ninja Chronicles」",
-   "url": "https://mangadex.org/chapter/5b095ac1-65f1-41a9-a6ef-1b686ff94e05",
+   "id": "67caddb0e3ce",
+   "title": "【漫画更新】Aim for the Ace! 第 93 话",
+   "url": "https://mangadex.org/chapter/5de56c6f-0030-4ee8-bb74-2fe8eb045791",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-14T01:12:12+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】BORUTO-ボルト- 最強ダッシュジェネレーションズ 第29話「ロック・リーの青春全力忍法帖」"
+     "title": "【コミック更新】エースをねらえ！第93章"
     },
     "en": {
-     "title": "【Manga Update】Boruto: Saikyo Dash Generations Chapter 29 \"Rock Lee's Springtime of Youth Full Power Ninja Chronicles\""
+     "title": "【Comic Update】Aim for the Ace! Chapter 93"
     }
    }
   },
   {
-   "id": "a8e17e26ec35",
-   "title": "【漫画更新】Ace of Diamond - Diamond (Doujinshi) 第 ? 话「Adorable Junior」",
-   "url": "https://mangadex.org/chapter/1fc57495-23b3-4b4e-a8ab-0e342e9b391b",
+   "id": "976c4165eda5",
+   "title": "【漫画更新】Aim for the Ace! 第 92 话",
+   "url": "https://mangadex.org/chapter/a59c4dcd-eafd-4a64-b4d5-feb4642152c0",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-14T01:12:12+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【漫画更新】ダイヤのA - ダイヤ(同人誌)編 ? 「可愛いジュニア」"
+     "title": "【コミック更新】エースをねらえ！第92章"
     },
     "en": {
-     "title": "【Manga Update】Ace of Diamond - Diamond (Doujinshi) Chapter ? \"Adorable Junior\""
+     "title": "【Comic Update】Aim for the Ace! Chapter 92"
     }
    }
   },
   {
-   "id": "d70288ad1c16",
-   "title": "【漫画更新】Girl and Science 第 644 话",
-   "url": "https://mangadex.org/chapter/db58f386-6052-45ad-ac64-22e20e700010",
+   "id": "79df1820043c",
+   "title": "【漫画更新】Aim for the Ace! 第 91 话",
+   "url": "https://mangadex.org/chapter/b81386f2-7191-4199-bd3f-1c01ed191f21",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-14T01:12:12+08:00",
+   "published": "2026-10-14T08:54:31+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【コミック更新】少女と科学 第644話"
+     "title": "【コミック更新】エースをねらえ！第91章"
     },
     "en": {
-     "title": "【Comic Update】Girl and Science Chapter 644"
+     "title": "【Comic Update】Aim for the Ace! Chapter 91"
     }
    }
   }
