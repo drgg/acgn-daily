@@ -1,13 +1,13 @@
 {
  "date": "2026-10-20",
- "generated_at": "2026-10-20T00:45:12+08:00",
+ "generated_at": "2026-10-20T08:58:54+08:00",
  "count": 160,
  "categories": {
-  "anime": 48,
+  "anime": 54,
   "comic": 10,
-  "game": 75,
-  "novel": 15,
-  "general": 12
+  "game": 68,
+  "novel": 18,
+  "general": 10
  },
  "sources": [
   {
@@ -21,12 +21,12 @@
    "error": null
   },
   {
-   "name": "AUTOMATON",
+   "name": "4Gamer 総合",
    "count": 15,
    "error": null
   },
   {
-   "name": "4Gamer 総合",
+   "name": "AUTOMATON",
    "count": 15,
    "error": null
   },
@@ -41,8 +41,8 @@
    "error": null
   },
   {
-   "name": "anilist_airing",
-   "count": 7,
+   "name": "GIGAZINE",
+   "count": 15,
    "error": null
   },
   {
@@ -51,8 +51,8 @@
    "error": null
   },
   {
-   "name": "GIGAZINE",
-   "count": 15,
+   "name": "anilist_airing",
+   "count": 17,
    "error": null
   },
   {
@@ -61,12 +61,12 @@
    "error": null
   },
   {
-   "name": "触乐",
+   "name": "mangadex_latest",
    "count": 15,
    "error": null
   },
   {
-   "name": "mangadex_latest",
+   "name": "触乐",
    "count": 15,
    "error": null
   },
@@ -77,6 +77,90 @@
   }
  ],
  "items": [
+  {
+   "id": "50302bac2fa5",
+   "title": "TMS Entertainment to Stream Lupin III vs. Detective Conan Film, 4th Collection of Detective Conan Anime",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-19/tms-entertainment-to-stream-lupin-iii-vs-detective-conan-film-4th-collection-of-detective-conan-/.242994",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-20T05:00:00+08:00",
+   "summary": "Crossover film streams on YouTube on October 24; more Detective Conan episodes stream on November 1",
+   "i18n": {
+    "zh": {
+     "title": "TMS Entertainment 将播放《名侦探柯南》动画第四部《鲁邦三世大战名侦探柯南》电影",
+     "summary": "跨界电影将于 10 月 24 日在 YouTube 上播出；更多《名侦探柯南》剧集将于 11 月 1 日播出"
+    },
+    "ja": {
+     "title": "トムス・エンタテインメント、劇場版「名探偵コナン」シリーズ第4弾「ルパン三世vs名探偵コナン」を配信決定",
+     "summary": "クロスオーバー映画は 10 月 24 日に YouTube でストリーミング配信されます。 11月1日に名探偵コナンのさらなるエピソードが配信される"
+    }
+   }
+  },
+  {
+   "id": "e55876a257d9",
+   "title": "Netflix Replaces Chief Content Officer, Lays Off About 1,000 Employees",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-19/netflix-replaces-chief-content-officer-lays-off-about-1000-employees/.242992",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-20T04:00:00+08:00",
+   "summary": "Former Disney/Fox executive Peter Rice replaces Bela Bajaria as CCO",
+   "i18n": {
+    "zh": {
+     "title": "Netflix 更换首席内容官并解雇约 1,000 名员工",
+     "summary": "迪士尼/福克斯前高管 Peter Rice 接替 Bela Bajaria 担任 CCO"
+    },
+    "ja": {
+     "title": "Netflix、最高コンテンツ責任者を交代、約1,000人の従業員を解雇",
+     "summary": "元ディズニー/フォックス幹部のピーター・ライス氏がベラ・バジャリア氏の後任としてCCOに就任"
+    }
+   }
+  },
+  {
+   "id": "a5a9993d7d4c",
+   "title": "Actor Michael Forest Dies at 97",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-19/actor-michael-forest-dies-at-97/.242990",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-20T02:00:00+08:00",
+   "summary": "Forest had roles in Star Trek, Ghost in the Shell: Stand Alone Complex, The Big O",
+   "i18n": {
+    "zh": {
+     "title": "演员迈克尔·福里斯特去世，享年 97 岁",
+     "summary": "福里斯特曾在《星际迷航》、《攻壳机动队：独立情结》、《大O》中扮演角色"
+    },
+    "ja": {
+     "title": "俳優マイケル・フォレスト氏死去、97歳",
+     "summary": "フォレストは『スタートレック』、『ゴースト・イン・ザ・シェル：スタンド・アローン・コンプレックス』、『ビッグ・オー』で役割を果たしました。"
+    }
+   }
+  },
+  {
+   "id": "1afd377bb7d3",
+   "title": "CloverWorks' Omnibus Anime Film Grotesqqque Streams 'Yoroshiku★Girl' Segment Early on Netflix for Limited Time",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-19/cloverworks-omnibus-anime-film-grotesqqque-streams-yoroshiku-girl-segment-early-on-netflix-for-/.242988",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-10-20T01:00:00+08:00",
+   "summary": "Segment streams on October 23-November 5, ahead of film's November 6 opening",
+   "i18n": {
+    "zh": {
+     "title": "CloverWorks 的综合动画电影 Grotesqqque 在 Netflix 上限时提前播放“Yoroshiku★Girl”片段",
+     "summary": "影片将于 11 月 6 日上映前于 10 月 23 日至 11 月 5 日播出"
+    },
+    "ja": {
+     "title": "CloverWorks制作のオムニバスアニメ映画「グロテスク」「よろしく★ガール」をNetflixで期間限定先行配信",
+     "summary": "11月6日の映画公開に先駆けて、10月23日から11月5日までセグメントがストリーミングされる"
+    }
+   }
+  },
   {
    "id": "c328e313d518",
    "title": "Lezhin Ent. to Launch AI Character Chat Service Teaz in Korea",
@@ -389,6 +473,126 @@
     "ja": {
      "title": "ストリートファイターの新作実写映画が全米初登場1位、全世界で5,100万ドルの興行収入を記録",
      "summary": "映画の興行収入は米国で推定 3,100 万ドル、海外 65 市場で 2,010 万ドル"
+    }
+   }
+  },
+  {
+   "id": "9a90957bbaa5",
+   "title": "第23回講談社ラノベ文庫新人賞の受賞結果が発表 「佳作」に2作品が選出",
+   "url": "https://ln-news.com/articles/126978",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-20T08:30:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "第23届讲谈社轻小说文库新人奖结果公布。两部作品入选“优秀作品”"
+    },
+    "en": {
+     "title": "The results of the 23rd Kodansha Light Novel Bunko Newcomer Award have been announced. Two works have been selected as \"Honorable Works\""
+    }
+   }
+  },
+  {
+   "id": "aff6c7890379",
+   "title": "「PixelJunk Monsters 3」，初のプレイアブルデモをSteam Nextフェス限定で公開",
+   "url": "https://www.4gamer.net/games/036/G103698/20261019043/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-20T08:00:00+08:00",
+   "summary": "Q-Gamesは，「PixelJunkMonsters3」の初のプレイアブルデモを，本日（2026年10月20日）開幕したSteamNextフェス限定で公開している。「PixelJunkMonsters」シリーズの20周年を記念して開発が進められている本作は，タワーディフェンスにローグライクの要素が加わり，戦略性とリプレイ性が高まっている。",
+   "i18n": {
+    "zh": {
+     "title": "“PixelJunk Monsters 3”，第一个在 Steam Next 音乐节上独家发布的试玩版",
+     "summary": "Q-Games 将在今天（2026 年 10 月 20 日）开始的 SteamNext 音乐节上独家发布《PixelJunk Monsters 3》的首个可玩演示。这款为纪念《PixelJunk Monsters》系列诞生 20 周年而开发的作品，在塔防中加入了 Roguelike 元素，增加了策略性和可玩性。"
+    },
+    "en": {
+     "title": "\"PixelJunk Monsters 3\", first playable demo released exclusively at Steam Next festival",
+     "summary": "Q-Games is releasing the first playable demo of \"PixelJunk Monsters 3\" exclusively at the SteamNext festival that started today (October 20, 2026). This work, which is being developed to commemorate the 20th anniversary of the ``PixelJunk Monsters'' series, adds roguelike elements to tower defense, increasing strategy and replayability."
+    }
+   }
+  },
+  {
+   "id": "332a82a945fa",
+   "title": "『お隣の天使様にいつの間にか駄目人間にされていた件』冬服姿の椎名真昼のノンスケールフィギュアが2027年5月発売",
+   "url": "https://ln-news.com/articles/126979",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-20T07:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "《隔壁的天使把我变成了无用之人》冬衣的椎名真昼非比例手办将于2027年5月发售"
+    },
+    "en": {
+     "title": "“The angel next door turned me into a useless person” Non-scale figure of Mahiru Shiina in winter clothes will be released in May 2027"
+    }
+   }
+  },
+  {
+   "id": "02ccef15a801",
+   "title": "「勝利の女神：NIKKE」の4周年記念番組は10月24日に配信。忘れずに見たい「今週の公式配信番組」ピックアップ",
+   "url": "https://www.4gamer.net/games/421/G042182/20261019036/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-20T07:00:00+08:00",
+   "summary": "「勝利の女神：NIKKE」の4周年記念番組「約束の地へ、女神集結」が10月24日16：30から配信される。今回もこの1週間で予定されている，ゲームに関連した公式配信番組を中心に，いくつかをピックアップして紹介しよう。",
+   "i18n": {
+    "zh": {
+     "title": "《胜利女神NIKKE》四周年纪念节目将于10月24日播出。挑选你不想忘记观看的“本周官方广播节目”",
+     "summary": "《胜利女神：NIKKE》4周年纪念节目《女神齐聚应许之地》将于10月24日16点30分起播出。这次我们也将介绍过去一周预定的一些官方游戏相关节目。"
+    },
+    "en": {
+     "title": "The 4th anniversary program of \"Goddess of Victory: NIKKE\" will be broadcast on October 24th. Pick up “this week’s official broadcast programs” that you don’t want to forget to watch",
+     "summary": "\"Goddess of Victory: NIKKE\"'s 4th anniversary program \"Gathering of the Goddess to the Promised Land\" will be broadcast from 16:30 on October 24th. This time as well, we will introduce some of the official game-related programs scheduled for the past week."
+    }
+   }
+  },
+  {
+   "id": "3db561bbbe6c",
+   "title": "『スキル【庭いじり】持ち令嬢、島流しにあう ～未開の島でスキルが大進化！ 簡単開拓始めます～』のコミカライズ配信が開始",
+   "url": "https://ln-news.com/articles/126960",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-20T05:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "“拥有【园艺】技能的少女被放逐到了一座岛屿～她的技能在一座未开发的岛屿上得到了极大的进化！漫画版的《让我们轻松开发吧～》已经开始了。"
+    },
+    "en": {
+     "title": "“A young lady with the skill [gardening] is exiled to an island ~ Her skills have evolved greatly on an unexplored island! The comic version of “Let’s start developing easily~” has started."
+    }
+   }
+  },
+  {
+   "id": "a60d577a2e08",
+   "title": "「Surfpunk」，Steam Nextフェスに出展。鍛冶システムの刷新や新スキルの実装など，内容をアップデートした体験版が公開に",
+   "url": "https://www.4gamer.net/games/845/G084544/20261019032/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-10-20T01:00:00+08:00",
+   "summary": "DoubleStallionとVendettaは，2026年10月20日から27日まで開催されるイベント「SteamNextフェス」に，「Surfpunk」（サーフパンク）を出展する。イベントへの出展に合わせて，鍛冶システムの刷新や新スキルの実装など，内容をアップデートした体験版が公開された。",
+   "i18n": {
+    "zh": {
+     "title": "《Surfpunk》在 Steam Next 音乐节上展出。包含更新内容的试用版已经发布，其中包括改进的锻造系统和新技能的实施。",
+     "summary": "DoubleStallion 和 Vendetta 将在 2026 年 10 月 20 日至 27 日举行的“SteamNext Festival”活动中展示“Surfpunk”。在活动期间，发布了包含更新内容的试用版，包括改进的铁匠系统和新技能的实施。"
+    },
+    "en": {
+     "title": "\"Surfpunk\" exhibited at Steam Next festival. A trial version with updated content, including a revamped blacksmithing system and implementation of new skills, has been released.",
+     "summary": "DoubleStallion and Vendetta will exhibit \"Surfpunk\" at the \"SteamNext Festival\" event, which will be held from October 20th to 27th, 2026. In conjunction with the event, a trial version was released with updated content, including a revamped blacksmithing system and the implementation of new skills."
     }
    }
   },
@@ -987,6 +1191,132 @@
     },
     "en": {
      "title": "Collaboration pop-up event between the anime “Yakusha no Hitorigoto” and the derma cosmetics brand “REJURAN COSMETICS” is being held"
+    }
+   }
+  },
+  {
+   "id": "0d74a7b5884e",
+   "title": "《双点博物馆》×《小猫咪大城市》联动内容现已发布",
+   "url": "https://www.gcores.com/articles/221141",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-10-20T08:45:00+08:00",
+   "summary": "世嘉宣布，由双点工作室开发的奇妙博物馆经营模拟游戏《双点博物馆》现已推出与Double Dagger Studio制作的休闲冒险游戏《小猫咪大城市》的联动内容。联动内容已登陆PlayStation5、XBOX Series X|S、Nintendo Switch 2与PC（Steam）平台。 <内嵌内容，请前往机核查看> 《小猫咪大城市》联动简介本次联动将以《小猫咪大城市》为舞台，玩家可一边探索城市，一边寻找小猫咪的身影，体验全新的冒险。在探险途中，还有乌鸦、变色龙、鸭鸭等熟悉的角色与动物形象登场。通过探险行动发现的各种展示品和装饰都可以带回博物馆。一边追逐猫咪的踪迹，一边把《小猫咪大城市》独",
+   "i18n": {
+    "ja": {
+     "title": "「ツーポイントミュージアム」×「キトゥンシティ」のコラボコンテンツが公開されました",
+     "summary": "セガは、ダブルポイントスタジオ開発の幻想的な博物館経営シミュレーションゲーム『ツーポイントミュージアム』において、ダブルダガースタジオ製作のカジュアルアドベンチャーゲーム『キトゥンシティ』との連動コンテンツを開始したと発表しました。連動コンテンツはPlayStation 5、XBOX Series X|S、Nintendo Switch 2、PC（Steam）プラットフォームで配信開始されています。 <埋め込みコンテンツについては、マシンコアに移動してご覧ください> 「キティシティ」連携紹介 今回の連携は「キティシティ」が舞台となります。プレイヤーは子猫を探しながら街を探索し、新たな冒険を体験することができます。冒険の中には、カラスやカメレオン、アヒルといったおなじみのキャラクターや動物も登場します。探検で発見したさまざまな展示物や装飾品は博物館に持ち帰ることができます。猫の足跡を追いかけている間、「Kitten City」はあなたのすべてです。"
+    },
+    "en": {
+     "title": "\"Two Point Museum\" x \"Kitten City\" collaboration content has been released",
+     "summary": "Sega announced that the fantastic museum management simulation game \"Two Point Museum\" developed by Double Point Studio has now launched a linkage content with the casual adventure game \"Kitten City\" produced by Double Dagger Studio. The linked content has been launched on PlayStation 5, XBOX Series X|S, Nintendo Switch 2 and PC (Steam) platforms. <For embedded content, please go to the machine core to view> \"Kitten City\" linkage introduction This linkage will be \"Kitty City\" as the stage. Players can explore the city while looking for kittens and experience a new adventure. During the adventure, familiar characters and animals such as crows, chameleons, and ducks will also appear. Various displays and decorations discovered through expeditions can be brought back to the museum. While chasing the cat's trail, \"Kitten City\" is all about you."
+    }
+   }
+  },
+  {
+   "id": "c00ba20cca6f",
+   "title": "『Moonlighter』開発元による新作『ReVamp』、公開プレイテストが急遽“Discordでの限定開催”へと変更に。相次ぐ“AI模倣”のリスクから",
+   "url": "https://automaton-media.com/articles/newsjp/20261020-474377/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-10-20T08:36:15+08:00",
+   "summary": "Digital Sunは10月19日、開発中の『ReVamp』について、10月29日から開始を予定していた公開プレイテストを取りやめることを発表した。",
+   "i18n": {
+    "zh": {
+     "title": "《Moonlighter》开发商的新游戏《ReVamp》公开测试突然改为“仅在Discord上举行”。来自连续“AI模仿”的风险",
+     "summary": "Digital Sun 于 10 月 19 日宣布取消原定于 10 月 29 日开始的目前正在开发的《ReVamp》公开测试。"
+    },
+    "en": {
+     "title": "The public playtest of the new game ``ReVamp'' by the developer of ``Moonlighter'' has suddenly been changed to ``only held on Discord.'' From the risk of successive “AI imitations”",
+     "summary": "Digital Sun announced on October 19th that it has canceled the public playtest scheduled to begin on October 29th for ``ReVamp'', which is currently in development."
+    }
+   }
+  },
+  {
+   "id": "ebf28c8827a5",
+   "title": "『ウマ娘』開催迫る海外ライブ、現時点でビザ承認が下りずー10月20日14時までに最終可否の判断",
+   "url": "https://animeanime.jp/article/2026/10/20/103997.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-10-20T08:30:02+08:00",
+   "summary": "最終の開催可否判断は、日本時間10月20日14時までにお知らせとなります。",
+   "i18n": {
+    "zh": {
+     "title": "《乌玛娘》即将进行的海外演唱会，目前签证尚未获批。最终决定将于10月20日下午2:00前做出",
+     "summary": "是否举办活动的最终决定将于日本时间10月20日下午2:00前公布。"
+    },
+    "en": {
+     "title": "\"Uma Musume\"'s upcoming overseas concert, visa approval has not been granted at this time, final decision will be made by 2:00 pm on October 20th",
+     "summary": "The final decision on whether or not to hold the event will be announced by 2:00 pm on October 20th Japan time."
+    }
+   }
+  },
+  {
+   "id": "29c2761a838c",
+   "title": "「ガンダムヘッド」めじるしアクセサリー第2弾！ゴッドガンダム、ウイングゼロら全6機の頭部がアイコンに",
+   "url": "https://animeanime.jp/article/2026/10/20/103996.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-10-20T08:00:04+08:00",
+   "summary": "ガシャポン「機動戦士ガンダム ガンダムヘッド めじるしアクセサリー2」が2026年10月第4週に発売！",
+   "i18n": {
+    "zh": {
+     "title": "「高达头」目印配件第2弹！神高达、飞翼零式等6机头部全部成为偶像",
+     "summary": "扭蛋“机动战士高达 高达头目印配件2”将于2026年10月第4周发售！"
+    },
+    "en": {
+     "title": "“Gundam Head” Mejirushi Accessory 2nd edition! The heads of all 6 machines including God Gundam and Wing Zero become icons",
+     "summary": "Gashapon “Mobile Suit Gundam Gundam Head Mejirushi Accessory 2” will be released in the 4th week of October 2026!"
+    }
+   }
+  },
+  {
+   "id": "6a3ba9122c88",
+   "title": "水没世界波乗りハクスラアクション『Surfpunk』体験版が大幅進化。最大4人プレイ対応、陽気すぎる暴力略奪サーフィン",
+   "url": "https://automaton-media.com/articles/newsjp/20261020-474368/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-10-20T07:42:05+08:00",
+   "summary": "Double Stallionは10月20日、協力対応ハクスラアクションRPG『Surfpunk』の新体験版を配信した。",
+   "i18n": {
+    "zh": {
+     "title": "水下世界冲浪砍杀动作游戏《Surfpunk》的试玩版已得到显着改进。支持最多4人玩家，爆笑暴力掠夺冲浪",
+     "summary": "10月20日，Double Stallion发布了合作砍杀动作RPG《Surfpunk》的新体验版。"
+    },
+    "en": {
+     "title": "The trial version of the submerged world wave-riding hack and slash action game ``Surfpunk'' has been significantly improved. Supports up to 4 players, hilarious and violent looting surfing",
+     "summary": "On October 20th, Double Stallion released a new trial version of the cooperative hack-and-slash action RPG ``Surfpunk.''"
+    }
+   }
+  },
+  {
+   "id": "9141b3ed053e",
+   "title": "協力対応アライグマ空き巣ゲーム『Dumpster Gang』日本語対応で12月4日配信へ。イタズラ・盗み・暴力、人間なめすぎ害獣マルチ",
+   "url": "https://automaton-media.com/articles/newsjp/20261020-474360/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-10-20T07:13:57+08:00",
+   "summary": "Curve Gamesは10月19日、アライグマ泥棒サンドボックスゲーム『Dumpster Gang』を12月3日に配信すると発表した。",
+   "i18n": {
+    "zh": {
+     "title": "合作兼容的浣熊盗窃游戏《垃圾箱帮》将于 12 月 4 日在日本支持下发布。恶作剧、盗窃、暴力、害虫多人游戏过于照顾人类",
+     "summary": "Curve Games 10 月 19 日宣布，浣熊小偷沙盒游戏《Dumpster Gang》将于 12 月 3 日发售。"
+    },
+    "en": {
+     "title": "Cooperation compatible raccoon burglary game ``Dumpster Gang'' will be released on December 4th with Japanese support. Mischief, theft, violence, pest multiplayer that takes too much care of humans",
+     "summary": "Curve Games announced on October 19th that the raccoon thief sandbox game Dumpster Gang will be released on December 3rd."
     }
    }
   },
@@ -2258,7 +2588,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-20T00:40:17+08:00",
+   "published": "2026-10-20T08:55:25+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2277,7 +2607,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-20T00:40:17+08:00",
+   "published": "2026-10-20T08:55:25+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2296,7 +2626,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-20T00:40:17+08:00",
+   "published": "2026-10-20T08:55:25+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2315,7 +2645,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-20T00:40:17+08:00",
+   "published": "2026-10-20T08:55:25+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2334,7 +2664,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-20T00:40:17+08:00",
+   "published": "2026-10-20T08:55:25+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2353,7 +2683,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-20T00:40:17+08:00",
+   "published": "2026-10-20T08:55:25+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2372,7 +2702,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-20T00:40:17+08:00",
+   "published": "2026-10-20T08:55:25+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2391,7 +2721,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-20T00:40:17+08:00",
+   "published": "2026-10-20T08:55:25+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2410,7 +2740,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-20T00:40:17+08:00",
+   "published": "2026-10-20T08:55:25+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2429,7 +2759,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-10-20T00:40:17+08:00",
+   "published": "2026-10-20T08:55:25+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2441,25 +2771,6 @@
    }
   },
   {
-   "id": "4c3b1ae04314",
-   "title": "【今日放送 20:30】どうも、好きな人に惚れ薬を依頼された魔女です。 第3集",
-   "url": "https://anilist.co/anime/207191",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-20T00:40:16+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日20:30播出】大家好，我是一名女巫，被要求给喜欢的人一瓶爱情药水。第三卷"
-    },
-    "en": {
-     "title": "[Broadcast today 20:30] Hello, I'm a witch who was asked to give a love potion to the person I like. Volume 3"
-    }
-   }
-  },
-  {
    "id": "96a6d9b4f2e2",
    "title": "【今日放送 21:00】転生ゴブリンだけど質問ある？ 第4集",
    "url": "https://anilist.co/anime/209219",
@@ -2467,7 +2778,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-20T00:40:16+08:00",
+   "published": "2026-10-20T08:55:24+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2486,7 +2797,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-20T00:40:16+08:00",
+   "published": "2026-10-20T08:55:24+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2505,7 +2816,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-20T00:40:16+08:00",
+   "published": "2026-10-20T08:55:24+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2524,7 +2835,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-20T00:40:16+08:00",
+   "published": "2026-10-20T08:55:24+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2543,7 +2854,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-20T00:40:16+08:00",
+   "published": "2026-10-20T08:55:24+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2562,7 +2873,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-10-20T00:40:16+08:00",
+   "published": "2026-10-20T08:55:24+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2574,338 +2885,124 @@
    }
   },
   {
-   "id": "60c32ca96bed",
-   "title": "“圧倒的に好評”デモ版のメトロイドヴァニア『Iron Bramble』ユーザー要望に応えたデモ版の最終アップデート配信―これからは製品版の開発に注力",
-   "url": "http://www.gamespark.jp/article/2026/10/20/173815.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-20T00:00:03+08:00",
-   "summary": "好評率なんと99％！デモ版の最終アップデートが配信",
-   "i18n": {
-    "zh": {
-     "title": "“超高人气”银河恶魔城“铁荆棘”试玩版应用户要求发布试玩版最终更新 - 今后我们将专注于产品版的开发",
-     "summary": "人气高达99%！演示版最终更新发布"
-    },
-    "en": {
-     "title": "“Overwhelmingly popular” demo version of Metroidvania “Iron Bramble” Final update of demo version released in response to user requests - From now on we will focus on developing the product version",
-     "summary": "The popularity rate is 99%! Final update of demo version released"
-    }
-   }
-  },
-  {
-   "id": "3377e0265e3b",
-   "title": "超リアルな車体ぺちゃんこ物理演算の車シム『BeamNG.drive』PS5版リリース",
-   "url": "http://www.gamespark.jp/article/2026/10/20/173814.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-19T23:30:03+08:00",
-   "summary": "リリーストレイラーも公開",
-   "i18n": {
-    "zh": {
-     "title": "PS5版《BeamNG.drive》发布，一款具有超真实扁平化物理计算的汽车模拟游戏",
-     "summary": "预告片也已发布"
-    },
-    "en": {
-     "title": "PS5 version of “BeamNG.drive”, a car sim with ultra-realistic flattened physics calculations, released",
-     "summary": "Release trailer also released"
-    }
-   }
-  },
-  {
-   "id": "c0724b65c56e",
-   "title": "団地妻の霊をケツ叩きで鎮める『スパンキング除霊師』R18なミュージックビデオ公開",
-   "url": "http://www.gamespark.jp/article/2026/10/20/173813.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-19T23:06:41+08:00",
-   "summary": "ゲーム開発者も感動！実写で構成されたMVが公開",
-   "i18n": {
-    "zh": {
-     "title": "《打屁股驱魔人》R18音乐录影带发布，用打屁股平息住宅区妻子的鬼魂",
-     "summary": "就连游戏开发者也被感动了！由实景镜头组成的MV发布"
-    },
-    "en": {
-     "title": "R18 music video released for “Spanking Exorcist” who quells the ghost of a housing complex wife with a spanking",
-     "summary": "Even the game developers were impressed! MV composed of live-action footage released"
-    }
-   }
-  },
-  {
-   "id": "2dbbe5674b75",
-   "title": "“なでなで”や“高い高い”もできる！ケモノ娘が愛おしい、サバイバル子育てシム『Family Time』無料デモ版公開",
-   "url": "http://www.gamespark.jp/article/2026/10/19/173812.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-19T22:45:03+08:00",
-   "summary": "ウィッシュリスト数70万のパパ奮闘シミュレーション",
-   "i18n": {
-    "zh": {
-     "title": "还可以“拍拍”“高高”！ 《Family Time》免费试玩版，这是一款以毛茸茸的可爱女孩为主角的生存育儿模拟游戏",
-     "summary": "爸爸与 700,000 个愿望清单进行斗争模拟"
-    },
-    "en": {
-     "title": "You can also “pat” and “high high”! Free demo version of “Family Time”, a survival parenting sim with adorable furry girls released",
-     "summary": "Dad struggle simulation with 700,000 wishlists"
-    }
-   }
-  },
-  {
-   "id": "94530f1c03ca",
-   "title": "弾幕アクション『SAROS』無料アップデート「Zenith」配信―ゲーム速度低化やオート射撃、クリア後のエンドコンテンツで初心者から熟練者まで遊びの幅が拡大",
-   "url": "http://www.gamespark.jp/article/2026/10/19/173811.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-19T22:19:18+08:00",
-   "summary": "『SAROS』の無料アップデート「SAROS: Zenith」では、難易度調整システム「カルコサ・モディファイア」に計20種類の新項目が追加されました。",
-   "i18n": {
-    "zh": {
-     "title": "弹幕射击动作游戏《SAROS》免费更新《Zenith》发布 - 游戏减速、自动射击、通关后结束内容扩大了从初学者到专家的游戏范围",
-     "summary": "在 SAROS 免费更新 SAROS: Zenith 中，难度调整系统 Carcosa Modifier 中总共添加了 20 个新项目。"
-    },
-    "en": {
-     "title": "Bullet hell action game \"SAROS\" free update \"Zenith\" released - Game speed reduction, auto-shooting, and end content after clearing expand the range of play for beginners to experts",
-     "summary": "In the free update for SAROS, SAROS: Zenith, a total of 20 new items have been added to the difficulty adjustment system, Carcosa Modifier."
-    }
-   }
-  },
-  {
-   "id": "19f30234f43d",
-   "title": "スクウェア・エニックス、『ドラクエX』でも「不正アクセスとアカウント管理に関するご注意」掲載。『FF14』に注意喚起",
-   "url": "http://www.gamespark.jp/article/2026/10/19/173810.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-19T21:52:01+08:00",
-   "summary": "『FF14』サイトでも注意喚起が行われていました。",
-   "i18n": {
-    "zh": {
-     "title": "Square Enix 还针对《勇者斗恶龙 X》发布了“有关未经授权的访问和帐户管理的警告”，呼吁关注“FF14”",
-     "summary": "FF14网站上也发出了警告。"
-    },
-    "en": {
-     "title": "Square Enix has also posted a ``Caution regarding unauthorized access and account management'' for Dragon Quest X. Calling attention to “FF14”",
-     "summary": "A warning was also issued on the FF14 website."
-    }
-   }
-  },
-  {
-   "id": "e50f96739d09",
-   "title": "人類の自由のため、キャラを成長させながら戦う“非常に好評”なTPSが正式リリース！神格化されたAIに反逆せよ―採れたて！本日のSteam注目ゲーム15選【2026年10月19日】",
-   "url": "http://www.gamespark.jp/article/2026/10/19/173809.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-19T21:30:03+08:00",
-   "summary": "惑星の各地を舞台に、30種類のさまざまなミッションに挑戦します。",
-   "i18n": {
-    "zh": {
-     "title": "在成长角色的同时，为人类的自由而战的“超人气”TPS正式发布！反抗神化AI——新鲜收获！今日 Steam 上的 15 款精选游戏 [2026 年 10 月 19 日]",
-     "summary": "挑战设置在地球不同地区的 30 个不同任务。"
-    },
-    "en": {
-     "title": "The “very popular” TPS where you fight for the freedom of humanity while growing your character is officially released! Rebell against the deified AI - freshly harvested! Today's 15 featured games on Steam [October 19, 2026]",
-     "summary": "Challenge 30 different missions set in various parts of the planet."
-    }
-   }
-  },
-  {
-   "id": "5510fcb57a84",
-   "title": "大注目の大規模ミリタリーFPS『WARDOGS』モバイル向けの偽物がやっぱり登場―10万ダウンロードに達する物も",
-   "url": "http://www.gamespark.jp/article/2026/10/19/173808.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-19T21:15:02+08:00",
-   "summary": "オリジナルの開発元CEOも「痛ましくも面白い」とコメントしています。",
-   "i18n": {
-    "zh": {
-     "title": "流行的大型军事第一人称射击游戏《WARDOGS》的盗版手机版终于出现了，部分下载量已达到 10 万次",
-     "summary": "原开发商的首席执行官也评论道：“这既痛苦又有趣。”"
-    },
-    "en": {
-     "title": "A fake version of the popular large-scale military FPS \"WARDOGS\" for mobile has finally appeared - some have reached 100,000 downloads",
-     "summary": "The CEO of the original developer also commented, ``It's both painful and funny.''"
-    }
-   }
-  },
-  {
-   "id": "45c364843323",
-   "title": "\"後追い\"が\"クローン\"におかんむり…！？干し草ゲームの模倣作品、別の模倣作にコード盗用主張―同じファイル名、同じエラーメッセージ",
-   "url": "http://www.gamespark.jp/article/2026/10/19/173807.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-19T20:15:02+08:00",
-   "summary": "AIという強力なツールの台頭も含め、ゲームの公開や制作、情報管理の在り方が大きな転換点を迎えています",
-   "i18n": {
-    "zh": {
-     "title": "“跟随”输给了“克隆”……！ ？ Hay 游戏山寨者声称代码抄袭了另一个副本 - 相同的文件名，相同的错误消息",
-     "summary": "游戏的发布、制作和信息管理方式正处于一个重大转折点，其中包括一种名为人工智能的强大工具的兴起。"
-    },
-    "en": {
-     "title": "\"Following\" is lost to \"clone\"...! ? Hay game copycat claims code plagiarism from another copy - same file name, same error message",
-     "summary": "The way games are published, produced, and information managed is at a major turning point, including the rise of a powerful tool called AI."
-    }
-   }
-  },
-  {
-   "id": "b4aa96ac8852",
-   "title": "『CoD: MW4』日本版に表現規制…具体的な残虐描写スキップに民間人の射殺不可。「欠損表現と流血表現」のオプションなし",
-   "url": "http://www.gamespark.jp/article/2026/10/19/173806.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-19T20:00:03+08:00",
-   "summary": "チャプター3の描写に関するネタバレが含まれています。閲覧にはご注意ください。",
-   "i18n": {
-    "zh": {
-     "title": "日版《CoD：MW4》中的表达限制...跳过对暴行的具体描述并禁止射击平民。没有“有缺陷和血腥的表达”的选项",
-     "summary": "第3章的描写有剧透，请谨慎观看。"
-    },
-    "en": {
-     "title": "Expression restrictions in the Japanese version of ``CoD: MW4''... Skip specific depictions of brutality and prohibit shooting of civilians. No option for “defective and bloody expression”",
-     "summary": "Contains spoilers regarding the depiction of Chapter 3. Please be careful when viewing."
-    }
-   }
-  },
-  {
-   "id": "e821eb3bf7af",
-   "title": "クローン美少女の体調管理も重要なTPS『宇宙人ハルオ君』Steamストア公開。食べ過ぎると嘔吐。でも腹が減っては走れない",
-   "url": "http://www.gamespark.jp/article/2026/10/19/173805.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-19T19:45:03+08:00",
-   "summary": "死亡からの復帰は“再生産”という扱いに。死亡回数が重なるごとに、能力も衰退していきます。",
-   "i18n": {
-    "zh": {
-     "title": "以克隆美少女的身体状况为重点的TPS《异形春夫君》现已在Steam商店上架。如果吃太多，就会呕吐。但如果我饿了就跑不了",
-     "summary": "死而复生被视为“再生”。随着死亡人数的增加，你的能力也会下降。"
-    },
-    "en": {
-     "title": "TPS \"Alien Haruo-kun\", in which the physical condition of a cloned beautiful girl is important, is now available on the Steam store. If you eat too much, you will vomit. But I can't run if I'm hungry",
-     "summary": "Returning from death is treated as “reproduction.” As the number of deaths increases, your abilities will decline."
-    }
-   }
-  },
-  {
-   "id": "c287b1e2c565",
-   "title": "集合写真のまばたきチェックにハシゴ登り…SCRAPの謎解き作家がおくる奇妙な無料の短編ホラーが大反響。告知投稿1,000万表示超えの作品も",
-   "url": "http://www.gamespark.jp/article/2026/10/19/173804.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-19T19:30:03+08:00",
-   "summary": "『まばたきチェック』『ハシゴ』などの作品を短いスパンで続々投稿。万バズも連発しています。",
-   "i18n": {
-    "zh": {
-     "title": "爬上梯子看看合影中的眨眼……《SCRAP》解谜作家的一个奇怪的免费短篇恐怖故事大受欢迎。部分作品发布浏览量过千万",
-     "summary": "他在短时间内接连发布了《Blink Check》、《Ladder》等作品。还有一百万个嗡嗡声。"
-    },
-    "en": {
-     "title": "Climb the ladder to check the blinking in the group photo... A strange free short horror story from the mystery-solving author of SCRAP has been a big hit. Some works have been posted with over 10 million views",
-     "summary": "He has posted works such as ``Blink Check'' and ``Ladder'' one after another in a short span of time. There are also a million buzzes."
-    }
-   }
-  },
-  {
-   "id": "7c0a1c158e56",
-   "title": "映画「バイオハザード」のゲーム化を試みる海外ファン現る。ゲームから映画に、そしてもう一度ゲームに",
-   "url": "http://www.gamespark.jp/article/2026/10/19/173803.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-19T19:15:02+08:00",
-   "summary": "ローポリゴンなグラフィックと固定カメラで再現。",
-   "i18n": {
-    "zh": {
-     "title": "海外粉丝似乎试图将电影《生化危机》制作成游戏。从游戏到电影，再回到游戏",
-     "summary": "用低多边形图形和固定相机再现。"
-    },
-    "en": {
-     "title": "Overseas fans appear trying to make the movie ``Resident Evil'' into a game. From games to movies and back to games",
-     "summary": "Reproduced with low polygon graphics and fixed camera."
-    }
-   }
-  },
-  {
-   "id": "93f845d77cd6",
-   "title": "【漫画じゃんげま】543.「わくわく！球捜させ☆」の巻",
-   "url": "http://www.gamespark.jp/article/2026/10/19/173802.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-19T19:00:03+08:00",
-   "summary": "シューター女子のちょっぴりコミカルでドタバタでだらだらフレンドリーファイアな日常を描いた、Game*Sparkオリジナルの4コマ連載漫画『じゃんげま』。個性的なタイトルが次々に出るインディーゲーム界隈。えいむが最近ひときわ気になったゲームをオススメしたいと言い出して……？",
-   "i18n": {
-    "zh": {
-     "title": "[漫画Jangema]543.《好兴奋！来找球吧☆》卷",
-     "summary": "Game*Spark 的原创四格漫画《Jangema》描绘了一位女射手略显滑稽、闹腾和误伤的生活。独立游戏世界充满了一个又一个独特的游戏。英梦说她想推荐一款最近引起她注意的游戏……？"
-    },
-    "en": {
-     "title": "[Manga Jangema] 543. \"Exciting! Let's search for balls ☆\" volume",
-     "summary": "Game*Spark's original 4-panel manga series ``Jangema'' depicts the slightly comical, slapstick, and friendly fire life of a female shooter. The indie game world is full of unique titles coming out one after another. Eimu wants to recommend a game that has caught his attention recently...?"
-    }
-   }
-  },
-  {
-   "id": "9266f04ac7aa",
-   "title": "『MGS2』が予見した未来に、『デススト』が未プレイの人から「ウォーキングシム」と言われる話も―小島監督と映画「DIGGER／ディガー」監督との対談が公開",
-   "url": "http://www.gamespark.jp/article/2026/10/19/173801.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-10-19T18:45:03+08:00",
-   "summary": "『DEATH STRANDING』や『MGS2』の話も飛び出した、映画「DIGGER／ディガー」監督と小島監督の対談動画が公開。",
-   "i18n": {
-    "zh": {
-     "title": "在《MGS2》预测的未来中，有一个故事，《死亡打击》被没玩过的人称为“行走的模拟游戏”——小岛导演与电影《DIGGER》导演的对话公开",
-     "summary": "电影《DIGGER》导演与小岛导演的对话视频已公开，其中还包括《死亡搁浅》和《MGS2》的对话。"
-    },
-    "en": {
-     "title": "In the future predicted by \"MGS2\", there is a story that \"Death Strike\" is called a \"walking sim\" by people who have not played it - A conversation between director Kojima and the director of the movie \"DIGGER\" is released",
-     "summary": "A video of a conversation between the director of the movie ``DIGGER'' and director Kojima, which also includes talk of ``DEATH STRANDING'' and ``MGS2'', has been released."
-    }
-   }
-  },
-  {
-   "id": "9a2539811eb5",
-   "title": "規制が厳しい現代社会に「オトナ」なアニメ表現を届ける気概と工夫を男2人が密室でみっちり語り倒す『ダークサモナーとデキている』『彼女の友達』プロデューサートーク濃密レポート",
-   "url": "https://gigazine.net/news/20261019-darksummoner-kanojo-no-tomodachi-machiasobi31/",
-   "source": "GIGAZINE",
+   "id": "8dca0045620b",
+   "title": "【今日放送 15:05】サイバーパンク: エッジランナーズ2 第1集",
+   "url": "https://anilist.co/anime/195539",
+   "source": "AniList 放送表",
    "category": "anime",
    "lang": "ja",
-   "weight": 5,
-   "published": "2026-10-19T22:30:00+08:00",
-   "summary": "刺激的でちょっと大人向けな作品に特化したアニメーションレーベル「Deregula(デレギュラ)」を製作する株式会社ウェイブのアニメーション部統括である後藤礼雅さんとフリーアナウンサーの吉田尚記さんが、2026年10月から放送されているデレギュラ枠のテレビアニメ『ダークサモナーとデキている』と『彼女の友達』について語るイベントがマチ★アソビ vol.31で開催されました。かなり過激でアダルトな内容が含まれる両作品について、1時間にわたってufotableCINEMAの密室で高濃度かつ高密度で繰り広げられたトークをがっつりまとめてみました。続きを読む...",
+   "weight": 6,
+   "published": "2026-10-20T08:55:24+08:00",
+   "summary": "",
    "i18n": {
     "zh": {
-     "title": "关于制作人谈论《黑暗召唤师与 Dekiiteru》和《Kojo no Tomo》的深度报道，其中两个人闭门谈论他们的精神和聪明才智，将“成人”动漫表达带入当今高度管制的社会。",
-     "summary": "在Machi★Asobi vol.31举办了一场活动，其中制作专门从事刺激性和成人倾向的动画标签“Deregula”的Wave Co., Ltd.动画部门负责人后藤丽马和自由播音员吉田直树谈论了将于2026年10月开始播放的Deregula框架中的电视动画“黑暗召唤师和Dekiiteru”和“女朋友的朋友”。总结了在ufotable CINEMA的一个封闭房间里，针对这两部作品进行了一个小时的高度集中和密集的谈话，其中包含相当极端和成人的内容。阅读更多..."
+     "title": "【今日15:05播出】赛博朋克：Edge Runners 2 第1卷"
     },
     "en": {
-     "title": "An in-depth report on the producer talks of “Dark Summoner and Dekiiteru” and “Kojo no Tomo” where two men talk behind closed doors about their spirit and ingenuity to bring “adult” anime expression to today’s highly regulated society.",
-     "summary": "An event was held at Machi★Asobi vol.31 in which Reima Goto, head of the animation department of Wave Co., Ltd., which produces the animation label \"Deregula,\" which specializes in stimulating and somewhat adult-oriented works, and freelance announcer Naoki Yoshida talked about the TV anime \"Dark Summoner and Dekiiteru\" and \"Girlfriend's Friend\" in the Deregula frame, which will be broadcast from October 2026. We have summarized the highly concentrated and dense talk that took place in a closed room at ufotable CINEMA for an hour regarding both works, which contain quite extreme and adult content. read more..."
+     "title": "[Broadcast today 15:05] Cyberpunk: Edge Runners 2 Volume 1"
+    }
+   }
+  },
+  {
+   "id": "08b660a4a70a",
+   "title": "【今日放送 20:26】凶乱令嬢ニア・リストン 第3集",
+   "url": "https://anilist.co/anime/206949",
+   "source": "AniList 放送表",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-10-20T08:55:24+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "【今日20:26播出】烈女妮娅·利斯顿第3卷"
+    },
+    "en": {
+     "title": "[Broadcast today 20:26] Fierce Lady Nia Liston Volume 3"
+    }
+   }
+  },
+  {
+   "id": "cc185175b07b",
+   "title": "旧ソ連圏舞台の『Half-Life』トータルコンバージョンMod「IONIZATION」早期アクセス2.0がリリース！",
+   "url": "http://www.gamespark.jp/article/2026/10/20/173819.html",
+   "source": "Game*Spark",
+   "category": "game",
+   "lang": "ja",
+   "weight": 6,
+   "published": "2026-10-20T06:00:03+08:00",
+   "summary": "特殊任務エージェントとなり、旧ソ連圏の遠隔地で発生した不可解な事件を調査することとなります。",
+   "i18n": {
+    "zh": {
+     "title": "以前苏联为背景的《半条命》全转换模组《IONIZATION》抢先体验2.0已发布！",
+     "summary": "作为一名特殊任务特工，你将调查发生在前苏联偏远地区的神秘事件。"
+    },
+    "en": {
+     "title": "Early access 2.0 of “IONIZATION”, a total conversion mod for “Half-Life” set in the former Soviet Union, has been released!",
+     "summary": "As a special mission agent, you will investigate mysterious incidents that occur in remote areas of the former Soviet Union."
+    }
+   }
+  },
+  {
+   "id": "5bd7fcfa4381",
+   "title": "コンビニのおにぎり1個に払える金額は？GIGAZINE読者から圧倒的支持を集める3大コンビニは？",
+   "url": "https://gigazine.net/news/20261020-gigazine-convenience-store-rice-ball/",
+   "source": "GIGAZINE",
+   "category": "general",
+   "lang": "ja",
+   "weight": 5,
+   "published": "2026-10-20T08:00:00+08:00",
+   "summary": "総務省統計局によると、2021年9月から60カ月連続で消費者物価指数(CPI)は上昇し続けています。物価が上がり続ける日本において、「コンビニのおにぎり1個当たり、いくらまで許せるか？」を、GIGAZINE読者に聞いてみました。続きを読む...",
+   "i18n": {
+    "zh": {
+     "title": "在便利店买一个饭团多少钱？受到GIGAZINE读者热烈支持的三大便利店是哪几家？",
+     "summary": "根据总务省统计局的数据，自2021年9月以来，消费者价格指数（CPI）连续60个月持续上涨。在物价持续上涨的日本，我们向GIGAZINE读者询问“你在便利店买一个饭团能花多少钱？”阅读更多..."
+    },
+    "en": {
+     "title": "How much can you pay for one rice ball at a convenience store? What are the three major convenience stores that receive overwhelming support from GIGAZINE readers?",
+     "summary": "According to the Statistics Bureau of the Ministry of Internal Affairs and Communications, the Consumer Price Index (CPI) has continued to rise for 60 consecutive months since September 2021. In Japan, where prices continue to rise, we asked GIGAZINE readers, ``How much can you afford for one rice ball at a convenience store?'' read more..."
+    }
+   }
+  },
+  {
+   "id": "3b9c981f29d3",
+   "title": "イギリスとアメリカをつないでいた極秘ホットラインプロジェクト「SIGSALY」とは？",
+   "url": "https://gigazine.net/news/20261020-sigsaly/",
+   "source": "GIGAZINE",
+   "category": "general",
+   "lang": "ja",
+   "weight": 5,
+   "published": "2026-10-20T06:00:00+08:00",
+   "summary": "第二次世界大戦時、アメリカとイギリスは敵国に通信を傍受される心配のない、極秘ホットラインの「SIGSALY」を運用していました。このSIGSALYについて、イギリスの国立博物館組織である帝国戦争博物館が解説しています。続きを読む...",
+   "i18n": {
+    "zh": {
+     "title": "连接英美的秘密热线项目“SIGSALY”到底是什么？",
+     "summary": "第二次世界大战期间，美国和英国运营了一条名为“SIGSALY”的绝密热线，不必担心他们的通讯被敌国拦截。这个 SIGSALY 由英国国家博物馆组织帝国战争博物馆解释。阅读更多..."
+    },
+    "en": {
+     "title": "What is the secret hotline project \"SIGSALY\" that connected Britain and America?",
+     "summary": "During World War II, the United States and Britain operated a top-secret hotline called ``SIGSALY'' that did not have to worry about their communications being intercepted by enemy countries. This SIGSALY is explained by the Imperial War Museum, the British national museum organization. read more..."
+    }
+   }
+  },
+  {
+   "id": "716fd2158965",
+   "title": "CSSでテーマ設定を行いMermaidダイアグラムをSVGとしてレンダリングする軽量なオープンソースライブラリ「Pele」をObsidianの作者kepanoがリリース",
+   "url": "https://gigazine.net/news/20261020-pele/",
+   "source": "GIGAZINE",
+   "category": "general",
+   "lang": "ja",
+   "weight": 5,
+   "published": "2026-10-20T05:00:00+08:00",
+   "summary": "PeleはMermaid記法で記述された図をSVG形式にレンダリングするための軽量なオープンソースライブラリです。特徴の一つにCSS変数ベースのテーマ機能があり、図の見た目を簡単にカスタマイズできます。続きを読む...",
+   "i18n": {
+    "zh": {
+     "title": "Obsidian 的创建者 Kepano 发布了一个轻量级开源库“Pele”，该库使用 CSS 设置主题并将美人鱼图呈现为 SVG",
+     "summary": "Pele 是一个轻量级开源库，用于将以 Mermaid 表示法编写的图表渲染为 SVG 格式。其功能之一是基于 CSS 变量的主题功能，可让您轻松自定义图表的外观。阅读更多..."
+    },
+    "en": {
+     "title": "Kepano, the creator of Obsidian, releases a lightweight open source library ``Pele'' that sets themes with CSS and renders Mermaid diagrams as SVG",
+     "summary": "Pele is a lightweight open source library for rendering diagrams written in Mermaid notation into SVG format. One of its features is a theme function based on CSS variables, which allows you to easily customize the appearance of diagrams. read more..."
     }
    }
   },
@@ -3057,297 +3154,192 @@
    }
   },
   {
-   "id": "358bf82f722a",
-   "title": "2026年10月19日のヘッドラインニュース",
-   "url": "https://gigazine.net/news/20261019-headline/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-10-19T17:32:00+08:00",
-   "summary": "こかむも原作でまんがタイムきららMAXに連載中のマンガ『ぬるめた』が、2027年にTVアニメ化されることが発表されました。監督は五十嵐海、シリーズ構成は髙橋龍也、キャラクターデザインは小笠原真が務め、制作は『上伊那ぼたん、酔へる姿は百合の花』や『mono』を手がけたソワネとなっています。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "2026 年 10 月 19 日头条新闻",
-     "summary": "目前正在Manga Time Kirara MAX连载的以Kokammo原作为基础的漫画《Nurumeta》将于2027年制作成TV动画。导演为五十岚斐，系列构成为高桥龙也，角色设计为小笠原真，制作由曾参与《神伊奈牡丹醉如百合》的Soinet制作。 “单声道。”阅读更多..."
-    },
-    "en": {
-     "title": "Headline news for October 19, 2026",
-     "summary": "It has been announced that the manga ``Nurumeta'', based on Kokammo's original work and currently being serialized in Manga Time Kirara MAX, will be made into a TV anime in 2027. The director is Kai Igarashi, the series composition is by Tatsuya Takahashi, the character design is by Makoto Ogasawara, and the production is by Soinet, who also worked on ``Kamiina Botan, Drunk as a Lily'' and ``mono.'' read more..."
-    }
-   }
-  },
-  {
-   "id": "08b878324be0",
-   "title": "大人の夜にふさわしい味わいのハーゲンダッツ「香るショコラ マール・ド・シャンパーニュ」「薫るナッティキャラメル スモーキー仕立て」を食べてみた",
-   "url": "https://gigazine.net/news/20261019-haagen-dazs-classy-night-chocolat-caramel/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-10-19T16:49:00+08:00",
-   "summary": "ハーゲンダッツの新シリーズ「Classy Night」に、2026年10月20日(火)から「香るショコラ マール・ド・シャンパーニュ」「薫るナッティキャラメル スモーキー仕立て」が期間限定で登場します。大人だからこそ楽しめる深い味わいと口から鼻に抜ける香りの余韻があり、「夜」や「大人」に向けた特別なアイスになっているというハーゲンダッツ2種が編集部に届いたので、一足先に食べてみました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "我尝试了哈根达斯的“香味巧克力梅尔德香槟”和“香味坚果焦糖烟熏裁缝”，它们适合成人的夜晚。",
-     "summary": "自2026年10月20日星期二起，哈根达斯全新系列“优雅之夜”将限时推出“香浓巧克力香槟”和“香浓坚果焦糖烟熏风格”。编辑部收到了两种哈根达斯，味道浓郁，只有成年人才能享受，香气经口鼻萦绕，是“夜间”和“成人”的特殊冰淇淋，所以我先尝试了一下。阅读更多..."
-    },
-    "en": {
-     "title": "I tried Haagen-Dazs' ``Scented Chocolate Merle de Champagne'' and ``Scented Nutty Caramel Smoky Tailor'' which are suitable for an adult night.",
-     "summary": "From Tuesday, October 20, 2026, Haagen-Dazs' new series \"Classy Night\" will feature \"fragrant chocolate mar de champagne\" and \"fragrant nutty caramel smoky style\" for a limited time. The editorial department received two types of Haagen-Dazs that have a deep flavor that only adults can enjoy and a lingering aroma that passes through the mouth and nose, making them special ice creams for ``nighttime'' and ``adults'', so I tried them first. read more..."
-    }
-   }
-  },
-  {
-   "id": "7052ffcc4a01",
-   "title": "漢字に自動でふりがなが付くフォント「Furifont」が登場、フォントを切り替えるだけで読み方を表示可能",
-   "url": "https://gigazine.net/news/20261019-furifont/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-10-19T16:00:00+08:00",
-   "summary": "日本語の漢字に自動でふりがなを表示するフォント「Furifont」が公開されました。特別なプログラムを使って文章を解析する必要はなく、フォントを適用するだけで漢字の上に読み方を表示できるのが特徴です。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "出现了自动在汉字中添加注音假名的字体“Furifont”，只需切换字体即可显示读音",
-     "summary": "Furifont 是一种自动显示日语汉字注音假名的字体，现已发布。不需要使用特殊的程序来分析文本，其特点是只需应用字体即可将读数显示在汉字之上。阅读更多..."
-    },
-    "en": {
-     "title": "A font \"Furifont\" that automatically adds furigana to kanji has appeared, and the reading can be displayed just by switching the font",
-     "summary": "Furifont, a font that automatically displays furigana for Japanese kanji, has been released. There is no need to use a special program to analyze the text, and the feature is that the reading can be displayed on top of the kanji simply by applying a font. read more..."
-    }
-   }
-  },
-  {
-   "id": "30cc93f73c9d",
-   "title": "E Inkがカラー電子ペーパー「Kaleido 4」を発表、色域が前世代の2倍に広がり最大18fpsの動画再生にも対応",
-   "url": "https://gigazine.net/news/20261019-e-ink-kaleido-4/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-10-19T15:40:00+08:00",
-   "summary": "2026年10月15日、E Inkがカラー電子ペーパー「E Ink Kaleido 4」を発表しました。色域や明るさ、コントラストを改善した新世代モデルで、動画再生は最大18fpsに対応しています。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "E Ink推出彩色电子纸“Kaleido 4”，色域较上一代宽一倍，支持高达18fps的视频播放",
-     "summary": "2026年10月15日，E Ink元太科技发布彩色电子纸“E Ink Kaleido 4”。这是新一代型号，改进了色域、亮度和对比度，并支持高达 18fps 的视频播放。阅读更多..."
-    },
-    "en": {
-     "title": "E Ink announces color e-paper \"Kaleido 4\", the color gamut is twice as wide as the previous generation and supports video playback at up to 18fps",
-     "summary": "On October 15, 2026, E Ink announced the color electronic paper \"E Ink Kaleido 4\". This is a new generation model with improved color gamut, brightness, and contrast, and supports video playback at up to 18fps. read more..."
-    }
-   }
-  },
-  {
-   "id": "63332582b464",
-   "title": "7日間バッテリーが持続するスマートウォッチ「Google Fitbit Edge」の見た目はこんな感じ",
-   "url": "https://gigazine.net/news/20261019-google-fitbit-edge-appearance/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-10-19T15:25:00+08:00",
-   "summary": "多機能スマートウォッチ「Google Pixel Watch」と、画面なしウェアラブルデバイス「Google Fitbit Air」の中間を目指して開発されたスマートウォッチ「Google Fitbit Edge」が2026年10月27日に発売されます。一足先にGoogle Fitbit Edgeを借りることができたので、まずは外観を詳しく観察してみました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "这就是具有 7 天电池寿命的 Google Fitbit Edge 智能手表的样子",
-     "summary": "旨在介于多功能智能手表“Google Pixel Watch”和无屏幕可穿戴设备“Google Fitbit Air”之间而开发的智能手表“Google Fitbit Edge”将于2026年10月27日发布。我提前借到了Google Fitbit Edge，所以仔细观察了它的外观。阅读更多..."
-    },
-    "en": {
-     "title": "This is what the Google Fitbit Edge smartwatch with a 7-day battery life looks like",
-     "summary": "The smart watch \"Google Fitbit Edge\", which was developed with the aim of being between the multi-functional smart watch \"Google Pixel Watch\" and the screenless wearable device \"Google Fitbit Air\", will be released on October 27, 2026. I was able to borrow a Google Fitbit Edge ahead of time, so I took a closer look at its appearance. read more..."
-    }
-   }
-  },
-  {
-   "id": "aae553ff1abd",
-   "title": "【漫画更新】Senyuu. 第 160 话「Image」",
-   "url": "https://mangadex.org/chapter/157019fe-cb9f-4039-9acf-aad1c61b1637",
+   "id": "0742c1881d17",
+   "title": "【漫画更新】The Lives of Eccentrics 第 2 话「History's Greatest Hitting Machine! Ty Cobb (Part 2)」",
+   "url": "https://mangadex.org/chapter/24bd1485-40d3-4f37-b8b7-9e3780c07d9e",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-20T00:40:33+08:00",
+   "published": "2026-10-20T08:55:26+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】せんゆう。第160章「イメージ」"
+     "title": "【マンガ更新】奇人たちの生涯 第2章「史上最強のヒッターマシン！タイ・コブ（後編）」"
     },
     "en": {
-     "title": "【Manga Update】Senyuu. Chapter 160 \"Image\""
+     "title": "【Manga Update】The Lives of Eccentrics Chapter 2 \"History's Greatest Hitting Machine! Ty Cobb (Part 2)\""
     }
    }
   },
   {
-   "id": "201a1a3eb161",
-   "title": "【漫画更新】Mimi 第 253 话「Unskippable Ads.」",
-   "url": "https://mangadex.org/chapter/25a3295e-e9e1-423a-99fa-f84245a32ed7",
+   "id": "785fb3c15843",
+   "title": "【漫画更新】The Lives of Eccentrics 第 1 话「History's Greatest Hitting Machine! Ty Cobb (Part 1)」",
+   "url": "https://mangadex.org/chapter/5c57d534-ea1a-4507-a1e5-f56217873ff7",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-20T00:40:33+08:00",
+   "published": "2026-10-20T08:55:26+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】ミミ 第253話「スキップできない広告」。"
+     "title": "【マンガ更新】奇人たちの生涯 第1章「史上最強のヒッターマシン！タイ・コブ（前編）」"
     },
     "en": {
-     "title": "【Manga Update】Mimi Chapter 253 \"Unskippable Ads.\""
+     "title": "【Manga Update】The Lives of Eccentrics Chapter 1 \"History's Greatest Hitting Machine! Ty Cobb (Part 1)\""
     }
    }
   },
   {
-   "id": "7ce02f2cf84c",
-   "title": "【漫画更新】Pink Dead Lock 第 9 话",
-   "url": "https://mangadex.org/chapter/d3b53d9e-868b-46bc-ab61-0392e0a5fb47",
+   "id": "530c7fa83485",
+   "title": "【漫画更新】Otokonoko mo Meidofuku de Kawaiku Natte Idesu ka? 第 1 话",
+   "url": "https://mangadex.org/chapter/4ec6dedf-fe19-4de4-88ca-fa4ee7f4e6db",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-20T00:40:33+08:00",
+   "published": "2026-10-20T08:55:26+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【コミック更新】ピンクデッドロック 第9話"
+     "title": "【マンガ更新】男の娘もメイド服でかわいくていいですか？第1章"
     },
     "en": {
-     "title": "【Comic Update】Pink Dead Lock Chapter 9"
+     "title": "【Manga Update】Otokonoko mo Meidofuku de Kawaiku Natte Idesu ka? Chapter 1"
     }
    }
   },
   {
-   "id": "8b2b2655c551",
-   "title": "【漫画更新】Hakase, Onnanoko ni Naru 第 25 话「The Professor Who Became a Girl, and a Lap Pillow」",
-   "url": "https://mangadex.org/chapter/cd430efd-564f-4097-8bba-c015fe40c80b",
+   "id": "fe35de1ed445",
+   "title": "【漫画更新】Journey to Seek Past Reincarnations 第 175.2 话",
+   "url": "https://mangadex.org/chapter/60c68d3c-dfb7-4a3e-834e-f35feded00f3",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-20T00:40:33+08:00",
+   "published": "2026-10-20T08:55:26+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】ハカセ、オンナノコになる 第25話「女の子になった教授と膝枕」"
+     "title": "【コミック更新】過去転生を探す旅 第175.2章"
     },
     "en": {
-     "title": "【Manga Update】Hakase, Onnanoko ni Naru Chapter 25 \"The Professor Who Became a Girl, and a Lap Pillow\""
+     "title": "【Comic Update】Journey to Seek Past Reincarnations Chapter 175.2"
     }
    }
   },
   {
-   "id": "287871378d37",
-   "title": "【漫画更新】Pink Dead Lock 第 8 话",
-   "url": "https://mangadex.org/chapter/6e8c75a5-6a06-4372-b8ee-b3b10aafabcd",
+   "id": "06cb1d32e93c",
+   "title": "【漫画更新】Auto Skill de Ore dake Chousoku Level Up ~Megami ga Michibiku Taida na Tenseisha no Sakutto Isekai Kouryaku~ 第 11 话",
+   "url": "https://mangadex.org/chapter/cf61e168-47f5-4286-a6a2-eadff932a2a1",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-20T00:40:33+08:00",
+   "published": "2026-10-20T08:55:26+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【コミック更新】ピンクデッドロック 第8話"
+     "title": "【マンガ更新】オートスキルで俺だけ超速レベルアップ ～女神が道連れだった転生者のサクッと異世界旅行～ 第11話"
     },
     "en": {
-     "title": "【Comic Update】Pink Dead Lock Chapter 8"
+     "title": "【Manga Update】Auto Skill de Ore dake Chousoku Level Up ~Megami ga Michibiku Taida na Tenseisha no Sakutto Isekai Kouryaku~ Chapter 11"
     }
    }
   },
   {
-   "id": "dcc9fb219ac2",
-   "title": "【漫画更新】Sugiyuki Kako to Mitai Asu 第 21 话「Kako Sugiyuki and My Clubroom」",
-   "url": "https://mangadex.org/chapter/234d18ff-8761-4ea0-a0c9-951a2ed71111",
+   "id": "27ae8576bfa9",
+   "title": "【漫画更新】Xīngjiǎ Húnjiàng Zhuàn 第 218 话「Fall Guy Avatar No. 1!」",
+   "url": "https://mangadex.org/chapter/30d4b08c-fa91-420d-a5fd-bc4e42189b87",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-20T00:40:33+08:00",
+   "published": "2026-10-20T08:55:26+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】杉行カコとみたい明日 第21話「杉行カコと私の部室」"
+     "title": "【マンガ更新】星家勲章 第218話「フォールガイ アバターNo.1！」"
     },
     "en": {
-     "title": "【Manga Update】Sugiyuki Kako to Mitai Asu Chapter 21 \"Kako Sugiyuki and My Clubroom\""
+     "title": "【Manga Update】Xīngjiǎ Húnjiàng Zhuàn Chapter 218 \"Fall Guy Avatar No. 1!\""
     }
    }
   },
   {
-   "id": "921bb5bf2db2",
-   "title": "【漫画更新】Josou Danshi wa Skirt o Nugitai! 第 30 话「Me and Ice Skating」",
-   "url": "https://mangadex.org/chapter/632ddd14-108b-4530-8492-ba60fb45b971",
+   "id": "19b5a0a22ee0",
+   "title": "【漫画更新】Xīngjiǎ Húnjiàng Zhuàn 第 217 话「The Mystery of the Black Ring」",
+   "url": "https://mangadex.org/chapter/3603e361-bf8d-4c30-9da8-5d0338d0c482",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-20T00:40:33+08:00",
+   "published": "2026-10-20T08:55:26+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】女装男子はスカートを脱ぎたい！第30章「私とアイススケート」"
+     "title": "【コミック更新】星家勲章 第217話「黒い指輪の謎」"
     },
     "en": {
-     "title": "【Manga Update】Josou Danshi wa Skirt o Nugitai! Chapter 30 \"Me and Ice Skating\""
+     "title": "【Comic Update】Xīngjiǎ Húnjiàng Zhuàn Chapter 217 \"The Mystery of the Black Ring\""
     }
    }
   },
   {
-   "id": "4d33fed995de",
-   "title": "【漫画更新】Warikitta Kankei desukara. 第 6 话",
-   "url": "https://mangadex.org/chapter/2a5761a0-6257-460f-b2a4-0d7c34ba228a",
+   "id": "657f940b407d",
+   "title": "【漫画更新】Xīngjiǎ Húnjiàng Zhuàn 第 216 话「The Empire's Past」",
+   "url": "https://mangadex.org/chapter/8b518642-8e78-4ab1-a919-b99366370bd7",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-20T00:40:33+08:00",
+   "published": "2026-10-20T08:55:26+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】わりとカンケイですから。第6章"
+     "title": "【コミック更新】星家勲章 第216話「帝国の過去」"
     },
     "en": {
-     "title": "【Manga Update】Warikitta Kankei desukara. Chapter 6"
+     "title": "【Comic Update】Xīngjiǎ Húnjiàng Zhuàn Chapter 216 \"The Empire's Past\""
     }
    }
   },
   {
-   "id": "5d23f68d8edc",
-   "title": "【漫画更新】Tsuki wa Hitsuji o Kazoenai 第 11 话「Excursion」",
-   "url": "https://mangadex.org/chapter/eb52e139-947d-4958-a0cf-92315f826005",
+   "id": "52eea591eb61",
+   "title": "【漫画更新】Tokusatsu Gagaga 第 37 话「Tips for \"Dirtying\"」",
+   "url": "https://mangadex.org/chapter/cc8142bc-90fa-4b2b-8736-80a23e4b340f",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-20T00:40:33+08:00",
+   "published": "2026-10-20T08:55:26+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】月は羊を描けない 第11話「遠足」"
+     "title": "【マンガ更新】トクサツガガガ 第37話「“汚し”のコツ」"
     },
     "en": {
-     "title": "【Manga Update】Tsuki wa Hitsuji o Kazoenai Chapter 11 \"Excursion\""
+     "title": "【Manga Update】Tokusatsu Gagaga Chapter 37 \"Tips for \"Dirtying\"\""
     }
    }
   },
   {
-   "id": "6d5f3e94d5a3",
-   "title": "【漫画更新】Pink Dead Lock 第 7 话",
-   "url": "https://mangadex.org/chapter/56abd26b-e087-4b8a-bb19-10df037a75a3",
+   "id": "16f44ed6917c",
+   "title": "【漫画更新】The Girl Who's Bad at Expressing Herself 第 9 话",
+   "url": "https://mangadex.org/chapter/b8d74def-7ad9-4855-b022-ca226a2fb4d8",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-10-20T00:40:33+08:00",
+   "published": "2026-10-20T08:55:26+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【コミック更新】ピンクデッドロック 第7話"
+     "title": "【コミック更新】自分を表現するのが苦手な女の子 第9話"
     },
     "en": {
-     "title": "【Comic Update】Pink Dead Lock Chapter 7"
+     "title": "【Comic Update】The Girl Who's Bad at Expressing Herself Chapter 9"
     }
    }
   }
