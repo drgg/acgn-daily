@@ -1,0 +1,41 @@
+# ACGN 日報
+
+> 每日自动聚合动画、漫画、游戏、轻小说资讯的静态站。只收标题、链接、出处和不超过 300 字的摘要，点击回原站阅读。
+
+每天北京时间 6:00 和 18:00 各更新一次。下列文件都是静态 JSON / XML，匿名可读，不需要 API Key。
+
+## 数据
+
+- [今日数据](https://drgg.github.io/acgn-daily/data/latest.json): 当天全部条目，字段见下节
+- [往期索引](https://drgg.github.io/acgn-daily/data/archive_index.json): 有归档的日期列表（新到旧），保留最近 90 天
+- [某日归档](https://drgg.github.io/acgn-daily/data/archive/2026-10-29.json): 与今日数据同结构，把日期换成往期索引里的任一天
+- [RSS](https://drgg.github.io/acgn-daily/feed.xml): 最新 50 条，同一事件只出代表条目
+
+## 字段
+
+- `items[]`: `id`（标题指纹）、`title`、`url`（原文）、`source`、`category`、`lang`（zh/ja/en）、`published`（ISO 8601，北京时间）、`summary`
+- `items[].category`: anime 动画 / comic 漫画 / game 游戏 / novel 轻小说 / general 综合
+- `items[].i18n`: 机器翻译的标题和摘要，键为目标语言；仅供参考，引用时以原文为准
+- `items[].story`: 多家来源报道同一事件时出现在代表条目上：`sources` 独立来源数，`heat` 热度（每个来源只算一次，按发布时间以 24 小时半衰期衰减后相加），`members` 同组其他条目的 id
+- `items[].dup_of`: 该条目已并入某事件，值为代表条目的 id；列新闻时通常跳过
+- `categories`: 各领域条数（不含 dup_of 条目）；`stories`: 多源事件组数；`sources`: 每个源本次的抓取健康状况
+
+## 信息源
+
+- Anime News Network（en，anime）
+- アニメ！アニメ！（ja，anime）
+- 4Gamer 総合（ja，game）
+- AUTOMATON（ja，game）
+- Game*Spark（ja，game）
+- 机核 GCORES（zh，game）
+- 触乐（zh，game）
+- ラノベニュースオンライン（ja，novel）
+- GIGAZINE（ja，general）
+- anilist_airing（结构化 API，anime）
+- jikan_season_now（结构化 API，anime）
+- bangumi_calendar（结构化 API，anime）
+- mangadex_latest（结构化 API，comic）
+
+## 使用约定
+
+转述或引用时请注明原始出处并链接原文；不要转载全文或搬运图片。商用或扩大抓取前请先看各源的服务条款。
