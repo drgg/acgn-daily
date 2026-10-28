@@ -5,15 +5,16 @@ ACGN 每日资讯聚合器
 ==================
 每日由 GitHub Actions 定时运行：
   1. 读取 feeds.yml 中的 RSS 源与结构化 API 适配器
-  2. 并发抓取 → 规范化 → 关键词分类 → 标题指纹去重 → 打分排序
-  3. 输出 data/latest.json（前端读取）、data/archive/YYYY-MM-DD.json（历史归档）
-     与 feed.xml（对外 RSS 输出，让别人也能订阅本站）
+  2. 并发抓取 → 规范化 → 关键词分类 → 标题指纹去重 → 打分排序 → 机翻 → 同题归并
+  3. 输出 data/latest.json（前端读取）、data/archive/YYYY-MM-DD.json（历史归档）、
+     feed.xml（对外 RSS 输出，让别人也能订阅本站）与 llms.txt（给 AI Agent 的数据说明）
 
 依赖: pip install requests feedparser pyyaml
 """
 
 import hashlib
 import html
+import itertools
 import json
 import re
 import sys
@@ -362,6 +363,111 @@ def translate_items(items):
 
 
 # ----------------------------------------------------------------------
+# 同题归并与热度：不同来源报道同一件事时并成一条，按独立来源数算热度
+# 思路借鉴 AIHOT（KKKKhazix/AIHOT 的 events/recall.ts 与 events/hot.ts）：
+#   - 比较标题的字符二元组重合度，跨语言时用机翻后的中文标题；
+#     两边都有作品名（「」『』《》内）时，作品名也必须对上；
+#   - 每个来源只算一次，按发布时间以半衰期衰减后相加即热度；
+#   - 合集、榜单、「在哪看」这类多话题或常青条目不参与。
+# 本站不调模型，所以阈值用 eval/cluster_gold.jsonl 的人工标注校准：
+# 改了 feeds.yml 的 cluster 参数后跑 python scripts/eval_cluster.py 看查准率和查全率
+# ----------------------------------------------------------------------
+_PUNCT = re.compile(r"[\s　「」『』【】\[\]（）()《》<>!！?？:：、,，.。·~～\-—_|｜\"'“”‘’…/★☆＆&#＃%％+＋=＝*＊]")
+_NOISE = re.compile(r"[\d年月日時分号號期第回話话集]+")  # 只由日期、序号组成的二元组不算重合
+_ENTITY = re.compile(r"[「『《“\"]([^」』》”\"]{2,})[」』》”\"]")
+CLUSTER = CONFIG.get("cluster", {})
+_ROUNDUP = re.compile("|".join(map(re.escape, CLUSTER.get("roundup", []))) or r"(?!)")
+_RSS_NAMES = {f["name"] for f in CONFIG.get("rss", [])}
+
+
+def _grams(s):
+    c = _PUNCT.sub("", (s or "").lower())
+    return {g for g in (c[i:i + 2] for i in range(len(c) - 1)) if not _NOISE.fullmatch(g)}
+
+
+def overlap(a, b):
+    """字符二元组重合度：交集 / 较短一方的二元组数"""
+    g, h = _grams(a), _grams(b)
+    return len(g & h) / min(len(g), len(h)) if g and h else 0.0
+
+
+def zh_title(it):
+    """比较用的中文标题：中文源用原文，其余用机翻（没翻出来时为空）"""
+    return it["title"] if it["lang"] == "zh" else it.get("i18n", {}).get("zh", {}).get("title", "")
+
+
+def pair_features(a, b):
+    """(标题重合度, 作品名重合度)；任一边没有作品名时后者为 None。同语言时原文也比，取高者"""
+    texts = [(zh_title(a), zh_title(b))]
+    if a["lang"] == b["lang"]:
+        texts.append((a["title"], b["title"]))
+    title = max(overlap(x, y) for x, y in texts)
+    ents = [overlap(e, f) for x, y in texts
+            for e in _ENTITY.findall(x) for f in _ENTITY.findall(y)]
+    return title, (max(ents) if ents else None)
+
+
+def story_candidate(it):
+    """参与归并的条目：RSS 新闻源，且不是合集/榜单类"""
+    return it["source"] in _RSS_NAMES and not _ROUNDUP.search(it["title"])
+
+
+def same_story(a, b, cfg=CLUSTER):
+    hours = abs((datetime.fromisoformat(a["published"])
+                 - datetime.fromisoformat(b["published"])).total_seconds()) / 3600
+    if hours > cfg.get("window_hours", 72):
+        return False
+    title, ent = pair_features(a, b)
+    if ent is None:
+        return title >= cfg.get("bare_title_min", 0.55)
+    return ent >= cfg.get("entity_min", 0.8) and title >= cfg.get("title_min", 0.3)
+
+
+def cluster_items(items, now):
+    """同一事件的多源报道并成一组：代表条目带 story，其余条目带 dup_of。返回组数"""
+    for it in items:  # 当日归档并回来的旧结果作废，每次重算
+        it.pop("story", None)
+        it.pop("dup_of", None)
+    if not CLUSTER.get("enabled", True):
+        return 0
+    pool = [it for it in items if story_candidate(it)]
+    parent = list(range(len(pool)))
+
+    def find(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    for i, j in itertools.combinations(range(len(pool)), 2):
+        if pool[i]["source"] != pool[j]["source"] and same_story(pool[i], pool[j]):
+            parent[find(i)] = find(j)
+    groups = {}
+    for i, it in enumerate(pool):
+        groups.setdefault(find(i), []).append(it)
+
+    half_life = CLUSTER.get("half_life_hours", 24)
+    stories = 0
+    for members in groups.values():
+        latest = {}  # 来源 -> 该来源在组内最新一篇的发布时间
+        for it in members:
+            ts = datetime.fromisoformat(it["published"])
+            latest[it["source"]] = max(latest.get(it["source"], ts), ts)
+        if len(latest) < 2:
+            continue
+        # 代表条目：权重最高的来源里最早发的那篇
+        rep = max(members, key=lambda x: (x["weight"], -datetime.fromisoformat(x["published"]).timestamp()))
+        heat = sum(0.5 ** (max((now - ts).total_seconds(), 0) / 3600 / half_life) for ts in latest.values())
+        rep["story"] = {"sources": len(latest), "heat": round(heat, 2),
+                        "members": [it["id"] for it in members if it is not rep]}
+        for it in members:
+            if it is not rep:
+                it["dup_of"] = rep["id"]
+        stories += 1
+    return stories
+
+
+# ----------------------------------------------------------------------
 # RSS 输出：把聚合结果吐成 feed.xml，让别人能订阅本站
 # ----------------------------------------------------------------------
 def write_feed_xml(items, site):
@@ -389,6 +495,41 @@ def write_feed_xml(items, site):
         + "\n".join(entries) + "\n</channel>\n</rss>\n"
     )
     (ROOT / "feed.xml").write_text(xml, encoding="utf-8")
+
+
+# ----------------------------------------------------------------------
+# llms.txt：给 AI Agent 的数据说明（llmstxt.org 约定），只列真实存在的文件和源，
+# 由 feeds.yml 生成，增删源后自动跟着变
+# ----------------------------------------------------------------------
+def write_llms_txt(site, payload):
+    base = site.get("base_url", "").rstrip("/")
+    cats = "anime 动画 / comic 漫画 / game 游戏 / novel 轻小说 / general 综合"
+    lines = [
+        "# ACGN 日報", "",
+        "> 每日自动聚合动画、漫画、游戏、轻小说资讯的静态站。只收标题、链接、出处和不超过 300 字的摘要，点击回原站阅读。", "",
+        "每天北京时间 6:00 和 18:00 各更新一次。下列文件都是静态 JSON / XML，匿名可读，不需要 API Key。", "",
+        "## 数据", "",
+        f"- [今日数据]({base}/data/latest.json): 当天全部条目，字段见下节",
+        f"- [往期索引]({base}/data/archive_index.json): 有归档的日期列表（新到旧），保留最近 {site.get('archive_days', 90)} 天",
+        f"- [某日归档]({base}/data/archive/{payload['date']}.json): 与今日数据同结构，把日期换成往期索引里的任一天",
+        f"- [RSS]({base}/feed.xml): 最新 50 条，同一事件只出代表条目",
+        "", "## 字段", "",
+        "- `items[]`: `id`（标题指纹）、`title`、`url`（原文）、`source`、`category`、`lang`（zh/ja/en）、"
+        "`published`（ISO 8601，北京时间）、`summary`",
+        f"- `items[].category`: {cats}",
+        "- `items[].i18n`: 机器翻译的标题和摘要，键为目标语言；仅供参考，引用时以原文为准",
+        "- `items[].story`: 多家来源报道同一事件时出现在代表条目上：`sources` 独立来源数，"
+        f"`heat` 热度（每个来源只算一次，按发布时间以 {CLUSTER.get('half_life_hours', 24)} 小时半衰期衰减后相加），"
+        "`members` 同组其他条目的 id",
+        "- `items[].dup_of`: 该条目已并入某事件，值为代表条目的 id；列新闻时通常跳过",
+        "- `categories`: 各领域条数（不含 dup_of 条目）；`stories`: 多源事件组数；`sources`: 每个源本次的抓取健康状况",
+        "", "## 信息源", "",
+    ]
+    lines += [f"- {f['name']}（{f.get('lang', 'zh')}，{f['category']}）" for f in CONFIG.get("rss", [])]
+    lines += [f"- {a['adapter']}（结构化 API，{a['category']}）" for a in CONFIG.get("apis", []) if a.get("enabled")]
+    lines += ["", "## 使用约定", "",
+              "转述或引用时请注明原始出处并链接原文；不要转载全文或搬运图片。商用或扩大抓取前请先看各源的服务条款。", ""]
+    (ROOT / "llms.txt").write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
 
 # ----------------------------------------------------------------------
@@ -473,14 +614,19 @@ def main():
     # 只对最终入选条目做翻译（截断后再翻，节省请求）
     translate_items(items)
 
+    # 同题归并要用机翻后的中文标题跨语言比较，所以放在翻译之后
+    stories = cluster_items(items, datetime.now(TZ))
+    shown = [it for it in items if "dup_of" not in it]
+
     payload = {
         "date": TODAY,
         "generated_at": datetime.now(TZ).isoformat(timespec="seconds"),
-        "count": len(items),
-        "categories": {c: sum(1 for i in items if i["category"] == c)
+        "count": len(shown),
+        "stories": stories,
+        "categories": {c: sum(1 for i in shown if i["category"] == c)
                        for c in ["anime", "comic", "game", "novel", "general"]},
         "sources": HEALTH,   # 每源健康状况，供巡检
-        "items": items,
+        "items": items,      # 含 dup_of 条目，前端把它们挂到代表条目下
     }
 
     data_dir = ROOT / "data"
@@ -503,11 +649,12 @@ def main():
     (data_dir / "archive_index.json").write_text(
         json.dumps(index, ensure_ascii=False), encoding="utf-8")
 
-    # 对外 RSS 输出
-    write_feed_xml(items, site)
+    # 对外 RSS 输出（同一事件只出代表条目）与给 Agent 的说明
+    write_feed_xml(shown, site)
+    write_llms_txt(site, payload)
 
     ok = sum(1 for h in HEALTH if not h["error"] and h["count"] > 0)
-    print(f"[OK] {TODAY} 共 {len(items)} 条，"
+    print(f"[OK] {TODAY} 共 {len(shown)} 条（{stories} 组多源事件并入 {len(items) - len(shown)} 条），"
           f"源健康 {ok}/{len(HEALTH)}，耗时 {time.time()-t0:.1f}s，"
           f"分类统计 {payload['categories']}")
 

@@ -94,6 +94,11 @@
   .card p{color:var(--soft);font-size:14px;margin-top:8px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
   .card .ft{margin-top:14px;font-size:12.5px;color:var(--faint);display:flex;gap:10px;flex-wrap:wrap}
   .card .ft .src{color:var(--soft)}
+  /* 同一事件的其他来源 */
+  .also{color:var(--soft);font-size:12.5px;margin-top:10px}
+  .also a{text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--faint);transition:color .25s}
+  .also a:hover{color:var(--k)}
+  .hero .also{font-size:14px;margin-top:18px}
   .grid.anim .card{animation:rise .8s var(--ease) both;animation-delay:calc(var(--i,0)*30ms)}
   .hero.anim{animation:rise .9s var(--ease) both}
   @keyframes rise{from{opacity:0;transform:translateY(16px)}}
@@ -185,6 +190,7 @@ const UI = {
   zh:{all:"全部",anime:"動畫",comic:"漫畫",game:"遊戲",novel:"小說",general:"綜合",
       search:"搜索标题 / 来源…",today:"今日",more:"内容提要",mt:"机翻",
       updated:(t,n)=>`更新于 ${t} · 共 ${n} 条`,
+      also:n=>`另有 ${n} 家报道：`,
       empty:"今日无此栏目消息",emptySub:"换个领域或清空搜索试试",
       demo:"示例数据 · 未能读取 data/latest.json",
       demoFile:"示例数据 · 直接双击打开的页面读不到数据，请用本地服务器访问（python -m http.server）",
@@ -193,6 +199,7 @@ const UI = {
   ja:{all:"すべて",anime:"アニメ",comic:"マンガ",game:"ゲーム",novel:"ノベル",general:"総合",
       search:"タイトル / ソースを検索…",today:"本日",more:"あらすじ",mt:"自動訳",
       updated:(t,n)=>`${t} 更新 · 全 ${n} 件`,
+      also:n=>`ほか ${n} 媒体も報道：`,
       empty:"本日このカテゴリのニュースはありません",emptySub:"カテゴリや検索条件を変えてみてください",
       demo:"サンプルデータ · data/latest.json を読み込めませんでした",
       demoFile:"サンプルデータ · ファイルを直接開くとデータを読み込めません。ローカルサーバー（python -m http.server）経由で開いてください",
@@ -201,6 +208,7 @@ const UI = {
   en:{all:"ALL",anime:"ANIME",comic:"COMIC",game:"GAME",novel:"NOVEL",general:"MISC",
       search:"Search title / source…",today:"Today",more:"Summary",mt:"MT",
       updated:(t,n)=>`Updated ${t} · ${n} items`,
+      also:n=>`Also covered by ${n} more: `,
       empty:"No news in this section today",emptySub:"Try another section or clear the search",
       demo:"Sample data · could not load data/latest.json",
       demoFile:"Sample data · pages opened from disk can't load data; serve locally (python -m http.server)",
@@ -224,20 +232,29 @@ function tr(it){
   return { title:(t&&t.title)||it.title, summary:(t&&t.summary)||it.summary||"", translated:!!(t&&t.title) };
 }
 const byTime = (a,b) => (b.published||"").localeCompare(a.published||"");
-const byRank = (a,b) => (b.weight||0)-(a.weight||0) || byTime(a,b);
+/* 多家来源报道的事件按热度排在前面，其余按源权重 */
+const heat = it => (it.story && it.story.heat) || 0;
+const byRank = (a,b) => heat(b)-heat(a) || (b.weight||0)-(a.weight||0) || byTime(a,b);
+
+/* 同一事件的其他来源报道（每个来源取一篇） */
+function members(it){
+  const seen = new Set([it.source]);
+  return ((it.story && it.story.members) || []).map(id=>DATA.dups[id])
+    .filter(m=> m && !seen.has(m.source) && seen.add(m.source));
+}
 
 function filtered(){
   const kw = q.trim().toLowerCase();
   return DATA.items.filter(it=>{
     if(cat!=="all" && it.category!==cat) return false;
     if(!kw) return true;
-    return (it.title+" "+tr(it).title+" "+it.source).toLowerCase().includes(kw);
+    return [it, ...members(it)].some(x=> (x.title+" "+tr(x).title+" "+x.source).toLowerCase().includes(kw));
   });
 }
 
 function ctx(){
   return { L:UI[uiLang], lang:uiLang, cat, q, data:DATA, CATS, CAT_CH,
-           esc, safeUrl, fmtTime, tr, byTime, byRank, weekday };
+           esc, safeUrl, fmtTime, tr, byTime, byRank, weekday, members };
 }
 
 /* 滑块指示器：容器上写 --ix/--iw，由 CSS 画出跟随选中项滑动的背景 */
@@ -313,7 +330,15 @@ function setLang(l){
   try{ localStorage.setItem("acgn-lang", l) }catch(_){}
   renderChrome(); renderStat(); render();
 }
-function mount(data){ DATA = data; renderStat(); render(); }
+function mount(data){
+  /* dup_of 条目已并入某个事件：不单独成卡，挂到代表条目的 story.members 下 */
+  if(!data.dups){
+    data.dups = {};
+    data.items.forEach(it=>{ if(it.dup_of) data.dups[it.id] = it; });
+    data.items = data.items.filter(it=>!it.dup_of);
+  }
+  DATA = data; renderStat(); render();
+}
 
 async function loadLatest(){
   try{
@@ -359,8 +384,10 @@ ACGN.start({
       `<button data-cat="all" data-c="all" aria-pressed="${ACGN.cat==="all"}"><b>${data.items.length}</b><span>${L.all}</span></button>` +
       CATS.map(k=>`<button data-cat="${k}" data-c="${k}" aria-pressed="${ACGN.cat===k}"><b>${c[k]||0}</b><span>${L[k]}</span></button>`).join("");
   },
-  list(items,{L,lang,esc,safeUrl,fmtTime,tr,byRank,byTime,data,animate,weekday}){
+  list(items,{L,lang,esc,safeUrl,fmtTime,tr,byRank,byTime,data,animate,weekday,members}){
     const hero = document.getElementById("hero"), grid = document.getElementById("grid");
+    const also = it => { const ms = members(it); return ms.length ? `<div class="also">${esc(L.also(ms.length))}${
+      ms.map(m=>`<a href="${safeUrl(m.url)}" target="_blank" rel="noopener" title="${esc(tr(m).title)}">${esc(m.source)}</a>`).join(" · ")}</div>` : ""; };
     const top = [...items].sort(byRank)[0];
     const [y,m,d] = data.date.split("-");
     const kicker = `<div class="kicker"><span class="live"></span>${esc(`${y} · ${m} · ${d}`)} · ${L.week[weekday(data.date)]||""} · ${L.updated((data.generated_at||"").slice(11,16), data.items.length)}</div>` +
@@ -373,15 +400,17 @@ ACGN.start({
       <span class="cat">${S[lang].top} · ${L[top.category]||""}</span>
       <h1><a href="${safeUrl(top.url)}" target="_blank" rel="noopener">${esc(t.title)}</a></h1>
       ${t.summary?`<p>${esc(t.summary)}</p>`:""}
-      <a class="go" href="${safeUrl(top.url)}" target="_blank" rel="noopener">${S[lang].read} <small>${esc(top.source)}</small> →</a>`;
+      <a class="go" href="${safeUrl(top.url)}" target="_blank" rel="noopener">${S[lang].read} <small>${esc(top.source)}</small> →</a>
+      ${also(top)}`;
     grid.className = "grid" + (animate?" anim":"");
     ACGN.masonry(grid, items.filter(x=>x!==top).sort(byTime).map((it,i)=>{
       const t = tr(it);
-      return {h: 4 + t.title.length/24 + (t.summary ? 3.2 : 0), html:`<article class="card" data-c="${esc(it.category)}" style="--i:${Math.min(i,15)}">
+      return {h: 4 + t.title.length/24 + (t.summary ? 3.2 : 0) + (it.story ? 1.4 : 0), html:`<article class="card" data-c="${esc(it.category)}" style="--i:${Math.min(i,15)}">
         <div class="hd"><span class="c">${L[it.category]||""}</span><time>${(it.published||"").slice(5,10).replace("-","/")} ${fmtTime(it.published)}</time></div>
         <h3><a href="${safeUrl(it.url)}" target="_blank" rel="noopener"${t.translated?` title="${esc(it.title)}"`:""}>${esc(t.title)}</a></h3>
         ${t.summary?`<p>${esc(t.summary)}</p>`:""}
         <div class="ft"><span class="src">${esc(it.source)}</span><span>${L.lang[it.lang]||esc(it.lang)}${t.translated?` · ${L.mt}`:""}</span></div>
+        ${also(it)}
       </article>`};
     }));
   }
