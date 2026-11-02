@@ -1,13 +1,13 @@
 {
  "date": "2026-11-02",
- "generated_at": "2026-11-02T00:34:35+08:00",
+ "generated_at": "2026-11-02T09:21:38+08:00",
  "count": 159,
  "stories": 1,
  "categories": {
-  "anime": 64,
+  "anime": 54,
   "comic": 10,
-  "game": 60,
-  "novel": 15,
+  "game": 67,
+  "novel": 18,
   "general": 10
  },
  "sources": [
@@ -17,12 +17,12 @@
    "error": null
   },
   {
-   "name": "アニメ！アニメ！",
+   "name": "AUTOMATON",
    "count": 15,
    "error": null
   },
   {
-   "name": "AUTOMATON",
+   "name": "アニメ！アニメ！",
    "count": 15,
    "error": null
   },
@@ -37,23 +37,23 @@
    "error": null
   },
   {
-   "name": "ラノベニュースオンライン",
-   "count": 15,
-   "error": null
-  },
-  {
-   "name": "GIGAZINE",
-   "count": 15,
-   "error": null
-  },
-  {
    "name": "机核 GCORES",
+   "count": 15,
+   "error": null
+  },
+  {
+   "name": "ラノベニュースオンライン",
    "count": 15,
    "error": null
   },
   {
    "name": "anilist_airing",
    "count": 20,
+   "error": null
+  },
+  {
+   "name": "GIGAZINE",
+   "count": 15,
    "error": null
   },
   {
@@ -394,6 +394,126 @@
    }
   },
   {
+   "id": "44d07d41dc8f",
+   "title": "第13回オーバーラップ文庫大賞の結果発表 「金賞」に1作品など4作品が選出",
+   "url": "https://ln-news.com/articles/127096",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-02T08:30:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "第13届重叠文库奖结果公布 4部作品入选“金奖”"
+    },
+    "en": {
+     "title": "Announcement of the results of the 13th Overlap Bunko Award 4 works were selected for the \"Gold Prize\""
+    }
+   }
+  },
+  {
+   "id": "d6ab02f77295",
+   "title": "Access Accepted第877回：AI革命にフルベットするEpic Gamesの新戦略とジレンマ",
+   "url": "https://www.4gamer.net/games/036/G003691/20261030033/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-02T08:00:00+08:00",
+   "summary": "EpicGamesは生成AIを全面的に活用する「AIファースト」の開発体制へと舵を切っている。一方で，AIを用いた既存ゲームの無断複製問題なども浮上しており，著作権への対応も迫られている。EpicGamesが描く未来と，そのジレンマを追う。",
+   "i18n": {
+    "zh": {
+     "title": "Access Accepted第877期：Epic Games全力押注AI革命的新战略与困境",
+     "summary": "EpicGames 正在转向充分利用生成式人工智能的“人工智能优先”开发系统。另一方面，利用AI对现有游戏进行未经授权的复制等问题也随之出现，版权问题也面临压力。关注 Epic Games 设想的未来及其困境。"
+    },
+    "en": {
+     "title": "Access Accepted No. 877: Epic Games' new strategy and dilemma as it makes full bet on the AI ​​revolution",
+     "summary": "EpicGames is steering towards an \"AI-first\" development system that fully utilizes generative AI. On the other hand, issues such as unauthorized copying of existing games using AI have also emerged, and copyright issues are also under pressure. Follow the future envisioned by Epic Games and its dilemma."
+    }
+   }
+  },
+  {
+   "id": "038ece5df778",
+   "title": "今週の新刊情報：アース・スター ルナ、Kラノベブックス、ドラゴンノベルス、SQEXノベルなど",
+   "url": "https://ln-news.com/articles/127104",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-02T07:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "本周新书信息：地星露娜、K-Lanobe Books、龙小说、SQEX小说等。"
+    },
+    "en": {
+     "title": "This week's new book information: Earth Star Luna, K-Lanobe Books, Dragon Novels, SQEX Novels, etc."
+    }
+   }
+  },
+  {
+   "id": "4292abfedd51",
+   "title": "【今週のモチベ】リメイク版「ゼルダの伝説 時のオカリナ」が発売される 2026年11月2日〜11月8日",
+   "url": "https://www.4gamer.net/games/954/G095479/20261031009/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-02T07:00:00+08:00",
+   "summary": "「え？あれって今週発売だったの!?」となりがちな人のための週刊連載「今週のモチベ」。今週は，NintendoSwitch2向けにフルリメイクされた「ゼルダの伝説時のオカリナ」や，「ArcheAge」の約50年後の世界を描く「ArcheAgeChronicles」が発売される。",
+   "i18n": {
+    "zh": {
+     "title": "【本周动力】《塞尔达传说：时之笛》重制版将于2026年11月2日至2026年11月8日发售",
+     "summary": "每周系列名为“本周的动机”，适合那些倾向于思考“什么？”的人。本周发售！？” 本周，Nintendo Switch 2 完全重制的《塞尔达传说 时之笛》和描绘《上古世纪》约 50 年后世界的《上古世纪编年史》也将发售。"
+    },
+    "en": {
+     "title": "[This week's motivation] The remake version of \"The Legend of Zelda: Ocarina of Time\" will be released from November 2, 2026 to November 8, 2026",
+     "summary": "A weekly series called ``This Week's Motivation'' for people who tend to think, ``What? That was released this week!?'' This week, ``The Legend of Zelda: Ocarina of Time'', which has been fully remade for Nintendo Switch 2, and ``ArcheAge Chronicles'', which depicts the world approximately 50 years after ``ArcheAge'', will be released."
+    }
+   }
+  },
+  {
+   "id": "4598243d9a7a",
+   "title": "4Gamerの1週間を振り返る「Weekly 4Gamer」，2026年10月26日〜11月1日",
+   "url": "https://www.4gamer.net/games/040/G004099/20261101010/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-02T06:00:00+08:00",
+   "summary": "2026年10月26日〜11月1日，4Gamerに掲載された記事は315本でした。タイのバンコクで開催されたゲームイベント「gamescomasiaxThailandGameShow2026」の現地レポートなど，調子に乗ってたくさんの記事を掲載した4Gamerと世界のゲーム業界の1週間を振り返りましょう。",
+   "i18n": {
+    "zh": {
+     "title": "《4Gamer 周刊》回顾 2026 年 10 月 26 日至 11 月 1 日 4Gamer 一周",
+     "summary": "2026年10月26日至2026年11月1日，4Gamer上共发表文章315篇。让我们回顾一下4Gamer和全球游戏行业的一周，我们发表了很多文章，其中包括对在泰国曼谷举办的游戏盛会“gamescomasiaxThailandGameShow2026”的本地报道。"
+    },
+    "en": {
+     "title": "\"Weekly 4Gamer\" looking back at 4Gamer's week, October 26th - November 1st, 2026",
+     "summary": "From October 26, 2026 to November 1, 2026, there were 315 articles published on 4Gamer. Let's take a look back at the week of 4Gamer and the global game industry, where we published a lot of articles, including a local report on the gaming event \"gamescomasiaxThailandGameShow2026\" held in Bangkok, Thailand."
+    }
+   }
+  },
+  {
+   "id": "88f4037114bb",
+   "title": "『パワハラ聖女の幼馴染みと絶縁したら、何もかもが上手くいくようになって最強の冒険者になった ～ついでに優しくて可愛い嫁もたくさん出来た～』のコミカライズ連載が開始",
+   "url": "https://ln-news.com/articles/127075",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-02T05:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "「与身为力量骚扰圣人的青梅竹马分开后，一切都很顺利，成为了最强的冒险者～而且还得到了很多善良可爱的新娘～」漫画开始连载了。"
+    },
+    "en": {
+     "title": "``When I separated from my childhood friend who is a power harassment saint, everything went well and I became the strongest adventurer ~In addition, I got many kind and cute brides~'' comic serialization has begun."
+    }
+   }
+  },
+  {
    "id": "82ec298ae798",
    "title": "十数年ぶりにインディーへ“帰還”したグラスホッパー・マニファクチュア。須田剛一氏が語る独立の経緯とゲーム作りの考え，“面白いこと”への意欲",
    "url": "https://www.4gamer.net/games/916/G091623/20261027003/",
@@ -695,6 +815,25 @@
    }
   },
   {
+   "id": "5773bbf76dc3",
+   "title": "アニメ『Destiny Unchain Online』は2027年放送決定 最新ビジュアルと特報PVも公開",
+   "url": "https://ln-news.com/articles/127095",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-01T07:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "动画《Destiny Unchain Online》将于2027年播出最新视觉图和特别PV也公开"
+    },
+    "en": {
+     "title": "Anime “Destiny Unchain Online” will be broadcast in 2027 Latest visuals and special PV also released"
+    }
+   }
+  },
+  {
    "id": "068dff907896",
    "title": "“零式”の報酬からロットが廃止され，個人宝箱からの入手へ。「FFXIV：白銀のワンダラー」の最新情報が公開された“東京ファンフェス”基調講演レポート",
    "url": "https://www.4gamer.net/games/199/G019924/20261101001/",
@@ -712,25 +851,6 @@
     "en": {
      "title": "Lots have been abolished from \"Type 0\" rewards, and can now be obtained from personal treasure chests. “Tokyo Fan Fest” keynote speech report where the latest information on “FFXIV: Silver Wanderer” was released",
      "summary": "Square Enix is ​​holding the ``Final Fantasy XIV Fan Festival 2026 in Tokyo'' at Makuhari Messe in Chiba on October 31st and November 1st, 2026. In this article, we will report on the keynote speech by producer and director Naoki Yoshida, where the latest information on the next expansion package ``Silver Wanderer'' was introduced."
-    }
-   }
-  },
-  {
-   "id": "5773bbf76dc3",
-   "title": "アニメ『Destiny Unchain Online』は2027年放送決定 最新ビジュアルと特報PVも公開",
-   "url": "https://ln-news.com/articles/127095",
-   "source": "ラノベニュースオンライン",
-   "category": "novel",
-   "lang": "ja",
-   "weight": 8,
-   "published": "2026-11-01T07:00:00+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "动画《Destiny Unchain Online》将于2027年播出最新视觉图和特别PV也公开"
-    },
-    "en": {
-     "title": "Anime “Destiny Unchain Online” will be broadcast in 2027 Latest visuals and special PV also released"
     }
    }
   },
@@ -893,7 +1013,7 @@
    },
    "story": {
     "sources": 2,
-    "heat": 0.78,
+    "heat": 0.6,
     "members": [
      "d24755957288"
     ]
@@ -995,6 +1115,153 @@
     },
     "en": {
      "title": "Introducing the lineup of Hero Bunko published in October 2026. 5 books including “World Order 10” and “Kota’s Other World Meal 10”"
+    }
+   }
+  },
+  {
+   "id": "fe38f2a60679",
+   "title": "《影之刃零》Steam在线玩家峰值突破83万",
+   "url": "https://www.gcores.com/articles/221788",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-11-02T09:10:00+08:00",
+   "summary": "根据 SteamDB 提供的数据，《影之刃零》Steam 在线玩家人数持续走高，更是在过去24小时内创下峰值突破83万的纪录。同时，MC 玩家评测也上涨至9.4分。此前，《影之刃零》在 PSN 也力压《GTA6》《使命召唤》等游戏，PS 港服畅销榜及十大热门游戏榜双登顶。 在本作中，玩家化身心脏遭受重创的剑客，在仅余六十六天的生命里，逃亡于刀光剑影和腥风血雨之间，并粉碎一桩笼罩在整个武林上方的惊天阴谋。在失序末法的武林中以身证道，以命寻心。",
+   "i18n": {
+    "ja": {
+     "title": "『シャドウ ブレイド ゼロ』Steam オンラインプレイヤー数が最高 83 万人に",
+     "summary": "SteamDB が提供するデータによると、『シャドウ ブレード ゼロ』の Steam 上のオンライン プレイヤー数は増加を続けており、過去 24 時間でピークの 83 万人以上に達しました。同時にMC選手の評価も9.4点まで上昇した。以前は、「シャドウ ブレード ゼロ」も PSN の「GTA6」や「コール オブ デューティ」などのゲームを抑え、PS 香港のベストセラー リストと人気ゲーム リストのトップ 10 の両方でトップになりました。このゲームでは、プレイヤーは心に大きなダメージを受けた剣士になります。余命わずか66日となった彼は、剣と剣と血の嵐の間を逃れ、格闘技界全体を覆う衝撃的な陰謀を打ち砕く。秩序が乱れ、法に終わる武道の世界で、自らの肉体で道を証明し、命をかけて心を求める。"
+    },
+    "en": {
+     "title": "\"Shadow Blade Zero\" Steam online players peaked at 830,000",
+     "summary": "According to data provided by SteamDB, the number of online players on Steam for \"Shadow Blade Zero\" continues to rise, reaching a peak of over 830,000 in the past 24 hours. At the same time, MC player evaluation also rose to 9.4 points. Previously, \"Shadow Blade Zero\" also beat out games such as \"GTA6\" and \"Call of Duty\" on PSN, and topped both the PS Hong Kong best-selling list and the top ten popular games list. In this game, the player becomes a swordsman whose heart has been severely damaged. With only sixty-six days left to live, he escapes between swords and swords and bloody storms, and smashes a shocking conspiracy that hangs over the entire martial arts world. In a martial arts world that is out of order and ends in law, you can prove the Tao with your own body and seek your heart with your life."
+    }
+   }
+  },
+  {
+   "id": "cbfdbabe6d47",
+   "title": "『薬屋のひとりごと』猫猫と壬氏がスクラッチに！ オリジナルグッズが当たるキャンペーンも開催中！",
+   "url": "https://animeanime.jp/article/2026/11/02/104403.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-02T09:00:04+08:00",
+   "summary": "『劇場版 薬屋のひとりごと』の猫猫と壬氏をデザインしたスクラッチが全国で発売中。最高1,000万円が当たり、10月28日～11月23日は購入者対象のオリジナルグッズ抽せんキャンペーンも実施される。",
+   "i18n": {
+    "zh": {
+     "title": "《药剂师的独白》毛毛和金鸡Scratch！我们还举办有机会赢取原创商品的活动！",
+     "summary": "《剧场版药剂师的广后》中的猫猫和真二的刮刮卡现已在全国发售。最高可达1000万日元，并将于10月28日至11月23日期间为购买者举办原创商品抽奖活动。"
+    },
+    "en": {
+     "title": "\"A Pharmacist's Monologue\" Maomao and Jinji are Scratch! We are also holding a campaign where you can win original goods!",
+     "summary": "Scratch cards featuring Neko Neko and Jinji from ``The Movie: Pharmacist's Hirogoto'' are now on sale nationwide. Up to 10 million yen can be won, and an original goods lottery campaign will be held for purchasers from October 28th to November 23rd."
+    }
+   }
+  },
+  {
+   "id": "13e580d58d4a",
+   "title": "EA叫停《模拟人生》“莲花项目”开发",
+   "url": "https://www.gcores.com/articles/221787",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-11-02T09:00:00+08:00",
+   "summary": "作为被收购后大规模重组的一部分，EA 确认已叫停一款尚未公开、代号“莲花项目”的《模拟人生》新作开发。据悉，暂停“莲花项目”是为了腾出资源，优先保障另一款代号为“长青项目”的《模拟人生》作品。官方希望给“长青项目”团队更多时间，以实现完整的游戏构想。 除了此前的Bioware解散以及《模拟人生》规模缩减之外，免费游戏《skate.》将由规模更小的团队继续维护。EA 强调，公司将继续推进《漫威钢铁侠》和下一代《星球大战 绝地》等新作的开发。同时《战地》系列也将维持运营，重生娱乐与 DICE 将合作开发一款尚未公开的射击游戏项目。EA 还计划继续投入资源，为《Apex英雄》推出新的多人模式，并持续",
+   "i18n": {
+    "ja": {
+     "title": "EA、『ザ・シムズ』の「プロジェクト・ロータス」開発を中止",
+     "summary": "買収後の大規模な組織再編の一環として、EAは未公開の新作「ザ・シムズ」ゲーム（コードネーム「Project Lotus」）の開発を中止したことを認めた。 「Project Lotus」の停止はリソースを解放し、「Project Evergreen」というコードネームで呼ばれる別の「シムズ」作品の保護を優先するためだと報じられている。関係者は、「エバーグリーン プロジェクト」チームが完全なゲーム コンセプトを実現するために、より多くの時間を与えたいと考えています。前回のバイオウェアの解散や『ザ・シムズ』の規模縮小に加え、フリーゲーム『スケート』。今後もより小規模なチームによって維持されます。 EAは今後も『Marvel's Iron Man』や次世代『Star Wars Jedi』といった新作ゲームの開発を進めていくと強調した。同時に『バトルフィールド』シリーズも運営を継続し、Respawn EntertainmentとDICEが協力して未公開のシューティングゲームプロジェクトを開発する予定だ。 EA はまた、Apex Legends の新しいマルチプレイヤー モードの立ち上げにリソースを投資し続ける予定であり、"
+    },
+    "en": {
+     "title": "EA halts development of \"Project Lotus\" of \"The Sims\"",
+     "summary": "As part of a large-scale restructuring after the acquisition, EA confirmed that it has halted development of an undisclosed new \"The Sims\" game code-named \"Project Lotus.\" It is reported that the suspension of \"Project Lotus\" is to free up resources and prioritize the protection of another \"Sims\" work code-named \"Project Evergreen\". The official hopes to give the \"Evergreen Project\" team more time to realize the complete game concept. In addition to the previous disbandment of Bioware and the reduction of the scale of \"The Sims\", the free game \"skate.\" will continue to be maintained by a smaller team. EA emphasized that the company will continue to advance the development of new games such as \"Marvel's Iron Man\" and the next-generation \"Star Wars Jedi\". At the same time, the \"Battlefield\" series will continue to operate, and Respawn Entertainment and DICE will collaborate on an undisclosed shooting game project. EA also plans to continue investing resources in launching new multiplayer modes for Apex Legends and continuing to"
+    }
+   }
+  },
+  {
+   "id": "4837c8df4407",
+   "title": "Epic喜加一：《抱歉，我们关门了》免费领",
+   "url": "https://www.gcores.com/articles/221664",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-11-02T08:45:00+08:00",
+   "summary": "Epic 游戏商城为玩家带来了最新的福利喜加一活动。即日起至11月6日凌晨12时，玩家可领取价值78元的《抱歉，我们关门了》。 <《Sorry We’re Closed》免费领>本作一款充满怀旧风格的单人恐怖生存游戏，拥有丰富的背景故事、深刻的角色刻画以及多种结局。以固定视角探索那些令人不安的地点。开启你的第三只眼，穿梭于不同的世界之间，揭开隐藏的秘密并破解谜题。",
+   "i18n": {
+    "ja": {
+     "title": "Epic Plus One: 「申し訳ありませんが、閉店しました」を無料で入手",
+     "summary": "Epic Games ストアは、最新のボーナスである Plus One イベントをプレイヤーに提供します。現在から 11 月 6 日午前 12 時まで、プレイヤーは 78 元相当の「申し訳ありませんが、閉店しました」を受け取ることができます。 ＜『Sorry We’re Closed』は無料配信中です＞ 本作は、豊富なバックグラウンドストーリー、奥深いキャラクター描写、マルチエンディングを備えた、懐かしのシングルプレイヤーホラーサバイバルゲームです。固定された視点から不安な場所を探索します。第三の目を開き、世界を旅して隠された秘密を明らかにし、パズルを解きましょう。"
+    },
+    "en": {
+     "title": "Epic Plus One: Get \"Sorry, We're Closed\" for free",
+     "summary": "The Epic Games Store brings players the latest bonus, the Plus One event. From now until 12:00 a.m. on November 6, players can receive \"Sorry, We're Closed\" worth 78 yuan. <\"Sorry We’re Closed\" is available for free> This is a nostalgic single-player horror survival game with rich background stories, deep character portrayals and multiple endings. Explore unsettling locations from a fixed perspective. Open your third eye and travel between worlds to uncover hidden secrets and solve puzzles."
+    }
+   }
+  },
+  {
+   "id": "92f420b88fe6",
+   "title": "《小偷模拟器》“私人收藏”DLC将于本月发售",
+   "url": "https://www.gcores.com/articles/221789",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-11-02T08:40:00+08:00",
+   "summary": "《小偷模拟器》“私人收藏”DLC将于本月发售。开发者表示：\"在俯瞰城市的高处，四位收藏家把自家别墅改成了私人博物馆：钟表匠、小提琴家、教授和金融家，每人手里都有不该有的东西。一位匿名委托人称之为解放。你的律师会反对。幸好你没有律师。” 在本次的扩展内容中，每栋别墅都是一场不同的盗窃。玩家需要算准住宅中的规律，在排练时穿过音乐厅。避开教授的灯光。最后是压轴一幕：激光走廊、武装守卫，还有一台靠备用电源运转的摄像头。 需要注意的是，没有当铺敢收独一无二的赃物。在藏身处的架子上集齐一套收藏，黑湾上就会出现买家。既可以全部留给自己，也可以全部留在架子上，换取街区内的永久加成。玩家可以在电脑上的“偷盗合约",
+   "i18n": {
+    "ja": {
+     "title": "Thief Simulator の「プライベート コレクション」DLC が今月リリース予定",
+     "summary": "Thief Simulator の「プライベート コレクション」DLC が今月リリースされます。 「街の上空で、4人のコレクターが別荘を私設博物館に変えた。時計職人、バイオリニスト、教授、投資家で、それぞれが持つべきではないものを持っている」と開発者は語った。 「匿名の依頼人はそれを解放と呼んでいます。あなたの弁護士は反対するでしょう。幸いなことに、あなたには弁護士がいません。」この拡張では、各ヴィラが異なる盗難になります。プレイヤーは家の中のパターンを把握し、リハーサル中にコンサート ホール内を移動する必要があります。教授の光を避けてください。最後に、フィナーレがあります。レーザーの回廊、武装警備員、バックアップ電源で動作するカメラです。質屋は、ユニークな盗品をあえて回収しようとはしないことに注意してください。隠れ家の棚にコレクションを集めると、ブラックベイにバイヤーが現れます。すべてを独り占めするか、ブロックの永久ボーナスと引き換えにすべてを棚に置いておくかのどちらかです。プレイヤーはコンピュータ上で「契約を盗む」ことができる"
+    },
+    "en": {
+     "title": "Thief Simulator's \"Private Collection\" DLC will be released this month",
+     "summary": "Thief Simulator’s “Private Collection” DLC will be released this month. \"High above the city, four collectors have turned their villa into a private museum: a watchmaker, a violinist, a professor, and a financier, each with something they shouldn't have,\" the developer said. \"An anonymous client calls it liberation. Your lawyer will object. Fortunately, you don't have one.\" In this expansion, each villa is a different theft. Players need to figure out the patterns in the house and move through the concert hall during rehearsals. Avoid the professor's light. Finally, there's the finale: a corridor of lasers, armed guards, and a camera that runs on backup power. It should be noted that no pawn shop dares to collect unique stolen goods. Collect a collection on the shelf in the hideout and a buyer will appear on the Black Bay. Either keep it all to yourself, or leave it all on the shelf in exchange for a permanent bonus on the block. Players can \"steal contracts\" on the computer"
+    }
+   }
+  },
+  {
+   "id": "4b84332f870e",
+   "title": "《皮克敏4 NS2版 + 大家来挑战！当多虑检定》体验版将于11月2日推出",
+   "url": "https://www.gcores.com/articles/221791",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-11-02T08:30:00+08:00",
+   "summary": "为庆祝皮克敏日，任天堂在皮克敏专题直面会中宣布，《皮克敏4 NS2版 + 大家来挑战！当多虑检定》体验版将于11月2日推出，玩家可以在11月12日发售前先行体验游戏。同时，《皮克敏Bloom》也将在年内迎来神秘洞穴更新。 通过Nintendo Switch 2主机内部的麦克风，能用声音对欧庆下指令。能下的指令共有9种，像是能跳过无法攀爬的高低差的「跳跃」、能破坏物品的「冲撞」，以及搬运宝物的「工作」等等。 在 NS2 版中，还新增了一个全新的模式「当多虑检定」。「当多虑检定」是挑战如何以最快速度，将关卡内的宝物搬完的模式。有三种难度的关卡，包括「轻松」、「正式」和「极限」。选择喜欢的关卡反复游",
+   "i18n": {
+    "ja": {
+     "title": "「ピクミン4 NS2 Edition+に挑戦してみよう！」 「悩むときテスト」体験版を11月2日より提供開始",
+     "summary": "ピクミンの日を記念して、任天堂はピクミンダイレクトミーティングで「ピクミン4 NS2 Edition + さあ、チャレンジ！」を発表しました。 「考えすぎテスト」の体験版は11月2日より配信され、11月12日の発売に先駆けてゲームを体験することができる。同時に「ピクミンブルーム」では年内に不思議の洞窟アップデートも実施される予定だ。 Nintendo Switch 2 本体内のマイクを通じて、Ou Qing に音声コマンドを与えることができます。与えられるコマンドは登れない高低差を飛び越える「ジャンプ」、物体を破壊する「衝突」、宝物を運ぶ「ワーク」など9種類。NS2版では新モード「考えすぎテスト」も追加された。 「考えすぎテスト」は、レベル内のすべての宝物をいかに早く動かすかに挑戦するモードです。難易度は「Easy」「Formal」「Extreme」の3段階。好きなレベルを選択して、何度でもプレイしてください"
+    },
+    "en": {
+     "title": "\"Pikmin 4 NS2 Edition + Let's challenge!\" The trial version of \"When to Worry Test\" will be launched on November 2",
+     "summary": "To celebrate Pikmin Day, Nintendo announced at the Pikmin direct meeting that \"Pikmin 4 NS2 Edition + Come and Challenge!\" The trial version of \"The Overthinking Test\" will be launched on November 2, and players can experience the game before it is released on November 12. At the same time, \"Pikmin Bloom\" will also receive a mysterious cave update within the year. Through the microphone inside the Nintendo Switch 2 console, Ou Qing can be given voice commands. There are 9 types of commands that can be given, such as \"jump\" to jump over height differences that cannot be climbed, \"collision\" to destroy objects, and \"work\" to carry treasures, etc. In the NS2 version, a new mode \"Overthinking Test\" has also been added. \"Overthinking Test\" is a mode that challenges how to move all the treasures in the level as quickly as possible. There are three levels of difficulty, including \"Easy\", \"Formal\" and \"Extreme\". Choose a level you like and play it again and again"
+    }
+   }
+  },
+  {
+   "id": "498f6320d528",
+   "title": "2027年4月放送「ガンダムRG XARX-ZERO」よりガンダムZEROが立体化！ 劇中再現を可能とする可動域を追及♪",
+   "url": "https://animeanime.jp/article/2026/11/02/104402.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-02T06:30:03+08:00",
+   "summary": "『機動戦士ガンダムRG XARX-ZERO』の主役機「ガンダムZERO」が、GUNDAM UNIVERSEに登場。2026年11月2日より予約受付がスタートしており、価格は5,500円（税込）で発売は2027年4月を予定している。",
+   "i18n": {
+    "zh": {
+     "title": "2027年4月播出的「高达RG XARX-ZERO」中，高达ZERO立体化！追求可再现剧中的可动范围♪",
+     "summary": "「机动战士高达RG XARX-ZERO」的主角「高达ZERO」在GUNDAM UNIVERSE登场。 2026年11月2日起开始预购，售价5,500日元（含税），预计2027年4月发售。"
+    },
+    "en": {
+     "title": "Gundam ZERO becomes three-dimensional from \"Gundam RG XARX-ZERO\" broadcast in April 2027! Pursuing a range of motion that enables reproduction in the play ♪",
+     "summary": "The main character of \"Mobile Suit Gundam RG XARX-ZERO\", \"Gundam ZERO\", appears in GUNDAM UNIVERSE. Pre-orders have started from November 2, 2026, and the price is 5,500 yen (tax included), with release scheduled for April 2027."
     }
    }
   },
@@ -2267,7 +2534,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:07+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2286,7 +2553,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:07+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2305,7 +2572,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:07+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2324,7 +2591,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:07+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2343,7 +2610,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:07+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2362,7 +2629,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:07+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2381,7 +2648,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:07+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2400,7 +2667,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:07+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2419,7 +2686,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:07+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2438,7 +2705,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:07+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2457,7 +2724,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:07+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2476,7 +2743,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:07+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2495,7 +2762,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:07+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2514,7 +2781,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:07+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2526,152 +2793,6 @@
    }
   },
   {
-   "id": "0494739fc3bb",
-   "title": "【今日放送 16:00】アオアシ 第2期 第5集",
-   "url": "https://anilist.co/anime/191788",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日16:00播出】苍石第二季第五卷"
-    },
-    "en": {
-     "title": "[Broadcast today 16:00] Aoashi Season 2 Volume 5"
-    }
-   }
-  },
-  {
-   "id": "15657f8aceb5",
-   "title": "【今日放送 16:00】夜桜さんちの大作戦 第2期 第2クール 第4集",
-   "url": "https://anilist.co/anime/213657",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日16:00播出】夜樱家族的大行动第二季第二季第4卷"
-    },
-    "en": {
-     "title": "[Broadcast today 16:00] Yozakura Family's Great Operation 2nd season 2nd season Volume 4"
-    }
-   }
-  },
-  {
-   "id": "efc4bbebbe54",
-   "title": "【今日放送 16:30】ダイヤのA actⅡ -Second Season- 第2クール 第4集",
-   "url": "https://anilist.co/anime/213658",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日16:30播出】钻石王牌第二幕-第二季-第二季第4卷"
-    },
-    "en": {
-     "title": "[Broadcast today 16:30] Ace of Diamond actⅡ -Second Season- Volume 4 of the 2nd season"
-    }
-   }
-  },
-  {
-   "id": "855b9a918a0a",
-   "title": "【今日放送 17:00】ホロのぐらふぃてぃ 第390集",
-   "url": "https://anilist.co/anime/118123",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
-   "summary": "",
-   "i18n": {
-    "en": {
-     "title": "[Broadcast today 17:00] Holo no Graffiti Vol. 390"
-    }
-   }
-  },
-  {
-   "id": "894ed739107c",
-   "title": "【今日放送 17:30】サザエさん 第2856集",
-   "url": "https://anilist.co/anime/2406",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
-   "summary": "",
-   "i18n": {
-    "en": {
-     "title": "[Broadcast today 17:30] Sazae-san Episode 2856"
-    }
-   }
-  },
-  {
-   "id": "59121c95a8a3",
-   "title": "【今日放送 20:00】うまゆるふるげ〜と! 第6集",
-   "url": "https://anilist.co/anime/215835",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "[今天20:00播出]Umayuru Furugeto！第6集"
-    },
-    "en": {
-     "title": "[Broadcast today 20:00] Umayuru Furugeto! Episode 6"
-    }
-   }
-  },
-  {
-   "id": "6f9350bcb784",
-   "title": "【今日放送 20:30】目覚めたら最強装備と宇宙船持ちだったので、一戸建て目指して傭兵として自由に生きたい 第5集",
-   "url": "https://anilist.co/anime/186541",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今天20:30播出】一觉醒来，我拥有了最强的装备和宇宙飞船，所以我想以房子为目标，自由地生活第5集"
-    },
-    "en": {
-     "title": "[Broadcast today 20:30] When I woke up, I had the strongest equipment and a spaceship, so I wanted to aim for a house and live freely as a mercenary Episode 5"
-    }
-   }
-  },
-  {
-   "id": "77c5f6070434",
-   "title": "【今日放送 21:00】おじさんはカワイイものがお好き。 第5集",
-   "url": "https://anilist.co/anime/202079",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日21:00播出】叔叔喜欢可爱的东西。第5卷"
-    },
-    "en": {
-     "title": "[Broadcast today 21:00] Uncle likes cute things. Volume 5"
-    }
-   }
-  },
-  {
    "id": "de6c1574524f",
    "title": "【今日放送 21:30】魔法の姉妹ルルットリリィ 第2クール 第5集",
    "url": "https://anilist.co/anime/209032",
@@ -2679,7 +2800,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:06+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2698,7 +2819,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:06+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2717,7 +2838,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:06+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2736,7 +2857,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:06+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2755,7 +2876,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:06+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2774,7 +2895,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:06+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2793,7 +2914,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:06+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2812,7 +2933,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
+   "published": "2026-11-02T09:18:06+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2824,99 +2945,44 @@
    }
   },
   {
-   "id": "179e7ba70812",
-   "title": "【今日放送 23:00】彼方から 第5集",
-   "url": "https://anilist.co/anime/209463",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "e52e4aa6be26",
+   "title": "誰でも簡単にAndroidやiPhoneで広告ブロックできる「AdGuard 広告ブロッカー」のインストールと使い方、迷惑広告・詐欺広告を全部まとめて一気に削除",
+   "url": "https://gigazine.net/news/20261102-adguard-adblocking/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
-   "summary": "",
+   "weight": 5,
+   "published": "2026-11-02T08:00:00+08:00",
+   "summary": "スマホでページを見ていると明らかに度を超えて不快な広告や肝心のページ内容を見せるのを妨害するような広告、さらには広告自体が詐欺的で誤クリックや誤誘導を狙っている悪質な広告が爆増しています。Googleなどへ通報すると削除できるのですが、いたちごっこになっており、特にスマホでは通報するのも手間がかかりますし、無駄に時間も通信量も奪われてしまいます。そこで是非とも使いたいのが「AdGuard 広告ブロッカー」、実際に無料で使えるブラウザの広告ブロックから有料版の機能まで順に試してみました。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "【今日23:00播出】从彼岸第5卷"
+     "title": "任何人都可以轻松安装和使用“AdGuard Ad Blocker”来拦截Android或iPhone上的广告，并一次性删除所有烦人的欺诈广告。",
+     "summary": "在智能手机上查看页面时，会出现明显过多且令人不快的广​​告、遮挡页面主要内容的广告，甚至是旨在导致错误点击或误导的欺诈性恶意广告。你可以通过向谷歌等举报来删除它，但这就是一场猫捉老鼠的游戏，举报需要花费很大的力气，尤其是在智能手机上，而且浪费时间和流量。因此，我肯定想使用“AdGuard广告拦截器”，并从可以免费使用的浏览器的广告拦截到付费版本的功能依次尝试。阅读更多..."
     },
     "en": {
-     "title": "[Broadcast today 23:00] From the other side Volume 5"
+     "title": "Anyone can easily install and use \"AdGuard Ad Blocker\" to block ads on Android or iPhone, and delete all annoying and fraudulent ads at once.",
+     "summary": "When looking at pages on a smartphone, there is an explosion of ads that are obviously excessive and unpleasant, ads that obstruct the main content of the page, and even malicious ads that are fraudulent and aim to cause erroneous clicks or misdirection. You can delete it by reporting it to Google, etc., but it's a cat-and-mouse game, and it takes a lot of effort to report it, especially on a smartphone, and it wastes time and traffic. Therefore, I definitely want to use \"AdGuard ad blocker\", and I tried it in order from the ad blocking of the browser that can be used for free to the functions of the paid version. read more..."
     }
    }
   },
   {
-   "id": "7ec3cb6b9d1f",
-   "title": "【今日放送 00:00】マウスカーソルで現実を操作できるようになったので、女の子をいっぱいクリックしまーす 第4集",
-   "url": "https://anilist.co/anime/206774",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "5a7a1ac76dda",
+   "title": "Claude Codeは各バックグラウンドエージェントのトランスクリプトを定期的にモデルに送信していることが発覚",
+   "url": "https://gigazine.net/news/20261102-claude-code-resends-background-agents-transcript/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
-   "summary": "",
+   "weight": 5,
+   "published": "2026-11-02T06:00:00+08:00",
+   "summary": "Claude Codeの「エージェントサマリー」機能はバックグラウンドエージェントのステータスを約30秒ごとに更新するため、トランスクリプト(記録したデータ)全体をモデルに再送信しています。トランスクリプト送信によりトークンの約15～20％が消費されている計算になります。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "【今天00:00播出】现在可以用鼠标光标控制现实了，点击很多女孩第4集"
+     "title": "Claude Code 被发现定期向模型发送每个后台代理的记录",
+     "summary": "Claude Code 的“代理摘要”功能大约每 30 秒更新一次后台代理状态，因此它将整个记录（记录的数据）重新发送到模型。据计算，大约有15-20%的代币是通过发送抄本消耗的。阅读更多..."
     },
     "en": {
-     "title": "[Broadcast today 00:00] Now that you can control reality with the mouse cursor, click on lots of girls Episode 4"
-    }
-   }
-  },
-  {
-   "id": "d7c20988b294",
-   "title": "【今日放送 00:05】彼女の友達 第5集",
-   "url": "https://anilist.co/anime/211877",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日00:05播出】女友朋友第5卷"
-    },
-    "en": {
-     "title": "[Broadcast today 00:05] Girlfriend Friend Volume 5"
-    }
-   }
-  },
-  {
-   "id": "049c15abe59f",
-   "title": "【今日放送 00:05】人付き合いが苦手な未亡人の雪女さんと呪いの指輪 第5集",
-   "url": "https://anilist.co/anime/212667",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-02T00:29:45+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今天00:05播出】不擅长社交的寡妇雪女与被诅咒的戒指第5卷"
-    },
-    "en": {
-     "title": "[Broadcast today 00:05] Widow Yuki-onna who is not good at socializing and the cursed ring Volume 5"
-    }
-   }
-  },
-  {
-   "id": "c02d7a983475",
-   "title": "『原神』『ゼンゼロ』などのHoYoverse新作『プチプラネット』がニンテンドースイッチ2でも配信決定！自分だけの星を育てる基本無料のスローライフゲーム",
-   "url": "http://www.gamespark.jp/article/2026/11/01/174373.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-01T21:15:31+08:00",
-   "summary": "PC/スマホ向けに12月4日リリース予定の『プチプラネット』にて、ニンテンドースイッチ2版が2027年に配信決定！",
-   "i18n": {
-    "zh": {
-     "title": "《原神》、《禅零》等HoYoverse新作《小星球》即将在Nintendo Switch 2上发售！基本免费慢生活游戏，培养你自己的明星",
-     "summary": "《小星球》PC/智能手机版预定12月4日发售，Nintendo Switch第2版将于2027年发售！"
-    },
-    "en": {
-     "title": "HoYoverse's new work \"Petit Planet\" such as \"Genshin\" and \"Zen Zero\" will be released on Nintendo Switch 2! Basic free slow life game to grow your own star",
-     "summary": "\"Petit Planet\" scheduled to be released on December 4th for PC/smartphone, Nintendo Switch 2nd version will be released in 2027!"
+     "title": "Claude Code was discovered to be periodically sending transcripts of each background agent to the model",
+     "summary": "Claude Code's \"Agent Summary\" feature updates the background agent status approximately every 30 seconds, so it resends the entire transcript (recorded data) to the model. It is calculated that about 15-20% of the tokens are consumed by sending the transcript. read more..."
     }
    }
   },
@@ -3089,234 +3155,192 @@
    }
   },
   {
-   "id": "36c75b09165e",
-   "title": "「ハッカーに身代金を支払うことなく暗号化されたファイルを復元できる」というセキュリティ企業が実際は被害者から得た高額な手数料の中から身代金を支払っていたとしてCEOが起訴される",
-   "url": "https://gigazine.net/news/20261031-monstercloud-ransomware-victims/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-10-31T18:00:00+08:00",
-   "summary": "ランサムウェアによって攻撃者にシステムを暗号化された被害者に対し、「暗号化されたファイルを復元できる」と宣伝して高額な手数料を取りつつ、実際には攻撃者に身代金を支払って復号鍵をもらいシステム復元を行っていたセキュリティ企業・MonsterCloudのCEOが起訴されました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "一家声称可以在不向黑客支付赎金的情况下恢复加密文件的安全公司实际上是从受害者那里收取的高额费用中支付赎金的，并且首席执行官被起诉。",
-     "summary": "MonsterCloud是一家安全公司，向系统被勒索软件攻击者加密的受害者宣传可以“恢复加密文件”并向他们收取高额费用，该公司的首席执行官实际上向攻击者支付了赎金，收到了解密密钥，并恢复了系统。MonsterCloud的首席执行官被起诉。阅读更多..."
-    },
-    "en": {
-     "title": "A security company that says it can restore encrypted files without paying a ransom to hackers actually pays the ransom out of the high fees it received from victims, and the CEO is indicted.",
-     "summary": "The CEO of MonsterCloud, a security company that advertised to victims whose systems were encrypted by ransomware attackers that they could ``recover encrypted files'' and charged them high fees, actually paid the ransom to the attackers, received the decryption key, and restored the system.The CEO of MonsterCloud was indicted. read more..."
-    }
-   }
-  },
-  {
-   "id": "48977d42a23a",
-   "title": "Material 3 Expressiveの画面をブラウザで組み立てて画面同士をつなぎタップして確かめてそのままAIコーディング用のプロンプトにするツール「M3E Canvas」",
-   "url": "https://gigazine.net/news/20261031-m3e-canvas/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-10-31T17:00:00+08:00",
-   "summary": "AIコーディングツールでアプリを開発する際には、画面の配置やボタンを押したときの動作などを文章で説明する必要があります。そこでGoogleの「Material 3 Expressive」に対応した部品をブラウザ上で組み立て、複数の画面をつないで実際にタップしながら動作を確認できるほか、設計内容をそのままAIコーディング用のプロンプトに変換できる無料のオープンソースツールが「M3E Canvas」です。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "“M3E Canvas”是一个工具，可以在浏览器中组装Material 3 Expressive屏幕，将屏幕连接在一起，点击确认，并将其用作AI编码的提示。",
-     "summary": "当使用人工智能编码工具开发应用程序时，有必要用文本解释屏幕的布局以及按下按钮时会发生什么。因此，您可以在浏览器上组装与谷歌“Material 3 Expressive”兼容的部件，连接多个屏幕并通过实际点击检查操作，并将设计内容直接转换为AI编码提示。 “M3E Canvas”是一个免费的开源工具。阅读更多..."
-    },
-    "en": {
-     "title": "``M3E Canvas'' is a tool that assembles the Material 3 Expressive screen in a browser, connects the screens together, taps to confirm, and uses it as a prompt for AI coding.",
-     "summary": "When developing an app using an AI coding tool, it is necessary to explain in text the layout of the screen and what happens when a button is pressed. Therefore, you can assemble parts compatible with Google's ``Material 3 Expressive'' on the browser, connect multiple screens and check the operation by actually tapping, and convert the design contents directly into AI coding prompts. ``M3E Canvas'' is a free open source tool. read more..."
-    }
-   }
-  },
-  {
-   "id": "2d99a62db2df",
-   "title": "【漫画更新】Ecchi Gokko 第 ? 话",
-   "url": "https://mangadex.org/chapter/6c543744-d3d2-431a-9ab0-44aa747c843f",
+   "id": "556cbd441299",
+   "title": "【漫画更新】Gal-Axy 第 35 话「Ballad of a dying star」",
+   "url": "https://mangadex.org/chapter/236253f9-e2eb-4c11-a153-65f82b8a0c96",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-02T00:29:46+08:00",
+   "published": "2026-11-02T09:18:08+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】エッチごっこ編?"
+     "title": "【マンガ更新】ぎゃるアクシー 第35話「消えゆく星のバラード」"
     },
     "en": {
-     "title": "【Manga Update】Ecchi Gokko Chapter ?"
+     "title": "【Manga Update】Gal-Axy Chapter 35 \"Ballad of a dying star\""
     }
    }
   },
   {
-   "id": "514aeae774e1",
-   "title": "【漫画更新】Myther 第 14.5 话「Volume 3 Extras + some Volume 1 Extras」",
-   "url": "https://mangadex.org/chapter/3ce768c3-a390-4bea-a74b-e83ab8b589e4",
+   "id": "c03e9bbbb072",
+   "title": "【漫画更新】The Boy of Death 第 349 话",
+   "url": "https://mangadex.org/chapter/5d808815-bcd1-437b-a897-e2b3b2437ea6",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-02T00:29:46+08:00",
+   "published": "2026-11-02T09:18:08+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】Myther Chapter 14.5「3巻おまけ＋1巻おまけ一部」"
+     "title": "【コミック更新】死神の少年 第349話"
     },
     "en": {
-     "title": "【Manga Update】Myther Chapter 14.5 \"Volume 3 Extras + some Volume 1 Extras\""
+     "title": "【Comic Update】The Boy of Death Chapter 349"
     }
    }
   },
   {
-   "id": "748cb5504fe5",
-   "title": "【漫画更新】\"Ano Toki Tasukete Itadaita Monster Musume desu.\" Isekai Ossan Kyoushi Totsuzen no Moteki ni Konwaku suru 第 65 话",
-   "url": "https://mangadex.org/chapter/6377305f-493e-44dd-94ff-654c74baf0f0",
+   "id": "6ed3e2af333d",
+   "title": "【漫画更新】Major 2nd 第 320 话「VS. Tsujidou Gakuen Middle School」",
+   "url": "https://mangadex.org/chapter/db351b8d-3ed7-4e8b-8c75-0f924a2e5ec2",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-02T00:29:46+08:00",
+   "published": "2026-11-02T09:18:08+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】『あの時、いただきましたモンスター娘です。』異世界おっさん教師 特別なモテキに学ぶ 第65話"
+     "title": "【マンガ更新】MAJOR 2nd 第320話「VS.辻堂学園中等部」"
     },
     "en": {
-     "title": "【Manga Update】\"Ano Toki Tasukete Itadaita Monster Musume desu.\" Isekai Ossan Kyoushi Totsuzen no Moteki ni Konwaku suru Chapter 65"
+     "title": "【Manga Update】Major 2nd Chapter 320 \"VS. Tsujidou Gakuen Middle School\""
     }
    }
   },
   {
-   "id": "0b41782e885f",
-   "title": "【漫画更新】Chiyu Mahou no Machigatta Tsukaikata ~Senjou wo Kakeru Kaifuku Youin~ 第 92 话",
-   "url": "https://mangadex.org/chapter/69d32fa3-9ad0-4fa0-a5bf-323478a4ebfc",
+   "id": "93410817a8e4",
+   "title": "【漫画更新】Yotsuba to! 第 6 话「Yotsuba & Catching Cicadas」",
+   "url": "https://mangadex.org/chapter/7c52c2bf-9d6a-4a80-8f16-07899fd0b88e",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-02T00:29:46+08:00",
+   "published": "2026-11-02T09:18:08+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】ちゆ魔法のまちがった使い方 ～戦場を駆ける回復要員～ 第92話"
+     "title": "【マンガ更新】よつばと！第6章「よつばと蝉取り」"
     },
     "en": {
-     "title": "【Manga Update】Chiyu Mahou no Machigatta Tsukaikata ~Senjou wo Kakeru Kaifuku Youin~ Chapter 92"
+     "title": "【Manga Update】Yotsuba to! Chapter 6 \"Yotsuba & Catching Cicadas\""
     }
    }
   },
   {
-   "id": "40dafcca9858",
-   "title": "【漫画更新】Chiyu Mahou no Machigatta Tsukaikata ~Senjou wo Kakeru Kaifuku Youin~ 第 91 话",
-   "url": "https://mangadex.org/chapter/045adcc9-b36a-4792-93c6-86f59411514c",
+   "id": "37b5bb3603b9",
+   "title": "【漫画更新】Tsuihou Sareta Cheat Fuyo Majutsushi wa Kimama na Second Life o Ouka Suru.: Ore wa Buki dake ja Naku, Arayuru Mono ni \"Kyouka Point\" o Fuyo Dekiru shi, Ore no Ishi de Itsudemo Kouka o Kaijo Dekiru kedo, Nokotta Hitotachi Daijoubu? 第 47 话",
+   "url": "https://mangadex.org/chapter/ac968464-099d-4cae-ad06-93e6a2d6f5b4",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-02T00:29:46+08:00",
+   "published": "2026-11-02T09:18:08+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】ちゆ魔法のまちがった使いかた ～戦場を駆ける回復要員～ 第91話"
+     "title": "【マンガ更新】Tsuihou Sareta Cheat Fuyo Majukushi wa Kimama na Second Life o Ouka Suru.: Ore wa Buki dake ja Naku, Arauru Mono ni \"Kyouka Point\" o Fuyo Dekiru shi、Ore no Itsudemo Kouka o Kaijo Dekiru kedo、Nokotta hitotachi Daijoubu?第47章"
     },
     "en": {
-     "title": "【Manga Update】Chiyu Mahou no Machigatta Tsukaikata ~Senjou wo Kakeru Kaifuku Youin~ Chapter 91"
+     "title": "[Manga Update] Tsuihou Sareta Cheat Fuyo Majutsushi wa Kimama na Second Life o Ouka Suru.: Ore wa Buki dake ja Naku, Arayuru Mono ni \"Kyouka Point\" o Fuyo Dekiru shi, Ore no Ishi de Itsudemo Kouka o Kaijo Dekiru kedo, Nokotta Hitotachi Daijoubu? Chapter 47"
     }
    }
   },
   {
-   "id": "a101362dff84",
-   "title": "【漫画更新】Yu☆Gi☆Oh! OCG Structures 第 89 话「Brink of Destruction」",
-   "url": "https://mangadex.org/chapter/fa67f584-0548-436c-9aca-1dbaf676819a",
+   "id": "f7013a5e4699",
+   "title": "【漫画更新】I Will Become a God 第 3 话",
+   "url": "https://mangadex.org/chapter/00938286-4017-40bd-a44f-a6df426036bb",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-02T00:29:46+08:00",
+   "published": "2026-11-02T09:18:08+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】遊☆戯☆王！ OCGストラクチャー 第89章「滅びの瀬戸際」"
+     "title": "【コミック更新】神様になります 第3話"
     },
     "en": {
-     "title": "【Manga Update】Yu☆Gi☆Oh! OCG Structures Chapter 89 \"Brink of Destruction\""
+     "title": "【Comic Update】I Will Become a God Chapter 3"
     }
    }
   },
   {
-   "id": "e5747f0c6f34",
-   "title": "【漫画更新】Bartlet Fairy Basslet 第 1 话",
-   "url": "https://mangadex.org/chapter/57a28340-48d1-475c-b2e8-d90fd6f2dd9c",
+   "id": "9ae4676b7bf4",
+   "title": "【漫画更新】Xīngjiǎ Húnjiàng Zhuàn 第 257 话「Elder Xu's Inner Demon」",
+   "url": "https://mangadex.org/chapter/13fb8714-67e6-4aaa-a7c6-d23aa8e7cf86",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-02T00:29:46+08:00",
+   "published": "2026-11-02T09:18:08+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【コミック更新】バートレット妖精バスレット 第1章"
+     "title": "【コミック更新】星家勲章 第257話「徐老の内なる悪魔」"
     },
     "en": {
-     "title": "【Comic Update】Bartlet Fairy Basslet Chapter 1"
+     "title": "【Comic Update】Xīngjiǎ Húnjiàng Zhuàn Chapter 257 \"Elder Xu's Inner Demon\""
     }
    }
   },
   {
-   "id": "81db98cd713d",
-   "title": "【漫画更新】Graykeith no Makaigo Yakuroku 第 8 话「The Infernal Adventures of Aktagaar」",
-   "url": "https://mangadex.org/chapter/fd5d27db-757f-4832-a4b8-054bbec13ad2",
+   "id": "83d991a573cf",
+   "title": "【漫画更新】Xīngjiǎ Húnjiàng Zhuàn 第 256 话「Song Family Genealogy」",
+   "url": "https://mangadex.org/chapter/07025f1d-fb68-4645-886c-d3735bd4fada",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-02T00:29:46+08:00",
+   "published": "2026-11-02T09:18:08+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】グレイキースの魔界郷約束 第8章「アクタガーの地獄の冒険」"
+     "title": "【コミック更新】星家勲章 第256話「宋家の系譜」"
     },
     "en": {
-     "title": "【Manga Update】Graykeith no Makaigo Yakuroku Chapter 8 \"The Infernal Adventures of Aktagaar\""
+     "title": "【Comic Update】Xīngjiǎ Húnjiàng Zhuàn Chapter 256 \"Song Family Genealogy\""
     }
    }
   },
   {
-   "id": "7d67d02b2984",
-   "title": "【漫画更新】Ura no Report 第 9 话「Ura's Contact Info」",
-   "url": "https://mangadex.org/chapter/352b7179-a44f-4f56-b326-c3b7764906ad",
+   "id": "41f829b2d8a5",
+   "title": "【漫画更新】Xīngjiǎ Húnjiàng Zhuàn 第 255 话「Shadow Guards' Special Operations Group」",
+   "url": "https://mangadex.org/chapter/516351cc-815f-46b6-b521-593c6b7d626f",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-02T00:29:46+08:00",
+   "published": "2026-11-02T09:18:08+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】ウラノレポート 第9話「ウラの連絡先」"
+     "title": "【コミック更新】星家勲章 第255話「影の衛兵特殊作戦群」"
     },
     "en": {
-     "title": "【Manga Update】Ura no Report Chapter 9 \"Ura's Contact Info\""
+     "title": "【Comic Update】Xīngjiǎ Húnjiàng Zhuàn Chapter 255 \"Shadow Guards' Special Operations Group\""
     }
    }
   },
   {
-   "id": "7907397e8847",
-   "title": "【漫画更新】Mayori no Gakkou 第 9 话",
-   "url": "https://mangadex.org/chapter/7bc910fa-fbfc-4979-8b7a-defba05bef04",
+   "id": "1fccf1d15bd6",
+   "title": "【漫画更新】Houkago Teibou Nisshi 第 67 话「Goby Fishing part 2」",
+   "url": "https://mangadex.org/chapter/bddce852-a2fb-4ff3-9d7b-08182f28415f",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-02T00:29:46+08:00",
+   "published": "2026-11-02T09:18:08+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】まよりの学校 第9話"
+     "title": "【マンガ更新】放課後ていぼう日誌 第67話「ハゼ釣り 後編」"
     },
     "en": {
-     "title": "【Manga Update】Mayori no Gakkou Chapter 9"
+     "title": "【Manga Update】Houkago Teibou Nisshi Chapter 67 \"Goby Fishing part 2\""
     }
    }
   }
