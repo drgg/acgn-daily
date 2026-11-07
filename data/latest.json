@@ -1,13 +1,13 @@
 {
  "date": "2026-11-07",
- "generated_at": "2026-11-07T01:03:55+08:00",
+ "generated_at": "2026-11-07T09:43:16+08:00",
  "count": 158,
  "stories": 2,
  "categories": {
-  "anime": 65,
+  "anime": 56,
   "comic": 10,
-  "game": 58,
-  "novel": 15,
+  "game": 64,
+  "novel": 18,
   "general": 10
  },
  "sources": [
@@ -37,23 +37,23 @@
    "error": null
   },
   {
-   "name": "ラノベニュースオンライン",
-   "count": 15,
-   "error": null
-  },
-  {
    "name": "机核 GCORES",
    "count": 15,
    "error": null
   },
   {
-   "name": "GIGAZINE",
+   "name": "ラノベニュースオンライン",
    "count": 15,
    "error": null
   },
   {
    "name": "anilist_airing",
    "count": 20,
+   "error": null
+  },
+  {
+   "name": "GIGAZINE",
+   "count": 15,
    "error": null
   },
   {
@@ -78,6 +78,69 @@
   }
  ],
  "items": [
+  {
+   "id": "5f5f63cf57c2",
+   "title": "Hana-Kimi Manga Gets New Live-Action Series, 1st Stage Play",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-06/hana-kimi-manga-gets-new-live-action-series-1st-stage-play/.243601",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-07T07:51:13+08:00",
+   "summary": "Hana Kawamura, The Rampage's Makoto Hasegawa & Itsuki Fujiwara star in both",
+   "i18n": {
+    "zh": {
+     "title": "Hana-Kimi 漫画获得新的真人系列，第一阶段播放",
+     "summary": "河村花、《狂暴巨兽》的长谷川诚和藤原树均出演"
+    },
+    "ja": {
+     "title": "『花君』マンガが実写新シリーズ初舞台化",
+     "summary": "川村花さん、ザ・ランペイジの長谷川慎さん、藤原樹さんがダブル主演"
+    }
+   }
+  },
+  {
+   "id": "67df0bc7f521",
+   "title": "North American Anime, Manga Releases, November 1-7",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-06/north-american-anime-manga-releases-november-1-7/.243459",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-07T06:00:00+08:00",
+   "summary": "KPop Demon Hunters animated film; Black Jack, Full Metal Panic! Family manga ship",
+   "i18n": {
+    "zh": {
+     "title": "北美动漫、漫画发布，11 月 1 日至 7 日",
+     "summary": "韩国流行音乐《恶魔猎手》动画电影；黑杰克、全金属狂潮！家庭漫画船"
+    },
+    "ja": {
+     "title": "北米のアニメ、マンガのリリース、11 月 1 ～ 7 日",
+     "summary": "KPop デーモンハンターズアニメーション映画。ブラック・ジャック、フルメタル・パニック！ファミリーマンガシップ"
+    }
+   }
+  },
+  {
+   "id": "91c85fb9f1eb",
+   "title": "Odd Taxi Manga Author Launches New Rematch With You Manga in Late November",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-06/odd-taxi-manga-author-launches-new-rematch-with-you-manga-in-late-november/.243576",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-07T05:00:00+08:00",
+   "summary": "Abaraya previously published dōjin version of manga at Comitia in November 2025",
+   "i18n": {
+    "zh": {
+     "title": "《奇怪的出租车》漫画作者将于11月下旬推出新漫画《与你重赛》",
+     "summary": "Abaraya 曾于 2025 年 11 月在 Comitia 出版过同人版漫画"
+    },
+    "ja": {
+     "title": "オッドタクシー漫画家、11月下旬に君との新作再戦漫画を発売",
+     "summary": "アバラヤは以前、2025 年 11 月にコミティアで漫画の同人版を出版しました"
+    }
+   }
+  },
   {
    "id": "26f5760a68db",
    "title": "Paradox Live The Animation's Film Announces Title, 2027 Opening",
@@ -115,7 +178,8 @@
      "summary": "宫本梦、大冢武夫主演的动画"
     },
     "ja": {
-     "title": "アニメ「雨の日のセレナーデ」のティーザーがキャスト、スタッフ、2027年4月デビューを明らかに"
+     "title": "アニメ「雨の日のセレナーデ」のティーザーがキャスト、スタッフ、2027年4月デビューを明らかに",
+     "summary": "宮本侑芽、大塚武夫がアニメに出演"
     }
    }
   },
@@ -389,6 +453,147 @@
     "ja": {
      "title": "グッドスマイルカンパニー、オンラインストア情報漏えいを受け11月6日より一部再開",
      "summary": "10月23日に同社が侵害を発見した後、ストアは製品情報を閲覧するために再開される"
+    }
+   }
+  },
+  {
+   "id": "865106089823",
+   "title": "初期版から何が変わった？ 「DRAPLINE」Ver.1.0の新要素と，アーリーアクセスで追加された内容まとめ。正式版で広がった育成と戦闘，その先の物語",
+   "url": "https://www.4gamer.net/games/921/G092147/20261104029/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-07T09:00:00+08:00",
+   "summary": "2026年9月24日に正式リリースを迎えた，“なんでも食べちゃうドラゴン娘”が主人公の「DRAPLINE」。アーリーアクセスからこれまで「圧倒的に好評」でゲーマーに受け入れられている本作は，どんな歩みを経て現在に至ったのか。",
+   "i18n": {
+    "zh": {
+     "title": "与最初版本相比有什么变化？ “DRAPLINE”Ver.1.0 的新元素和抢先体验中添加的内容摘要。正式版中扩展了训练和战斗，以及未来的故事",
+     "summary": "2026年9月24日正式上映的《DRAPLINE》以“什么都吃的龙女”为主角。这款自抢先体验以来就受到玩家“压倒性好评”的作品，是如何走到今天这一步的呢？"
+    },
+    "en": {
+     "title": "What has changed since the initial version? Summary of new elements of \"DRAPLINE\" Ver.1.0 and contents added in early access. Training and battle expanded in the official version, and the story ahead",
+     "summary": "“DRAPLINE”, which was officially released on September 24, 2026, features a “dragon girl who eats everything” as the main character. How has this work, which has been received by gamers with ``overwhelmingly positive reviews'' since its early access, reached its current state?"
+    }
+   }
+  },
+  {
+   "id": "f992f74c48a7",
+   "title": "ベリーズファンタジー2026年11月刊行のラインナップをご紹介。『双子王子の継母になりまして5』『未練なんてありませんが？』など7冊",
+   "url": "https://ln-news.com/articles/127139",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-07T09:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "介绍2026年11月出版的伯利兹幻想的阵容。“我成为了双胞胎王子5的继母”“我没有任何遗憾？” ”以及其他 7 本书。"
+    },
+    "en": {
+     "title": "Introducing the lineup of Belize Fantasy published in November 2026. ``I became a stepmother to twin princes 5'' ``I don't have any regrets? ” and 7 other books."
+    }
+   }
+  },
+  {
+   "id": "53ea0b53b2ab",
+   "title": "インディーゲーム展示会「東京ゲームダンジョン14」レポート（前編）。ロボ暴走族に花札バトル，限界集落まで揃った“ゲームの迷宮”",
+   "url": "https://www.4gamer.net/games/991/G999110/20261106027/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-07T08:00:00+08:00",
+   "summary": "340団体という，募集枠を大幅に上回る出展者が集った「東京ゲームダンジョン14」。4Gamerは今回も，前後編に分けて，注目タイトルや作者の強い個性を感じたゲームを紹介する。まず前編は，インディーゲームらしい振れ幅の広さを感じる作品から。",
+   "i18n": {
+    "zh": {
+     "title": "独立游戏展“东京游戏地下城14”报道（第1部分）。这是一个“游戏迷宫”，里面有机器人摩托车帮、花札战斗，甚至还有边缘村庄。",
+     "summary": "《东京游戏地下城14》吸引了340家参展商，远远超过了参展商数量。 4Gamer 将再次将其分为两个部分，介绍具有强烈作者个性的著名作品和游戏。首先，第一部分是一部让您感受到独立游戏典型的广泛变化的作品。"
+    },
+    "en": {
+     "title": "Report on the indie game exhibition \"Tokyo Game Dungeon 14\" (Part 1). A “gaming labyrinth” complete with robot motorcycle gangs, Hanafuda battles, and even marginal villages.",
+     "summary": "``Tokyo Game Dungeon 14'' attracted 340 exhibitors, which far exceeded the recruitment quota. 4Gamer will once again be dividing this into two parts, introducing notable titles and games that have a strong sense of the author's individuality. First of all, the first part is a work that gives you a sense of the wide range of variation typical of indie games."
+    }
+   }
+  },
+  {
+   "id": "19959c5e40ed",
+   "title": "吉田氏とのバトル（？）に注目のLIVE Q＆Aから，THE PRIMALSのライブまで，熱い展開が目白押しの「FFXIV ファンフェスティバル 2026 in 東京」DAY2のレポートをお届け",
+   "url": "https://www.4gamer.net/games/199/G019924/20261106033/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-07T08:00:00+08:00",
+   "summary": "スクウェア・エニックスは，10月31日と11月1日にMMORPG「ファイナルファンタジーXIV」のリアルイベント，「FFXIVファンフェスティバル2026in東京」を開催した。LIVEQ＆Aや直樹の部屋，そしてTHEPRIMALSのライブまで熱いステージが目白押しだったDAY2の模様をレポートしよう。",
+   "i18n": {
+    "zh": {
+     "title": "我们为您带来“FFXIV Fan Festival 2026 in Tokyo”第二天的报道，从关注与吉田先生的战斗（？）的LIVE Q&A到THE PRIMALS的现场表演，充满了令人兴奋的进展。",
+     "summary": "Square Enix 于 10 月 31 日和 11 月 1 日举办了 MMORPG 《最终幻想 XIV》的真实活动“FFXIV Fan Festival 2026 in Tokyo”。来报道一下DAY2，从LIVEQ&A、Naoki的房间到THEPRIMALS的现场表演，充满了精彩的舞台。"
+    },
+    "en": {
+     "title": "We bring you a report on DAY 2 of \"FFXIV Fan Festival 2026 in Tokyo\", which is full of exciting developments, from LIVE Q&A focused on the battle (?) with Mr. Yoshida to THE PRIMALS' live performance.",
+     "summary": "Square Enix held a real event for the MMORPG \"Final Fantasy XIV\", \"FFXIV Fan Festival 2026 in Tokyo\", on October 31st and November 1st. Let's report on DAY2, which was full of exciting stages from LIVEQ&A, Naoki's room, and THEPRIMALS' live performance."
+    }
+   }
+  },
+  {
+   "id": "9a2df002955c",
+   "title": "アニメ『転生したら剣でしたII』新章突入キービジュアル第2弾＆PV第3弾が公開",
+   "url": "https://ln-news.com/articles/127153",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-07T07:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "动画《我转生为剑II》新篇主视觉图第2、3弹PV公开"
+    },
+    "en": {
+     "title": "Anime “I Got Reincarnated as a Sword II” New Chapter Key Visual 2nd & 3rd PV released"
+    }
+   }
+  },
+  {
+   "id": "7b5a4d46f007",
+   "title": "「jubeat」新筐体を「アミューズメント エキスポ 2026」でチェック。120fps対応やタッチパネルなど，18年ぶりの刷新で何が変わった？",
+   "url": "https://www.4gamer.net/games/054/G105425/20261106036/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-07T06:00:00+08:00",
+   "summary": "2008年の登場から18年。KONAMIの音楽ゲーム「jubeat」に，待望の新筐体が登場した。フルHD・120fps対応のディスプレイをはじめ，タッチパネルや新たな演出機能を搭載し，大幅な進化を遂げている。「アミューズメントエキスポ2026」で展示された実機の特徴を，制作スタッフへの取材を交えて紹介しよう。",
+   "i18n": {
+    "zh": {
+     "title": "在“Amusement Expo 2026”上查看新的“jubeat”外壳。 18年来首次革新，比如支持120fps、触摸屏等，有什么变化？",
+     "summary": "自2008年首次亮相以来，已经过去18年了。人们期待已久的KONAMI音乐游戏《jubeat》的新机柜已经到来。它经历了重大演变，包括全高清 120fps 显示屏、触摸面板和新的生产功能。我们来介绍一下“Amusement Expo 2026”中展出的实际机器的特点，以及对制作人员的采访。"
+    },
+    "en": {
+     "title": "Check out the new “jubeat” casing at “Amusement Expo 2026”. What has changed with the first renovation in 18 years, such as 120fps support and touch panel?",
+     "summary": "18 years have passed since its debut in 2008. The long-awaited new cabinet for KONAMI's music game \"jubeat\" has arrived. It has undergone significant evolution, including a full HD 120fps display, a touch panel, and new production functions. Let's introduce the characteristics of the actual machines exhibited at \"Amusement Expo 2026\", along with interviews with the production staff."
+    }
+   }
+  },
+  {
+   "id": "99f65d064734",
+   "title": "『天才令嬢が後宮で目指す怠惰な生活 後宮では昼寝と読書三昧の日々を堪能します』のコミカライズ連載がビーズログ・コミック166号より開始",
+   "url": "https://ln-news.com/articles/127118",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-07T05:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "《贝氏日志》漫画第166期开始漫画《在后宫过着慵懒生活的天才少女，享受午睡和读书的日子》"
+    },
+    "en": {
+     "title": "The comic serialization of ``A genius young lady aims for a lazy life in the inner palace where she enjoys her days of napping and reading books'' begins in Be's Log Comic No. 166"
     }
    }
   },
@@ -679,7 +884,7 @@
    },
    "story": {
     "sources": 2,
-    "heat": 1.56,
+    "heat": 1.21,
     "members": [
      "340d98f6582d"
     ]
@@ -986,6 +1191,174 @@
     },
     "en": {
      "title": "PASH! Introducing the lineup of Books & Bunko published in November 2026. ``Even if you call me my mate...I'm just a supporting princess! ” and “The Misunderstood Book of National Salvation of a Villainous Daughter 5” and 2 other books."
+    }
+   }
+  },
+  {
+   "id": "3f1f2e2f989f",
+   "title": "ムーミンの保温・保冷バッグが登場！新ブランド「Funde」から行楽バッグやランチバッグなど全6商品を発売",
+   "url": "https://animeanime.jp/article/2026/11/07/104558.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-07T09:30:03+08:00",
+   "summary": "ムーミンをデザインした保温・保冷バッグ「FCW」シリーズ全6商品が、新ブランド「Funde」から登場。保冷巾着行楽バッグ、保冷巾着ランチバッグ、保冷ペットボトルケースを展開する。",
+   "i18n": {
+    "zh": {
+     "title": "姆明保暖袋和保冷袋现已上市！新品牌“丰德”发布度假包、午餐包等6款产品",
+     "summary": "新品牌“丰德”现已推出与姆明设计的“FCW”系列冷热袋共6款产品。该公司销售隔热抽绳度假袋、隔热抽绳午餐袋和隔热塑料瓶箱。"
+    },
+    "en": {
+     "title": "Moomin thermal and cold bags are now available! New brand “Funde” releases 6 products including vacation bags and lunch bags",
+     "summary": "A total of 6 products in the \"FCW\" series of thermal and cold bags designed with Moomin are now available from the new brand \"Funde\". The company sells insulated drawstring vacation bags, insulated drawstring lunch bags, and insulated plastic bottle cases."
+    }
+   }
+  },
+  {
+   "id": "5dbb232c592c",
+   "title": "500日以上監禁されていた少女、『Among Us』がきっかけとなり救助される。オンラインゲームが誘拐事件解決の糸口に",
+   "url": "https://automaton-media.com/articles/newsjp/20261107-477955/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-07T09:19:18+08:00",
+   "summary": "アメリカにて、500日以上にわたり行方不明となっていた17歳の少女が『Among Us』をきっかけとして救出されたようだ。",
+   "i18n": {
+    "zh": {
+     "title": "一名被囚禁500多天的女孩看完《我们之中》获救。网络游戏有助于侦破绑架案件",
+     "summary": "一名在美国失踪500多天的17岁女孩，凭借电影《我们之中》获救。"
+    },
+    "en": {
+     "title": "A girl who was imprisoned for more than 500 days is rescued after watching \"Among Us.\" Online games lead to solving kidnapping cases",
+     "summary": "A 17-year-old girl who had been missing for more than 500 days in the United States was rescued thanks to the movie \"Among Us.\""
+    }
+   }
+  },
+  {
+   "id": "42f970645d04",
+   "title": "メガネを大切にして何がいけないのよ！ 「プリキュア」キュアブラック、キュアホワイト、シャイニールミナスが「Zoff」とコラボ☆",
+   "url": "https://animeanime.jp/article/2026/11/07/104557.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-07T09:00:03+08:00",
+   "summary": "TVアニメ『ふたりはプリキュア』『ふたりはプリキュア Max Heart』のキュアブラック、キュアホワイト、シャイニールミナスが「Zoff」のアイウェアコレクションで登場。メップル、ミップルたちにも注目！",
+   "i18n": {
+    "zh": {
+     "title": "眼镜保养有什么问题吗？ “PreCure”Cure Black、Cure White、Shiny Luminous 与“Zoff”合作☆",
+     "summary": "电视动画《光之美少女》和《光之美少女 Max Heart》中的 Cure Black、Cure White 和 Shiny Luminous 现已在“Zoff”眼镜系列中发售。注意梅普尔和米普尔斯！"
+    },
+    "en": {
+     "title": "What's wrong with taking care of your glasses? \"PreCure\" Cure Black, Cure White, and Shiny Luminous collaborate with \"Zoff\" ☆",
+     "summary": "Cure Black, Cure White, and Shiny Luminous from the TV anime “Futari wa PreCure” and “Futari wa PreCure Max Heart” are now available in the “Zoff” eyewear collection. Pay attention to Mepple and Mipples!"
+    }
+   }
+  },
+  {
+   "id": "1777d579fe9a",
+   "title": "12月オープン！「ジョジョ」が大阪にやってくる♪ 荒木飛呂彦描き下ろし“悪役イラスト”が公開【THE★JOJO WORLD OSAKA】",
+   "url": "https://animeanime.jp/article/2026/11/07/104556.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-07T08:30:02+08:00",
+   "summary": "「ジョジョ」の世界を大阪で楽しんじゃおう！ 「THE★JOJO WORLD OSAKA」が12月にオープン♪",
+   "i18n": {
+    "zh": {
+     "title": "12月开业！ 《JOJO》登陆大阪♪荒木飞吕彦绘制的“反派插画”公开【THE★JOJO WORLD OSAKA】",
+     "summary": "快来大阪感受《Jojo》的世界吧！ 「THE★JOJO WORLD OSAKA」12月开幕♪"
+    },
+    "en": {
+     "title": "Opening in December! “Jojo” is coming to Osaka ♪ “Villain illustration” drawn by Hirohiko Araki is released [THE★JOJO WORLD OSAKA]",
+     "summary": "Let's enjoy the world of \"Jojo\" in Osaka! \"THE★JOJO WORLD OSAKA\" opens in December♪"
+    }
+   }
+  },
+  {
+   "id": "c24539dc3710",
+   "title": "『Path of Exile 2』正式リリースでさらなる新クラス「シャドウ」実装へ。ACT5＆6がどどんと追加、“大規模戦闘”が楽しめる新リーグなど新情報いろいろお披露目",
+   "url": "https://automaton-media.com/articles/newsjp/20261107-477950/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-07T08:20:00+08:00",
+   "summary": "Grinding Gear Gamesは11月7日、『Path of Exile 2』の新たな情報を発表。新クラスや新リーグの詳細がお披露目された。",
+   "i18n": {
+    "zh": {
+     "title": "随着《流放之路2》的正式发布，新职业“暗影”将会上线。 ACT5&6将快速加入，可以享受“大规模战斗”的新联赛等新信息也将公布。",
+     "summary": "Grinding Gear Games 于 11 月 7 日公布了《流放之路 2》的新信息。新班级和新联赛的详细信息已经公布。"
+    },
+    "en": {
+     "title": "With the official release of \"Path of Exile 2\", a new class \"Shadow\" will be implemented. ACT5 & 6 will be added rapidly, new leagues where you can enjoy \"large-scale battles\" and other new information will be announced.",
+     "summary": "Grinding Gear Games announced new information for Path of Exile 2 on November 7th. Details of new classes and new leagues have been revealed."
+    }
+   }
+  },
+  {
+   "id": "bdbcf8874f3a",
+   "title": "「ヒロアカ」お茶子、梅雨、葉隠、ねじれが「一番くじ」に集合！ ラストワン賞は花畑再現のトガちゃん☆",
+   "url": "https://animeanime.jp/article/2026/11/07/104555.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-07T08:00:03+08:00",
+   "summary": "TVアニメ『僕のヒーローアカデミア』に登場する麗日お茶子、トガヒミコ、蛙吹梅雨、葉隠透、波動ねじれ。ヒロアカガールズが「一番くじ」を盛り上げます！",
+   "i18n": {
+    "zh": {
+     "title": "“英雄阿卡”御茶子、露、叶隐、宁次雷齐聚“一番久事”！最后一名获奖者是再现花园的利贺酱☆",
+     "summary": "浦良御茶子、利贺卑美子、戸吹露、叶隐彻、波户宁次雷出演电视动画《我的英雄学院》。 Heroaka Girls 将使“一番签”变得精彩！"
+    },
+    "en": {
+     "title": "“Heroaka” Ochako, Tsuyu, Hagakure, and Nejire gather at “Ichiban Kuji”! The last one award goes to Toga-chan who recreates the flower garden ☆",
+     "summary": "Ochako Uraraka, Himiko Toga, Tsuyu Togabuki, Tooru Hagakure, and Nejire Hado appear in the TV anime \"My Hero Academia.\" Heroaka Girls will make “Ichiban Kuji” exciting!"
+    }
+   }
+  },
+  {
+   "id": "7917eb5ede13",
+   "title": "「パラライ」初の劇場アニメが2027年公開！ 超ティザービジュアルや32名集結のMVも公開",
+   "url": "https://animeanime.jp/article/2026/11/07/104554.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-07T07:30:03+08:00",
+   "summary": "HIPHOPメディアミックスプロジェクト「Paradox Live」（通称・パラライ）の初の劇場アニメ『Paradox Live THE MOVIE』が、2027年に公開されることがわかった。",
+   "i18n": {
+    "zh": {
+     "title": "《Paralai》首部剧场版动画将于2027年上映！ 32人的超级预告视觉和MV也公开",
+     "summary": "据透露，HIPHOP媒体混合项目“Paradox Live”（俗称Pararai）的第一部剧场动画“Paradox Live THE MOVIE”将于2027年上映。"
+    },
+    "en": {
+     "title": "The first theatrical animation of “Paralai” will be released in 2027! Super teaser visual and MV featuring 32 people also released",
+     "summary": "It has been revealed that the first theatrical animation ``Paradox Live THE MOVIE'' from the HIPHOP media mix project ``Paradox Live'' (commonly known as Pararai) will be released in 2027."
+    }
+   }
+  },
+  {
+   "id": "bacaeadcd3f8",
+   "title": "「花ざかりの君たちへ」原作30周年で新ドラマ＆舞台化！ メインキャスト12人のビジュアル公開",
+   "url": "https://animeanime.jp/article/2026/11/07/104553.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-07T06:30:03+08:00",
+   "summary": "中条比紗也による大ヒットマンガ『花ざかりの君たちへ』が、原作連載30周年記念プロジェクトとして新たにドラマ化され、2026年12月5日より日本テレビにて放送されることがわかった。さらに、同ドラマのメインキャストが総出演する舞台化も決定した。これに伴いメインキャストが発表され、ソロビジュアルも公開された。",
+   "i18n": {
+    "zh": {
+     "title": "《致盛开的你》将在原作问世30周年之际，改编成新剧并登舞台！ 12名主要演员视觉公开",
+     "summary": "作为纪念原作连载30周年的企划，中条久弥的热门漫画《花样的君临e》已宣布将改编成新剧，将于2026年12月5日起在日本电视台播出。此外，该剧还决定将改编成主要演员全部出演的舞台剧。与此同时，主要演员阵容也被公布，个人视觉图也被公开。"
+    },
+    "en": {
+     "title": "“To You in Full Bloom” will be made into a new drama and stage on the 30th anniversary of the original work! Visual release of 12 main cast members",
+     "summary": "It has been announced that Nakajo Hisaya's hit manga ``Hanazakari no Kimitachi e'' will be made into a new drama as a project to commemorate the 30th anniversary of the original serialization, and will be broadcast on Nippon Television from December 5, 2026. In addition, it has been decided that the drama will be made into a stage play in which all the main cast members will appear. Along with this, the main cast was announced and solo visuals were also released."
     }
    }
   },
@@ -2084,7 +2457,7 @@
    },
    "story": {
     "sources": 2,
-    "heat": 1.16,
+    "heat": 0.9,
     "members": [
      "d4f82fdc5a89"
     ]
@@ -2264,7 +2637,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-07T00:59:20+08:00",
+   "published": "2026-11-07T09:39:47+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2283,7 +2656,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-07T00:59:20+08:00",
+   "published": "2026-11-07T09:39:47+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2302,7 +2675,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-07T00:59:20+08:00",
+   "published": "2026-11-07T09:39:47+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2321,7 +2694,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-07T00:59:20+08:00",
+   "published": "2026-11-07T09:39:47+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2340,7 +2713,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-07T00:59:20+08:00",
+   "published": "2026-11-07T09:39:47+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2359,7 +2732,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-07T00:59:20+08:00",
+   "published": "2026-11-07T09:39:47+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2378,7 +2751,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-07T00:59:20+08:00",
+   "published": "2026-11-07T09:39:47+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2397,7 +2770,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-07T00:59:20+08:00",
+   "published": "2026-11-07T09:39:47+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2416,7 +2789,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-07T00:59:20+08:00",
+   "published": "2026-11-07T09:39:47+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2435,7 +2808,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-07T00:59:20+08:00",
+   "published": "2026-11-07T09:39:47+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2454,7 +2827,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-07T00:59:20+08:00",
+   "published": "2026-11-07T09:39:47+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2473,7 +2846,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-07T00:59:20+08:00",
+   "published": "2026-11-07T09:39:47+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2492,7 +2865,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-07T00:59:20+08:00",
+   "published": "2026-11-07T09:39:47+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2511,7 +2884,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-07T00:59:20+08:00",
+   "published": "2026-11-07T09:39:47+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2530,7 +2903,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-07T00:59:20+08:00",
+   "published": "2026-11-07T09:39:47+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2542,158 +2915,6 @@
    }
   },
   {
-   "id": "3da0ce2dbce3",
-   "title": "【今日放送 16:00】ジョジョの奇妙な冒険 スティール・ボール・ラン 2nd＆3rd STAGE 第7集",
-   "url": "https://anilist.co/anime/210482",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日16:00播出】JoJo的奇妙冒险 钢珠跑 第2、3期 STAGE 第7卷"
-    },
-    "en": {
-     "title": "[Broadcast today 16:00] JoJo's Bizarre Adventure Steel Ball Run 2nd & 3rd STAGE Volume 7"
-    }
-   }
-  },
-  {
-   "id": "04003446cc00",
-   "title": "【今日放送 17:40】パンどろぼう 第6集",
-   "url": "https://anilist.co/anime/194207",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日17:40播出】潘机器人第6集"
-    },
-    "en": {
-     "title": "[Broadcast today 17:40] Pan Robo Episode 6"
-    }
-   }
-  },
-  {
-   "id": "93b20e3cef32",
-   "title": "【今日放送 17:55】ポケットモンスター (2023) 第156集",
-   "url": "https://anilist.co/anime/158871",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日17:55播出】精灵宝可梦 (2023) 第156集"
-    },
-    "en": {
-     "title": "[Broadcast today 17:55] Pokemon (2023) Episode 156"
-    }
-   }
-  },
-  {
-   "id": "0a908d4c7997",
-   "title": "【今日放送 18:00】ギリギリわるくないわため 第87集",
-   "url": "https://anilist.co/anime/146004",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日18:00播出】第87集"
-    },
-    "en": {
-     "title": "[Broadcast today 18:00] Episode 87"
-    }
-   }
-  },
-  {
-   "id": "2494d2d3a432",
-   "title": "【今日放送 18:00】BEYBLADE X 第139集",
-   "url": "https://anilist.co/anime/165159",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日18:00播出】BEYBLADE X Vol. 139"
-    },
-    "en": {
-     "title": "[Broadcast today 18:00] BEYBLADE X Vol. 139"
-    }
-   }
-  },
-  {
-   "id": "7f79b2cbfe4d",
-   "title": "【今日放送 20:00】デモンズ・クレスト 第2集",
-   "url": "https://anilist.co/anime/203275",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日20:00播出】恶魔之纹第2卷"
-    },
-    "en": {
-     "title": "[Broadcast today 20:00] Demon's Crest Volume 2"
-    }
-   }
-  },
-  {
-   "id": "fa5d523f3f85",
-   "title": "【今日放送 20:26】蒼き伝承 ウェルシュ&シェーダー 第6集",
-   "url": "https://anilist.co/anime/216895",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日20:26播出】Blue Legend Welsh & Shader 第6卷"
-    },
-    "en": {
-     "title": "[Broadcast today 20:26] Blue Legend Welsh & Shader Volume 6"
-    }
-   }
-  },
-  {
-   "id": "3bcf4cf0d7fd",
-   "title": "【今日放送 21:30】とある暗部の少女共棲 第5集",
-   "url": "https://anilist.co/anime/186742",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日21:30播出】某阴暗面少女共存第5卷"
-    },
-    "en": {
-     "title": "[Broadcast today 21:30] A Certain Dark Side Girl Coexists Volume 5"
-    }
-   }
-  },
-  {
    "id": "dd7ed941f21b",
    "title": "【今日放送 22:00】薬屋のひとりごと 第3期 第6集",
    "url": "https://anilist.co/anime/195516",
@@ -2701,7 +2922,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
+   "published": "2026-11-07T09:39:46+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2720,7 +2941,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
+   "published": "2026-11-07T09:39:46+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2732,192 +2953,44 @@
    }
   },
   {
-   "id": "2fa6840de621",
-   "title": "【今日放送 22:30】桃源暗鬼 日光・華厳の滝編 第6集",
-   "url": "https://anilist.co/anime/204650",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "d0a96485ff90",
+   "title": "PROLED XDRディスプレイ搭載MacBook Proで10年ぶりに復活した「光るAppleロゴ」は消灯することも可能",
+   "url": "https://gigazine.net/news/20261107-apple-how-turn-off-macbook-glowing-logo/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
+   "weight": 5,
+   "published": "2026-11-07T08:00:00+08:00",
+   "summary": "Appleが2026年10月末に発表した「PROLED XDRディスプレイ搭載MacBook Pro」では、10年ぶりに天板のAppleロゴが光ります。この光るAppleロゴは消灯可能であることが明らかになりました。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "【今日22:30播出】桃源 Anki Nikko/华严瀑布 第 6 卷"
+     "title": "配备 PROLED XDR 显示屏的 MacBook Pro 上十年来首次复活的“发光苹果标志”也可以关闭",
+     "summary": "在苹果于 2026 年 10 月底宣布的“配备 PROLED XDR 显示屏的 MacBook Pro”中，顶板上的苹果标志将在 10 年来首次发光。据透露，这个发光的苹果标志是可以关闭的。阅读更多..."
     },
     "en": {
-     "title": "[Broadcast today 22:30] Togen Anki Nikko/Kegon Falls Volume 6"
+     "title": "The ``glowing Apple logo'' revived for the first time in 10 years on MacBook Pro equipped with PROLED XDR display can also be turned off",
+     "summary": "In the \"MacBook Pro with PROLED XDR display\" announced by Apple at the end of October 2026, the Apple logo on the top plate will shine for the first time in 10 years. It has been revealed that this glowing Apple logo can be turned off. read more..."
     }
    }
   },
   {
-   "id": "1c3c3c6eb872",
-   "title": "【今日放送 23:00】うちの弟どもがすみません 第18集",
-   "url": "https://anilist.co/anime/203490",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "9221b79947bb",
+   "title": "歌詞の「感情表現」が時間の経過とともに減少し非道徳的な歌詞が増えていることが判明",
+   "url": "https://gigazine.net/news/20261107-lyrics-less-emotion/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
+   "weight": 5,
+   "published": "2026-11-07T07:00:00+08:00",
+   "summary": "人気の曲を調べた研究で、曲に使われる歌詞が時代と共に変化していることが分かりました。表現の幅が狭まった上で、非道徳的思想に関連する歌詞が増加するなどの傾向が見られています。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "【今日23:00播出】弟弟们对不起第18集"
+     "title": "事实证明，随着时间的推移，歌词的“情感表达”越来越少，不道德的歌词越来越多。",
+     "summary": "一项对流行歌曲的研究发现，歌曲中使用的歌词随着时间的推移而变化。表达范围缩小，与不道德思想相关的歌词越来越多。阅读更多..."
     },
     "en": {
-     "title": "[Broadcast today 23:00] My younger brothers are sorry Episode 18"
-    }
-   }
-  },
-  {
-   "id": "919d4961d830",
-   "title": "【今日放送 00:53】東京リベンジャーズ 三天戦争編 第6集",
-   "url": "https://anilist.co/anime/178083",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日播出00:53】东京复仇者三天战争版第6卷"
-    },
-    "en": {
-     "title": "[Broadcast today 00:53] Tokyo Revengers Santen War Edition Volume 6"
-    }
-   }
-  },
-  {
-   "id": "9da34e2a5e7a",
-   "title": "【今日放送 07:00】ごーすと・みーつ・ぎゃる！ 第10集",
-   "url": "https://anilist.co/anime/214703",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日07:00播出】鬼、遇见、辣妹！第10卷"
-    },
-    "en": {
-     "title": "[Broadcast today 07:00] Ghost, Meets, Gal! Volume 10"
-    }
-   }
-  },
-  {
-   "id": "6214d3feae09",
-   "title": "【今日放送 07:30】パンの赤ちゃん 第19集",
-   "url": "https://anilist.co/anime/212308",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日07:30播出】面包宝贝第19集"
-    },
-    "en": {
-     "title": "[Broadcast today 07:30] Bread Baby Episode 19"
-    }
-   }
-  },
-  {
-   "id": "7161c6dcdaab",
-   "title": "【今日放送 08:26】リラックマ 第31集",
-   "url": "https://anilist.co/anime/183231",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "[今日播出 08:26] 轻松熊 Vol.1 31"
-    },
-    "en": {
-     "title": "[Broadcast today 08:26] Rilakkuma Vol. 31"
-    }
-   }
-  },
-  {
-   "id": "5d4e483c7a07",
-   "title": "【今日放送 08:30】ねずみくんのチョッキ (TV) 第2期 第6集",
-   "url": "https://anilist.co/anime/214968",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日08:30播出】老鼠君的马甲 (TV) 第2季第6集"
-    },
-    "en": {
-     "title": "[Broadcast today 08:30] Mouse-kun's Waistcoat (TV) Season 2 Episode 6"
-    }
-   }
-  },
-  {
-   "id": "414441e80bda",
-   "title": "【今日放送 08:30】ケロロ軍曹☆ 第6集",
-   "url": "https://anilist.co/anime/216557",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日08:30播出】Keroro中士☆第6集"
-    },
-    "en": {
-     "title": "[Broadcast today 08:30] Sergeant Keroro☆ Episode 6"
-    }
-   }
-  },
-  {
-   "id": "3cdcecaa60f7",
-   "title": "【今日放送 09:00】择日飞升 第19集",
-   "url": "https://anilist.co/anime/214260",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日09:00播出】第一天第19集"
-    },
-    "en": {
-     "title": "[Broadcast today 09:00] Episode 19 of Day 1"
-    }
-   }
-  },
-  {
-   "id": "753f12e511bc",
-   "title": "【今日放送 10:00】斗罗大陆2绝世唐门 第178集",
-   "url": "https://anilist.co/anime/137683",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-07T00:59:19+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日10:00播出】斗罗大陆2死唐门第178集"
-    },
-    "en": {
-     "title": "[Broadcast today 10:00] Dou Luo Da Lu 2 Death Tang Gate Episode 178"
+     "title": "It turns out that the ``emotional expression'' of lyrics is decreasing over time and the number of unethical lyrics is increasing.",
+     "summary": "A study of popular songs found that the lyrics used in songs change over time. The range of expression has narrowed, and the number of lyrics related to immoral ideas is increasing. read more..."
     }
    }
   },
@@ -3090,234 +3163,184 @@
    }
   },
   {
-   "id": "08ce217f2419",
-   "title": "Motorolaのフラグシップスマホ「Motorola signature 27」がまさかのGrapheneOSサポートを公式表明",
-   "url": "https://gigazine.net/news/20261106-grapheneos-motorola-signature-27/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-06T15:00:00+08:00",
-   "summary": "Motorolaがハイエンドスマートフォンの「Motorola signature 27」を発表しました。これは、モバイル端末向けOSの1つでセキュリティとプライバシー保護に特化したOS「GrapheneOS」をサポートするMotorola初の機種となります。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "摩托罗拉旗舰智能手机“摩托罗拉signature 27”正式宣布支持GrapheneOS",
-     "summary": "摩托罗拉发布了高端智能手机“Motorola Signature 27”。这是摩托罗拉首款支持 GrapheneOS 的机型，GrapheneOS 是一款专门针对安全和隐私保护的移动设备操作系统。阅读更多..."
-    },
-    "en": {
-     "title": "Motorola's flagship smartphone \"Motorola signature 27\" officially announces support for GrapheneOS",
-     "summary": "Motorola has announced the high-end smartphone \"Motorola Signature 27\". This is Motorola's first model to support GrapheneOS, an OS for mobile devices that specializes in security and privacy protection. read more..."
-    }
-   }
-  },
-  {
-   "id": "97ca6ef82acc",
-   "title": "OpenAIが「AIデータセンターの電力やインフラは全額自己負担」「電気・水道の使用量を公表」などの約束を発表",
-   "url": "https://gigazine.net/news/20261106-openai-responsible-ai-infrastructure/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-06T14:10:00+08:00",
-   "summary": "2026年11月、アメリカで中間選挙に合わせて行われた複数の住民投票でAIデータセンターに反対する声が非常に強かったことを受けて、OpenAIがAIデータセンターの展開にあたっては地域に最大限配慮していくという内容の約束を発表しました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "OpenAI宣布“覆盖AI数据中心所有电力和基础设施”以及“披露用电量和用水量”等承诺",
-     "summary": "2026年11月，针对美国中期选举期间举行的多次公投中反对AI数据中心的极其强烈的声音，OpenAI宣布承诺在部署AI数据中心时最大限度地考虑该地区。阅读更多..."
-    },
-    "en": {
-     "title": "OpenAI announces promises such as ``covering all electricity and infrastructure for AI data center'' and ``disclosing electricity and water usage amounts''",
-     "summary": "In November 2026, in response to extremely strong voices opposing AI data centers in multiple referendums held in the United States in conjunction with the midterm elections, OpenAI announced a promise to give maximum consideration to the region when deploying AI data centers. read more..."
-    }
-   }
-  },
-  {
-   "id": "82ba492ec9d1",
-   "title": "【漫画更新】Danjo-hi 1:39 no Heikou Sekai wa Omoi no Hoka Futsuu (Fan Colored) 第 252 话「Where are we going?」",
-   "url": "https://mangadex.org/chapter/224de241-6f51-4bc3-9e72-2d48c361a771",
+   "id": "4b61b5fc2eab",
+   "title": "【漫画更新】Eurydice neun Eopda 第 10 话",
+   "url": "https://mangadex.org/chapter/2ff5b036-a724-4718-874d-c2fcb76cab46",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-07T00:59:21+08:00",
+   "published": "2026-11-07T09:39:48+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】ダンジョウヒ 1:39 の平和世界は想い出の放課後 (ファンカラー) 第 252 話「どこへ行くの?」"
+     "title": "【コミック更新】Eurydice neun Eopda 第10章"
     },
     "en": {
-     "title": "【Manga Update】Danjo-hi 1:39 no Heikou Sekai wa Omoi no Hoka Futsuu (Fan Colored) Chapter 252 \"Where are we going?\""
+     "title": "【Comic Update】Eurydice neun Eopda Chapter 10"
     }
    }
   },
   {
-   "id": "dac4f23f55d8",
-   "title": "【漫画更新】Gunka no Baltzar 第 83 话「Master Schemer」",
-   "url": "https://mangadex.org/chapter/bc2b7476-3184-4bc1-97b2-0bcc7b479499",
+   "id": "9175a537409f",
+   "title": "【漫画更新】Hiraeth 第 2 话「On Red Shores」",
+   "url": "https://mangadex.org/chapter/20f06e54-36b0-4d97-8f3f-0e9e1f7db350",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-07T00:59:21+08:00",
+   "published": "2026-11-07T09:39:48+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】軍靴のバルツァー 第83話「謀略の達人」"
+     "title": "【マンガ更新】ヒラエス 第2章「オン・レッド・ショア」"
     },
     "en": {
-     "title": "【Manga Update】Gunka no Baltzar Chapter 83 \"Master Schemer\""
+     "title": "【Manga Update】Hiraeth Chapter 2 \"On Red Shores\""
     }
    }
   },
   {
-   "id": "b2e9f272cc6c",
-   "title": "【漫画更新】\"Ano Toki Tasukete Itadaita Monster Musume desu.\" Isekai Ossan Kyoushi Totsuzen no Moteki ni Konwaku suru 第 67 话",
-   "url": "https://mangadex.org/chapter/2da508fd-1a8b-491b-a985-def5a4f22bb5",
+   "id": "d929c36f8af2",
+   "title": "【漫画更新】Break New World 第 49 话",
+   "url": "https://mangadex.org/chapter/44c15f63-9c60-4c30-bc47-a59497062fdd",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-07T00:59:21+08:00",
+   "published": "2026-11-07T09:39:48+08:00",
+   "summary": ""
+  },
+  {
+   "id": "5a4182482153",
+   "title": "【漫画更新】Kinnikuman II-Sei: Ultimate Chojin Tag Arc 第 243 话「襲來的“第6災厄”!!」",
+   "url": "https://mangadex.org/chapter/204ecbae-6bc3-4e44-8648-287acd90c73c",
+   "source": "MangaDex",
+   "category": "comic",
+   "lang": "zh",
+   "weight": 4,
+   "published": "2026-11-07T09:39:48+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】『あの時、いただきましたモンスター娘です。』異世界おっさん教師 特別なモテキに学ぶ 第67話"
+     "title": "【マンガ更新】キン肉マンII世 究極の超人タッグ編 第243話「“第六の厄災”襲来!!」"
     },
     "en": {
-     "title": "【Manga Update】\"Ano Toki Tasukete Itadaita Monster Musume desu.\" Isekai Ossan Kyoushi Totsuzen no Moteki ni Konwaku suru Chapter 67"
+     "title": "[Manga Update] Kinnikuman II-Sei: Ultimate Chojin Tag Arc Chapter 243 \"The \"Sixth Disaster\" Attacks!!\""
     }
    }
   },
   {
-   "id": "7feabd882877",
-   "title": "【漫画更新】\"Ano Toki Tasukete Itadaita Monster Musume desu.\" Isekai Ossan Kyoushi Totsuzen no Moteki ni Konwaku suru 第 66 话",
-   "url": "https://mangadex.org/chapter/a6ea0d3a-32af-4ef4-b65f-e861eedbf764",
+   "id": "6f3ef4669a56",
+   "title": "【漫画更新】Isekai Saikouhou no Guild Leader ~Guild Saijaku no Boku da Kedo, Guild Members Zen'in no ai ga Omokute Guild wo Yameraremasen~ 第 40.2 话「40 part 2」",
+   "url": "https://mangadex.org/chapter/2ed99dc5-bbb9-4c46-a0b5-c8fe78f06caa",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-07T00:59:21+08:00",
+   "published": "2026-11-07T09:39:48+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】『あの時、いただきましたモンスター娘です。』異世界おっさん教師 特別なモテキに学ぶ 第66話"
+     "title": "【マンガ更新】異世界最強のギルドリーダー ～ギルド最強の僕だけど、ギルドメンバー全員禅院の愛が思ってギルドをやめられません～ 第40.2章「40その2」"
     },
     "en": {
-     "title": "【Manga Update】\"Ano Toki Tasukete Itadaita Monster Musume desu.\" Isekai Ossan Kyoushi Totsuzen no Moteki ni Konwaku suru Chapter 66"
+     "title": "【Manga Update】Isekai Saikouhou no Guild Leader ~Guild Saijaku no Boku da Kedo, Guild Members Zen'in no ai ga Omokute Guild wo Yameraremasen~ Chapter 40.2 \"40 part 2\""
     }
    }
   },
   {
-   "id": "70e1fc1a1bf6",
-   "title": "【漫画更新】Oyasumi Fumi-san 第 71.5 话",
-   "url": "https://mangadex.org/chapter/d5dd8bb9-50c7-48e1-8eac-ecfb4889d269",
+   "id": "817d066fce59",
+   "title": "【漫画更新】Save the Earth! 第 29 话「Orbit (2)」",
+   "url": "https://mangadex.org/chapter/465757d2-7f51-49da-a51a-afa202a582e0",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-07T00:59:21+08:00",
+   "published": "2026-11-07T09:39:48+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】おやすみフミさん 第71.5話"
+     "title": "【マンガ更新】地球を救え！第29章「オービット(2)」"
     },
     "en": {
-     "title": "【Manga Update】Oyasumi Fumi-san Chapter 71.5"
+     "title": "【Manga Update】Save the Earth! Chapter 29 \"Orbit (2)\""
     }
    }
   },
   {
-   "id": "c1a3ed84db2c",
-   "title": "【漫画更新】Itoko no Ko 第 46.5 话「True Feelings 」",
-   "url": "https://mangadex.org/chapter/fd0e56c7-de17-4374-994d-23af2f93145a",
+   "id": "7f91e632eb51",
+   "title": "【漫画更新】Tokusatsu Gagaga 第 55 话「Number One Request」",
+   "url": "https://mangadex.org/chapter/291517de-151a-4147-80dc-d2aabd890409",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-07T00:59:21+08:00",
+   "published": "2026-11-07T09:39:48+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】いとこの子 第46.5話「本当の気持ち」"
+     "title": "【マンガ更新】トクサツガガガ 第55話「一番のリクエスト」"
     },
     "en": {
-     "title": "【Manga Update】Itoko no Ko Chapter 46.5 \"True Feelings\""
+     "title": "【Manga Update】Tokusatsu Gagaga Chapter 55 \"Number One Request\""
     }
    }
   },
   {
-   "id": "8842e50f6d3f",
-   "title": "【漫画更新】Oyasumi Fumi-san 第 71 话「Goodnight, Fumi-san」",
-   "url": "https://mangadex.org/chapter/68fd98fa-dce7-4c43-b35b-130b4d6eadf7",
+   "id": "fdd794ecbe0b",
+   "title": "【漫画更新】JJM: The Women's Judo Club Story 第 8 话「BLACK BELT VS. WIMP」",
+   "url": "https://mangadex.org/chapter/fa87ad4f-4c1b-42eb-9ac7-beb27cb6cb50",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-07T00:59:21+08:00",
+   "published": "2026-11-07T09:39:48+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【漫画更新】おやすみフミさん 第71話「おやすみ、フミさん」"
+     "title": "【マンガ更新】JJM 女子柔道部物語 第8章「BLACK BELT VS. WIMP」"
     },
     "en": {
-     "title": "【Manga Update】Oyasumi Fumi-san Chapter 71 \"Goodnight, Fumi-san\""
+     "title": "【Manga Update】JJM: The Women's Judo Club Story Chapter 8 \"BLACK BELT VS. WIMP\""
     }
    }
   },
   {
-   "id": "34cb90a7048e",
-   "title": "【漫画更新】Tougen Anki 第 290 话「Delight and Madness」",
-   "url": "https://mangadex.org/chapter/e9df65ed-a4ad-45d5-a9bb-b84e2073adc1",
+   "id": "71f65bad58f7",
+   "title": "【漫画更新】Aishite Hoshi no wa Ore Janai no ni! ~BL Game no Akuyaku Reisoku ni Tenseishita no ni Kirawarenakute Komattemasu~ 第 10 话「The yandere pure love route」",
+   "url": "https://mangadex.org/chapter/af4580ed-2cdd-4d14-bc4a-b4edadb688ef",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-07T00:59:21+08:00",
+   "published": "2026-11-07T09:39:48+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】桃源暗鬼 第290話「歓喜と狂気」"
+     "title": "【マンガ更新】愛してるの星は俺じゃないのに！ ～BLゲームの悪役令嬢に転生してしまいました～ 第10話「ヤンデレ純愛ルート」"
     },
     "en": {
-     "title": "【Manga Update】Tougen Anki Chapter 290 \"Delight and Madness\""
+     "title": "【Manga Update】Aishite Hoshi no wa Ore Janai no ni! ~BL Game no Akuyaku Reisoku ni Tenseishita no ni Kirawarenakute Komattemasu~ Chapter 10 \"The yandere pure love route\""
     }
    }
   },
   {
-   "id": "7cd05c2056b2",
-   "title": "【漫画更新】Atashi Mary-san. Ima Isekai ni Iruno... 第 4 话「I'm about to pull the Holy Sword now...」",
-   "url": "https://mangadex.org/chapter/88ef0c4e-ba9c-4a90-9d7d-bb1e67244ba5",
+   "id": "22d16ba03324",
+   "title": "【漫画更新】J⇔M 第 37 话「A new life begins」",
+   "url": "https://mangadex.org/chapter/24b02f77-85d1-4cf3-812d-1ee7cb96cf74",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-07T00:59:21+08:00",
+   "published": "2026-11-07T09:39:48+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】あたしメリーさん。今異世界にいるの…第4話「今、聖剣を抜く…」"
+     "title": "【漫画更新】J⇔M 第37話「新しい生活が始まります」"
     },
     "en": {
-     "title": "【Manga Update】Atashi Mary-san. Ima Isekai ni Iruno... Chapter 4 \"I'm about to pull the Holy Sword now...\""
-    }
-   }
-  },
-  {
-   "id": "22dc35df9055",
-   "title": "【漫画更新】Isekai de Kojiin o Hiraita kedo, Nazeka Dare Hitori Sudatou to shinai Ken 第 81 话「The Fried Egg Debate」",
-   "url": "https://mangadex.org/chapter/79f0beb7-e557-4eeb-a636-60b7faf27a01",
-   "source": "MangaDex",
-   "category": "comic",
-   "lang": "zh",
-   "weight": 4,
-   "published": "2026-11-07T00:59:21+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【マンガ更新】Isekai de Koujiin o Hiirata kedo、Nazeka Dare Hitori Sudatou to Shinai Ken 第81話「目玉焼き論争」"
-    },
-    "en": {
-     "title": "【Manga Update】Isekai de Kojiin o Hiraita kedo, Nazeka Dare Hitori Sudatou to shinai Ken Chapter 81 \"The Fried Egg Debate\""
+     "title": "【Manga Update】J⇔M Chapter 37 \"A new life begins\""
     }
    }
   }
