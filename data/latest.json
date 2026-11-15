@@ -1,13 +1,13 @@
 {
  "date": "2026-11-15",
- "generated_at": "2026-11-15T00:16:19+08:00",
- "count": 158,
- "stories": 2,
+ "generated_at": "2026-11-15T09:34:57+08:00",
+ "count": 157,
+ "stories": 3,
  "categories": {
-  "anime": 65,
+  "anime": 57,
   "comic": 10,
-  "game": 58,
-  "novel": 15,
+  "game": 63,
+  "novel": 17,
   "general": 10
  },
  "sources": [
@@ -42,6 +42,11 @@
    "error": null
   },
   {
+   "name": "机核 GCORES",
+   "count": 15,
+   "error": null
+  },
+  {
    "name": "GIGAZINE",
    "count": 15,
    "error": null
@@ -52,7 +57,7 @@
    "error": null
   },
   {
-   "name": "机核 GCORES",
+   "name": "bangumi_calendar",
    "count": 15,
    "error": null
   },
@@ -67,17 +72,75 @@
    "error": null
   },
   {
-   "name": "bangumi_calendar",
-   "count": 15,
-   "error": null
-  },
-  {
    "name": "jikan_season_now",
    "count": 0,
    "error": "ConnectionError: HTTPSConnectionPool(host='api.jikan.moe', port=443): Max retries exceeded with url: /v4/seasons/now?limit=10&sfw=true (Caused by NewConnectionError(\"HTTPSConnection(host='api.jikan.moe', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
   }
  ],
  "items": [
+  {
+   "id": "7e704596769c",
+   "title": "Even the Student Council Has It's Holes! Anime Casts Yōko Hikasa",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-14/even-the-student-council-has-its-holes-anime-casts-yoko-hikasa/.243815",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-15T07:44:31+08:00",
+   "summary": "Hikasa plays council president Hisako's mother in episode 7 this weekend",
+   "i18n": {
+    "zh": {
+     "title": "就连学生会也有漏洞！动漫演员日笠洋子",
+     "summary": "日笠在本周末的第七集中扮演议会主席久子的母亲"
+    },
+    "ja": {
+     "title": "生徒会にも穴はある！アニメキャスト 日笠陽子",
+     "summary": "日笠は今週末の第7話で市議会議長の久子の母親を演じる"
+    }
+   }
+  },
+  {
+   "id": "e72954a74dfa",
+   "title": "Kakao, OpenAI Collaborate on AI-Generated Short Animation Based on Ryan Begins Webtoon",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-14/kakao-openai-collaborate-on-ai-generated-short-animation-based-on-ryan-begins-webtoon/.243712",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-15T02:15:00+08:00",
+   "summary": "Production team stated they used approximately 1,500 prompts for single scene to achieve desired direction, emotional tone",
+   "i18n": {
+    "zh": {
+     "title": "Kakao 与 OpenAI 合作基于 Ryan Begins Webtoon 制作人工智能生成的短动画",
+     "summary": "制作团队表示，他们对单个场景使用了大约 1,500 个提示，以达到所需的方向、情绪基调"
+    },
+    "ja": {
+     "title": "カカオとOpenAI、ライアンをベースにしたAI生成の短編アニメーションで協力、ウェブトゥーンを開始",
+     "summary": "制作チームは、望ましい方向性や感情的なトーンを実現するために、1 つのシーンに約 1,500 のプロンプトを使用したと述べています"
+    }
+   }
+  },
+  {
+   "id": "0fe926342bdf",
+   "title": "Classroom of the Elite: Year 3 Tops Oricon's Light Novel Ranking for October",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-14/classroom-of-the-elite-year-3-tops-oricon-light-novel-ranking-for-october/.243810",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-15T00:15:00+08:00",
+   "summary": "Witch on the Holy Night, Alya Sometimes Hides Her Feelings in Russian rank at #2, #3",
+   "i18n": {
+    "zh": {
+     "title": "精英教室：三年级登顶Oricon 10月轻小说排行榜",
+     "summary": "圣夜女巫艾莉亚有时会隐藏自己的感受，俄罗斯排名第 2、第 3"
+    },
+    "ja": {
+     "title": "『ようこそ実力至上主義の教室へ』が10月のオリコンライトノベルランキングで1位を獲得",
+     "summary": "聖夜の魔女、時々感情を隠すアリヤ ロシア語で2位、3位にランクイン"
+    }
+   }
+  },
   {
    "id": "9d3091bf58e3",
    "title": "Love Live! Hasu no Sora Jogakuin School Idol Club Anime's Special Video Previews TV Footage",
@@ -160,6 +223,13 @@
      "title": "Re:ゼロから始める異世界生活 TVアニメ第5期決定",
      "summary": "「先行ティザービジュアル」公開"
     }
+   },
+   "story": {
+    "sources": 2,
+    "heat": 1.6,
+    "members": [
+     "8d0eb3948932"
+    ]
    }
   },
   {
@@ -390,6 +460,64 @@
     "ja": {
      "title": "ウェブ漫画「サイレン：悪役の家族になる」を舞台ミュージカル化、2027年3月24日にソウルで初演",
      "summary": "物語は、代々悪魔の呪いに悩まされてきた家族の大公の物語です"
+    }
+   }
+  },
+  {
+   "id": "1c6f10005820",
+   "title": "『魔導具師ダリヤはうつむかない～今日から自由な職人ライフ～』のオンラインくじが登場 駒田ハチ氏による原作イラストをしたオリジナルグッズがラインナップ",
+   "url": "https://ln-news.com/articles/126995",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-15T09:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "“魔具大师大丽花不低头～从今天开始的自由工匠生活～”的在线抽奖现已开始。由小田八绘制的原创插图的原创商品阵容。"
+    },
+    "en": {
+     "title": "Online lottery for “Magic Tool Master Dahlia Doesn’t Look Down ~Free Craftsman Life from Today~” is now available.A lineup of original goods with original illustrations by Hachi Komada."
+    }
+   }
+  },
+  {
+   "id": "8d0eb3948932",
+   "title": "アニメ『Re：ゼロから始める異世界生活 5th season』製作決定",
+   "url": "https://ln-news.com/articles/127211",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-15T07:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "动画《Re：从零开始的异世界生活第5季》制作决定"
+    },
+    "en": {
+     "title": "Anime “Re: Life in a Different World from Zero 5th season” production decided"
+    }
+   },
+   "dup_of": "f2a63ade61d0"
+  },
+  {
+   "id": "1ee8e04f47b4",
+   "title": "『無敵な聖女騎士の気ままに辺境開拓 聖術と錬金術を組み合わせて楽しい開拓ライフ』のコミカライズ連載が開始",
+   "url": "https://ln-news.com/articles/127196",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-15T05:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "《无敌圣骑士的边境开拓，圣术与炼金术相结合的欢乐开拓生活》漫画连载开始了。"
+    },
+    "en": {
+     "title": "Comic serialization of ``The invincible holy knight's frontier development, a fun pioneering life by combining holy arts and alchemy'' has begun."
     }
    }
   },
@@ -697,7 +825,7 @@
    },
    "story": {
     "sources": 2,
-    "heat": 1.27,
+    "heat": 0.97,
     "members": [
      "8278cd045031"
     ]
@@ -826,7 +954,7 @@
    },
    "story": {
     "sources": 2,
-    "heat": 0.94,
+    "heat": 0.72,
     "members": [
      "da65c5972377"
     ]
@@ -1004,6 +1132,195 @@
     },
     "en": {
      "title": "The anime “Berserk of Gluttony Season 2” will start broadcasting in April 2027. Teaser visuals also unveiled"
+    }
+   }
+  },
+  {
+   "id": "02be6078b9a9",
+   "title": "不正アクセスを受けたセガのアーケード向けネットワークサービス「ALL․Net」一部復旧。『オンゲキ』『セガNET麻雀 MJ Arcade』など、一部タイトルが稼働再開",
+   "url": "https://automaton-media.com/articles/newsjp/20261115-479328/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-15T09:31:16+08:00",
+   "summary": "セガ フェイブは11月15日、「ALL․Net」および「Aime」の各種サービスについて、一部機能が復旧したと発表した。『オンゲキ』『カードメイカー』などをはじめとした一部タイトルが稼働再開している。",
+   "i18n": {
+    "zh": {
+     "title": "世嘉的街机网络服务“ALL․Net”被非法访问，现已部分恢复。部分游戏已恢复运营，包括《Ongeki》和《SEGA NET Mahjong MJ Arcade》",
+     "summary": "Sega Fave于11月15日宣布恢复“ALL․Net”和“Aime”服务的部分功能。包括《Ongeki》和《Card Maker》在内的一些游戏已经恢复运营。"
+    },
+    "en": {
+     "title": "Sega's arcade network service ``ALL․Net'', which was accessed illegally, has been partially restored. Some titles have resumed operation, including “Ongeki” and “SEGA NET Mahjong MJ Arcade”",
+     "summary": "Sega Fave announced on November 15th that some functions of the \"ALL․Net\" and \"Aime\" services have been restored. Some titles, including ``Ongeki'' and ``Card Maker,'' have resumed operations."
+    }
+   }
+  },
+  {
+   "id": "9459cefa767a",
+   "title": "ディズニー「ナイトメアー・ビフォア・クリスマス」を新たな解釈で表現！ ロエベによるコレクション登場",
+   "url": "https://animeanime.jp/article/2026/11/15/104785.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-15T09:30:03+08:00",
+   "summary": "ディズニー映画『ティム・バートン ナイトメアー・ビフォア・クリスマス』を再想像した、ロエベによるホリデーシーズンのコレクションが登場。アイコニックなキャラクターや視覚言語を新たな解釈で表現したもので、バッグやアクセサリー、ウェア、フレグランス、レザーグッズなどが2026年11月12日より店舗およびオンラインストアにて発売される。",
+   "i18n": {
+    "zh": {
+     "title": "迪士尼《圣诞夜惊魂》全新演绎！ Loewe 推出系列",
+     "summary": "隆重推出 Loewe 节日季系列，该系列改编自迪士尼电影《蒂姆·波顿的圣诞夜惊魂》。对标志性人物和视觉语言的全新诠释、包袋、配饰、服装、香水、皮革制品等将于 2026 年 11 月 12 日起在商店和网上发售。"
+    },
+    "en": {
+     "title": "A new interpretation of Disney's \"The Nightmare Before Christmas\"! Introducing a collection by Loewe",
+     "summary": "Introducing Loewe's holiday season collection, reimagined from the Disney movie ``Tim Burton's The Nightmare Before Christmas.'' A new interpretation of iconic characters and visual language, bags, accessories, clothing, fragrances, leather goods, and more will be available in stores and online from November 12, 2026."
+    }
+   }
+  },
+  {
+   "id": "37d9b6386cc7",
+   "title": "バスタイム、行きまーす！ 「ガンダム」ハロ型入浴剤からジムやアッガイたちが出撃",
+   "url": "https://animeanime.jp/article/2026/11/15/104784.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-15T09:00:04+08:00",
+   "summary": "「びっくらたまご 機動戦士ガンダム」が登場。価格は715円（税込）で、発売は2026年12月15日を予定している。",
+   "i18n": {
+    "zh": {
+     "title": "洗澡时间到了，出发吧！ “高达”吉姆和阿盖斯出击光环型浴盐",
+     "summary": "《机动战士高达》现已发售。售价为715日元（含税），预计2026年12月15日发售。"
+    },
+    "en": {
+     "title": "Bath time, let's go! \"Gundam\" Jim and Acguys sortie from halo-type bath salts",
+     "summary": "\"Bikkura Tamago Mobile Suit Gundam\" is now available. The price is 715 yen (tax included), and release is scheduled for December 15, 2026."
+    }
+   }
+  },
+  {
+   "id": "2785a28a7539",
+   "title": "「ムーミン」スナフキン、なんとヨギボー化!? 全長約95cmで抱きしめられる特大サイズ♪ クッションも同時発売",
+   "url": "https://animeanime.jp/article/2026/11/15/104783.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-15T08:30:03+08:00",
+   "summary": "『ムーミン』より、Yogiboとのコラボレーション第3弾として、新商品4種が登場。「MOOMIN Yogibo Hugger スナフキン」をはじめ、「ミムラねえさん」「ニョロニョロ」「ご先祖さま」をデザインしたカラークッション3種がラインナップされる。",
+   "i18n": {
+    "zh": {
+     "title": "“姆明”斯努夫金变成了 Yogibo！？全长约95cm，可拥抱的超大尺寸♪同时发售的靠垫",
+     "summary": "自《姆明》以来，作为与 Yogibo 的第三次合作，推出了四款新产品。该系列包括“MOOMIN Yogibo Hugger Snufkin”以及带有“Mimura-neesan”、“Nyoronyoro”和“Ancestor”设计的三种颜色靠垫。"
+    },
+    "en": {
+     "title": "\"Moomin\" Snufkin has become a Yogibo!? Extra-large size that can be hugged with a total length of about 95 cm ♪ Cushion also released at the same time",
+     "summary": "From \"Moomin\", four new products have been released as the third collaboration with Yogibo. The lineup includes ``MOOMIN Yogibo Hugger Snufkin,'' as well as three color cushions with designs of ``Mimura-neesan,'' ``Nyoronyoro,'' and ``Ancestor.''"
+    }
+   }
+  },
+  {
+   "id": "e784bb96b4bd",
+   "title": "『マインクラフト』に新武器“投擲ディスク”追加へ。統合版には「オフハンド」完全実装、来年最初のアプデが早くもお披露目",
+   "url": "https://automaton-media.com/articles/newsjp/20261115-479322/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-15T08:07:17+08:00",
+   "summary": "Mojang Studiosは11月15日、2027年の最初のゲームドロップを公開した。新武器の実装や、Bedrock版へのオフハンド完全実装が明かされた。",
+   "i18n": {
+    "zh": {
+     "title": "Minecraft 中添加了一种新武器，即投掷圆盘。 《副手》整合版全面上线，明年首个更新已揭晓",
+     "summary": "Mojang Studios 于 11 月 15 日公布了 2027 年第一款游戏。基岩版中新武器的实现和副手的完全实现被揭晓。"
+    },
+    "en": {
+     "title": "A new weapon, the throwing disc, has been added to Minecraft. \"Offhand\" is fully implemented in the integrated version, and the first update of next year is already unveiled",
+     "summary": "Mojang Studios unveiled the first game drop of 2027 on November 15th. The implementation of new weapons and the complete implementation of off-hand in the Bedrock version were revealed."
+    }
+   }
+  },
+  {
+   "id": "2f6a5417641d",
+   "title": "BLG斩获《英雄联盟》S16全球总决赛冠军",
+   "url": "https://www.gcores.com/articles/222372",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-11-15T08:02:03+08:00",
+   "summary": "哔哩哔哩电竞 BLG 于今日在纽约布鲁克林巴克莱中心以3比1击败韩国 LCK 赛区的 Gen.G， 首次夺得《英雄联盟》全球总决赛冠军。 这是LPL赛区自2021年 EDward Gaming 夺冠后的首座全球总决赛冠军，也是 LPL 赛区历史的第四次S赛夺冠。在此前的半决赛中，BLG 以3:1击败卫冕冠军T1，这也是 T1 首次在全球总决赛五局三胜淘汰赛中输给 LPL 队伍，T1 连续三年夺冠的纪录随之终结。加上决赛，BLG 在本届赛事击败了全部四支LCK 参赛队伍。",
+   "i18n": {
+    "ja": {
+     "title": "BLGが「リーグ・オブ・レジェンド」S16グローバルファイナル優勝",
+     "summary": "Bilibili Esports BLGは本日、ニューヨーク州ブルックリンのバークレイズセンターで韓国LCKディビジョンのGen.Gを3-1で破り、「リーグ・オブ・レジェンド」グローバルファイナルチャンピオンシップ初優勝を果たした。これは、2021 年に EDward Gaming がチャンピオンシップを獲得して以来、LPL 地域初のグローバルファイナルチャンピオンシップであり、LPL 地域の歴史の中で 4 回目の S コンペティションチャンピオンシップでもあります。前回の準決勝では、BLG が前回チャンピオンの T1 を 3:1 で破りました。 T1 がグローバル決勝戦の 5 番勝負のエリミネーション ラウンドで LPL チームに負けたのもこれが初めてでした。 T1の3年連続優勝記録が止まった。 BLGは決勝戦を含め、今大会のLCK参加4チーム全てを破った。"
+    },
+    "en": {
+     "title": "BLG wins the \"League of Legends\" S16 global finals championship",
+     "summary": "Bilibili Esports BLG defeated Gen.G of South Korea's LCK division 3-1 at the Barclays Center in Brooklyn, New York today, winning the \"League of Legends\" global finals championship for the first time. This is the LPL region’s first global finals championship since EDward Gaming won the championship in 2021, and it is also the fourth S competition championship in the history of the LPL region. In the previous semi-finals, BLG defeated the defending champion T1 3:1. This was also the first time that T1 lost to the LPL team in the best-of-five elimination round of the global finals. T1's record of winning the championship for three consecutive years ended. Including the finals, BLG defeated all four LCK participating teams in this tournament."
+    }
+   }
+  },
+  {
+   "id": "4cc1183b66c4",
+   "title": "「鬼滅の刃」コラボ駅弁に全集中！炭治郎のおむすびや、冨岡義勇“打ち潮”がフィナンシェに!? JR東海で無限のときめき旅☆",
+   "url": "https://animeanime.jp/article/2026/11/15/104782.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-15T08:00:03+08:00",
+   "summary": "竈門炭治郎、冨岡義勇、胡蝶しのぶたちが、JR東海リテイリング・プラスとのコラボ企画「東海道、無限のときめき旅」に参戦♪",
+   "i18n": {
+    "zh": {
+     "title": "全力关注《鬼灭之刃》合作车站便当！炭治郎的饭团和富冈义勇的“内潮”成为金融家！？ JR东海的无尽刺激之旅☆",
+     "summary": "灶门炭治郎、富冈义勇、小蝶忍等人将参与与 JR Tokai Retailing Plus 的合作项目“东海道，无限心跳之旅”♪"
+    },
+    "en": {
+     "title": "Full focus on “Demon Slayer: Kimetsu no Yaiba” collaboration ekiben! Tanjiro's rice balls and Yoshiyu Tomioka's \"Uchiushio\" become financiers!? An endless exciting journey on JR Tokai ☆",
+     "summary": "Tanjiro Kamado, Giyu Tomioka, Shinobutsu Kocho, and others will participate in the collaboration project “Tokaido, Infinite Tokimeki Journey” with JR Tokai Retailing Plus♪"
+    }
+   }
+  },
+  {
+   "id": "34aeb24211f5",
+   "title": "『League of Legends』大規模アップデートの内容チラ見せ。ビジュアル大刷新&ゲームプレイ変更いろいろありそう",
+   "url": "https://automaton-media.com/articles/newsjp/league-of-legends-20261115-479316/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-15T06:24:15+08:00",
+   "summary": "Riot Gamesは11月15日、『League of Legends』向けの大型アップデート「New Dawn」の内容をお披露目した。ビジュアル刷新のほか、ゲームプレイにも変更が加えられそうだ。",
+   "i18n": {
+    "zh": {
+     "title": "英雄联盟大规模更新内容抢先看。将会有重大的视觉效果和游戏玩法变化。",
+     "summary": "11月15日，Riot Games公布了《英雄联盟》重大更新“新黎明”的内容。除了视觉更新之外，游戏玩法也可能发生变化。"
+    },
+    "en": {
+     "title": "A sneak peek at the contents of a large-scale update for League of Legends. There will be a major visual overhaul and gameplay changes.",
+     "summary": "On November 15th, Riot Games unveiled the contents of the major update \"New Dawn\" for \"League of Legends\". In addition to visual updates, there are also likely to be changes to gameplay."
+    }
+   }
+  },
+  {
+   "id": "e614fa83abb1",
+   "title": "《英雄联盟：曙光》正式宣布",
+   "url": "https://www.gcores.com/articles/222374",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-11-15T06:14:40+08:00",
+   "summary": "拳头游戏的 Pabro 与 Meddler 于今日带来《英雄联盟：曙光》预告，更多详情将于明年1月揭晓。 据悉，《英雄联盟：曙光》 包括全面现代化升级的游戏客户端、焕然一新的召唤师峡谷地图与视觉表现、持续进化的游戏玩法，以及让玩家以全新方式体验自己喜爱的英雄等一系列精彩内容。预约现已正式开启。 <内嵌内容，请前往机核查看>",
+   "i18n": {
+    "ja": {
+     "title": "リーグ・オブ・レジェンド：ドーンが正式発表",
+     "summary": "Riot Games の Pabro と Meddler は本日、League of Legends: Dawn のトレーラーを公開しました。詳細は来年 1 月に明らかになります。 「リーグ・オブ・レジェンド：ドーン」には、完全に近代化されアップグレードされたゲームクライアント、真新しいサモナーズリフトのマップとビジュアルパフォーマンス、継続的に進化するゲームプレイ、そしてプレイヤーがお気に入りのヒーローを新しい方法で体験できる一連のエキサイティングなコンテンツが含まれていると報告されています。正式に予約が開始されました。 <埋め込みコンテンツについては、マシン コアに移動して表示してください>"
+    },
+    "en": {
+     "title": "League of Legends: Dawn Officially Announced",
+     "summary": "Riot Games’ Pabro and Meddler released a trailer for League of Legends: Dawn today, and more details will be revealed in January next year. It is reported that \"League of Legends: Dawn\" includes a fully modernized and upgraded game client, a brand new Summoner's Rift map and visual performance, continuously evolving gameplay, and a series of exciting content that allows players to experience their favorite heroes in a new way. Reservations are now officially open. <For embedded content, please go to the machine core to view it>"
     }
    }
   },
@@ -2277,7 +2594,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-15T00:13:31+08:00",
+   "published": "2026-11-15T09:31:27+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2296,7 +2613,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-15T00:13:31+08:00",
+   "published": "2026-11-15T09:31:27+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2315,7 +2632,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-15T00:13:31+08:00",
+   "published": "2026-11-15T09:31:27+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2334,7 +2651,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-15T00:13:31+08:00",
+   "published": "2026-11-15T09:31:27+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2353,7 +2670,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-15T00:13:31+08:00",
+   "published": "2026-11-15T09:31:27+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2372,7 +2689,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-15T00:13:31+08:00",
+   "published": "2026-11-15T09:31:27+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2391,7 +2708,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-15T00:13:31+08:00",
+   "published": "2026-11-15T09:31:27+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2410,7 +2727,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-15T00:13:31+08:00",
+   "published": "2026-11-15T09:31:27+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2429,9 +2746,12 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-15T00:13:31+08:00",
+   "published": "2026-11-15T09:31:27+08:00",
    "summary": "",
    "i18n": {
+    "ja": {
+     "title": "【本日更新】ドラゴンボール超 ビルス"
+    },
     "en": {
      "title": "【Today’s Update】Dragon Ball Super Beerus"
     }
@@ -2445,7 +2765,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-15T00:13:31+08:00",
+   "published": "2026-11-15T09:31:27+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2464,7 +2784,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-15T00:13:31+08:00",
+   "published": "2026-11-15T09:31:27+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2483,7 +2803,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-15T00:13:31+08:00",
+   "published": "2026-11-15T09:31:27+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2502,7 +2822,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-15T00:13:31+08:00",
+   "published": "2026-11-15T09:31:27+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2521,7 +2841,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-15T00:13:31+08:00",
+   "published": "2026-11-15T09:31:27+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2540,7 +2860,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-15T00:13:31+08:00",
+   "published": "2026-11-15T09:31:27+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2552,196 +2872,6 @@
    }
   },
   {
-   "id": "8edd638f15f6",
-   "title": "【今日放送 15:29】しろたん 第7集",
-   "url": "https://anilist.co/anime/209709",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日15:29播出】Sirotan Vol.1 7"
-    },
-    "en": {
-     "title": "[Broadcast today 15:29] Sirotan Vol. 7"
-    }
-   }
-  },
-  {
-   "id": "cb7df9c54f0a",
-   "title": "【今日放送 15:30】クレヨンしんちゃん 第1361集",
-   "url": "https://anilist.co/anime/966",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日15:30播出】蜡笔小新 第1361集"
-    },
-    "en": {
-     "title": "[Broadcast today 15:30] Crayon Shin-chan Episode 1361"
-    }
-   }
-  },
-  {
-   "id": "3bca09cf465c",
-   "title": "【今日放送 16:00】ドラえもん (2005) 第941集",
-   "url": "https://anilist.co/anime/8687",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日16:00播出】哆啦A梦（2005）第941集"
-    },
-    "en": {
-     "title": "[Broadcast today 16:00] Doraemon (2005) Episode 941"
-    }
-   }
-  },
-  {
-   "id": "79e1b961ea27",
-   "title": "【今日放送 16:30】朱色の仮面 第6集",
-   "url": "https://anilist.co/anime/195571",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日16:30播出】朱红面具第6卷"
-    },
-    "en": {
-     "title": "[Broadcast today 16:30] Vermilion Mask Volume 6"
-    }
-   }
-  },
-  {
-   "id": "a6c8499bd29d",
-   "title": "【今日放送 17:00】名探偵コナン 第1220集",
-   "url": "https://anilist.co/anime/235",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日17:00播出】名侦探柯南 第1220集"
-    },
-    "en": {
-     "title": "[Broadcast today 17:00] Detective Conan Episode 1220"
-    }
-   }
-  },
-  {
-   "id": "608b75fb8ef7",
-   "title": "【今日放送 17:25】マロニエ王国の七人の騎士 第7集",
-   "url": "https://anilist.co/anime/212799",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日17:25播出】马罗尼尔王国的七骑士第7卷"
-    },
-    "en": {
-     "title": "[Broadcast today 17:25] Seven Knights of the Marronnier Kingdom Volume 7"
-    }
-   }
-  },
-  {
-   "id": "8c868cf0a4bd",
-   "title": "【今日放送 18:00】光阴之外2 第22集",
-   "url": "https://anilist.co/anime/213356",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日18:00播出】公园之街2 第22集"
-    },
-    "en": {
-     "title": "[Broadcast today 18:00] Kouen no Gai 2 Episode 22"
-    }
-   }
-  },
-  {
-   "id": "051e81f7985a",
-   "title": "【今日放送 20:00】ロメリア戦記 〜魔王を倒した後も人類やばそうだから軍隊組織した〜 第7集",
-   "url": "https://anilist.co/anime/180894",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日20:00播出】罗梅莉亚战记～即使打倒了魔王，人类似乎也陷入了困境，所以我们组织了军队～第7集"
-    },
-    "en": {
-     "title": "[Broadcast today 20:00] Romeria Senki ~ Even after defeating the Demon King, humanity seems to be in trouble, so we organized an army ~ Episode 7"
-    }
-   }
-  },
-  {
-   "id": "386221803f98",
-   "title": "【今日放送 21:00】転生した大聖女は、聖女であることをひた隠す 第8集",
-   "url": "https://anilist.co/anime/187402",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日21:00播出】转世大圣隐瞒自己是圣人的事实第8集"
-    },
-    "en": {
-     "title": "[Broadcast today 21:00] The reincarnated Great Saint hides the fact that she is a saint Episode 8"
-    }
-   }
-  },
-  {
-   "id": "862505de9651",
-   "title": "【今日放送 21:30】野生のラスボスが現れた！ 第2期 第8集",
-   "url": "https://anilist.co/anime/204389",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日21:30播出】狂野最终boss登场！第二季第8卷"
-    },
-    "en": {
-     "title": "[Broadcast today 21:30] The wild final boss has appeared! 2nd season Volume 8"
-    }
-   }
-  },
-  {
    "id": "1e154ba18baf",
    "title": "【今日放送 22:00】ブラッククローバー 第2期 第7集",
    "url": "https://anilist.co/anime/195604",
@@ -2749,7 +2879,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
+   "published": "2026-11-15T09:31:26+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2768,7 +2898,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
+   "published": "2026-11-15T09:31:26+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2787,7 +2917,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
+   "published": "2026-11-15T09:31:26+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2806,7 +2936,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
+   "published": "2026-11-15T09:31:26+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2825,7 +2955,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
+   "published": "2026-11-15T09:31:26+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2837,97 +2967,65 @@
    }
   },
   {
-   "id": "c1260f8321b0",
-   "title": "【今日放送 23:00】マジカル★エクスプローラー エロゲの友人キャラに転生したけど、ゲーム知識使って自由に生きる 第8集",
-   "url": "https://anilist.co/anime/169581",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "596228806712",
+   "title": "AIは答えを出せても「聞くべきこと」を見落とすことが税務の仕事を再現したテストで判明",
+   "url": "https://gigazine.net/news/20261115-dayjob-tax/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
-   "summary": "",
+   "weight": 5,
+   "published": "2026-11-15T09:00:00+08:00",
+   "summary": "AIの性能評価を手がけるSurge AIは2026年10月27日、アメリカの税務相談や申告書の作成を題材にしたベンチマーク「DAYJOB: Tax」の結果を公開しました。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "【今日23:00播出】魔法★探索者 我从色情游戏中转生为朋友角色，但我用我的游戏知识自由地生活第8集"
+     "title": "一项重现税务工作的测试表明，即使人工智能可以给出答案，它也会错过“你应该问的问题”",
+     "summary": "2026年10月27日，负责AI性能评估的Surge AI发布了基于美国税务咨询和纳税申报表准备的基准“DAYJOB：Tax”的结果。阅读更多..."
     },
     "en": {
-     "title": "[Broadcast today 23:00] Magical★Explorer I was reincarnated as a friend character from an erotic game, but I live freely using my game knowledge Episode 8"
+     "title": "A test that reproduces tax work reveals that AI misses ``what you should ask'' even if it can give an answer",
+     "summary": "On October 27, 2026, Surge AI, which handles AI performance evaluation, released the results of the benchmark ``DAYJOB: Tax'' based on American tax consultation and tax return preparation. read more..."
     }
    }
   },
   {
-   "id": "50387267ef02",
-   "title": "【今日放送 23:30】生徒会にも穴はある！ 第7集",
-   "url": "https://anilist.co/anime/191656",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "ccc572e86c92",
+   "title": "AIが便利になればなるほど深刻になる「自動化の皮肉」に人間はどう対処すべきか",
+   "url": "https://gigazine.net/news/20261115-ai-isnt-replacing-sres-its-deskilling/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
-   "summary": "",
+   "weight": 5,
+   "published": "2026-11-15T08:00:00+08:00",
+   "summary": "近年のAIの進化はSRE(サイト信頼性エンジニアリング)に大きな影響を与えています。AIがインシデント対応の大部分を自動化するにつれて、人間が担うべき「稀・複雑・曖昧」な問題への対応能力が低下するという「自動化の皮肉」が指摘されています。オープンソースのシステム監視・分析ツール「SigNoz」の開発者エリザベス・マシュー氏は「AIがインシデント対応の95%を処理するようになったら、実際に重要な5%の対応能力は低下するのか？」という疑問について考察しています。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "【今日23:30播出】学生会也有漏洞！第7卷"
+     "title": "随着人工智能变得更加方便，人类应该如何应对“自动化的冷嘲热讽”变得更加严重？",
+     "summary": "人工智能的最新进展对 SRE（站点可靠性工程）产生了重大影响。有人指出，随着人工智能将大部分事件响应自动化，“自动化的讽刺之处”在于，应对本应由人类处理的“罕见、复杂和模糊”问题的能力却下降了。开源系统监控和分析工具 SigNoz 的开发者 Elizabeth Mathews 考虑了这样一个问题：“如果人工智能处理 95% 的事件响应，那么对真正重要的 5% 事件响应的能力是否会下降？”阅读更多..."
     },
     "en": {
-     "title": "[Broadcast today 23:30] There are holes in the student council too! Volume 7"
+     "title": "How should humans deal with the ``cynicism of automation'' that becomes more serious as AI becomes more convenient?",
+     "summary": "Recent advances in AI have had a major impact on SRE (site reliability engineering). It has been pointed out that as AI automates a large part of incident response, the ``irony of automation'' is that the ability to respond to ``rare, complex, and ambiguous'' problems that should be handled by humans deteriorates. Elizabeth Mathews, developer of the open source system monitoring and analysis tool SigNoz, considers the question, ``If AI handles 95% of incident response, will the ability to respond to the 5% that actually matters decrease?'' read more..."
     }
    }
   },
   {
-   "id": "1aba8331c783",
-   "title": "【今日放送 23:56】らんま1/2 (2024) 第3期 第7集",
-   "url": "https://anilist.co/anime/209872",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "75da6b31a4c9",
+   "title": "ナルシシストはSNSの登場で増加しているのか？",
+   "url": "https://gigazine.net/news/20261115-narcissists-sns/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
-   "summary": "",
+   "weight": 5,
+   "published": "2026-11-15T07:00:00+08:00",
+   "summary": "承認欲求を簡単に満たすことができるSNSの登場で、強い自己愛を持つナルシシストが増えているのではないかと考えた研究者らが、ナルシシストとSNSの関係について調査しました。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "[今日播出23:56]乱马1/2(2024)第3季第7集"
+     "title": "随着 SNS 的出现，自恋者是否正在增加？",
+     "summary": "研究人员认为，随着SNS的出现，自恋者的数量不断增加，他们可以很容易地满足自己的认可需求，并调查了自恋者与SNS之间的关系。阅读更多..."
     },
     "en": {
-     "title": "[Broadcast today 23:56] Ranma 1/2 (2024) Season 3 Episode 7"
-    }
-   }
-  },
-  {
-   "id": "0f8da8e83c47",
-   "title": "【今日放送 00:30】貸した魔力は【リボ払い】で強制徴収 第7集",
-   "url": "https://anilist.co/anime/202250",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日播出00:30】借来的魔力通过【循环支付】强行收回第7集"
-    },
-    "en": {
-     "title": "[Broadcast today 00:30] The lent magical power is forcibly collected through [revolving payment] Episode 7"
-    }
-   }
-  },
-  {
-   "id": "ebefb4ab3202",
-   "title": "【今日放送 06:00】おでかけ子ザメ シーズン2 第32集",
-   "url": "https://anilist.co/anime/204269",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-15T00:12:13+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日06:00播出】Odekakeko Shark 第2季第32集"
-    },
-    "en": {
-     "title": "[Broadcast today 06:00] Odekakeko Shark Season 2 Episode 32"
+     "title": "Are narcissists on the rise with the advent of SNS?",
+     "summary": "Researchers thought that the number of narcissists with strong narcissism is increasing with the advent of SNS, where they can easily satisfy their need for approval, and investigated the relationship between narcissists and SNS. read more..."
     }
    }
   },
@@ -3079,255 +3177,192 @@
    }
   },
   {
-   "id": "df174d07bf86",
-   "title": "幻覚がひどいAIでも言葉遣いが洗練されていれば人を簡単に騙せることが判明",
-   "url": "https://gigazine.net/news/20261114-llm-fluency-credible/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-14T07:00:00+08:00",
-   "summary": "ChatGPTなどに代表される大規模言語モデルは、その根本的な仕組みとして、モデル自身は自分の回答が合っているか間違っているかを判断できません。そのためこの手のAIには事実ではないことをまるで事実かのように話してしまう「幻覚(ハルシネーション)」の問題が常につきまといます。新たな研究では、AIの回答に幻覚があったとしても、流暢(りゅうちょう)な言葉遣いであれば人間はそれを信用してしまう可能性が高いということが分かりました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "事实证明，即使是具有可怕幻觉的人工智能，如果语言复杂，也能轻易欺骗人们",
-     "summary": "ChatGPT等大规模语言模型的根本机制是模型本身无法确定其答案是否正确。因此，这类AI总是存在“幻觉”的问题，把不真实的事情说得好像真的一样。一项新研究发现，即使人工智能的答案是幻觉，如果答案流畅，人类也更有可能信任它们。阅读更多..."
-    },
-    "en": {
-     "title": "It turns out that even AI with terrible hallucinations can easily deceive people if the language is sophisticated",
-     "summary": "The fundamental mechanism of large-scale language models such as ChatGPT is that the model itself cannot determine whether its answer is correct or incorrect. Therefore, this type of AI always has the problem of ``hallucination'', where it talks about things that are not true as if they were true. A new study has found that even if an AI's answers are hallucinatory, humans are more likely to trust them if the answers are fluent. read more..."
-    }
-   }
-  },
-  {
-   "id": "092887505175",
-   "title": "無料・インストール不要で日本語を含む13言語のリアルタイム文字起こしがブラウザからできる「Voxtral Mini 4B Realtime WebGPU」、WebGPUを駆使して完全ローカル動作可能",
-   "url": "https://gigazine.net/news/20261113-voxtral-mini-4b-realtime-webgpu/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-13T22:00:00+08:00",
-   "summary": "会議や取材で録音した音声を文字に起こす際には、録音ファイルをアップロードしたり専用の文字起こしソフトを使ったりする方法がありますが、ブラウザだけでリアルタイムに行える無料のツールが「Voxtral Mini 4B Realtime WebGPU」です。日本語を含む13言語に対応し、WebGPUによって音声認識AIを完全ローカルで実行できるとのことなので実際に使ってみました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "“Voxtral Mini 4B Realtime WebGPU”允许您通过浏览器免费且无需安装地以包括日语在内的 13 种语言进行实时转录，并且可以使用 WebGPU 完全在本地操作",
-     "summary": "在转录会议或采访中录制的音频时，有多种方法可以上传录音文件或使用专用转录软件，但只需浏览器即可实时使用的免费工具是“Voxtral Mini 4B Realtime WebGPU”。它兼容包括日语在内的13种语言，据说语音识别AI可以完全使用WebGPU在本地执行，所以我实际上尝试使用它。阅读更多..."
-    },
-    "en": {
-     "title": "\"Voxtral Mini 4B Realtime WebGPU\" allows you to perform real-time transcription in 13 languages ​​including Japanese from your browser for free and without installation, and can operate completely locally using WebGPU",
-     "summary": "When transcribing audio recorded at a meeting or interview, there are ways to upload the recording file or use dedicated transcription software, but a free tool that can be used in real time with just a browser is ``Voxtral Mini 4B Realtime WebGPU''is. It is compatible with 13 languages ​​including Japanese, and it is said that speech recognition AI can be executed completely locally using WebGPU, so I actually tried using it. read more..."
-    }
-   }
-  },
-  {
-   "id": "fbb2b548679a",
-   "title": "古いiPadやメモリ1GBの小型端末でも160億パラメータのAIをローカルで動かせる無料ツール「smolmaxxing」が登場",
-   "url": "https://gigazine.net/news/20261113-smolmaxxing/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-13T20:00:00+08:00",
-   "summary": "古いタブレットや小型デバイスでもAIモデルを動かせるようにするオープンソースプロジェクト「smolmaxxing」が公開されました。メモリ容量が限られた端末でもAIモデルを実行できるようにするもので、2013年発売の初代iPad Airや小型のテレビ用端末で動作が確認されています。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "“smolmaxxing”是一款免费工具，即使在旧的 iPad 和具有 1GB 内存的小型设备上，您也可以在本地运行具有 160 亿个参数的 AI",
-     "summary": "一个开源项目“smolmaxxing”已经发布，该项目允许人工智能模型甚至在旧平板电脑和小型设备上运行。 It allows AI models to run on devices with limited memory capacity, and has been confirmed to work on the first-generation iPad Air released in 2013 and small TV devices.阅读更多..."
-    },
-    "en": {
-     "title": "``smolmaxxing'' is a free tool that allows you to locally run AI with 16 billion parameters even on old iPads and small devices with 1GB of memory",
-     "summary": "An open source project ``smolmaxxing'' that allows AI models to run even on old tablets and small devices has been released. It allows AI models to run on devices with limited memory capacity, and has been confirmed to work on the first-generation iPad Air released in 2013 and small TV devices. read more..."
-    }
-   }
-  },
-  {
-   "id": "a46a498521ae",
-   "title": "【漫画更新】The Burning Pledge 第 15 话「The Trickster - Part 01」",
-   "url": "https://mangadex.org/chapter/87f9c6b3-6783-48c6-bc88-41852a4f67a1",
+   "id": "a2758c37cc26",
+   "title": "【漫画更新】Medabot Navi 第 5 话",
+   "url": "https://mangadex.org/chapter/85d33ce5-94aa-4a03-86b8-62e3a9ebd49d",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-15T00:12:15+08:00",
+   "published": "2026-11-15T09:31:28+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【コミック更新】灼熱の誓約 第15話「トリックスター・前編」"
+     "title": "【コミック更新】メダロットナビ 第5章"
     },
     "en": {
-     "title": "【Comic Update】The Burning Pledge Chapter 15 \"The Trickster - Part 01\""
+     "title": "【Comic Update】Medabot Navi Chapter 5"
     }
    }
   },
   {
-   "id": "9a35aa1a9120",
-   "title": "【漫画更新】Hoshikita Kirara wa Kiramekitai! 第 4 话",
-   "url": "https://mangadex.org/chapter/652fcb55-c7c7-4a2b-b393-59b451c815c7",
+   "id": "6519bc5980b3",
+   "title": "【漫画更新】Tokusatsu Gagaga 第 63 话「A POV Shot's Blind Spot!?」",
+   "url": "https://mangadex.org/chapter/08810537-5d62-4e24-8f73-907a8a5d1b71",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-15T00:12:15+08:00",
+   "published": "2026-11-15T09:31:28+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】星北きららはきらめきたい！第4章"
+     "title": "【マンガ更新】トクサツガガガ 第63話「ハメ撮りの死角!?」"
     },
     "en": {
-     "title": "【Manga Update】Hoshikita Kirara wa Kiramekitai! Chapter 4"
+     "title": "【Manga Update】Tokusatsu Gagaga Chapter 63 \"A POV Shot's Blind Spot!?\""
     }
    }
   },
   {
-   "id": "0b030ad56450",
-   "title": "【漫画更新】Anne Shirley 第 18 话「Way Down, Underneath That Frivolous Exterior of Yours, You’ve Got a Dear Loyal, Womanly Little Soul」",
-   "url": "https://mangadex.org/chapter/4db272ff-8304-4a03-abe3-078e4003b02e",
+   "id": "3733ceed1da4",
+   "title": "【漫画更新】Tensei shite Arayuru Mono ni Sukarenagara Isekai de Suki na Koto wo shite Ikiteiku 第 13 话「Intrusion」",
+   "url": "https://mangadex.org/chapter/fbe4ee7f-ae82-4e62-b9ef-ed5b76d4ad43",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-15T00:12:15+08:00",
+   "published": "2026-11-15T09:31:28+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【コミック更新】アン・シャーリー 第18章「あなたのその軽薄な外見の下には、あなたは親愛なる忠実で女性らしい小さな魂を持っています」"
+     "title": "【マンガ更新】転生して荒ぶるものにすかれながら異世界で好きなことをして生きていく 第13話「侵入」"
     },
     "en": {
-     "title": "【Comic Update】Anne Shirley Chapter 18 \"Way Down, Underneath That Frivolous Exterior of Yours, You’ve Got a Dear Loyal, Womanly Little Soul\""
+     "title": "【Manga Update】Tensei shite Arayuru Mono ni Sukarenagara Isekai de Suki na Koto wo shite Ikiteiku Chapter 13 \"Intrusion\""
     }
    }
   },
   {
-   "id": "ff742047ac60",
-   "title": "【漫画更新】Nukitashi R - Nukige Mitai na Shima ni Sunderu Watashi wa Dou Surya Ii desu ka? R 第 18 话",
-   "url": "https://mangadex.org/chapter/55ba7a6a-e094-4e33-897b-fe1887a349dd",
+   "id": "cf78c3f2664e",
+   "title": "【漫画更新】Tedibeeoneun Jukji Ana 第 4 话",
+   "url": "https://mangadex.org/chapter/50b2b9d2-524b-4547-8e8f-fd3d062ac2d5",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-15T00:12:15+08:00",
+   "published": "2026-11-15T09:31:28+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】ぬきたしR ～ぬきげみたいな島にすんでる私はどうですか？ R Chapter 18"
+     "title": "【コミック更新】テディビオヌン ジュクジアナ 第4章"
     },
     "en": {
-     "title": "【Manga Update】Nukitashi R - Nukige Mitai na Shima ni Sunderu Watashi wa Dou Surya Ii desu ka? R Chapter 18"
+     "title": "【Comic Update】Tedibeeoneun Jukji Ana Chapter 4"
     }
    }
   },
   {
-   "id": "44d6b46d0382",
-   "title": "【漫画更新】Choubaku Madouden SLAYERS 第 34 话「The Claire Bible」",
-   "url": "https://mangadex.org/chapter/b2b378ab-ed75-48f8-a076-467cec27ae18",
+   "id": "d19d23836b65",
+   "title": "【漫画更新】Tensei shite Arayuru Mono ni Sukarenagara Isekai de Suki na Koto wo shite Ikiteiku 第 12 话「commencement」",
+   "url": "https://mangadex.org/chapter/707dbf2e-1492-4327-8592-04bceb3f7da2",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-15T00:12:15+08:00",
+   "published": "2026-11-15T09:31:28+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】超爆魔導伝 SLAYERS 第34話「クレアバイブル」"
+     "title": "【マンガ更新】転生して荒ぶるものにすかれながら異世界で好きなことをして生きていく 第12話「開始」"
     },
     "en": {
-     "title": "【Manga Update】Choubaku Madouden SLAYERS Chapter 34 \"The Claire Bible\""
+     "title": "【Manga Update】Tensei shite Arayuru Mono ni Sukarenagara Isekai de Suki na Koto wo shite Ikiteiku Chapter 12 \"commencement\""
     }
    }
   },
   {
-   "id": "e802e9913933",
-   "title": "【漫画更新】Name. 第 36 话「Let's Walk Hand in Hand」",
-   "url": "https://mangadex.org/chapter/a33f14a9-db55-490b-83de-6073b860ddfa",
+   "id": "4d1dd9c401a2",
+   "title": "【漫画更新】Yuria-sensei no Akai Ito 第 43 话「Full Moon Attack」",
+   "url": "https://mangadex.org/chapter/79c31953-6374-40bf-9305-0a4385203879",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-15T00:12:15+08:00",
+   "published": "2026-11-15T09:31:28+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【漫画更新】名前。第36話「手をつないで歩こう」"
+     "title": "【マンガ更新】ゆりあ先生の赤い糸 第43話「フルムーンアタック」"
     },
     "en": {
-     "title": "【Comic Update】Name. Chapter 36 \"Let's Walk Hand in Hand\""
+     "title": "【Manga Update】Yuria-sensei no Akai Ito Chapter 43 \"Full Moon Attack\""
     }
    }
   },
   {
-   "id": "1f043a43a2a2",
-   "title": "【漫画更新】Fantasma Lily 第 1 话",
-   "url": "https://mangadex.org/chapter/7dd56847-41d2-4eec-a830-ed03f3f89bc8",
+   "id": "3a30f58bb143",
+   "title": "【漫画更新】Isekai Tensei Dungeon Master - Onsen Dungeon wo Tsukuru 第 7.5 话",
+   "url": "https://mangadex.org/chapter/d492ef5d-9092-4ec1-89ba-73a50917c1a7",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-15T00:12:15+08:00",
+   "published": "2026-11-15T09:31:28+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【コミック更新】ファンタズマリリ 第1話"
+     "title": "【マンガ更新】異世界転生ダンジョンマスター ～温泉ダンジョンを創る～ 第7.5章"
     },
     "en": {
-     "title": "【Comic Update】Fantasma Lily Chapter 1"
+     "title": "【Manga Update】Isekai Tensei Dungeon Master - Onsen Dungeon wo Tsukuru Chapter 7.5"
     }
    }
   },
   {
-   "id": "6f37b5827005",
-   "title": "【漫画更新】Ippitsu Ayaru 第 8 话「EIGHTH BRUSH STROKE: AN AMBUSH?!」",
-   "url": "https://mangadex.org/chapter/7587a7b3-4b35-4224-82ff-deab7b2b473a",
+   "id": "cfa3a0557e5b",
+   "title": "【漫画更新】Shina Ultimate 第 69 话「Vermin」",
+   "url": "https://mangadex.org/chapter/beab2904-ce12-4dd3-b351-31cf36b8f568",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-15T00:12:15+08:00",
+   "published": "2026-11-15T09:31:28+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】一筆アヤル 第8章「8番目のブラシストローク：待ち伏せ!?」"
+     "title": "【マンガ更新】シナアルティメット第69話「害虫」"
     },
     "en": {
-     "title": "【Manga Update】Ippitsu Ayaru Chapter 8 \"EIGHTH BRUSH STROKE: AN AMBUSH?!\""
+     "title": "[Manga Update] Shina Ultimate Chapter 69 \"Vermin\""
     }
    }
   },
   {
-   "id": "cdb94772b94c",
-   "title": "【漫画更新】Lunolita 第 13 话「YOU WON'T FACE THIS ALONE」",
-   "url": "https://mangadex.org/chapter/7f46410f-cbc5-4c40-8611-edfd00de6043",
+   "id": "a6be7d517453",
+   "title": "【漫画更新】Muhai no Futari 第 13 话「Finish the Fight!」",
+   "url": "https://mangadex.org/chapter/9ca1b581-d045-4ee6-b685-094a82be8152",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-15T00:12:15+08:00",
+   "published": "2026-11-15T09:31:28+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】ルノリータ 第13話「一人では立ち向かうことはできない」"
+     "title": "【漫画更新】無為の二人 第13話「戦いを終わらせろ！」"
     },
     "en": {
-     "title": "【Manga Update】Lunolita Chapter 13 \"YOU WON'T FACE THIS ALONE\""
+     "title": "【Manga Update】Muhai no Futari Chapter 13 \"Finish the Fight!\""
     }
    }
   },
   {
-   "id": "f0ea9680a7ab",
-   "title": "【漫画更新】Muteki no Subaru 第 28 话「You Can Do It, Takeru!」",
-   "url": "https://mangadex.org/chapter/a1897752-ee7b-46fb-99ca-a944a23ab21f",
+   "id": "fa88a780c936",
+   "title": "【漫画更新】Hadashi no Rieche 第 3 话",
+   "url": "https://mangadex.org/chapter/156aa5e1-d51d-48e9-a5ff-cb6d7643b2d6",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-15T00:12:15+08:00",
+   "published": "2026-11-15T09:31:28+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【漫画更新】無敵のスバル 第28話「できるよ、タケル！」"
+     "title": "【マンガ更新】裸のリーチェ 第3話"
     },
     "en": {
-     "title": "【Manga Update】Muteki no Subaru Chapter 28 \"You Can Do It, Takeru!\""
+     "title": "【Manga Update】Hadashi no Rieche Chapter 3"
     }
    }
   }
