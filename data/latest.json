@@ -1,13 +1,13 @@
 {
  "date": "2026-11-19",
- "generated_at": "2026-11-19T02:33:39+08:00",
- "count": 156,
+ "generated_at": "2026-11-19T10:59:59+08:00",
+ "count": 154,
  "stories": 3,
  "categories": {
-  "anime": 52,
+  "anime": 46,
   "comic": 10,
-  "game": 69,
-  "novel": 15,
+  "game": 70,
+  "novel": 18,
   "general": 10
  },
  "sources": [
@@ -17,12 +17,12 @@
    "error": null
   },
   {
-   "name": "アニメ！アニメ！",
+   "name": "AUTOMATON",
    "count": 15,
    "error": null
   },
   {
-   "name": "AUTOMATON",
+   "name": "アニメ！アニメ！",
    "count": 15,
    "error": null
   },
@@ -33,11 +33,6 @@
   },
   {
    "name": "Game*Spark",
-   "count": 15,
-   "error": null
-  },
-  {
-   "name": "机核 GCORES",
    "count": 15,
    "error": null
   },
@@ -54,6 +49,11 @@
   {
    "name": "anilist_airing",
    "count": 11,
+   "error": null
+  },
+  {
+   "name": "机核 GCORES",
+   "count": 15,
    "error": null
   },
   {
@@ -78,6 +78,94 @@
   }
  ],
  "items": [
+  {
+   "id": "b9beb55a6f55",
+   "title": "Blood Addict Manga Ends",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-18/blood-addict-manga-ends/.243919",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-19T09:00:00+08:00",
+   "summary": "Series debuted in April 2025"
+  },
+  {
+   "id": "b7fa7394899e",
+   "title": "Sesuji's About a Pilgrimage to the Defiled Sacred Grounds Novel Gets Live-Action Film in 2027",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-18/sesuji-about-a-pilgrimage-to-the-defiled-sacred-grounds-novel-gets-live-action-film-in-2027/.243940",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-19T09:00:00+08:00",
+   "summary": "Horror novel launched in 2024"
+  },
+  {
+   "id": "48c696e9982b",
+   "title": "K Manga Adds Godmother Manga",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-18/k-manga-adds-godmother-manga/.243918",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-19T08:00:00+08:00",
+   "summary": "Series from Young Magazine US launches in Monthly Young Magazine on Wednesday"
+  },
+  {
+   "id": "63729f4117fc",
+   "title": "Hiromasa Okujima Announces 1st Original Boys-Love Manga",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-18/hiromasa-okujima-announces-1st-original-boys-love-manga/.243958",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-19T07:00:00+08:00",
+   "summary": "Bad boy romance title launches in 2027"
+  },
+  {
+   "id": "d2ef732385ac",
+   "title": "Duel Masters GT Manga Gets 4th Part",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-18/duel-masters-gt-manga-gets-4th-part/.243957",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-19T06:00:00+08:00",
+   "summary": "3rd part ended on Wednesday"
+  },
+  {
+   "id": "3f14844d0abe",
+   "title": "'You're So Sloppy, Hotta-Sensei' Manga Ends in 2 Chapters",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-18/youre-so-sloppy-hotta-sensei-manga-ends-in-2-chapters/.243956",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-19T05:00:00+08:00",
+   "summary": "Series debuted in March 2022"
+  },
+  {
+   "id": "bdcacab1afbe",
+   "title": "Online Retailer CDJapan Confirms Potential Customer Information Leaks Caused by Unauthorized Access",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-18/online-retailer-cdjapan-confirms-potential-customer-information-leaks-caused-by-unauthorized-access/.243951",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-19T04:01:00+08:00",
+   "summary": "Third-party exploited website vulnerability to access CDJapan, Neowing online stores on November 5"
+  },
+  {
+   "id": "e51cf86c402a",
+   "title": "Singer/Songwriter Hiromi Ōta Dies at 71",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-18/singer-songwriter-hiromi-ota-dies-at-71/.243950",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-19T03:00:00+08:00",
+   "summary": "Ōta died on November 12 following battle with breast cancer"
+  },
   {
    "id": "49dc22c344b3",
    "title": "Sumikko Gurashi Franchise's New Switch 2 Game Launches on November 19",
@@ -394,6 +482,137 @@
    }
   },
   {
+   "id": "a6bc7680eadf",
+   "title": "「ロックマン：デュアル オーバーライド」，新ボス「ボートマン」を公開。水中で広範囲の攻撃を仕掛ける気弱な漁業ロボット",
+   "url": "https://www.4gamer.net/games/968/G096894/20261119003/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-19T10:38:46+08:00",
+   "summary": "カプコンは本日，2027年春に発売予定の「ロックマン：デュアルオーバーライド」に登場する新ボス「ボートマン」を公開した。ボートマンは，遠洋漁業に憧れる気弱な近海漁業ロボットだ。水中戦を中心に広範囲の攻撃を仕掛ける。この発表により，8大ボスのうち6体が明らかになった。"
+  },
+  {
+   "id": "9c2f9c8d624e",
+   "title": "男色ディーノのゲイムヒヒョー ゼロ：第916回「大義名分が気になって仕方ない」",
+   "url": "https://www.4gamer.net/games/015/G101576/20261118018/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-19T10:00:00+08:00",
+   "summary": "今週の「男色ディーノのゲイムヒヒョーゼロ」は，シリーズ最新作「信長の野望・飛翔」の話題です。「三國志」ほど「信長の野望」にのめり込めなかった理由と，新作への期待をディーノ選手が語ります。"
+  },
+  {
+   "id": "afba52708351",
+   "title": "ゾンビを増やして東京の街を制圧する「THE FIRST ZOMBIE」，12月17日発売決定。「水ダウ」の藤井健太郎氏が手掛ける“逆ゾンビゲー”",
+   "url": "https://www.4gamer.net/games/043/G104316/20261119001/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-19T09:57:42+08:00",
+   "summary": "Phoenixxは本日，「THEFIRSTZOMBIE」を2026年12月17日に発売すると発表した。本作は，「水曜日のダウンタウン」で知られる藤井健太郎氏がプロデュースするアクションゲームだ。ゾンビとなった主人公が，人間を次々と仲間に変え，東京の街を制圧していく。あわせて，最新のゲームプレイ映像も公開された。"
+  },
+  {
+   "id": "4403cf5a3f6b",
+   "title": "ストラテジーディフェンスゲーム「Gate of Gates」，スマートフォン＆PC向けクローズドβテストを12月中に開催。参加者を募集中",
+   "url": "https://www.4gamer.net/games/956/G095600/20261117040/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-19T09:00:00+08:00",
+   "summary": "WEBZENは2026年11月19日，ストラテジーディフェンスゲーム「GateofGates（ゲート・オブ・ゲイツ）」について，スマートフォンとPCを対象としたクローズドβテストを12月中に開催すると発表した。また，新たなプロモーションムービーも公開された。"
+  },
+  {
+   "id": "09dea1be2f1a",
+   "title": "「ドルフロ2」車を召喚して戦場を爆走！ バフの積み重ねで高火力を叩き出す新キャラクター“コレダ”の性能をレポート［プレイレポ］",
+   "url": "https://www.4gamer.net/games/631/G063178/20261113045/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-19T09:00:00+08:00",
+   "summary": "タクティカルRPG「ドールズフロントライン2：エクシリウム」に，水属性の新キャラクター“コレダ”が実装された。車を召喚して戦うユニークな性能を，ぜひ体験してほしい。"
+  },
+  {
+   "id": "101c66ab35bc",
+   "title": "「次にくるライトノベル大賞2026」にノミネートしたオーバーラップ作品が無料、または割引となるキャンペーンが各電子書籍ストアにて開催中",
+   "url": "https://ln-news.com/articles/127234",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-19T09:00:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "4837f76cbe15",
+   "title": "スマホゲームのセルラン分析（2026年11月5日〜11月11日）。今週も1位は「勝利の女神：NIKKE」。7月〜9月に登場した新作の国内ランキングも",
+   "url": "https://www.4gamer.net/games/456/G045622/20261116002/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-19T08:00:00+08:00",
+   "summary": "世界有数のスマホゲーム大国である日本において，現在最も売れているタイトルをはじめ，さまざまなデータを毎週お届けする本連載。今週の国内収益ランキング1位は，前週に続いて「勝利の女神：NIKKE」となった。今回は，7月〜9月に登場した新作の国内ランキングも紹介しよう。"
+  },
+  {
+   "id": "41278e00808f",
+   "title": "俺，この仕事が終わったらGTA6するんだ……“発売されたけどまだ遊べない”現実社会のサバイバーに贈る「グランド・セフト・オートVI」これまでの歩み",
+   "url": "https://www.4gamer.net/games/758/G075801/20261118019/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-19T07:30:00+08:00",
+   "summary": "世界中で「今日はGTA休み！」と話題になるなか，気持ちはバイスシティでも現実は通勤電車に揺られ職場へ……という人もいるはず。筆者もそう！ そんな“今日休めない”人たちに，帰宅後の「グランド・セフト・オートVI」のプレイが楽しくなるような，GTA6の歩みや企画記事をまとめました。",
+   "story": {
+    "sources": 2,
+    "heat": 1.88,
+    "members": [
+     "083d0892c885",
+     "184e10047c15",
+     "3f5453785966",
+     "b84d4c1f23ce"
+    ]
+   }
+  },
+  {
+   "id": "1b326467645f",
+   "title": "「G-STAR 2026」が11月19日から開幕。41か国1237社が集まり，新設の「G-STAR Global Game Showcase」にコーエーテクモやカプコン，セガが出展",
+   "url": "https://www.4gamer.net/games/991/G999110/20261118023/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-19T07:00:00+08:00",
+   "summary": "「G-STAR2026」が，11月19日から22日までの4日間，釜山のBEXCOで開催される。22回目を迎える今年は，41か国1237社，3445小間の規模での開催だ。"
+  },
+  {
+   "id": "85c62da1281f",
+   "title": "『ハイスクールD×D』逆バニー衣装の姫島朱乃1／6スケールフィギュアが2027年4月発売",
+   "url": "https://ln-news.com/articles/127233",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-19T07:00:00+08:00",
+   "summary": ""
+  },
+  {
+   "id": "b586f2496def",
+   "title": "『最弱と呼ばれた少年、実は最難関ダンジョン攻略済み ～ダンジョン探索を楽しんでいたらエリートクラスの美少女から弟子入り志願されています～』のコミカライズ連載が開始",
+   "url": "https://ln-news.com/articles/127218",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-19T05:00:00+08:00",
+   "summary": ""
+  },
+  {
    "id": "963cee1418eb",
    "title": "最新フラグシップスマートフォン「OPPO Find X10」が12月17日に国内発売。上位モデルは3眼カメラに2億画素センサーを採用",
    "url": "https://www.4gamer.net/games/990/G999019/20261118043/",
@@ -436,7 +655,7 @@
    },
    "story": {
     "sources": 2,
-    "heat": 1.54,
+    "heat": 1.2,
     "members": [
      "3f49f635866d"
     ]
@@ -646,11 +865,10 @@
     }
    },
    "story": {
-    "sources": 3,
-    "heat": 2.4,
+    "sources": 2,
+    "heat": 1.2,
     "members": [
-     "8985abf6e37f",
-     "d8aed3738b02"
+     "8985abf6e37f"
     ]
    }
   },
@@ -1001,6 +1219,196 @@
    }
   },
   {
+   "id": "163a2c288fc7",
+   "title": "AMDグラボで報告された「SSD無限酷使」不具合、今度はNVIDIAグラボでも発生か。1日で約1テラバイト書き込まれた事例も、寿命が怖い",
+   "url": "https://automaton-media.com/articles/newsjp/20261119-479961/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-19T10:43:37+08:00",
+   "summary": "NVIDIAのGPU向けドライバー「GeForce Game Ready Driver」の一部のバージョンで、無操作中にもSSDへの書き込みが発生する不具合が相次いで報告されている。"
+  },
+  {
+   "id": "713d20ea0571",
+   "title": "「パペットスンスン」スンスン・ノンノン・ゾンゾンが「anan」の表紙に！ とびきりキュートなシール付録も♪",
+   "url": "https://animeanime.jp/article/2026/11/19/104917.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-19T10:35:02+08:00",
+   "summary": "『パペットスンスン』のスンスン・ノンノン・ゾンゾンが「anan」スペシャルエディションの表紙に登場。2026年11月25日より、全国の書店やコンビニエンスストア、ネット書店などで販売される。"
+  },
+  {
+   "id": "083d0892c885",
+   "title": "『グランド・セフト・オートVI（GTA6）』開発元いわく、60fps実現には“PS5 Proですら力不足”。アプデでの対応も難しそう",
+   "url": "https://automaton-media.com/articles/newsjp/gta6-20261119-479955/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-19T10:14:00+08:00",
+   "summary": "『GTA6』はPS5/XBOX Series X|Sにて最大30fpsでの動作となっている。開発元によれば、60fps動作の実現はマシンスペックが足りないとのことだ。",
+   "dup_of": "41278e00808f"
+  },
+  {
+   "id": "fda02b4efffb",
+   "title": "“サイバーパンク特濃”アクションRPG『アセント』に約4年ぶりのアプデ到来、開発元が本気の磨き直し。やっと言える「今こそ遊びどき」",
+   "url": "https://automaton-media.com/articles/reportjp/theascent-20261119-479869/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-19T10:00:41+08:00",
+   "summary": "アクションシューティングRPG『アセント（The Ascent）』の、約4年ぶりとなるアップデート「Legacy Patch」では、遊びやすさが大幅改善されている。"
+  },
+  {
+   "id": "49f981e08759",
+   "title": "新作ガンプラ「ストライクフリーダムガンダム SEED FREEDOM ZERO Ver.（仮）」は過去キットの金型不使用！マイフリとも異なる、完全新規造形だと発表",
+   "url": "https://animeanime.jp/article/2026/11/19/104916.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-19T10:00:03+08:00",
+   "summary": "新商品「HG 1/144 ムラサメ改(初期生産型)」「HG 1/144 グフイグナイテッドカスタム」の試作品も紹介！"
+  },
+  {
+   "id": "e7b0e86d8c48",
+   "title": "“マジシャン”キャラといえば？ アンケート〆切は11月25日",
+   "url": "https://animeanime.jp/article/2026/11/19/104915.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-19T09:47:58+08:00",
+   "summary": "アニメ！アニメ！では「“マジシャン”キャラといえば？」と題した読者アンケートを実施します。〆切は11月25日。"
+  },
+  {
+   "id": "fb88281f69d4",
+   "title": "アニメ「Vivy -Fluorite Eye’s Song-」の配信はどこで見れる？Netflix・Hulu・Amazonプライムビデオも解説",
+   "url": "https://animeanime.jp/article/2026/11/19/104914.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-19T09:34:47+08:00",
+   "summary": "アニメ『Vivy -Fluorite Eye’s Song-』は、DMM TV・U-NEXT・dアニメストアで見放題配信中です。Amazonプライムビデオはレンタル配信。Netflix・Huluで見れるか、あらすじ、声優キャストも紹介。"
+  },
+  {
+   "id": "184e10047c15",
+   "title": "『グランド・セフト・オートVI（GTA6）』では「ながらスマホ運転」がちゃんと危ない。“スマホに夢中”が生々しい",
+   "url": "https://automaton-media.com/articles/newsjp/20261119-479943/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-19T09:20:34+08:00",
+   "summary": "『グランド・セフト・オートVI（GTA6）』にて「ながらスマホ運転」が過去作よりもいっそう危険になっている点が注目されている。",
+   "dup_of": "41278e00808f"
+  },
+  {
+   "id": "ac23d85a72af",
+   "title": "触乐夜话：我和我的GTA",
+   "url": "http://www.chuapp.com/article/291767.html",
+   "source": "触乐",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-11-19T09:07:12+08:00",
+   "summary": "触乐夜话，每天胡侃和游戏有关的屁事、鬼事、新鲜事。 图/小罗 真是奇怪呀，在我的回忆里，几乎我所有和GTA有关的记忆都是在工作岗位上。 我第一次接触GTA的时候就是3。当时我还在《大众软件》杂志社旗下的《大众游戏》杂志工作。XBOX刚出，我们有一位在美国的朋友在当地买了XBOX，千里迢迢寄到编辑部。游戏机有了，但只有一张附带的《光环》。当时我们还不习惯用手柄玩FPS（其实现在也不习惯），玩了一阵，总是感觉很难投入。也就逐渐放下了。一直到了那年春节，我回到哈尔滨去过年。作为一个传统节日习俗，哈尔滨的游戏爱好者在春节的时候都要去位于哈工大附近的教化电子大世界购买盗版游戏盘——北京当年买盗版盘特别困"
+  },
+  {
+   "id": "7bdbe910da7c",
+   "title": "「魔法騎士レイアース」光・海・風・モコナがアイスクリームをぺろり♪ 新規描き起こしイラストグッズ全30種が登場！",
+   "url": "https://animeanime.jp/article/2026/11/19/104913.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-19T09:00:04+08:00",
+   "summary": "TVアニメ『魔法騎士レイアース』より、光、海、風とモコナの新規描き起こしイラストを使用したオリジナルグッズ全30種が登場。ECサイト「ともすと」にて、2026年11月20日18時より受注予約受付が開始される。"
+  },
+  {
+   "id": "b203fe42b836",
+   "title": "Rogue动作游戏《恸哭幽光》Steam版将于12月1日发售",
+   "url": "https://www.gcores.com/articles/222514",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-11-19T09:00:00+08:00",
+   "summary": "由 FURYU CORPORATION 打造的 Rogue 动作游戏《恸哭幽光》将于12月1日发售。 游戏制作人表示，本作从发售约一个月前起，便以留有充足时间的日程推进审核申请，并完成了所需的相关工作。然而，由于V社的审核积压，所需时间已超出通常周期，因此做出了延期的艰难决定。 FURYU CORPORATION 表示，自 Nintendo Switch 2版及 PlayStation 5版发售以来，团队也在认真对待大家提出的问题报告与意见。为了尽可能回应等待发售的各位玩家的期待，团队正逐步修复目前已确认的问题，并将在 Steam 版中体现多项优化与调整后，再将其呈现给大家。 为了向等待发售的"
+  },
+  {
+   "id": "73d5bdafe566",
+   "title": "德国万得城门店推出代下载《GTA6》服务，售价29.99欧元",
+   "url": "https://www.gcores.com/articles/222515",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-11-19T08:45:00+08:00",
+   "summary": "近日，德国大型电子产品零售连锁万得城的一家门店推出了颇具争议的线下付费服务。玩家只要支付29.99欧元（约合219元），便可使用门店的高速网络线路，店员会在60分钟内帮玩家将《GTA6》下载并安装到主机上。 需要注意的是，不发售实体盘的《GTA6》的安装体积高达约212GB，堪称近年来体量最庞大的主机游戏之一。对于宽带基础设施长期备受诟病的德国而言，如此庞大的数据包对不少家庭网络构成了考验。在光纤覆盖率较低的乡村或老旧城区，下载耗时甚至达到8到10个小时。在 Reddit 的相关讨论帖下，有网友表示这种定价策略非常离谱，认为在已经支付高昂游戏售价后，还要额外掏出近30欧元借用网线令人难以接受。"
+  },
+  {
+   "id": "56471225d861",
+   "title": "经历4811天后，至少我们还有《GTA 6》",
+   "url": "http://www.chuapp.com/article/291770.html",
+   "source": "触乐",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-11-19T08:35:00+08:00",
+   "summary": "《Grand Theft Auto VI》（GTA 6）今天（2026年11月19日）发售了。它的上一代是2013年9月17日发售的，距今天13年2个月零2天，或者说，4811天。 一款游戏和它的续作之间相距13年——这个时间是如此之长，以至于很难让人第一时间产生实感。我们度过了怎样的13年？13年之后，我们的世界已经完全不一样了。 发售于2013年的《侠盗猎车手V》设定在2013年-2014年的圣安地列斯州 (San Andreas) 2013年《GTA 5》发售时的新闻配图，“这款游戏卖得比历史上任何一款电子游戏、电影或其他娱乐产品都要快“（图源：Reuters Mike Blake） 在"
+  },
+  {
+   "id": "3f5453785966",
+   "title": "『グランド・セフト・オートVI（GTA6）』にもおなじみ「チートコード」は完備。ただしクリアするまでは“お預け”",
+   "url": "https://automaton-media.com/articles/newsjp/202611190-479938/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-19T08:21:16+08:00",
+   "summary": "『グランド・セフト・オートVI（GTA6）』でもシリーズおなじみのチートコード機能が存在するようだ。",
+   "dup_of": "41278e00808f"
+  },
+  {
+   "id": "9cc45a1d0136",
+   "title": "「着せ恋」喜多川海夢が「ヌル女2」雫たんに変身！ 困り顔×メイド服がたまらない1/4スケールフィギュア登場♪",
+   "url": "https://animeanime.jp/article/2026/11/19/104912.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-19T07:30:03+08:00",
+   "summary": "TVアニメ『その着せ替え人形は恋をする』より、「喜多川海夢 -黒江雫 Ver.-」の1/4スケールフィギュアが登場。2026年11月18日より予約受付を開始し、抽選で3名にフィギュアが当たるプレゼント企画も開催される。"
+  },
+  {
+   "id": "6998cd8d2aac",
+   "title": "「ラブライブ！」声優・葉山風花、1st写真集が2月3日発売！ 台湾・台南＆高雄で撮影「写真集もひとつの“作品”として楽しんでいただけると」",
+   "url": "https://animeanime.jp/article/2026/11/19/104911.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-19T06:30:03+08:00",
+   "summary": "声優・葉山風花の1st写真集（仮）が、2027年2月3日に発売されることが決定した。台湾の台南・高雄を舞台に、ノスタルジックな雰囲気の街並みで等身大の姿を撮影。発売に先駆けて、レトロな柄のワンピース姿や夜市でのカットなど、先行イメージ写真4枚が公開された。"
+  },
+  {
+   "id": "955b30d99edb",
+   "title": "【コスプレ】大人気レイヤー・えなこ、ミニスカ制服で降臨！約17万人が来場の「池ハロ2026」美女レイヤーまとめ【写真33枚】",
+   "url": "https://animeanime.jp/article/2026/11/19/104910.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-19T06:00:03+08:00",
+   "summary": "過去最多17万2000人が来場した「池ハロ2026」の美女コスプレイヤーが眩しい。"
+  },
+  {
    "id": "b84d4c1f23ce",
    "title": "『グランド・セフト・オートVI（GTA6）』、「メタスコア99」で今年最高記録。満点レビュー続出、GOTYへの期待も高まる",
    "url": "https://automaton-media.com/articles/newsjp/20261118-479925/",
@@ -1019,7 +1427,8 @@
      "title": "\"Grand Theft Auto VI (GTA6)\" has the highest MetaScore of the year with 99. A series of perfect reviews, and expectations for GOTY are rising",
      "summary": "\"Grand Theft Auto VI (GTA6)\" has received very high praise from media and critics."
     }
-   }
+   },
+   "dup_of": "41278e00808f"
   },
   {
    "id": "fc4174aa7a3f",
@@ -1397,13 +1806,6 @@
      "title": "Furyu's new beautiful girl roguelike ACT \"Climblight\", the postponed Steam version is now scheduled to be released on December 1st. The “currently scheduled date” is decided for now.",
      "summary": "Furyu announced on November 18th that the Steam version of ``CRYMELIGHT'' has been reset to December 1st."
     }
-   },
-   "story": {
-    "sources": 2,
-    "heat": 1.61,
-    "members": [
-     "0c440cf12433"
-    ]
    }
   },
   {
@@ -2249,718 +2651,81 @@
    }
   },
   {
-   "id": "4ab63656b629",
-   "title": "对话在日从业者：腾讯”怪猎“手游为何在日本畅销榜登顶?",
-   "url": "http://www.chuapp.com/article/291753.html",
-   "source": "触乐",
-   "category": "game",
-   "lang": "zh",
-   "weight": 7,
-   "published": "2026-11-12T17:05:00+08:00",
-   "summary": "10月29日，由腾讯天美与卡普空合作开发的《怪物猎人：旅人》国际服在海外上线。随后，该款游戏在日本、新加坡以及中国港澳台地区等市场陆续登顶。其中，日本成为当下《怪物猎人：旅人》在海外收入最高的地区。上线半个月以来，《怪物猎人：旅人》在日本维持在iOS游戏畅销榜Top5。 在iOS端，欧美及日本等地区，日本地区收入超60%（源于点点数据） 部分从业者将其归功于IP影响力与买量投放。但根据AppGrowing国际版，这款游戏在日本投放素材数量不算高。触乐问了项目成员，有人认为基本达到预期，但也有人对游戏在日本到达游戏畅销榜第一感到惊讶。最后，他们的结论是“日本玩家喜欢抽卡”“日本手游太拉胯了”。 ",
-   "i18n": {
-    "ja": {
-     "title": "日本の実務者との会話：なぜテンセントの「モンスターハンティング」モバイルゲームが日本でベストセラーリストのトップになったのか？",
-     "summary": "テンセント・ティアンメイとカプコンが開発した『モンスターハンター：トラベラー』の海外サーバーが10月29日、海外で開設された。その後、このゲームは日本、シンガポール、香港、マカオ、台湾などの市場で次々とトップに上り詰めました。その中でも、『モンスターハンター：トラベラー』の海外収益が最も高い地域は日本となっている。 『モンスターハンター：トラベラー』は半月前の発売以来、日本で最も売れたiOSゲームのトップ5に留まり続けています。 iOS 側では、ヨーロッパ、アメリカ、日本において、日本の収益が 60% を超えています (Diandian データより)。一部の専門家は、これを知財の影響力と購入量のせいだと考えています。ただし、AppGrowingの海外版によると、日本でこのゲームの素材が公開されている量はそれほど多くないとのこと。チュレ氏はプロジェクトメンバーに尋ねた。基本的に期待に応えていると考える人もいますが、このゲームが日本で最も売れたゲームのリストのトップに上がったことに驚いている人もいます。最終的に彼らの結論は「日本のプレイヤーはカードを引くのが好き」「日本のモバイルゲームはセクシーすぎる」というものだった。"
-    },
-    "en": {
-     "title": "Conversation with practitioners in Japan: Why does Tencent’s “Monster Hunting” mobile game top the best-selling list in Japan?",
-     "summary": "On October 29, the international server of \"Monster Hunter: Traveler\", developed by Tencent Tianmei and Capcom, was launched overseas. Subsequently, the game successively reached the top in markets such as Japan, Singapore, Hong Kong, Macao and Taiwan. Among them, Japan has become the region with the highest overseas revenue for “Monster Hunter: Traveler”. Since its launch half a month ago, \"Monster Hunter: Traveler\" has remained in the top 5 best-selling iOS games in Japan. On the iOS side, in Europe, America and Japan, the revenue in Japan exceeds 60% (sourced from Diandian data). Some practitioners attribute this to IP influence and purchase volume. However, according to the international version of AppGrowing, the amount of material released for this game in Japan is not high. Chule asked project members. Some people think it has basically met expectations, but others are surprised that the game has reached the top of the best-selling game list in Japan. In the end, their conclusion was that “Japanese players like to draw cards” and “Japanese mobile games are too sexy.”"
-    }
-   }
-  },
-  {
-   "id": "b9376b024480",
-   "title": "【今日更新】大理寺日志 第三季",
-   "url": "https://bgm.tv/subject/449346",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-19T02:29:01+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日更新】大理寺日記 シーズン3"
-    },
-    "en": {
-     "title": "【Today’s Update】Dali Temple Diary Season 3"
-    }
-   }
-  },
-  {
-   "id": "a1b87924a8e8",
-   "title": "【今日更新】狂王 第2季",
-   "url": "https://bgm.tv/subject/576783",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-19T02:29:01+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日の更新】マッドキング シーズン2"
-    },
-    "en": {
-     "title": "【Today’s Update】Mad King Season 2"
-    }
-   }
-  },
-  {
-   "id": "4a2bc56ae682",
-   "title": "【今日更新】仙逆剧场版 弑仙之战",
-   "url": "https://bgm.tv/subject/577237",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-19T02:29:01+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日更新】劇場版 不滅のあなたへ 不滅の殺し合い"
-    },
-    "en": {
-     "title": "[Today’s update] Immortal Ni Theatrical Edition: Immortal Killing Battle"
-    }
-   }
-  },
-  {
-   "id": "e57ee933fe77",
-   "title": "【今日更新】铁旅！meet with 铁道少女",
-   "url": "https://bgm.tv/subject/590553",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-19T02:29:01+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日更新】鉄の旅団！鉄道女子との出会い"
-    },
-    "en": {
-     "title": "[Today’s update] Iron Brigade! meet with railway girls"
-    }
-   }
-  },
-  {
-   "id": "fcf7d3c4d6ac",
-   "title": "【今日更新】FX战士久留美",
-   "url": "https://bgm.tv/subject/622288",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-19T02:29:01+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日の更新】FX戦士くるみ"
-    },
-    "en": {
-     "title": "【Today’s Update】FX Warrior Kurumi"
-    }
-   }
-  },
-  {
-   "id": "57fe68b47d93",
-   "title": "【今日更新】冰剑的魔术师将要统一世界 第二季",
-   "url": "https://bgm.tv/subject/654294",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-19T02:29:01+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日更新】氷剣の魔術師は世界を統一する シーズン２"
-    },
-    "en": {
-     "title": "[Today’s Update] The Magician of the Ice Sword Will Unify the World Season 2"
-    }
-   }
-  },
-  {
-   "id": "1aecfe90c905",
-   "title": "【今日更新】冰之城墙 第二季",
-   "url": "https://bgm.tv/subject/665390",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-19T02:29:01+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日のアップデート】アイスウォール シーズン2"
-    },
-    "en": {
-     "title": "【Today’s Update】Ice Wall Season 2"
-    }
-   }
-  },
-  {
-   "id": "d4533d8e0461",
-   "title": "【今日更新】ちょこっとヤバシティ",
-   "url": "https://bgm.tv/subject/700127",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-19T02:29:01+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【今日の更新】ちょこっとヤバシティ"
-    },
-    "en": {
-     "title": "【Today's update】ちょこっとヤバシティ"
-    }
-   }
-  },
-  {
-   "id": "c418dd5d12b1",
-   "title": "【今日更新】シルバニアファミリー フレアのカラフル・エブリデイ",
-   "url": "https://bgm.tv/subject/704737",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-19T02:29:01+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日の更新】シルバニアファミリー フルレアのカラフル・エブリデイ"
-    },
-    "en": {
-     "title": "【Today's update】シルバニアファミリー Furuレアのカラフル・エブリデイ"
-    }
-   }
-  },
-  {
-   "id": "757b5e733610",
-   "title": "【今日更新】熊出没之神奇宝物 第二季",
-   "url": "https://bgm.tv/subject/705980",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-19T02:29:01+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日の更新】クマの魔法の秘宝 シーズン2"
-    },
-    "en": {
-     "title": "[Today’s update] The Magical Treasures of Bears Season 2"
-    }
-   }
-  },
-  {
-   "id": "3e981c08cf94",
-   "title": "【今日更新】乱世千金倪亚‧利斯顿 迷你动画",
-   "url": "https://bgm.tv/subject/716967",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-19T02:29:01+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日の更新】乱世の娘ニー・ヤ・リストン ミニアニメーション"
-    },
-    "en": {
-     "title": "【Today’s update】Ni Ya Liston, a daughter of troubled times, mini animation"
-    }
-   }
-  },
-  {
-   "id": "aa1916dd2382",
-   "title": "【今日放送 20:30】探偵はもう、死んでいる。Season2 第7集",
-   "url": "https://anilist.co/anime/152677",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "a1e0c9837b9b",
+   "title": "Metaは10代のInstagramの利用を促進する「プロジェクト・グリフィンドール」を実施していた",
+   "url": "https://gigazine.net/news/20261119-meta-insgtagram-project-gryffindor/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-19T02:29:00+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日20:30播出】侦探已经死了。第二季第7卷"
-    },
-    "en": {
-     "title": "[Broadcast today 20:30] The detective is already dead. Season2 Volume 7"
-    }
-   }
+   "weight": 5,
+   "published": "2026-11-19T10:38:00+08:00",
+   "summary": "Instagramに「学校バッジ」を導入し、同じ学校に通う子どもたちのつながりを可視化して定着率を高める戦略「プロジェクト・グリフィンドール」をMetaが実施していたことが明らかになりました。Instagramが子どもを取り込んで食い物にしていると訴える裁判の手続きでこの事実が分かったため、Metaへの追及はさらに強まるとみられます。続きを読む..."
   },
   {
-   "id": "ae41392ab47b",
-   "title": "【今日放送 20:54】ゲルぴよ 2 第5集",
-   "url": "https://anilist.co/anime/217282",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "47c3d30e35a4",
+   "title": "Qi2対応・最大25Wの急速充電＆最高峰の冷却性能でスピーディーかつ熱くならずに充電できるAnkerのモバイルバッテリー「MagGo Power Bank 2 Pro」を使ってみた",
+   "url": "https://gigazine.net/news/20261119-anker-maggo-power-bank-2-pro/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-19T02:29:00+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日20:54播出】Gel Piyo 2 第5卷"
-    },
-    "en": {
-     "title": "[Broadcast today 20:54] Gel Piyo 2 Volume 5"
-    }
-   }
+   "weight": 5,
+   "published": "2026-11-19T10:25:00+08:00",
+   "summary": "AnkerはQi2 25W対応＆冷却ファン搭載で業界最高水準の充電速度と安全性を両立したモバイルバッテリー「Anker MagGo Power Bank 2 Pro」を2026年11月19日に発売しました。そんなMagGo Power Bank 2 Proが編集部に届いたので、さっそく使ってみました。続きを読む..."
   },
   {
-   "id": "b8e757292848",
-   "title": "【今日放送 21:00】世界最強の魔女、始めました 第7集",
-   "url": "https://anilist.co/anime/211778",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "74992798db00",
+   "title": "ジェンスン・フアンのNVIDIA離脱は「連勝中のチームからマイケル・ジョーダンを追い出すようなもの」とイーロン・マスクが語る",
+   "url": "https://gigazine.net/news/20261119-elon-musk-says-jensen-huang-michael-jordan/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-19T02:29:00+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日21:00播出】世界最强魔女第7集开始"
-    },
-    "en": {
-     "title": "[Broadcast today 21:00] The world's strongest witch has begun, Episode 7"
-    }
-   }
+   "weight": 5,
+   "published": "2026-11-19T10:15:00+08:00",
+   "summary": "スパイ疑惑のある女性との不倫関係が発覚し、NVIDIAのCEOを辞任したジェンスン・フアン氏について、実業家のイーロン・マスク氏が「ジェンスン・フアンを追い出すことはチームからマイケル・ジョーダンを追い出すようなもの」と語りました。続きを読む..."
   },
   {
-   "id": "c02866e416c6",
-   "title": "【今日放送 21:00】佐々木とピーちゃん シーズン２ 第7集",
-   "url": "https://anilist.co/anime/176314",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "9b46731831ee",
+   "title": "Googleが「Gemini 4 Neon」を発表、最先端の推論能力と高速・低コストな処理を両立しコーディング性能で世界トップに",
+   "url": "https://gigazine.net/news/20261119-google-gemini-4-neon/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-19T02:29:00+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日21:00播出】佐佐木与小皮酱 第2季第7集"
-    },
-    "en": {
-     "title": "[Broadcast today 21:00] Sasaki and Pee-chan Season 2 Episode 7"
-    }
-   }
+   "weight": 5,
+   "published": "2026-11-19T10:15:00+08:00",
+   "summary": "Googleが2026年11月18日、新たなAIモデル「Gemini 4 Neon」を発表しました。Gemini 4 Neonは最上位モデルのGemini 4 Carbonをベースに開発されたモデルで、高度なコーディングやデータ分析、科学研究、企業の業務自動化などにおいて、最先端のAIモデルに匹敵する性能と高速かつ低コストな処理を両立しています。続きを読む..."
   },
   {
-   "id": "0441b9063907",
-   "title": "【今日放送 22:46】魔法騎士レイアース (2026) 第7集",
-   "url": "https://anilist.co/anime/178868",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "d888f6239214",
+   "title": "好きな時にAmazonの商品を受け取れる「Amazonロッカー」のセキュリティをあらゆる手段を駆使して突破する試み～ソフトウェア編",
+   "url": "https://gigazine.net/news/20261119-breaking-amazon-lockers/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-19T02:29:00+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日22:46播出】魔法骑士雷亚斯（2026）第7卷"
-    },
-    "en": {
-     "title": "[Broadcast today 22:46] Magic Knight Rayearth (2026) Volume 7"
-    }
-   }
+   "weight": 5,
+   "published": "2026-11-19T09:17:00+08:00",
+   "summary": "DEF CON 34カンファレンスにおいてセキュリティエンジニアのマーティン・ヴィゴ氏が、日常生活に不可欠な存在となりつつあるAmazonロッカーのセキュリティに関する調査結果を発表しました。続きを読む..."
   },
   {
-   "id": "79896aeae2f7",
-   "title": "【今日放送 23:00】新テニスの王子様 U-17 WORLD CUP 決勝メンバー決定戦 第8集",
-   "url": "https://anilist.co/anime/199068",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "68e37901849c",
+   "title": "AIコーディングエージェントの登場でコード作成量が30％増もコードレビュー時間は49％長くなりボトルネックが移り変わったことをハーバード大学の研究者が発見",
+   "url": "https://gigazine.net/news/20261119-ai-coding-agents-shifted-bottleneck-code-review/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-19T02:29:00+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日23:00播出】新网球王子U-17世界杯最终成员决选第8轮"
-    },
-    "en": {
-     "title": "[Broadcast today 23:00] New Prince of Tennis U-17 WORLD CUP Final Member Determination Round 8"
-    }
-   }
+   "weight": 5,
+   "published": "2026-11-19T07:00:00+08:00",
+   "summary": "ハーバード大学の研究者がAIコーディングエージェントを導入した企業を対象とした調査を実施したところ、AIコーディングエージェントの活用でコードの作成量は約30％増加したものの、コードのレビューにかかる時間が49％増加したため、完成した作業量には目立った増加が見られないことが明らかになりました。続きを読む..."
   },
   {
-   "id": "705241f8c8a1",
-   "title": "【今日放送 23:00】大理寺日志 第3季 第6集",
-   "url": "https://anilist.co/anime/168085",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "55dbfaf10514",
+   "title": "AnthropicのAI「Claude Mythos Preview」が見つけた約3万8000件の脆弱性候補の修正はどこまで進んだのか？",
+   "url": "https://gigazine.net/news/20261119-anthropic-glasswing-vulnerability-fixes/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-19T02:29:00+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日23:00播出】大理西第3季第6集"
-    },
-    "en": {
-     "title": "[Broadcast today 23:00] Dairiji Nishi Season 3 Episode 6"
-    }
-   }
-  },
-  {
-   "id": "5eeeb724bed8",
-   "title": "【今日放送 23:30】転生したら剣でした 第2期 第8集",
-   "url": "https://anilist.co/anime/159042",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-19T02:29:00+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日23:30播出】转生时是一把剑 第二季 第8集"
-    },
-    "en": {
-     "title": "[Broadcast today 23:30] It was a sword when I got reincarnated Season 2 Episode 8"
-    }
-   }
-  },
-  {
-   "id": "a420d0017e45",
-   "title": "【今日放送 23:30】獣王武神ダンデヴァイン 第7集",
-   "url": "https://anilist.co/anime/213068",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-19T02:29:00+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日23:30播出】兽王布金Dandevine Vol.1 7"
-    },
-    "en": {
-     "title": "[Broadcast today 23:30] Beast King Bujin Dandevine Vol. 7"
-    }
-   }
-  },
-  {
-   "id": "892084fa2e5b",
-   "title": "【今日放送 23:45】帰還者の魔法は特別です 第2期 第7集",
-   "url": "https://anilist.co/anime/172192",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-19T02:29:00+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日23:45播出】海归的魔法特别 第二季第7集"
-    },
-    "en": {
-     "title": "[Broadcast today 23:45] The magic of returnees is special Season 2 Episode 7"
-    }
-   }
-  },
-  {
-   "id": "8a56eccfd806",
-   "title": "【今日放送 10:00】大夏守墓人 第18集",
-   "url": "https://anilist.co/anime/214974",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-19T02:29:00+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日10:00播出】小津森通彬第18集"
-    },
-    "en": {
-     "title": "[Broadcast today 10:00] Onatsumori Tombin Episode 18"
-    }
-   }
-  },
-  {
-   "id": "fccdccbfaaee",
-   "title": "SteamDB、Nexus Mods参加後の進捗報告―インフラ強化、最安値検索、Modsタブ追加など実施。「無料のものは今後も無料のまま」",
-   "url": "http://www.gamespark.jp/article/2026/11/19/175056.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-19T00:00:03+08:00",
-   "summary": "何かと便利なSteamDB、その進化はまだまだこれからです",
-   "i18n": {
-    "zh": {
-     "title": "SteamDB，参与 Nexus Mods 后的进度报告 - 基础设施加固、最低价格搜索、添加 Mods 选项卡等。“免费的将永远免费”",
-     "summary": "SteamDB 非常有用，而且它的进化尚未到来。"
-    },
-    "en": {
-     "title": "SteamDB, progress report after participating in Nexus Mods - infrastructure reinforcement, lowest price search, addition of Mods tab, etc. \"What's free will always remain free\"",
-     "summary": "SteamDB is so useful, and its evolution is yet to come."
-    }
-   }
-  },
-  {
-   "id": "0681e9c4730e",
-   "title": "イカれた改造戦車でゾンビ軍団を薙ぎ倒すローグライク・アクションシューター『終末戦車：ゾンビワールド』正式リリース！",
-   "url": "http://www.gamespark.jp/article/2026/11/19/175055.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-18T23:30:03+08:00",
-   "summary": "拠点であり武器でもある戦車に乗り込み、自由なビルド構築で改造し、大群となって押し寄せてくるゾンビ軍団を最大火力で殲滅します。",
-   "i18n": {
-    "zh": {
-     "title": "一款Roguelike动作射击游戏《末日坦克：僵尸世界》正式发售，你可以用疯狂改装的坦克消灭僵尸大军！",
-     "summary": "进入一辆既是你的基地又是你的武器的坦克，用免费的建造来改装它，并使用最大的火力消灭冲进来的成群的僵尸。"
-    },
-    "en": {
-     "title": "``Doomsday Tank: Zombie World'', a roguelike action shooter where you mow down zombie armies with crazy modified tanks, is officially released!",
-     "summary": "Get into a tank, which is both your base and your weapon, modify it with free builds, and use maximum firepower to annihilate the hordes of zombies that rush in."
-    }
-   }
-  },
-  {
-   "id": "01f73a49639b",
-   "title": "『GTA6』起動からオープニングまでの約7分間が最高すぎる！ジェイソンとルシアの出会い、スタイリッシュな演出は必見",
-   "url": "http://www.gamespark.jp/article/2026/11/19/175054.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-18T23:23:45+08:00",
-   "summary": "最高にアガるイントロだ！",
-   "i18n": {
-    "zh": {
-     "title": "《GTA 6》从开始到开场这7分钟太惊人了！杰森与露西娅的邂逅以及时尚的制作值得一看",
-     "summary": "这是最令人兴奋的介绍！"
-    },
-    "en": {
-     "title": "The 7 minutes from the start of \"GTA 6\" to the opening are amazing! The encounter between Jason and Lucia and the stylish production are a must-see",
-     "summary": "This is the most exciting intro!"
-    }
-   }
-  },
-  {
-   "id": "649790c9952a",
-   "title": "『SEKIRO』インスパイアの韓国産ソウルライクACT『KAMAGI』最新ゲームプレイ映像が公開！",
-   "url": "http://www.gamespark.jp/article/2026/11/19/175053.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-18T23:00:03+08:00",
-   "summary": "PC＆コンソール向け韓国産ソウルライク―2028年3月リリースを目標に開発中",
-   "i18n": {
-    "zh": {
-     "title": "以《SEKIRO》为灵感的韩国魂类ACT《KAMAGI》最新游戏花絮公开！",
-     "summary": "适用于 PC 和游戏机的韩国 Soullike - 正在开发中，目标于 2028 年 3 月发布"
-    },
-    "en": {
-     "title": "The latest gameplay footage of the Korean soul-like ACT “KAMAGI” inspired by “SEKIRO” has been released!",
-     "summary": "Korean Soullike for PC & Consoles - Under development with a goal of release in March 2028"
-    }
-   }
-  },
-  {
-   "id": "11d6379d320e",
-   "title": "『ガンダム ローグオービット』主人公機などMSの新たな設定画公開！バウバラム、ケリィースの頭部デザインがくっきり",
-   "url": "http://www.gamespark.jp/article/2026/11/18/175052.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-18T22:45:02+08:00",
-   "summary": "『GUNDAM ROGUE ORBIT』に登場するMSの新たな設定画が公開！ガンプラ化が決定している3機体。",
-   "i18n": {
-    "zh": {
-     "title": "「高达Rogue Orbit」以主人公机体为首的MS新设定图公开！ Baubaram和Kelly的头像设计清晰",
-     "summary": "「GUNDAM ROGUE ORBIT」中登场的MS的新设定图公开！决定制作高达模型的三架机体。"
-    },
-    "en": {
-     "title": "\"Gundam Rogue Orbit\" New setting images for MS, including the main character's machine, released! Baubaram and Kelly's head designs are clear",
-     "summary": "A new setting image of the MS appearing in \"GUNDAM ROGUE ORBIT\" has been released! Three aircraft that have been decided to be made into Gunpla."
-    }
-   }
-  },
-  {
-   "id": "361ea7f2090f",
-   "title": "『GTA6』で真っ先にやりたいことは！？「ワニに喰われたい」「手配度MAX」「のんびり釣り」「犯罪には疲れた」―読者アンケートに寄せられた自由すぎる回答を紹介！",
-   "url": "http://www.gamespark.jp/article/2026/11/18/175051.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-18T22:43:56+08:00",
-   "summary": "観光、釣り、動物観察、そして大暴れ！『GTA6』で何をしたい？",
-   "i18n": {
-    "zh": {
-     "title": "在 GTA6 中你想做的第一件事是什么？ ？ “我想被鳄鱼吃掉”、“最大通缉”、“轻松钓鱼”、“我厌倦了犯罪” - 介绍读者调查中给出的非常自由的答案！",
-     "summary": "观光、钓鱼、观察动物、野外探险！你想在 GTA6 中做什么？"
-    },
-    "en": {
-     "title": "What is the first thing you want to do in GTA6? ? “I want to be eaten by a crocodile”, “Maximum wanted”, “Relaxing fishing”, “I’m tired of crime” - Introducing the very free answers given to the reader survey!",
-     "summary": "Sightseeing, fishing, animal watching, and going wild! What do you want to do in GTA6?"
-    }
-   }
-  },
-  {
-   "id": "301c9c3fcbc7",
-   "title": "『モンハン ライズ』モバイル版11月24日リリースが正式発表！Netflix経由でプレイ可能",
-   "url": "http://www.gamespark.jp/article/2026/11/18/175050.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-18T22:30:03+08:00",
-   "summary": "モバイル＆タブレットで遊べる『モンハンライズ』！推奨スペックなども公開中",
-   "i18n": {
-    "zh": {
-     "title": "《怪物猎人崛起》手游版11月24日发售正式公布！可通过 Netflix 播放",
-     "summary": "《怪物猎人崛起》可以在手机和平​​板电脑上玩！还提供推荐规格"
-    },
-    "en": {
-     "title": "“Monster Hunter Rise” mobile version released on November 24th officially announced! Available to play via Netflix",
-     "summary": "\"Monster Hunter Rise\" can be played on mobile and tablet! Recommended specifications are also available"
-    }
-   }
-  },
-  {
-   "id": "736b8009a60d",
-   "title": "モンスター娘を捕獲して拠点づくりや襲撃防衛に挑むオープンワールドサバイバルクラフトSteamで早期アクセス開始。ウィッシュリスト15,000件突破",
-   "url": "http://www.gamespark.jp/article/2026/11/18/175049.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-18T22:15:03+08:00",
-   "summary": "異世界に浸食された2040年の現代都市で、スライム娘たちと農業やボクセル建築を営む生活が始まります。",
-   "i18n": {
-    "zh": {
-     "title": "Steam 是一款开放世界生存飞船，您可以在其中捕获怪物女孩、建造基地并防御攻击。超过 15,000 个愿望清单",
-     "summary": "在被另一个世界入侵的 2040 年现代城市中，史莱姆女孩开始了务农和体素建设的生活。"
-    },
-    "en": {
-     "title": "Early access begins on Steam, an open world survival craft where you capture monster girls, build bases, and defend against attacks. Over 15,000 wishlists",
-     "summary": "In a modern city in 2040 that has been invaded by another world, a life of farming and voxel construction begins with slime girls."
-    }
-   }
-  },
-  {
-   "id": "d8aed3738b02",
-   "title": "北極サバイバル『POLYARIS』2027年1月20日リリース決定！極寒の地で生き延びる方法を探しながら、謎の核爆発の真相を解き明かせ",
-   "url": "http://www.gamespark.jp/article/2026/11/18/175048.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-18T22:00:02+08:00",
-   "summary": "恐ろしいのは寒さだけじゃない。オオカミやクマにも気をつけろ。",
-   "i18n": {
-    "zh": {
-     "title": "北极生存《POLYARIS》将于2027年1月20日发售！当你寻找在寒冷气候中生存的方法时，揭开神秘核爆炸背后的真相。",
-     "summary": "可怕的不仅仅是寒冷。还要小心狼和熊。"
-    },
-    "en": {
-     "title": "Arctic survival “POLYARIS” will be released on January 20, 2027! Uncover the truth behind a mysterious nuclear explosion as you search for a way to survive in the frigid climate.",
-     "summary": "It's not just the cold that's scary. Also be careful of wolves and bears."
-    }
-   },
-   "dup_of": "f2ed7bc2ceeb"
-  },
-  {
-   "id": "838a0eebe24c",
-   "title": "Xbox 360に爆弾を仕込み競合店襲撃―ブラジルで電器店オーナー逮捕",
-   "url": "http://www.gamespark.jp/article/2026/11/18/175047.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-18T21:30:03+08:00",
-   "summary": "まさかゲーム機が爆発すると誰が想像するでしょうか",
-   "i18n": {
-    "zh": {
-     "title": "电子商店老板在 Xbox 360 中放置炸弹并攻击竞争对手商店后在巴西被捕",
-     "summary": "谁会想到游戏机会爆炸？"
-    },
-    "en": {
-     "title": "Electronics store owner arrested in Brazil after planting bomb in Xbox 360 and attacking rival store",
-     "summary": "Who would have ever imagined that a game console would explode?"
-    }
-   }
-  },
-  {
-   "id": "f1ed171a565f",
-   "title": "『GTA6』PS5版はやはり30fps固定、それでも「シリーズ史上最もなめらか」―Digital Foundryが分析、60fpsは「この規模では困難」",
-   "url": "http://www.gamespark.jp/article/2026/11/18/175046.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-18T21:23:14+08:00",
-   "summary": "30fps固定は「意図的なトレードオフ」、Pro版はほぼ完璧な安定性とのこと。",
-   "i18n": {
-    "zh": {
-     "title": "PS5 版本的 GTA 6 仍然固定在 30fps，但它仍然是“系列历史上最流畅的”——Digital Foundry 分析 60fps“在这个规模上是困难的”",
-     "summary": "固定在 30fps 是一种“有意的权衡”，Pro 版本具有近乎完美的稳定性。"
-    },
-    "en": {
-     "title": "The PS5 version of GTA 6 is still fixed at 30fps, but it's still the ``smoothest in series history'' - Digital Foundry analyzes 60fps is ``difficult at this scale''",
-     "summary": "Fixed at 30fps is an \"intentional trade-off\", and the Pro version has almost perfect stability."
-    }
-   }
-  },
-  {
-   "id": "38199353fb25",
-   "title": "【成人向け】セクシー美少女戦士が危険な世界で生き抜くオープンワールドサバイバルRPGが正式リリース。ドラゴンに乗って奴隷を救出し仲間を増やせ―採れたて！本日のSteam注目ゲーム14選【2026年11月18日】",
-   "url": "http://www.gamespark.jp/article/2026/11/18/175045.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-18T21:00:03+08:00",
-   "summary": "体型や顔などは細かくカスタマイズ可能。装備をクラフトし、モンスターに負けない戦士を目指そう。",
-   "i18n": {
-    "zh": {
-     "title": "[成人用] 一款性感美丽的战士在危险的世界中生存的开放世界生存角色扮演游戏正式发布。骑龙、解救奴隶、结交更多朋友——新鲜收获！今日 Steam 上的 14 款精选游戏 [2026 年 11 月 18 日]",
-     "summary": "体型、脸型均可详细定制。制作装备，立志成为打不倒怪物的战士。"
-    },
-    "en": {
-     "title": "[For adults] An open world survival RPG in which a sexy beautiful warrior survives in a dangerous world is officially released. Ride a dragon, rescue slaves, and make more friends - freshly harvested! Today's 14 featured games on Steam [November 18, 2026]",
-     "summary": "Body shape and face can be customized in detail. Craft equipment and aim to become a warrior who can't defeat monsters."
-    }
-   }
-  },
-  {
-   "id": "0c440cf12433",
-   "title": "フリュー新作『クライムライト／CRYMELIGHT』審査完了せず延期中のSteam版リリース予定日が12月1日に再設定―ローンチセールは20％オフに拡大、お詫びのショートストーリーも公開へ",
-   "url": "http://www.gamespark.jp/article/2026/11/18/175044.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-18T20:37:28+08:00",
-   "summary": "Steam版『クライムライト／CRYMELIGHT』の発売予定日が12月1日に再設定。",
-   "i18n": {
-    "zh": {
-     "title": "因审核不完整而推迟的风龙新作《CRYME​​LIGHT》Steam版发售日期已重置为12月1日——首发促销扩大至20%折扣，同时还将发布道歉短篇。",
-     "summary": "Steam 版《CRYME​​LIGHT》的发售日期已重置为 12 月 1 日。"
-    },
-    "en": {
-     "title": "The release date of the Steam version of Furyu's new work \"CRYMELIGHT\", which has been postponed due to incomplete review, has been reset to December 1st - The launch sale has been expanded to 20% off, and an apology short story will also be released.",
-     "summary": "The release date of the Steam version of \"CRYMELIGHT\" has been reset to December 1st."
-    }
-   },
-   "dup_of": "51cf4098fbbe"
+   "weight": 5,
+   "published": "2026-11-19T06:00:00+08:00",
+   "summary": "AnthropicはAIモデル「Claude Mythos Preview」を使用して主要なOSやウェブブラウザーなどで深刻度の高い脆弱(ぜいじゃく)性を数千件見つけたと2026年4月に発表しました。そこから約7カ月が経過した11月9日に、セキュリティ企業のVulnCheckが公開台帳などをもとにその後の修正状況を報告しました。続きを読む..."
   },
   {
    "id": "3f14bc63b829",
@@ -3026,341 +2791,114 @@
    }
   },
   {
-   "id": "60ceb0267d44",
-   "title": "Claude Codeチームは検証についてどのように考えて実行しているのか、エンドツーエンドテスト・プロパティテスト・差分テストで証拠に基づいて自身の作業を検証する方法",
-   "url": "https://gigazine.net/news/20261118-claude-code-test-code-review/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-18T20:00:00+08:00",
-   "summary": "AIコーディングツール「Claude Code」の開発チームでは、コードの約90％をClaudeが記述・レビューしています。AIに大量の開発作業を任せながらコードの品質を維持するため、Claude Codeの開発チームがどのような検証の仕組みを構築しているのかについて、Anthropicのエンジニアであるアディ・オスマーニ氏が解説しています。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "Claude Code 团队如何思考和执行验证，以及如何通过端到端、属性和差异测试用证据来验证您的工作。",
-     "summary": "在AI编码工具“Claude Code”的开发团队中，大约90%的代码都是由Claude编写和审查的。人类工程师 Adi Osmani 解释了 Claude Code 开发团队在将大量开发工作委托给 AI 的同时，正在构建什么样的验证系统来保持代码质量。阅读更多..."
-    },
-    "en": {
-     "title": "How the Claude Code team thinks about and executes validation, and how to validate your work with evidence through end-to-end, property, and differential testing.",
-     "summary": "In the development team of the AI ​​coding tool \"Claude Code,\" Claude writes and reviews approximately 90% of the code. Anthropic engineer Adi Osmani explains what kind of verification system the Claude Code development team is building to maintain code quality while entrusting a large amount of development work to AI. read more..."
-    }
-   }
-  },
-  {
-   "id": "ea43ff449848",
-   "title": "Waymoがロボタクシーの高速道路利用を全米で中止、カリフォルニア州で複数の衝突事故を受けて出された使用中止命令を受け",
-   "url": "https://gigazine.net/news/20261118-waymo-suspends-freeway-rides/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-18T19:20:00+08:00",
-   "summary": "無人走行車両を用いたロボタクシー事業を展開しているWaymoが、ロボタクシーのアメリカでの高速道路利用を全面的に中止しました。Waymoは実績を積み重ねて高速道路の走行可能区間を広げてきましたが、2026年5月に一時中断。7月から高速道路の利用を再開しましたが、2026年11月に入り立て続けに問題を起こし、カリフォルニア州から高速道路の利用中止を告げられていました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "Waymo 在加州发生多起撞车事故后被勒令停止在全国高速公路上使用机器人出租车",
-     "summary": "经营使用无人驾驶车辆的机器人出租车业务的 Waymo 已完全停止在美国高速公路上使用机器人出租车。 Waymo 积累了经验，扩大了可行驶的高速公路范围，但在 2026 年 5 月暂时停止使用。该高速公路于 7 月恢复使用，但 2026 年 11 月问题继续出现，加州政府通知加利福尼亚州停止使用该高速公路。阅读更多..."
-    },
-    "en": {
-     "title": "Waymo discontinues use of robotaxis on highways nationwide, following order to discontinue use in California following multiple crashes",
-     "summary": "Waymo, which operates a robotaxis business using unmanned vehicles, has completely discontinued the use of robotaxis on highways in the United States. Waymo has accumulated experience and expanded the range of expressways that can be driven, but it will be temporarily suspended in May 2026. The expressway was resumed for use in July, but problems continued to arise in November 2026, and the state of California told the state of California to stop using the expressway. read more..."
-    }
-   }
-  },
-  {
-   "id": "c3556a226fe6",
-   "title": "CloudflareがなぜパブリックDNSはブロックされるべきではないのかを説明",
-   "url": "https://gigazine.net/news/20261118-cloudflare-explain-dns-blocking/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-18T19:00:00+08:00",
-   "summary": "パブリックDNSリゾルバーを運営するCloudflareは、違法なサイトへのアクセスをブロックせよという裁判所命令に従わなかったために多額の制裁金を科され、控訴しています。なぜ従わなかったのか、そもそもパブリックDNSリゾルバーとは何なのかについて、Cloudflareが説明しました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "Cloudflare 解释了为什么不应阻止公共 DNS",
-     "summary": "运营公共 DNS 解析器的 Cloudflare 因未遵守法院阻止访问非法网站的命令而被处以巨额罚款，目前正在上诉。 Cloudflare 解释了他们不遵守规定的原因以及公共 DNS 解析器首先是什么。阅读更多..."
-    },
-    "en": {
-     "title": "Cloudflare explains why public DNS shouldn't be blocked",
-     "summary": "Cloudflare, which operates a public DNS resolver, is appealing a large fine for failing to comply with a court order to block access to illegal sites. Cloudflare explained why they didn't comply and what a public DNS resolver is in the first place. read more..."
-    }
-   }
-  },
-  {
-   "id": "4308d3e150a0",
-   "title": "Google検索の「AIによる概要」のせいで外部ウェブサイトのクリック率が約40％減少、サイト運営者はどうするべきか？",
-   "url": "https://gigazine.net/news/20261118-google-ai-overviews-cut-clicks-websites/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-18T18:00:00+08:00",
-   "summary": "Googleで何らかの検索をした際、検索結果の一番上に「AIによる概要」が表示されることがよくあります。検索結果画面にAIによる概要が表示されると、外部ウェブサイトのクリック率が約40％減少するという研究結果も発表されており、ウェブサイト向けの収益分析ツールを提供するRevScopeが現状や対策まとめています。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "谷歌搜索“AI摘要”让外部网站点击率降低40%左右，网站运营商该怎么办？",
-     "summary": "当你在Google上搜索某些内容时，你经常会看到搜索结果顶部显示“AI摘要”。研究结果还公布，当基于人工智能的摘要显示在搜索结果屏幕上时，外部网站的点击率下降了约40%，为网站提供收入分析工具的RevScope总结了现状和对策。阅读更多..."
-    },
-    "en": {
-     "title": "Google search's ``AI summary'' reduces the click rate of external websites by about 40%, what should site operators do?",
-     "summary": "When you search for something on Google, you will often see an \"AI summary\" displayed at the top of the search results. Research results have also been announced that when AI-based summaries are displayed on the search results screen, the click rate of external websites decreases by about 40%, and RevScope, which provides revenue analysis tools for websites, summarizes the current situation and countermeasures. read more..."
-    }
-   }
-  },
-  {
-   "id": "be5d0d48bc27",
-   "title": "2026年11月18日のヘッドラインニュース",
-   "url": "https://gigazine.net/news/20261118-headline/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-18T17:12:00+08:00",
-   "summary": "JR東日本が2026年9月8日から9月23日まで開催していたSuicaの新イメージキャラクターデザイン投票の結果が発表されました。投票総数166万4399票のうち86万152票を獲得した「B案」のデザインに決定しています。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "2026 年 11 月 18 日头条新闻",
-     "summary": "JR东日本于2026年9月8日至9月23日举行的Suica新形象角色设计投票结果已公布。该设计被确定为“B 计划”，在总共 1,664,399 票中获得了 860,152 票。阅读更多..."
-    },
-    "en": {
-     "title": "Headline news for November 18, 2026",
-     "summary": "The results of the Suica new image character design vote held by JR East from September 8th to September 23rd, 2026 have been announced. The design has been decided as \"Plan B\", which received 860,152 votes out of a total of 1,664,399 votes. read more..."
-    }
-   }
-  },
-  {
-   "id": "d0e4089c3843",
-   "title": "Microsoftが新型AIプログラミングモデル「MAI Code 2」と高速版「MAI Code 2 Flash」を発表、GPT-6.1 Solに匹敵する性能を40％のコストで発揮",
-   "url": "https://gigazine.net/news/20261118-mai-code-2-flash/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-18T16:58:00+08:00",
-   "summary": "Microsoftが2026年11月17日にプログラミング向けAIモデル「MAI Code 2」と「MAI Code 2 Flash」を発表しました。MAI Code 2はOpenAIの「GPT-6.1 Sol」に匹敵する性能を低コストで発揮するとされており、両モデルともAIプログラミング支援ツール「GitHub Copilot」で利用可能になっています。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "微软发布新的AI编程模型“MAI Code 2”和高速版本“MAI Code 2 Flash”，以40%的成本展示了与GPT-6.1 Sol相当的性能",
-     "summary": "微软于2026年11月17日发布了编程AI模型“MAI Code 2”和“MAI Code 2 Flash”。据说MAI Code 2以低成本展现了与OpenAI的“GPT-6.1 Sol”相媲美的性能，并且这两种模型都可以与AI编程支持工具“GitHub Copilot”一起使用。阅读更多..."
-    },
-    "en": {
-     "title": "Microsoft announces new AI programming model \"MAI Code 2\" and high-speed version \"MAI Code 2 Flash\", demonstrating performance comparable to GPT-6.1 Sol at 40% cost",
-     "summary": "Microsoft announced the programming AI models \"MAI Code 2\" and \"MAI Code 2 Flash\" on November 17, 2026. MAI Code 2 is said to exhibit performance comparable to OpenAI's \"GPT-6.1 Sol\" at a low cost, and both models are available for use with the AI ​​programming support tool \"GitHub Copilot\". read more..."
-    }
-   }
-  },
-  {
-   "id": "2f20281599fa",
-   "title": "ジェンスン・フアンの不倫相手でスパイ疑惑のアリス・フアンは夫がデータセンター事業を政府支援のもと展開、会社はHuaweiと関係も",
-   "url": "https://gigazine.net/news/20261118-who-is-alice-huangs-husband-kang-wei/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-18T16:50:00+08:00",
-   "summary": "NVIDIAのジェンスン・フアン元CEOと不倫関係にあり中国のスパイという疑いもあるアリス・フアン氏について、夫・康偉(カン・ウェイ)氏が投資会社創業者で、データセンター事業も手がけており中国政府から支援を受けていたことが明らかになっています。また、この投資会社は半導体分野でNVIDIAとライバル関係にあるHuawei(華為技術)ともつながりがあったことがわかっています。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "黄仁勋的外遇伴侣、涉嫌间谍的黄爱丽 (Alice Huang) 在政府支持下拥有一家由其丈夫经营的数据中心业务，该公司也与华为有联系。",
-     "summary": "关于与英伟达前CEO黄仁勋有染、涉嫌中国间谍的黄爱丽，有消息透露，她的丈夫康伟是一家投资公司的创始人，也涉足数据中心业务，并得到了中国政府的支持。另据了解，这家投资公司与华为有联系，华为是英伟达在半导体领域的竞争对手。阅读更多..."
-    },
-    "en": {
-     "title": "Alice Huang, who is Jensen Huang's affair partner and is suspected of being a spy, has a data center business run by her husband with government support, and the company also has ties to Huawei.",
-     "summary": "Regarding Alice Huang, who had an affair with former NVIDIA CEO Jensen Huang and is suspected of being a Chinese spy, it has been revealed that her husband, Kang Wei, is the founder of an investment company, is also involved in the data center business, and has received support from the Chinese government. It is also known that this investment company had ties to Huawei, which is a rival to NVIDIA in the semiconductor field. read more..."
-    }
-   }
-  },
-  {
-   "id": "a87385d0689c",
-   "title": "【漫画更新】Battle Studies 第 523 话「The Field Trip Doesn't End Until You Get Home」",
-   "url": "https://mangadex.org/chapter/d16f4ca2-b9eb-410d-944d-409196e8a627",
+   "id": "1e356d9b1422",
+   "title": "【漫画更新】Pure Pure Devil - Akumyon-san 第 3 话「Exercising with Akumyon-san」",
+   "url": "https://mangadex.org/chapter/f7ea8ab1-072b-4f58-b497-25c1a2da53fa",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-19T02:29:02+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【漫画更新】バトルスタディーズ 第523話「帰るまで修学旅行は終わらない」"
-    },
-    "en": {
-     "title": "【Manga Update】Battle Studies Chapter 523 \"The Field Trip Doesn't End Until You Get Home\""
-    }
-   }
+   "published": "2026-11-19T10:56:44+08:00",
+   "summary": ""
   },
   {
-   "id": "c93106fddb8a",
-   "title": "【漫画更新】Watashi no Kawaii Boyish-chan 第 2 话",
-   "url": "https://mangadex.org/chapter/f65a39a0-cc72-4b52-a657-52072da19196",
+   "id": "b5fc0f98f0d2",
+   "title": "【漫画更新】Kaiga Shuufukushi: Amano Youko 第 1 话「Painting Rescue」",
+   "url": "https://mangadex.org/chapter/a56836af-f864-42de-96a0-afc8bc6f8bbd",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-19T02:29:02+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【マンガ更新】私のかわいいボーイッシュちゃん 第2話"
-    },
-    "en": {
-     "title": "【Manga Update】Watashi no Kawaii Boyish-chan Chapter 2"
-    }
-   }
+   "published": "2026-11-19T10:56:44+08:00",
+   "summary": ""
   },
   {
-   "id": "ac80b667dc80",
-   "title": "【漫画更新】Wazawai Kitsune no Kuzure-chan 第 56 话「Mecha Maker And Fox 2」",
-   "url": "https://mangadex.org/chapter/984b0edd-e19e-426a-85e0-2c0c4aa9e287",
+   "id": "fd53a3d44d10",
+   "title": "【漫画更新】Isekai Henkyou Meshi 第 58 话「Parnassus Salad」",
+   "url": "https://mangadex.org/chapter/275f4362-95c6-4bb5-9f66-1f3b7af9aaf4",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-19T02:29:02+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【マンガ更新】わざわいキツネのくずれちゃん 第56話「メカメイカーとキツネ2」"
-    },
-    "en": {
-     "title": "【Manga Update】Wazawai Kitsune no Kuzure-chan Chapter 56 \"Mecha Maker And Fox 2\""
-    }
-   }
+   "published": "2026-11-19T10:56:44+08:00",
+   "summary": ""
   },
   {
-   "id": "026459a80616",
-   "title": "【漫画更新】Kesa mo Yuraretemasu 第 49.5 话「Volume 5 Extras」",
-   "url": "https://mangadex.org/chapter/4f73583d-b091-4e18-a41c-adf9d8fdd864",
+   "id": "0fff1acd6119",
+   "title": "【漫画更新】Mairimashita! Iruma-kun 第 467 话「Approaching Footsteps」",
+   "url": "https://mangadex.org/chapter/5a301b75-3baf-4cf3-a249-69876b4ea666",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-19T02:29:02+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【マンガ更新】袈裟もゆらられてます 第49.5話「5巻番外編」"
-    },
-    "en": {
-     "title": "【Manga Update】Kesa mo Yuraretemasu Chapter 49.5 \"Volume 5 Extras\""
-    }
-   }
+   "published": "2026-11-19T10:56:44+08:00",
+   "summary": ""
   },
   {
-   "id": "f1eec0a75543",
-   "title": "【漫画更新】Totsugi Okureta Kitsune ga Yome ni Kuru Hanashi 第 169 话「Curse You, Human Society」",
-   "url": "https://mangadex.org/chapter/89762b64-2531-4087-859f-90322bff6bdc",
+   "id": "53118e43338d",
+   "title": "【漫画更新】Eurydice neun Eopda 第 144 话",
+   "url": "https://mangadex.org/chapter/bc7dfab6-021c-45fe-8257-cee542389c0b",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-19T02:29:02+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【マンガ更新】戸次来た狐が嫁に来た話 第169話「呪えよ、人間社会」"
-    },
-    "en": {
-     "title": "【Manga Update】Totsugi Okureta Kitsune ga Yome ni Kuru Hanashi Chapter 169 \"Curse You, Human Society\""
-    }
-   }
+   "published": "2026-11-19T10:56:44+08:00",
+   "summary": ""
   },
   {
-   "id": "ca2507b7bddc",
-   "title": "【漫画更新】Kimi ga Hoeru Tame no Uta wo, 第 23 话「Parent and Child」",
-   "url": "https://mangadex.org/chapter/95f57405-17ca-41ac-9847-0b40d2ab5d04",
+   "id": "88af3bbe071c",
+   "title": "【漫画更新】Gyaru to Otaku wa Wakari Aenai. 第 37 话",
+   "url": "https://mangadex.org/chapter/d57c3d50-cce7-4a1a-85f0-656cda906972",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-19T02:29:02+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【漫画更新】君が笑うための歌を 第23話「親子」"
-    },
-    "en": {
-     "title": "【Manga Update】Kimi ga Hoeru Tame no Uta wo, Chapter 23 \"Parent and Child\""
-    }
-   }
+   "published": "2026-11-19T10:56:44+08:00",
+   "summary": ""
   },
   {
-   "id": "9bc883bd62d2",
-   "title": "【漫画更新】Tensei shite Arayuru Mono ni Sukarenagara Isekai de Suki na Koto wo shite Ikiteiku 第 3 话「Tamer」",
-   "url": "https://mangadex.org/chapter/883b08bd-5fc0-4adb-97df-f5d0c40de3a8",
+   "id": "a15fe685043a",
+   "title": "【漫画更新】Tokusatsu Gagaga 第 67 话「I Lost My Wallet!」",
+   "url": "https://mangadex.org/chapter/36b06880-a053-4de0-b3e1-c8bea579a3b9",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-19T02:29:02+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【マンガ更新】転生して荒ぶるものにすかれながら異世界で好きなことをして生きていく 第3章「テイマー」"
-    },
-    "en": {
-     "title": "【Manga Update】Tensei shite Arayuru Mono ni Sukarenagara Isekai de Suki na Koto wo shite Ikiteiku Chapter 3 \"Tamer\""
-    }
-   }
+   "published": "2026-11-19T10:56:44+08:00",
+   "summary": ""
   },
   {
-   "id": "77f50c9c491d",
-   "title": "【漫画更新】Yǒu Shòu Xìhuà 第 12 话「Act 12」",
-   "url": "https://mangadex.org/chapter/c2e178a2-d784-4613-966b-72152de8d683",
+   "id": "b96ee4bc59ea",
+   "title": "【漫画更新】Eko Eko Azarak 第 152 话「My Partner Was Killed」",
+   "url": "https://mangadex.org/chapter/7eb7aeb6-12e4-48a7-9bad-388564265674",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-19T02:29:02+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【コミック更新】柳秀化 第12章「第12幕」"
-    },
-    "en": {
-     "title": "【Comic Update】Yǒu Shòu Xìhuà Chapter 12 \"Act 12\""
-    }
-   }
+   "published": "2026-11-19T10:56:44+08:00",
+   "summary": ""
   },
   {
-   "id": "2e9b56cdc314",
-   "title": "【漫画更新】Yǒu Shòu Xìhuà 第 11 话「Act 11」",
-   "url": "https://mangadex.org/chapter/08b6cfac-db22-480e-bdbb-5db4551baab0",
+   "id": "7e8aff65c2c9",
+   "title": "【漫画更新】Xīngjiǎ Húnjiàng Zhuàn 第 306 话「A Member of the Concerto」",
+   "url": "https://mangadex.org/chapter/573032f9-21c3-462f-8525-180a84bd6fd5",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-19T02:29:02+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【コミック更新】幽秀西華 第11章「Act 11」"
-    },
-    "en": {
-     "title": "【Comic Update】Yǒu Shòu Xìhuà Chapter 11 \"Act 11\""
-    }
-   }
+   "published": "2026-11-19T10:56:44+08:00",
+   "summary": ""
   },
   {
-   "id": "e28728698f39",
-   "title": "【漫画更新】Yǒu Shòu Xìhuà 第 10 话「Act 10」",
-   "url": "https://mangadex.org/chapter/9671af6f-b9d4-4edc-b885-b35c3a15b7a9",
+   "id": "e564a04cccf6",
+   "title": "【漫画更新】Xīngjiǎ Húnjiàng Zhuàn 第 307 话「Intelligence Deal」",
+   "url": "https://mangadex.org/chapter/c5b0f395-cc68-4dc1-a82b-8cd350aba614",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-19T02:29:02+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【コミック更新】柳秀化 第10章「第十幕」"
-    },
-    "en": {
-     "title": "【Comic Update】Yǒu Shòu Xìhuà Chapter 10 \"Act 10\""
-    }
-   }
+   "published": "2026-11-19T10:56:44+08:00",
+   "summary": ""
   }
  ]
 }
