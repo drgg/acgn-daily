@@ -1,13 +1,13 @@
 {
  "date": "2026-11-20",
- "generated_at": "2026-11-20T02:47:44+08:00",
+ "generated_at": "2026-11-20T10:55:36+08:00",
  "count": 158,
  "stories": 2,
  "categories": {
-  "anime": 58,
+  "anime": 50,
   "comic": 10,
-  "game": 65,
-  "novel": 15,
+  "game": 71,
+  "novel": 17,
   "general": 10
  },
  "sources": [
@@ -17,12 +17,12 @@
    "error": null
   },
   {
-   "name": "AUTOMATON",
+   "name": "アニメ！アニメ！",
    "count": 15,
    "error": null
   },
   {
-   "name": "アニメ！アニメ！",
+   "name": "AUTOMATON",
    "count": 15,
    "error": null
   },
@@ -47,13 +47,13 @@
    "error": null
   },
   {
-   "name": "anilist_airing",
-   "count": 14,
+   "name": "GIGAZINE",
+   "count": 15,
    "error": null
   },
   {
-   "name": "GIGAZINE",
-   "count": 15,
+   "name": "anilist_airing",
+   "count": 20,
    "error": null
   },
   {
@@ -78,6 +78,111 @@
   }
  ],
  "items": [
+  {
+   "id": "1b89498a4a99",
+   "title": "Criterion Channel Adds Speed Racer Anime",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-19/criterion-channel-adds-speed-racer-anime/.243995",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-20T06:00:00+08:00",
+   "summary": "Anime streams in English/Japanese versions in December",
+   "i18n": {
+    "zh": {
+     "title": "Criterion Channel 新增 Speed Racer 动画",
+     "summary": "12 月推出英文版/日文版动漫"
+    },
+    "ja": {
+     "title": "Criterion Channel がスピード レーサー アニメを追加",
+     "summary": "アニメは 12 月に英語/日本語版でストリーミング配信されます"
+    }
+   }
+  },
+  {
+   "id": "138f4dcee753",
+   "title": "Grotesqqque Anime Film Screens in Los Angeles on December 3 for 1-Week Only",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-19/grotesqqque-anime-film-screens-in-los-angeles-on-december-3-for-1-week-only/.243997",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-20T05:09:35+08:00",
+   "summary": "Omnibus film with 3 stories screens at Alamo Drafthouse Cinema Downtown Los Angeles",
+   "i18n": {
+    "zh": {
+     "title": "Grotesqqque 动漫电影将于 12 月 3 日在洛杉矶上映，仅限一周",
+     "summary": "洛杉矶市中心 Alamo Drafthouse 电影院设有 3 层屏幕的综合电影"
+    },
+    "ja": {
+     "title": "Grotesqqque アニメ映画が 12 月 3 日にロサンゼルスで 1 週間限定で上映される",
+     "summary": "ロサンゼルスのダウンタウン、アラモ ドラフトハウス シネマで上映される 3 階建てのオムニバス映画"
+    }
+   }
+  },
+  {
+   "id": "3ecbe46e7b65",
+   "title": "Omoi Announces Digital Release of Shō Asahina's Tsuyo-Girl Manga in January",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-19/omoi-announces-digital-release-of-sho-asahina-tsuyo-girl-manga-in-january/.243981",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-20T05:00:00+08:00",
+   "summary": "Romantic comedy manga launched in 2021",
+   "i18n": {
+    "zh": {
+     "title": "Omoi 宣布将于 1 月发行朝比奈翔的《Tsuyo-Girl》漫画的数字版",
+     "summary": "浪漫喜剧漫画将于 2021 年推出"
+    },
+    "ja": {
+     "title": "Omoi、朝比奈翔のつよ少女漫画を1月にデジタルリリースすると発表",
+     "summary": "2021年発売のラブコメ漫画"
+    }
+   }
+  },
+  {
+   "id": "6243439d4020",
+   "title": "This World is Worth Fighting For Manga Gets Live-Action Series",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-19/this-world-is-worth-fighting-for-manga-gets-live-action-series/.243996",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-20T04:35:15+08:00",
+   "summary": "Series based on Hatsumi Kodama's Kono Yo wa Tatakau Kachi ga Aru manga debuts in January 2027",
+   "i18n": {
+    "zh": {
+     "title": "《这个世界值得为漫画而战》推出真人系列",
+     "summary": "根据儿玉初美的漫画《Kono Yo wa Tatakau Kachi ga Aru》改编的系列将于 2027 年 1 月首播"
+    },
+    "ja": {
+     "title": "この世界には戦う価値がある漫画が実写化される",
+     "summary": "こだまはつみ氏の漫画『この世界には勝てない』が原作のシリーズが 2027 年 1 月にデビュー"
+    }
+   }
+  },
+  {
+   "id": "2ee4c7b808ef",
+   "title": "hololive Shop Reports Customer Information Leak",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-19/hololive-shop-reports-customer-information-leak/.243994",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-20T03:00:00+08:00",
+   "summary": "Unauthorized 3rd party gained access to outsourced product shipping company OPENLOGI Inc.",
+   "i18n": {
+    "zh": {
+     "title": "Hololive 商店报告客户信息泄露",
+     "summary": "未经授权的第 3 方获得了外包产品运输公司 OPENLOGI Inc. 的访问权限。"
+    },
+    "ja": {
+     "title": "ホロライブショップ、顧客情報漏洩を報告",
+     "summary": "委託商品発送会社オープンロジ株式会社に第三者が不正アクセス"
+    }
+   }
+  },
   {
    "id": "a3ae0cb79a30",
    "title": "Getbackers Manga Gets Comic Anime From AI Platform MangaNow Studio",
@@ -265,6 +370,13 @@
      "title": "転生エルフさん、魔法を極める旅に出る アニメ新映像、追加キャスト・スタッフ、主題歌も公開 12月30日配信開始",
      "summary": "アーティストのaoがオープニング曲を、ムーンドロップがエンディング曲を担当"
     }
+   },
+   "story": {
+    "sources": 2,
+    "heat": 1.49,
+    "members": [
+     "77ae6aa560ff"
+    ]
    }
   },
   {
@@ -394,6 +506,148 @@
    }
   },
   {
+   "id": "febbd6265b7f",
+   "title": "「Assetto Corsa Rally」，「Lancia Delta S4」の1986年モデルと2021年モデルが登場。ラリー・スウェーデンの雪上ステージも追加",
+   "url": "https://www.4gamer.net/games/954/G095471/20261120001/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-20T10:15:44+08:00",
+   "summary": "505GamesとSupernovaGamesStudiosは，ラリーシミュレーション「AssettoCorsaRally」の大型アップデート「V0.7」を2026年11月19日に配信した。新車両として「LanciaDeltaS4」の1986年モデルと2021年モデルが登場。実在するラリー・スウェーデンの雪上ステージや，新たなオンラインモードも追加されている。",
+   "i18n": {
+    "zh": {
+     "title": "1986 年和 2021 年款的“Assetto Corsa Rally”和“Lancia Delta S4”现已上市。瑞典拉力赛新增雪地赛段",
+     "summary": "505Games 和 SupernovaGamesStudios 于 2026 年 11 月 19 日发布了拉力模拟“AssettoCorsaRally”的重大更新“V0.7”。新车包括 1986 年和 2021 年款的 Lancia Delta S4。还添加了真实的瑞典拉力赛雪地赛段和新的在线模式。"
+    },
+    "en": {
+     "title": "The 1986 and 2021 models of \"Assetto Corsa Rally\" and \"Lancia Delta S4\" are now available. Rally Sweden snow stage added",
+     "summary": "505Games and SupernovaGamesStudios released a major update ``V0.7'' for the rally simulation ``AssettoCorsaRally'' on November 19, 2026. New vehicles include the 1986 and 2021 models of the Lancia Delta S4. Real-life Rally Sweden snow stages and a new online mode have also been added."
+    }
+   }
+  },
+  {
+   "id": "752b405b8eef",
+   "title": "第7回HJ小説大賞前期の最終選考結果が発表 受賞作に7作品など10作品が選出",
+   "url": "https://ln-news.com/articles/127245",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-20T09:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "第七届厚街小说奖上半期最终评选结果已揭晓。共有10件作品入选，其中7件作品获奖。"
+    },
+    "en": {
+     "title": "The final selection results for the first half of the 7th HJ Novel Awards have been announced. 10 works, including 7 works, have been selected as winners."
+    }
+   }
+  },
+  {
+   "id": "88a7dfd9e4cb",
+   "title": "ポケモンの短編アニメーション作品が12月18日に「Disney+」に登場。「ポケモン動画図鑑」「放課後のブレス」など18作品をラインナップ",
+   "url": "https://www.4gamer.net/games/991/G999103/20261119041/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-20T09:00:00+08:00",
+   "summary": "ウォルト・ディズニー・ジャパンは本日（2026年11月20日），ポケモンの短編アニメーション作品をディズニー公式動画配信サービス「Disney+」で12月18日より配信すると発表した。今回は，「ポケモン動画図鑑」「放課後のブレス」など，18作品がラインナップされる。",
+   "i18n": {
+    "zh": {
+     "title": "精灵宝可梦动画短片将于 12 月 18 日在 Disney+ 上发布。 《精灵宝可梦影像百科全书》、《放学后的呼吸》等18部作品阵容",
+     "summary": "华特迪士尼日本今天（2026 年 11 月 20 日）宣布，口袋妖怪短动画作品将从 12 月 18 日起在迪士尼官方视频发行服务“Disney+”上发行。此次将推出《精灵宝可梦影像百科全书》、《放学后的呼吸》等18部作品。"
+    },
+    "en": {
+     "title": "A Pokemon short animation will be released on Disney+ on December 18th. Lineup of 18 works including \"Pokémon Video Encyclopedia\" and \"After School Breath\"",
+     "summary": "Walt Disney Japan announced today (November 20, 2026) that Pokemon short animation works will be distributed on Disney's official video distribution service ``Disney+'' from December 18th. This time, there will be a lineup of 18 works, including ``Pokémon Video Encyclopedia'' and ``After School Breath.''"
+    }
+   }
+  },
+  {
+   "id": "77ae6aa560ff",
+   "title": "アニメ『魔術を極めて旅に出た転生エルフ、持て余した寿命で生ける伝説となる』は2027年1月6日（水）より放送開始",
+   "url": "https://ln-news.com/articles/127229",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-20T07:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "动画《转世的精灵，踏上掌握魔法的旅程，用仅剩的寿命成为活生生的传奇》将于2027年1月6日星期三开始播出。"
+    },
+    "en": {
+     "title": "The anime ``A reincarnated elf who goes on a journey to master magic, becomes a living legend with the lifespan he has left'' will start broadcasting on Wednesday, January 6, 2027."
+    }
+   },
+   "dup_of": "3d0e15441a69"
+  },
+  {
+   "id": "d66d8f7c3923",
+   "title": "「ゴジラVSメカゴジラ」ではゴジラを倒せ！ メカゴジラを倒せ！ あとビルを壊せ！ 昭和・平成レトロボードゲーム大百科 第21回",
+   "url": "https://www.4gamer.net/games/893/G089329/20261109045/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-20T07:00:00+08:00",
+   "summary": "映画「ゴジラ-0.0」が大ヒットしていますね。歴史の長いゴジラだけに，ボードゲームも多数ありますが，今回の「昭和・平成レトロボードゲーム大百科」では，平成5年（1993年）に発売された「ゴジラVSメカゴジラ」を紹介します。“とにかく敵を倒せ”とばかりに対決を繰り返す，シンプルで豪快なゲームです。",
+   "i18n": {
+    "zh": {
+     "title": "在“哥斯拉VS机械哥斯拉”中击败哥斯拉！击败机械哥斯拉！还有，摧毁建筑物！昭和/平成复古棋盘游戏百科全书第 21 部分",
+     "summary": "电影《哥斯拉-0.0》大受欢迎。由于哥斯拉有着悠久的历史，所以桌游也有很多，但在这本《昭和平成复古桌游百科全书》中，我们将介绍1993年发售的《哥斯拉VS机械哥斯拉》。这是一款简单而刺激的游戏，你以“无论如何都要击败敌人”为目标，反复对战。"
+    },
+    "en": {
+     "title": "Defeat Godzilla in “Godzilla VS Mechagodzilla”! Defeat Mechagodzilla! Also, destroy the building! Showa/Heisei Retro Board Game Encyclopedia Part 21",
+     "summary": "The movie ``Godzilla-0.0'' has been a huge hit. Since Godzilla has a long history, there are many board games, but in this \"Showa/Heisei Retro Board Game Encyclopedia\" we will introduce \"Godzilla VS Mechagodzilla\" released in 1993. It's a simple and exciting game where you repeatedly face off against each other with the goal of \"defeating the enemy no matter what.\""
+    }
+   }
+  },
+  {
+   "id": "2d8596123049",
+   "title": "品物も客も疑ってかかれ。サイバーパンクな宇宙ステーションで質屋を営む「Probably Stolen」（あかねのSteam Pick Up！）",
+   "url": "https://www.4gamer.net/games/025/G102544/20261118009/",
+   "source": "4Gamer 総合",
+   "category": "game",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-20T07:00:00+08:00",
+   "summary": "本日の「あかねのSteamPickUp！」では，盗品と偽物と怪しい客が集まる質屋経営シム「ProbablyStolen」を紹介。宇宙ステーションの下層で真贋を見抜き，お尋ね者や人に化けたAIをさばき，上がり続ける家賃を払って店の買い取りを目指す。",
+   "i18n": {
+    "zh": {
+     "title": "对产品和客户都保持怀疑。 “可能被盗”在赛博朋克空间站上经营一家当铺（茜的 Steam 拾取！）",
+     "summary": "今天的“茜的 SteamPickUp！”推出“ProbouslyStolen”，一款当铺管理模拟游戏，赃物、假货和可疑顾客聚集于此。他在空间站下层探测到真实性，处理通缉犯和伪装成人类的人工智能，并打算通过支付不断增加的租金来购买商店。"
+    },
+    "en": {
+     "title": "Be suspicious of both the product and the customer. \"Probably Stolen\" runs a pawn shop on a cyberpunk space station (Akane's Steam Pick Up!)",
+     "summary": "Today's \"Akane's SteamPickUp!\" introduces \"ProbablyStolen,\" a pawnshop management sim where stolen goods, fakes, and suspicious customers gather. He detects authenticity in the lower levels of the space station, handles wanted people and AI disguised as humans, and aims to buy the store by paying the ever-increasing rent."
+    }
+   }
+  },
+  {
+   "id": "139027fc5301",
+   "title": "『少女の望まぬ英雄譚』のコミカライズ連載が開始 幸せへの道しるべを辿っていくガールズ・メメントモリー",
+   "url": "https://ln-news.com/articles/127241",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-20T05:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "漫画《少女的不受欢迎的英雄物语》开始追寻幸福的路标"
+    },
+    "en": {
+     "title": "Comic serialization of ``A Girl's Unwanted Hero Story'' begins Girls Memento Mori following the guideposts to happiness"
+    }
+   }
+  },
+  {
    "id": "b892dc67695c",
    "title": "オカルトホラーADV「Resequence: The Orchard」，Steamで配信開始。スクールカウンセラーとして怪異に悩む生徒たちと向き合う。20％オフセールも実施",
    "url": "https://www.4gamer.net/games/964/G096496/20261118041/",
@@ -412,13 +666,6 @@
      "title": "Occult horror ADV \"Resequence: The Orchard\" now available on Steam. As a school counselor, she deals with students who are troubled by strange things. 20% off sale also available",
      "summary": "Clearave today released the occult horror ADV ``Resequence: The Orchard'' on Steam. In this work, a school counselor searching for his missing wife deals with the mysterious worries of his students and gets to the bottom of incidents that occur in his town. A 20% off sale is also being held to commemorate the release."
     }
-   },
-   "story": {
-    "sources": 2,
-    "heat": 1.9,
-    "members": [
-     "c6be81740bae"
-    ]
    }
   },
   {
@@ -695,7 +942,7 @@
    },
    "story": {
     "sources": 2,
-    "heat": 1.54,
+    "heat": 1.22,
     "members": [
      "5f3ca087510d"
     ]
@@ -1006,6 +1253,342 @@
    }
   },
   {
+   "id": "46f0e94e687b",
+   "title": "「パペットスンスン」初の常設ストアが東京＆大阪にオープン！スンスン考案のポップコーンやストア限定アイテムが登場「ぼくのお店ができましたっ！ふわあっ♪」",
+   "url": "https://animeanime.jp/article/2026/11/20/104946.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-20T10:50:02+08:00",
+   "summary": "『パペットスンスン』の初となる常設ストア「PUPPET SUNSUN STORE（パペットスンスンストア）」が登場。11月20日（金）より東京・渋谷ヒカリエ内ShinQs、11月24日（火）より大阪・梅田ルクアサウス店にグランドオープンする。",
+   "i18n": {
+    "zh": {
+     "title": "“Puppet Soonsun”第一家常设店在东京和大阪开业！隆重介绍由 Seung-sun 设计的爆米花和商店限定商品。 “我的店开业啦！毛茸茸的♪”",
+     "summary": "“PUPPET SUNSUN”第一家常设店“PUPPET SUNSUN STORE”现已开业。盛大开业将于 11 月 20 日星期五在东京涩谷 Hikarie 的 ShinQs 以及 11 月 24 日星期二在大阪梅田的 Lucua South 店举行。"
+    },
+    "en": {
+     "title": "\"Puppet Soonsun\"'s first permanent store opens in Tokyo and Osaka! Introducing popcorn and store-only items designed by Seung-sun. “My store is now open! Fluffy♪”",
+     "summary": "``PUPPET SUNSUN STORE'', the first permanent store for ``PUPPET SUNSUN'', is now available. The grand opening will be held at ShinQs in Shibuya Hikarie, Tokyo on Friday, November 20th, and at the Lucua South store in Umeda, Osaka, on Tuesday, November 24th."
+    }
+   }
+  },
+  {
+   "id": "9c0b5b86c526",
+   "title": "Ubisoftが「ゲーム向けAI技術特化新スタジオ」の設立を発表、“記憶持ちNPC”など開発中。レイオフが続く一方、AIへの投資は進む",
+   "url": "https://automaton-media.com/articles/newsjp/20261120-480132/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-20T10:30:37+08:00",
+   "summary": "Ubisoftは11月20日、傘下スタジオで計166名を対象とするレイオフが実施されると発表。その後、AI技術開発特化の新スタジオ「Motherbrain」を設立することを発表した。",
+   "i18n": {
+    "zh": {
+     "title": "育碧宣布成立“专门研究游戏人工智能技术的新工作室”，目前正在开发“有记忆的NPC”。裁员仍在继续，但人工智能投资仍在继续",
+     "summary": "育碧11月20日宣布，旗下工作室共计裁员166人。之后，他们宣布成立一个名为“Motherbrain”的新工作室，专门从事AI技术开发。"
+    },
+    "en": {
+     "title": "Ubisoft announced the establishment of a \"new studio specializing in AI technology for games\" and is currently developing \"NPCs with memories\". Layoffs continue, but investment in AI continues",
+     "summary": "Ubisoft announced on November 20th that a total of 166 people will be laid off at its studios. After that, they announced the establishment of a new studio called \"Motherbrain\" specializing in AI technology development."
+    }
+   }
+  },
+  {
+   "id": "92e1dc4f3241",
+   "title": "新たに岡本信彦＆小野大輔が“関西弁”で参戦!? MAPPA制作「MARO17」CMに新キャラ登場「まさか自分が出演することになるとは」 細谷佳正＆宮野真守＆木村良平と共演",
+   "url": "https://animeanime.jp/article/2026/11/20/104945.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-20T10:30:03+08:00",
+   "summary": "メンズケアブランド『MARO17（マーロセブンティーン）』のMAPPA制作による新作アニメーションCMが公開され、新たに岡本信彦と小野大輔の出演が決定。新CMは2026年11月20日より、全国で順次放送される。",
+   "i18n": {
+    "zh": {
+     "title": "冈本信彦与小野大辅将用“关西话”参战！？新角色将出现在 MAPPA 制作的“MARO17”广告中 “没想到我会出现” 与细谷义正、宫野守、木村亮平共同主演",
+     "summary": "MAPPA为男士护理品牌MARO17制作的全新动画广告发布，冈本信彦和小野大辅将出演。新广告将于2026年11月20日起在全国播出。"
+    },
+    "en": {
+     "title": "Nobuhiko Okamoto & Daisuke Ono will be joining the battle with their “Kansai dialect”!? New characters will appear in the MAPPA-produced “MARO17” commercial “I never expected that I would be appearing” Co-starring with Yoshimasa Hosoya, Mamoru Miyano, and Ryohei Kimura",
+     "summary": "A new animated commercial produced by MAPPA for men's care brand MARO17 has been released, and Nobuhiko Okamoto and Daisuke Ono will be appearing in it. The new commercial will be broadcast nationwide from November 20, 2026."
+    }
+   }
+  },
+  {
+   "id": "892844a0af39",
+   "title": "「Zガンダム」ジェリドやマウアーが駆った可変MS「ガブスレイ」がROBOT魂 ver. A.N.I.M.E.より立体化！ なんと変形機構を差し替えなしで再現可能",
+   "url": "https://animeanime.jp/article/2026/11/20/104944.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-20T10:15:52+08:00",
+   "summary": "「ROBOT魂 ＜SIDE MS＞ RX-110 ガブスレイ ver. A.N.I.M.E.」が、バンダイ公式通販サイト「プレミアムバンダイ」で2026年11月20日（金）16時から予約受付中。価格は14,300円（税込）で、発送は2027年月5月予定となっている。",
+   "i18n": {
+    "zh": {
+     "title": "“Z高达” 由杰里德和莫尔驾驶的可变MS“加布斯利”，从ROBOT魂ver.3开始立体化。日本动画片。！无需更换即可再现变形机构。",
+     "summary": "「ROBOT 魂 <SIDE MS> RX-110 加布斯利 ver. A.N.I.M.E.」 2026 年 11 月 20 日星期五 16:00 起可在 Bandai 官方邮购网站“Premium Bandai”上预购。售价为 14,300 日元（含税），预计 2027 年 5 月发货。"
+    },
+    "en": {
+     "title": "\"Z Gundam\" The variable MS \"Gabsley\" driven by Jerid and Mauer is now three-dimensional from ROBOT Spirits ver. A.N.I.M.E.! The deformation mechanism can be reproduced without replacement.",
+     "summary": "\"ROBOT Spirits <SIDE MS> RX-110 Gabsley ver. A.N.I.M.E.\" is available for pre-order from 16:00 on Friday, November 20, 2026 on Bandai's official mail order site \"Premium Bandai\". The price is 14,300 yen (tax included), and shipping is scheduled for May 2027."
+    }
+   }
+  },
+  {
+   "id": "083ac4ff6797",
+   "title": "チップとデールのレトロかわいい新作グッズ☆クリスマスのパークに登場！ベレー帽やパーカーなど全12種【12月17日（木）発売】",
+   "url": "https://animeanime.jp/article/2026/11/20/104943.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-20T10:00:03+08:00",
+   "summary": "チップとデールがデザインされたレトロな色合いの新作グッズが、東京ディズニーリゾートに登場します。2026年12月17日（木）より、東京ディズニーランド、東京ディズニーシーにて発売です！",
+   "i18n": {
+    "zh": {
+     "title": "Chip and Dale 的可爱复古新品☆ 现已在圣诞公园发售！贝雷帽、连帽衫等12种【12月17日星期四发售】",
+     "summary": "东京迪士尼度假区将推出采用 Chip and Dale 设计和复古色彩的新商品。 2026年12月17日（星期四）起在东京迪士尼乐园、东京迪士尼海洋发售！"
+    },
+    "en": {
+     "title": "Chip and Dale's new cute retro goods ☆ Now available at the Christmas Park! 12 types including berets and hoodies [Released on Thursday, December 17th]",
+     "summary": "New merchandise featuring Chip and Dale designs in retro colors will be available at Tokyo Disney Resort. On sale at Tokyo Disneyland and Tokyo DisneySea from December 17, 2026 (Thursday)!"
+    }
+   }
+  },
+  {
+   "id": "19d6819c2d58",
+   "title": "迎接《雾影猎人》S2 赛季「旧日之火」，咪咕游戏限时免费五天",
+   "url": "https://www.gcores.com/articles/222560",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-11-20T10:00:00+08:00",
+   "summary": "《雾影猎人》S2赛季「旧日之火」激战正酣，咪咕游戏于2026年11月20日10:00至11月25日10:00推出为期五天的限时免费。活动期间，玩家通过咪咕游戏各端进入游戏，无需购买、无需激活，即可畅玩完整版本内容，体验PVEVP玩法的核心乐趣。五天免费，完整版全部开放本次限免共120小时，并非试玩，神木林、布兰德要塞等全部场景与核心玩法同步开放。玩家可在迷雾与断壁间搜集物资，和其他猎金人交锋博弈，完成惊险撤离——只有撤离成功，战利品才算真正收入囊中，这正是PVEVP模式独有的魅力。 S2赛季新BOSS登场，投矛流派成为多面手随机燃起的业火禁地会动态改写对局规则，固定套路不再适用，新老玩家基本处",
+   "i18n": {
+    "ja": {
+     "title": "「ミストシャドウハンター」のS2シーズン「Fire of the Old」へようこそ、ミグゲームが5日間限定で無料",
+     "summary": "「ミストシャドウハンター」S2シーズン「オールドファイア」の熾烈な戦いが本格化。 Migu Games は、2026 年 11 月 20 日 10:00 から 11 月 25 日 10:00 まで、5 日間の期間限定無料ゲームを開始します。イベント期間中、プレイヤーはさまざまな Migu ゲーム端末からゲームに参加できます。購入やアクティベーションは必要なく、コンテンツのフルバージョンをプレイして PVEVP ゲームプレイの核となる楽しみを体験できます。 5 日間は無料で、完全版が公開されています。無料版は合計 120 時間に制限されています。それは裁判ではありません。 Godswood Forest や Brand Fortress などのすべてのシーンは、コア ゲームプレイと同時にオープンします。プレイヤーは霧や壊れた壁の中で物資を集め、他のゴールドハンターと競い合い、スリル満点の避難を完了することができます。避難が成功した場合にのみ、真の戦利品を回収することができます。これもPVEVPモードならではの魅力です。 S2シーズンの新BOSSが登場し、槍投げジャンルもオールラウンダーとなった。ランダムに点火された火災禁止エリアは、ゲームのルールを動的に書き換えます。固定ルーチンは適用されなくなりました。基本的に新旧プレイヤーが対応します"
+    },
+    "en": {
+     "title": "Welcome to the S2 season \"Fire of the Old\" of \"Mist Shadow Hunter\", Migu game is free for a limited time for five days",
+     "summary": "The fierce battle of \"Old Fire\" in the S2 season of \"Mist Shadow Hunter\" is in full swing. Migu Games will launch a five-day limited-time free game from 10:00 on November 20 to 10:00 on November 25, 2026. During the event, players can enter the game through various Migu game terminals. No purchase or activation is required, and they can play the full version of the content and experience the core fun of PVEVP gameplay. It’s free for five days, and the full version is open to the public. The free version is limited to 120 hours in total. It is not a trial. All scenes such as the Godswood Forest and Brand Fortress are open simultaneously with the core gameplay. Players can collect supplies in the fog and broken walls, compete with other gold hunters, and complete a thrilling evacuation. Only when the evacuation is successful can the loot be truly collected. This is the unique charm of the PVEVP mode. The new BOSS in the S2 season has appeared, and the spear throwing genre has become an all-rounder. Randomly ignited fire forbidden areas will dynamically rewrite the rules of the game. Fixed routines are no longer applicable. New and old players basically deal with"
+    }
+   }
+  },
+  {
+   "id": "e29a14765786",
+   "title": "「Steam Machine」512GB版が今なら予約なしで購入可能、ただし売り切れたら「待機リスト」なしで「在庫切れ」に。逼迫続く供給事情、今後の生産/販売価格は“未定”",
+   "url": "https://automaton-media.com/articles/newsjp/20261120-480126/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-20T09:28:09+08:00",
+   "summary": "Steam Machineの512GBモデルについて、現在予約せずに購入できるようになっている。なお在庫がすべて販売し終えた後は、これまでの「待機リスト」には登録されず、在庫切れへと切り替わるようだ。",
+   "i18n": {
+    "zh": {
+     "title": "512GB版《蒸汽机》现已开放购买，无需预约，但一旦售完，就会“缺货”，没有“候补名单”。由于供应形势持续紧张，未来产销价格“未定”",
+     "summary": "Steam Machine 512GB 型号目前无需预约即可购买。一旦所有库存售完，将不再登记在“等待名单”上，并会变成缺货状态。"
+    },
+    "en": {
+     "title": "The 512GB version of \"Steam Machine\" is now available for purchase without reservation, but once sold out, it will be \"out of stock\" without a \"waiting list\". Due to the continuing tight supply situation, future production/sales prices are “undecided”",
+     "summary": "The 512GB model of Steam Machine is currently available for purchase without a reservation. Once all the stock is sold, it will no longer be registered on the \"waiting list\" and will become out of stock."
+    }
+   }
+  },
+  {
+   "id": "9358f1e86187",
+   "title": "系列首次：《使命召唤：现代战争4》未进入美国年度销售榜前十",
+   "url": "https://www.gcores.com/articles/222570",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-11-20T09:25:00+08:00",
+   "summary": "根据市场研究机构 Circana 的最新数据，《使命召唤：现代战争4》拿下了10月美国游戏销量冠军，但却未能进入年度游戏销售榜前十。据悉，这是《使命召唤》系列首次在其发售月后未能进入年度最畅销游戏榜单。 分析师 Mat Piscatella 指出，《使命召唤：现代战争4》首发表现强劲且口碑整体正面，单人战役部分尤其受到认可。尽管如此，游戏却依然没能挤进年度总榜前10，《使命召唤：黑色行动2》次世代移植版则目前排名第六。近几年来，外界对《使命召唤》系列的整体品质和商业持久力一直存在怀疑，不少人认为这一系列正在逐步失去号召力。就在几年前，《使命召唤》新作缺席年度销量前十还是难以想象的事情。 202",
+   "i18n": {
+    "ja": {
+     "title": "シリーズ初：『コール オブ デューティ モダン・ウォーフェア 4』は米国年間売上ランキングのトップ10入りしなかった",
+     "summary": "市場調査会社Circanaの最新データによると、「コール オブ デューティ モダン・ウォーフェア4」は10月の米国ゲーム販売選手権で優勝したが、年間ゲーム販売リストのトップ10には入らなかった。 「コール オブ デューティ」シリーズが発売月以降にその年のベストセラーゲームリストに入らなかったのは今回が初めてだという。アナリストのマット・ピスカテラ氏は、『コール オブ デューティ モダン・ウォーフェア 4』は初期パフォーマンスが好調で全体的に好評で、特にシングルプレイヤーキャンペーンが高く評価されたと指摘した。それにもかかわらず、このゲームは依然として年間リストのトップ 10 に入ることができませんでした。 『Call of Duty: Black Ops 2』の次世代移植版は現在6位にランクインしている。近年、外の世界では『コール オブ デューティ』シリーズの全体的な品質と商業的耐久性が疑問視されています。多くの人は、このシリーズの魅力が徐々に失われつつあると信じています。ほんの数年前には、新作の「コール オブ デューティ」ゲームが年間売上トップ 10 に入らないなど想像もできなかったでしょう。 202"
+    },
+    "en": {
+     "title": "For the first time in the series: \"Call of Duty: Modern Warfare 4\" did not enter the top ten of the US annual sales list",
+     "summary": "According to the latest data from market research firm Circana, \"Call of Duty: Modern Warfare 4\" won the US game sales championship in October, but failed to enter the top ten of the annual game sales list. It is reported that this is the first time that the \"Call of Duty\" series failed to enter the best-selling game list of the year after its release month. Analyst Mat Piscatella pointed out that \"Call of Duty: Modern Warfare 4\" had a strong initial performance and overall positive reviews, and the single-player campaign was particularly recognized. Despite this, the game still failed to crack the top 10 of the annual list. The next-generation port version of \"Call of Duty: Black Ops 2\" is currently ranked sixth. In recent years, the outside world has been doubtful about the overall quality and commercial durability of the \"Call of Duty\" series. Many people believe that this series is gradually losing its appeal. Just a few years ago, it would have been unimaginable for a new \"Call of Duty\" game to miss the top ten annual sales. 202"
+    }
+   }
+  },
+  {
+   "id": "71324a595723",
+   "title": "欢庆Steam发行九周年，《战舰世界》推出“免费周年装饰包”",
+   "url": "https://www.gcores.com/articles/222567",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-11-20T09:15:00+08:00",
+   "summary": "《战舰世界》今年迎来了11周年，而今年11月也标志着游戏在 Steam 上度过了精彩的九年。为延续此前的周年庆典传统，Wargaming Group 将免费送出一些Steam主题饰品，并为部分DLC礼包提供高达90%的折扣。 免费周年装饰包DLC礼包开放至2026年11月27日。玩家可以用一系列Steam饰品来装饰自己的战舰和账号，其中包括： 2x Steam永久涂装 Steam补丁 Steam周年主题补丁 Steam补丁背景 Steam周年主题旗帜 <内嵌内容，请前往机核查看>DLC享高达90%折扣在周年庆典期间，多款DLC礼包已大幅降价。 折扣开放至2026年11月26日。 <内嵌内容，请",
+   "i18n": {
+    "ja": {
+     "title": "『World of Warships』がSteamリリース9周年を記念して「無料アニバーサリーデコレーションパック」を開始",
+     "summary": "World of Warships は今年 11 周年を迎え、この 11 月で Steam は素晴らしい 9 周年を迎えます。前回の周年祝賀の伝統を継続するために、Wargaming Group は Steam をテーマにした化粧品を無料で配布し、一部の DLC パッケージで最大 90% の割引を提供します。無料の Anniversary デコレーション パック DLC ギフト パックは、2026 年 11 月 27 日までご利用いただけます。 プレイヤーは、次のような一連の Steam アクセサリで自分の船やアカウントを装飾できます。 Steam 永久迷彩 2 個 Steam パッチ Steam 記念日テーマ パッチ Steam パッチの背景 Steam 記念日テーマ フラグ <埋め込みコンテンツ、表示するにはコアに移動してください> 最大 90% の DLC 割引 周年記念の期間中、多くの DLC ギフト パックが大幅に値下げされています。割引は 2026 年 11 月 26 日まで有効です。<埋め込みコンテンツをご利用ください。"
+    },
+    "en": {
+     "title": "To celebrate the ninth anniversary of the release of Steam, \"World of Warships\" launches a \"free anniversary decoration pack\"",
+     "summary": "World of Warships celebrates its 11th anniversary this year, and this November also marks nine wonderful years on Steam. To continue its previous anniversary celebration tradition, Wargaming Group will give away some Steam-themed cosmetics for free and provide discounts of up to 90% on some DLC packages. The free Anniversary Decoration Pack DLC gift pack is available until November 27, 2026. Players can decorate their ships and accounts with a series of Steam accessories, including: 2x Steam permanent camouflage Steam patch Steam anniversary theme patch Steam patch background Steam anniversary theme flag <embedded content, please go to the core to view> DLC discounts of up to 90% During the anniversary celebrations, many DLC gift packs have been significantly reduced in price. The discount is open until November 26, 2026. <Embedded content, please"
+    }
+   }
+  },
+  {
+   "id": "4ba921997aa2",
+   "title": "映画「カンフー・パンダ」の配信はどこで見れる？見放題で視聴できるサブスクを紹介",
+   "url": "https://animeanime.jp/article/2026/11/20/104942.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-20T09:07:25+08:00",
+   "summary": "映画『カンフー・パンダ』の配信状況を動画配信サービスで調査しました。U-NEXT・Amazonプライムビデオで見放題配信中で、FOD・TELASA・YouTubeではレンタルも可能です。あらすじや声優キャストもまとめています。",
+   "i18n": {
+    "zh": {
+     "title": "哪里可以看电影《功夫熊猫》？推出允许无限制观看的订阅服务",
+     "summary": "我们调查了电影《功夫熊猫》在视频发行服务上的发行状况。它可在 U-NEXT 和 Amazon Prime Video 上无限制观看，并可在 FOD、TELASA 和 YouTube 上租用。剧情和声优阵容也进行了总结。"
+    },
+    "en": {
+     "title": "Where can I watch the movie \"Kung Fu Panda\"? Introducing a subscription service that allows unlimited viewing",
+     "summary": "We investigated the distribution status of the movie ``Kung Fu Panda'' on video distribution services. It is available for unlimited viewing on U-NEXT and Amazon Prime Video, and can be rented on FOD, TELASA, and YouTube. The plot and voice actor cast are also summarized."
+    }
+   }
+  },
+  {
+   "id": "b59532ec11d1",
+   "title": "“衣装破壊”弾幕STG『カラドリウス2』、来年1月28日に発売延期、Steam版は時期未定。PS5版では一部グラフィックに「調整」も",
+   "url": "https://automaton-media.com/articles/newsjp/20261120-480118/",
+   "source": "AUTOMATON",
+   "category": "game",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-20T09:00:10+08:00",
+   "summary": "モスは11月20日、『Caladrius2/Dark Element（カラドリウス2/ダークエレメント）』の発売延期およびPS5版の一部仕様変更を発表した。Steam版の発売時期は現時点では未定だ。",
+   "i18n": {
+    "zh": {
+     "title": "《服装毁灭》弹幕STG《Caladrius 2》发售推迟至明年1月28日，Steam版发售日期未定。 PS5版本还对部分画面进行了“调整”。",
+     "summary": "11月20日，Moss宣布推迟《Caladrius 2/Dark Element》的发售，并对PS5版本的规格进行一些更改。 Steam 版本的发布日期目前尚未确定。"
+    },
+    "en": {
+     "title": "“Costume destruction” barrage STG “Caladrius 2” release postponed to January 28th next year, Steam version release date undecided. The PS5 version also has “adjustments” to some graphics.",
+     "summary": "On November 20th, Moss announced the postponement of the release of ``Caladrius 2/Dark Element'' and some changes to the specifications of the PS5 version. The release date for the Steam version is currently undecided."
+    }
+   }
+  },
+  {
+   "id": "d6eebb73d20e",
+   "title": "「ニーア・オートマタ」2Bと9Sの別れに涙…名シーンを立体化したフィギュア登場",
+   "url": "https://animeanime.jp/article/2026/11/20/104941.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-20T09:00:04+08:00",
+   "summary": "アニメ『NieR:Automata Ver1.1a』より、2Bと9Sの印象的なシーンを立体化した1/7スケールフィギュアが登場。2026年11月18日（水）11時より、Cyber Goods Store内「SHIBUYA SCRAMBLE FIGURE」公式ストアにて予約受付中だ。",
+   "i18n": {
+    "zh": {
+     "title": "《尼尔：机械纪元》2B和9S的告别落泪……名场面的3D版手办登场",
+     "summary": "出自动画《尼尔：机械纪元 Ver1.1a》，描绘了 2B 和 9S 中令人印象深刻的场景的 1/7 比例手办登场。 2026 年 11 月 18 日星期三 11:00 开始在 Cyber​​ Goods Store 的“SHIBUYA SCRAMBLE Figure”官方商店接受预订。"
+    },
+    "en": {
+     "title": "\"NieR: Automata\" Tears at the farewell of 2B and 9S...A figure with a three-dimensional version of the famous scene appears",
+     "summary": "From the anime ``NieR:Automata Ver1.1a'' comes a 1/7 scale figure depicting the impressive scenes of 2B and 9S. Pre-orders are being accepted at the \"SHIBUYA SCRAMBLE FIGURE\" official store in the Cyber ​​Goods Store from 11:00 on Wednesday, November 18, 2026."
+    }
+   }
+  },
+  {
+   "id": "fca8f6f76b75",
+   "title": "Epic喜加一：《深渊之印》免费领",
+   "url": "https://www.gcores.com/articles/222561",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-11-20T09:00:00+08:00",
+   "summary": "Epic 游戏商城为玩家带来了最新的福利喜加一活动。即日起至11月27日凌晨12时，玩家可领取价值55元的《深渊之印》。 <《深渊之印》免费领>《深渊之印》是一款史诗般的海盗冒险游戏，拥有强烈的叙事性，并融合了广受好评的银河恶魔城游戏与魂系游戏的惊险元素。以海盗刘琦的身份踏上旅程，探索受诅咒岛屿的奥秘，寻找失踪的海盗船员",
+   "i18n": {
+    "ja": {
+     "title": "エピック プラス 1: 「Seal of the Abyss」を無料で入手",
+     "summary": "Epic Games ストアは、最新のボーナスである Plus One イベントをプレイヤーに提供します。本日から11月27日午前0時まで、プレイヤーは55元相当の「深淵の封印」を受け取ることができる。 <『Seal of the Abyss』は無料でご利用いただけます> 『Seal of the Abyss』は、強力な物語と、高い評価を得ているメトロイドヴァニア ゲームや Souls ベースのゲームのスリル満点の要素を備えた壮大な海賊アドベンチャー ゲームです。海賊リウ・チーとして呪われた島の謎を解き明かし、行方不明の海賊団を捜索する旅に出ましょう。"
+    },
+    "en": {
+     "title": "Epic plus one: Get \"Seal of the Abyss\" for free",
+     "summary": "The Epic Games Store brings players the latest bonus, the Plus One event. From now until 12:00 a.m. on November 27, players can receive \"Seal of the Abyss\" worth 55 yuan. <\"Seal of the Abyss\" is available for free> \"Seal of the Abyss\" is an epic pirate adventure game with a strong narrative and the thrilling elements of the critically acclaimed Metroidvania games and Souls-based games. Embark on a journey as pirate Liu Qi to discover the mysteries of the cursed island and search for the missing pirate crew"
+    }
+   }
+  },
+  {
+   "id": "ae6407782ca8",
+   "title": "安卓模拟器Andarium现已登陆iOS及iPadOS",
+   "url": "https://www.gcores.com/articles/222563",
+   "source": "机核 GCORES",
+   "category": "game",
+   "lang": "zh",
+   "weight": 7,
+   "published": "2026-11-20T08:45:00+08:00",
+   "summary": "安卓虚拟机 Andarium 现已正式登陆苹果 App Store。作为货真价实的模拟器，Andarium 允许用户在 iPhone 和 iPad 上直接本地运行安卓系统，甚至可以自由安装 APK 文件。与其他的云端方案不同，Andarium 完全在设备本地运行。用户无需连接电脑进行繁琐调试，也无需注册账号，只需创建虚拟机即可启动。 据悉，应用支持直接从iOS系统的文件 App 中导入并安装APK安装包，并内置文件浏览器以实现跨系统文件传输。同时，Andarium 还采取免费下载、自愿打赏的模式。不仅没有广告，开发者的隐私声明中也表示不收集任何个人数据或遥测信息。 配置要求方面， Andari",
+   "i18n": {
+    "ja": {
+     "title": "Android エミュレータ Andarium が iOS および iPadOS で利用可能になりました",
+     "summary": "Android 仮想マシン Andarium が Apple App Store で正式に入手可能になりました。本物のエミュレータである Andarium を使用すると、ユーザーは Android を iPhone や iPad 上で直接ネイティブに実行でき、APK ファイルを自由にインストールすることもできます。他のクラウド ソリューションとは異なり、Andarium はデバイス上で完全にローカルで実行されます。ユーザーは、面倒なデバッグのためにコンピュータに接続する必要も、アカウントを登録する必要もありません。必要なのは、仮想マシンを作成して起動することだけです。このアプリケーションは、iOS システムのファイル アプリから直接 APK インストール パッケージのインポートとインストールをサポートし、システム間のファイル転送を実現するファイル ブラウザーを内蔵していると報告されています。同時に、Andarium は無料ダウンロードと自発的な報酬モデルも採用しています。広告がないだけでなく、開発者のプライバシーに関する声明には、個人データやテレメトリは収集されないと記載されています。構成要件に関しては、Andari"
+    },
+    "en": {
+     "title": "Android emulator Andarium is now available on iOS and iPadOS",
+     "summary": "The Android virtual machine Andarium is now officially available on the Apple App Store. As a genuine emulator, Andarium allows users to run Android directly and natively on iPhones and iPads, and even install APK files freely. Unlike other cloud solutions, Andarium runs entirely locally on the device. Users do not need to connect to a computer for tedious debugging, nor do they need to register an account. They only need to create a virtual machine and start it. It is reported that the application supports importing and installing APK installation packages directly from the file app of the iOS system, and has a built-in file browser to realize cross-system file transfer. At the same time, Andarium also adopts a free download and voluntary reward model. Not only are there no ads, but the developer's privacy statement states that no personal data or telemetry is collected. In terms of configuration requirements, Andari"
+    }
+   }
+  },
+  {
+   "id": "0e02b668a17c",
+   "title": "「たんプリ」ハッピーセット第2弾は本日11月20日から☆ ジュエルキュアウォッチがついに手に入る！",
+   "url": "https://animeanime.jp/article/2026/11/20/104940.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-20T08:00:04+08:00",
+   "summary": "『名探偵プリキュア！』のアイテムをイメージしたおもちゃが、マクドナルドのハッピーセット(R)に登場中。2026年11月20日（金）からは、全国のマクドナルド（一部店舗を除く）にて第2弾が販売されている。",
+   "i18n": {
+    "zh": {
+     "title": "《Tanpuri》快乐套装第二期今天11月20日开始☆Jewel Cure Watch终于上市了！",
+     "summary": "《名侦探光之美少女！》商品形象的玩具现已在麦当劳开心乐园餐(R)上架。从2026年11月20日星期五开始，第二批将在全国麦当劳（部分门店除外）发售。"
+    },
+    "en": {
+     "title": "The second edition of \"Tanpuri\" Happy Set starts today, November 20th ☆ Jewel Cure Watch is finally available!",
+     "summary": "“Detective Precure! Toys with the image of items from `` are now available in McDonald's Happy Meals (R). Starting Friday, November 20, 2026, the second batch will be sold at McDonald's nationwide (excluding some stores)."
+    }
+   }
+  },
+  {
+   "id": "c6f98c0bb294",
+   "title": "本日放送！「SING／シング」声優キャスト・あらすじ・登場キャラクターまとめ【金曜ロードショー】",
+   "url": "https://animeanime.jp/article/2026/11/20/104939.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-20T06:00:03+08:00",
+   "summary": "2024年2月23日の「金曜ロードショー」（21時より放送）にて、アニメーション映画『SING／シング』が放送。",
+   "i18n": {
+    "zh": {
+     "title": "今天播出！ 《SING》配音演员阵容、剧情简介、人物概要【周五路演】",
+     "summary": "动画电影《SING》将于2024年2月23日在“周五路演”（晚上9点～播出）播出。"
+    },
+    "en": {
+     "title": "Broadcast today! \"SING\" voice actor cast, synopsis, and character summary [Friday Road Show]",
+     "summary": "The animated movie \"SING\" will be broadcast on \"Friday Roadshow\" (broadcast from 9:00 p.m.) on February 23, 2024."
+    }
+   }
+  },
+  {
    "id": "b0e740c736c7",
    "title": "本日公開！「装甲騎兵ボトムズ 灰色の魔女」あらすじ・キャスト声優・登場キャラクターまとめ",
    "url": "https://animeanime.jp/article/2026/11/20/104938.html",
@@ -1184,6 +1767,10 @@
    "published": "2026-11-19T18:03:35+08:00",
    "summary": "2008年时，你在河北白沟一带混，你打架斗殴，盗窃，诈骗，帮工地老板吓唬要工资的农民工。在白沟，社会人都知道“白沟小张”这个名号。2012年，你到了北京，你有点手上功夫，是几年前认识的一个湖北佬教你的，他把刮胡刀片藏在食指和中指之间，一错身就能把人的内兜口袋划开，把里面东西掏干净。你手艺不如他，但是在地铁和公交车上混个几百块还是没问题。你主要在八里桥一带，混得很开，放贷，和发廊的小姐厮混，帮黑摩的帮派争地盘，有时候还帮朋友平事儿，也放贷。13年的时候，你和朋友喝酒，酒劲上来，和邻桌两个社会人吵起来，你把他们捅了，一死一伤。就因为这个，你进了监狱，被判了13年。你在里面潜心改造，现在，2026年",
    "i18n": {
+    "ja": {
+     "title": "GTA6 レビュー: ゲームの境界を超えた電子の驚異",
+     "summary": "2008年、あなたは河北省の白溝地区をぶらぶらしていました。あなたは、賃金を求める出稼ぎ労働者を怖がらせるために、戦い、盗み、詐欺を働き、建設現場のボスを助けました。白溝では誰もが「白溝小張」という名前を知っています。 2012年に北京に来たとき、あなたはある程度のスキルを持っていました。数年前に会った湖北省の男性がその方法を教えてくれました。彼は人差し指と中指の間にカミソリの刃を隠しており、振り向くと人の内ポケットを切り裂いて中身を取り出すことができた。あなたの職人技は彼のほど優れていませんが、地下鉄やバスで数百ドルを稼ぐのには問題ありません。あなたは主に八橋地区に住んでおり、お金を貸したり、美容院の女の子たちと遊んだり、縄張り争いで黒毛ギャングを助けたり、時には友達の物を手伝ったり、お金を貸したりします。 2013年、あなたは友達と飲んでいました。あなたが酔ったとき、隣のテーブルにいた社交界の有名人2人と口論になりました。あなたは彼らを刺し、一人を殺し、もう一人を傷つけました。たったこれだけの理由で、あなたは刑務所に行き、13年の刑を言い渡されました。 2026年の今、頑張ってますね"
+    },
     "en": {
      "title": "GTA6 review: An electronic wonder that transcends gaming boundaries",
      "summary": "In 2008, you were hanging out in the Baigou area of ​​Hebei Province. You fought, stole, defrauded, and helped the construction site boss to scare the migrant workers who wanted wages. In Baigou, everyone knows the name \"Baigou Xiao Zhang\". In 2012, when you arrived in Beijing, you had some skills. A Hubei guy you met a few years ago taught you how to do it. He hid a razor blade between his index finger and middle finger, and when he turned around, he could cut open people's inner pockets and take out the contents. Your craftsmanship is not as good as his, but you still have no problem making a few hundred bucks on the subway and bus. You mainly live in the Baliqiao area, lending money, hanging out with the girls at the hair salon, helping the Black Mo gang fight for territory, and sometimes helping your friends with things and lending money. In 2013, you were drinking with your friends. When you got drunk, you got into an argument with two socialites at the next table. You stabbed them, killing one and injuring the other. Just because of this, you went to jail and were sentenced to 13 years. You are working hard on it, now, in 2026"
@@ -2270,7 +2857,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-20T02:43:04+08:00",
+   "published": "2026-11-20T10:51:52+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2289,7 +2876,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-20T02:43:04+08:00",
+   "published": "2026-11-20T10:51:52+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2308,7 +2895,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-20T02:43:04+08:00",
+   "published": "2026-11-20T10:51:52+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2327,7 +2914,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-20T02:43:04+08:00",
+   "published": "2026-11-20T10:51:52+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2346,7 +2933,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-20T02:43:04+08:00",
+   "published": "2026-11-20T10:51:52+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2365,7 +2952,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-20T02:43:04+08:00",
+   "published": "2026-11-20T10:51:52+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2384,7 +2971,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-20T02:43:04+08:00",
+   "published": "2026-11-20T10:51:52+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2396,549 +2983,149 @@
    }
   },
   {
-   "id": "aeec89cab95c",
-   "title": "【今日更新】萤火虫的出嫁",
-   "url": "https://bgm.tv/subject/621108",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-20T02:43:04+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日更新】ホタルの結婚"
-    },
-    "en": {
-     "title": "【Today’s Update】Firefly’s Marriage"
-    }
-   }
-  },
-  {
-   "id": "e185657dccd1",
-   "title": "【今日更新】决斗大师 LOST ～断罪的少年～",
-   "url": "https://bgm.tv/subject/632061",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-20T02:43:04+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日更新】デュエル・マスター LOST ～断罪された少年～"
-    },
-    "en": {
-     "title": "【Today’s Update】Duel Master LOST ~The Convicted Boy~"
-    }
-   }
-  },
-  {
-   "id": "e2590901d57f",
-   "title": "【今日更新】装备我最强",
-   "url": "https://bgm.tv/subject/657656",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-20T02:43:04+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日の更新】最強の装備を装備しました"
-    },
-    "en": {
-     "title": "[Today’s update] I am equipped with the strongest equipment"
-    }
-   }
-  },
-  {
-   "id": "991d944a3f07",
-   "title": "【今日更新】探险时光：支线任务 第二季",
-   "url": "https://bgm.tv/subject/698981",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-20T02:43:04+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日のアップデート】アドベンチャー・タイム：サイドミッション シーズン2"
-    },
-    "en": {
-     "title": "[Today’s Update] Adventure Time: Side Missions Season 2"
-    }
-   }
-  },
-  {
-   "id": "8d1c7faf722e",
-   "title": "【今日更新】闹鬼酒店 第二季",
-   "url": "https://bgm.tv/subject/700678",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-20T02:43:04+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日の更新】ホーンテッド・ホテル シーズン2"
-    },
-    "en": {
-     "title": "【Today’s Update】Haunted Hotel Season 2"
-    }
-   }
-  },
-  {
-   "id": "7774cfd2237d",
-   "title": "【今日更新】格林姐妹大冒险 第二季",
-   "url": "https://bgm.tv/subject/701310",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-20T02:43:04+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日更新】グリム姉妹の冒険 シーズン2"
-    },
-    "en": {
-     "title": "【Today’s Update】The Adventures of the Grimm Sisters Season 2"
-    }
-   }
-  },
-  {
-   "id": "729b8a3d19b3",
-   "title": "【今日更新】苍蓝传承 威尔什&榭达",
-   "url": "https://bgm.tv/subject/701782",
-   "source": "Bangumi 每日放送",
-   "category": "anime",
-   "lang": "zh",
-   "weight": 6,
-   "published": "2026-11-20T02:43:04+08:00",
-   "summary": "",
-   "i18n": {
-    "ja": {
-     "title": "【本日の更新】ブルーヘリテージ ウェールシュ＆シェダ"
-    },
-    "en": {
-     "title": "【Today’s Update】Blue Heritage Welsh & Sheda"
-    }
-   }
-  },
-  {
-   "id": "43ce5e35d3bc",
-   "title": "【今日放送 17:30】ぷちきゅあ～Precure Fairies～ シーズン4 第8集",
-   "url": "https://anilist.co/anime/217624",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "38fddeaf237e",
+   "title": "不気味なAI生成風ビジュアルが話題のOpenAIのサム・アルトマンCEO解任騒動を描く映画「Artificial」のポスターは人間が作ったもの",
+   "url": "https://gigazine.net/news/20261120-artificial-unsettling-ai-poster-made-human/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-20T02:43:03+08:00",
-   "summary": "",
+   "weight": 5,
+   "published": "2026-11-20T10:47:00+08:00",
+   "summary": "2023年11月に起きたOpenAIのサム・アルトマンCEO解任騒動を描く映画「Artificial」の宣伝用ポスターが、まるでAI生成画像のようだと話題になっています。しかし、このAI生成画像風のポスターは人間のアーティストが手描きで作成したものであることが明らかになりました。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "【今日17:30播出】Petit Cure～光之美少女～第4季第8集"
+     "title": "电影《Artificial》的海报描绘了 OpenAI 首席执行官萨姆·奥尔特曼 (Sam Altman) 被解雇引起的轩然大波，其令人毛骨悚然的人工智能生成的视觉效果成为热门话题，海报是由人类制作的。",
+     "summary": "电影《Artificial》的宣传海报描绘了 2023 年 11 月发生的 OpenAI 首席执行官萨姆·奥尔特曼 (Sam Altman) 被解雇事件，该海报看起来像是人工智能生成的图像，因此成为热门话题。然而，据透露，这张人工智能生成的类似图像的海报是由人类艺术家手绘的。阅读更多..."
     },
     "en": {
-     "title": "[Broadcast today 17:30] Petit Cure ~Precure Fairies~ Season 4 Episode 8"
+     "title": "The poster for the movie ``Artificial'' depicting the uproar over the dismissal of OpenAI's CEO Sam Altman, whose eerie AI-generated visuals are a hot topic, was created by humans.",
+     "summary": "The promotional poster for the movie ``Artificial,'' which depicts the firing incident of OpenAI CEO Sam Altman that occurred in November 2023, has become a hot topic as it looks like an AI-generated image. However, it has been revealed that this AI-generated image-like poster was hand-drawn by a human artist. read more..."
     }
    }
   },
   {
-   "id": "62335f3523bd",
-   "title": "【今日放送 18:19】シルバニアファミリー フレアのカラフル・エブリデイ 第8集",
-   "url": "https://anilist.co/anime/218942",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "1ed598157e56",
+   "title": "Windows PCを複数台接続して1個のAI処理クラスターとして扱う機能「RDMA over USB4」をMicrosoftが発表、USBケーブルのみで接続可能で専用機材不要",
+   "url": "https://gigazine.net/news/20261120-rdma-over-usb4-windows/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-20T02:43:03+08:00",
-   "summary": "",
+   "weight": 5,
+   "published": "2026-11-20T10:36:00+08:00",
+   "summary": "MicrosoftがWindows搭載PC同士をUSB4ケーブルで相互接続する機能「RDMA over USB4」を発表しました。PC同士を相互接続することで、メモリやGPU計算能力を共有して大型のAIモデルを高速実行することができます。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "【今日18:19播出】Sylvanian Families Flare《多彩日常》Vol.1 8"
+     "title": "微软宣布“RDMA over USB4”，一种连接多台Windows PC并将它们视为一个AI处理集群的功能，只需使用USB电缆即可连接，不需要特殊设备",
+     "summary": "微软宣布了“RDMA over USB4”，该功能可将配备 Windows 的 PC 与 USB4 电缆互连。通过互连 PC，您可以共享内存和 GPU 计算能力，以高速运行大型 AI 模型。阅读更多..."
     },
     "en": {
-     "title": "[Broadcast today 18:19] Sylvanian Families Flare's Colorful Everyday Vol. 8"
+     "title": "Microsoft announces \"RDMA over USB4\", a function that connects multiple Windows PCs and treats them as one AI processing cluster, can be connected only with a USB cable and does not require special equipment",
+     "summary": "Microsoft has announced \"RDMA over USB4\", a feature that interconnects Windows-equipped PCs with USB4 cables. By interconnecting PCs, you can share memory and GPU computing power to run large AI models at high speed. read more..."
     }
    }
   },
   {
-   "id": "ddbd977bcb83",
-   "title": "【今日放送 20:30】FX戦士くるみちゃん 第8集",
-   "url": "https://anilist.co/anime/206401",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "0bfef09d72d9",
+   "title": "家電量販店Best Buyが3年ぶりにBlu-rayの販売を再開",
+   "url": "https://gigazine.net/news/20261120-best-buy-sells-again-bd/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-20T02:43:03+08:00",
-   "summary": "",
+   "weight": 5,
+   "published": "2026-11-20T10:35:00+08:00",
+   "summary": "アメリカやカナダに店舗を展開している家電量販店チェーン・Best Buyが2024年に中止したBlu-rayとDVDの店舗での販売を再開しました。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "【今日20:30播出】FX战士狂三第8卷"
+     "title": "家用电子零售商百思买三年来首次恢复蓝光销售",
+     "summary": "百思买 (Best Buy) 是一家消费电子零售连锁店，在美国和加拿大设有门店，已于 2024 年停止销售蓝光和 DVD。阅读更多..."
     },
     "en": {
-     "title": "[Broadcast today 20:30] FX Senshi Kurumi-chan Volume 8"
+     "title": "Home electronics retailer Best Buy resumes Blu-ray sales for the first time in three years",
+     "summary": "Best Buy, a consumer electronics retail chain with stores in the United States and Canada, has resumed selling Blu-rays and DVDs at its stores, which it had discontinued in 2024. read more..."
     }
    }
   },
   {
-   "id": "f9118a538d59",
-   "title": "【今日放送 22:30】ガールズ＆パンツァー もっとらぶらぶ作戦です！ 第7集",
-   "url": "https://anilist.co/anime/188034",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "812044503809",
+   "title": "ハッカーがVisaやMastercardの顧客データを入手",
+   "url": "https://gigazine.net/news/20261120-visa-mastercard-jpmorgan-data-leak/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-20T02:43:03+08:00",
-   "summary": "",
+   "weight": 5,
+   "published": "2026-11-20T10:28:00+08:00",
+   "summary": "「n0n」と名乗るランサムウェアグループが、Visa、Mastercard、そしてJPモルガン・チェースの数千人の顧客のデータを入手したとする犯行声明を出しました。クレジットカード番号は含まれていないと伝えられています。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "【今日22:30播出】少女与战车更爱恋爱攻略！第7卷"
+     "title": "黑客获取 Visa 和 Mastercard 客户数据",
+     "summary": "一个自称 n0n 的勒索软件组织声称对此次攻击负责，并声称已从 Visa、Mastercard 和摩根大通的数千名客户那里获取了数据。据报道，它不包括信用卡号码。阅读更多..."
     },
     "en": {
-     "title": "[Broadcast today 22:30] Girls & Panzer More Love Love Strategy! Volume 7"
+     "title": "Hackers obtain Visa and Mastercard customer data",
+     "summary": "A ransomware group calling itself n0n has claimed responsibility for the attack, claiming to have obtained data from thousands of customers at Visa, Mastercard, and JPMorgan Chase. It reportedly does not include credit card numbers. read more..."
     }
    }
   },
   {
-   "id": "b2f196fecbd4",
-   "title": "【今日放送 22:56】氷の城壁 第2期 第8集",
-   "url": "https://anilist.co/anime/213805",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "0a416d9c820e",
+   "title": "Blue Originが2029年にGoogleのAIサーバー衛星を大型ロケット「New Glenn」で打ち上げへ",
+   "url": "https://gigazine.net/news/20261120-blue-origin-launch-google-ai-server/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-20T02:43:03+08:00",
-   "summary": "",
+   "weight": 5,
+   "published": "2026-11-20T10:22:00+08:00",
+   "summary": "Googleは2026年11月19日、宇宙空間にAIデータセンターを構築する研究プロジェクト「Project Suncatcher」で、宇宙開発企業のBlue Originと提携したと発表しました。2029年第1四半期にBlue Originの大型ロケット「New Glenn」を使用し、データセンターのラック1台に相当する計算能力を備えた衛星を打ち上げる計画です。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "【今日22:56播出】冰城墙第二季第8集"
+     "title": "蓝色起源将于2029年用大型火箭“新格伦”发射谷歌人工智能服务器卫星",
+     "summary": "谷歌于 2026 年 11 月 19 日宣布，与太空开发公司 Blue Origin 合作开展“Project Suncatcher”研究项目，在外太空建立人工智能数据中心。蓝色起源计划在2029年第一季度使用其大型火箭“新格伦”发射一颗计算能力相当于一个数据中心机架的卫星。阅读更多..."
     },
     "en": {
-     "title": "[Broadcast today 22:56] Ice Castle Wall Season 2 Episode 8"
+     "title": "Blue Origin to launch Google's AI server satellite on large rocket \"New Glenn\" in 2029",
+     "summary": "Google announced on November 19, 2026 that it has partnered with space development company Blue Origin on the research project ``Project Suncatcher'' to build an AI data center in outer space. In the first quarter of 2029, Blue Origin plans to use its large rocket, New Glenn, to launch a satellite with the computing power equivalent to one data center rack. read more..."
     }
    }
   },
   {
-   "id": "97564aa52764",
-   "title": "【今日放送 23:00】魔法使いの夜 第1集",
-   "url": "https://anilist.co/anime/143103",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "857b96892ad4",
+   "title": "iPhoneやAndroidスマホの強制ロック解除を防ぐ方法",
+   "url": "https://gigazine.net/news/20261120-phone-unlocking/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-20T02:43:03+08:00",
-   "summary": "",
+   "weight": 5,
+   "published": "2026-11-20T07:00:00+08:00",
+   "summary": "iPhoneやAndroidスマートフォンはロックを解除しない限り内部のファイルを閲覧できないように設計されていますが、特殊な手法やツールを用いてロックを強制解除されてしまう場合もあります。そんな強制ロック解除を防ぐための方法を非営利団体のOsservatorio Nessunoが解説しています。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "【今日23:00播出】魔法师之夜第1卷"
+     "title": "如何防止iPhone和Android智能手机被强制解锁",
+     "summary": "iPhone和Android智能手机的设计是，除非解锁，否则无法查看里面的文件，但可以使用特殊方法或工具强制解锁。非营利组织 Osservatorio Nessuno 解释了如何防止此类强制解锁。阅读更多..."
     },
     "en": {
-     "title": "[Broadcast today 23:00] Wizard's Night Volume 1"
+     "title": "How to prevent forced unlocking of iPhone and Android smartphones",
+     "summary": "iPhones and Android smartphones are designed so that the files inside cannot be viewed unless the lock is unlocked, but the lock may be forcibly unlocked using special methods or tools. Non-profit organization Osservatorio Nessuno explains how to prevent such forced unlocking. read more..."
     }
    }
   },
   {
-   "id": "151cb7f46e13",
-   "title": "【今日放送 23:00】てつりょー！meet with 鉄道むすめ 第7集",
-   "url": "https://anilist.co/anime/199594",
-   "source": "AniList 放送表",
-   "category": "anime",
+   "id": "4cd5d1c8d1ba",
+   "title": "好きな時にAmazonの商品を受け取れる「Amazonロッカー」のセキュリティをあらゆる手段を駆使して突破する試み～ハードウェア編",
+   "url": "https://gigazine.net/news/20261120-breaking-amazon-lockers-hardware/",
+   "source": "GIGAZINE",
+   "category": "general",
    "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-20T02:43:03+08:00",
-   "summary": "",
+   "weight": 5,
+   "published": "2026-11-20T06:00:00+08:00",
+   "summary": "DEF CON 34カンファレンスにおいてセキュリティエンジニアのマーティン・ヴィゴ氏が発表したAmazonロッカーのセキュリティに関する調査結果の後半は、ハードウェア部分に焦点を当てています。続きを読む...",
    "i18n": {
     "zh": {
-     "title": "【今日23:00播出】哲良！与铁道娘见面 Vol. 7"
+     "title": "尝试突破“亚马逊储物柜”的安全性，想尽一切办法随时收到亚马逊产品 - 硬件版",
+     "summary": "安全工程师Martin Viggo在DEF CON 34会议上提出的亚马逊locker安全研究的后半部分主要集中在硬件部分。阅读更多..."
     },
     "en": {
-     "title": "[Broadcast today 23:00] Tetsuryo! meet with Tetsudo Musume Vol. 7"
-    }
-   }
-  },
-  {
-   "id": "a3725383735e",
-   "title": "【今日放送 23:00】ゆうさんち！from 遊ハち 第14集",
-   "url": "https://anilist.co/anime/214593",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-20T02:43:03+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日23:00播出】游三池！出自《汤八》第14卷"
-    },
-    "en": {
-     "title": "[Broadcast today 23:00] Yusanchi! from Yuhachi Volume 14"
-    }
-   }
-  },
-  {
-   "id": "9c6e535143bc",
-   "title": "【今日放送 23:00】傷だらけ聖女より報復をこめて Season2 第8集",
-   "url": "https://anilist.co/anime/212144",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-20T02:43:03+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日23:00播出】来自伤痕圣斗士的报应第二季第8集"
-    },
-    "en": {
-     "title": "[Broadcast today 23:00] From the Scarred Saint with Retribution Season 2 Episode 8"
-    }
-   }
-  },
-  {
-   "id": "112c11f2b978",
-   "title": "【今日放送 23:00】装甲騎兵ボトムズ 灰色の魔女 第1集",
-   "url": "https://anilist.co/anime/206163",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-20T02:43:03+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日23:00播出】装甲兵沃托姆灰魔女第1卷"
-    },
-    "en": {
-     "title": "[Broadcast today 23:00] Armored Trooper Votoms Gray Witch Volume 1"
-    }
-   }
-  },
-  {
-   "id": "3827482ba457",
-   "title": "【今日放送 23:26】追放された転生重騎士はゲーム知識で無双する 第21集",
-   "url": "https://anilist.co/anime/180136",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-20T02:43:03+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日播23:26】被放逐的转生重骑士游戏知识无与伦比第21集"
-    },
-    "en": {
-     "title": "[Broadcast today 23:26] The banished reincarnated heavy knight is unparalleled with his game knowledge Episode 21"
-    }
-   }
-  },
-  {
-   "id": "76cb1bbd68cb",
-   "title": "【今日放送 00:28】冰剣の魔術師が世界を統べるⅡ 第7集",
-   "url": "https://anilist.co/anime/212503",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-20T02:43:03+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日播报00:28】冰剑魔法师统治世界第一卷7"
-    },
-    "en": {
-     "title": "[Broadcast today 00:28] The ice sword magician rules the world vol. 7"
-    }
-   }
-  },
-  {
-   "id": "61aebef91712",
-   "title": "【今日放送 08:50】マゼンチュ 第8集",
-   "url": "https://anilist.co/anime/217577",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-20T02:43:03+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日08:50播出】Mazenchu Vol. 1 8"
-    },
-    "en": {
-     "title": "[Broadcast today 08:50] Mazenchu ​​Vol. 8"
-    }
-   }
-  },
-  {
-   "id": "7ddd41602e8f",
-   "title": "【今日放送 12:00】罗小黑战记 学前篇 第4集",
-   "url": "https://anilist.co/anime/206244",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-20T02:43:03+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日12:00播出】罗小黑战记vol.1 4"
-    },
-    "en": {
-     "title": "[Broadcast today 12:00] 罗小黑战记 vol. 4"
-    }
-   }
-  },
-  {
-   "id": "c6be81740bae",
-   "title": "『まのさば』Re,AERシナリオの群像劇ホラーADV『Resequence: The Orchard』本日11月20日リリース。日常を浸食していく怪異…生徒をカウンセリングして迫る",
-   "url": "http://www.gamespark.jp/article/2026/11/20/175100.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-20T01:00:02+08:00",
-   "summary": "12月3日まで発売記念の20%オフセールを実施。11月21日からは上海の「WePlay Expo 2026」にも出展します。",
-   "i18n": {
-    "zh": {
-     "title": "《马诺萨巴》Re,AER剧情群剧恐怖ADV《Resequence: The Orchard》将于今日11月20日上映。侵入日常生活的奥秘......为学生提供咨询并接近他们",
-     "summary": "20% 的折扣将持续到 12 月 3 日，以庆祝发布。 11月21日起，我们还将参展上海“WePlay Expo 2026”。"
-    },
-    "en": {
-     "title": "“Manosaba” Re,AER scenario group drama horror ADV “Resequence: The Orchard” will be released today, November 20th. Mysteries that invade everyday life... Counseling students and approaching them",
-     "summary": "A 20% off sale will be held until December 3rd to celebrate the release. From November 21st, we will also exhibit at \"WePlay Expo 2026\" in Shanghai."
-    }
-   },
-   "dup_of": "b892dc67695c"
-  },
-  {
-   "id": "af8649997bde",
-   "title": "『GTA6』レオナイダ州を一望できる印刷可能マップ公開！カバーアートとの両面印刷ポスターも発売予定",
-   "url": "http://www.gamespark.jp/article/2026/11/20/175099.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-20T00:15:03+08:00",
-   "summary": "まるで実際の地図！マップ上とのスケール差も表記",
-   "i18n": {
-    "zh": {
-     "title": "《GTA6》列奥尼达州全景打印地图发布！带有封面艺术的双面印刷海报也将发布。",
-     "summary": "就像真实的地图一样！还标出了与地图的比例尺差异。"
-    },
-    "en": {
-     "title": "\"GTA6\" Printable map showing panoramic view of Leonida state released! A double-sided printed poster with cover art will also be released.",
-     "summary": "It's like a real map! The scale difference from the map is also indicated."
-    }
-   }
-  },
-  {
-   "id": "811111c4c2ef",
-   "title": "【2,300円→0円】メトロイドヴァニア×ソウルライクACT『Mark of the Deep』ブラックフライデーセール中のEpic Gamesストアにて11月26日まで無料配布",
-   "url": "http://www.gamespark.jp/article/2026/11/20/175098.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-20T00:01:43+08:00",
-   "summary": "配布期間は11月20日午前1時より1週間です。",
-   "i18n": {
-    "zh": {
-     "title": "[2,300 日元 → 0 日元] Metroidvania x Soul-like ACT “Mark of the Deep” 免费发行至 11 月 26 日，Epic Games Store 黑色星期五促销期间",
-     "summary": "发放期限为11月20日凌晨1点起一周。"
-    },
-    "en": {
-     "title": "[2,300 yen → 0 yen] Metroidvania x Soul-like ACT “Mark of the Deep” Free distribution until November 26th at Epic Games Store during Black Friday sale",
-     "summary": "The distribution period is one week from 1:00 am on November 20th."
-    }
-   }
-  },
-  {
-   "id": "481f2544783c",
-   "title": "【週末無料】全コンテンツを無料で体験可能！ダークファンタジーPvPvE脱出ACT『Mistfall Hunter』11月24日3時まで―20%オフセールも実施中",
-   "url": "http://www.gamespark.jp/article/2026/11/20/175097.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-19T23:45:02+08:00",
-   "summary": "最大3人のチームプレイも可能。Pay-to-Win要素は一切無し。",
-   "i18n": {
-    "zh": {
-     "title": "【周末免费】免费体验全部内容！暗黑奇幻 PvPvE 逃脱 ACT 《迷雾猎手》至 11 月 24 日下午 3 点 – 20% 折扣活动同时举行",
-     "summary": "最多可进行 3 人的团队游戏。没有付费获胜的元素。"
-    },
-    "en": {
-     "title": "[Weekend Free] Experience all content for free! Dark fantasy PvPvE escape ACT “Mistfall Hunter” until 3pm on November 24th – 20% off sale is also being held",
-     "summary": "Team play with up to 3 people is also possible. There are no pay-to-win elements."
-    }
-   }
-  },
-  {
-   "id": "ec2dc85fbbb9",
-   "title": "犬のトトとなって飼い主を探す旅『トトと魔法の旅』リリース。「オズの魔法使い」に着想を得たパズルアクションADV",
-   "url": "http://www.gamespark.jp/article/2026/11/20/175096.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-19T23:30:03+08:00",
-   "summary": "偶然見た広告で「飼っていた愛犬」そっくりの姿を発見した方が開発にメールを送り、エンドクレジットに追悼文が掲載されることになった作品です。",
-   "i18n": {
-    "zh": {
-     "title": "推出《托托与神奇之旅》，一段你化身小狗托托，寻找主人的旅程。灵感来自《绿野仙踪》的解谜动作 ADV",
-     "summary": "这是一部偶然看到与自己的“宠物狗”一模一样的广告的人向开发者发送电子邮件，并在片尾字幕中发表纪念信息的作品。"
-    },
-    "en": {
-     "title": "Release of ``Toto and the Magical Journey'', a journey in which you become the dog Toto and search for his owner. Puzzle action ADV inspired by “The Wizard of Oz”",
-     "summary": "This is a work in which a person who happened to see an advertisement that looked exactly like his ``pet dog'' sent an email to the developer, and a memorial message was published in the end credits."
-    }
-   }
-  },
-  {
-   "id": "584cf076b7f7",
-   "title": "XBOXは“『GTA3』発売オファーを過去に蹴っていた”…マイクロソフト自ら明かした失敗談が再び話題に",
-   "url": "http://www.gamespark.jp/article/2026/11/20/175095.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-19T23:00:04+08:00",
-   "summary": "他の業界でも“あるある”と擁護の声集まる―公式動画で語られた失敗談",
-   "i18n": {
-    "zh": {
-     "title": "XBOX“过去曾拒绝发行GTA3”……微软自己的失败故事再次成为热门话题",
-     "summary": "国防的声音也聚集在其他行业——官方视频中讲述的失败故事"
-    },
-    "en": {
-     "title": "XBOX had “rejected offers to release GTA3 in the past”… Microsoft’s own failure story becomes a hot topic again",
-     "summary": "Voices of defense gather in other industries as well - failure stories told in official video"
-    }
-   }
-  },
-  {
-   "id": "da6c612cae33",
-   "title": "ボクセル世界のコロニーづくり×工場自動化シムが正式リリース。あらゆるものが破壊できる惑星ではエイリアンとの防衛戦も―採れたて！本日のSteam注目ゲーム16選【2026年11月19日】",
-   "url": "http://www.gamespark.jp/article/2026/11/19/175094.html",
-   "source": "Game*Spark",
-   "category": "game",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-19T22:45:03+08:00",
-   "summary": "大型アップデートでは新たなシステムも導入され、より戦略が重要に。",
-   "i18n": {
-    "zh": {
-     "title": "体素世界殖民地建筑x工厂自动化SIM卡正式发布。在一切都可以毁灭的星球上，还有一场针对外星人的防御战——新鲜收割！今日 Steam 上的 16 款精选游戏 [2026 年 11 月 19 日]",
-     "summary": "此次重大更新将引入新的系统，让策略变得更加重要。"
-    },
-    "en": {
-     "title": "Voxel world colony building x factory automation sim officially released. On a planet where everything can be destroyed, there is also a defensive battle against aliens - freshly harvested! Today's 16 featured games on Steam [November 19, 2026]",
-     "summary": "A new system will be introduced in the major update, making strategy even more important."
+     "title": "An attempt to break through the security of \"Amazon Locker\" where you can receive Amazon products whenever you want by using all possible means - Hardware Edition",
+     "summary": "The second half of the Amazon locker security research presented by security engineer Martin Viggo at the DEF CON 34 conference focuses on the hardware part. read more..."
     }
    }
   },
@@ -3006,339 +3193,192 @@
    }
   },
   {
-   "id": "016234176f1c",
-   "title": "各AIモデルに最適なハーネスはどれか？",
-   "url": "https://gigazine.net/news/20261119-frontierharness-eval/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-19T19:00:00+08:00",
-   "summary": "AIエージェントの実行基盤を開発するRuntaが、AIコーディングエージェントのハーネス22構成とAIモデル5種類を組み合わせて性能を検証したベンチマーク「FrontierHarness Eval v1.1」を合計2万7280回試行した結果を公開しました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "哪种线束最适合每种人工智能模型？",
-     "summary": "开发AI代理执行平台的Runta发布了基准测试“FrontierHarness Eval v1.1”总计27,280次试验的结果，该基准测试结合了22种AI编码代理线束配置和5种AI模型来验证性能。阅读更多..."
-    },
-    "en": {
-     "title": "Which harness is best for each AI model?",
-     "summary": "Runta, which develops the execution platform for AI agents, has released the results of a total of 27,280 trials of the benchmark ``FrontierHarness Eval v1.1,'' which verified the performance by combining 22 AI coding agent harness configurations and 5 types of AI models. read more..."
-    }
-   }
-  },
-  {
-   "id": "400966e0746b",
-   "title": "後入れゴマペーストと追いゴマでゴマ風味が限界突破な「サッポロ一番 ゴママニア 濃厚胡麻担担麺」試食レビュー",
-   "url": "https://gigazine.net/news/20261119-sanyo-sesame-tantanmen/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-19T18:30:00+08:00",
-   "summary": "サンヨー食品のカップ麺ブランド「サッポロ一番」に、「マニアの素」を加えることでごまの風味が引き立つという「サッポロ一番 ゴママニア 濃厚胡麻担担麺」が2026年11月16日(月)から加わったということなので、買ってきて食べてみました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "芝麻酱和添加芝麻，芝麻味超越极限的“札幌一番芝麻狂浓芝麻担担面”的品尝评论",
-     "summary": "三洋食品的杯面品牌“札幌一番”从2026年11月16日（星期一）起，添加了添加“狂热成分”，凸显芝麻风味的“札幌一番芝麻疯狂浓芝麻担担面”，所以我买了来尝尝。阅读更多..."
-    },
-    "en": {
-     "title": "Tasting review of \"Sapporo Ichiban Sesame Mania Rich Sesame Dandan Noodles\" where the sesame flavor exceeds the limit with sesame paste and added sesame seeds",
-     "summary": "Sanyo Foods' cup noodle brand ``Sapporo Ichiban'' has added ``Sapporo Ichiban Sesame Mania Rich Sesame Dandan Noodles'', which brings out the flavor of sesame by adding ``mania ingredients'', from November 16, 2026 (Monday), so I bought it and tried it. read more..."
-    }
-   }
-  },
-  {
-   "id": "74f141672c50",
-   "title": "「DNSリゾルバによる海賊版サイトのブロック」が著作権侵害対策に不向きな理由とは？",
-   "url": "https://gigazine.net/news/20261119-quad9-dns-blocking-doesnt-work/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-19T18:00:00+08:00",
-   "summary": "インターネットユーザーをマルウェアやフィッシング詐欺から保護する機能を持つ無料のパブリックDNSサービス(DNSリゾルバ)であるQuad9が、2026年11月24日をもってフランスから撤退します。この背景には裁判所から「海賊版サイトのブロック」を命じられた件がありますが、テクノロジー系メディアのTech StackupsがDNSリゾルバによる対応は著作権侵害対策に向いていないとして、その理由について解説しています。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "为什么“使用DNS解析器阻止盗版网站”不适合打击版权侵权？",
-     "summary": "Quad9 是一项保护互联网用户免受恶意软件和网络钓鱼诈骗的免费公共 DNS 服务（DNS 解析器），将于 2026 年 11 月 24 日退出法国。其背景是法院下令“阻止盗版网站”，但科技媒体 Tech Stackups 解释了 DNS 解析器措施不适合打击版权侵权的原因。阅读更多..."
-    },
-    "en": {
-     "title": "Why is \"blocking pirated sites using DNS resolver\" unsuitable for countering copyright infringement?",
-     "summary": "Quad9, a free public DNS service (DNS resolver) that protects internet users from malware and phishing scams, will withdraw from France on November 24, 2026. The background to this is that the court ordered ``blocking pirated sites'', but technology media Tech Stackups explains the reason why DNS resolver measures are not suitable for countering copyright infringement. read more..."
-    }
-   }
-  },
-  {
-   "id": "697d1318d03a",
-   "title": "2026年11月19日のヘッドラインニュース",
-   "url": "https://gigazine.net/news/20261119-headline/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-19T17:38:00+08:00",
-   "summary": "マクドナルドが毎年恒例の「グラコロ」を2026年11月25日に発売することを告知しました。定番商品の「グラコロ」に加えて、新商品として「コク旨ボロネーゼグラコロ」が登場します。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "2026 年 11 月 19 日头条新闻",
-     "summary": "麦当劳宣布将于2026年11月25日推出年度“Gracoro”。除了标准产品“Gracoro”外，还将推出新产品“Bok Uma Bolognese Gracoro”。阅读更多..."
-    },
-    "en": {
-     "title": "Headline news for November 19, 2026",
-     "summary": "McDonald's has announced that it will release its annual \"Gracoro\" on November 25, 2026. In addition to the standard product \"Gracoro\", a new product \"Bok Uma Bolognese Gracoro\" will be introduced. read more..."
-    }
-   }
-  },
-  {
-   "id": "a51b7d357190",
-   "title": "OpenAIがAIを用いてAMD製GPUや独自開発AIチップの改善に成功、半導体設計の専用AIモデルも開発",
-   "url": "https://gigazine.net/news/20261119-openai-jalapeno-amd-advancing-chip/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-19T15:58:00+08:00",
-   "summary": "OpenAIが自社製AIを用いて独自開発チップ「Jalapeño(ハラペーニョ)」やAMD製GPUの性能向上を実現したことをアピールしています。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "OpenAI 成功利用 AI 改进 AMD GPU 和专有 AI 芯片，还开发了用于半导体设计的专用 AI 模型",
-     "summary": "OpenAI 的吸引力在于，它利用自己的 AI 提高了自己开发的芯片“Jalapeño”和 AMD GPU 的性能。阅读更多..."
-    },
-    "en": {
-     "title": "OpenAI successfully uses AI to improve AMD GPUs and proprietary AI chips, and also develops a dedicated AI model for semiconductor design",
-     "summary": "OpenAI is appealing that it has achieved improved performance of its own developed chip \"Jalapeño\" and AMD GPU using its own AI. read more..."
-    }
-   }
-  },
-  {
-   "id": "3704feab63de",
-   "title": "ドイツ銀行が「危険なビジネス」に手を染めていた実態が1500万件以上の流出資料によって次々と明るみに",
-   "url": "https://gigazine.net/news/20261119-deutsche-bank-risky-business-leak-files/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-19T15:00:00+08:00",
-   "summary": "2026年11月17日、ドイツのメガバンクであるドイツ銀行から1500万件に及ぶ内部資料が流出したことが判明しました。この内部資料は国際的な共同調査報道チームによって精査されており、ドイツ銀行がロシアとの取引や納税義務回避の支援といった「危険なビジネス」に手を染めていた実態が、次々と明らかになっています。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "超过1500万份泄露文件接二连三揭露德意志银行从事“危险业务”的真相",
-     "summary": "2026 年 11 月 17 日，德国大型银行德意志银行 1500 万份内部文件被泄露。这份内部文件经过国际联合调查报告小组的审查，并陆续披露德意志银行从事与俄罗斯交易、协助逃税等“危险业务”。阅读更多..."
-    },
-    "en": {
-     "title": "More than 15 million leaked documents reveal the reality that Deutsche Bank was engaged in \"dangerous business\" one after another",
-     "summary": "On November 17, 2026, it was revealed that 15 million internal documents were leaked from Deutsche Bank, a German megabank. This internal document has been scrutinized by an international joint investigative reporting team, and it has revealed one after another that Deutsche Bank was engaged in \"dangerous business\" such as transactions with Russia and assistance in avoiding tax obligations. read more..."
-    }
-   }
-  },
-  {
-   "id": "a740f91f380d",
-   "title": "初代「シムシティ」のソースコードを解析して判明した高評価の都市を作るための意外な条件とは？",
-   "url": "https://gigazine.net/news/20261119-simcity-high-score/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-19T14:16:00+08:00",
-   "summary": "都市開発シミュレーションゲーム「シムシティ」では、住民の生活環境や街の発展状況に応じて都市の評価スコアが算出されます。35年間にわたってシムシティをプレイしてきたソフトウェア開発者のジェフ・クエスト氏がゲームのソースコードを解析し、高い評価を得る都市の条件を調べました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "通过分析第一部《模拟城市》的源代码，发现了哪些令人惊讶的创建高评价城市的条件？",
-     "summary": "在城市发展模拟游戏《SimCity》中，根据居民的居住环境和城市的发展状况来计算城市的评价分数。玩《模拟城市》35 年的软件开发人员杰夫·奎斯特（Jeff Quest）分析了游戏的源代码，并调查了一座城市获得好评的条件。阅读更多..."
-    },
-    "en": {
-     "title": "What are the surprising conditions for creating a highly rated city discovered by analyzing the source code of the first \"Sim City\"?",
-     "summary": "In the urban development simulation game \"SimCity,\" a city's evaluation score is calculated based on the living environment of its residents and the state of development of the city. Jeff Quest, a software developer who has been playing SimCity for 35 years, analyzed the game's source code and investigated the conditions for a city to receive high praise. read more..."
-    }
-   }
-  },
-  {
-   "id": "119b80e44737",
-   "title": "【漫画更新】Shibou End o Kaihi Shita Gyaruge no Heroine-tachi ga Ore no [Nikkichou] o Yonde Himitsu o Shittarashii 第 3 话",
-   "url": "https://mangadex.org/chapter/25a92c76-4ea5-4c99-93a6-737b13c07e25",
+   "id": "9fe00411d4ef",
+   "title": "【漫画更新】Nietzsche-sensei - Konbini ni, Satori Sedai no Shinjin ga Maiorita 第 83 话「The Secret Sale Event」",
+   "url": "https://mangadex.org/chapter/092323bc-0415-40e9-8486-ddf4c5909fb3",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-20T02:43:04+08:00",
+   "published": "2026-11-20T10:51:53+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】シボウエンドを解放したギャルゲのヒロイン達が俺の【日記帳】をよんで秘密をシタラシイ 第3話"
+     "title": "【漫画更新】ニーチェ先生 コンビニに、さとり世代の神様が舞いました 第83話「シークレットセールイベント」"
     },
     "en": {
-     "title": "【Manga Update】Shibou End o Kaihi Shita Gyaruge no Heroine-tachi ga Ore no [Nikkichou] o Yonde Himitsu o Shittarashii Chapter 3"
+     "title": "【Manga Update】Nietzsche-sensei - Konbini ni, Satori Sedai no Shinjin ga Maiorita Chapter 83 \"The Secret Sale Event\""
     }
    }
   },
   {
-   "id": "0e72bc43a77c",
-   "title": "【漫画更新】Baki Rahen 第 72 话「Training & The Everyday」",
-   "url": "https://mangadex.org/chapter/b845ea8e-f3ef-4e0e-a34d-3e4726084d2d",
+   "id": "b01736f222cc",
+   "title": "【漫画更新】Inakamono no Ossan wa Mujikaku ni Musou Suru: Tatta Hitori de Monban o Shitetara, Itsunomanika Saikyou ni Natteita 第 1 话「Dian the Gatekeeper Gets Banished」",
+   "url": "https://mangadex.org/chapter/4a2c37cf-a266-45ea-8a69-3cc29cdf05e6",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-20T02:43:04+08:00",
+   "published": "2026-11-20T10:51:53+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【漫画更新】バキ羅編 第72話「訓練と日常」"
+     "title": "【マンガ更新】Inakamono no Ossan wa Mujiku ni Musou Suru: Tatta Hitori de Monban o Shitetara, Itsunomanika Saikyou ni Natteita Chapter 1「門番のディアンは追放される」"
     },
     "en": {
-     "title": "【Manga Update】Baki Rahen Chapter 72 \"Training & The Everyday\""
+     "title": "【Manga Update】Inakamono no Ossan wa Mujikaku ni Musou Suru: Tatta Hitori de Monban o Shitetara, Itsunomanika Saikyou ni Natteita Chapter 1 \"Dian the Gatekeeper Gets Banished\""
     }
    }
   },
   {
-   "id": "bc7ae3a86f2e",
-   "title": "【漫画更新】Yǒu Shòu Yān 第 1266 话「An Encounter」",
-   "url": "https://mangadex.org/chapter/a7b5cb66-6236-45c0-bff4-7c6a168e5cc5",
+   "id": "1fb4fae5e543",
+   "title": "【漫画更新】Sumisaka-san Mousouchu! 第 6 话",
+   "url": "https://mangadex.org/chapter/3b6a8426-8e3c-422b-866d-1702f4c9bf57",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-20T02:43:04+08:00",
+   "published": "2026-11-20T10:51:53+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【コミック更新】柳生燕 第1266話「邂逅」"
+     "title": "【マンガ更新】墨坂さん妄想中！第6章"
     },
     "en": {
-     "title": "【Comic Update】Yǒu Shòu Yān Chapter 1266 \"An Encounter\""
+     "title": "【Manga Update】Sumisaka-san Mousouchu! Chapter 6"
     }
    }
   },
   {
-   "id": "81f1ebb7f9b4",
-   "title": "【漫画更新】Yǒu Shòu Yān 第 1265 话「We Still Need to Eat/Gift」",
-   "url": "https://mangadex.org/chapter/01675328-4a1f-4f79-bbe4-b45403695ff9",
+   "id": "34bea7b49b73",
+   "title": "【漫画更新】Ryuu: Ron 第 1 话「The Red Way」",
+   "url": "https://mangadex.org/chapter/1d76f3bf-4123-4924-a357-665105f0edef",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-20T02:43:04+08:00",
+   "published": "2026-11-20T10:51:53+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【コミック更新】柳生燕 第1265話「まだ食事/贈り物が必要」"
+     "title": "【マンガ更新】龍：ロン 第1章「赤い道」"
     },
     "en": {
-     "title": "【Comic Update】Yǒu Shòu Yān Chapter 1265 \"We Still Need to Eat/Gift\""
+     "title": "【Manga Update】Ryuu: Ron Chapter 1 \"The Red Way\""
     }
    }
   },
   {
-   "id": "0f8029aafdff",
-   "title": "【漫画更新】Yǒu Shòu Yān 第 1264 话「Master」",
-   "url": "https://mangadex.org/chapter/1b6a12e3-9713-4bb4-b066-1cdca38d6606",
+   "id": "8f719574f362",
+   "title": "【漫画更新】Akanabe-sensei wa Tereshirazu 第 65 话「Sensei and Silence」",
+   "url": "https://mangadex.org/chapter/ef7efdd9-1dfa-4c85-9525-d18c2593ae62",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-20T02:43:04+08:00",
+   "published": "2026-11-20T10:51:53+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【コミック更新】柳生燕 第1264話「マスター」"
+     "title": "【漫画更新】赤鍋先生は知らない 第65話「先生と沈黙」"
     },
     "en": {
-     "title": "【Comic Update】Yǒu Shòu Yān Chapter 1264 \"Master\""
+     "title": "【Manga Update】Akanabe-sensei wa Tereshirazu Chapter 65 \"Sensei and Silence\""
     }
    }
   },
   {
-   "id": "fdc58f2a1c6c",
-   "title": "【漫画更新】Yǒu Shòu Yān 第 1263 话「Persistence is Useless」",
-   "url": "https://mangadex.org/chapter/3fe6cb2b-6a56-4f21-a2dd-5ce463b55d64",
+   "id": "ea0327951e0b",
+   "title": "【漫画更新】Akanabe-sensei wa Tereshirazu 第 64 话「Sensei's Fashion Show」",
+   "url": "https://mangadex.org/chapter/4eb0d455-2417-4ca8-9ee3-0174f78d33ac",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-20T02:43:04+08:00",
+   "published": "2026-11-20T10:51:53+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【コミック更新】柳生燕 第1263話「継続は無駄」"
+     "title": "【マンガ更新】赤鍋先生は知らない 第64話「先生のファッションショー」"
     },
     "en": {
-     "title": "【Comic Update】Yǒu Shòu Yān Chapter 1263 \"Persistence is Useless\""
+     "title": "【Manga Update】Akanabe-sensei wa Tereshirazu Chapter 64 \"Sensei's Fashion Show\""
     }
    }
   },
   {
-   "id": "7eddd65ec5a5",
-   "title": "【漫画更新】Mannen Kusamushiri to Sagesumarete iru E-Rank Boukensha, Jitsuwa Sekai Saikyiu no \"Shokubutsu Majutsu\" de Musou suru 第 3 话",
-   "url": "https://mangadex.org/chapter/259b7d8b-f07d-474b-9f25-b00d6c5752d6",
+   "id": "fed890d7872f",
+   "title": "【漫画更新】Tsuihou Sareta Cheat Fuyo Majutsushi wa Kimama na Second Life o Ouka Suru.: Ore wa Buki dake ja Naku, Arayuru Mono ni \"Kyouka Point\" o Fuyo Dekiru shi, Ore no Ishi de Itsudemo Kouka o Kaijo Dekiru kedo, Nokotta Hitotachi Daijoubu? 第 48 话",
+   "url": "https://mangadex.org/chapter/3632e623-19e7-49bf-bea1-5fd451d3b5ed",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-20T02:43:04+08:00",
+   "published": "2026-11-20T10:51:53+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】万年草虫と賢者になってる Eランク冒険社、実話世界最強の「職業魔術」で無双する 第3話"
+     "title": "【マンガ更新】Tsuihou Sareta Cheat Fuyo Majukushi wa Kimama na Second Life o Ouka Suru.: Ore wa Buki dake ja Naku, Arauru Mono ni \"Kyouka Point\" o Fuyo Dekiru shi、Ore no Itsudemo Kouka o Kaijo Dekiru kedo、Nokotta hitotachi Daijoubu?第48章"
     },
     "en": {
-     "title": "【Manga Update】Mannen Kusamushiri to Sagesumarete iru E-Rank Boukensha, Jitsuwa Sekai Saikyiu no \"Shokubutsu Majutsu\" de Musou suru Chapter 3"
+     "title": "[Manga Update] Tsuihou Sareta Cheat Fuyo Majutsushi wa Kimama na Second Life o Ouka Suru.: Ore wa Buki dake ja Naku, Arayuru Mono ni \"Kyouka Point\" o Fuyo Dekiru shi, Ore no Ishi de Itsudemo Kouka o Kaijo Dekiru kedo, Nokotta Hitotachi Daijoubu? Chapter 48"
     }
    }
   },
   {
-   "id": "c5a659e80503",
-   "title": "【漫画更新】Vivy Run Death 第 26 话「AI Sentai Sis-Rangers - Part 4」",
-   "url": "https://mangadex.org/chapter/052355a6-9715-444f-9a41-1e48becec647",
+   "id": "d35526a47b26",
+   "title": "【漫画更新】Chikasugiru Futari 第 16.2 话",
+   "url": "https://mangadex.org/chapter/d4b9101e-6424-407c-9b27-a209e1d4271f",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-20T02:43:04+08:00",
+   "published": "2026-11-20T10:51:53+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】ヴィヴィランデス 第26話「AI戦隊シスレンジャー その4」"
+     "title": "【マンガ更新】チカスギルふたり 第16.2話"
     },
     "en": {
-     "title": "[Manga Update] Vivy Run Death Chapter 26 \"AI Sentai Sis-Rangers - Part 4\""
+     "title": "【Manga Update】Chikasugiru Futari Chapter 16.2"
     }
    }
   },
   {
-   "id": "d9d0580312c2",
-   "title": "【漫画更新】Yakutatazu Skill ni Jinsei o Sosogikomi 25-nen, Imasara Saikyou no Boukentan Midori Kashi no Akira 第 51 话「The Reason an Adventurer Returns」",
-   "url": "https://mangadex.org/chapter/650d49d3-dc98-4eb3-8a24-1d99cd5d069a",
+   "id": "6e682b94eb82",
+   "title": "【漫画更新】Isekai Shoukan Sareta Kita Seijo-sama ga \"Kareshi ga Shinda\" to Naku Bakari de Hataraite kuremasen. Tokorode Sono Shinda Kareshi, Zense no Ore desu ne. 第 2.1 话",
+   "url": "https://mangadex.org/chapter/64c0e94b-c334-4d6f-9799-91e55c0aa9ea",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-20T02:43:04+08:00",
+   "published": "2026-11-20T10:51:53+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】やくたたずスキルに人生を創造しこみ25年、いまさら最強の冒険譚 緑樫の晶 第51話「冒険者が帰ってきた理由」"
+     "title": "【マンガ更新】異世界召喚されてしまった聖女様が「カレシが死んだ」となくバカリで働き続けてくれます。トコロデソノシンダカレシ、ゼンセノオレデスネ。第2.1章"
     },
     "en": {
-     "title": "【Manga Update】Yakutatazu Skill ni Jinsei o Sosogikomi 25-nen, Imasara Saikyou no Boukentan Midori Kashi no Akira Chapter 51 \"The Reason an Adventurer Returns\""
+     "title": "【Manga Update】Isekai Shoukan Sareta Kita Seijo-sama ga \"Kareshi ga Shinda\" to Naku Bakari de Hataraite kuremasen. Tokorode Sono Shinda Kareshi, Zense no Ore desu ne. Chapter 2.1"
     }
    }
   },
   {
-   "id": "56dcb3bf36f9",
-   "title": "【漫画更新】Niji Shinden 第 1 话「Void」",
-   "url": "https://mangadex.org/chapter/064caa7c-28a4-4f92-ba72-deaa85d355f5",
+   "id": "f7c7cc0e51ba",
+   "title": "【漫画更新】Girls × Sexual Harassment Life 第 14 话",
+   "url": "https://mangadex.org/chapter/aac32993-8dfd-49ce-ad3a-4d7a8763431d",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-20T02:43:04+08:00",
+   "published": "2026-11-20T10:51:53+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】虹新伝 第一章「虚空」"
+     "title": "【コミック更新】ガールズ×セクハラライフ 第14話"
     },
     "en": {
-     "title": "【Manga Update】Niji Shinden Chapter 1 \"Void\""
+     "title": "【Comic Update】Girls × Sexual Harassment Life Chapter 14"
     }
    }
   }
