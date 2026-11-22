@@ -1,13 +1,13 @@
 {
  "date": "2026-11-22",
- "generated_at": "2026-11-22T01:04:17+08:00",
+ "generated_at": "2026-11-22T09:58:46+08:00",
  "count": 159,
  "stories": 1,
  "categories": {
-  "anime": 64,
+  "anime": 61,
   "comic": 10,
   "game": 60,
-  "novel": 15,
+  "novel": 18,
   "general": 10
  },
  "sources": [
@@ -17,12 +17,12 @@
    "error": null
   },
   {
-   "name": "AUTOMATON",
+   "name": "アニメ！アニメ！",
    "count": 15,
    "error": null
   },
   {
-   "name": "アニメ！アニメ！",
+   "name": "AUTOMATON",
    "count": 15,
    "error": null
   },
@@ -37,23 +37,23 @@
    "error": null
   },
   {
-   "name": "机核 GCORES",
-   "count": 15,
-   "error": null
-  },
-  {
    "name": "ラノベニュースオンライン",
    "count": 15,
    "error": null
   },
   {
-   "name": "GIGAZINE",
+   "name": "机核 GCORES",
    "count": 15,
    "error": null
   },
   {
    "name": "anilist_airing",
    "count": 20,
+   "error": null
+  },
+  {
+   "name": "GIGAZINE",
+   "count": 15,
    "error": null
   },
   {
@@ -78,6 +78,48 @@
   }
  ],
  "items": [
+  {
+   "id": "4fa1fc2bbaaa",
+   "title": "Mawaru Penguindrum Anime Inspires Stage Reading Production by Kunihiko Ikuhara",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-21/mawaru-penguindrum-anime-inspires-stage-reading-production-by-kunihiko-ikuhara/.244065",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-22T08:56:53+08:00",
+   "summary": "Ikuhara co-writes, co-directs February 6-7 Reading in the dark: Kodomo Broiler Sensō",
+   "i18n": {
+    "zh": {
+     "title": "回转企鹅罐动画启发舞台阅读制作，由几原邦彦制作",
+     "summary": "几原联合编剧、联合导演 2 月 6 日至 7 日《黑暗中阅读：Kodomo Broiler Sensō》"
+    },
+    "ja": {
+     "title": "アニメ「輪るピングドラム」が幾原邦彦の朗読劇制作に影響を与える",
+     "summary": "幾原が共同脚本・共同監督 2月6日～7日 暗闇で朗読：こどもブロイラー戦争"
+    }
+   }
+  },
+  {
+   "id": "e56298efb221",
+   "title": "Kurumizawa's Folly Manga Ends in 3 Chapters",
+   "url": "https://www.animenewsnetwork.com/news/2026-11-21/kurumizawa-folly-manga-ends-in-3-chapters/.244064",
+   "source": "Anime News Network",
+   "category": "anime",
+   "lang": "en",
+   "weight": 9,
+   "published": "2026-11-22T08:25:29+08:00",
+   "summary": "Series debuted in September 2025",
+   "i18n": {
+    "zh": {
+     "title": "狂泽的愚蠢漫画三章完结",
+     "summary": "系列于 2025 年 9 月推出"
+    },
+    "ja": {
+     "title": "胡桃沢の愚行マンガはあと3章で終了",
+     "summary": "シリーズは 2025 年 9 月にデビュー"
+    }
+   }
+  },
   {
    "id": "90ead096dc48",
    "title": "New Hana-Kimi Live-Action Series Reveals Theme Songs, Short Video",
@@ -390,6 +432,63 @@
     "ja": {
      "title": "Crunchyroll がアニメ「僕のヒーローアカデミア THE MOVIE ワールド ヒーローズミッション」をストリーミング配信",
      "summary": "映画は2021年8月に日本公開"
+    }
+   }
+  },
+  {
+   "id": "31089b30d9a8",
+   "title": "KAエスマ文庫2026年11月刊行のラインナップをご紹介。『MOON FIGHTERS！ 2』の1冊 イラストカードがもらえるKAエスマ文庫キャンペーンもスタート",
+   "url": "https://ln-news.com/articles/127269",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-22T09:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "介绍 2026 年 11 月出版的 KA Esma 文库的阵容。“MOON FIGHTERS!2”KA Esma 文库活动（可以获得插图卡）也开始了。"
+    },
+    "en": {
+     "title": "Introducing the lineup of KA Esma Bunko published in November 2026. “MOON FIGHTERS! 2” KA Esma Bunko campaign where you can receive an illustration card has also started."
+    }
+   }
+  },
+  {
+   "id": "ae4aaaada6f8",
+   "title": "アニメ『狼と香辛料 MERCHANT MEETS THE WISE WOLF』第2期は2027年1月放送開始 キービジュアルや追加キャストも解禁",
+   "url": "https://ln-news.com/articles/127248",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-22T07:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "动画《狼与香辛料商人遇上智狼》第二季将于2027年1月开播，主视觉图及追加演员阵容已公开"
+    },
+    "en": {
+     "title": "The second season of the anime “Spice and Wolf MERCHANT MEETS THE WISE WOLF” will start broadcasting in January 2027, key visuals and additional cast have been released"
+    }
+   }
+  },
+  {
+   "id": "add5fede6622",
+   "title": "『古城で暮らす私たち ～魔女と学者と少年の一見穏やかな日々～』のコミカライズ連載が開始",
+   "url": "https://ln-news.com/articles/127250",
+   "source": "ラノベニュースオンライン",
+   "category": "novel",
+   "lang": "ja",
+   "weight": 8,
+   "published": "2026-11-22T05:00:00+08:00",
+   "summary": "",
+   "i18n": {
+    "zh": {
+     "title": "漫画《住在古城里的我们～魔女、学者、少年看似平静的日子～》开始连载"
+    },
+    "en": {
+     "title": "Comic serialization of ``We who live in an old castle ~The seemingly calm days of a witch, a scholar, and a boy~'' begins"
     }
    }
   },
@@ -954,7 +1053,7 @@
    },
    "story": {
     "sources": 2,
-    "heat": 1.01,
+    "heat": 0.78,
     "members": [
      "f422c93cc479"
     ]
@@ -995,6 +1094,90 @@
     },
     "en": {
      "title": "The anime ``A reincarnated elf who goes on a journey to master magic, becomes a living legend with the lifespan he has left'' will start broadcasting on Wednesday, January 6, 2027."
+    }
+   }
+  },
+  {
+   "id": "6ab4eb1d3faf",
+   "title": "「魔法騎士レイアース」光・海・風とパジャマパーティー♡オリジナルデザイングッズ大集合のくじが登場【セガラッキーくじ】",
+   "url": "https://animeanime.jp/article/2026/11/22/104997.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-22T09:30:03+08:00",
+   "summary": "TVアニメ『魔法騎士レイアース』より、パジャマ姿の光・海・風をデザインしたオリジナルグッズが登場。2026年11月27日より、ローソンやミニストップ、各種ホビーショップなどで販売される。",
+   "i18n": {
+    "zh": {
+     "title": "《魔法骑士雷亚斯》光、海、风、睡衣派对♡海量原创设计商品的抽奖登场【世嘉幸运抽奖】",
+     "summary": "出自TV动画《魔法骑士雷亚斯》，以光、海、风设计的睡衣原创周边商品现已上市。将于 2026 年 11 月 27 日起在 Lawson、Ministop 以及各种模型商店出售。"
+    },
+    "en": {
+     "title": "“Magic Knight Rayearth” Light, Sea, Wind and Pajama Party ♡ A lottery with a large collection of original design goods is now available [Sega Lucky Lottery]",
+     "summary": "From the TV anime \"Magic Knight Rayearth\", original goods designed with light, sea, and wind in pajamas are now available. It will be sold at Lawson, Ministop, and various hobby shops from November 27, 2026."
+    }
+   }
+  },
+  {
+   "id": "f5c335155965",
+   "title": "「PEANUTS」スヌーピーたちとホット＆美味しいな冬を♪「ジェラート ピケ カフェ」カラフルなボーダーやケーキで彩るコラボメニュー登場",
+   "url": "https://animeanime.jp/article/2026/11/22/104996.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-22T09:00:03+08:00",
+   "summary": "『PEANUTS（ピーナッツ）』とのコラボレーションによる「【PEANUTS meets GELATO PIQUE CAFE】－10 COLORS & 10 SMILES－」が、「gelato pique cafe（ジェラート ピケ カフェ）」にて現在開催中だ。スヌーピーとその仲間たちをインスパイアした、カラフルなボーダーやケーキで彩るスイーツやドリンクなど計8種のアニバーサリーメニューを提供している。",
+   "i18n": {
+    "zh": {
+     "title": "“PEANUTS”与史努比和朋友们一起度过炎热又美味的冬天♪“Gelato Pique Cafe”推出带有彩色边框和蛋糕的合作菜单",
+     "summary": "与“PEANUTS”合作的“[PEANUTS meet GELATO PIQUE CAFE] -10 COLORS & 10 SMILES-”目前正在“gelato pique cafe”举办。我们提供总共 8 种周年纪念菜单，包括装饰有彩色边框的糖果和饮料以及以史努比和他的朋友们为灵感的蛋糕。"
+    },
+    "en": {
+     "title": "\"PEANUTS\" Have a hot and delicious winter with Snoopy and friends ♪ \"Gelato Pique Cafe\" Collaboration menu with colorful borders and cakes now available",
+     "summary": "\"[PEANUTS meets GELATO PIQUE CAFE] -10 COLORS & 10 SMILES-\" in collaboration with \"PEANUTS\" is currently being held at \"gelato pique cafe\". We offer a total of 8 types of anniversary menus, including sweets and drinks decorated with colorful borders and cakes inspired by Snoopy and his friends."
+    }
+   }
+  },
+  {
+   "id": "632a136db2b6",
+   "title": "「サンリオ」キティ&チャーミーをデザイン♪「FRAY I.D（フレイ アイディー）」クラシカルでモードなコラボコレクション登場",
+   "url": "https://animeanime.jp/article/2026/11/22/104995.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-22T08:30:03+08:00",
+   "summary": "「サンリオキャラクターズ」とコラボレーションした、レディースブランド「FRAY I.D（フレイ アイディー）」によるスペシャルコレクションが登場。「ハローキティ」と「チャーミーキティ」があしらわれたアイテム全8型が、2026年11月20日より一部店舗にて先行発売中だ。",
+   "i18n": {
+    "zh": {
+     "title": "“Sanrio”Kitty & Charmy 设计♪“FRAY I.D”经典时尚合作系列发布",
+     "summary": "推出女性品牌“FRAY I.D”与“Sanrio Characters”合作的特别系列。以“Hello Kitty”和“Charmy Kitty”为主题的共计8款商品将于2026年11月20日起在部分店铺提前发售。"
+    },
+    "en": {
+     "title": "\"Sanrio\" Kitty & Charmy design ♪ \"FRAY I.D\" classical and fashionable collaboration collection released",
+     "summary": "Introducing a special collection by women's brand ``FRAY I.D'' in collaboration with ``Sanrio Characters.'' A total of 8 items featuring \"Hello Kitty\" and \"Charmy Kitty\" will be on sale in advance at some stores from November 20, 2026."
+    }
+   }
+  },
+  {
+   "id": "44bc69bcb4c5",
+   "title": "「仮面ライダーマイス＆ゼッツ」司令官ゼロのティーカップが小物入れに!? 令和ライダーのフィギュアにも注目☆【一番くじ】",
+   "url": "https://animeanime.jp/article/2026/11/22/104994.html",
+   "source": "アニメ！アニメ！",
+   "category": "anime",
+   "lang": "ja",
+   "weight": 7,
+   "published": "2026-11-22T08:00:03+08:00",
+   "summary": "一番くじ に『仮面ライダーマイス』と『仮面ライダーゼッツ』が登場♪ 「ゼロのティーカップ風小物入れ」「エージェントリングチャーム」など作中アイテムもグッズに！",
+   "i18n": {
+    "zh": {
+     "title": "《假面骑士Myce＆Zets》零指挥官的茶杯在小袋子里！？另外请注意令和骑士手办☆【一番签】",
+     "summary": "“假面骑士Myce”、“假面骑士Zets”在一番签上架♪“零的茶杯造型小包”、“特工戒指吊饰”等系列商品也以商品形式发售！"
+    },
+    "en": {
+     "title": "\"Kamen Rider Myce & Zets\" Commander Zero's tea cup is in the accessory case!? Also pay attention to Reiwa Rider figures ☆ [Ichiban Kuji]",
+     "summary": "“Kamen Rider Myce” and “Kamen Rider Zets” are now available at Ichiban Kuji♪ Items from the series such as “Zero’s teacup style accessory case” and “Agent Ring Charm” are also available as goods!"
     }
    }
   },
@@ -2267,9 +2450,12 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-22T00:59:44+08:00",
+   "published": "2026-11-22T09:55:15+08:00",
    "summary": "",
    "i18n": {
+    "ja": {
+     "title": "【本日の更新】 目が覚めたら最強の装備と宇宙船を持っていました。自分の一戸建てを目標に、傭兵として自由に生きていくことにした。"
+    },
     "en": {
      "title": "[Today’s update] When I woke up, I had the most powerful equipment and a spaceship. I decided to live freely as a mercenary with my own single-family building as the goal."
     }
@@ -2283,7 +2469,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-22T00:59:44+08:00",
+   "published": "2026-11-22T09:55:15+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2302,7 +2488,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-22T00:59:44+08:00",
+   "published": "2026-11-22T09:55:15+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2321,7 +2507,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-22T00:59:44+08:00",
+   "published": "2026-11-22T09:55:15+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2340,7 +2526,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-22T00:59:44+08:00",
+   "published": "2026-11-22T09:55:15+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2359,7 +2545,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-22T00:59:44+08:00",
+   "published": "2026-11-22T09:55:15+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2378,7 +2564,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-22T00:59:44+08:00",
+   "published": "2026-11-22T09:55:15+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2397,7 +2583,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-22T00:59:44+08:00",
+   "published": "2026-11-22T09:55:15+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2416,7 +2602,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-22T00:59:44+08:00",
+   "published": "2026-11-22T09:55:15+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2435,7 +2621,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-22T00:59:44+08:00",
+   "published": "2026-11-22T09:55:15+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2454,7 +2640,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-22T00:59:44+08:00",
+   "published": "2026-11-22T09:55:15+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2473,7 +2659,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-22T00:59:44+08:00",
+   "published": "2026-11-22T09:55:15+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2492,7 +2678,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-22T00:59:44+08:00",
+   "published": "2026-11-22T09:55:15+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2511,7 +2697,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-22T00:59:44+08:00",
+   "published": "2026-11-22T09:55:15+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2530,7 +2716,7 @@
    "category": "anime",
    "lang": "zh",
    "weight": 6,
-   "published": "2026-11-22T00:59:44+08:00",
+   "published": "2026-11-22T09:55:15+08:00",
    "summary": "",
    "i18n": {
     "ja": {
@@ -2542,177 +2728,6 @@
    }
   },
   {
-   "id": "573021bdf9be",
-   "title": "【今日放送 15:29】しろたん 第8集",
-   "url": "https://anilist.co/anime/209709",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日15:29播出】Sirotan 第8卷"
-    },
-    "en": {
-     "title": "[Broadcast today 15:29] Sirotan Volume 8"
-    }
-   }
-  },
-  {
-   "id": "7f966d5f4013",
-   "title": "【今日放送 15:30】クレヨンしんちゃん 第1362集",
-   "url": "https://anilist.co/anime/966",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日15:30播出】蜡笔小新 第1362集"
-    },
-    "en": {
-     "title": "[Broadcast today 15:30] Crayon Shin-chan Episode 1362"
-    }
-   }
-  },
-  {
-   "id": "9f379fa795ec",
-   "title": "【今日放送 16:00】ドラえもん (2005) 第942集",
-   "url": "https://anilist.co/anime/8687",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日16:00播出】哆啦A梦（2005）第942集"
-    },
-    "en": {
-     "title": "[Broadcast today 16:00] Doraemon (2005) Episode 942"
-    }
-   }
-  },
-  {
-   "id": "434d92acaa3e",
-   "title": "【今日放送 16:30】朱色の仮面 第7集",
-   "url": "https://anilist.co/anime/195571",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日16:30播出】朱红面具Vol.1 7"
-    },
-    "en": {
-     "title": "[Broadcast today 16:30] Vermilion Mask Vol. 7"
-    }
-   }
-  },
-  {
-   "id": "4580ba622d8e",
-   "title": "【今日放送 17:00】名探偵コナン 第1221集",
-   "url": "https://anilist.co/anime/235",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日17:00播出】名侦探柯南 第1221集"
-    },
-    "en": {
-     "title": "[Broadcast today 17:00] Detective Conan Episode 1221"
-    }
-   }
-  },
-  {
-   "id": "c16a2c0e2838",
-   "title": "【今日放送 17:25】マロニエ王国の七人の騎士 第8集",
-   "url": "https://anilist.co/anime/212799",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日17:25播出】马罗尼尔王国七骑士第8卷"
-    },
-    "en": {
-     "title": "[Broadcast today 17:25] Seven Knights of the Marronnier Kingdom Volume 8"
-    }
-   }
-  },
-  {
-   "id": "797839397231",
-   "title": "【今日放送 20:00】ロメリア戦記 〜魔王を倒した後も人類やばそうだから軍隊組織した〜 第8集",
-   "url": "https://anilist.co/anime/180894",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日20:00播出】罗梅莉亚战记～即使打倒了魔王，人类似乎也陷入了困境，所以我们组织了军队～第8集"
-    },
-    "en": {
-     "title": "[Broadcast today 20:00] Romeria Senki ~Even after defeating the Demon King, humanity seems to be in trouble, so we organized an army~ Episode 8"
-    }
-   }
-  },
-  {
-   "id": "71323cb12f06",
-   "title": "【今日放送 21:00】転生した大聖女は、聖女であることをひた隠す 第9集",
-   "url": "https://anilist.co/anime/187402",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日21:00播出】转世大圣隐瞒自己是圣人的事实第9集"
-    },
-    "en": {
-     "title": "[Broadcast today 21:00] The reincarnated Great Saint hides the fact that she is a saint Episode 9"
-    }
-   }
-  },
-  {
-   "id": "2f193256aed3",
-   "title": "【今日放送 21:30】野生のラスボスが現れた！ 第2期 第9集",
-   "url": "https://anilist.co/anime/204389",
-   "source": "AniList 放送表",
-   "category": "anime",
-   "lang": "ja",
-   "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
-   "summary": "",
-   "i18n": {
-    "zh": {
-     "title": "【今日21:30播出】狂野最终boss登场！第二季第9卷"
-    },
-    "en": {
-     "title": "[Broadcast today 21:30] The wild final boss has appeared! 2nd season Volume 9"
-    }
-   }
-  },
-  {
    "id": "e4816d934050",
    "title": "【今日放送 22:00】ブラッククローバー 第2期 第8集",
    "url": "https://anilist.co/anime/195604",
@@ -2720,7 +2735,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
+   "published": "2026-11-22T09:55:14+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2739,7 +2754,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
+   "published": "2026-11-22T09:55:14+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2758,7 +2773,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
+   "published": "2026-11-22T09:55:14+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2777,7 +2792,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
+   "published": "2026-11-22T09:55:14+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2796,7 +2811,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
+   "published": "2026-11-22T09:55:14+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2815,7 +2830,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
+   "published": "2026-11-22T09:55:14+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2834,7 +2849,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
+   "published": "2026-11-22T09:55:14+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2853,7 +2868,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
+   "published": "2026-11-22T09:55:14+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2872,7 +2887,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
+   "published": "2026-11-22T09:55:14+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2891,7 +2906,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
+   "published": "2026-11-22T09:55:14+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2910,7 +2925,7 @@
    "category": "anime",
    "lang": "ja",
    "weight": 6,
-   "published": "2026-11-22T00:59:43+08:00",
+   "published": "2026-11-22T09:55:14+08:00",
    "summary": "",
    "i18n": {
     "zh": {
@@ -2918,6 +2933,69 @@
     },
     "en": {
      "title": "[Broadcast today 06:00] Outing Baby Shark Season 2 Episode 33"
+    }
+   }
+  },
+  {
+   "id": "9d1517bbb1e9",
+   "title": "SignalがAIエージェントによる情報収集を防ぐためアプリでのAIによるスクリーンショット撮影を制限、OSレベルのAIエージェントによる情報収集に警鐘",
+   "url": "https://gigazine.net/news/20261122-signal-restricts-mobile-screenshots-threat-ai-surveillance/",
+   "source": "GIGAZINE",
+   "category": "general",
+   "lang": "ja",
+   "weight": 5,
+   "published": "2026-11-22T09:30:00+08:00",
+   "summary": "プライベートメッセンジャーアプリのSignalが、モバイルアプリでのAIによるスクリーンショット撮影機能を制限しました。これはAIエージェントによる情報収集が、Signalの構築してきたプライバシー保護機能を崩してしまうためと説明されています。続きを読む...",
+   "i18n": {
+    "zh": {
+     "title": "Signal 限制应用程序中 AI 进行屏幕截图，以防止 AI 代理收集信息，警告操作系统级 AI 代理收集信息",
+     "summary": "私人通讯应用 Signal 限制了在其移动应用上使用人工智能进行屏幕截图的能力。解释称，这是因为AI代理的信息收集破坏了Signal构建的隐私保护功能。阅读更多..."
+    },
+    "en": {
+     "title": "Signal restricts screenshot taking by AI in app to prevent information collection by AI agent, warns against information collection by OS level AI agent",
+     "summary": "Private messenger app Signal has restricted the ability to take AI-powered screenshots on its mobile app. It is explained that this is because the information collection by the AI ​​agent destroys the privacy protection function that Signal has built. read more..."
+    }
+   }
+  },
+  {
+   "id": "378ff5ba1fc8",
+   "title": "多様性を受け入れるには「幸福感」が重要かもしれないとの研究結果",
+   "url": "https://gigazine.net/news/20261122-happiness-emotional-lever-openness-diversity/",
+   "source": "GIGAZINE",
+   "category": "general",
+   "lang": "ja",
+   "weight": 5,
+   "published": "2026-11-22T08:00:00+08:00",
+   "summary": "さまざまな背景を持つ人々がともに生活している現代社会では、多様性や公平性についての取り組みが重要となっていますが、一部の人は多様性を推進する取り組みに反対しています。新たな研究では、多様性を受け入れて社会的不平等に疑問を持つには、「幸福感」を覚えることが重要かもしれないとの結果が示されました。続きを読む...",
+   "i18n": {
+    "zh": {
+     "title": "研究结果表明“幸福感”对于接受多样性可能很重要",
+     "summary": "多元化和公平倡议在当今社会非常重要，来自不同背景的人们生活在一起，但有些人反对促进多元化的努力。一项新的研究表明，幸福感对于拥抱多样性和质疑社会不平等可能很重要。阅读更多..."
+    },
+    "en": {
+     "title": "Research results show that ``sense of happiness'' may be important for accepting diversity",
+     "summary": "Diversity and equity initiatives are important in today's society, where people from diverse backgrounds live together, but some people oppose efforts to promote diversity. A new study shows that feeling a sense of well-being may be important for embracing diversity and questioning social inequality. read more..."
+    }
+   }
+  },
+  {
+   "id": "30c4f232017b",
+   "title": "出社してオフィスで働く頻度の最適解とは？",
+   "url": "https://gigazine.net/news/20261122-work-at-office/",
+   "source": "GIGAZINE",
+   "category": "general",
+   "lang": "ja",
+   "weight": 5,
+   "published": "2026-11-22T07:00:00+08:00",
+   "summary": "2019年から発生した新型コロナウイルス感染症によるパンデミックで、多くの企業が従業員に自宅で仕事をさせるリモートワークを実施しました。あれから数年が経過し、リモートワークを取りやめる企業も出てきていますが、出勤に伴うストレスが減ることからリモートワークの継続を願う人も少なくありません。新たな研究で、週5日勤務の場合何日出社すればバランスがいいのかが明らかになりました。続きを読む...",
+   "i18n": {
+    "zh": {
+     "title": "对于上班频率和在办公室工作的最佳解决方案是什么？",
+     "summary": "2019年开始，受新型冠状病毒感染的肺炎疫情影响，不少企业实行远程办公，让员工在家办公。从那时起已经过去了几年，尽管一些公司正在停止远程工作，但仍然有很多人希望继续远程工作，因为它减少了通勤带来的压力。一项新的研究揭示了如果您每周工作五天，您应该到办公室工作多少天才能达到平衡。阅读更多..."
+    },
+    "en": {
+     "title": "What is the optimal solution for how often to come to work and work in the office?",
+     "summary": "Due to the pandemic caused by the new coronavirus infection that began in 2019, many companies implemented remote work by having employees work from home. Several years have passed since then, and although some companies are discontinuing remote work, there are still many people who wish to continue working remotely because it reduces the stress associated with commuting to work. A new study reveals how many days you should come into the office to achieve balance if you work five days a week. read more..."
     }
    }
   },
@@ -3069,255 +3147,192 @@
    }
   },
   {
-   "id": "764965a48535",
-   "title": "SpaceXは圏外エリアを撲滅しあらゆる場所で通信できるようにするため屋上設置型基地局の設計を完了したとイーロン・マスクが語る",
-   "url": "https://gigazine.net/news/20261121-elon-musk-spacex-plan-eliminate-cell-phone-dead-zones/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-21T08:00:00+08:00",
-   "summary": "衛星インターネットサービスのStarlinkを提供する宇宙開発企業・SpaceXのイーロン・マスクCEOが、「地球上のどこでも通信できるようにする計画がある」と語りました。さらに、Starlink衛星からの電波が届きにくい建物内の圏外エリアを解消するために、小型の屋上設置型基地局の設計を完了したことも明かしています。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "埃隆·马斯克表示，SpaceX 已经完成了屋顶基站的设计，以消除服务中断区域并实现任何地方的通信。",
-     "summary": "提供卫星互联网服务Starlink的太空开发公司SpaceX首席执行官埃隆·马斯克(Elon Musk)表示，“我们有一个计划，可以在地球上任何地方实现通信。”此外，据透露，他们已经完成了小型屋顶基站的设计，以消除建筑物内星链卫星无线电波难以到达的服务中断区域。阅读更多..."
-    },
-    "en": {
-     "title": "Elon Musk says SpaceX has completed the design of a rooftop base station to eliminate out-of-service areas and enable communication anywhere.",
-     "summary": "Elon Musk, CEO of SpaceX, a space development company that provides the satellite internet service Starlink, said, ``We have a plan to enable communication anywhere on Earth.'' Furthermore, it has been revealed that they have completed the design of a small rooftop base station to eliminate the out-of-service areas inside buildings where radio waves from Starlink satellites are difficult to reach. read more..."
-    }
-   }
-  },
-  {
-   "id": "bd38d5b2b048",
-   "title": "退役したジェットエンジンがAIデータセンターの動力源として使われている",
-   "url": "https://gigazine.net/news/20261121-jet-engine-ai-power/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-21T07:00:00+08:00",
-   "summary": "発電能力を確保するため、ボーイングやエアバスなど民間機で使われ役目を終えた古いジェットエンジンが買いあさられていることが分かりました。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "退役的喷气发动机被用来为人工智能数据中心提供动力",
-     "summary": "为了确保发电能力，人们发现波音和空客等商用飞机使用的旧喷气发动机正在被收购。阅读更多..."
-    },
-    "en": {
-     "title": "Retired jet engines are being used to power AI data centers",
-     "summary": "In order to secure power generation capacity, it has been discovered that old jet engines that have been used in commercial aircraft such as Boeing and Airbus are being bought up. read more..."
-    }
-   }
-  },
-  {
-   "id": "0dca356a64ca",
-   "title": "VPN通信に使うWireGuardやOpenVPNをターミナルUIの1画面で管理できる「Vortix」、マルチトンネル制御・リアルタイムテレメトリ・リークガード機能を搭載",
-   "url": "https://gigazine.net/news/20261120-vortix/",
-   "source": "GIGAZINE",
-   "category": "general",
-   "lang": "ja",
-   "weight": 5,
-   "published": "2026-11-20T22:00:00+08:00",
-   "summary": "複数のVPNを利用していると接続先ごとに異なるアプリやコマンドを使い分ける必要があり、通信状態や通信経路の確認も複雑になります。そこでWireGuard・OpenVPNなどの接続管理を一つの画面にまとめ、通信速度・遅延のリアルタイム監視・情報漏えいの検出・VPN切断時の通信遮断まで行える無料のオープンソースツールが「Vortix」です。続きを読む...",
-   "i18n": {
-    "zh": {
-     "title": "“Vortix”允许您在终端UI的一屏上管理用于VPN通信的WireGuard和OpenVPN，并配备多隧道控制、实时遥测和泄漏防护功能。",
-     "summary": "如果使用多个VPN，则需要针对每个连接目的地使用不同的应用程序和命令，从而使检查通信状态和通信路径变得复杂。因此，「Vortix」是一款免费开源工具，将 WireGuard 和 OpenVPN 等连接管理结合在一个屏幕上，可以实时监控通信速度和延迟、检测信息泄漏，甚至在 VPN 断开时阻止通信。阅读更多..."
-    },
-    "en": {
-     "title": "\"Vortix\" allows you to manage WireGuard and OpenVPN used for VPN communication on one screen of the terminal UI, and is equipped with multi-tunnel control, real-time telemetry, and leak guard functions.",
-     "summary": "If you use multiple VPNs, you will need to use different apps and commands for each connection destination, making checking the communication status and communication route complicated. Therefore, ``Vortix'' is a free open source tool that combines connection management such as WireGuard and OpenVPN on one screen, and can perform real-time monitoring of communication speed and delay, detection of information leaks, and even blocking communication when the VPN is disconnected. read more..."
-    }
-   }
-  },
-  {
-   "id": "0f8021c7011c",
-   "title": "【漫画更新】Kouya ni Kemuru wa Shi no Kaori 第 2 话",
-   "url": "https://mangadex.org/chapter/07518ba7-4d2d-4758-b657-f4b70e2f0c4c",
+   "id": "bd3c30bbd7cb",
+   "title": "【漫画更新】Keiken wo Sukiru ni suru Bannou na Nouryoku wo Te ni Irete, Saikyou no Tansaku-sha ni Narimashita ~JK to Issho ni Dungeon Tansaku de Nariagaru~ 第 18 话",
+   "url": "https://mangadex.org/chapter/e35872ae-5aeb-43e6-8614-878a11f23e6e",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-22T00:59:45+08:00",
+   "published": "2026-11-22T09:55:16+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】荒野に煙るは死の香り 第2話"
+     "title": "【マンガ更新】「ケイケンを好きになるバンノーナ能力を手に入れて、最強の短作社になりました～JKといっしょにダンジョン短編集になりました～」第18話"
     },
     "en": {
-     "title": "【Manga Update】Kouya ni Kemuru wa Shi no Kaori Chapter 2"
+     "title": "[Manga Update] Keiken wo Sukiru ni suru Bannou na Nouryoku wo Te ni Irete, Saikyou no Tansaku-sha ni Narimashita ~JK to Issho ni Dungeon Tansaku de Nariagaru~ Chapter 18"
     }
    }
   },
   {
-   "id": "491d5f638544",
-   "title": "【漫画更新】My Tomorrow, Your Yesterday 第 2 话「First Date」",
-   "url": "https://mangadex.org/chapter/d5161eae-5445-4549-b511-95717694b5a0",
+   "id": "9415e13d59f8",
+   "title": "【漫画更新】ZIGA 第 14 话「End → Ego」",
+   "url": "https://mangadex.org/chapter/ec69f77b-6fde-4449-ba8f-def238a6fe75",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-22T00:59:45+08:00",
+   "published": "2026-11-22T09:55:16+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【コミック更新】僕の明日、君の昨日 第2章「ファーストデート」"
+     "title": "【コミック更新】ZIGA 第14章「エンド→エゴ」"
     },
     "en": {
-     "title": "【Comic Update】My Tomorrow, Your Yesterday Chapter 2 \"First Date\""
+     "title": "【Comic Update】ZIGA Chapter 14 \"End → Ego\""
     }
    }
   },
   {
-   "id": "aeda81108b2d",
-   "title": "【漫画更新】Dungeon ni Deai wo Motomeru no wa Machigatte Iru Darou ka Gaiden - Sword Oratoria 第 142.2 话「Little Aiz (Part 2)」",
-   "url": "https://mangadex.org/chapter/25e49502-2807-445e-8365-048c3d3749a9",
+   "id": "ddb11d2b20bc",
+   "title": "【漫画更新】8×2 第 1 话「The Woman of Members' Day」",
+   "url": "https://mangadex.org/chapter/5fa9584e-4f73-4728-8201-2ba4f7c0facf",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-22T00:59:45+08:00",
+   "published": "2026-11-22T09:55:16+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】ダンジョンに出会いを求めるのは間違っているだろう外伝 ソード・オラトリア 第142.2話「リトル・アイズ（後編）」"
+     "title": "【マンガ更新】8×2 第1章「メンバーズデイの女」"
     },
     "en": {
-     "title": "【Manga Update】Dungeon ni Deai wo Motomeru no wa Machigatte Iru Darou ka Gaiden - Sword Oratoria Chapter 142.2 \"Little Aiz (Part 2)\""
+     "title": "【Manga Update】8×2 Chapter 1 \"The Woman of Members' Day\""
     }
    }
   },
   {
-   "id": "791e11a97a91",
-   "title": "【漫画更新】Drawing - Saikyou Mangaka wa Oekaki Skill de Isekai Musou Suru! 第 210 话「Bad News」",
-   "url": "https://mangadex.org/chapter/def5dc65-b3cb-48b5-a4d5-41c11931fba2",
+   "id": "984ee71f7224",
+   "title": "【漫画更新】Tokusatsu Gagaga 第 70 话「Bakamura and Kusoyama」",
+   "url": "https://mangadex.org/chapter/fb2d2994-0b34-4a77-8401-b773bcd64841",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-22T00:59:45+08:00",
+   "published": "2026-11-22T09:55:16+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】Drawing - Saikyou Mangaka wa Oekaki Skill de Isekai Musou Suru!第210話「悪い知らせ」"
+     "title": "【マンガ更新】トクサツガガガ 第70話「バカ村とクソ山」"
     },
     "en": {
-     "title": "【Manga Update】Drawing - Saikyou Mangaka wa Oekaki Skill de Isekai Musou Suru! Chapter 210 \"Bad News\""
+     "title": "【Manga Update】Tokusatsu Gagaga Chapter 70 \"Bakamura and Kusoyama\""
     }
    }
   },
   {
-   "id": "8b945a0084e1",
-   "title": "【漫画更新】10-nenkan Tomodachi dato Omotteta Otokonoko ni Kokuhaku Sareru Ohanashi 第 40.1 话",
-   "url": "https://mangadex.org/chapter/2cda4350-ab4c-4c86-9177-21ae7ed9482e",
+   "id": "60524ba48175",
+   "title": "【漫画更新】Xīngjiǎ Húnjiàng Zhuàn 第 315 话「A Family Reunion in a Dream」",
+   "url": "https://mangadex.org/chapter/8999269f-0fd3-4ba9-9e5b-5e01734959c0",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-22T00:59:45+08:00",
+   "published": "2026-11-22T09:55:16+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】10年目ともだちだと思った男の娘に告白されるおはなし 第40.1話"
+     "title": "【コミック更新】星家勲章 第315話「夢の中の家族再会」"
     },
     "en": {
-     "title": "【Manga Update】10-nenkan Tomodachi dato Omotteta Otokonoko ni Kokuhaku Sareru Ohanashi Chapter 40.1"
+     "title": "【Comic Update】Xīngjiǎ Húnjiàng Zhuàn Chapter 315 \"A Family Reunion in a Dream\""
     }
    }
   },
   {
-   "id": "6d61fc4e3a8e",
-   "title": "【漫画更新】Chijou 100-kai 第 55 话",
-   "url": "https://mangadex.org/chapter/8d130c22-5e31-465d-bfb1-1df8aeba01c5",
+   "id": "1eb3d4c9c03d",
+   "title": "【漫画更新】Xīngjiǎ Húnjiàng Zhuàn 第 316 话「Di Lan's Nightmare (Part 1)」",
+   "url": "https://mangadex.org/chapter/65df6da8-6804-41aa-9d25-c57dbca29206",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-22T00:59:45+08:00",
+   "published": "2026-11-22T09:55:16+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【マンガ更新】痴情100回 第55話"
+     "title": "【コミック更新】Xīngjià Húnjiàng Zhuàn 第316話「ディ・ランの悪夢（前編）」"
     },
     "en": {
-     "title": "【Manga Update】Chijou 100-kai Chapter 55"
+     "title": "【Comic Update】Xīngjiǎ Húnjiàng Zhuàn Chapter 316 \"Di Lan's Nightmare (Part 1)\""
     }
    }
   },
   {
-   "id": "2598fbb60a3d",
-   "title": "【漫画更新】Girl and Science 第 724 话",
-   "url": "https://mangadex.org/chapter/2d3e9298-ed41-4d53-b17f-270dd453894a",
+   "id": "f29a7e826adb",
+   "title": "【漫画更新】Xīngjiǎ Húnjiàng Zhuàn 第 317 话「Di Lan's Nightmare (Part 2)」",
+   "url": "https://mangadex.org/chapter/151ab3a5-29b4-4dc9-a147-56ee5930edf3",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-22T00:59:45+08:00",
+   "published": "2026-11-22T09:55:16+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【コミック更新】少女と科学 第724話"
+     "title": "【コミック更新】Xīngjià Húnjiàng Zhuàn 第317話「ディ・ランの悪夢（後編）」"
     },
     "en": {
-     "title": "【Comic Update】Girl and Science Chapter 724"
+     "title": "【Comic Update】Xīngjiǎ Húnjiàng Zhuàn Chapter 317 \"Di Lan's Nightmare (Part 2)\""
     }
    }
   },
   {
-   "id": "2bf4a56b3577",
-   "title": "【漫画更新】Girl and Science 第 723 话",
-   "url": "https://mangadex.org/chapter/c56d2773-85b7-4cd7-844b-0e5df299e28e",
+   "id": "7bc05bb4a40d",
+   "title": "【漫画更新】Un na Kanojo 第 19 话「Minori MAX」",
+   "url": "https://mangadex.org/chapter/aae9cccc-3615-40ee-bf3a-63d41b93b710",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-22T00:59:45+08:00",
+   "published": "2026-11-22T09:55:16+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【コミック更新】少女と科学 第723話"
+     "title": "【マンガ更新】ウンな彼女 第19話「みのりMAX」"
     },
     "en": {
-     "title": "【Comic Update】Girl and Science Chapter 723"
+     "title": "【Manga Update】Un na Kanojo Chapter 19 \"Minori MAX\""
     }
    }
   },
   {
-   "id": "21b2f784edd4",
-   "title": "【漫画更新】Anne Shirley 第 19 话「It's the Birthday of our Happiness」",
-   "url": "https://mangadex.org/chapter/b81bb8bf-ad6f-488b-b9a1-d0efc78ec352",
+   "id": "e86abfaabb76",
+   "title": "【漫画更新】Mabeop Hakgyo Apjeommyeol Cheonjae-ga Doeeotda 第 103 话",
+   "url": "https://mangadex.org/chapter/f0ecfb6a-4836-4ba1-bde5-60409e29399b",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-22T00:59:45+08:00",
+   "published": "2026-11-22T09:55:16+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【コミック更新】アン・シャーリー 第19話「私たちの幸せの誕生日です」"
+     "title": "【マンガ更新】マボプハッキョ アプジョミョル 天在家ドゥイオタ 第103話"
     },
     "en": {
-     "title": "【Comic Update】Anne Shirley Chapter 19 \"It's the Birthday of our Happiness\""
+     "title": "【Manga Update】Mabeop Hakgyo Apjeommyeol Cheonjae-ga Doeeotda Chapter 103"
     }
    }
   },
   {
-   "id": "0919531178e0",
-   "title": "【漫画更新】Yomekura 第 22 话「What’s so good about this guy!?」",
-   "url": "https://mangadex.org/chapter/4e52ea46-d49a-48a0-aea6-23e54908d561",
+   "id": "51b62b7cf1fe",
+   "title": "【漫画更新】Kounai Sandai Bijo no Himo Shitemasu 第 6 话",
+   "url": "https://mangadex.org/chapter/c8985b61-fe7f-4dc0-b855-25f63d19d2fb",
    "source": "MangaDex",
    "category": "comic",
    "lang": "zh",
    "weight": 4,
-   "published": "2026-11-22T00:59:45+08:00",
+   "published": "2026-11-22T09:55:16+08:00",
    "summary": "",
    "i18n": {
     "ja": {
-     "title": "【漫画更新】ヨメクラ 第22話『こいつの何がそんなにいいんだよ！？』"
+     "title": "【マンガ更新】「こうない三代美女の紐をしてます」第6話"
     },
     "en": {
-     "title": "【Manga Update】Yomekura Chapter 22 \"What’s so good about this guy!?\""
+     "title": "【Manga Update】Kounai Sandai Bijo no Himo Shitemasu Chapter 6"
     }
    }
   }
